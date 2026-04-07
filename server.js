@@ -29,6 +29,7 @@ const {
   hasConfiguredPublicUrl
 } = require('./lib/store');
 const { buildPublicSite } = require('./lib/site-generator');
+const { pullRemoteData, persistMutation, getConfig } = require('./lib/github-sync');
 const {
   renderLoginPage,
   renderDashboard,
@@ -58,8 +59,22 @@ function loadEnvFile() {
 }
 
 loadEnvFile();
-ensureDataFiles();
-buildPublicSite();
+
+async function initializeApp() {
+  ensureDataFiles();
+  const syncConfig = getConfig();
+  if (syncConfig.enabled) {
+    try {
+      await pullRemoteData();
+      console.log(`Loaded persistent badge data from GitHub branch "${syncConfig.branch}".`);
+    } catch (error) {
+      console.warn(`GitHub data restore failed: ${error.message}`);
+    }
+  } else {
+    console.warn('GitHub sync is not configured. Badge data will reset on Render redeploys until GITHUB_TOKEN and GITHUB_REPO are set.');
+  }
+  buildPublicSite();
+}
 
 const PORT = Number(process.env.PORT || 8787);
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'spider#5';
@@ -426,7 +441,6 @@ function handleIssueBadge(formData) {
   const badge = createBadgeRecord(formData);
   badges.push(badge);
   saveBadges(badges);
-  buildPublicSite();
   return badge;
 }
 
@@ -462,19 +476,16 @@ function saveTemplate(formData) {
     templates.push(template);
   }
   saveBadgeTemplates(templates);
-  buildPublicSite();
 }
 
 function deleteTemplate(templateId) {
   const templates = loadBadgeTemplates().filter((entry) => entry.id !== templateId);
   saveBadgeTemplates(templates);
-  buildPublicSite();
 }
 
 function deleteBadge(badgeId) {
   const badges = loadBadges().filter((badge) => badge.id !== badgeId);
   saveBadges(badges);
-  buildPublicSite();
 }
 
 function parseNumber(value, fallback = 0) {
@@ -529,7 +540,6 @@ function saveSettings(formData) {
     publicUrl: getPublicBadgeUrl(siteConfig, badge.slug)
   }));
   saveBadges(updatedBadges);
-  buildPublicSite();
 }
 
 function renderDashboardPage(urlObject) {
@@ -556,10 +566,10 @@ async function handlePublicApiRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/api/public/issue') {
     try {
       const formData = await parseBody(request);
-      const badge = handleIssueBadge({
+      const badge = await persistMutation('Issue badge from public generator', () => handleIssueBadge({
         ...formData,
         source: 'public-generator'
-      });
+      }), buildPublicSite);
       const browserUrl = buildBrowserBadgeUrl(badge);
       sendText(
         response,
@@ -650,7 +660,7 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/issue') {
     try {
       const formData = await parseBody(request);
-      const badge = handleIssueBadge(formData);
+      const badge = await persistMutation('Issue badge from admin dashboard', () => handleIssueBadge(formData), buildPublicSite);
       const successLink = badge.publicUrl.startsWith('http') ? badge.publicUrl : `/badges/${badge.slug}/`;
       redirect(
         response,
@@ -684,7 +694,7 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/templates/save') {
     try {
       const formData = await parseBody(request);
-      saveTemplate(formData);
+      await persistMutation('Save badge template', () => saveTemplate(formData), buildPublicSite);
       redirect(response, buildNoticeUrl('/admin/templates', 'Template saved and site rebuilt.'));
     } catch (error) {
       const templates = loadBadgeTemplates();
@@ -695,7 +705,7 @@ async function handleAdminRequest(request, response, urlObject) {
 
   if (request.method === 'POST' && urlObject.pathname === '/admin/templates/delete') {
     const formData = await parseBody(request);
-    deleteTemplate(cleanText(formData.templateId));
+    await persistMutation('Delete badge template', () => deleteTemplate(cleanText(formData.templateId)), buildPublicSite);
     redirect(response, buildNoticeUrl('/admin/templates', 'Template deleted.'));
     return;
   }
@@ -716,7 +726,7 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/settings/save') {
     try {
       const formData = await parseBody(request);
-      saveSettings(formData);
+      await persistMutation('Save badge system settings', () => saveSettings(formData), buildPublicSite);
       redirect(response, buildNoticeUrl('/admin/settings', 'Settings saved and site rebuilt.'));
     } catch (error) {
       sendHtml(
@@ -744,7 +754,7 @@ async function handleAdminRequest(request, response, urlObject) {
 
   if (request.method === 'POST' && urlObject.pathname === '/admin/badges/delete') {
     const formData = await parseBody(request);
-    deleteBadge(cleanText(formData.badgeId));
+    await persistMutation('Delete issued badge', () => deleteBadge(cleanText(formData.badgeId)), buildPublicSite);
     redirect(response, buildNoticeUrl('/admin', 'Badge deleted and public files refreshed.'));
     return;
   }
@@ -830,11 +840,20 @@ async function requestListener(request, response) {
 }
 
 if (process.argv.includes('--build')) {
-  buildPublicSite();
-  console.log('Public site rebuilt successfully.');
+  initializeApp().then(() => {
+    console.log('Public site rebuilt successfully.');
+  }).catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
 } else {
-  http.createServer(requestListener).listen(PORT, () => {
-    console.log(`CSUN Career Center E-Badges running at http://localhost:${PORT}`);
-    console.log('Admin password-only login is enabled.');
+  initializeApp().then(() => {
+    http.createServer(requestListener).listen(PORT, () => {
+      console.log(`CSUN Career Center E-Badges running at http://localhost:${PORT}`);
+      console.log('Admin password-only login is enabled.');
+    });
+  }).catch((error) => {
+    console.error(error);
+    process.exit(1);
   });
 }

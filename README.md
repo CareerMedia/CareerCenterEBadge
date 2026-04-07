@@ -195,3 +195,24 @@ This package is clean and ready to upload:
 - admin password set
 - public directory password set
 - updated CSUN branding and styling included
+
+
+## Preventing badge loss on Render redeploys
+
+Render deploys start from your GitHub repo, so issued badges will disappear unless the app syncs its badge data back to GitHub. This build now supports a dedicated persistence branch for that.
+
+Set these environment variables in Render:
+
+- `GITHUB_TOKEN` — a GitHub personal access token with repository contents write access
+- `GITHUB_REPO` — your repo in `owner/name` format
+- `GITHUB_DATA_BRANCH` — optional, defaults to `badge-data`
+- `GITHUB_COMMIT_NAME` — optional commit author name
+- `GITHUB_COMMIT_EMAIL` — optional commit author email
+
+Recommended setup:
+
+- Keep your app code on `main`
+- Let the app store badges, settings, and templates on `badge-data`
+- Do **not** connect Render auto-deploys to `badge-data`
+
+With that setup, generated badges persist across redeploys and only disappear if an admin deletes them.
