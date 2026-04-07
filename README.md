@@ -48,7 +48,7 @@ The admin is protected by password.
 Default password:
 
 ```text
-spider#5
+*******
 ```
 
 By default, the login page only asks for the password.
