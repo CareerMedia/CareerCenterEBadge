@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSUN Career Center E-Badges | Credential Generator</title>
+    <meta name="description" content="Create a public badge record, generate the matching certificate PDF, and copy the final verification URL." />
+    
+    <link rel="stylesheet" href="../assets/public.css" />
+  </head>
+  <body data-page="generator">
+    <header class="subpage-header">
+      <div class="wrap subpage-header__inner subpage-header__inner--single">
+        <div>
+          <p class="eyebrow">CSUN Career Center E-Badges</p>
+          <h1>Generate a digital badge and certificate</h1>
+          <p class="lede">Enter the recipient’s name, keep today’s long-form date or change it, and create the polished public badge page that can be shared on LinkedIn or anywhere else.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section--light">
+        <div class="wrap section-grid section-grid--two">
+          <article class="card card--elevated card--accented">
+            <p class="section-label">Issue a credential</p>
+            <h2>Generator form</h2>
+            <p>This page is designed to stand on its own, so you can link to it directly or embed it inside another site using an iframe.</p>
+            <form id="publicGeneratorForm" class="certificate-form">
+              <div class="form-grid">
+                <label>
+                  <span>Recipient name</span>
+                  <input type="text" id="publicGeneratorName" name="awardeeName" placeholder="e.g., Jane Doe" required />
+                </label>
+                <label>
+                  <span>Issue date</span>
+                  <input type="text" id="publicGeneratorDate" name="issueDate" placeholder="April 7, 2026" required />
+                </label>
+              </div>
+              <label>
+                <span>Badge type</span>
+                <select id="publicGeneratorTemplate" name="badgeTemplateId" required>
+                  <option value="">Select a badge type</option>
+                  <option value="career-champion">Career Champion</option>
+                </select>
+              </label>
+              <div class="action-row">
+                <button type="button" id="publicPreviewButton">Preview certificate</button>
+                <button type="submit" id="publicCreateButton">Create badge and certificate</button>
+              </div>
+              <p id="publicGeneratorStatus" class="status-message" aria-live="polite"></p>
+            </form>
+          </article>
+
+          <article class="card card--elevated card--accented-soft">
+            <p class="section-label">Badge details</p>
+            <h2 id="generatorTemplateTitle">Choose a badge type</h2>
+            <p id="generatorTemplateDescription" class="generator-template-copy">Once you pick a badge template, the formal badge meaning, issuer, and badge image appear here.</p>
+            <div class="generator-template-grid">
+              <div class="badge-visual-card generator-badge-card">
+                <img id="generatorTemplateImage" class="badge-visual-card__image" alt="Selected badge image" style="display:none;" />
+                <div id="generatorTemplateImageEmpty" class="empty-state">Badge artwork preview</div>
+              </div>
+              <div class="detail-card generator-template-details">
+                <p class="section-label">Meaning</p>
+                <p id="generatorTemplateMeaning" class="generator-template-copy">Select a badge template to view the official badge meaning.</p>
+                <div class="divider"></div>
+                <p class="section-label">Issued by</p>
+                <p id="generatorTemplateIssuer" class="generator-template-copy">Issuer details will appear here.</p>
+                <div class="divider"></div>
+                <p class="section-label">Career Center</p>
+                <p id="generatorTemplateCareerCenter" class="generator-template-copy">Career Center link will appear here.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap section-grid section-grid--two">
+          <article class="card card--elevated">
+            <p class="section-label">Certificate preview</p>
+            <h2>Original coordinate-based PDF workflow</h2>
+            <p>The certificate image below is rendered from your saved X/Y coordinate settings, just like the original tool.</p>
+            <canvas id="publicGeneratorCanvas" class="is-hidden"></canvas>
+            <div class="preview-shell">
+              <img id="publicGeneratorImage" alt="Certificate preview" style="display:none;" />
+              <div id="publicGeneratorPreviewEmpty" class="empty-state">Generate a preview to see the certificate here.</div>
+            </div>
+          </article>
+
+          <article class="card card--elevated generator-result" id="generatorResultCard" hidden>
+            <p class="section-label">Generated badge</p>
+            <h2>Public badge page ready</h2>
+            <p>Your badge page has been written to the system and can now be shared anywhere a credential URL is accepted.</p>
+            <dl class="detail-list detail-list--stacked generator-result-list">
+              <div><dt>Recipient</dt><dd id="generatorResultName"></dd></div>
+              <div><dt>Badge</dt><dd id="generatorResultBadge"></dd></div>
+              <div><dt>Issue date</dt><dd id="generatorResultDate"></dd></div>
+              <div><dt>Credential ID</dt><dd id="generatorResultId"></dd></div>
+              <div><dt>Verification URL</dt><dd><a id="generatorResultUrl" href="#" target="_blank" rel="noreferrer"></a></dd></div>
+            </dl>
+            <div class="action-row">
+              <a class="button-link" id="generatorOpenBadge" href="#" target="_blank" rel="noreferrer">Open badge page</a>
+              <button type="button" class="button-secondary" id="generatorCopyBadge">Copy badge link</button>
+              <button type="button" class="button-secondary" id="generatorDownloadPdf">Download certificate PDF</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script>window.PUBLIC_GENERATOR_DATA = {"submitEndpoint":"/api/public/issue","certificateTemplate":{"backgroundImage":"../assets/certificate.png","fileNameSuffix":"_Certificate","name":{"x":2000,"y":1400,"fontSize":180,"fontFamily":"Times New Roman","fontWeight":"bold","color":"#000000","align":"center","maxWidth":2400},"date":{"x":1150,"y":2150,"fontSize":48,"fontFamily":"Arial","fontWeight":"normal","color":"#333333","align":"center","maxWidth":700}},"templates":[{"id":"career-champion","title":"Career Champion","badgeLabel":"Career Champion","description":"Recognizes students who have demonstrated sustained engagement with career readiness, professional development, and leadership through the CSUN Career Center.","meaning":"The Career Champion badge signifies that the recipient completed an approved CSUN Career Center experience centered on career readiness, professional growth, and active participation in career development programming.","criteria":"Awarded to participants who successfully completed the qualifying CSUN Career Center program, workshop series, leadership experience, or milestone designated for Career Champion recognition.","issuerName":"CSUN Career Center","issuerOrganization":"CSUN Career Center","issuerWebsite":"https://csun.edu","careerCenterUrl":"https://csun.edu/career","badgeImage":"../assets/badges/career-champion-badge.svg","certificateBackground":"../assets/certificate.png"}]};</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="../assets/site.js"></script>
+  </body>
+</html>

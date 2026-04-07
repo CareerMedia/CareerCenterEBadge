@@ -1,0 +1,16 @@
+[
+  {
+    "id": "career-champion",
+    "title": "Career Champion",
+    "badgeLabel": "Career Champion",
+    "description": "Recognizes students who have demonstrated sustained engagement with career readiness, professional development, and leadership through the CSUN Career Center.",
+    "meaning": "The Career Champion badge signifies that the recipient completed an approved CSUN Career Center experience centered on career readiness, professional growth, and active participation in career development programming.",
+    "criteria": "Awarded to participants who successfully completed the qualifying CSUN Career Center program, workshop series, leadership experience, or milestone designated for Career Champion recognition.",
+    "issuerName": "CSUN Career Center",
+    "issuerOrganization": "CSUN Career Center",
+    "issuerWebsite": "https://csun.edu",
+    "careerCenterUrl": "https://csun.edu/career",
+    "badgeImage": "assets/badges/career-champion-badge.svg",
+    "certificateBackground": "assets/certificate.png"
+  }
+]
