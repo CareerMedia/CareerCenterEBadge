@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Career Center Credentials | Badge Registry</title>
+    <meta name="description" content="Search and verify official digital badges issued by the Career Center." />
+    
+    <link rel="stylesheet" href="../assets/public.css" />
+  </head>
+  <body data-page="registry">
+    <header class="subpage-header">
+      <div class="wrap subpage-header__inner">
+        <div>
+          <p class="eyebrow">Public verification registry</p>
+          <h1>Search issued digital badges</h1>
+          <p class="lede">Find a badge by recipient name, credential ID, badge title, or issue date.</p>
+        </div>
+        <a class="button-link" href="../">Back to home</a>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="wrap">
+        <div class="card card--elevated registry-card">
+          <form id="registryPageSearch" class="search-bar search-bar--wide">
+            <label class="sr-only" for="registrySearchInput">Search the badge registry</label>
+            <input id="registrySearchInput" name="q" type="search" placeholder="Search by name, badge title, date, or credential ID" />
+            <button type="submit">Search</button>
+          </form>
+          <p class="muted">Every result links to a public credential page with validation details, badge image, issuer information, and certificate download.</p>
+          <div id="registryResults" class="credential-list" data-source="../data/badges.json"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer site-footer--compact">
+      <div class="wrap site-footer__inner">
+        <div>
+          <strong>Career Center Credentials</strong>
+          <p>Official credential records are maintained by the Career Center.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://career.example.edu" target="_blank" rel="noreferrer">Career Center website</a>
+          <a href="../generator/">Generator page</a>
+          <a href="../">Home</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/site.js"></script>
+  </body>
+</html>

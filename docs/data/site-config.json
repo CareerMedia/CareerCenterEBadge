@@ -1,0 +1,11 @@
+{
+  "siteName": "Career Center Credentials",
+  "organizationName": "Career Center",
+  "heroTitle": "Official Digital Badges and Certificates",
+  "heroIntro": "Verify a credential, review formal badge details, and download a certificate that uses your configured placement coordinates.",
+  "publicSiteUrl": "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME",
+  "defaultCareerCenterUrl": "https://career.example.edu",
+  "supportEmail": "careercenter@example.edu",
+  "credentialPrefix": "CCE",
+  "footerNote": "Official credential records are maintained by the Career Center."
+}

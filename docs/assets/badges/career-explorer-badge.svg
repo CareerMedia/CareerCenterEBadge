@@ -1,0 +1,19 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="680" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8C1D2C"/>
+      <stop offset="1" stop-color="#2F3A4C"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="235" y1="520" x2="570" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8AE53"/>
+      <stop offset="1" stop-color="#A97E26"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="180" fill="#F7F8FB"/>
+  <circle cx="400" cy="330" r="255" fill="url(#bg)"/>
+  <circle cx="400" cy="330" r="205" stroke="#F8E3A8" stroke-width="18"/>
+  <path d="M286 515L214 740L357 650L400 728L443 650L586 740L514 515H286Z" fill="url(#ribbon)"/>
+  <path d="M400 195L426.5 266.5H503L441 311L464 383L400 340.5L336 383L359 311L297 266.5H373.5L400 195Z" fill="#F7E7B8"/>
+  <text x="400" y="450" text-anchor="middle" fill="#FFFFFF" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700">Career Explorer</text>
+  <text x="400" y="500" text-anchor="middle" fill="#D8DEE9" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="3">DIGITAL BADGE</text>
+</svg>
