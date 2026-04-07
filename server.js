@@ -26,7 +26,9 @@ const {
   sortBadgesDescending,
   writeText,
   normalizeUrl,
-  hasConfiguredPublicUrl
+  hasConfiguredPublicUrl,
+  hydrateFilesFromAppState,
+  syncAppStateFromFiles
 } = require('./lib/store');
 const { buildPublicSite } = require('./lib/site-generator');
 const { pullRemoteData, persistMutation, getConfig } = require('./lib/github-sync');
@@ -66,6 +68,7 @@ async function initializeApp() {
   if (syncConfig.enabled) {
     try {
       await pullRemoteData();
+      hydrateFilesFromAppState();
       console.log(`Loaded persistent badge data from GitHub branch "${syncConfig.branch}".`);
     } catch (error) {
       console.warn(`GitHub data restore failed: ${error.message}`);
@@ -73,6 +76,7 @@ async function initializeApp() {
   } else {
     console.warn('GitHub sync is not configured. Badge data will reset on Render redeploys until GITHUB_TOKEN and GITHUB_REPO are set.');
   }
+  syncAppStateFromFiles();
   buildPublicSite();
 }
 

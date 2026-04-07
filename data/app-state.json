@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "badges": [],
+  "templates": [
+    {
+      "id": "career-champion",
+      "title": "Career Champion",
+      "badgeLabel": "Career Champion",
+      "description": "Recognizes students who have demonstrated sustained engagement with career readiness, professional development, and leadership through the CSUN Career Center.",
+      "meaning": "The Career Champion badge signifies that the recipient completed an approved CSUN Career Center experience centered on career readiness, professional growth, and active participation in career development programming.",
+      "criteria": "Awarded to participants who successfully completed the qualifying CSUN Career Center program, workshop series, leadership experience, or milestone designated for Career Champion recognition.",
+      "issuerName": "CSUN Career Center",
+      "issuerOrganization": "CSUN Career Center",
+      "issuerWebsite": "https://csun.edu",
+      "careerCenterUrl": "https://csun.edu/career",
+      "badgeImage": "assets/badges/career-champion-badge.svg",
+      "certificateBackground": "assets/certificate.png"
+    }
+  ],
+  "certificateTemplate": {
+    "backgroundImage": "assets/certificate.png",
+    "fileNameSuffix": "_Certificate",
+    "name": {
+      "x": 2000,
+      "y": 1400,
+      "fontSize": 180,
+      "fontFamily": "Times New Roman",
+      "fontWeight": "bold",
+      "color": "#000000",
+      "align": "center",
+      "maxWidth": 2400
+    },
+    "date": {
+      "x": 1150,
+      "y": 2150,
+      "fontSize": 48,
+      "fontFamily": "Arial",
+      "fontWeight": "normal",
+      "color": "#333333",
+      "align": "center",
+      "maxWidth": 700
+    }
+  },
+  "siteConfig": {
+    "siteName": "CSUN Career Center E-Badges",
+    "organizationName": "CSUN Career Center",
+    "heroTitle": "CSUN Career Center E-Badges",
+    "heroIntro": "Access the protected badge directory, verify official CSUN Career Center credentials, and issue polished e-badges with matching certificates.",
+    "publicSiteUrl": "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME",
+    "defaultCareerCenterUrl": "https://csun.edu/career",
+    "supportEmail": "career.center@csun.edu",
+    "credentialPrefix": "CSUNCC",
+    "footerNote": "Official credential records are maintained by the CSUN Career Center."
+  }
+}
