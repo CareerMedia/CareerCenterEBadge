@@ -145,6 +145,16 @@ function sendHtml(response, html, statusCode = 200) {
   response.end(html);
 }
 
+function sendNotFoundPage(response) {
+  const notFoundPage = path.join(PATHS.docsDir, '404.html');
+  if (fs.existsSync(notFoundPage)) {
+    response.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
+    fs.createReadStream(notFoundPage).pipe(response);
+    return;
+  }
+  sendHtml(response, '<!DOCTYPE html><html><body><h1>Page not found</h1></body></html>', 404);
+}
+
 function sendText(response, text, statusCode = 200, contentType = 'text/plain; charset=utf-8', headers = {}) {
   response.writeHead(statusCode, { 'Content-Type': contentType, ...headers });
   response.end(text);
@@ -908,7 +918,7 @@ async function requestListener(request, response) {
       if (serveStatic(PATHS.adminDir, requestPath, response)) {
         return;
       }
-      sendHtml(response, '<h1>Not found</h1>', 404);
+      sendNotFoundPage(response);
       return;
     }
 
@@ -927,14 +937,7 @@ async function requestListener(request, response) {
       return;
     }
 
-    const notFoundPage = path.join(PATHS.docsDir, '404.html');
-    if (fs.existsSync(notFoundPage)) {
-      response.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-      fs.createReadStream(notFoundPage).pipe(response);
-      return;
-    }
-
-    sendHtml(response, '<h1>Not found</h1>', 404);
+    sendNotFoundPage(response);
   } catch (error) {
     sendHtml(
       response,
