@@ -1,0 +1,2 @@
+{"timestamp":"2026-04-08T17:51:24.173Z","action":"backup.snapshot","actor":"system","reason":"Initial protected baseline","backupId":"2026-04-08T17-51-24-166Z","createdAt":"2026-04-08T17:51:24.169Z"}
+{"timestamp":"2026-04-08T18:01:54.106Z","action":"backup.snapshot","actor":"admin","reason":"Manual snapshot from admin","backupId":"2026-04-08T18-01-54-105Z","createdAt":"2026-04-08T18:01:54.105Z"}

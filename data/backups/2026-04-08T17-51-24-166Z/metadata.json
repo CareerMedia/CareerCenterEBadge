@@ -1,0 +1,19 @@
+{
+  "backupId": "2026-04-08T17-51-24-166Z",
+  "reason": "Initial protected baseline",
+  "actor": "system",
+  "createdAt": "2026-04-08T17:51:24.169Z",
+  "counts": {
+    "badges": 2,
+    "deletedBadges": 0,
+    "templates": 1
+  },
+  "hashes": {
+    "appState": "8ef4af5e8a84bcbca43a4a54caafa0066c1c02cdac686b78cce6f1019f728924",
+    "badgeLinksCsv": "26a1e17d909e6de940dddf9149926d4b076637aa255cf5abc58b85a26934dfcd"
+  },
+  "files": {
+    "appState": "data/backups/2026-04-08T17-51-24-166Z/app-state.json",
+    "badgeLinksCsv": "data/backups/2026-04-08T17-51-24-166Z/badge-links.csv"
+  }
+}
