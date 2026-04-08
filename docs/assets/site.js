@@ -450,6 +450,11 @@
         if (openBadge) {
           openBadge.href = publicUrl;
         }
+        if (resultCard) {
+          window.requestAnimationFrame(() => {
+            resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+        }
 
         status.textContent = 'Badge created successfully. The public verification link is ready and the admin dashboard can now find this record.';
       } catch (error) {
