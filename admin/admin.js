@@ -74,7 +74,22 @@
     });
   }
 
+
+  function bindFileLoaders() {
+    document.querySelectorAll('[data-load-file]').forEach((input) => {
+      input.addEventListener('change', async () => {
+        const targetId = input.getAttribute('data-load-file');
+        const target = targetId ? document.getElementById(targetId) : null;
+        const file = input.files && input.files[0];
+        if (!target || !file) return;
+        const text = await file.text();
+        target.value = text;
+      });
+    });
+  }
+
   bindCopyButtons();
   bindDeleteConfirms();
   autoFillIssueForm();
+  bindFileLoaders();
 })();

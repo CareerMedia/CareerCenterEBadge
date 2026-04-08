@@ -10,6 +10,8 @@ const {
   saveBadges,
   loadBadgeTemplates,
   saveBadgeTemplates,
+  loadDeletedBadges,
+  saveDeletedBadges,
   loadCertificateTemplate,
   saveCertificateTemplate,
   loadSiteConfig,
@@ -28,7 +30,14 @@ const {
   normalizeUrl,
   hasConfiguredPublicUrl,
   hydrateFilesFromAppState,
-  syncAppStateFromFiles
+  syncAppStateFromFiles,
+  loadAppState,
+  createBackupSnapshot,
+  getRecentBackups,
+  parseFullBackupJson,
+  applyAppState,
+  importBadgesFromCsv,
+  appendAuditLog
 } = require('./lib/store');
 const { buildPublicSite } = require('./lib/site-generator');
 const { pullRemoteData, persistMutation, getConfig } = require('./lib/github-sync');
@@ -37,7 +46,8 @@ const {
   renderDashboard,
   renderIssuePage,
   renderTemplatesPage,
-  renderSettingsPage
+  renderSettingsPage,
+  renderBackupsPage
 } = require('./lib/admin-renderer');
 
 function loadEnvFile() {
@@ -78,6 +88,9 @@ async function initializeApp() {
   }
   syncAppStateFromFiles();
   buildPublicSite();
+  if (!getRecentBackups(1).length) {
+    createBackupSnapshot('Initial protected baseline', 'system');
+  }
 }
 
 const PORT = Number(process.env.PORT || 8787);
@@ -445,6 +458,8 @@ function handleIssueBadge(formData) {
   const badge = createBadgeRecord(formData);
   badges.push(badge);
   saveBadges(badges);
+  createBackupSnapshot(`Issued badge ${badge.id}`, 'admin');
+  appendAuditLog({ action: 'badge.issue', actor: 'admin', badgeId: badge.id, awardeeName: badge.awardeeName });
   return badge;
 }
 
@@ -480,16 +495,29 @@ function saveTemplate(formData) {
     templates.push(template);
   }
   saveBadgeTemplates(templates);
+  createBackupSnapshot(`Saved template ${id}`, 'admin');
+  appendAuditLog({ action: 'template.save', actor: 'admin', templateId: id });
 }
 
 function deleteTemplate(templateId) {
   const templates = loadBadgeTemplates().filter((entry) => entry.id !== templateId);
   saveBadgeTemplates(templates);
+  createBackupSnapshot(`Deleted template ${templateId}`, 'admin');
+  appendAuditLog({ action: 'template.delete', actor: 'admin', templateId });
 }
 
 function deleteBadge(badgeId) {
-  const badges = loadBadges().filter((badge) => badge.id !== badgeId);
-  saveBadges(badges);
+  const badges = loadBadges();
+  const deletedBadge = badges.find((badge) => badge.id === badgeId);
+  const remaining = badges.filter((badge) => badge.id !== badgeId);
+  if (deletedBadge) {
+    const deleted = loadDeletedBadges();
+    deleted.unshift({ ...deletedBadge, deletedAt: new Date().toISOString() });
+    saveDeletedBadges(deleted);
+  }
+  saveBadges(remaining);
+  createBackupSnapshot(`Deleted badge ${badgeId}`, 'admin');
+  appendAuditLog({ action: 'badge.delete', actor: 'admin', badgeId });
 }
 
 function parseNumber(value, fallback = 0) {
@@ -544,6 +572,21 @@ function saveSettings(formData) {
     publicUrl: getPublicBadgeUrl(siteConfig, badge.slug)
   }));
   saveBadges(updatedBadges);
+  createBackupSnapshot('Saved settings', 'admin');
+  appendAuditLog({ action: 'settings.save', actor: 'admin' });
+}
+
+function restoreFullBackup(jsonText) {
+  const state = parseFullBackupJson(jsonText);
+  applyAppState(state, { reason: 'Full backup restored from admin', actor: 'admin', snapshot: false });
+  createBackupSnapshot('Restored full system backup', 'admin');
+}
+
+function restoreBadgesCsv(csvText) {
+  const importedBadges = importBadgesFromCsv(csvText);
+  saveBadges(importedBadges);
+  createBackupSnapshot('Restored issued badges from CSV', 'admin');
+  appendAuditLog({ action: 'badges.restore_csv', actor: 'admin', count: importedBadges.length });
 }
 
 function renderDashboardPage(urlObject) {
@@ -727,6 +770,18 @@ async function handleAdminRequest(request, response, urlObject) {
     return;
   }
 
+  if (request.method === 'GET' && urlObject.pathname === '/admin/backups') {
+    sendHtml(
+      response,
+      renderBackupsPage({
+        backups: getRecentBackups(50),
+        appState: loadAppState(),
+        notice: queryNotice(urlObject)
+      })
+    );
+    return;
+  }
+
   if (request.method === 'POST' && urlObject.pathname === '/admin/settings/save') {
     try {
       const formData = await parseBody(request);
@@ -744,6 +799,45 @@ async function handleAdminRequest(request, response, urlObject) {
         400
       );
     }
+    return;
+  }
+
+
+  if (request.method === 'POST' && urlObject.pathname === '/admin/backups/snapshot') {
+    await persistMutation('Create manual backup snapshot', () => {
+      createBackupSnapshot('Manual snapshot from admin', 'admin');
+    }, buildPublicSite);
+    redirect(response, buildNoticeUrl('/admin/backups', 'Snapshot created and synced.'));
+    return;
+  }
+
+  if (request.method === 'POST' && urlObject.pathname === '/admin/backups/restore-json') {
+    try {
+      const formData = await parseBody(request);
+      await persistMutation('Restore full app state from backup JSON', () => restoreFullBackup(formData.jsonBackupContent), buildPublicSite);
+      redirect(response, buildNoticeUrl('/admin/backups', 'Full system backup restored.'));
+    } catch (error) {
+      sendHtml(response, renderBackupsPage({ backups: getRecentBackups(50), appState: loadAppState(), notice: error.message }), 400);
+    }
+    return;
+  }
+
+  if (request.method === 'POST' && urlObject.pathname === '/admin/backups/restore-csv') {
+    try {
+      const formData = await parseBody(request);
+      await persistMutation('Restore issued badges from CSV', () => restoreBadgesCsv(formData.csvBackupContent), buildPublicSite);
+      redirect(response, buildNoticeUrl('/admin/backups', 'Issued badges restored from CSV.'));
+    } catch (error) {
+      sendHtml(response, renderBackupsPage({ backups: getRecentBackups(50), appState: loadAppState(), notice: error.message }), 400);
+    }
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/export/app-state') {
+    const json = JSON.stringify({ appState: loadAppState() }, null, 2) + '\n';
+    sendText(response, json, 200, 'application/json; charset=utf-8', {
+      'Content-Disposition': 'attachment; filename="csun-ebadges-app-state-backup.json"'
+    });
     return;
   }
 

@@ -1,6 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "badges": [],
+  "deletedBadges": [],
   "templates": [
     {
       "id": "career-champion",
