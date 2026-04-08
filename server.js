@@ -286,10 +286,17 @@ function renderPublicAccessPage(nextPath = '/', message = '') {
   </head>
   <body class="public-access-page">
     <main class="public-access-shell">
-      <section class="card card--elevated public-access-card">
-        <p class="eyebrow">CSUN Career Center E-Badges</p>
-        <h1>Protected badge directory</h1>
-        <p class="lede">The home page and badge search tools are password protected. Public badge verification pages remain shareable through their direct credential links.</p>
+      <section class="panel panel--surface public-access-card">
+        <div class="brand-lockup">
+          <img class="brand-lockup__logo" src="/assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
+          <div class="brand-lockup__text">
+            <strong>CSUN Career Center E-Badges</strong>
+            <span>Protected credential workspace</span>
+          </div>
+        </div>
+        <p class="eyebrow">Protected access</p>
+        <h1>Enter the badge directory</h1>
+        <p class="lede">The directory home and registry search tools are password protected. Public badge verification pages remain shareable through their direct credential links.</p>
         ${message ? `<div class="public-access-error">${escapeHtml(message)}</div>` : ''}
         <form method="post" action="/access" class="certificate-form public-access-form">
           <input type="hidden" name="next" value="${escapeAttribute(nextPath)}" />

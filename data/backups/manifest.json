@@ -1,4 +1,24 @@
 {
   "version": 1,
-  "backups": []
+  "backups": [
+    {
+      "backupId": "2026-04-08T18-57-23-194Z",
+      "reason": "Initial protected baseline",
+      "actor": "system",
+      "createdAt": "2026-04-08T18:57:23.195Z",
+      "counts": {
+        "badges": 0,
+        "deletedBadges": 0,
+        "templates": 1
+      },
+      "hashes": {
+        "appState": "ad201cd087ee9e45f26c33ba62082d64d958c768e931da2d791348f093030e53",
+        "badgeLinksCsv": "8959a57ca4fd270851a3a2e493451fa6415001a892123241c5c8b7a86f3aaf3d"
+      },
+      "files": {
+        "appState": "data/backups/2026-04-08T18-57-23-194Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-04-08T18-57-23-194Z/badge-links.csv"
+      }
+    }
+  ]
 }

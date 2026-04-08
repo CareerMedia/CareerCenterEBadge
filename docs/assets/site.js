@@ -258,6 +258,7 @@
     const data = window.PUBLIC_GENERATOR_DATA;
     const templates = Array.isArray(data.templates) ? data.templates : [];
     const baseCertificateTemplate = data.certificateTemplate || {};
+    const fixedTemplateId = String(data.fixedTemplateId || '').trim();
 
     const nameInput = document.getElementById('publicGeneratorName');
     const dateInput = document.getElementById('publicGeneratorDate');
@@ -294,6 +295,15 @@
       dateInput.value = longToday();
     }
 
+
+    if (fixedTemplateId && templateSelect) {
+      const fixedTemplate = templates.find((item) => item.id === fixedTemplateId);
+      if (fixedTemplate) {
+        templateSelect.value = fixedTemplate.id;
+        templateSelect.setAttribute('disabled', 'disabled');
+      }
+    }
+
     function getSelectedTemplate() {
       return templates.find((template) => template.id === templateSelect.value) || null;
     }
@@ -310,8 +320,8 @@
       const selected = getSelectedTemplate();
       if (!selected) {
         templateTitle.textContent = 'Choose a badge type';
-        templateDescription.textContent = 'Once you pick a badge template, the public summary, issuer, and badge image appear here.';
-        templateMeaning.textContent = 'Select a badge template to view the official public summary.';
+        templateDescription.textContent = 'Once you pick a badge template, the formal badge meaning, issuer, and badge image appear here.';
+        templateMeaning.textContent = 'Select a badge template to view the official badge meaning.';
         templateIssuer.textContent = 'Issuer details will appear here.';
         templateCareerCenter.textContent = 'Career Center link will appear here.';
         templateImage.style.display = 'none';
@@ -322,7 +332,7 @@
 
       templateTitle.textContent = selected.title || 'Selected badge';
       templateDescription.textContent = selected.description || selected.meaning || 'Formal badge description.';
-      templateMeaning.textContent = selected.description || selected.meaning || 'No public summary has been configured for this template yet.';
+      templateMeaning.textContent = selected.description || selected.meaning || 'No badge meaning has been configured for this template yet.';
       templateIssuer.textContent = [selected.issuerName, selected.issuerOrganization].filter(Boolean).join(' · ') || 'Issuer details unavailable.';
       templateCareerCenter.innerHTML = selected.careerCenterUrl
         ? `<a class="text-link" href="${escapeAttribute(selected.careerCenterUrl)}" target="_blank" rel="noreferrer">${escapeHtml(selected.careerCenterUrl)}</a>`
@@ -375,14 +385,16 @@
       }
     }
 
-    templateSelect.addEventListener('change', () => {
-      updateTemplatePanel();
-      lastRender = null;
-      lastIssuedBadge = null;
-      if (resultCard) resultCard.hidden = true;
-      if (previewImage) previewImage.style.display = 'none';
-      if (previewEmpty) previewEmpty.style.display = 'block';
-    });
+    if (templateSelect) {
+      templateSelect.addEventListener('change', () => {
+        updateTemplatePanel();
+        lastRender = null;
+        lastIssuedBadge = null;
+        if (resultCard) resultCard.hidden = true;
+        if (previewImage) previewImage.style.display = 'none';
+        if (previewEmpty) previewEmpty.style.display = 'block';
+      });
+    }
 
     previewButton.addEventListener('click', async () => {
       await ensurePreview();

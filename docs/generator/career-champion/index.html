@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CSUN Career Center E-Badges | General Credential Generator</title>
+    <title>CSUN Career Center E-Badges | Career Champion Generator</title>
     <meta name="description" content="Create a public badge record, generate the matching certificate PDF, and copy the final verification URL." />
     
-    <link rel="stylesheet" href="../assets/public.css" />
+    <link rel="stylesheet" href="../../assets/public.css" />
   </head>
   <body data-page="generator">
     
@@ -14,10 +14,10 @@
       <div class="wrap public-topbar__inner">
         
     <div class="brand-lockup">
-      <img class="brand-lockup__logo" src="../assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
+      <img class="brand-lockup__logo" src="../../assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
       <div class="brand-lockup__text">
         <strong>CSUN Career Center E-Badges</strong>
-        <span>General generator</span>
+        <span>Career Champion generator</span>
       </div>
     </div>
         <div class="topbar-actions"></div>
@@ -29,10 +29,10 @@
         <div class="wrap hero-shell__inner hero-shell__inner--generator">
           <div class="hero-copy">
             <p class="eyebrow">CSUN Career Center E-Badges</p>
-            <h1>General Credential Generator</h1>
-            <p class="lede">Enter the recipient name, keep today’s prefilled date or change it, and create a polished public badge page with a matching certificate PDF.</p>
+            <h1>Career Champion Generator</h1>
+            <p class="lede">Create the Career Champion badge and matching certificate. This page is locked to a single badge type so recipients only issue that credential.</p>
             <div class="pill-row">
-              <span class="pill pill--accent">Any configured badge type</span>
+              <span class="pill pill--accent">Locked to Career Champion</span>
               <span class="pill">Named PDF certificate</span>
               <span class="pill">Shareable badge page</span>
             </div>
@@ -42,7 +42,7 @@
             <h2>One clean flow from issuance to verification.</h2>
             <ol class="process-list">
               <li>Enter the recipient name and review the issue date.</li>
-              <li>Choose the badge type you want to issue.</li>
+              <li>The badge type is already set to Career Champion.</li>
               <li>Create the credential, copy the verification URL, and download the certificate PDF.</li>
             </ol>
           </div>
@@ -68,9 +68,9 @@
                   <span>Issue date</span>
                   <input type="text" id="publicGeneratorDate" name="issueDate" value="" required />
                 </label>
-                <label class="generator-selector-wrap">
+                <label class="generator-selector-wrap generator-selector-wrap--hidden">
                   <span>Badge type</span>
-                  <select id="publicGeneratorTemplate" name="badgeTemplateId"  required>
+                  <select id="publicGeneratorTemplate" name="badgeTemplateId" disabled required>
                     <option value="">Select a badge template</option>
                     <option value="career-champion">Career Champion</option>
                   </select>
@@ -154,8 +154,8 @@
       </section>
     </main>
 
-    <script>window.PUBLIC_GENERATOR_DATA = {"submitEndpoint":"/api/public/issue","fixedTemplateId":"","certificateTemplate":{"backgroundImage":"../assets/certificate.png","fileNameSuffix":"_Certificate","name":{"x":2000,"y":1400,"fontSize":180,"fontFamily":"Times New Roman","fontWeight":"bold","color":"#000000","align":"center","maxWidth":2400},"date":{"x":1150,"y":2150,"fontSize":48,"fontFamily":"Arial","fontWeight":"normal","color":"#333333","align":"center","maxWidth":700}},"templates":[{"id":"career-champion","title":"Career Champion","badgeLabel":"Career Champion","description":"Recognizes students who have demonstrated sustained engagement with career readiness, professional development, and leadership through the CSUN Career Center.","meaning":"The Career Champion badge signifies that the recipient completed an approved CSUN Career Center experience centered on career readiness, professional growth, and active participation in career development programming.","criteria":"Awarded to participants who successfully completed the qualifying CSUN Career Center program, workshop series, leadership experience, or milestone designated for Career Champion recognition.","issuerName":"CSUN Career Center","issuerOrganization":"CSUN Career Center","issuerWebsite":"https://csun.edu","careerCenterUrl":"https://csun.edu/career","badgeImage":"../assets/badges/career-champion-badge.svg","certificateBackground":"../assets/certificate.png"}]};</script>
+    <script>window.PUBLIC_GENERATOR_DATA = {"submitEndpoint":"/api/public/issue","fixedTemplateId":"career-champion","certificateTemplate":{"backgroundImage":"../../assets/certificate.png","fileNameSuffix":"_Certificate","name":{"x":2000,"y":1400,"fontSize":180,"fontFamily":"Times New Roman","fontWeight":"bold","color":"#000000","align":"center","maxWidth":2400},"date":{"x":1150,"y":2150,"fontSize":48,"fontFamily":"Arial","fontWeight":"normal","color":"#333333","align":"center","maxWidth":700}},"templates":[{"id":"career-champion","title":"Career Champion","badgeLabel":"Career Champion","description":"Recognizes students who have demonstrated sustained engagement with career readiness, professional development, and leadership through the CSUN Career Center.","meaning":"The Career Champion badge signifies that the recipient completed an approved CSUN Career Center experience centered on career readiness, professional growth, and active participation in career development programming.","criteria":"Awarded to participants who successfully completed the qualifying CSUN Career Center program, workshop series, leadership experience, or milestone designated for Career Champion recognition.","issuerName":"CSUN Career Center","issuerOrganization":"CSUN Career Center","issuerWebsite":"https://csun.edu","careerCenterUrl":"https://csun.edu/career","badgeImage":"../../assets/badges/career-champion-badge.svg","certificateBackground":"../../assets/certificate.png"}]};</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="../assets/site.js"></script>
+    <script src="../../assets/site.js"></script>
   </body>
 </html>

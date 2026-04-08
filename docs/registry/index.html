@@ -9,50 +9,51 @@
     <link rel="stylesheet" href="../assets/public.css" />
   </head>
   <body data-page="registry">
-    <header class="subpage-header">
-      <div class="wrap subpage-header__inner">
-        <div>
-          <div class="brand-lockup brand-lockup--compact">
-            <img class="brand-lockup__logo" src="../assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
-            <div>
-              <p class="eyebrow">Protected verification registry</p>
-              <p class="brand-lockup__meta">Search official CSUN Career Center credentials</p>
-            </div>
+    
+    <div class="public-topbar">
+      <div class="wrap public-topbar__inner">
+        
+    <div class="brand-lockup">
+      <img class="brand-lockup__logo" src="../assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
+      <div class="brand-lockup__text">
+        <strong>CSUN Career Center E-Badges</strong>
+        <span>Protected registry</span>
+      </div>
+    </div>
+        <div class="topbar-actions"><a class="topbar-link topbar-link--primary" href="../generator/">General generator</a></div>
+      </div>
+    </div>
+
+    <main class="page-stack">
+      <section class="hero-shell hero-shell--registry">
+        <div class="wrap hero-shell__inner hero-shell__inner--registry">
+          <div class="hero-copy">
+            <p class="eyebrow">Protected verification registry</p>
+            <h1>Search issued digital badges</h1>
+            <p class="lede">Find a credential by recipient name, badge title, credential ID, or issue date.</p>
           </div>
-          <h1>Search issued digital badges</h1>
-          <p class="lede">Find a badge by recipient name, credential ID, badge title, or issue date.</p>
+          <div class="showcase-panel showcase-panel--light">
+            <p class="section-label">Verification standard</p>
+            <h2>Every result opens the official credential record.</h2>
+            <p>Search results point to a polished public page with the badge meaning, issuer, certificate preview, and shareable verification URL.</p>
+          </div>
         </div>
-        <a class="button-link" href="../">Back to home</a>
-      </div>
-    </header>
+      </section>
 
-    <main class="section">
-      <div class="wrap">
-        <div class="card card--elevated registry-card card--accented">
-          <form id="registryPageSearch" class="search-bar search-bar--wide">
-            <label class="sr-only" for="registrySearchInput">Search the badge registry</label>
-            <input id="registrySearchInput" name="q" type="search" placeholder="Search by name, badge title, date, or credential ID" />
-            <button type="submit">Search</button>
-          </form>
-          <p class="muted">Every result links to a public credential page with validation details, badge image, issuer information, and certificate download.</p>
-          <div id="registryResults" class="credential-list" data-source="../data/badges.json"></div>
+      <section class="page-section">
+        <div class="wrap">
+          <div class="panel panel--surface panel--search">
+            <form id="registryPageSearch" class="search-bar search-bar--wide">
+              <label class="sr-only" for="registrySearchInput">Search the badge registry</label>
+              <input id="registrySearchInput" name="q" type="search" placeholder="Search by recipient, badge title, date, or credential ID" />
+              <button type="submit">Search</button>
+            </form>
+            <p class="muted">Every result links to a public credential page with validation details, badge image, issuer information, and certificate download.</p>
+            <div id="registryResults" class="credential-list" data-source="../data/badges.json"></div>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
-
-    <footer class="site-footer site-footer--compact">
-      <div class="wrap site-footer__inner">
-        <div>
-          <strong>CSUN Career Center E-Badges</strong>
-          <p>Official credential records are maintained by the CSUN Career Center.</p>
-        </div>
-        <div class="footer-links">
-          <a href="https://csun.edu/career" target="_blank" rel="noreferrer">Career Center website</a>
-          <a href="../generator/">Generator page</a>
-          <a href="../">Home</a>
-        </div>
-      </div>
-    </footer>
 
     <script src="../assets/site.js"></script>
   </body>
