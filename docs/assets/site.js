@@ -310,8 +310,8 @@
       const selected = getSelectedTemplate();
       if (!selected) {
         templateTitle.textContent = 'Choose a badge type';
-        templateDescription.textContent = 'Once you pick a badge template, the formal badge meaning, issuer, and badge image appear here.';
-        templateMeaning.textContent = 'Select a badge template to view the official badge meaning.';
+        templateDescription.textContent = 'Once you pick a badge template, the public summary, issuer, and badge image appear here.';
+        templateMeaning.textContent = 'Select a badge template to view the official public summary.';
         templateIssuer.textContent = 'Issuer details will appear here.';
         templateCareerCenter.textContent = 'Career Center link will appear here.';
         templateImage.style.display = 'none';
@@ -322,7 +322,7 @@
 
       templateTitle.textContent = selected.title || 'Selected badge';
       templateDescription.textContent = selected.description || selected.meaning || 'Formal badge description.';
-      templateMeaning.textContent = selected.meaning || 'No badge meaning has been configured for this template yet.';
+      templateMeaning.textContent = selected.description || selected.meaning || 'No public summary has been configured for this template yet.';
       templateIssuer.textContent = [selected.issuerName, selected.issuerOrganization].filter(Boolean).join(' · ') || 'Issuer details unavailable.';
       templateCareerCenter.innerHTML = selected.careerCenterUrl
         ? `<a class="text-link" href="${escapeAttribute(selected.careerCenterUrl)}" target="_blank" rel="noreferrer">${escapeHtml(selected.careerCenterUrl)}</a>`

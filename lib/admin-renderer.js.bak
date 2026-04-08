@@ -27,13 +27,7 @@ function adminLayout({ title, active = 'dashboard', body, notice = '', extraHead
     <div class="admin-shell">
       <aside class="admin-sidebar">
         <div>
-          <div class="admin-brand">
-            <img class="admin-brand__logo" src="/assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
-            <div>
-              <p class="admin-sidebar__eyebrow">Private admin</p>
-              <p class="admin-brand__meta">Credential operations console</p>
-            </div>
-          </div>
+          <p class="admin-sidebar__eyebrow">Private admin</p>
           <h1>Badge issuer</h1>
           <p class="admin-sidebar__copy">Create public badge pages, export URLs, update templates, and manage certificate placement settings.</p>
         </div>
@@ -64,13 +58,7 @@ function renderLoginPage(message = '') {
   </head>
   <body class="admin-login-page">
     <main class="admin-login-card">
-      <div class="admin-brand admin-brand--login">
-        <img class="admin-brand__logo" src="/assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
-        <div>
-          <p class="admin-sidebar__eyebrow">Private admin</p>
-          <p class="admin-brand__meta">Credential operations console</p>
-        </div>
-      </div>
+      <p class="admin-sidebar__eyebrow">Private admin</p>
       <h1>CSUN Career Center E-Badges</h1>
       <p>Sign in to issue badges, generate public verification pages, and manage certificate coordinates.</p>
       ${message ? `<div class="admin-error">${escapeHtml(message)}</div>` : ''}
@@ -159,8 +147,6 @@ function renderDashboard({ badges, query = '', siteConfig, successLink = '', suc
     ${successPanel}
 
     <section class="stats-grid">
-      <article class="stat-card stat-card--accent">
-        <span>Platform</span><strong>CSUN Career Center E-Badges</strong><em>Trusted public verification pages and certificate issuance.</em></article>
       <article class="stat-card"><span>Total issued</span><strong>${stats.totalIssued}</strong></article>
       <article class="stat-card"><span>Valid badges</span><strong>${stats.validCount}</strong></article>
       <article class="stat-card"><span>Latest issue date</span><strong>${escapeHtml(stats.latestIssueDate)}</strong></article>

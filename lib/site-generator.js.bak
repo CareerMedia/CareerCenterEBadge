@@ -94,13 +94,7 @@ function renderHomePage(siteConfig, stats, templates) {
     <header class="site-header">
       <div class="wrap site-header__inner">
         <div>
-          <div class="brand-lockup">
-            <img class="brand-lockup__logo" src="assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
-            <div>
-              <p class="eyebrow">${escapeHtml(siteConfig.organizationName)}</p>
-              <p class="brand-lockup__meta">Official digital credentials platform</p>
-            </div>
-          </div>
+          <p class="eyebrow">${escapeHtml(siteConfig.organizationName)}</p>
           <h1>${escapeHtml(siteConfig.heroTitle)}</h1>
           <p class="lede">${escapeHtml(siteConfig.heroIntro)}</p>
           <div class="pill-row">
@@ -109,7 +103,7 @@ function renderHomePage(siteConfig, stats, templates) {
             <span class="pill">Downloadable certificate PDFs</span>
           </div>
         </div>
-        <div class="hero-card hero-card--spotlight hero-card--dashboard">
+        <div class="hero-card hero-card--spotlight">
           <p class="hero-card__label">Verification status</p>
           <div class="hero-card__stats">
             <div>
@@ -271,13 +265,7 @@ function renderGeneratorPage(siteConfig, templates, certificateTemplate) {
     <header class="subpage-header">
       <div class="wrap subpage-header__inner subpage-header__inner--single">
         <div>
-          <div class="brand-lockup brand-lockup--compact">
-            <img class="brand-lockup__logo" src="../assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
-            <div>
-              <p class="eyebrow">${escapeHtml(siteConfig.siteName)}</p>
-              <p class="brand-lockup__meta">Official credential generator</p>
-            </div>
-          </div>
+          <p class="eyebrow">${escapeHtml(siteConfig.siteName)}</p>
           <h1>Generate a digital badge and certificate</h1>
           <p class="lede">Enter the recipient’s name, keep today’s long-form date or change it, and create the polished public badge page that can be shared on LinkedIn or anywhere else.</p>
         </div>
@@ -320,7 +308,7 @@ function renderGeneratorPage(siteConfig, templates, certificateTemplate) {
           <article class="card card--elevated card--accented-soft">
             <p class="section-label">Badge details</p>
             <h2 id="generatorTemplateTitle">Choose a badge type</h2>
-            <p id="generatorTemplateDescription" class="generator-template-copy">Once you pick a badge template, the public summary, issuer, and badge image appear here.</p>
+            <p id="generatorTemplateDescription" class="generator-template-copy">Once you pick a badge template, the formal badge meaning, issuer, and badge image appear here.</p>
             <div class="generator-template-grid">
               <div class="badge-visual-card generator-badge-card">
                 <img id="generatorTemplateImage" class="badge-visual-card__image" alt="Selected badge image" style="display:none;" />
@@ -328,7 +316,7 @@ function renderGeneratorPage(siteConfig, templates, certificateTemplate) {
               </div>
               <div class="detail-card generator-template-details">
                 <p class="section-label">Meaning</p>
-                <p id="generatorTemplateMeaning" class="generator-template-copy">Select a badge template to view the official public summary.</p>
+                <p id="generatorTemplateMeaning" class="generator-template-copy">Select a badge template to view the official badge meaning.</p>
                 <div class="divider"></div>
                 <p class="section-label">Issued by</p>
                 <p id="generatorTemplateIssuer" class="generator-template-copy">Issuer details will appear here.</p>
@@ -398,13 +386,7 @@ function renderRegistryPage(siteConfig) {
     <header class="subpage-header">
       <div class="wrap subpage-header__inner">
         <div>
-          <div class="brand-lockup brand-lockup--compact">
-            <img class="brand-lockup__logo" src="../assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
-            <div>
-              <p class="eyebrow">Protected verification registry</p>
-              <p class="brand-lockup__meta">Search official CSUN Career Center credentials</p>
-            </div>
-          </div>
+          <p class="eyebrow">Protected verification registry</p>
           <h1>Search issued digital badges</h1>
           <p class="lede">Find a badge by recipient name, credential ID, badge title, or issue date.</p>
         </div>
@@ -502,13 +484,7 @@ function renderBadgePage(badge, siteConfig, certificateTemplate) {
     <header class="credential-hero credential-hero--colorful">
       <div class="wrap credential-hero__inner">
         <div class="credential-hero__content">
-          <div class="brand-lockup brand-lockup--compact">
-            <img class="brand-lockup__logo" src="../../assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
-            <div>
-              <p class="eyebrow">Official credential verification</p>
-              <p class="brand-lockup__meta">Issued by the CSUN Career Center</p>
-            </div>
-          </div>
+          <p class="eyebrow">Official credential verification</p>
           <h1>${escapeHtml(badge.badgeTitle)}</h1>
           <p class="lede">Awarded to <strong>${escapeHtml(badge.awardeeName)}</strong>. This badge is valid, published by ${escapeHtml(badge.issuerName)}, and never expires.</p>
           <div class="status-row">

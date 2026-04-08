@@ -433,3 +433,320 @@ textarea:focus {
     display: grid;
   }
 }
+
+/* Premium admin refresh */
+:root {
+  --bg: #f4f2f5;
+  --panel: rgba(255,255,255,0.86);
+  --panel-strong: #0f172a;
+  --text: #1a2030;
+  --muted: #6b7284;
+  --line: rgba(105, 115, 140, 0.16);
+  --accent: #d22030;
+  --accent-dark: #a61725;
+  --success: #0f7b46;
+  --danger: #b42032;
+  --shadow: 0 26px 70px rgba(15, 23, 42, 0.10);
+  --radius: 24px;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(210, 32, 48, 0.08), transparent 28%),
+    radial-gradient(circle at 90% 10%, rgba(255, 209, 129, 0.18), transparent 22%),
+    linear-gradient(180deg, #fbf8f9 0%, #f4f2f5 100%);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(255,255,255,0.34) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.24) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(circle at center, black, transparent 78%);
+}
+
+.admin-shell {
+  grid-template-columns: 320px 1fr;
+}
+
+.admin-sidebar {
+  position: sticky;
+  top: 0;
+  min-height: 100vh;
+  padding: 2rem 1.35rem;
+  background:
+    radial-gradient(circle at top right, rgba(210,32,48,0.24), transparent 28%),
+    linear-gradient(180deg, #10141d 0%, #141b28 42%, #192133 100%);
+  border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+.admin-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.95rem;
+  margin-bottom: 1.2rem;
+  padding: 0.95rem 1rem;
+  border-radius: 22px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
+.admin-brand--login {
+  margin-bottom: 1.4rem;
+  background: rgba(255,255,255,0.72);
+  border: 1px solid rgba(210, 32, 48, 0.10);
+}
+
+.admin-brand__logo {
+  display: block;
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+}
+
+.admin-brand__meta {
+  margin: 0.2rem 0 0;
+  color: #b8c3d9;
+  font-size: 0.9rem;
+}
+
+.admin-brand--login .admin-brand__meta {
+  color: #7a6b74;
+}
+
+.admin-sidebar h1 {
+  font-size: 2.15rem;
+  letter-spacing: -0.04em;
+}
+
+.admin-nav {
+  gap: 0.55rem;
+}
+
+.admin-nav__link {
+  display: flex;
+  align-items: center;
+  min-height: 54px;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+}
+
+.admin-nav__link:hover,
+.admin-nav__link.is-active {
+  background: linear-gradient(135deg, rgba(210,32,48,0.20), rgba(255,255,255,0.09));
+  border-color: rgba(210,32,48,0.24);
+}
+
+.admin-main {
+  padding: 2rem;
+}
+
+.admin-login-card,
+.admin-panel,
+.admin-panel--success,
+.stat-card {
+  background: var(--panel);
+  border: 1px solid rgba(255,255,255,0.72);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.admin-login-card {
+  max-width: 620px;
+}
+
+.admin-login-card h1,
+.admin-header h2,
+.admin-section-heading h3 {
+  letter-spacing: -0.04em;
+}
+
+.admin-header,
+.admin-section-heading,
+.inline-actions,
+.search-toolbar,
+.form-grid,
+.success-grid,
+.stats-grid,
+.status-summary,
+.backup-grid {
+  gap: 1rem;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stat-card {
+  position: relative;
+  overflow: hidden;
+  padding: 1.45rem;
+}
+
+.stat-card::before,
+.admin-panel::before,
+.admin-panel--success::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.34), transparent 42%, rgba(210,32,48,0.05));
+  pointer-events: none;
+}
+
+.stat-card--accent {
+  background: linear-gradient(180deg, rgba(255,255,255,0.88), rgba(255,243,245,0.90));
+}
+
+.stat-card em {
+  display: block;
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-style: normal;
+  line-height: 1.5;
+}
+
+button,
+.button {
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  box-shadow: 0 16px 28px rgba(210,32,48,0.20);
+}
+
+button:hover,
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button--ghost {
+  background: rgba(255,255,255,0.72);
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 22px rgba(15, 23, 42, 0.05);
+}
+
+.button--ghost:hover {
+  background: rgba(255,255,255,0.94);
+}
+
+input,
+select,
+textarea {
+  border-radius: 16px;
+  border: 1px solid rgba(105, 115, 140, 0.18);
+  background: rgba(255,255,255,0.82);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.72);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid rgba(210,32,48,0.12);
+  border-color: rgba(210,32,48,0.45);
+}
+
+.table-wrap {
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(105, 115, 140, 0.12);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  padding: 1rem 1.1rem;
+  border-bottom: 1px solid rgba(105, 115, 140, 0.10);
+  text-align: left;
+  vertical-align: top;
+}
+
+.data-table thead th {
+  background: rgba(248, 244, 246, 0.92);
+  color: #6f5d68;
+  font-size: 0.84rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.data-table tbody tr:hover {
+  background: rgba(255,245,247,0.72);
+}
+
+.status-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.42rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(17, 122, 67, 0.12);
+  color: var(--success);
+  font-weight: 700;
+}
+
+.file-list,
+.metric-list {
+  display: grid;
+  gap: 0.8rem;
+  padding-left: 1.15rem;
+}
+
+.admin-notice,
+.admin-error {
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 1180px) {
+  .admin-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-sidebar {
+    position: relative;
+    min-height: auto;
+  }
+
+  .stats-grid,
+  .success-grid,
+  .form-grid--two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .admin-main,
+  .admin-sidebar,
+  .admin-login-card {
+    padding: 1.25rem;
+  }
+
+  .stats-grid,
+  .success-grid,
+  .form-grid--two,
+  .admin-header,
+  .admin-section-heading,
+  .search-toolbar,
+  .inline-actions {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .data-table,
+  .data-table thead,
+  .data-table tbody,
+  .data-table tr,
+  .data-table td,
+  .data-table th {
+    display: block;
+    width: 100%;
+  }
+
+  .data-table thead {
+    display: none;
+  }
+}
