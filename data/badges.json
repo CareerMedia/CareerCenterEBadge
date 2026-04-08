@@ -110,5 +110,33 @@
     "publicUrl": "/badges/harsh-ahir-career-champion-csuncc-20260408-0003/",
     "repoPath": "docs/badges/harsh-ahir-career-champion-csuncc-20260408-0003/index.html",
     "detailsJsonPath": "docs/badges/harsh-ahir-career-champion-csuncc-20260408-0003/details.json"
+  },
+  {
+    "id": "CSUNCC-20260408-0004",
+    "awardeeName": "Maddie Paul",
+    "issueDate": "April 8, 2026",
+    "issueDateISO": "2026-04-08",
+    "badgeTemplateId": "career-champion",
+    "badgeTitle": "Career Champion",
+    "badgeLabel": "Career Champion",
+    "description": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
+    "meaning": "The CSUN Career Champions Badge is awarded to staff and faculty who have successfully completed the CSUN Career Center’s Career Champions program. Badge earners are recognized as dedicated CSUN professionals who actively integrate career development into their work with students.\r\n\r\nThrough this program, participants gain practical strategies to connect academic pathways with real-world opportunities, support student persistence, and guide students in their transition to meaningful careers. Career Champions are equipped with tools to enhance advising and student interactions—helping students build confidence in selecting majors, exploring career options, and planning for life after graduation.\r\n\r\nEarning this badge reflects a commitment to ongoing professional growth and to fostering a campus-wide culture where career readiness is a shared responsibility among faculty and staff.",
+    "criteria": "To earn this badge, participants must complete the Career Champions course, including all modules, activities, and assessments.",
+    "issuerName": "CSUN Career Center",
+    "issuerOrganization": "CSUN Career Center",
+    "issuerWebsite": "https://csun.edu",
+    "careerCenterUrl": "https://csun.edu/career",
+    "badgeImage": "assets/badges/champion-badge.svg",
+    "certificateBackground": "assets/career-champ-cert.png",
+    "status": "valid",
+    "neverExpires": true,
+    "createdAt": "2026-04-08T22:56:51.981Z",
+    "source": "public-generator",
+    "slug": "maddie-paul-career-champion-csuncc-20260408-0004",
+    "relativeUrl": "../badges/maddie-paul-career-champion-csuncc-20260408-0004/",
+    "relativeJsonUrl": "../badges/maddie-paul-career-champion-csuncc-20260408-0004/details.json",
+    "publicUrl": "/badges/maddie-paul-career-champion-csuncc-20260408-0004/",
+    "repoPath": "docs/badges/maddie-paul-career-champion-csuncc-20260408-0004/index.html",
+    "detailsJsonPath": "docs/badges/maddie-paul-career-champion-csuncc-20260408-0004/details.json"
   }
 ]
