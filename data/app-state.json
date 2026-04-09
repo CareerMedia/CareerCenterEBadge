@@ -32,6 +32,16 @@
       "issuerTrustLabel": "Official issuer",
       "badgeImage": "assets/badges/career-champion-badge.svg",
       "certificateBackground": "assets/certificate.png",
+      "verificationSections": {
+        "recipient": true,
+        "meaning": true,
+        "criteria": true,
+        "issuerTrust": true,
+        "evidence": true,
+        "skills": true,
+        "pathway": true,
+        "certificate": true
+      },
       "certificateTemplateOverrideEnabled": false,
       "certificateTemplate": {
         "backgroundImage": "assets/certificate.png",

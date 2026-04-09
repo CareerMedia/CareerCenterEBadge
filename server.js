@@ -68,6 +68,7 @@ const {
   parseListField,
   normalizeEvidence,
   normalizeIssuerTrust,
+  normalizeVerificationSections,
   normalizePathway,
   buildVerificationHash,
   buildWidgetEmbedCode,
@@ -496,7 +497,8 @@ function mergeTemplateFields(formData) {
     issuerTrustLabel: cleanText(formData.issuerTrustLabel) || cleanText(template && template.issuerTrustLabel) || 'Official issuer',
     badgeImage,
     certificateBackground,
-    source: cleanText(formData.source) || 'admin'
+    source: cleanText(formData.source) || 'admin',
+    verificationSections: normalizeVerificationSections(template)
   };
 
   merged.certificateTemplateApplied = badgeTemplateId
@@ -561,6 +563,7 @@ function createBadgeRecord(formData) {
     badgeImage,
     certificateBackground,
     certificateTemplateApplied: merged.certificateTemplateApplied,
+    verificationSections: merged.verificationSections,
     status: 'valid',
     neverExpires: true,
     createdAt: new Date().toISOString(),
@@ -651,6 +654,7 @@ function saveTemplate(formData) {
     badgeImage,
     certificateBackground,
     widgetLayout: cleanText(formData.widgetLayout) || 'stacked',
+    verificationSections: buildTemplateVerificationSections(formData),
     ...buildTemplateCertificateOverride(formData, certificateBackground)
   };
 
@@ -695,6 +699,23 @@ function deleteBadge(badgeId) {
 function parseNumber(value, fallback = 0) {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : fallback;
+}
+
+function parseBooleanFormValue(value) {
+  return value === true || value === 'true' || value == 'on' || value == '1';
+}
+
+function buildTemplateVerificationSections(formData) {
+  return normalizeVerificationSections({
+    recipient: parseBooleanFormValue(formData.sectionRecipient),
+    meaning: parseBooleanFormValue(formData.sectionMeaning),
+    criteria: parseBooleanFormValue(formData.sectionCriteria),
+    issuerTrust: parseBooleanFormValue(formData.sectionIssuerTrust),
+    evidence: parseBooleanFormValue(formData.sectionEvidence),
+    skills: parseBooleanFormValue(formData.sectionSkills),
+    pathway: parseBooleanFormValue(formData.sectionPathway),
+    certificate: parseBooleanFormValue(formData.sectionCertificate)
+  });
 }
 
 function saveSettings(formData) {
