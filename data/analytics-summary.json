@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T16:53:24.920Z",
+  "updatedAt": "2026-04-09T16:56:31.539Z",
   "totals": {
-    "badgesIssued": 6,
+    "badgesIssued": 7,
     "badgeViews": 2,
     "certificateDownloads": 0,
     "generatorOpens": 3,
-    "generatorCompletions": 0,
-    "conversionRate": 0,
+    "generatorCompletions": 1,
+    "conversionRate": 33.3,
     "uniqueVisitorsApprox": 1
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 6,
+      "badgesIssued": 7,
       "badgeViews": 2,
       "certificateDownloads": 0,
       "generatorOpens": 3,
-      "generatorCompletions": 0,
+      "generatorCompletions": 1,
       "uniqueVisitorsApprox": 1,
-      "conversionRate": 0
+      "conversionRate": 33.3
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 6,
+      "badgesIssued": 7,
       "badgeViews": 2,
       "certificateDownloads": 0,
       "generatorOpens": 3,
-      "generatorCompletions": 0,
+      "generatorCompletions": 1,
       "uniqueVisitorsApprox": 1,
-      "conversionRate": 0
+      "conversionRate": 33.3
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 6,
+      "badgesIssued": 7,
       "badgeViews": 2,
       "certificateDownloads": 0,
       "generatorOpens": 3,
-      "generatorCompletions": 0,
-      "conversionRate": 0
+      "generatorCompletions": 1,
+      "conversionRate": 33.3
     }
   ],
   "badgePages": [
@@ -120,6 +120,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "bryce-simon-career-champion-csuncc-20260409-0001",
+      "badgeId": "CSUNCC-20260409-0001",
+      "awardeeName": "Bryce Simon",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "/badges/bryce-simon-career-champion-csuncc-20260409-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -129,8 +141,8 @@
       "pageKind": "specific",
       "templateId": "career-champion",
       "opens": 3,
-      "completions": 0,
-      "conversionRate": 0
+      "completions": 1,
+      "conversionRate": 33.3
     }
   ],
   "recipientStats": [
@@ -138,6 +150,12 @@
       "awardeeName": "Bri",
       "badgesIssued": 1,
       "badgeViews": 1,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Bryce Simon",
+      "badgesIssued": 2,
+      "badgeViews": 0,
       "certificateDownloads": 0
     },
     {
@@ -150,12 +168,6 @@
       "awardeeName": "Ricardo Vargas",
       "badgesIssued": 1,
       "badgeViews": 1,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Bryce Simon",
-      "badgesIssued": 1,
-      "badgeViews": 0,
       "certificateDownloads": 0
     },
     {

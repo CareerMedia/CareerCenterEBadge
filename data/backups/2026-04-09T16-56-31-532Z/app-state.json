@@ -631,39 +631,18 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
-    },
-    {
-      "id": "856f5cbe-1223-4aa5-88dc-cbc08f498144",
-      "type": "generator_completed",
-      "timestamp": "2026-04-09T16:56:31.535Z",
-      "monthKey": "2026-04",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260409-0001",
-      "badgeSlug": "bryce-simon-career-champion-csuncc-20260409-0001",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Bryce Simon",
-      "publicUrl": "/badges/bryce-simon-career-champion-csuncc-20260409-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-champion",
-      "generatorLabel": "Career Champion widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T16:56:31.539Z",
+    "updatedAt": "2026-04-09T16:56:31.527Z",
     "totals": {
       "badgesIssued": 7,
       "badgeViews": 2,
       "certificateDownloads": 0,
       "generatorOpens": 3,
-      "generatorCompletions": 1,
-      "conversionRate": 33.3,
+      "generatorCompletions": 0,
+      "conversionRate": 0,
       "uniqueVisitorsApprox": 1
     },
     "months": [
@@ -674,9 +653,9 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "generatorOpens": 3,
-        "generatorCompletions": 1,
+        "generatorCompletions": 0,
         "uniqueVisitorsApprox": 1,
-        "conversionRate": 33.3
+        "conversionRate": 0
       }
     ],
     "years": [
@@ -687,9 +666,9 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "generatorOpens": 3,
-        "generatorCompletions": 1,
+        "generatorCompletions": 0,
         "uniqueVisitorsApprox": 1,
-        "conversionRate": 33.3
+        "conversionRate": 0
       }
     ],
     "badgeTypes": [
@@ -700,8 +679,8 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "generatorOpens": 3,
-        "generatorCompletions": 1,
-        "conversionRate": 33.3
+        "generatorCompletions": 0,
+        "conversionRate": 0
       }
     ],
     "badgePages": [
@@ -797,8 +776,8 @@
         "pageKind": "specific",
         "templateId": "career-champion",
         "opens": 3,
-        "completions": 1,
-        "conversionRate": 33.3
+        "completions": 0,
+        "conversionRate": 0
       }
     ],
     "recipientStats": [
