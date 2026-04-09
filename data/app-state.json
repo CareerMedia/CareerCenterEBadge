@@ -1103,18 +1103,39 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
+    },
+    {
+      "id": "323e712c-15dc-49a4-b6b1-6f84481e525d",
+      "type": "generator_opened",
+      "timestamp": "2026-04-09T17:39:44.164Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-champion",
+      "generatorLabel": "Career Champion widget",
+      "source": "generator-page",
+      "visitorId": "6894ae26646f5d0637840d54",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T17:39:38.036Z",
+    "updatedAt": "2026-04-09T17:39:44.164Z",
     "totals": {
       "badgesIssued": 8,
       "badgeViews": 11,
       "certificateDownloads": 1,
-      "generatorOpens": 9,
+      "generatorOpens": 10,
       "generatorCompletions": 2,
-      "conversionRate": 22.2,
+      "conversionRate": 20,
       "uniqueVisitorsApprox": 4
     },
     "months": [
@@ -1124,10 +1145,10 @@
         "badgesIssued": 8,
         "badgeViews": 11,
         "certificateDownloads": 1,
-        "generatorOpens": 9,
+        "generatorOpens": 10,
         "generatorCompletions": 2,
         "uniqueVisitorsApprox": 4,
-        "conversionRate": 22.2
+        "conversionRate": 20
       }
     ],
     "years": [
@@ -1137,10 +1158,10 @@
         "badgesIssued": 8,
         "badgeViews": 11,
         "certificateDownloads": 1,
-        "generatorOpens": 9,
+        "generatorOpens": 10,
         "generatorCompletions": 2,
         "uniqueVisitorsApprox": 4,
-        "conversionRate": 22.2
+        "conversionRate": 20
       }
     ],
     "badgeTypes": [
@@ -1150,9 +1171,9 @@
         "badgesIssued": 8,
         "badgeViews": 11,
         "certificateDownloads": 1,
-        "generatorOpens": 7,
+        "generatorOpens": 8,
         "generatorCompletions": 2,
-        "conversionRate": 28.6
+        "conversionRate": 25
       },
       {
         "id": "unassigned",
@@ -1269,9 +1290,9 @@
         "label": "Career Champion generator",
         "pageKind": "specific",
         "templateId": "career-champion",
-        "opens": 7,
+        "opens": 8,
         "completions": 2,
-        "conversionRate": 28.6
+        "conversionRate": 25
       },
       {
         "key": "general",
