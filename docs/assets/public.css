@@ -438,7 +438,7 @@ textarea { min-height: 120px; resize: vertical; }
   letter-spacing: 0.02em;
 }
 .hash-box:hover {
-  border-color: rgba(210,32,48,0.2);
+  border-color: rgba(24,22,31,0.14);
   box-shadow: 0 10px 24px rgba(24,22,31,0.08);
 }
 .divider { height: 1px; background: rgba(24,22,31,0.08); margin: 22px 0; }
@@ -628,16 +628,23 @@ textarea { min-height: 120px; resize: vertical; }
   display: flex;
   align-items: center;
 }
+.email-signature-preview--surface {
+  padding: 1rem;
+  border-radius: 22px;
+  border: 1px solid rgba(24,22,31,0.08);
+  background: rgba(255,255,255,0.78);
+}
 .email-signature-preview__chip {
   display: inline-flex;
   align-items: center;
   gap: 0.85rem;
-  padding: 0.8rem 1rem;
+  padding: 0.9rem 1.05rem;
   border-radius: 999px;
   border: 1px solid rgba(24,22,31,0.08);
-  background: rgba(255,255,255,0.92);
+  background: rgba(255,255,255,0.98);
   box-shadow: 0 14px 34px rgba(15,23,42,0.10);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
+  text-decoration: none;
 }
 .email-signature-preview__chip:hover {
   transform: translateY(-2px);
@@ -665,4 +672,16 @@ textarea { min-height: 120px; resize: vertical; }
   .generator-success-stack--widget {
     grid-template-columns: 1fr;
   }
+}
+
+.email-signature-actions {
+  display: grid;
+  gap: 0.7rem;
+  align-items: start;
+}
+.email-signature-help {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
