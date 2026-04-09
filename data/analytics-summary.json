@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T22:57:21.511Z",
+  "updatedAt": "2026-04-09T23:06:39.999Z",
   "totals": {
-    "badgesIssued": 12,
+    "badgesIssued": 13,
     "badgeViews": 31,
     "certificateDownloads": 1,
     "generatorOpens": 29,
@@ -14,7 +14,7 @@
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 12,
+      "badgesIssued": 13,
       "badgeViews": 31,
       "certificateDownloads": 1,
       "generatorOpens": 29,
@@ -27,7 +27,7 @@
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 12,
+      "badgesIssued": 13,
       "badgeViews": 31,
       "certificateDownloads": 1,
       "generatorOpens": 29,
@@ -40,7 +40,7 @@
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 12,
+      "badgesIssued": 13,
       "badgeViews": 31,
       "certificateDownloads": 1,
       "generatorOpens": 19,
@@ -202,6 +202,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "brianna-fuente-career-champion-csuncc-20260409-0007",
+      "badgeId": "CSUNCC-20260409-0007",
+      "awardeeName": "Brianna Fuente",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/brianna-fuente-career-champion-csuncc-20260409-0007/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -257,6 +269,12 @@
     },
     {
       "awardeeName": "Harsh Ahir",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Brianna Fuente",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
