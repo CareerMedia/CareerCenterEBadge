@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T20:01:44.032Z",
+  "updatedAt": "2026-04-09T20:01:49.893Z",
   "totals": {
-    "badgesIssued": 11,
+    "badgesIssued": 12,
     "badgeViews": 30,
     "certificateDownloads": 1,
     "generatorOpens": 27,
-    "generatorCompletions": 5,
-    "conversionRate": 18.5,
+    "generatorCompletions": 6,
+    "conversionRate": 22.2,
     "uniqueVisitorsApprox": 9
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 11,
+      "badgesIssued": 12,
       "badgeViews": 30,
       "certificateDownloads": 1,
       "generatorOpens": 27,
-      "generatorCompletions": 5,
+      "generatorCompletions": 6,
       "uniqueVisitorsApprox": 9,
-      "conversionRate": 18.5
+      "conversionRate": 22.2
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 11,
+      "badgesIssued": 12,
       "badgeViews": 30,
       "certificateDownloads": 1,
       "generatorOpens": 27,
-      "generatorCompletions": 5,
+      "generatorCompletions": 6,
       "uniqueVisitorsApprox": 9,
-      "conversionRate": 18.5
+      "conversionRate": 22.2
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 11,
+      "badgesIssued": 12,
       "badgeViews": 30,
       "certificateDownloads": 1,
       "generatorOpens": 18,
-      "generatorCompletions": 5,
-      "conversionRate": 27.8
+      "generatorCompletions": 6,
+      "conversionRate": 33.3
     },
     {
       "id": "unassigned",
@@ -190,6 +190,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "bryce-simon-career-champion-csuncc-20260409-0006",
+      "badgeId": "CSUNCC-20260409-0006",
+      "awardeeName": "Bryce Simon",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bryce-simon-career-champion-csuncc-20260409-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -208,14 +220,14 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 9,
-      "completions": 3,
-      "conversionRate": 33.3
+      "completions": 4,
+      "conversionRate": 44.4
     }
   ],
   "recipientStats": [
     {
       "awardeeName": "Bryce Simon",
-      "badgesIssued": 4,
+      "badgesIssued": 5,
       "badgeViews": 12,
       "certificateDownloads": 0
     },
