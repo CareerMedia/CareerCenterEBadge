@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T19:21:56.421Z",
+  "updatedAt": "2026-04-09T19:24:38.265Z",
   "totals": {
     "badgesIssued": 11,
-    "badgeViews": 25,
+    "badgeViews": 26,
     "certificateDownloads": 1,
     "generatorOpens": 25,
     "generatorCompletions": 5,
@@ -15,7 +15,7 @@
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 11,
-      "badgeViews": 25,
+      "badgeViews": 26,
       "certificateDownloads": 1,
       "generatorOpens": 25,
       "generatorCompletions": 5,
@@ -28,7 +28,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 11,
-      "badgeViews": 25,
+      "badgeViews": 26,
       "certificateDownloads": 1,
       "generatorOpens": 25,
       "generatorCompletions": 5,
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 11,
-      "badgeViews": 25,
+      "badgeViews": 26,
       "certificateDownloads": 1,
       "generatorOpens": 18,
       "generatorCompletions": 5,
@@ -120,6 +120,18 @@
       "latestViewedAt": "2026-04-09T17:01:02.146Z"
     },
     {
+      "slug": "bri-career-champion-csuncc-20260409-0005",
+      "badgeId": "CSUNCC-20260409-0005",
+      "awardeeName": "Bri",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bri-career-champion-csuncc-20260409-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-04-09T19:24:38.263Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -130,18 +142,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-04-09T16:53:24.919Z"
-    },
-    {
-      "slug": "bri-career-champion-csuncc-20260409-0005",
-      "badgeId": "CSUNCC-20260409-0005",
-      "awardeeName": "Bri",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bri-career-champion-csuncc-20260409-0005/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-04-09T19:21:56.420Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
@@ -228,7 +228,7 @@
     {
       "awardeeName": "Bri",
       "badgesIssued": 2,
-      "badgeViews": 3,
+      "badgeViews": 4,
       "certificateDownloads": 0
     },
     {
