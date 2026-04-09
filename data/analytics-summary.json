@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T16:51:53.592Z",
+  "updatedAt": "2026-04-09T16:53:24.920Z",
   "totals": {
     "badgesIssued": 6,
-    "badgeViews": 1,
+    "badgeViews": 2,
     "certificateDownloads": 0,
     "generatorOpens": 3,
     "generatorCompletions": 0,
@@ -15,7 +15,7 @@
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 6,
-      "badgeViews": 1,
+      "badgeViews": 2,
       "certificateDownloads": 0,
       "generatorOpens": 3,
       "generatorCompletions": 0,
@@ -28,7 +28,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 6,
-      "badgeViews": 1,
+      "badgeViews": 2,
       "certificateDownloads": 0,
       "generatorOpens": 3,
       "generatorCompletions": 0,
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 6,
-      "badgeViews": 1,
+      "badgeViews": 2,
       "certificateDownloads": 0,
       "generatorOpens": 3,
       "generatorCompletions": 0,
@@ -60,6 +60,18 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-04-09T15:47:09.426Z"
+    },
+    {
+      "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
+      "badgeId": "CSUNCC-20260408-0005",
+      "awardeeName": "Ricardo Vargas",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "/badges/ricardo-vargas-career-champion-csuncc-20260408-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-04-09T16:53:24.919Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
@@ -108,18 +120,6 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
-    },
-    {
-      "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
-      "badgeId": "CSUNCC-20260408-0005",
-      "awardeeName": "Ricardo Vargas",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "/badges/ricardo-vargas-career-champion-csuncc-20260408-0005/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -147,6 +147,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Ricardo Vargas",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Bryce Simon",
       "badgesIssued": 1,
       "badgeViews": 0,
@@ -154,12 +160,6 @@
     },
     {
       "awardeeName": "Harsh Ahir",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Ricardo Vargas",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
