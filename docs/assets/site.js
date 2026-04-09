@@ -40,6 +40,16 @@
     }
   }
 
+
+  function notifyWidgetHeight() {
+    const widgetData = window.PUBLIC_GENERATOR_DATA;
+    if (!widgetData || !widgetData.widgetMode || window.parent === window) return;
+    window.parent.postMessage({
+      type: 'csun-ebadge-widget-height',
+      height: Math.ceil(document.documentElement.scrollHeight || document.body.scrollHeight || 0)
+    }, '*');
+  }
+
   function loadImage(src) {
     return new Promise((resolve, reject) => {
       const image = new Image();
@@ -348,6 +358,13 @@
 
     function activeCertificateTemplate() {
       const selected = getSelectedTemplate();
+      if (selected && selected.certificateTemplate) {
+        return {
+          ...baseCertificateTemplate,
+          ...selected.certificateTemplate,
+          backgroundImage: (selected.certificateTemplate && selected.certificateTemplate.backgroundImage) || selected.certificateBackground || baseCertificateTemplate.backgroundImage
+        };
+      }
       return {
         ...baseCertificateTemplate,
         backgroundImage: (selected && selected.certificateBackground) || baseCertificateTemplate.backgroundImage
@@ -370,7 +387,7 @@
 
       templateTitle.textContent = selected.title || 'Selected badge';
       templateDescription.textContent = selected.description || selected.meaning || 'Formal badge description.';
-      templateMeaning.textContent = selected.description || selected.meaning || 'No badge meaning has been configured for this template yet.';
+      templateMeaning.textContent = selected.publicSummary || selected.description || selected.meaning || 'No badge meaning has been configured for this template yet.';
       templateIssuer.textContent = [selected.issuerName, selected.issuerOrganization].filter(Boolean).join(' · ') || 'Issuer details unavailable.';
       templateCareerCenter.innerHTML = selected.careerCenterUrl
         ? `<a class="text-link" href="${escapeAttribute(selected.careerCenterUrl)}" target="_blank" rel="noreferrer">${escapeHtml(selected.careerCenterUrl)}</a>`
@@ -413,6 +430,7 @@
           previewEmpty.style.display = 'none';
         }
         status.textContent = 'Preview ready. Create the badge when you are ready.';
+        notifyWidgetHeight();
         return lastRender;
       } catch (error) {
         status.textContent = error.message;
@@ -459,8 +477,8 @@
             awardeeName: nameInput.value.trim(),
             issueDate: dateInput.value.trim(),
             badgeTemplateId: selected.id,
-            pageKind: fixedTemplateId ? 'specific' : 'general',
-            generatorLabel: fixedTemplateId ? `${selected.title} generator` : 'General generator'
+            pageKind: data.pageKind || (fixedTemplateId ? 'specific' : 'general'),
+            generatorLabel: data.widgetMode ? (fixedTemplateId ? `${selected.title} widget` : 'General widget') : (fixedTemplateId ? `${selected.title} generator` : 'General generator')
           })
         });
 
@@ -497,6 +515,8 @@
         }
 
         status.textContent = 'Badge created successfully. The public verification link is ready and the admin dashboard can now find this record.';
+        document.body.classList.add('generator-has-result');
+        notifyWidgetHeight();
       } catch (error) {
         const message = /Failed to fetch/i.test(error.message)
           ? 'The generator could not reach the badge server. Start the Node app or host this project on a Node-capable service so the public form can write new badge files.'
@@ -538,13 +558,14 @@
           awardeeName: nameInput.value.trim(),
           publicUrl: lastIssuedBadge ? makeAbsoluteUrl(lastIssuedBadge.publicUrl) : window.location.href,
           source: 'generator-page',
-          pageKind: fixedTemplateId ? 'specific' : 'general',
+          pageKind: data.pageKind || (fixedTemplateId ? 'specific' : 'general'),
           context: 'generator-certificate-download'
         });
       });
     }
 
     updateTemplatePanel();
+    notifyWidgetHeight();
 
     const initialTemplate = getSelectedTemplate();
     trackAnalytics({
@@ -552,8 +573,8 @@
       badgeTemplateId: initialTemplate ? initialTemplate.id : '',
       badgeTitle: initialTemplate ? initialTemplate.title : '',
       generatorKey: fixedTemplateId || 'general',
-      generatorLabel: fixedTemplateId && initialTemplate ? `${initialTemplate.title} generator` : 'General generator',
-      pageKind: fixedTemplateId ? 'specific' : 'general',
+      generatorLabel: data.widgetMode ? (fixedTemplateId && initialTemplate ? `${initialTemplate.title} widget` : 'General widget') : (fixedTemplateId && initialTemplate ? `${initialTemplate.title} generator` : 'General generator'),
+      pageKind: data.pageKind || (fixedTemplateId ? 'specific' : 'general'),
       source: 'generator-page',
       context: 'generator-page-open'
     });

@@ -37,7 +37,12 @@ const {
   parseFullBackupJson,
   applyAppState,
   importBadgesFromCsv,
-  appendAuditLog
+  appendAuditLog,
+  saveUploadedAssetFromDataUrl,
+  parseList,
+  cleanAssetPath,
+  getCertificateTemplateForTemplate,
+  normalizeCertificateConfig
 } = require('./lib/store');
 const { buildPublicSite } = require('./lib/site-generator');
 const { pullRemoteData, persistMutation, getConfig, queuePushLocalData } = require('./lib/github-sync');
@@ -59,6 +64,15 @@ const {
   renderAnalyticsPage,
   renderBackupsPage
 } = require('./lib/admin-renderer');
+const {
+  parseListField,
+  normalizeEvidence,
+  normalizeIssuerTrust,
+  normalizePathway,
+  buildVerificationHash,
+  buildWidgetEmbedCode,
+  buildGeneratorRoute
+} = require('./lib/credential-utils');
 
 function loadEnvFile() {
   const envPath = path.join(PATHS.root, '.env');
@@ -188,7 +202,7 @@ function parseBody(request) {
     let body = '';
     request.on('data', (chunk) => {
       body += chunk;
-      if (body.length > 1e6) {
+      if (body.length > 2e7) {
         reject(new Error('Request body too large'));
         request.destroy();
       }
@@ -359,6 +373,55 @@ function cleanText(value) {
   return String(value || '').trim();
 }
 
+
+function parseListInput(value) {
+  return parseListField(value);
+}
+
+function parseBooleanInput(value) {
+  const normalized = String(value || '').trim().toLowerCase();
+  return normalized === 'true' || normalized === '1' || normalized === 'on' || normalized === 'yes';
+}
+
+function persistAssetField({ uploadValue, manualValue, category, preferredName }) {
+  const uploaded = cleanText(uploadValue);
+  if (uploaded) {
+    return saveUploadedAssetFromDataUrl(uploaded, { category, preferredName });
+  }
+  return cleanAssetPath(manualValue);
+}
+
+function buildTemplateCertificateOverride(formData, fallbackBackground) {
+  const enabled = parseBooleanInput(formData.certificateTemplateOverrideEnabled);
+  return {
+    certificateTemplateOverrideEnabled: enabled,
+    certificateTemplate: normalizeCertificateConfig({
+      backgroundImage: cleanText(formData.certificateBackgroundOverride) || cleanText(fallbackBackground),
+      fileNameSuffix: cleanText(formData.fileNameSuffixOverride) || cleanText(formData.fileNameSuffix) || '_Certificate',
+      name: {
+        x: parseNumber(formData.templateNameX, parseNumber(formData.nameX, 2000)),
+        y: parseNumber(formData.templateNameY, parseNumber(formData.nameY, 1400)),
+        fontSize: parseNumber(formData.templateNameFontSize, parseNumber(formData.nameFontSize, 180)),
+        fontFamily: cleanText(formData.templateNameFontFamily) || cleanText(formData.nameFontFamily) || 'Times New Roman',
+        fontWeight: cleanText(formData.templateNameFontWeight) || cleanText(formData.nameFontWeight) || 'bold',
+        color: cleanText(formData.templateNameColor) || cleanText(formData.nameColor) || '#000000',
+        align: cleanText(formData.templateNameAlign) || cleanText(formData.nameAlign) || 'center',
+        maxWidth: parseNumber(formData.templateNameMaxWidth, parseNumber(formData.nameMaxWidth, 2400))
+      },
+      date: {
+        x: parseNumber(formData.templateDateX, parseNumber(formData.dateX, 1150)),
+        y: parseNumber(formData.templateDateY, parseNumber(formData.dateY, 2150)),
+        fontSize: parseNumber(formData.templateDateFontSize, parseNumber(formData.dateFontSize, 48)),
+        fontFamily: cleanText(formData.templateDateFontFamily) || cleanText(formData.dateFontFamily) || 'Arial',
+        fontWeight: cleanText(formData.templateDateFontWeight) || cleanText(formData.dateFontWeight) || 'normal',
+        color: cleanText(formData.templateDateColor) || cleanText(formData.dateColor) || '#333333',
+        align: cleanText(formData.templateDateAlign) || cleanText(formData.dateAlign) || 'center',
+        maxWidth: parseNumber(formData.templateDateMaxWidth, parseNumber(formData.dateMaxWidth, 700))
+      }
+    })
+  };
+}
+
 function buildRelativeBadgeUrl(slug) {
   return `../badges/${slug}/`;
 }
@@ -379,9 +442,7 @@ function buildBrowserBadgeUrl(badge) {
 
 function mergeTemplateFields(formData) {
   const badgeTemplateId = cleanText(formData.badgeTemplateId);
-  const template = badgeTemplateId
-    ? loadBadgeTemplates().find((entry) => entry.id === badgeTemplateId)
-    : null;
+  const template = badgeTemplateId ? loadBadgeTemplates().find((entry) => entry.id === badgeTemplateId) : null;
 
   if (badgeTemplateId && !template) {
     throw new Error('The selected badge template could not be found.');
@@ -389,59 +450,67 @@ function mergeTemplateFields(formData) {
 
   const siteConfig = loadSiteConfig();
   const certificateTemplate = loadCertificateTemplate();
+  const badgeImage = persistAssetField({
+    uploadValue: formData.badgeImageUploadDataUrl,
+    manualValue: cleanText(formData.badgeImage) || cleanText(template && template.badgeImage),
+    category: 'badge-icons',
+    preferredName: `${badgeTemplateId || cleanText(formData.badgeTitle) || 'badge'}-icon`
+  });
+  const certificateBackground = persistAssetField({
+    uploadValue: formData.certificateBackgroundUploadDataUrl,
+    manualValue: cleanText(formData.certificateBackground) || cleanText(template && template.certificateBackground) || cleanText(certificateTemplate.backgroundImage),
+    category: 'certificate-backgrounds',
+    preferredName: `${badgeTemplateId || cleanText(formData.badgeTitle) || 'badge'}-certificate`
+  });
 
-  return {
+  const merged = {
     awardeeName: cleanText(formData.awardeeName),
     issueDate: cleanText(formData.issueDate),
     badgeTemplateId,
     badgeTitle: cleanText(formData.badgeTitle) || cleanText(template && template.title),
-    badgeLabel:
-      cleanText(formData.badgeLabel) ||
-      cleanText(template && (template.badgeLabel || template.title)) ||
-      cleanText(formData.badgeTitle),
+    badgeLabel: cleanText(formData.badgeLabel) || cleanText(template && (template.badgeLabel || template.title)) || cleanText(formData.badgeTitle),
     description: cleanText(formData.description) || cleanText(template && template.description),
+    publicSummary: cleanText(formData.publicSummary) || cleanText(formData.description) || cleanText(template && (template.publicSummary || template.description)),
     meaning: cleanText(formData.meaning) || cleanText(template && template.meaning),
     criteria: cleanText(formData.criteria) || cleanText(template && template.criteria),
-    issuerName:
-      cleanText(formData.issuerName) ||
-      cleanText(template && template.issuerName) ||
-      cleanText(siteConfig.organizationName),
-    issuerOrganization:
-      cleanText(formData.issuerOrganization) ||
-      cleanText(template && template.issuerOrganization) ||
-      cleanText(siteConfig.organizationName),
-    issuerWebsite:
-      normalizeUrl(cleanText(formData.issuerWebsite) || cleanText(template && template.issuerWebsite) || cleanText(siteConfig.defaultCareerCenterUrl)),
-    careerCenterUrl:
-      normalizeUrl(cleanText(formData.careerCenterUrl) || cleanText(template && template.careerCenterUrl) || cleanText(siteConfig.defaultCareerCenterUrl)),
-    badgeImage: cleanText(formData.badgeImage) || cleanText(template && template.badgeImage),
-    certificateBackground:
-      cleanText(formData.certificateBackground) ||
-      cleanText(template && template.certificateBackground) ||
-      cleanText(certificateTemplate.backgroundImage)
+    evidenceLabel: cleanText(formData.evidenceLabel) || cleanText(template && template.evidenceLabel) || 'Evidence',
+    evidencePrompt: cleanText(formData.evidencePrompt) || cleanText(template && template.evidencePrompt),
+    evidenceExampleUrl: cleanText(formData.evidenceExampleUrl) || cleanText(template && template.evidenceExampleUrl),
+    evidenceDescription: cleanText(formData.evidenceDescription) || cleanText(template && template.evidenceDescription),
+    evidenceUrl: cleanText(formData.evidenceUrl),
+    evidenceText: cleanText(formData.evidenceText),
+    skills: parseListInput(formData.skills).length ? parseListInput(formData.skills) : parseListInput(template && template.skills),
+    standards: parseListInput(formData.standards).length ? parseListInput(formData.standards) : parseListInput(template && template.standards),
+    pathwayId: cleanText(formData.pathwayId) || cleanText(template && template.pathwayId),
+    pathwayTitle: cleanText(formData.pathwayTitle) || cleanText(template && template.pathwayTitle),
+    pathwayDescription: cleanText(formData.pathwayDescription) || cleanText(template && template.pathwayDescription),
+    pathwayOrder: parseNumber(formData.pathwayOrder, parseNumber(template && template.pathwayOrder, 1)),
+    pathwayItems: parseListInput(formData.pathwayItems).length ? parseListInput(formData.pathwayItems) : parseListInput(template && template.pathwayItems),
+    issuerName: cleanText(formData.issuerName) || cleanText(template && template.issuerName) || cleanText(siteConfig.organizationName),
+    issuerOrganization: cleanText(formData.issuerOrganization) || cleanText(template && template.issuerOrganization) || cleanText(siteConfig.organizationName),
+    issuerWebsite: normalizeUrl(cleanText(formData.issuerWebsite) || cleanText(template && template.issuerWebsite) || cleanText(siteConfig.defaultCareerCenterUrl)),
+    careerCenterUrl: normalizeUrl(cleanText(formData.careerCenterUrl) || cleanText(template && template.careerCenterUrl) || cleanText(siteConfig.defaultCareerCenterUrl)),
+    issuerContactEmail: cleanText(formData.issuerContactEmail) || cleanText(template && template.issuerContactEmail) || cleanText(siteConfig.supportEmail),
+    issuerVerificationNote: cleanText(formData.issuerVerificationNote) || cleanText(template && template.issuerVerificationNote) || cleanText(siteConfig.footerNote),
+    issuerRegistryUrl: normalizeUrl(cleanText(formData.issuerRegistryUrl) || cleanText(template && template.issuerRegistryUrl)),
+    issuerTrustLabel: cleanText(formData.issuerTrustLabel) || cleanText(template && template.issuerTrustLabel) || 'Official issuer',
+    badgeImage,
+    certificateBackground,
+    source: cleanText(formData.source) || 'admin'
   };
+
+  merged.certificateTemplateApplied = badgeTemplateId
+    ? getCertificateTemplateForTemplate({ ...template, certificateBackground }, certificateTemplate)
+    : normalizeCertificateConfig({ ...certificateTemplate, backgroundImage: certificateBackground }, certificateTemplate);
+
+  return merged;
 }
 
 function createBadgeRecord(formData) {
   const merged = mergeTemplateFields(formData);
-  const {
-    awardeeName,
-    issueDate,
-    badgeTemplateId,
-    badgeTitle,
-    badgeLabel,
-    description,
-    meaning,
-    criteria,
-    issuerName,
-    issuerOrganization,
-    issuerWebsite,
-    careerCenterUrl,
-    badgeImage,
-    certificateBackground
-  } = merged;
+  const { awardeeName, issueDate, badgeTemplateId, badgeTitle, badgeLabel, description, publicSummary, meaning, criteria, issuerName, issuerOrganization, issuerWebsite, careerCenterUrl, badgeImage, certificateBackground } = merged;
 
-  if (!awardeeName || !badgeTitle || !description || !meaning || !criteria) {
+  if (!awardeeName || !badgeTitle || !publicSummary || !meaning || !criteria) {
     throw new Error('Awardee name, badge title, summary, meaning, and criteria are required.');
   }
   if (!issuerName || !issuerOrganization || !issuerWebsite || !careerCenterUrl) {
@@ -465,18 +534,37 @@ function createBadgeRecord(formData) {
     badgeTitle,
     badgeLabel,
     description,
+    publicSummary,
     meaning,
     criteria,
+    evidenceLabel: merged.evidenceLabel,
+    evidencePrompt: merged.evidencePrompt,
+    evidenceExampleUrl: merged.evidenceExampleUrl,
+    evidenceDescription: merged.evidenceDescription,
+    evidenceUrl: merged.evidenceUrl,
+    evidenceText: merged.evidenceText,
+    skills: merged.skills,
+    standards: merged.standards,
+    pathwayId: merged.pathwayId,
+    pathwayTitle: merged.pathwayTitle,
+    pathwayDescription: merged.pathwayDescription,
+    pathwayOrder: merged.pathwayOrder,
+    pathwayItems: merged.pathwayItems,
     issuerName,
     issuerOrganization,
     issuerWebsite,
     careerCenterUrl,
+    issuerContactEmail: merged.issuerContactEmail,
+    issuerVerificationNote: merged.issuerVerificationNote,
+    issuerRegistryUrl: merged.issuerRegistryUrl,
+    issuerTrustLabel: merged.issuerTrustLabel,
     badgeImage,
     certificateBackground,
+    certificateTemplateApplied: merged.certificateTemplateApplied,
     status: 'valid',
     neverExpires: true,
     createdAt: new Date().toISOString(),
-    source: cleanText(formData.source) || 'admin'
+    source: merged.source
   };
 
   candidate.slug = buildBadgeSlug(candidate);
@@ -485,6 +573,9 @@ function createBadgeRecord(formData) {
   candidate.publicUrl = getPublicBadgeUrl(siteConfig, candidate.slug);
   candidate.repoPath = `docs/badges/${candidate.slug}/index.html`;
   candidate.detailsJsonPath = `docs/badges/${candidate.slug}/details.json`;
+  candidate.openBadgeJsonPath = `docs/badges/${candidate.slug}/open-badge.json`;
+  candidate.verifiableCredentialPath = `docs/badges/${candidate.slug}/credential.json`;
+  candidate.verificationHash = buildVerificationHash(candidate);
   return candidate;
 }
 
@@ -515,22 +606,55 @@ function saveTemplate(formData) {
   if (!id) {
     throw new Error('Template ID is required.');
   }
+
+  const existing = loadBadgeTemplates().find((entry) => entry.id === id) || null;
+  const badgeImage = persistAssetField({
+    uploadValue: formData.badgeImageUploadDataUrl,
+    manualValue: cleanText(formData.badgeImage) || cleanText(existing && existing.badgeImage),
+    category: 'badge-icons',
+    preferredName: `${id}-icon`
+  });
+  const certificateBackground = persistAssetField({
+    uploadValue: formData.certificateBackgroundUploadDataUrl,
+    manualValue: cleanText(formData.certificateBackground) || cleanText(existing && existing.certificateBackground),
+    category: 'certificate-backgrounds',
+    preferredName: `${id}-certificate`
+  });
+
   const template = {
     id,
     title: cleanText(formData.title),
     badgeLabel: cleanText(formData.badgeLabel),
     description: cleanText(formData.description),
+    publicSummary: cleanText(formData.publicSummary) || cleanText(formData.description),
     meaning: cleanText(formData.meaning),
     criteria: cleanText(formData.criteria),
+    evidenceLabel: cleanText(formData.evidenceLabel) || 'Evidence',
+    evidencePrompt: cleanText(formData.evidencePrompt),
+    evidenceExampleUrl: cleanText(formData.evidenceExampleUrl),
+    evidenceDescription: cleanText(formData.evidenceDescription),
+    skills: parseListInput(formData.skills),
+    standards: parseListInput(formData.standards),
+    pathwayId: cleanText(formData.pathwayId),
+    pathwayTitle: cleanText(formData.pathwayTitle),
+    pathwayDescription: cleanText(formData.pathwayDescription),
+    pathwayOrder: parseNumber(formData.pathwayOrder, 1),
+    pathwayItems: parseListInput(formData.pathwayItems),
     issuerName: cleanText(formData.issuerName),
     issuerOrganization: cleanText(formData.issuerOrganization),
     issuerWebsite: normalizeUrl(cleanText(formData.issuerWebsite)),
     careerCenterUrl: normalizeUrl(cleanText(formData.careerCenterUrl)),
-    badgeImage: cleanText(formData.badgeImage),
-    certificateBackground: cleanText(formData.certificateBackground)
+    issuerContactEmail: cleanText(formData.issuerContactEmail),
+    issuerVerificationNote: cleanText(formData.issuerVerificationNote),
+    issuerRegistryUrl: normalizeUrl(cleanText(formData.issuerRegistryUrl)),
+    issuerTrustLabel: cleanText(formData.issuerTrustLabel) || 'Official issuer',
+    badgeImage,
+    certificateBackground,
+    widgetLayout: cleanText(formData.widgetLayout) || 'stacked',
+    ...buildTemplateCertificateOverride(formData, certificateBackground)
   };
 
-  if (!template.title || !template.description || !template.meaning || !template.criteria) {
+  if (!template.title || !template.publicSummary || !template.meaning || !template.criteria) {
     throw new Error('Template title, summary, meaning, and criteria are required.');
   }
 
@@ -547,6 +671,7 @@ function saveTemplate(formData) {
 }
 
 function deleteTemplate(templateId) {
+
   const templates = loadBadgeTemplates().filter((entry) => entry.id !== templateId);
   saveBadgeTemplates(templates);
   createBackupSnapshot(`Deleted template ${templateId}`, 'admin');
@@ -913,7 +1038,7 @@ async function handleAdminRequest(request, response, urlObject) {
     const editId = urlObject.searchParams.get('edit') || '';
     const templates = loadBadgeTemplates();
     const editTemplate = templates.find((entry) => entry.id === editId) || null;
-    sendHtml(response, renderTemplatesPage({ templates, editTemplate, notice: queryNotice(urlObject) }));
+    sendHtml(response, renderTemplatesPage({ templates, editTemplate, notice: queryNotice(urlObject), siteConfig: loadSiteConfig(), certificateTemplate: loadCertificateTemplate() }));
     return;
   }
 
@@ -924,7 +1049,7 @@ async function handleAdminRequest(request, response, urlObject) {
       redirect(response, buildNoticeUrl('/admin/templates', 'Template saved and site rebuilt.'));
     } catch (error) {
       const templates = loadBadgeTemplates();
-      sendHtml(response, renderTemplatesPage({ templates, notice: error.message }), 400);
+      sendHtml(response, renderTemplatesPage({ templates, notice: error.message, siteConfig: loadSiteConfig(), certificateTemplate: loadCertificateTemplate() }), 400);
     }
     return;
   }
