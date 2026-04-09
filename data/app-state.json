@@ -715,30 +715,51 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "3a292b64-726a-4eba-80fc-afe52255fd8c",
+      "type": "badge_viewed",
+      "timestamp": "2026-04-09T17:01:02.146Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260407-0002",
+      "badgeSlug": "bri-career-champion-csuncc-20260407-0002",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Bri",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bri-career-champion-csuncc-20260407-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "995e6b6282d21f586f9e2e3f",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T16:57:16.227Z",
+    "updatedAt": "2026-04-09T17:01:02.146Z",
     "totals": {
       "badgesIssued": 7,
-      "badgeViews": 5,
+      "badgeViews": 6,
       "certificateDownloads": 0,
       "generatorOpens": 3,
       "generatorCompletions": 1,
       "conversionRate": 33.3,
-      "uniqueVisitorsApprox": 1
+      "uniqueVisitorsApprox": 2
     },
     "months": [
       {
         "key": "2026-04",
         "label": "Apr 2026",
         "badgesIssued": 7,
-        "badgeViews": 5,
+        "badgeViews": 6,
         "certificateDownloads": 0,
         "generatorOpens": 3,
         "generatorCompletions": 1,
-        "uniqueVisitorsApprox": 1,
+        "uniqueVisitorsApprox": 2,
         "conversionRate": 33.3
       }
     ],
@@ -747,11 +768,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 7,
-        "badgeViews": 5,
+        "badgeViews": 6,
         "certificateDownloads": 0,
         "generatorOpens": 3,
         "generatorCompletions": 1,
-        "uniqueVisitorsApprox": 1,
+        "uniqueVisitorsApprox": 2,
         "conversionRate": 33.3
       }
     ],
@@ -760,7 +781,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 7,
-        "badgeViews": 5,
+        "badgeViews": 6,
         "certificateDownloads": 0,
         "generatorOpens": 3,
         "generatorCompletions": 1,
@@ -788,9 +809,9 @@
         "badgeTemplateId": "career-champion",
         "publicUrl": "/badges/bri-career-champion-csuncc-20260407-0002/",
         "badgesIssued": 1,
-        "badgeViews": 1,
+        "badgeViews": 2,
         "certificateDownloads": 0,
-        "latestViewedAt": "2026-04-09T15:47:09.426Z"
+        "latestViewedAt": "2026-04-09T17:01:02.146Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -874,7 +895,7 @@
       {
         "awardeeName": "Bri",
         "badgesIssued": 1,
-        "badgeViews": 1,
+        "badgeViews": 2,
         "certificateDownloads": 0
       },
       {
