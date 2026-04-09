@@ -1040,14 +1040,35 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "3e3086ba-e7e3-4f85-a77e-8665a582a517",
+      "type": "badge_viewed",
+      "timestamp": "2026-04-09T17:36:32.931Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260409-0002",
+      "badgeSlug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Mikayla Agregado",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/mikayla-agregado-career-champion-csuncc-20260409-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "6894ae26646f5d0637840d54",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T17:20:11.691Z",
+    "updatedAt": "2026-04-09T17:36:32.932Z",
     "totals": {
       "badgesIssued": 8,
-      "badgeViews": 10,
+      "badgeViews": 11,
       "certificateDownloads": 1,
       "generatorOpens": 7,
       "generatorCompletions": 2,
@@ -1059,7 +1080,7 @@
         "key": "2026-04",
         "label": "Apr 2026",
         "badgesIssued": 8,
-        "badgeViews": 10,
+        "badgeViews": 11,
         "certificateDownloads": 1,
         "generatorOpens": 7,
         "generatorCompletions": 2,
@@ -1072,7 +1093,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 8,
-        "badgeViews": 10,
+        "badgeViews": 11,
         "certificateDownloads": 1,
         "generatorOpens": 7,
         "generatorCompletions": 2,
@@ -1085,7 +1106,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 8,
-        "badgeViews": 10,
+        "badgeViews": 11,
         "certificateDownloads": 1,
         "generatorOpens": 5,
         "generatorCompletions": 2,
@@ -1116,6 +1137,18 @@
         "latestViewedAt": "2026-04-09T17:15:40.439Z"
       },
       {
+        "slug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
+        "badgeId": "CSUNCC-20260409-0002",
+        "awardeeName": "Mikayla Agregado",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerchampionsbadge.onrender.com/badges/mikayla-agregado-career-champion-csuncc-20260409-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-04-09T17:36:32.931Z"
+      },
+      {
         "slug": "bri-career-champion-csuncc-20260407-0002",
         "badgeId": "CSUNCC-20260407-0002",
         "awardeeName": "Bri",
@@ -1126,18 +1159,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-04-09T17:01:02.146Z"
-      },
-      {
-        "slug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
-        "badgeId": "CSUNCC-20260409-0002",
-        "awardeeName": "Mikayla Agregado",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerchampionsbadge.onrender.com/badges/mikayla-agregado-career-champion-csuncc-20260409-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-04-09T17:20:11.690Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -1228,16 +1249,16 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Mikayla Agregado",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Bri",
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Mikayla Agregado",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Maddie Paul",
