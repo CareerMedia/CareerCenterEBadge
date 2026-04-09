@@ -2080,39 +2080,18 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
-    },
-    {
-      "id": "cd209088-560b-43b8-b620-0fc6f0f83ae0",
-      "type": "generator_completed",
-      "timestamp": "2026-04-09T19:21:35.702Z",
-      "monthKey": "2026-04",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260409-0005",
-      "badgeSlug": "bri-career-champion-csuncc-20260409-0005",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Bri",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bri-career-champion-csuncc-20260409-0005/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T19:21:35.703Z",
+    "updatedAt": "2026-04-09T19:21:35.687Z",
     "totals": {
       "badgesIssued": 11,
       "badgeViews": 24,
       "certificateDownloads": 1,
       "generatorOpens": 25,
-      "generatorCompletions": 5,
-      "conversionRate": 20,
+      "generatorCompletions": 4,
+      "conversionRate": 16,
       "uniqueVisitorsApprox": 5
     },
     "months": [
@@ -2123,9 +2102,9 @@
         "badgeViews": 24,
         "certificateDownloads": 1,
         "generatorOpens": 25,
-        "generatorCompletions": 5,
+        "generatorCompletions": 4,
         "uniqueVisitorsApprox": 5,
-        "conversionRate": 20
+        "conversionRate": 16
       }
     ],
     "years": [
@@ -2136,9 +2115,9 @@
         "badgeViews": 24,
         "certificateDownloads": 1,
         "generatorOpens": 25,
-        "generatorCompletions": 5,
+        "generatorCompletions": 4,
         "uniqueVisitorsApprox": 5,
-        "conversionRate": 20
+        "conversionRate": 16
       }
     ],
     "badgeTypes": [
@@ -2149,8 +2128,8 @@
         "badgeViews": 24,
         "certificateDownloads": 1,
         "generatorOpens": 18,
-        "generatorCompletions": 5,
-        "conversionRate": 27.8
+        "generatorCompletions": 4,
+        "conversionRate": 22.2
       },
       {
         "id": "unassigned",
@@ -2313,8 +2292,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 7,
-        "completions": 3,
-        "conversionRate": 42.9
+        "completions": 2,
+        "conversionRate": 28.6
       }
     ],
     "recipientStats": [
