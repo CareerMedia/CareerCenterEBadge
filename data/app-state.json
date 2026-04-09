@@ -474,16 +474,37 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
+    },
+    {
+      "id": "7ee6cee9-583e-42c4-818c-ba0ac175e2bb",
+      "type": "generator_opened",
+      "timestamp": "2026-04-09T16:51:45.597Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-champion",
+      "generatorLabel": "Career Champion widget",
+      "source": "generator-page",
+      "visitorId": "6894ae26646f5d0637840d54",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T16:50:12.103Z",
+    "updatedAt": "2026-04-09T16:51:45.598Z",
     "totals": {
       "badgesIssued": 6,
       "badgeViews": 1,
       "certificateDownloads": 0,
-      "generatorOpens": 1,
+      "generatorOpens": 2,
       "generatorCompletions": 0,
       "conversionRate": 0,
       "uniqueVisitorsApprox": 1
@@ -495,7 +516,7 @@
         "badgesIssued": 6,
         "badgeViews": 1,
         "certificateDownloads": 0,
-        "generatorOpens": 1,
+        "generatorOpens": 2,
         "generatorCompletions": 0,
         "uniqueVisitorsApprox": 1,
         "conversionRate": 0
@@ -508,7 +529,7 @@
         "badgesIssued": 6,
         "badgeViews": 1,
         "certificateDownloads": 0,
-        "generatorOpens": 1,
+        "generatorOpens": 2,
         "generatorCompletions": 0,
         "uniqueVisitorsApprox": 1,
         "conversionRate": 0
@@ -521,7 +542,7 @@
         "badgesIssued": 6,
         "badgeViews": 1,
         "certificateDownloads": 0,
-        "generatorOpens": 1,
+        "generatorOpens": 2,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -606,7 +627,7 @@
         "label": "Career Champion generator",
         "pageKind": "specific",
         "templateId": "career-champion",
-        "opens": 1,
+        "opens": 2,
         "completions": 0,
         "conversionRate": 0
       }
