@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T15:44:31.984Z",
+  "updatedAt": "2026-04-09T15:47:09.427Z",
   "totals": {
     "badgesIssued": 6,
-    "badgeViews": 0,
+    "badgeViews": 1,
     "certificateDownloads": 0,
     "generatorOpens": 0,
     "generatorCompletions": 0,
     "conversionRate": 0,
-    "uniqueVisitorsApprox": 0
+    "uniqueVisitorsApprox": 1
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 6,
-      "badgeViews": 0,
+      "badgeViews": 1,
       "certificateDownloads": 0,
       "generatorOpens": 0,
       "generatorCompletions": 0,
-      "uniqueVisitorsApprox": 0,
+      "uniqueVisitorsApprox": 1,
       "conversionRate": 0
     }
   ],
@@ -28,11 +28,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 6,
-      "badgeViews": 0,
+      "badgeViews": 1,
       "certificateDownloads": 0,
       "generatorOpens": 0,
       "generatorCompletions": 0,
-      "uniqueVisitorsApprox": 0,
+      "uniqueVisitorsApprox": 1,
       "conversionRate": 0
     }
   ],
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 6,
-      "badgeViews": 0,
+      "badgeViews": 1,
       "certificateDownloads": 0,
       "generatorOpens": 0,
       "generatorCompletions": 0,
@@ -57,9 +57,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "/badges/bri-career-champion-csuncc-20260407-0002/",
       "badgesIssued": 1,
-      "badgeViews": 0,
+      "badgeViews": 1,
       "certificateDownloads": 0,
-      "latestViewedAt": ""
+      "latestViewedAt": "2026-04-09T15:47:09.426Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
@@ -125,14 +125,14 @@
   "generatorPages": [],
   "recipientStats": [
     {
-      "awardeeName": "Maddie Paul",
-      "badgesIssued": 2,
-      "badgeViews": 0,
+      "awardeeName": "Bri",
+      "badgesIssued": 1,
+      "badgeViews": 1,
       "certificateDownloads": 0
     },
     {
-      "awardeeName": "Bri",
-      "badgesIssued": 1,
+      "awardeeName": "Maddie Paul",
+      "badgesIssued": 2,
       "badgeViews": 0,
       "certificateDownloads": 0
     },
