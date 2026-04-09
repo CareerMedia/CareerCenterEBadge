@@ -977,39 +977,18 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
-    },
-    {
-      "id": "ee485386-48cb-42c2-9790-cfa382c6741d",
-      "type": "generator_completed",
-      "timestamp": "2026-04-09T17:19:45.545Z",
-      "monthKey": "2026-04",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260409-0002",
-      "badgeSlug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Mikayla Agregado",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/mikayla-agregado-career-champion-csuncc-20260409-0002/",
-      "pageKind": "specific",
-      "generatorKey": "career-champion",
-      "generatorLabel": "Career Champion generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T17:19:45.545Z",
+    "updatedAt": "2026-04-09T17:19:45.511Z",
     "totals": {
       "badgesIssued": 8,
       "badgeViews": 9,
       "certificateDownloads": 0,
       "generatorOpens": 7,
-      "generatorCompletions": 2,
-      "conversionRate": 28.6,
+      "generatorCompletions": 1,
+      "conversionRate": 14.3,
       "uniqueVisitorsApprox": 4
     },
     "months": [
@@ -1020,9 +999,9 @@
         "badgeViews": 9,
         "certificateDownloads": 0,
         "generatorOpens": 7,
-        "generatorCompletions": 2,
+        "generatorCompletions": 1,
         "uniqueVisitorsApprox": 4,
-        "conversionRate": 28.6
+        "conversionRate": 14.3
       }
     ],
     "years": [
@@ -1033,9 +1012,9 @@
         "badgeViews": 9,
         "certificateDownloads": 0,
         "generatorOpens": 7,
-        "generatorCompletions": 2,
+        "generatorCompletions": 1,
         "uniqueVisitorsApprox": 4,
-        "conversionRate": 28.6
+        "conversionRate": 14.3
       }
     ],
     "badgeTypes": [
@@ -1046,8 +1025,8 @@
         "badgeViews": 9,
         "certificateDownloads": 0,
         "generatorOpens": 5,
-        "generatorCompletions": 2,
-        "conversionRate": 40
+        "generatorCompletions": 1,
+        "conversionRate": 20
       },
       {
         "id": "unassigned",
@@ -1165,8 +1144,8 @@
         "pageKind": "specific",
         "templateId": "career-champion",
         "opens": 5,
-        "completions": 2,
-        "conversionRate": 40
+        "completions": 1,
+        "conversionRate": 20
       },
       {
         "key": "general",

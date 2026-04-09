@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T17:19:03.204Z",
+  "updatedAt": "2026-04-09T17:19:45.545Z",
   "totals": {
-    "badgesIssued": 7,
+    "badgesIssued": 8,
     "badgeViews": 9,
     "certificateDownloads": 0,
     "generatorOpens": 7,
-    "generatorCompletions": 1,
-    "conversionRate": 14.3,
+    "generatorCompletions": 2,
+    "conversionRate": 28.6,
     "uniqueVisitorsApprox": 4
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 7,
+      "badgesIssued": 8,
       "badgeViews": 9,
       "certificateDownloads": 0,
       "generatorOpens": 7,
-      "generatorCompletions": 1,
+      "generatorCompletions": 2,
       "uniqueVisitorsApprox": 4,
-      "conversionRate": 14.3
+      "conversionRate": 28.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 7,
+      "badgesIssued": 8,
       "badgeViews": 9,
       "certificateDownloads": 0,
       "generatorOpens": 7,
-      "generatorCompletions": 1,
+      "generatorCompletions": 2,
       "uniqueVisitorsApprox": 4,
-      "conversionRate": 14.3
+      "conversionRate": 28.6
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 7,
+      "badgesIssued": 8,
       "badgeViews": 9,
       "certificateDownloads": 0,
       "generatorOpens": 5,
-      "generatorCompletions": 1,
-      "conversionRate": 20
+      "generatorCompletions": 2,
+      "conversionRate": 40
     },
     {
       "id": "unassigned",
@@ -142,6 +142,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
+      "badgeId": "CSUNCC-20260409-0002",
+      "awardeeName": "Mikayla Agregado",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/mikayla-agregado-career-champion-csuncc-20260409-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -151,8 +163,8 @@
       "pageKind": "specific",
       "templateId": "career-champion",
       "opens": 5,
-      "completions": 1,
-      "conversionRate": 20
+      "completions": 2,
+      "conversionRate": 40
     },
     {
       "key": "general",
@@ -191,6 +203,12 @@
     },
     {
       "awardeeName": "Harsh Ahir",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Mikayla Agregado",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
