@@ -44,10 +44,33 @@
   function notifyWidgetHeight() {
     const widgetData = window.PUBLIC_GENERATOR_DATA;
     if (!widgetData || !widgetData.widgetMode || window.parent === window) return;
+    const nextHeight = Math.ceil(Math.max(
+      document.documentElement.scrollHeight || 0,
+      document.body.scrollHeight || 0,
+      document.documentElement.offsetHeight || 0,
+      document.body.offsetHeight || 0
+    ));
     window.parent.postMessage({
       type: 'csun-ebadge-widget-height',
-      height: Math.ceil(document.documentElement.scrollHeight || document.body.scrollHeight || 0)
+      height: nextHeight
     }, '*');
+  }
+
+  function initializeWidgetAutoHeight() {
+    const widgetData = window.PUBLIC_GENERATOR_DATA;
+    if (!widgetData || !widgetData.widgetMode) return;
+    notifyWidgetHeight();
+    window.setTimeout(notifyWidgetHeight, 120);
+    window.setTimeout(notifyWidgetHeight, 500);
+    window.addEventListener('load', notifyWidgetHeight);
+    window.addEventListener('resize', notifyWidgetHeight);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(() => notifyWidgetHeight()).catch(() => {});
+    }
+    if (typeof ResizeObserver === 'function') {
+      const observer = new ResizeObserver(() => notifyWidgetHeight());
+      observer.observe(document.body);
+    }
   }
 
   function loadImage(src) {
@@ -352,8 +375,18 @@
       }
     }
 
+    const generatorLayout = form.closest('.generator-layout');
+
     function getSelectedTemplate() {
       return templates.find((template) => template.id === templateSelect.value) || null;
+    }
+
+    function applyWidgetLayout(selected) {
+      if (!data.widgetMode || !generatorLayout) return;
+      generatorLayout.classList.remove('generator-layout--widget-split', 'generator-layout--widget-stacked');
+      const layout = selected && selected.widgetLayout === 'stacked' ? 'stacked' : 'split';
+      generatorLayout.classList.add('generator-layout--widget-' + layout);
+      notifyWidgetHeight();
     }
 
     function activeCertificateTemplate() {
@@ -382,6 +415,7 @@
         templateImage.style.display = 'none';
         templateImage.removeAttribute('src');
         if (templateImageEmpty) templateImageEmpty.style.display = 'block';
+        applyWidgetLayout(null);
         return;
       }
 
@@ -392,6 +426,8 @@
       templateCareerCenter.innerHTML = selected.careerCenterUrl
         ? `<a class="text-link" href="${escapeAttribute(selected.careerCenterUrl)}" target="_blank" rel="noreferrer">${escapeHtml(selected.careerCenterUrl)}</a>`
         : 'Career Center link unavailable.';
+
+      applyWidgetLayout(selected);
 
       if (selected.badgeImage) {
         templateImage.src = selected.badgeImage;
@@ -565,6 +601,7 @@
     }
 
     updateTemplatePanel();
+    initializeWidgetAutoHeight();
     notifyWidgetHeight();
 
     const initialTemplate = getSelectedTemplate();
