@@ -1450,14 +1450,35 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "a44c19d7-d3de-4269-8dd3-af5ded1b5e6f",
+      "type": "badge_viewed",
+      "timestamp": "2026-04-09T18:55:41.240Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260409-0002",
+      "badgeSlug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Mikayla Agregado",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/mikayla-agregado-career-champion-csuncc-20260409-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "6894ae26646f5d0637840d54",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T18:50:24.790Z",
+    "updatedAt": "2026-04-09T18:55:41.241Z",
     "totals": {
       "badgesIssued": 8,
-      "badgeViews": 16,
+      "badgeViews": 17,
       "certificateDownloads": 1,
       "generatorOpens": 20,
       "generatorCompletions": 2,
@@ -1469,7 +1490,7 @@
         "key": "2026-04",
         "label": "Apr 2026",
         "badgesIssued": 8,
-        "badgeViews": 16,
+        "badgeViews": 17,
         "certificateDownloads": 1,
         "generatorOpens": 20,
         "generatorCompletions": 2,
@@ -1482,7 +1503,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 8,
-        "badgeViews": 16,
+        "badgeViews": 17,
         "certificateDownloads": 1,
         "generatorOpens": 20,
         "generatorCompletions": 2,
@@ -1495,7 +1516,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 8,
-        "badgeViews": 16,
+        "badgeViews": 17,
         "certificateDownloads": 1,
         "generatorOpens": 18,
         "generatorCompletions": 2,
@@ -1521,9 +1542,9 @@
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerchampionsbadge.onrender.com/badges/mikayla-agregado-career-champion-csuncc-20260409-0002/",
         "badgesIssued": 1,
-        "badgeViews": 7,
+        "badgeViews": 8,
         "certificateDownloads": 1,
-        "latestViewedAt": "2026-04-09T18:50:24.785Z"
+        "latestViewedAt": "2026-04-09T18:55:41.240Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260409-0001",
@@ -1634,7 +1655,7 @@
       {
         "awardeeName": "Mikayla Agregado",
         "badgesIssued": 1,
-        "badgeViews": 7,
+        "badgeViews": 8,
         "certificateDownloads": 1
       },
       {
