@@ -69,7 +69,9 @@
       standards: document.getElementById('standards'),
       pathwayTitle: document.getElementById('pathwayTitle'),
       pathwayOrder: document.getElementById('pathwayOrder'),
-      pathwayItems: document.getElementById('pathwayItems')
+      pathwayItems: document.getElementById('pathwayItems'),
+      evidenceUrl: document.getElementById('evidenceUrl'),
+      evidenceText: document.getElementById('evidenceText')
     };
 
     select.addEventListener('change', () => {
@@ -94,6 +96,8 @@
       setFieldValue(fields.pathwayTitle, template.pathwayTitle || '');
       setFieldValue(fields.pathwayOrder, template.pathwayOrder || 1);
       setFieldValue(fields.pathwayItems, listToText(template.pathwayItems));
+      if (fields.evidenceUrl && !fields.evidenceUrl.value) setFieldValue(fields.evidenceUrl, template.evidenceExampleUrl || '');
+      if (fields.evidenceText && !fields.evidenceText.value) setFieldValue(fields.evidenceText, template.evidencePrompt || template.evidenceDescription || '');
     });
   }
 
@@ -144,74 +148,112 @@
     const nameY = document.getElementById('templateNameY');
     const dateX = document.getElementById('templateDateX');
     const dateY = document.getElementById('templateDateY');
-    const nameDot = editor.querySelector('[data-coordinate-target="name"]');
-    const dateDot = editor.querySelector('[data-coordinate-target="date"]');
+    const nameFontSize = document.getElementById('templateNameFontSize');
+    const dateFontSize = document.getElementById('templateDateFontSize');
+    const nameMarker = editor.querySelector('[data-coordinate-target="name"]');
+    const dateMarker = editor.querySelector('[data-coordinate-target="date"]');
+    const nameDot = nameMarker && nameMarker.querySelector('.coordinate-dot');
+    const dateDot = dateMarker && dateMarker.querySelector('.coordinate-dot');
+    const namePreview = document.getElementById('coordinatePreviewName');
+    const datePreview = document.getElementById('coordinatePreviewDate');
+    const overrideToggle = document.getElementById('certificateTemplateOverrideEnabled');
+
+    function syncEnabledState() {
+      const enabled = !overrideToggle || overrideToggle.checked;
+      editor.classList.toggle('coordinate-preview--disabled', !enabled);
+      [nameDot, dateDot].forEach((dot) => {
+        if (dot) dot.disabled = !enabled;
+      });
+    }
+
+    function updatePreviewTypography() {
+      const rect = image.getBoundingClientRect();
+      const naturalWidth = image.naturalWidth || rect.width || 1;
+      const scale = rect.width / naturalWidth;
+      if (namePreview && nameFontSize) {
+        const size = Math.max(12, Math.round(Number(nameFontSize.value || 48) * scale));
+        namePreview.style.fontSize = `${size}px`;
+      }
+      if (datePreview && dateFontSize) {
+        const size = Math.max(11, Math.round(Number(dateFontSize.value || 32) * scale));
+        datePreview.style.fontSize = `${size}px`;
+      }
+    }
 
     function updateDotPositions() {
       const rect = image.getBoundingClientRect();
       const naturalWidth = image.naturalWidth || rect.width || 1;
       const naturalHeight = image.naturalHeight || rect.height || 1;
-      const place = (dot, xField, yField) => {
-        if (!dot || !xField || !yField) return;
+      const place = (marker, xField, yField) => {
+        if (!marker || !xField || !yField || !rect.width || !rect.height) return;
         const x = Number(xField.value || 0);
         const y = Number(yField.value || 0);
         const left = (x / naturalWidth) * rect.width;
         const top = (y / naturalHeight) * rect.height;
-        dot.style.left = `${left}px`;
-        dot.style.top = `${top}px`;
+        marker.style.left = `${left}px`;
+        marker.style.top = `${top}px`;
       };
-      place(nameDot, nameX, nameY);
-      place(dateDot, dateX, dateY);
+      place(nameMarker, nameX, nameY);
+      place(dateMarker, dateX, dateY);
+      updatePreviewTypography();
     }
 
-    function bindDrag(dot, xField, yField) {
-      if (!dot || !xField || !yField) return;
+    function bindDrag(handle, marker, xField, yField) {
+      if (!handle || !marker || !xField || !yField) return;
       let dragging = false;
       function move(event) {
         if (!dragging) return;
         const rect = image.getBoundingClientRect();
         const naturalWidth = image.naturalWidth || rect.width || 1;
         const naturalHeight = image.naturalHeight || rect.height || 1;
-        const clientX = event.touches ? event.touches[0].clientX : event.clientX;
-        const clientY = event.touches ? event.touches[0].clientY : event.clientY;
-        const x = Math.max(0, Math.min(rect.width, clientX - rect.left));
-        const y = Math.max(0, Math.min(rect.height, clientY - rect.top));
+        const point = event.touches ? event.touches[0] : event;
+        const x = Math.max(0, Math.min(rect.width, point.clientX - rect.left));
+        const y = Math.max(0, Math.min(rect.height, point.clientY - rect.top));
         xField.value = Math.round((x / rect.width) * naturalWidth);
         yField.value = Math.round((y / rect.height) * naturalHeight);
         updateDotPositions();
       }
-      const stop = () => {
+      function stop() {
         dragging = false;
         window.removeEventListener('mousemove', move);
         window.removeEventListener('mouseup', stop);
         window.removeEventListener('touchmove', move);
         window.removeEventListener('touchend', stop);
-      };
-      const start = (event) => {
+      }
+      function start(event) {
+        if (overrideToggle && !overrideToggle.checked) return;
         event.preventDefault();
         dragging = true;
         window.addEventListener('mousemove', move);
         window.addEventListener('mouseup', stop);
         window.addEventListener('touchmove', move, { passive: false });
         window.addEventListener('touchend', stop);
-      };
-      dot.addEventListener('mousedown', start);
-      dot.addEventListener('touchstart', start, { passive: false });
+      }
+      [handle, marker].forEach((element) => {
+        if (!element) return;
+        element.addEventListener('mousedown', start);
+        element.addEventListener('touchstart', start, { passive: false });
+      });
       [xField, yField].forEach((field) => field && field.addEventListener('input', updateDotPositions));
     }
 
-    bindDrag(nameDot, nameX, nameY);
-    bindDrag(dateDot, dateX, dateY);
+    bindDrag(nameDot, nameMarker, nameX, nameY);
+    bindDrag(dateDot, dateMarker, dateX, dateY);
+    [nameFontSize, dateFontSize].forEach((field) => field && field.addEventListener('input', updateDotPositions));
+
     const backgroundInput = document.getElementById('templateCertificateBackground');
     if (backgroundInput) {
       backgroundInput.addEventListener('change', () => {
-        if (backgroundInput.value.trim()) {
-          image.src = backgroundInput.value.trim();
-        }
+        const value = backgroundInput.value.trim();
+        if (value) image.src = value;
       });
+    }
+    if (overrideToggle) {
+      overrideToggle.addEventListener('change', syncEnabledState);
     }
     image.addEventListener('load', updateDotPositions);
     window.addEventListener('resize', updateDotPositions);
+    syncEnabledState();
     updateDotPositions();
   }
 

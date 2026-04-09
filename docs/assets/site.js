@@ -656,16 +656,20 @@
   }
 
   function bindCopyButtons() {
-    document.querySelectorAll('[data-copy-url]').forEach((button) => {
+    document.querySelectorAll('[data-copy-url], [data-copy-text]').forEach((button) => {
       button.addEventListener('click', async () => {
-        const rawValue = button.getAttribute('data-copy-url') || window.location.href;
-        const value = /^https?:/i.test(rawValue) ? rawValue : makeAbsoluteUrl(rawValue);
+        const rawText = button.getAttribute('data-copy-text');
+        const rawUrl = button.getAttribute('data-copy-url');
+        const value = rawText != null
+          ? rawText
+          : (/^https?:/i.test(rawUrl || '') ? rawUrl : makeAbsoluteUrl(rawUrl || window.location.href));
         const ok = await copyText(value);
         if (!ok) return;
-        const original = button.textContent;
-        button.textContent = 'Copied';
+        const labelTarget = button.matches('button') ? button : button.querySelector('small') || button;
+        const original = labelTarget.textContent;
+        labelTarget.textContent = 'Copied';
         window.setTimeout(() => {
-          button.textContent = original;
+          labelTarget.textContent = original;
         }, 1400);
       });
     });

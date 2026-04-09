@@ -348,9 +348,20 @@ textarea { min-height: 120px; resize: vertical; }
 .checkbox-inline {
   display: inline-flex;
   align-items: center;
-  gap: 0.65rem;
+  gap: 0.7rem;
   font-weight: 600;
   color: #334155;
+  flex: 0 1 360px;
+  justify-content: flex-end;
+  text-align: left;
+}
+.checkbox-inline input {
+  flex: 0 0 auto;
+  margin: 0;
+}
+.checkbox-inline span {
+  display: inline-block;
+  line-height: 1.35;
 }
 .coordinate-editor-grid {
   display: grid;
@@ -363,7 +374,7 @@ textarea { min-height: 120px; resize: vertical; }
   border-radius: 18px;
   overflow: hidden;
   border: 1px solid rgba(15,23,42,0.08);
-  background: rgba(248,250,252,0.92);
+  background: linear-gradient(180deg, rgba(248,250,252,0.96), rgba(241,245,249,0.94));
   min-height: 280px;
 }
 .certificate-coordinate-preview img {
@@ -371,21 +382,85 @@ textarea { min-height: 120px; resize: vertical; }
   width: 100%;
   height: auto;
 }
-.coordinate-dot {
+.coordinate-marker {
   position: absolute;
-  width: 18px;
-  height: 18px;
-  border-radius: 999px;
   transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  z-index: 3;
+  max-width: min(75%, 320px);
+}
+.coordinate-marker--date { align-items: flex-start; }
+.coordinate-dot {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  border-radius: 999px;
   border: 3px solid #fff;
-  box-shadow: 0 10px 24px rgba(15,23,42,0.22);
+  box-shadow: 0 10px 24px rgba(15,23,42,0.22), 0 0 0 6px rgba(255,255,255,0.3);
   cursor: grab;
   z-index: 2;
 }
+.coordinate-dot:active { cursor: grabbing; }
 .coordinate-dot--name { background: #d22030; }
 .coordinate-dot--date { background: #0f172a; }
+.coordinate-chip {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.12rem;
+  min-width: 0;
+  padding: 0.58rem 0.8rem;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.94);
+  border: 1px solid rgba(15,23,42,0.08);
+  box-shadow: 0 10px 30px rgba(15,23,42,0.12);
+  backdrop-filter: blur(8px);
+}
+.coordinate-chip__eyebrow {
+  font-size: 0.68rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #64748b;
+  font-weight: 700;
+}
+.coordinate-chip__value {
+  display: block;
+  line-height: 1.05;
+  color: #0f172a;
+  white-space: nowrap;
+}
+.coordinate-chip--name .coordinate-chip__value {
+  font-family: "Times New Roman", Georgia, serif;
+  font-weight: 700;
+}
+.coordinate-chip--date .coordinate-chip__value {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+}
+.coordinate-preview--disabled .coordinate-marker {
+  opacity: 0.45;
+  filter: grayscale(0.1);
+}
 @media (max-width: 1080px) {
   .coordinate-editor-grid {
     grid-template-columns: 1fr;
+  }
+  .checkbox-inline {
+    justify-content: flex-start;
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 720px) {
+  .coordinate-marker {
+    max-width: 88%;
+  }
+  .coordinate-chip {
+    padding: 0.5rem 0.68rem;
+  }
+  .coordinate-chip__value {
+    font-size: 0.92rem !important;
   }
 }

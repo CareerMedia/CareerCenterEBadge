@@ -410,6 +410,37 @@ textarea { min-height: 120px; resize: vertical; }
 .detail-list dt { color: var(--muted); font-weight: 600; }
 .detail-list dd { margin: 0; text-align: right; max-width: 70%; }
 .detail-list--stacked dd { text-align: left; max-width: 100%; }
+.hash-box {
+  display: grid;
+  gap: 0.4rem;
+  width: min(100%, 340px);
+  padding: 0.8rem 0.9rem;
+  border-radius: 16px;
+  border: 1px solid rgba(24,22,31,0.08);
+  background: rgba(24,22,31,0.04);
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.hash-box span {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  scrollbar-width: thin;
+}
+.hash-box small {
+  color: var(--muted);
+  font-size: 0.74rem;
+  letter-spacing: 0.02em;
+}
+.hash-box:hover {
+  border-color: rgba(210,32,48,0.2);
+  box-shadow: 0 10px 24px rgba(24,22,31,0.08);
+}
 .divider { height: 1px; background: rgba(24,22,31,0.08); margin: 22px 0; }
 .info-callout {
   margin-top: 20px;
