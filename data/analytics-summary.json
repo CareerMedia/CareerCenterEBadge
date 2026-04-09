@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T16:56:56.669Z",
+  "updatedAt": "2026-04-09T16:57:16.227Z",
   "totals": {
     "badgesIssued": 7,
-    "badgeViews": 3,
+    "badgeViews": 5,
     "certificateDownloads": 0,
     "generatorOpens": 3,
     "generatorCompletions": 1,
@@ -15,7 +15,7 @@
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 7,
-      "badgeViews": 3,
+      "badgeViews": 5,
       "certificateDownloads": 0,
       "generatorOpens": 3,
       "generatorCompletions": 1,
@@ -28,7 +28,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 7,
-      "badgeViews": 3,
+      "badgeViews": 5,
       "certificateDownloads": 0,
       "generatorOpens": 3,
       "generatorCompletions": 1,
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 7,
-      "badgeViews": 3,
+      "badgeViews": 5,
       "certificateDownloads": 0,
       "generatorOpens": 3,
       "generatorCompletions": 1,
@@ -49,6 +49,18 @@
     }
   ],
   "badgePages": [
+    {
+      "slug": "bryce-simon-career-champion-csuncc-20260409-0001",
+      "badgeId": "CSUNCC-20260409-0001",
+      "awardeeName": "Bryce Simon",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "/badges/bryce-simon-career-champion-csuncc-20260409-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-04-09T16:57:16.226Z"
+    },
     {
       "slug": "bri-career-champion-csuncc-20260407-0002",
       "badgeId": "CSUNCC-20260407-0002",
@@ -72,18 +84,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-04-09T16:53:24.919Z"
-    },
-    {
-      "slug": "bryce-simon-career-champion-csuncc-20260409-0001",
-      "badgeId": "CSUNCC-20260409-0001",
-      "awardeeName": "Bryce Simon",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "/badges/bryce-simon-career-champion-csuncc-20260409-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-04-09T16:56:56.668Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
@@ -149,7 +149,7 @@
     {
       "awardeeName": "Bryce Simon",
       "badgesIssued": 2,
-      "badgeViews": 1,
+      "badgeViews": 3,
       "certificateDownloads": 0
     },
     {
