@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T19:21:20.298Z",
+  "updatedAt": "2026-04-09T19:21:35.703Z",
   "totals": {
-    "badgesIssued": 10,
+    "badgesIssued": 11,
     "badgeViews": 24,
     "certificateDownloads": 1,
-    "generatorOpens": 24,
-    "generatorCompletions": 4,
-    "conversionRate": 16.7,
-    "uniqueVisitorsApprox": 4
+    "generatorOpens": 25,
+    "generatorCompletions": 5,
+    "conversionRate": 20,
+    "uniqueVisitorsApprox": 5
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 10,
+      "badgesIssued": 11,
       "badgeViews": 24,
       "certificateDownloads": 1,
-      "generatorOpens": 24,
-      "generatorCompletions": 4,
-      "uniqueVisitorsApprox": 4,
-      "conversionRate": 16.7
+      "generatorOpens": 25,
+      "generatorCompletions": 5,
+      "uniqueVisitorsApprox": 5,
+      "conversionRate": 20
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 10,
+      "badgesIssued": 11,
       "badgeViews": 24,
       "certificateDownloads": 1,
-      "generatorOpens": 24,
-      "generatorCompletions": 4,
-      "uniqueVisitorsApprox": 4,
-      "conversionRate": 16.7
+      "generatorOpens": 25,
+      "generatorCompletions": 5,
+      "uniqueVisitorsApprox": 5,
+      "conversionRate": 20
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 10,
+      "badgesIssued": 11,
       "badgeViews": 24,
       "certificateDownloads": 1,
       "generatorOpens": 18,
-      "generatorCompletions": 4,
-      "conversionRate": 22.2
+      "generatorCompletions": 5,
+      "conversionRate": 27.8
     },
     {
       "id": "unassigned",
@@ -53,7 +53,7 @@
       "badgesIssued": 0,
       "badgeViews": 0,
       "certificateDownloads": 0,
-      "generatorOpens": 6,
+      "generatorOpens": 7,
       "generatorCompletions": 0,
       "conversionRate": 0
     }
@@ -178,6 +178,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "bri-career-champion-csuncc-20260409-0005",
+      "badgeId": "CSUNCC-20260409-0005",
+      "awardeeName": "Bri",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bri-career-champion-csuncc-20260409-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -195,9 +207,9 @@
       "label": "General generator",
       "pageKind": "general",
       "templateId": "",
-      "opens": 6,
-      "completions": 2,
-      "conversionRate": 33.3
+      "opens": 7,
+      "completions": 3,
+      "conversionRate": 42.9
     }
   ],
   "recipientStats": [
@@ -215,7 +227,7 @@
     },
     {
       "awardeeName": "Bri",
-      "badgesIssued": 1,
+      "badgesIssued": 2,
       "badgeViews": 2,
       "certificateDownloads": 0
     },
