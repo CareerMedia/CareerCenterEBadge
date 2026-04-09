@@ -2,6 +2,25 @@
   "version": 1,
   "backups": [
     {
+      "backupId": "2026-04-09T19-07-38-643Z",
+      "reason": "Issued badge CSUNCC-20260409-0004",
+      "actor": "admin",
+      "createdAt": "2026-04-09T19:07:38.643Z",
+      "counts": {
+        "badges": 10,
+        "deletedBadges": 1,
+        "templates": 1
+      },
+      "hashes": {
+        "appState": "e8306e2687c13764673958f78648610e0d9059143c07b62b918a0ed91962489d",
+        "badgeLinksCsv": "acbea4d9970631b180ac51f1b58838873cdaedf7214113c9bce5108409a9d390"
+      },
+      "files": {
+        "appState": "data/backups/2026-04-09T19-07-38-643Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-04-09T19-07-38-643Z/badge-links.csv"
+      }
+    },
+    {
       "backupId": "2026-04-09T19-03-34-609Z",
       "reason": "Saved template career-champion",
       "actor": "admin",

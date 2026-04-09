@@ -471,7 +471,7 @@
       },
       "status": "valid",
       "neverExpires": true,
-      "createdAt": "2026-04-09T19:07:38.634Z",
+      "createdAt": "2026-04-09T19:07:18.030Z",
       "source": "public-generator",
       "slug": "bryce-simon-career-champion-csuncc-20260409-0004",
       "relativeUrl": "../badges/bryce-simon-career-champion-csuncc-20260409-0004/",
@@ -1830,9 +1830,9 @@
       "meta": {}
     },
     {
-      "id": "66067804-1fab-49ab-a8d3-e439c6b3a07f",
+      "id": "fb2ea1e1-e6be-4d4f-ab8d-feea4ffa2012",
       "type": "badge_issued",
-      "timestamp": "2026-04-09T19:07:38.634Z",
+      "timestamp": "2026-04-09T19:07:18.030Z",
       "monthKey": "2026-04",
       "yearKey": "2026",
       "badgeId": "CSUNCC-20260409-0004",
@@ -1849,39 +1849,18 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
-    },
-    {
-      "id": "166f71c5-50b1-40b4-ac78-88fc2eec4160",
-      "type": "generator_completed",
-      "timestamp": "2026-04-09T19:07:38.644Z",
-      "monthKey": "2026-04",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260409-0004",
-      "badgeSlug": "bryce-simon-career-champion-csuncc-20260409-0004",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Bryce Simon",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bryce-simon-career-champion-csuncc-20260409-0004/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T19:07:38.645Z",
+    "updatedAt": "2026-04-09T19:07:18.036Z",
     "totals": {
       "badgesIssued": 10,
       "badgeViews": 21,
       "certificateDownloads": 1,
       "generatorOpens": 23,
-      "generatorCompletions": 4,
-      "conversionRate": 17.4,
+      "generatorCompletions": 3,
+      "conversionRate": 13,
       "uniqueVisitorsApprox": 4
     },
     "months": [
@@ -1892,9 +1871,9 @@
         "badgeViews": 21,
         "certificateDownloads": 1,
         "generatorOpens": 23,
-        "generatorCompletions": 4,
+        "generatorCompletions": 3,
         "uniqueVisitorsApprox": 4,
-        "conversionRate": 17.4
+        "conversionRate": 13
       }
     ],
     "years": [
@@ -1905,9 +1884,9 @@
         "badgeViews": 21,
         "certificateDownloads": 1,
         "generatorOpens": 23,
-        "generatorCompletions": 4,
+        "generatorCompletions": 3,
         "uniqueVisitorsApprox": 4,
-        "conversionRate": 17.4
+        "conversionRate": 13
       }
     ],
     "badgeTypes": [
@@ -1918,8 +1897,8 @@
         "badgeViews": 21,
         "certificateDownloads": 1,
         "generatorOpens": 18,
-        "generatorCompletions": 4,
-        "conversionRate": 22.2
+        "generatorCompletions": 3,
+        "conversionRate": 16.7
       },
       {
         "id": "unassigned",
@@ -2070,8 +2049,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 5,
-        "completions": 2,
-        "conversionRate": 40
+        "completions": 1,
+        "conversionRate": 20
       }
     ],
     "recipientStats": [

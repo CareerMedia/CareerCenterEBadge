@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T19:07:13.591Z",
+  "updatedAt": "2026-04-09T19:07:38.645Z",
   "totals": {
-    "badgesIssued": 9,
+    "badgesIssued": 10,
     "badgeViews": 21,
     "certificateDownloads": 1,
     "generatorOpens": 23,
-    "generatorCompletions": 3,
-    "conversionRate": 13,
+    "generatorCompletions": 4,
+    "conversionRate": 17.4,
     "uniqueVisitorsApprox": 4
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 9,
+      "badgesIssued": 10,
       "badgeViews": 21,
       "certificateDownloads": 1,
       "generatorOpens": 23,
-      "generatorCompletions": 3,
+      "generatorCompletions": 4,
       "uniqueVisitorsApprox": 4,
-      "conversionRate": 13
+      "conversionRate": 17.4
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 9,
+      "badgesIssued": 10,
       "badgeViews": 21,
       "certificateDownloads": 1,
       "generatorOpens": 23,
-      "generatorCompletions": 3,
+      "generatorCompletions": 4,
       "uniqueVisitorsApprox": 4,
-      "conversionRate": 13
+      "conversionRate": 17.4
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 9,
+      "badgesIssued": 10,
       "badgeViews": 21,
       "certificateDownloads": 1,
       "generatorOpens": 18,
-      "generatorCompletions": 3,
-      "conversionRate": 16.7
+      "generatorCompletions": 4,
+      "conversionRate": 22.2
     },
     {
       "id": "unassigned",
@@ -166,6 +166,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "bryce-simon-career-champion-csuncc-20260409-0004",
+      "badgeId": "CSUNCC-20260409-0004",
+      "awardeeName": "Bryce Simon",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bryce-simon-career-champion-csuncc-20260409-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -184,14 +196,14 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 5,
-      "completions": 1,
-      "conversionRate": 20
+      "completions": 2,
+      "conversionRate": 40
     }
   ],
   "recipientStats": [
     {
       "awardeeName": "Bryce Simon",
-      "badgesIssued": 3,
+      "badgesIssued": 4,
       "badgeViews": 9,
       "certificateDownloads": 0
     },
