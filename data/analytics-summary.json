@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T15:47:09.427Z",
+  "updatedAt": "2026-04-09T16:50:12.103Z",
   "totals": {
     "badgesIssued": 6,
     "badgeViews": 1,
     "certificateDownloads": 0,
-    "generatorOpens": 0,
+    "generatorOpens": 1,
     "generatorCompletions": 0,
     "conversionRate": 0,
     "uniqueVisitorsApprox": 1
@@ -17,7 +17,7 @@
       "badgesIssued": 6,
       "badgeViews": 1,
       "certificateDownloads": 0,
-      "generatorOpens": 0,
+      "generatorOpens": 1,
       "generatorCompletions": 0,
       "uniqueVisitorsApprox": 1,
       "conversionRate": 0
@@ -30,7 +30,7 @@
       "badgesIssued": 6,
       "badgeViews": 1,
       "certificateDownloads": 0,
-      "generatorOpens": 0,
+      "generatorOpens": 1,
       "generatorCompletions": 0,
       "uniqueVisitorsApprox": 1,
       "conversionRate": 0
@@ -43,7 +43,7 @@
       "badgesIssued": 6,
       "badgeViews": 1,
       "certificateDownloads": 0,
-      "generatorOpens": 0,
+      "generatorOpens": 1,
       "generatorCompletions": 0,
       "conversionRate": 0
     }
@@ -122,7 +122,17 @@
       "latestViewedAt": ""
     }
   ],
-  "generatorPages": [],
+  "generatorPages": [
+    {
+      "key": "career-champion",
+      "label": "Career Champion generator",
+      "pageKind": "specific",
+      "templateId": "career-champion",
+      "opens": 1,
+      "completions": 0,
+      "conversionRate": 0
+    }
+  ],
   "recipientStats": [
     {
       "awardeeName": "Bri",

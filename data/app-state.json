@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "badges": [
     {
       "id": "CSUNCC-20260407-0002",
@@ -207,14 +207,56 @@
       "title": "Career Champion",
       "badgeLabel": "Career Champion",
       "description": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
+      "publicSummary": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
       "meaning": "The CSUN Career Champions Badge is awarded to staff and faculty who have successfully completed the CSUN Career Center’s Career Champions program. Badge earners are recognized as dedicated CSUN professionals who actively integrate career development into their work with students.\r\n\r\nThrough this program, participants gain practical strategies to connect academic pathways with real-world opportunities, support student persistence, and guide students in their transition to meaningful careers. Career Champions are equipped with tools to enhance advising and student interactions—helping students build confidence in selecting majors, exploring career options, and planning for life after graduation.\r\n\r\nEarning this badge reflects a commitment to ongoing professional growth and to fostering a campus-wide culture where career readiness is a shared responsibility among faculty and staff.",
       "criteria": "To earn this badge, participants must complete the Career Champions course, including all modules, activities, and assessments.",
+      "evidenceLabel": "Evidence",
+      "evidencePrompt": "",
+      "evidenceExampleUrl": "",
+      "evidenceDescription": "",
+      "skills": [],
+      "standards": [],
+      "pathwayId": "",
+      "pathwayTitle": "",
+      "pathwayDescription": "",
+      "pathwayOrder": 1,
+      "pathwayItems": [],
       "issuerName": "Cal State Northridge",
       "issuerOrganization": "CSUN Career Center",
       "issuerWebsite": "https://csun.edu",
       "careerCenterUrl": "https://csun.edu/career",
+      "issuerContactEmail": "career.center@csun.edu",
+      "issuerVerificationNote": "Issued directly by the CSUN Career Center and maintained in the official credential registry.",
+      "issuerRegistryUrl": "",
+      "issuerTrustLabel": "Official issuer",
       "badgeImage": "assets/badges/champion-badge.svg",
-      "certificateBackground": "assets/career-champ-cert.png"
+      "certificateBackground": "assets/career-champ-cert.png",
+      "certificateTemplateOverrideEnabled": false,
+      "certificateTemplate": {
+        "backgroundImage": "assets/certificate.png",
+        "fileNameSuffix": "_Certificate",
+        "name": {
+          "x": 2000,
+          "y": 1400,
+          "fontSize": 180,
+          "fontFamily": "Times New Roman",
+          "fontWeight": "bold",
+          "color": "#000000",
+          "align": "center",
+          "maxWidth": 2400
+        },
+        "date": {
+          "x": 1150,
+          "y": 2150,
+          "fontSize": 48,
+          "fontFamily": "Arial",
+          "fontWeight": "normal",
+          "color": "#333333",
+          "align": "center",
+          "maxWidth": 700
+        }
+      },
+      "widgetLayout": "stacked"
     }
   ],
   "certificateTemplate": {
@@ -411,16 +453,37 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "ab352c78-2269-48a1-98f9-e7d7c2b11990",
+      "type": "generator_opened",
+      "timestamp": "2026-04-09T16:50:12.102Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "specific",
+      "generatorKey": "career-champion",
+      "generatorLabel": "Career Champion generator",
+      "source": "generator-page",
+      "visitorId": "6894ae26646f5d0637840d54",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T15:47:09.427Z",
+    "updatedAt": "2026-04-09T16:50:12.103Z",
     "totals": {
       "badgesIssued": 6,
       "badgeViews": 1,
       "certificateDownloads": 0,
-      "generatorOpens": 0,
+      "generatorOpens": 1,
       "generatorCompletions": 0,
       "conversionRate": 0,
       "uniqueVisitorsApprox": 1
@@ -432,7 +495,7 @@
         "badgesIssued": 6,
         "badgeViews": 1,
         "certificateDownloads": 0,
-        "generatorOpens": 0,
+        "generatorOpens": 1,
         "generatorCompletions": 0,
         "uniqueVisitorsApprox": 1,
         "conversionRate": 0
@@ -445,7 +508,7 @@
         "badgesIssued": 6,
         "badgeViews": 1,
         "certificateDownloads": 0,
-        "generatorOpens": 0,
+        "generatorOpens": 1,
         "generatorCompletions": 0,
         "uniqueVisitorsApprox": 1,
         "conversionRate": 0
@@ -458,7 +521,7 @@
         "badgesIssued": 6,
         "badgeViews": 1,
         "certificateDownloads": 0,
-        "generatorOpens": 0,
+        "generatorOpens": 1,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -537,7 +600,17 @@
         "latestViewedAt": ""
       }
     ],
-    "generatorPages": [],
+    "generatorPages": [
+      {
+        "key": "career-champion",
+        "label": "Career Champion generator",
+        "pageKind": "specific",
+        "templateId": "career-champion",
+        "opens": 1,
+        "completions": 0,
+        "conversionRate": 0
+      }
+    ],
     "recipientStats": [
       {
         "awardeeName": "Bri",
