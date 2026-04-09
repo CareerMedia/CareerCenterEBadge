@@ -32,11 +32,72 @@
     }
   }
 
+  function absolutizeClone(root) {
+    root.querySelectorAll('[href]').forEach((node) => {
+      const value = node.getAttribute('href');
+      if (value) node.setAttribute('href', makeAbsoluteUrl(value));
+    });
+    root.querySelectorAll('[src]').forEach((node) => {
+      const value = node.getAttribute('src');
+      if (value) node.setAttribute('src', makeAbsoluteUrl(value));
+    });
+    return root;
+  }
+
+  async function copyNodeRich(node, plainText) {
+    if (!node) {
+      return copyText(plainText);
+    }
+    try {
+      const holder = document.createElement('div');
+      holder.contentEditable = 'true';
+      holder.setAttribute('aria-hidden', 'true');
+      holder.style.position = 'fixed';
+      holder.style.left = '-9999px';
+      holder.style.top = '0';
+      holder.style.opacity = '0';
+      holder.style.pointerEvents = 'none';
+      const clone = absolutizeClone(node.cloneNode(true));
+      holder.appendChild(clone);
+      document.body.appendChild(holder);
+      const range = document.createRange();
+      range.selectNodeContents(holder);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      const ok = document.execCommand('copy');
+      selection.removeAllRanges();
+      const htmlValue = holder.innerHTML;
+      holder.remove();
+      if (ok) return true;
+      if (navigator.clipboard && window.ClipboardItem && navigator.clipboard.write) {
+        try {
+          const item = new ClipboardItem({
+            'text/html': new Blob([htmlValue], { type: 'text/html' }),
+            'text/plain': new Blob([String(plainText || '').trim() || clone.textContent || ''], { type: 'text/plain' })
+          });
+          await navigator.clipboard.write([item]);
+          return true;
+        } catch (error) {
+        }
+      }
+      return copyText(String(plainText || '').trim() || clone.textContent || '');
+    } catch (error) {
+      return copyText(plainText);
+    }
+  }
+
   async function copyRichContent(html, plainText) {
     const htmlValue = String(html || '').trim();
     const textValue = String(plainText || '').trim() || htmlValue.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     if (!htmlValue) {
       return copyText(textValue);
+    }
+    try {
+      const holder = document.createElement('div');
+      holder.innerHTML = htmlValue;
+      return await copyNodeRich(holder, textValue);
+    } catch (error) {
     }
     if (navigator.clipboard && window.ClipboardItem && navigator.clipboard.write) {
       try {
@@ -48,27 +109,6 @@
         return true;
       } catch (error) {
       }
-    }
-    try {
-      const holder = document.createElement('div');
-      holder.innerHTML = htmlValue;
-      holder.contentEditable = 'true';
-      holder.setAttribute('aria-hidden', 'true');
-      holder.style.position = 'fixed';
-      holder.style.left = '-9999px';
-      holder.style.top = '0';
-      holder.style.opacity = '0';
-      document.body.appendChild(holder);
-      const range = document.createRange();
-      range.selectNodeContents(holder);
-      const selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-      const ok = document.execCommand('copy');
-      selection.removeAllRanges();
-      holder.remove();
-      if (ok) return true;
-    } catch (error) {
     }
     return copyText(textValue);
   }
@@ -734,16 +774,20 @@
   }
 
   function bindCopyButtons() {
-    document.querySelectorAll('[data-copy-url], [data-copy-text], [data-copy-rich-html]').forEach((button) => {
+    document.querySelectorAll('[data-copy-url], [data-copy-text], [data-copy-rich-html], [data-copy-node-id]').forEach((button) => {
       button.addEventListener('click', async () => {
         const rawHtml = button.getAttribute('data-copy-rich-html');
         const rawText = button.getAttribute('data-copy-text');
         const rawUrl = button.getAttribute('data-copy-url');
-        const ok = rawHtml != null
-          ? await copyRichContent(rawHtml, rawText)
-          : await copyText(rawText != null
-            ? rawText
-            : (/^https?:/i.test(rawUrl || '') ? rawUrl : makeAbsoluteUrl(rawUrl || window.location.href)));
+        const nodeId = button.getAttribute('data-copy-node-id');
+        const sourceNode = nodeId ? document.getElementById(nodeId) : null;
+        const ok = sourceNode
+          ? await copyNodeRich(sourceNode, rawText)
+          : rawHtml != null
+            ? await copyRichContent(rawHtml, rawText)
+            : await copyText(rawText != null
+              ? rawText
+              : (/^https?:/i.test(rawUrl || '') ? rawUrl : makeAbsoluteUrl(rawUrl || window.location.href)));
         if (!ok) return;
         const labelTarget = button.matches('button') ? button : button.querySelector('small') || button;
         const original = labelTarget.textContent;
