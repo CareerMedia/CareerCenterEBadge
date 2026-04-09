@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "updatedAt": "",
+  "totals": {
+    "badgesIssued": 0,
+    "badgeViews": 0,
+    "certificateDownloads": 0,
+    "generatorOpens": 0,
+    "generatorCompletions": 0,
+    "conversionRate": 0,
+    "uniqueVisitorsApprox": 0
+  },
+  "months": [],
+  "years": [],
+  "badgeTypes": [],
+  "badgePages": [],
+  "generatorPages": [],
+  "recipientStats": []
+}

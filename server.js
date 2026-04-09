@@ -40,13 +40,23 @@ const {
   appendAuditLog
 } = require('./lib/store');
 const { buildPublicSite } = require('./lib/site-generator');
-const { pullRemoteData, persistMutation, getConfig } = require('./lib/github-sync');
+const { pullRemoteData, persistMutation, getConfig, queuePushLocalData } = require('./lib/github-sync');
+const {
+  loadAnalyticsEvents,
+  loadAnalyticsSummary,
+  buildAnalyticsSummary,
+  appendAnalyticsEvent,
+  backfillIssuedAnalyticsEvents,
+  createVisitorId,
+  buildAnalyticsCsv
+} = require('./lib/analytics');
 const {
   renderLoginPage,
   renderDashboard,
   renderIssuePage,
   renderTemplatesPage,
   renderSettingsPage,
+  renderAnalyticsPage,
   renderBackupsPage
 } = require('./lib/admin-renderer');
 
@@ -87,6 +97,14 @@ async function initializeApp() {
     console.warn('GitHub sync is not configured. Badge data will reset on Render redeploys until GITHUB_TOKEN and GITHUB_REPO are set.');
   }
   syncAppStateFromFiles();
+  const analyticsBackfill = backfillIssuedAnalyticsEvents();
+  if (analyticsBackfill.created && syncConfig.enabled) {
+    try {
+      await queuePushLocalData(`Backfill ${analyticsBackfill.created} analytics issuance events`);
+    } catch (error) {
+      console.warn(`Analytics backfill sync failed: ${error.message}`);
+    }
+  }
   buildPublicSite();
   if (!getRecentBackups(1).length) {
     createBackupSnapshot('Initial protected baseline', 'system');
@@ -475,6 +493,18 @@ function handleIssueBadge(formData) {
   const badge = createBadgeRecord(formData);
   badges.push(badge);
   saveBadges(badges);
+  appendAnalyticsEvent({
+    type: 'badge_issued',
+    timestamp: badge.createdAt,
+    badgeId: badge.id,
+    badgeSlug: badge.slug,
+    badgeTitle: badge.badgeTitle,
+    badgeTemplateId: badge.badgeTemplateId,
+    awardeeName: badge.awardeeName,
+    publicUrl: buildBrowserBadgeUrl(badge),
+    source: badge.source || 'admin',
+    context: 'issuance'
+  });
   createBackupSnapshot(`Issued badge ${badge.id}`, 'admin');
   appendAuditLog({ action: 'badge.issue', actor: 'admin', badgeId: badge.id, awardeeName: badge.awardeeName });
   return badge;
@@ -599,6 +629,87 @@ function restoreFullBackup(jsonText) {
   createBackupSnapshot('Restored full system backup', 'admin');
 }
 
+
+function buildGeneratorKey(templateId, pageKind = 'general') {
+  if (!templateId || pageKind === 'general') {
+    return 'general';
+  }
+  return templateId;
+}
+
+function badgeMatchesAnalyticsFilter(badge, filters = {}) {
+  if (filters.badgeType && String(badge.badgeTemplateId || '') !== String(filters.badgeType)) {
+    return false;
+  }
+  const year = filters.year ? String(filters.year) : '';
+  const month = filters.month ? String(filters.month) : '';
+  const badgeYear = String(badge.issueDateISO || badge.createdAt || '').slice(0, 4);
+  const badgeMonth = String(badge.issueDateISO || badge.createdAt || '').slice(0, 7);
+  if (year && badgeYear !== year) {
+    return false;
+  }
+  if (month && badgeMonth !== month) {
+    return false;
+  }
+  return true;
+}
+
+function eventMatchesAnalyticsFilter(event, filters = {}) {
+  if (filters.badgeType && String(event.badgeTemplateId || '') !== String(filters.badgeType)) {
+    return false;
+  }
+  if (filters.year && String(event.yearKey || '').trim() !== String(filters.year)) {
+    return false;
+  }
+  if (filters.month && String(event.monthKey || '').trim() !== String(filters.month)) {
+    return false;
+  }
+  return true;
+}
+
+function buildAnalyticsViewModel(urlObject) {
+  const templates = loadBadgeTemplates();
+  const filters = {
+    year: cleanText(urlObject.searchParams.get('year')),
+    month: cleanText(urlObject.searchParams.get('month')),
+    badgeType: cleanText(urlObject.searchParams.get('badgeType'))
+  };
+  const badges = loadBadges();
+  const events = loadAnalyticsEvents();
+  const filteredBadges = badges.filter((badge) => badgeMatchesAnalyticsFilter(badge, filters));
+  const filteredEvents = events.filter((event) => eventMatchesAnalyticsFilter(event, filters));
+  const hasFilters = Boolean(filters.year || filters.month || filters.badgeType);
+  const summary = hasFilters
+    ? buildAnalyticsSummary({ badges: filteredBadges, templates, events: filteredEvents })
+    : loadAnalyticsSummary();
+  const recentEvents = filteredEvents
+    .slice()
+    .sort((left, right) => String(right.timestamp || '').localeCompare(String(left.timestamp || '')))
+    .slice(0, 30);
+  const queryParams = new URLSearchParams();
+  if (filters.year) queryParams.set('year', filters.year);
+  if (filters.month) queryParams.set('month', filters.month);
+  if (filters.badgeType) queryParams.set('badgeType', filters.badgeType);
+  return {
+    summary,
+    filters: {
+      ...filters,
+      queryString: queryParams.toString()
+    },
+    recentEvents,
+    badgeTypeOptions: templates.map((template) => ({ id: template.id, title: template.title }))
+  };
+}
+
+async function trackAnalyticsEvent(eventInput, reason = 'Track analytics event') {
+  appendAnalyticsEvent(eventInput);
+  try {
+    await queuePushLocalData(reason);
+  } catch (error) {
+    console.warn(`Analytics sync failed: ${error.message}`);
+  }
+}
+
 function restoreBadgesCsv(csvText) {
   const importedBadges = importBadgesFromCsv(csvText);
   saveBadges(importedBadges);
@@ -630,10 +741,28 @@ async function handlePublicApiRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/api/public/issue') {
     try {
       const formData = await parseBody(request);
-      const badge = await persistMutation('Issue badge from public generator', () => handleIssueBadge({
-        ...formData,
-        source: 'public-generator'
-      }), buildPublicSite);
+      const badge = await persistMutation('Issue badge from public generator', () => {
+        const issuedBadge = handleIssueBadge({
+          ...formData,
+          source: 'public-generator'
+        });
+        appendAnalyticsEvent({
+          type: 'generator_completed',
+          timestamp: new Date().toISOString(),
+          badgeId: issuedBadge.id,
+          badgeSlug: issuedBadge.slug,
+          badgeTitle: issuedBadge.badgeTitle,
+          badgeTemplateId: issuedBadge.badgeTemplateId,
+          awardeeName: issuedBadge.awardeeName,
+          publicUrl: buildBrowserBadgeUrl(issuedBadge),
+          generatorKey: buildGeneratorKey(issuedBadge.badgeTemplateId, cleanText(formData.pageKind) || 'general'),
+          generatorLabel: cleanText(formData.generatorLabel) || (cleanText(formData.pageKind) === 'specific' ? `${issuedBadge.badgeTitle} generator` : 'General generator'),
+          pageKind: cleanText(formData.pageKind) || 'general',
+          source: 'public-generator',
+          context: 'completion'
+        });
+        return issuedBadge;
+      }, buildPublicSite);
       const browserUrl = buildBrowserBadgeUrl(badge);
       sendText(
         response,
@@ -658,6 +787,39 @@ async function handlePublicApiRequest(request, response, urlObject) {
         400,
         'application/json; charset=utf-8'
       );
+    }
+    return true;
+  }
+
+  if (request.method === 'POST' && urlObject.pathname === '/api/analytics/track') {
+    try {
+      const formData = await parseBody(request);
+      const type = cleanText(formData.type);
+      const allowed = new Set(['badge_viewed', 'certificate_downloaded', 'generator_opened']);
+      if (!allowed.has(type)) {
+        sendText(response, JSON.stringify({ ok: false, error: 'Unsupported analytics event.' }), 400, 'application/json; charset=utf-8');
+        return true;
+      }
+      await trackAnalyticsEvent({
+        type,
+        timestamp: new Date().toISOString(),
+        badgeId: cleanText(formData.badgeId),
+        badgeSlug: cleanText(formData.badgeSlug),
+        badgeTitle: cleanText(formData.badgeTitle),
+        badgeTemplateId: cleanText(formData.badgeTemplateId),
+        awardeeName: cleanText(formData.awardeeName),
+        publicUrl: cleanText(formData.publicUrl),
+        generatorKey: buildGeneratorKey(cleanText(formData.badgeTemplateId), cleanText(formData.pageKind) || 'general'),
+        generatorLabel: cleanText(formData.generatorLabel),
+        pageKind: cleanText(formData.pageKind),
+        source: cleanText(formData.source) || 'public-site',
+        requestPath: urlObject.pathname,
+        visitorId: createVisitorId(request),
+        context: cleanText(formData.context)
+      }, `Analytics: ${type}`);
+      sendText(response, JSON.stringify({ ok: true }), 202, 'application/json; charset=utf-8');
+    } catch (error) {
+      sendText(response, JSON.stringify({ ok: false, error: error.message }), 400, 'application/json; charset=utf-8');
     }
     return true;
   }
@@ -787,6 +949,11 @@ async function handleAdminRequest(request, response, urlObject) {
     return;
   }
 
+  if (request.method === 'GET' && urlObject.pathname === '/admin/analytics') {
+    sendHtml(response, renderAnalyticsPage(buildAnalyticsViewModel(urlObject)));
+    return;
+  }
+
   if (request.method === 'GET' && urlObject.pathname === '/admin/backups') {
     sendHtml(
       response,
@@ -863,6 +1030,17 @@ async function handleAdminRequest(request, response, urlObject) {
     const csv = fs.existsSync(csvPath) ? fs.readFileSync(csvPath, 'utf8') : 'credential_id,awardee_name,badge_title,issue_date,status,public_url,repo_badge_page,details_json\n';
     sendText(response, csv, 200, 'text/csv; charset=utf-8', {
       'Content-Disposition': 'attachment; filename="badge-links.csv"'
+    });
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/export/analytics.csv') {
+    const filters = buildAnalyticsViewModel(urlObject);
+    const csv = buildAnalyticsCsv(filters.recentEvents.length || filters.filters.year || filters.filters.month || filters.filters.badgeType
+      ? loadAnalyticsEvents().filter((event) => eventMatchesAnalyticsFilter(event, filters.filters))
+      : loadAnalyticsEvents());
+    sendText(response, csv, 200, 'text/csv; charset=utf-8', {
+      'Content-Disposition': 'attachment; filename="badge-analytics.csv"'
     });
     return;
   }

@@ -108,6 +108,22 @@
     pdf.save(filename);
   }
 
+
+  function trackAnalytics(payload) {
+    const body = JSON.stringify(payload || {});
+    if (navigator.sendBeacon) {
+      const blob = new Blob([body], { type: 'application/json' });
+      navigator.sendBeacon('/api/analytics/track', blob);
+      return Promise.resolve(true);
+    }
+    return fetch('/api/analytics/track', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body,
+      keepalive: true
+    }).then(() => true, () => false);
+  }
+
   async function fetchJson(source) {
     const response = await fetch(source, { cache: 'no-store' });
     if (!response.ok) {
@@ -236,6 +252,17 @@
 
     try {
       await ensureRender();
+      trackAnalytics({
+        type: 'badge_viewed',
+        badgeId: window.BADGE_PAGE_DATA.id,
+        badgeSlug: window.BADGE_PAGE_DATA.slug,
+        badgeTitle: window.BADGE_PAGE_DATA.badgeTitle,
+        badgeTemplateId: window.BADGE_PAGE_DATA.badgeTemplateId,
+        awardeeName: window.BADGE_PAGE_DATA.awardeeName,
+        publicUrl: window.location.href,
+        source: 'badge-page',
+        context: 'public-badge-page'
+      });
     } catch (error) {
       button.disabled = true;
       button.textContent = 'Certificate unavailable';
@@ -248,6 +275,17 @@
       const suffix = window.CERTIFICATE_TEMPLATE.fileNameSuffix || window.BADGE_PAGE_DATA.fileNameSuffix || '_Certificate';
       const filename = `${sanitizeFilename(name)}${suffix}.pdf`;
       downloadPdf(filename, currentRender.dataUrl, currentRender.width, currentRender.height);
+      trackAnalytics({
+        type: 'certificate_downloaded',
+        badgeId: window.BADGE_PAGE_DATA.id,
+        badgeSlug: window.BADGE_PAGE_DATA.slug,
+        badgeTitle: window.BADGE_PAGE_DATA.badgeTitle,
+        badgeTemplateId: window.BADGE_PAGE_DATA.badgeTemplateId,
+        awardeeName: window.BADGE_PAGE_DATA.awardeeName,
+        publicUrl: window.location.href,
+        source: 'badge-page',
+        context: 'badge-certificate-download'
+      });
     });
   }
 
@@ -420,7 +458,9 @@
           body: JSON.stringify({
             awardeeName: nameInput.value.trim(),
             issueDate: dateInput.value.trim(),
-            badgeTemplateId: selected.id
+            badgeTemplateId: selected.id,
+            pageKind: fixedTemplateId ? 'specific' : 'general',
+            generatorLabel: fixedTemplateId ? `${selected.title} generator` : 'General generator'
           })
         });
 
@@ -488,10 +528,35 @@
         const suffix = activeCertificateTemplate().fileNameSuffix || '_Certificate';
         const filename = `${sanitizeFilename(nameInput.value.trim())}${suffix}.pdf`;
         downloadPdf(filename, preview.dataUrl, preview.width, preview.height);
+        const selected = getSelectedTemplate();
+        trackAnalytics({
+          type: 'certificate_downloaded',
+          badgeId: lastIssuedBadge ? lastIssuedBadge.id : '',
+          badgeSlug: lastIssuedBadge ? lastIssuedBadge.slug : '',
+          badgeTitle: lastIssuedBadge ? lastIssuedBadge.badgeTitle : (selected ? selected.title : ''),
+          badgeTemplateId: selected ? selected.id : '',
+          awardeeName: nameInput.value.trim(),
+          publicUrl: lastIssuedBadge ? makeAbsoluteUrl(lastIssuedBadge.publicUrl) : window.location.href,
+          source: 'generator-page',
+          pageKind: fixedTemplateId ? 'specific' : 'general',
+          context: 'generator-certificate-download'
+        });
       });
     }
 
     updateTemplatePanel();
+
+    const initialTemplate = getSelectedTemplate();
+    trackAnalytics({
+      type: 'generator_opened',
+      badgeTemplateId: initialTemplate ? initialTemplate.id : '',
+      badgeTitle: initialTemplate ? initialTemplate.title : '',
+      generatorKey: fixedTemplateId || 'general',
+      generatorLabel: fixedTemplateId && initialTemplate ? `${initialTemplate.title} generator` : 'General generator',
+      pageKind: fixedTemplateId ? 'specific' : 'general',
+      source: 'generator-page',
+      context: 'generator-page-open'
+    });
   }
 
   async function renderRecentBadges() {
