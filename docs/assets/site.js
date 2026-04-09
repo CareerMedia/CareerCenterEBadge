@@ -98,7 +98,73 @@
     });
   }
 
-  function copyNodeContents(node, plainText) {
+
+  function blobToDataUrl(blob) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onloadend = () => resolve(String(reader.result || ''));
+      reader.onerror = () => reject(new Error('Unable to read image blob.'));
+      reader.readAsDataURL(blob);
+    });
+  }
+
+  function loadDomImage(src) {
+    return new Promise((resolve, reject) => {
+      const image = new Image();
+      image.onload = () => resolve(image);
+      image.onerror = () => reject(new Error(`Unable to load image: ${src}`));
+      image.src = src;
+    });
+  }
+
+  async function imageUrlToClipboardDataUrl(url, width, height) {
+    const absolute = makeAbsoluteUrl(url || '');
+    if (!absolute || absolute.startsWith('data:')) return absolute;
+    try {
+      const response = await fetch(absolute, { mode: 'cors', cache: 'force-cache' });
+      if (!response.ok) throw new Error('Image fetch failed');
+      const blob = await response.blob();
+      const objectUrl = URL.createObjectURL(blob);
+      try {
+        const image = await loadDomImage(objectUrl);
+        const targetWidth = Number(width || image.naturalWidth || image.width || 48) || 48;
+        const targetHeight = Number(height || image.naturalHeight || image.height || 48) || 48;
+        const canvas = document.createElement('canvas');
+        canvas.width = targetWidth;
+        canvas.height = targetHeight;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+        return canvas.toDataURL('image/png');
+      } finally {
+        URL.revokeObjectURL(objectUrl);
+      }
+    } catch (error) {
+      try {
+        const response = await fetch(absolute, { mode: 'cors', cache: 'force-cache' });
+        if (!response.ok) throw new Error('Image fetch failed');
+        const blob = await response.blob();
+        return await blobToDataUrl(blob);
+      } catch (nestedError) {
+        return absolute;
+      }
+    }
+  }
+
+  async function inlineImagesForClipboard(root) {
+    const nodes = Array.from(root.querySelectorAll('img[src]'));
+    for (const node of nodes) {
+      const source = node.getAttribute('src') || '';
+      const width = Number(node.getAttribute('width') || node.width || 0);
+      const height = Number(node.getAttribute('height') || node.height || 0);
+      const nextSrc = await imageUrlToClipboardDataUrl(source, width, height);
+      if (nextSrc) {
+        node.setAttribute('src', nextSrc);
+      }
+    }
+  }
+
+  async function copyNodeContents(node, plainText) {
     if (!node) return Promise.resolve(false);
     try {
       const holder = document.createElement('div');
@@ -111,6 +177,7 @@
       holder.style.pointerEvents = 'none';
       const clone = node.cloneNode(true);
       absolutizeCloneLinks(clone);
+      await inlineImagesForClipboard(clone);
       holder.appendChild(clone);
       document.body.appendChild(holder);
       const selection = window.getSelection();
@@ -121,7 +188,7 @@
       const ok = document.execCommand('copy');
       selection.removeAllRanges();
       holder.remove();
-      if (ok) return Promise.resolve(true);
+      if (ok) return true;
       return copyRichContent(clone.innerHTML, plainText);
     } catch (error) {
       return copyRichContent(node.innerHTML || '', plainText);
@@ -795,7 +862,8 @@
               ? rawText
               : (/^https?:/i.test(rawUrl || '') ? rawUrl : makeAbsoluteUrl(rawUrl || window.location.href)));
         if (!ok) return;
-        const labelTarget = button.matches('button') ? button : button.querySelector('small') || button;
+        const hashFeedback = button.classList.contains('hash-box') ? button.querySelector('small') : null;
+        const labelTarget = hashFeedback || (button.matches('button') ? button : button.querySelector('small') || button);
         const original = labelTarget.textContent;
         labelTarget.textContent = 'Copied';
         window.setTimeout(() => {

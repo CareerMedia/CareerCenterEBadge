@@ -408,12 +408,13 @@ textarea { min-height: 120px; resize: vertical; }
   border-bottom: 1px solid rgba(24,22,31,0.06);
 }
 .detail-list dt { color: var(--muted); font-weight: 600; }
-.detail-list dd { margin: 0; text-align: right; max-width: 70%; }
+.detail-list dd { margin: 0; text-align: right; max-width: 70%; overflow: hidden; }
 .detail-list--stacked dd { text-align: left; max-width: 100%; }
 .hash-box {
   display: grid;
   gap: 0.4rem;
-  width: min(100%, 340px);
+  width: 100%;
+  max-width: 340px;
   padding: 0.8rem 0.9rem;
   border-radius: 16px;
   border: 1px solid rgba(24,22,31,0.08);
@@ -421,6 +422,9 @@ textarea { min-height: 120px; resize: vertical; }
   color: inherit;
   text-align: left;
   cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: none !important;
+  transform: none !important;
 }
 .hash-box span {
   display: block;
@@ -437,9 +441,15 @@ textarea { min-height: 120px; resize: vertical; }
   font-size: 0.74rem;
   letter-spacing: 0.02em;
 }
-.hash-box:hover {
+.hash-box:hover,
+.hash-box:focus,
+.hash-box:focus-visible,
+.hash-box:active {
   border-color: rgba(24,22,31,0.14);
-  box-shadow: 0 10px 24px rgba(24,22,31,0.08);
+  background: rgba(24,22,31,0.05);
+  box-shadow: none !important;
+  outline: none;
+  transform: none !important;
 }
 .divider { height: 1px; background: rgba(24,22,31,0.08); margin: 22px 0; }
 .info-callout {
