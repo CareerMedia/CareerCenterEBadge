@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-09T17:15:40.439Z",
+  "updatedAt": "2026-04-09T17:18:56.143Z",
   "totals": {
     "badgesIssued": 7,
     "badgeViews": 9,
     "certificateDownloads": 0,
-    "generatorOpens": 5,
+    "generatorOpens": 6,
     "generatorCompletions": 1,
-    "conversionRate": 20,
+    "conversionRate": 16.7,
     "uniqueVisitorsApprox": 4
   },
   "months": [
@@ -17,10 +17,10 @@
       "badgesIssued": 7,
       "badgeViews": 9,
       "certificateDownloads": 0,
-      "generatorOpens": 5,
+      "generatorOpens": 6,
       "generatorCompletions": 1,
       "uniqueVisitorsApprox": 4,
-      "conversionRate": 20
+      "conversionRate": 16.7
     }
   ],
   "years": [
@@ -30,10 +30,10 @@
       "badgesIssued": 7,
       "badgeViews": 9,
       "certificateDownloads": 0,
-      "generatorOpens": 5,
+      "generatorOpens": 6,
       "generatorCompletions": 1,
       "uniqueVisitorsApprox": 4,
-      "conversionRate": 20
+      "conversionRate": 16.7
     }
   ],
   "badgeTypes": [
@@ -43,9 +43,9 @@
       "badgesIssued": 7,
       "badgeViews": 9,
       "certificateDownloads": 0,
-      "generatorOpens": 3,
+      "generatorOpens": 4,
       "generatorCompletions": 1,
-      "conversionRate": 33.3
+      "conversionRate": 25
     },
     {
       "id": "unassigned",
@@ -150,9 +150,9 @@
       "label": "Career Champion generator",
       "pageKind": "specific",
       "templateId": "career-champion",
-      "opens": 3,
+      "opens": 4,
       "completions": 1,
-      "conversionRate": 33.3
+      "conversionRate": 25
     },
     {
       "key": "general",
