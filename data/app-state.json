@@ -1229,18 +1229,60 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
+    },
+    {
+      "id": "3400ebde-c5fb-4bf6-bec8-64a05aa6c496",
+      "type": "generator_opened",
+      "timestamp": "2026-04-09T18:28:43.038Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-champion",
+      "generatorLabel": "Career Champion widget",
+      "source": "generator-page",
+      "visitorId": "6894ae26646f5d0637840d54",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
+    },
+    {
+      "id": "db0ec10e-9477-47b8-9a68-b5df3c0a3e70",
+      "type": "generator_opened",
+      "timestamp": "2026-04-09T18:28:49.396Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-champion",
+      "generatorLabel": "Career Champion widget",
+      "source": "generator-page",
+      "visitorId": "6894ae26646f5d0637840d54",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-09T18:28:35.797Z",
+    "updatedAt": "2026-04-09T18:28:49.397Z",
     "totals": {
       "badgesIssued": 8,
       "badgeViews": 12,
       "certificateDownloads": 1,
-      "generatorOpens": 14,
+      "generatorOpens": 16,
       "generatorCompletions": 2,
-      "conversionRate": 14.3,
+      "conversionRate": 12.5,
       "uniqueVisitorsApprox": 4
     },
     "months": [
@@ -1250,10 +1292,10 @@
         "badgesIssued": 8,
         "badgeViews": 12,
         "certificateDownloads": 1,
-        "generatorOpens": 14,
+        "generatorOpens": 16,
         "generatorCompletions": 2,
         "uniqueVisitorsApprox": 4,
-        "conversionRate": 14.3
+        "conversionRate": 12.5
       }
     ],
     "years": [
@@ -1263,10 +1305,10 @@
         "badgesIssued": 8,
         "badgeViews": 12,
         "certificateDownloads": 1,
-        "generatorOpens": 14,
+        "generatorOpens": 16,
         "generatorCompletions": 2,
         "uniqueVisitorsApprox": 4,
-        "conversionRate": 14.3
+        "conversionRate": 12.5
       }
     ],
     "badgeTypes": [
@@ -1276,9 +1318,9 @@
         "badgesIssued": 8,
         "badgeViews": 12,
         "certificateDownloads": 1,
-        "generatorOpens": 12,
+        "generatorOpens": 14,
         "generatorCompletions": 2,
-        "conversionRate": 16.7
+        "conversionRate": 14.3
       },
       {
         "id": "unassigned",
@@ -1395,9 +1437,9 @@
         "label": "Career Champion generator",
         "pageKind": "specific",
         "templateId": "career-champion",
-        "opens": 12,
+        "opens": 14,
         "completions": 2,
-        "conversionRate": 16.7
+        "conversionRate": 14.3
       },
       {
         "key": "general",
