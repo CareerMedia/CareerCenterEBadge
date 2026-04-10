@@ -2740,30 +2740,51 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
+    },
+    {
+      "id": "56f0027e-0d93-4804-9ae8-212d353f7b94",
+      "type": "badge_viewed",
+      "timestamp": "2026-04-10T03:44:13.878Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260409-0005",
+      "badgeSlug": "bri-career-champion-csuncc-20260409-0005",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Bri",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bri-career-champion-csuncc-20260409-0005/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "c8fd300f67a3d548071d0ec2",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-10T03:02:31.677Z",
+    "updatedAt": "2026-04-10T03:44:13.880Z",
     "totals": {
       "badgesIssued": 13,
-      "badgeViews": 37,
+      "badgeViews": 38,
       "certificateDownloads": 1,
       "generatorOpens": 30,
       "generatorCompletions": 6,
       "conversionRate": 20,
-      "uniqueVisitorsApprox": 13
+      "uniqueVisitorsApprox": 14
     },
     "months": [
       {
         "key": "2026-04",
         "label": "Apr 2026",
         "badgesIssued": 13,
-        "badgeViews": 37,
+        "badgeViews": 38,
         "certificateDownloads": 1,
         "generatorOpens": 30,
         "generatorCompletions": 6,
-        "uniqueVisitorsApprox": 13,
+        "uniqueVisitorsApprox": 14,
         "conversionRate": 20
       }
     ],
@@ -2772,11 +2793,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 13,
-        "badgeViews": 37,
+        "badgeViews": 38,
         "certificateDownloads": 1,
         "generatorOpens": 30,
         "generatorCompletions": 6,
-        "uniqueVisitorsApprox": 13,
+        "uniqueVisitorsApprox": 14,
         "conversionRate": 20
       }
     ],
@@ -2785,7 +2806,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 13,
-        "badgeViews": 37,
+        "badgeViews": 38,
         "certificateDownloads": 1,
         "generatorOpens": 19,
         "generatorCompletions": 6,
@@ -2804,6 +2825,18 @@
     ],
     "badgePages": [
       {
+        "slug": "bri-career-champion-csuncc-20260409-0005",
+        "badgeId": "CSUNCC-20260409-0005",
+        "awardeeName": "Bri",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bri-career-champion-csuncc-20260409-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 10,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-04-10T03:44:13.878Z"
+      },
+      {
         "slug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
         "badgeId": "CSUNCC-20260409-0002",
         "awardeeName": "Mikayla Agregado",
@@ -2814,18 +2847,6 @@
         "badgeViews": 9,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-04-09T19:06:44.375Z"
-      },
-      {
-        "slug": "bri-career-champion-csuncc-20260409-0005",
-        "badgeId": "CSUNCC-20260409-0005",
-        "awardeeName": "Bri",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerchampionsbadge.onrender.com/badges/bri-career-champion-csuncc-20260409-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 9,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-04-09T23:51:03.143Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260409-0001",
@@ -2990,7 +3011,7 @@
       {
         "awardeeName": "Bri",
         "badgesIssued": 2,
-        "badgeViews": 11,
+        "badgeViews": 12,
         "certificateDownloads": 0
       },
       {
