@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-13T17:27:09.197Z",
+  "updatedAt": "2026-04-13T17:28:09.736Z",
   "totals": {
     "badgesIssued": 13,
-    "badgeViews": 44,
+    "badgeViews": 45,
     "certificateDownloads": 1,
     "generatorOpens": 33,
     "generatorCompletions": 6,
@@ -15,7 +15,7 @@
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 13,
-      "badgeViews": 44,
+      "badgeViews": 45,
       "certificateDownloads": 1,
       "generatorOpens": 33,
       "generatorCompletions": 6,
@@ -28,7 +28,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 13,
-      "badgeViews": 44,
+      "badgeViews": 45,
       "certificateDownloads": 1,
       "generatorOpens": 33,
       "generatorCompletions": 6,
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 13,
-      "badgeViews": 44,
+      "badgeViews": 45,
       "certificateDownloads": 1,
       "generatorOpens": 19,
       "generatorCompletions": 6,
@@ -103,9 +103,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerchampionsbadge.onrender.com/badges/brianna-fuente-career-champion-csuncc-20260409-0007/",
       "badgesIssued": 1,
-      "badgeViews": 4,
+      "badgeViews": 5,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-04-13T17:27:09.187Z"
+      "latestViewedAt": "2026-04-13T17:28:09.735Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
@@ -258,7 +258,7 @@
     {
       "awardeeName": "Brianna Fuente",
       "badgesIssued": 1,
-      "badgeViews": 4,
+      "badgeViews": 5,
       "certificateDownloads": 0
     },
     {
