@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-12T21:32:38.932Z",
+  "updatedAt": "2026-04-13T15:33:47.590Z",
   "totals": {
     "badgesIssued": 13,
-    "badgeViews": 42,
+    "badgeViews": 43,
     "certificateDownloads": 1,
     "generatorOpens": 33,
     "generatorCompletions": 6,
@@ -15,7 +15,7 @@
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 13,
-      "badgeViews": 42,
+      "badgeViews": 43,
       "certificateDownloads": 1,
       "generatorOpens": 33,
       "generatorCompletions": 6,
@@ -28,7 +28,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 13,
-      "badgeViews": 42,
+      "badgeViews": 43,
       "certificateDownloads": 1,
       "generatorOpens": 33,
       "generatorCompletions": 6,
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 13,
-      "badgeViews": 42,
+      "badgeViews": 43,
       "certificateDownloads": 1,
       "generatorOpens": 19,
       "generatorCompletions": 6,
@@ -132,6 +132,18 @@
       "latestViewedAt": "2026-04-10T20:22:54.412Z"
     },
     {
+      "slug": "brianna-fuente-career-champion-csuncc-20260409-0007",
+      "badgeId": "CSUNCC-20260409-0007",
+      "awardeeName": "Brianna Fuente",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/brianna-fuente-career-champion-csuncc-20260409-0007/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-04-13T15:33:47.402Z"
+    },
+    {
       "slug": "bri-career-champion-csuncc-20260407-0002",
       "badgeId": "CSUNCC-20260407-0002",
       "awardeeName": "Bri",
@@ -142,18 +154,6 @@
       "badgeViews": 2,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-04-09T17:01:02.146Z"
-    },
-    {
-      "slug": "brianna-fuente-career-champion-csuncc-20260409-0007",
-      "badgeId": "CSUNCC-20260409-0007",
-      "awardeeName": "Brianna Fuente",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/brianna-fuente-career-champion-csuncc-20260409-0007/",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-04-09T23:07:06.412Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -258,7 +258,7 @@
     {
       "awardeeName": "Brianna Fuente",
       "badgesIssued": 1,
-      "badgeViews": 2,
+      "badgeViews": 3,
       "certificateDownloads": 0
     },
     {
