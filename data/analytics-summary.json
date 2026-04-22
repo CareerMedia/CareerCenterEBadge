@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-22T22:32:38.600Z",
+  "updatedAt": "2026-04-22T22:33:16.725Z",
   "totals": {
     "badgesIssued": 16,
-    "badgeViews": 49,
+    "badgeViews": 50,
     "certificateDownloads": 1,
     "generatorOpens": 40,
     "generatorCompletions": 9,
@@ -15,7 +15,7 @@
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 16,
-      "badgeViews": 49,
+      "badgeViews": 50,
       "certificateDownloads": 1,
       "generatorOpens": 40,
       "generatorCompletions": 9,
@@ -28,7 +28,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 16,
-      "badgeViews": 49,
+      "badgeViews": 50,
       "certificateDownloads": 1,
       "generatorOpens": 40,
       "generatorCompletions": 9,
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 16,
-      "badgeViews": 49,
+      "badgeViews": 50,
       "certificateDownloads": 1,
       "generatorOpens": 23,
       "generatorCompletions": 9,
@@ -180,6 +180,18 @@
       "latestViewedAt": "2026-04-22T17:57:47.218Z"
     },
     {
+      "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
+      "badgeId": "CSUNCC-20260422-0003",
+      "awardeeName": "Hector Carrillo",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-04-22T22:33:16.724Z"
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -234,18 +246,6 @@
       "badgeTitle": "Career Champion",
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerchampionsbadge.onrender.com/badges/veronica-torres-career-champion-csuncc-20260422-0002/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
-    },
-    {
-      "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
-      "badgeId": "CSUNCC-20260422-0003",
-      "awardeeName": "Hector Carrillo",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0,
@@ -316,6 +316,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Hector Carrillo",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Harsh Ahir",
       "badgesIssued": 1,
       "badgeViews": 0,
@@ -323,12 +329,6 @@
     },
     {
       "awardeeName": "Veronica Torres",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Hector Carrillo",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
