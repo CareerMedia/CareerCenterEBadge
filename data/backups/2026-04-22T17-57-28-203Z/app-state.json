@@ -3254,39 +3254,18 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
-    },
-    {
-      "id": "33653e82-45a5-4157-a43e-04f076494efc",
-      "type": "generator_completed",
-      "timestamp": "2026-04-22T17:57:28.207Z",
-      "monthKey": "2026-04",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260422-0001",
-      "badgeSlug": "nyla-dalferes-career-champion-csuncc-20260422-0001",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Nyla Dalferes",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/nyla-dalferes-career-champion-csuncc-20260422-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-champion",
-      "generatorLabel": "Career Champion widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-22T17:57:28.207Z",
+    "updatedAt": "2026-04-22T17:57:28.192Z",
     "totals": {
       "badgesIssued": 14,
       "badgeViews": 48,
       "certificateDownloads": 1,
       "generatorOpens": 38,
-      "generatorCompletions": 7,
-      "conversionRate": 18.4,
+      "generatorCompletions": 6,
+      "conversionRate": 15.8,
       "uniqueVisitorsApprox": 21
     },
     "months": [
@@ -3297,9 +3276,9 @@
         "badgeViews": 48,
         "certificateDownloads": 1,
         "generatorOpens": 38,
-        "generatorCompletions": 7,
+        "generatorCompletions": 6,
         "uniqueVisitorsApprox": 21,
-        "conversionRate": 18.4
+        "conversionRate": 15.8
       }
     ],
     "years": [
@@ -3310,9 +3289,9 @@
         "badgeViews": 48,
         "certificateDownloads": 1,
         "generatorOpens": 38,
-        "generatorCompletions": 7,
+        "generatorCompletions": 6,
         "uniqueVisitorsApprox": 21,
-        "conversionRate": 18.4
+        "conversionRate": 15.8
       }
     ],
     "badgeTypes": [
@@ -3323,8 +3302,8 @@
         "badgeViews": 48,
         "certificateDownloads": 1,
         "generatorOpens": 23,
-        "generatorCompletions": 7,
-        "conversionRate": 30.4
+        "generatorCompletions": 6,
+        "conversionRate": 26.1
       },
       {
         "id": "unassigned",
@@ -3514,8 +3493,8 @@
         "pageKind": "specific",
         "templateId": "career-champion",
         "opens": 23,
-        "completions": 3,
-        "conversionRate": 13
+        "completions": 2,
+        "conversionRate": 8.7
       },
       {
         "key": "general",

@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-22T17:57:11.976Z",
+  "updatedAt": "2026-04-22T17:57:28.207Z",
   "totals": {
-    "badgesIssued": 13,
+    "badgesIssued": 14,
     "badgeViews": 48,
     "certificateDownloads": 1,
     "generatorOpens": 38,
-    "generatorCompletions": 6,
-    "conversionRate": 15.8,
+    "generatorCompletions": 7,
+    "conversionRate": 18.4,
     "uniqueVisitorsApprox": 21
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 13,
+      "badgesIssued": 14,
       "badgeViews": 48,
       "certificateDownloads": 1,
       "generatorOpens": 38,
-      "generatorCompletions": 6,
+      "generatorCompletions": 7,
       "uniqueVisitorsApprox": 21,
-      "conversionRate": 15.8
+      "conversionRate": 18.4
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 13,
+      "badgesIssued": 14,
       "badgeViews": 48,
       "certificateDownloads": 1,
       "generatorOpens": 38,
-      "generatorCompletions": 6,
+      "generatorCompletions": 7,
       "uniqueVisitorsApprox": 21,
-      "conversionRate": 15.8
+      "conversionRate": 18.4
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 13,
+      "badgesIssued": 14,
       "badgeViews": 48,
       "certificateDownloads": 1,
       "generatorOpens": 23,
-      "generatorCompletions": 6,
-      "conversionRate": 26.1
+      "generatorCompletions": 7,
+      "conversionRate": 30.4
     },
     {
       "id": "unassigned",
@@ -214,6 +214,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "nyla-dalferes-career-champion-csuncc-20260422-0001",
+      "badgeId": "CSUNCC-20260422-0001",
+      "awardeeName": "Nyla Dalferes",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/nyla-dalferes-career-champion-csuncc-20260422-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -223,8 +235,8 @@
       "pageKind": "specific",
       "templateId": "career-champion",
       "opens": 23,
-      "completions": 2,
-      "conversionRate": 8.7
+      "completions": 3,
+      "conversionRate": 13
     },
     {
       "key": "general",
@@ -275,6 +287,12 @@
     },
     {
       "awardeeName": "Harsh Ahir",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Nyla Dalferes",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
