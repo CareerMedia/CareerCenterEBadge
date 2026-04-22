@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-22T22:31:42.770Z",
+  "updatedAt": "2026-04-22T22:32:38.600Z",
   "totals": {
-    "badgesIssued": 15,
+    "badgesIssued": 16,
     "badgeViews": 49,
     "certificateDownloads": 1,
     "generatorOpens": 40,
-    "generatorCompletions": 8,
-    "conversionRate": 20,
+    "generatorCompletions": 9,
+    "conversionRate": 22.5,
     "uniqueVisitorsApprox": 21
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 15,
+      "badgesIssued": 16,
       "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 40,
-      "generatorCompletions": 8,
+      "generatorCompletions": 9,
       "uniqueVisitorsApprox": 21,
-      "conversionRate": 20
+      "conversionRate": 22.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 15,
+      "badgesIssued": 16,
       "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 40,
-      "generatorCompletions": 8,
+      "generatorCompletions": 9,
       "uniqueVisitorsApprox": 21,
-      "conversionRate": 20
+      "conversionRate": 22.5
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 15,
+      "badgesIssued": 16,
       "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 23,
-      "generatorCompletions": 8,
-      "conversionRate": 34.8
+      "generatorCompletions": 9,
+      "conversionRate": 39.1
     },
     {
       "id": "unassigned",
@@ -238,6 +238,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
+      "badgeId": "CSUNCC-20260422-0003",
+      "awardeeName": "Hector Carrillo",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -256,8 +268,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 17,
-      "completions": 5,
-      "conversionRate": 29.4
+      "completions": 6,
+      "conversionRate": 35.3
     }
   ],
   "recipientStats": [
@@ -311,6 +323,12 @@
     },
     {
       "awardeeName": "Veronica Torres",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Hector Carrillo",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0

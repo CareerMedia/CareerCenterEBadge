@@ -3589,39 +3589,18 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
-    },
-    {
-      "id": "8d5913f0-2924-4965-bd4c-9105aec70b14",
-      "type": "generator_completed",
-      "timestamp": "2026-04-22T22:32:38.598Z",
-      "monthKey": "2026-04",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260422-0003",
-      "badgeSlug": "hector-carrillo-career-champion-csuncc-20260422-0003",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Hector Carrillo",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-22T22:32:38.600Z",
+    "updatedAt": "2026-04-22T22:32:38.397Z",
     "totals": {
       "badgesIssued": 16,
       "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 40,
-      "generatorCompletions": 9,
-      "conversionRate": 22.5,
+      "generatorCompletions": 8,
+      "conversionRate": 20,
       "uniqueVisitorsApprox": 21
     },
     "months": [
@@ -3632,9 +3611,9 @@
         "badgeViews": 49,
         "certificateDownloads": 1,
         "generatorOpens": 40,
-        "generatorCompletions": 9,
+        "generatorCompletions": 8,
         "uniqueVisitorsApprox": 21,
-        "conversionRate": 22.5
+        "conversionRate": 20
       }
     ],
     "years": [
@@ -3645,9 +3624,9 @@
         "badgeViews": 49,
         "certificateDownloads": 1,
         "generatorOpens": 40,
-        "generatorCompletions": 9,
+        "generatorCompletions": 8,
         "uniqueVisitorsApprox": 21,
-        "conversionRate": 22.5
+        "conversionRate": 20
       }
     ],
     "badgeTypes": [
@@ -3658,8 +3637,8 @@
         "badgeViews": 49,
         "certificateDownloads": 1,
         "generatorOpens": 23,
-        "generatorCompletions": 9,
-        "conversionRate": 39.1
+        "generatorCompletions": 8,
+        "conversionRate": 34.8
       },
       {
         "id": "unassigned",
@@ -3882,8 +3861,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 17,
-        "completions": 6,
-        "conversionRate": 35.3
+        "completions": 5,
+        "conversionRate": 29.4
       }
     ],
     "recipientStats": [
