@@ -3432,39 +3432,18 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
-    },
-    {
-      "id": "61bca8e2-78b2-42b5-9423-8117e9f626bf",
-      "type": "generator_completed",
-      "timestamp": "2026-04-22T17:58:53.295Z",
-      "monthKey": "2026-04",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260422-0002",
-      "badgeSlug": "veronica-torres-career-champion-csuncc-20260422-0002",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Veronica Torres",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/veronica-torres-career-champion-csuncc-20260422-0002/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-22T17:58:53.296Z",
+    "updatedAt": "2026-04-22T17:58:53.199Z",
     "totals": {
       "badgesIssued": 15,
       "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 39,
-      "generatorCompletions": 8,
-      "conversionRate": 20.5,
+      "generatorCompletions": 7,
+      "conversionRate": 17.9,
       "uniqueVisitorsApprox": 21
     },
     "months": [
@@ -3475,9 +3454,9 @@
         "badgeViews": 49,
         "certificateDownloads": 1,
         "generatorOpens": 39,
-        "generatorCompletions": 8,
+        "generatorCompletions": 7,
         "uniqueVisitorsApprox": 21,
-        "conversionRate": 20.5
+        "conversionRate": 17.9
       }
     ],
     "years": [
@@ -3488,9 +3467,9 @@
         "badgeViews": 49,
         "certificateDownloads": 1,
         "generatorOpens": 39,
-        "generatorCompletions": 8,
+        "generatorCompletions": 7,
         "uniqueVisitorsApprox": 21,
-        "conversionRate": 20.5
+        "conversionRate": 17.9
       }
     ],
     "badgeTypes": [
@@ -3501,8 +3480,8 @@
         "badgeViews": 49,
         "certificateDownloads": 1,
         "generatorOpens": 23,
-        "generatorCompletions": 8,
-        "conversionRate": 34.8
+        "generatorCompletions": 7,
+        "conversionRate": 30.4
       },
       {
         "id": "unassigned",
@@ -3713,8 +3692,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 16,
-        "completions": 5,
-        "conversionRate": 31.3
+        "completions": 4,
+        "conversionRate": 25
       }
     ],
     "recipientStats": [

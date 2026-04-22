@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-22T17:58:41.505Z",
+  "updatedAt": "2026-04-22T17:58:53.296Z",
   "totals": {
-    "badgesIssued": 14,
+    "badgesIssued": 15,
     "badgeViews": 49,
     "certificateDownloads": 1,
     "generatorOpens": 39,
-    "generatorCompletions": 7,
-    "conversionRate": 17.9,
+    "generatorCompletions": 8,
+    "conversionRate": 20.5,
     "uniqueVisitorsApprox": 21
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 14,
+      "badgesIssued": 15,
       "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 39,
-      "generatorCompletions": 7,
+      "generatorCompletions": 8,
       "uniqueVisitorsApprox": 21,
-      "conversionRate": 17.9
+      "conversionRate": 20.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 14,
+      "badgesIssued": 15,
       "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 39,
-      "generatorCompletions": 7,
+      "generatorCompletions": 8,
       "uniqueVisitorsApprox": 21,
-      "conversionRate": 17.9
+      "conversionRate": 20.5
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 14,
+      "badgesIssued": 15,
       "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 23,
-      "generatorCompletions": 7,
-      "conversionRate": 30.4
+      "generatorCompletions": 8,
+      "conversionRate": 34.8
     },
     {
       "id": "unassigned",
@@ -226,6 +226,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "veronica-torres-career-champion-csuncc-20260422-0002",
+      "badgeId": "CSUNCC-20260422-0002",
+      "awardeeName": "Veronica Torres",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/veronica-torres-career-champion-csuncc-20260422-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -244,8 +256,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 16,
-      "completions": 4,
-      "conversionRate": 25
+      "completions": 5,
+      "conversionRate": 31.3
     }
   ],
   "recipientStats": [
@@ -293,6 +305,12 @@
     },
     {
       "awardeeName": "Harsh Ahir",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Veronica Torres",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
