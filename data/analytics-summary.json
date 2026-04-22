@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-22T17:57:28.207Z",
+  "updatedAt": "2026-04-22T17:57:47.219Z",
   "totals": {
     "badgesIssued": 14,
-    "badgeViews": 48,
+    "badgeViews": 49,
     "certificateDownloads": 1,
     "generatorOpens": 38,
     "generatorCompletions": 7,
@@ -15,7 +15,7 @@
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 14,
-      "badgeViews": 48,
+      "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 38,
       "generatorCompletions": 7,
@@ -28,7 +28,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 14,
-      "badgeViews": 48,
+      "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 38,
       "generatorCompletions": 7,
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 14,
-      "badgeViews": 48,
+      "badgeViews": 49,
       "certificateDownloads": 1,
       "generatorOpens": 23,
       "generatorCompletions": 7,
@@ -168,6 +168,18 @@
       "latestViewedAt": "2026-04-09T16:53:24.919Z"
     },
     {
+      "slug": "nyla-dalferes-career-champion-csuncc-20260422-0001",
+      "badgeId": "CSUNCC-20260422-0001",
+      "awardeeName": "Nyla Dalferes",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/nyla-dalferes-career-champion-csuncc-20260422-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-04-22T17:57:47.218Z"
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -210,18 +222,6 @@
       "badgeTitle": "Career Champion",
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerchampionsbadge.onrender.com/badges/maddie-paul-career-champion-csuncc-20260408-0004/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
-    },
-    {
-      "slug": "nyla-dalferes-career-champion-csuncc-20260422-0001",
-      "badgeId": "CSUNCC-20260422-0001",
-      "awardeeName": "Nyla Dalferes",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/nyla-dalferes-career-champion-csuncc-20260422-0001/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0,
@@ -286,13 +286,13 @@
       "certificateDownloads": 0
     },
     {
-      "awardeeName": "Harsh Ahir",
+      "awardeeName": "Nyla Dalferes",
       "badgesIssued": 1,
-      "badgeViews": 0,
+      "badgeViews": 1,
       "certificateDownloads": 0
     },
     {
-      "awardeeName": "Nyla Dalferes",
+      "awardeeName": "Harsh Ahir",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
