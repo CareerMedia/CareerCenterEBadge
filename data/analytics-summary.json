@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-24T06:30:32.152Z",
+  "updatedAt": "2026-04-24T09:16:31.872Z",
   "totals": {
     "badgesIssued": 16,
-    "badgeViews": 52,
+    "badgeViews": 53,
     "certificateDownloads": 1,
     "generatorOpens": 40,
     "generatorCompletions": 9,
@@ -15,7 +15,7 @@
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 16,
-      "badgeViews": 52,
+      "badgeViews": 53,
       "certificateDownloads": 1,
       "generatorOpens": 40,
       "generatorCompletions": 9,
@@ -28,7 +28,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 16,
-      "badgeViews": 52,
+      "badgeViews": 53,
       "certificateDownloads": 1,
       "generatorOpens": 40,
       "generatorCompletions": 9,
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 16,
-      "badgeViews": 52,
+      "badgeViews": 53,
       "certificateDownloads": 1,
       "generatorOpens": 23,
       "generatorCompletions": 9,
@@ -120,6 +120,18 @@
       "latestViewedAt": "2026-04-17T21:09:01.537Z"
     },
     {
+      "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
+      "badgeId": "CSUNCC-20260422-0003",
+      "awardeeName": "Hector Carrillo",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 4,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-04-24T09:16:31.866Z"
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
       "badgeId": "CSUNCC-20260409-0003",
       "awardeeName": "Bryce Simon",
@@ -154,18 +166,6 @@
       "badgeViews": 3,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-04-10T20:22:54.412Z"
-    },
-    {
-      "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
-      "badgeId": "CSUNCC-20260422-0003",
-      "awardeeName": "Hector Carrillo",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
-      "badgesIssued": 1,
-      "badgeViews": 3,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-04-24T06:30:32.148Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -300,7 +300,7 @@
     {
       "awardeeName": "Hector Carrillo",
       "badgesIssued": 1,
-      "badgeViews": 3,
+      "badgeViews": 4,
       "certificateDownloads": 0
     },
     {
