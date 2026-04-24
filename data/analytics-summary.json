@@ -1,25 +1,25 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-24T06:30:12.093Z",
+  "updatedAt": "2026-04-24T06:30:32.152Z",
   "totals": {
     "badgesIssued": 16,
-    "badgeViews": 51,
+    "badgeViews": 52,
     "certificateDownloads": 1,
     "generatorOpens": 40,
     "generatorCompletions": 9,
     "conversionRate": 22.5,
-    "uniqueVisitorsApprox": 22
+    "uniqueVisitorsApprox": 23
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 16,
-      "badgeViews": 51,
+      "badgeViews": 52,
       "certificateDownloads": 1,
       "generatorOpens": 40,
       "generatorCompletions": 9,
-      "uniqueVisitorsApprox": 22,
+      "uniqueVisitorsApprox": 23,
       "conversionRate": 22.5
     }
   ],
@@ -28,11 +28,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 16,
-      "badgeViews": 51,
+      "badgeViews": 52,
       "certificateDownloads": 1,
       "generatorOpens": 40,
       "generatorCompletions": 9,
-      "uniqueVisitorsApprox": 22,
+      "uniqueVisitorsApprox": 23,
       "conversionRate": 22.5
     }
   ],
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 16,
-      "badgeViews": 51,
+      "badgeViews": 52,
       "certificateDownloads": 1,
       "generatorOpens": 23,
       "generatorCompletions": 9,
@@ -163,9 +163,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
       "badgesIssued": 1,
-      "badgeViews": 2,
+      "badgeViews": 3,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-04-24T06:30:11.965Z"
+      "latestViewedAt": "2026-04-24T06:30:32.148Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -300,7 +300,7 @@
     {
       "awardeeName": "Hector Carrillo",
       "badgesIssued": 1,
-      "badgeViews": 2,
+      "badgeViews": 3,
       "certificateDownloads": 0
     },
     {
