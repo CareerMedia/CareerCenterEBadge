@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T03:19:33.555Z",
+  "updatedAt": "2026-04-28T16:25:03.941Z",
   "totals": {
-    "badgesIssued": 16,
+    "badgesIssued": 17,
     "badgeViews": 56,
     "certificateDownloads": 1,
     "generatorOpens": 40,
@@ -14,7 +14,7 @@
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 16,
+      "badgesIssued": 17,
       "badgeViews": 56,
       "certificateDownloads": 1,
       "generatorOpens": 40,
@@ -27,7 +27,7 @@
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 16,
+      "badgesIssued": 17,
       "badgeViews": 56,
       "certificateDownloads": 1,
       "generatorOpens": 40,
@@ -40,7 +40,7 @@
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 16,
+      "badgesIssued": 17,
       "badgeViews": 56,
       "certificateDownloads": 1,
       "generatorOpens": 23,
@@ -250,6 +250,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "jane-doe-career-champion-csuncc-20010428-0001",
+      "badgeId": "CSUNCC-20010428-0001",
+      "awardeeName": "Jane Doe",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/jane-doe-career-champion-csuncc-20010428-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -329,6 +341,12 @@
     },
     {
       "awardeeName": "Veronica Torres",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Jane Doe",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
