@@ -3873,22 +3873,43 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
+    },
+    {
+      "id": "8912fa53-6528-454d-b76f-db21e55d5a92",
+      "type": "generator_opened",
+      "timestamp": "2026-04-28T16:29:45.245Z",
+      "monthKey": "2026-04",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "",
+      "badgeTemplateId": "",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "general",
+      "generatorKey": "general",
+      "generatorLabel": "General generator",
+      "source": "generator-page",
+      "visitorId": "5061c5907fa44bf4efdbdace",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
     {
       "id": "bulk-1777393503720",
-      "status": "processing",
+      "status": "completed",
       "createdAt": "2026-04-28T16:25:03.720Z",
       "startedAt": "2026-04-28T16:25:03.776Z",
-      "finishedAt": "",
+      "finishedAt": "2026-04-28T16:25:15.887Z",
       "badgeTemplateId": "career-champion",
       "badgeTemplateTitle": "Career Champion",
       "totalRows": 1,
-      "processedRows": 0,
-      "completedRows": 0,
+      "processedRows": 1,
+      "completedRows": 1,
       "failedRows": 0,
-      "progressPercent": 0,
+      "progressPercent": 100,
       "rows": [
         {
           "rowNumber": 2,
@@ -3897,20 +3918,26 @@
           "issueDate": "April 28"
         }
       ],
-      "results": [],
+      "results": [
+        {
+          "rowNumber": 2,
+          "badgeId": "CSUNCC-20010428-0001",
+          "publicUrl": "https://careerchampionsbadge.onrender.com/badges/jane-doe-career-champion-csuncc-20010428-0001/"
+        }
+      ],
       "errors": []
     }
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-28T16:25:03.941Z",
+    "updatedAt": "2026-04-28T16:29:45.247Z",
     "totals": {
       "badgesIssued": 17,
       "badgeViews": 56,
       "certificateDownloads": 1,
-      "generatorOpens": 40,
+      "generatorOpens": 41,
       "generatorCompletions": 9,
-      "conversionRate": 22.5,
+      "conversionRate": 22,
       "uniqueVisitorsApprox": 24
     },
     "months": [
@@ -3920,10 +3947,10 @@
         "badgesIssued": 17,
         "badgeViews": 56,
         "certificateDownloads": 1,
-        "generatorOpens": 40,
+        "generatorOpens": 41,
         "generatorCompletions": 9,
         "uniqueVisitorsApprox": 24,
-        "conversionRate": 22.5
+        "conversionRate": 22
       }
     ],
     "years": [
@@ -3933,10 +3960,10 @@
         "badgesIssued": 17,
         "badgeViews": 56,
         "certificateDownloads": 1,
-        "generatorOpens": 40,
+        "generatorOpens": 41,
         "generatorCompletions": 9,
         "uniqueVisitorsApprox": 24,
-        "conversionRate": 22.5
+        "conversionRate": 22
       }
     ],
     "badgeTypes": [
@@ -3956,7 +3983,7 @@
         "badgesIssued": 0,
         "badgeViews": 0,
         "certificateDownloads": 0,
-        "generatorOpens": 17,
+        "generatorOpens": 18,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -4182,9 +4209,9 @@
         "label": "General generator",
         "pageKind": "general",
         "templateId": "",
-        "opens": 17,
+        "opens": 18,
         "completions": 6,
-        "conversionRate": 35.3
+        "conversionRate": 33.3
       }
     ],
     "recipientStats": [
