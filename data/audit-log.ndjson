@@ -47,3 +47,6 @@
 {"timestamp":"2026-04-28T16:25:03.775Z","action":"bulk.issue.start","actor":"admin","jobId":"bulk-1777393503720","totalRows":1,"badgeTemplateId":"career-champion"}
 {"timestamp":"2026-04-28T16:25:04.059Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20010428-0001","backupId":"2026-04-28T16-25-04-052Z","createdAt":"2026-04-28T16:25:04.053Z"}
 {"timestamp":"2026-04-28T16:25:04.059Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20010428-0001","awardeeName":"Jane Doe"}
+{"timestamp":"2026-04-28T16:36:01.759Z","action":"bulk.issue.validate","actor":"admin","jobId":"bulk-1777394161753","totalRows":1,"badgeTemplateId":"career-champion"}
+{"timestamp":"2026-04-28T16:36:11.304Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260428-0001","backupId":"2026-04-28T16-36-11-300Z","createdAt":"2026-04-28T16:36:11.301Z"}
+{"timestamp":"2026-04-28T16:36:11.304Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260428-0001","awardeeName":"Jane Doe"}

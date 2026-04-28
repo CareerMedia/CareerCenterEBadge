@@ -1,5 +1,32 @@
 [
   {
+    "id": "bulk-1777394161753",
+    "status": "processing",
+    "createdAt": "2026-04-28T16:36:01.753Z",
+    "startedAt": "2026-04-28T16:36:11.110Z",
+    "finishedAt": "",
+    "badgeTemplateId": "career-champion",
+    "badgeTemplateTitle": "Career Champion",
+    "issueDateMode": "today",
+    "totalRows": 1,
+    "processedRows": 0,
+    "completedRows": 0,
+    "failedRows": 0,
+    "progressPercent": 0,
+    "rows": [
+      {
+        "rowNumber": 2,
+        "awardeeName": "Jane Doe",
+        "awardeeEmail": "jane.doe@csun.edu",
+        "issueDate": "April 28, 2026",
+        "issueDateRaw": "April 28",
+        "errors": []
+      }
+    ],
+    "results": [],
+    "errors": []
+  },
+  {
     "id": "bulk-1777393503720",
     "status": "completed",
     "createdAt": "2026-04-28T16:25:03.720Z",

@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T16:29:45.247Z",
+  "updatedAt": "2026-04-28T16:36:11.124Z",
   "totals": {
-    "badgesIssued": 17,
+    "badgesIssued": 18,
     "badgeViews": 56,
     "certificateDownloads": 1,
     "generatorOpens": 41,
@@ -14,7 +14,7 @@
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 17,
+      "badgesIssued": 18,
       "badgeViews": 56,
       "certificateDownloads": 1,
       "generatorOpens": 41,
@@ -27,7 +27,7 @@
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 17,
+      "badgesIssued": 18,
       "badgeViews": 56,
       "certificateDownloads": 1,
       "generatorOpens": 41,
@@ -40,7 +40,7 @@
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 17,
+      "badgesIssued": 18,
       "badgeViews": 56,
       "certificateDownloads": 1,
       "generatorOpens": 23,
@@ -262,6 +262,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "jane-doe-career-champion-csuncc-20260428-0001",
+      "badgeId": "CSUNCC-20260428-0001",
+      "awardeeName": "Jane Doe",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/jane-doe-career-champion-csuncc-20260428-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -334,6 +346,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Jane Doe",
+      "badgesIssued": 2,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Harsh Ahir",
       "badgesIssued": 1,
       "badgeViews": 0,
@@ -341,12 +359,6 @@
     },
     {
       "awardeeName": "Veronica Torres",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Jane Doe",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
