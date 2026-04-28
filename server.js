@@ -66,7 +66,9 @@ const {
   renderSettingsPage,
   renderAnalyticsPage,
   renderBackupsPage,
-  renderBulkIssuePage
+  renderBulkIssuePage,
+  renderBulkIssueValidationPage,
+  renderBulkIssueSuccessPage
 } = require('./lib/admin-renderer');
 const {
   parseListField,
@@ -401,23 +403,145 @@ function sanitizeBadgeResponse(badge) {
 }
 
 function buildBulkIssueTemplateCsv() {
-  return ['awardee_name,awardee_email,issue_date', 'Jane Doe,jane.doe@csun.edu,April 28, 2026'].join('\n') + '\n';
+  return ['awardee_name,awardee_email,issue_date', 'Jane Doe,jane.doe@csun.edu,2026-04-28'].join('\n') + '\n';
 }
 
-async function processBulkIssueJob(jobId) {
+function parseBulkIssueRowsFromForm(formData, rowCount) {
+  const rows = [];
+  const count = Number(rowCount || 0);
+  for (let index = 0; index < count; index += 1) {
+    rows.push({
+      rowNumber: index + 2,
+      awardeeName: cleanText(formData[`row_${index}_awardeeName`]),
+      awardeeEmail: normalizeEmail(formData[`row_${index}_awardeeEmail`]),
+      issueDateRaw: cleanText(formData[`row_${index}_issueDate`])
+    });
+  }
+  return rows;
+}
+
+function validateBulkIssueRows(rows, issueDateMode = 'today') {
+  const useToday = issueDateMode !== 'report';
+  const today = formatLongDate();
+  const validatedRows = rows.map((row) => {
+    const errors = [];
+    if (!cleanText(row.awardeeName)) {
+      errors.push('Recipient name is required.');
+    }
+    if (!isValidEmail(row.awardeeEmail)) {
+      errors.push('Recipient email must be a valid address.');
+    }
+    const sourceDate = useToday ? today : cleanText(row.issueDateRaw);
+    if (!useToday && !sourceDate) {
+      errors.push('Issue date is required when using report dates.');
+    }
+    const normalizedDate = sourceDate ? parseIssueDate(sourceDate).display : '';
+    return {
+      rowNumber: row.rowNumber,
+      awardeeName: cleanText(row.awardeeName),
+      awardeeEmail: normalizeEmail(row.awardeeEmail),
+      issueDate: normalizedDate,
+      issueDateRaw: cleanText(row.issueDateRaw),
+      errors
+    };
+  });
+  return {
+    rows: validatedRows,
+    hasBlockingErrors: validatedRows.some((row) => row.errors.length > 0)
+  };
+}
+
+function createBulkIssueValidationJob(formData) {
+  const badgeTemplateId = cleanText(formData.badgeTemplateId);
+  const issueDateMode = cleanText(formData.issueDateMode) === 'report' ? 'report' : 'today';
+  const templates = loadBadgeTemplates();
+  const template = templates.find((entry) => entry.id === badgeTemplateId);
+  if (!template) {
+    throw new Error('Select a valid badge template before validating.');
+  }
+  let parsedRows = [];
+  if (formData.jobId) {
+    parsedRows = parseBulkIssueRowsFromForm(formData, formData.rowCount);
+  } else {
+    const rows = parseCsv(formData.csvContent || '');
+    if (!rows.length) {
+      throw new Error('The uploaded CSV is empty.');
+    }
+    const header = rows[0].map((value) => cleanText(value).toLowerCase());
+    const nameIndex = header.indexOf('awardee_name');
+    const emailIndex = header.indexOf('awardee_email');
+    const issueDateIndex = header.indexOf('issue_date');
+    if (nameIndex < 0 || emailIndex < 0) {
+      throw new Error('CSV must include awardee_name and awardee_email columns.');
+    }
+    parsedRows = rows.slice(1).map((columns, rowOffset) => ({
+      rowNumber: rowOffset + 2,
+      awardeeName: cleanText(columns[nameIndex]),
+      awardeeEmail: normalizeEmail(columns[emailIndex]),
+      issueDateRaw: cleanText(issueDateIndex >= 0 ? columns[issueDateIndex] : '')
+    }));
+  }
+  if (!parsedRows.length) {
+    throw new Error('CSV has no data rows to validate.');
+  }
+  const validation = validateBulkIssueRows(parsedRows, issueDateMode);
+
+  const jobs = loadBulkIssueJobs();
+  const now = new Date().toISOString();
+  const id = formData.jobId ? cleanText(formData.jobId) : `bulk-${Date.now()}`;
+  const existingIndex = jobs.findIndex((entry) => entry.id === id);
+  const job = {
+    id,
+    status: validation.hasBlockingErrors ? 'validation_failed' : 'validated',
+    createdAt: existingIndex >= 0 ? jobs[existingIndex].createdAt : now,
+    startedAt: '',
+    finishedAt: '',
+    badgeTemplateId: template.id,
+    badgeTemplateTitle: template.title,
+    issueDateMode,
+    totalRows: validation.rows.length,
+    processedRows: 0,
+    completedRows: 0,
+    failedRows: 0,
+    progressPercent: 0,
+    rows: validation.rows,
+    results: [],
+    errors: []
+  };
+  if (existingIndex >= 0) {
+    jobs[existingIndex] = { ...jobs[existingIndex], ...job };
+  } else {
+    jobs.unshift(job);
+  }
+  saveBulkIssueJobs(jobs.slice(0, 75));
+  return job;
+}
+
+async function processBulkIssueJobSync(jobId) {
   const jobs = loadBulkIssueJobs();
   const index = jobs.findIndex((job) => job.id === jobId);
-  if (index < 0) return;
+  if (index < 0) {
+    throw new Error('Bulk issue job not found.');
+  }
   const job = jobs[index];
+  if (!Array.isArray(job.rows) || !job.rows.length) {
+    throw new Error('Bulk issue job has no rows to process.');
+  }
+  if (job.rows.some((row) => Array.isArray(row.errors) && row.errors.length)) {
+    throw new Error('Resolve validation errors before issuing badges.');
+  }
+
   job.status = 'processing';
   job.startedAt = new Date().toISOString();
+  job.processedRows = 0;
+  job.completedRows = 0;
+  job.failedRows = 0;
+  job.progressPercent = 0;
+  job.results = [];
+  job.errors = [];
   saveBulkIssueJobs(jobs);
 
-  for (const row of job.rows || []) {
-    const liveJobs = loadBulkIssueJobs();
-    const liveIndex = liveJobs.findIndex((entry) => entry.id === jobId);
-    if (liveIndex < 0) return;
-    const liveJob = liveJobs[liveIndex];
+  for (const row of job.rows) {
     try {
       const badge = await persistMutation(
         `Bulk issue badge row ${row.rowNumber} (${jobId})`,
@@ -425,101 +549,29 @@ async function processBulkIssueJob(jobId) {
           awardeeName: row.awardeeName,
           awardeeEmail: row.awardeeEmail,
           issueDate: row.issueDate,
-          badgeTemplateId: liveJob.badgeTemplateId,
+          badgeTemplateId: job.badgeTemplateId,
           source: 'admin-bulk-issue'
         }),
         buildPublicSite
       );
-      liveJob.completedRows += 1;
-      liveJob.results.push({ rowNumber: row.rowNumber, badgeId: badge.id, publicUrl: buildBrowserBadgeUrl(badge) });
+      job.completedRows += 1;
+      job.results.push({
+        rowNumber: row.rowNumber,
+        awardeeName: row.awardeeName,
+        badgeId: badge.id,
+        publicUrl: buildBrowserBadgeUrl(badge)
+      });
     } catch (error) {
-      liveJob.failedRows += 1;
-      liveJob.errors.push({ rowNumber: row.rowNumber, message: error.message });
+      job.failedRows += 1;
+      job.errors.push({ rowNumber: row.rowNumber, message: error.message });
     }
-    liveJob.processedRows = liveJob.completedRows + liveJob.failedRows;
-    liveJob.progressPercent = liveJob.totalRows ? Math.round((liveJob.processedRows / liveJob.totalRows) * 100) : 100;
-    saveBulkIssueJobs(liveJobs);
+    job.processedRows = job.completedRows + job.failedRows;
+    job.progressPercent = job.totalRows ? Math.round((job.processedRows / job.totalRows) * 100) : 100;
+    saveBulkIssueJobs(jobs);
   }
-
-  const finalJobs = loadBulkIssueJobs();
-  const finalIndex = finalJobs.findIndex((entry) => entry.id === jobId);
-  if (finalIndex >= 0) {
-    const finalJob = finalJobs[finalIndex];
-    finalJob.status = finalJob.failedRows ? (finalJob.completedRows ? 'completed_with_errors' : 'failed') : 'completed';
-    finalJob.finishedAt = new Date().toISOString();
-    saveBulkIssueJobs(finalJobs);
-  }
-}
-
-function createBulkIssueJob(formData) {
-  const badgeTemplateId = cleanText(formData.badgeTemplateId);
-  const templates = loadBadgeTemplates();
-  const template = templates.find((entry) => entry.id === badgeTemplateId);
-  if (!template) {
-    throw new Error('Select a valid badge template before starting a bulk issue job.');
-  }
-  const rows = parseCsv(formData.csvContent || '');
-  if (!rows.length) {
-    throw new Error('The uploaded CSV is empty.');
-  }
-  const header = rows[0].map((value) => cleanText(value).toLowerCase());
-  const nameIndex = header.indexOf('awardee_name');
-  const emailIndex = header.indexOf('awardee_email');
-  const issueDateIndex = header.indexOf('issue_date');
-  if (nameIndex < 0 || emailIndex < 0) {
-    throw new Error('CSV must include awardee_name and awardee_email columns.');
-  }
-  const normalizedRows = rows.slice(1).map((columns, rowOffset) => {
-    const rowNumber = rowOffset + 2;
-    const awardeeName = cleanText(columns[nameIndex]);
-    const awardeeEmail = normalizeEmail(columns[emailIndex]);
-    const issueDate = cleanText(issueDateIndex >= 0 ? columns[issueDateIndex] : '');
-    if (!awardeeName) {
-      throw new Error(`Row ${rowNumber}: awardee_name is required.`);
-    }
-    if (!isValidEmail(awardeeEmail)) {
-      throw new Error(`Row ${rowNumber}: awardee_email must be a valid email address.`);
-    }
-    return { rowNumber, awardeeName, awardeeEmail, issueDate };
-  });
-  if (!normalizedRows.length) {
-    throw new Error('CSV has no data rows to process.');
-  }
-
-  const jobs = loadBulkIssueJobs();
-  const now = new Date().toISOString();
-  const id = `bulk-${Date.now()}`;
-  const job = {
-    id,
-    status: 'queued',
-    createdAt: now,
-    startedAt: '',
-    finishedAt: '',
-    badgeTemplateId: template.id,
-    badgeTemplateTitle: template.title,
-    totalRows: normalizedRows.length,
-    processedRows: 0,
-    completedRows: 0,
-    failedRows: 0,
-    progressPercent: 0,
-    rows: normalizedRows,
-    results: [],
-    errors: []
-  };
-  jobs.unshift(job);
-  saveBulkIssueJobs(jobs.slice(0, 50));
-  setTimeout(() => {
-    processBulkIssueJob(id).catch((error) => {
-      const currentJobs = loadBulkIssueJobs();
-      const failedIndex = currentJobs.findIndex((entry) => entry.id === id);
-      if (failedIndex >= 0) {
-        currentJobs[failedIndex].status = 'failed';
-        currentJobs[failedIndex].errors.push({ rowNumber: 0, message: error.message });
-        currentJobs[failedIndex].finishedAt = new Date().toISOString();
-        saveBulkIssueJobs(currentJobs);
-      }
-    });
-  }, 0);
+  job.status = job.failedRows ? (job.completedRows ? 'completed_with_errors' : 'failed') : 'completed';
+  job.finishedAt = new Date().toISOString();
+  saveBulkIssueJobs(jobs);
   return job;
 }
 
@@ -1220,7 +1272,8 @@ async function handleAdminRequest(request, response, urlObject) {
       renderBulkIssuePage({
         templates: loadBadgeTemplates(),
         jobs: loadBulkIssueJobs(),
-        notice: queryNotice(urlObject)
+        notice: queryNotice(urlObject),
+        defaultDate: formatLongDate()
       })
     );
     return;
@@ -1238,15 +1291,51 @@ async function handleAdminRequest(request, response, urlObject) {
     return;
   }
 
-  if (request.method === 'POST' && urlObject.pathname === '/admin/bulk-issue/start') {
+  if (request.method === 'POST' && urlObject.pathname === '/admin/bulk-issue/validate') {
     try {
       const formData = await parseBody(request);
-      const job = createBulkIssueJob(formData);
-      appendAuditLog({ action: 'bulk.issue.start', actor: 'admin', jobId: job.id, totalRows: job.totalRows, badgeTemplateId: job.badgeTemplateId });
-      redirect(response, buildNoticeUrl('/admin/bulk-issue', `Bulk issue job ${job.id} started.`));
+      const job = createBulkIssueValidationJob(formData);
+      appendAuditLog({ action: 'bulk.issue.validate', actor: 'admin', jobId: job.id, totalRows: job.totalRows, badgeTemplateId: job.badgeTemplateId });
+      redirect(response, `/admin/bulk-issue/validate?job=${encodeURIComponent(job.id)}`);
     } catch (error) {
-      sendHtml(response, renderBulkIssuePage({ templates: loadBadgeTemplates(), jobs: loadBulkIssueJobs(), notice: error.message }), 400);
+      sendHtml(response, renderBulkIssuePage({ templates: loadBadgeTemplates(), jobs: loadBulkIssueJobs(), notice: error.message, defaultDate: formatLongDate() }), 400);
     }
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/bulk-issue/validate') {
+    const jobId = cleanText(urlObject.searchParams.get('job'));
+    const job = loadBulkIssueJobs().find((entry) => entry.id === jobId);
+    if (!job) {
+      redirect(response, buildNoticeUrl('/admin/bulk-issue', 'Bulk issue validation job not found.'));
+      return;
+    }
+    sendHtml(response, renderBulkIssueValidationPage({ job, notice: queryNotice(urlObject) }));
+    return;
+  }
+
+  if (request.method === 'POST' && urlObject.pathname === '/admin/bulk-issue/start') {
+    let jobId = '';
+    try {
+      const formData = await parseBody(request);
+      jobId = cleanText(formData.jobId);
+      const job = await processBulkIssueJobSync(jobId);
+      appendAuditLog({ action: 'bulk.issue.start', actor: 'admin', jobId: job.id, totalRows: job.totalRows, completedRows: job.completedRows, failedRows: job.failedRows, badgeTemplateId: job.badgeTemplateId });
+      redirect(response, `/admin/bulk-issue/success?job=${encodeURIComponent(job.id)}`);
+    } catch (error) {
+      redirect(response, `${buildNoticeUrl('/admin/bulk-issue/validate', error.message)}&job=${encodeURIComponent(jobId)}`);
+    }
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/bulk-issue/success') {
+    const jobId = cleanText(urlObject.searchParams.get('job'));
+    const job = loadBulkIssueJobs().find((entry) => entry.id === jobId);
+    if (!job) {
+      redirect(response, buildNoticeUrl('/admin/bulk-issue', 'Bulk issue job not found.'));
+      return;
+    }
+    sendHtml(response, renderBulkIssueSuccessPage({ job, notice: queryNotice(urlObject) }));
     return;
   }
 
