@@ -1,18 +1,18 @@
 [
   {
     "id": "bulk-1777394161753",
-    "status": "processing",
+    "status": "completed",
     "createdAt": "2026-04-28T16:36:01.753Z",
     "startedAt": "2026-04-28T16:36:11.110Z",
-    "finishedAt": "",
+    "finishedAt": "2026-04-28T16:36:23.544Z",
     "badgeTemplateId": "career-champion",
     "badgeTemplateTitle": "Career Champion",
     "issueDateMode": "today",
     "totalRows": 1,
-    "processedRows": 0,
-    "completedRows": 0,
+    "processedRows": 1,
+    "completedRows": 1,
     "failedRows": 0,
-    "progressPercent": 0,
+    "progressPercent": 100,
     "rows": [
       {
         "rowNumber": 2,
@@ -23,7 +23,14 @@
         "errors": []
       }
     ],
-    "results": [],
+    "results": [
+      {
+        "rowNumber": 2,
+        "awardeeName": "Jane Doe",
+        "badgeId": "CSUNCC-20260428-0001",
+        "publicUrl": "https://careerchampionsbadge.onrender.com/badges/jane-doe-career-champion-csuncc-20260428-0001/"
+      }
+    ],
     "errors": []
   },
   {
