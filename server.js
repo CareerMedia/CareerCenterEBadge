@@ -37,12 +37,15 @@ const {
   parseFullBackupJson,
   applyAppState,
   importBadgesFromCsv,
+  parseCsv,
   appendAuditLog,
   saveUploadedAssetFromDataUrl,
   parseList,
   cleanAssetPath,
   getCertificateTemplateForTemplate,
-  normalizeCertificateConfig
+  normalizeCertificateConfig,
+  loadBulkIssueJobs,
+  saveBulkIssueJobs
 } = require('./lib/store');
 const { buildPublicSite } = require('./lib/site-generator');
 const { pullRemoteData, persistMutation, getConfig, queuePushLocalData } = require('./lib/github-sync');
@@ -62,7 +65,8 @@ const {
   renderTemplatesPage,
   renderSettingsPage,
   renderAnalyticsPage,
-  renderBackupsPage
+  renderBackupsPage,
+  renderBulkIssuePage
 } = require('./lib/admin-renderer');
 const {
   parseListField,
@@ -314,6 +318,8 @@ function requiresPublicPassword(pathname) {
     normalized === '/index.html' ||
     normalized === '/registry' ||
     normalized === '/registry/index.html' ||
+    normalized === '/lookup' ||
+    normalized === '/lookup/index.html' ||
     normalized.startsWith('/data')
   );
 }
@@ -362,7 +368,7 @@ function filterBadges(badges, query) {
   }
   return sortBadgesDescending(
     badges.filter((badge) =>
-      [badge.awardeeName, badge.badgeTitle, badge.issueDate, badge.id, badge.meaning]
+      [badge.awardeeName, badge.awardeeEmail, badge.badgeTitle, badge.issueDate, badge.id, badge.meaning]
         .join(' ')
         .toLowerCase()
         .includes(trimmed)
@@ -372,6 +378,149 @@ function filterBadges(badges, query) {
 
 function cleanText(value) {
   return String(value || '').trim();
+}
+
+function normalizeEmail(value) {
+  return cleanText(value).toLowerCase();
+}
+
+function isValidEmail(value) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizeEmail(value));
+}
+
+function sanitizeBadgeResponse(badge) {
+  return {
+    id: badge.id,
+    awardeeName: badge.awardeeName,
+    awardeeEmail: badge.awardeeEmail || '',
+    issueDate: badge.issueDate,
+    badgeTitle: badge.badgeTitle,
+    publicUrl: buildBrowserBadgeUrl(badge),
+    slug: badge.slug
+  };
+}
+
+function buildBulkIssueTemplateCsv() {
+  return ['awardee_name,awardee_email,issue_date', 'Jane Doe,jane.doe@csun.edu,April 28, 2026'].join('\n') + '\n';
+}
+
+async function processBulkIssueJob(jobId) {
+  const jobs = loadBulkIssueJobs();
+  const index = jobs.findIndex((job) => job.id === jobId);
+  if (index < 0) return;
+  const job = jobs[index];
+  job.status = 'processing';
+  job.startedAt = new Date().toISOString();
+  saveBulkIssueJobs(jobs);
+
+  for (const row of job.rows || []) {
+    const liveJobs = loadBulkIssueJobs();
+    const liveIndex = liveJobs.findIndex((entry) => entry.id === jobId);
+    if (liveIndex < 0) return;
+    const liveJob = liveJobs[liveIndex];
+    try {
+      const badge = await persistMutation(
+        `Bulk issue badge row ${row.rowNumber} (${jobId})`,
+        () => handleIssueBadge({
+          awardeeName: row.awardeeName,
+          awardeeEmail: row.awardeeEmail,
+          issueDate: row.issueDate,
+          badgeTemplateId: liveJob.badgeTemplateId,
+          source: 'admin-bulk-issue'
+        }),
+        buildPublicSite
+      );
+      liveJob.completedRows += 1;
+      liveJob.results.push({ rowNumber: row.rowNumber, badgeId: badge.id, publicUrl: buildBrowserBadgeUrl(badge) });
+    } catch (error) {
+      liveJob.failedRows += 1;
+      liveJob.errors.push({ rowNumber: row.rowNumber, message: error.message });
+    }
+    liveJob.processedRows = liveJob.completedRows + liveJob.failedRows;
+    liveJob.progressPercent = liveJob.totalRows ? Math.round((liveJob.processedRows / liveJob.totalRows) * 100) : 100;
+    saveBulkIssueJobs(liveJobs);
+  }
+
+  const finalJobs = loadBulkIssueJobs();
+  const finalIndex = finalJobs.findIndex((entry) => entry.id === jobId);
+  if (finalIndex >= 0) {
+    const finalJob = finalJobs[finalIndex];
+    finalJob.status = finalJob.failedRows ? (finalJob.completedRows ? 'completed_with_errors' : 'failed') : 'completed';
+    finalJob.finishedAt = new Date().toISOString();
+    saveBulkIssueJobs(finalJobs);
+  }
+}
+
+function createBulkIssueJob(formData) {
+  const badgeTemplateId = cleanText(formData.badgeTemplateId);
+  const templates = loadBadgeTemplates();
+  const template = templates.find((entry) => entry.id === badgeTemplateId);
+  if (!template) {
+    throw new Error('Select a valid badge template before starting a bulk issue job.');
+  }
+  const rows = parseCsv(formData.csvContent || '');
+  if (!rows.length) {
+    throw new Error('The uploaded CSV is empty.');
+  }
+  const header = rows[0].map((value) => cleanText(value).toLowerCase());
+  const nameIndex = header.indexOf('awardee_name');
+  const emailIndex = header.indexOf('awardee_email');
+  const issueDateIndex = header.indexOf('issue_date');
+  if (nameIndex < 0 || emailIndex < 0) {
+    throw new Error('CSV must include awardee_name and awardee_email columns.');
+  }
+  const normalizedRows = rows.slice(1).map((columns, rowOffset) => {
+    const rowNumber = rowOffset + 2;
+    const awardeeName = cleanText(columns[nameIndex]);
+    const awardeeEmail = normalizeEmail(columns[emailIndex]);
+    const issueDate = cleanText(issueDateIndex >= 0 ? columns[issueDateIndex] : '');
+    if (!awardeeName) {
+      throw new Error(`Row ${rowNumber}: awardee_name is required.`);
+    }
+    if (!isValidEmail(awardeeEmail)) {
+      throw new Error(`Row ${rowNumber}: awardee_email must be a valid email address.`);
+    }
+    return { rowNumber, awardeeName, awardeeEmail, issueDate };
+  });
+  if (!normalizedRows.length) {
+    throw new Error('CSV has no data rows to process.');
+  }
+
+  const jobs = loadBulkIssueJobs();
+  const now = new Date().toISOString();
+  const id = `bulk-${Date.now()}`;
+  const job = {
+    id,
+    status: 'queued',
+    createdAt: now,
+    startedAt: '',
+    finishedAt: '',
+    badgeTemplateId: template.id,
+    badgeTemplateTitle: template.title,
+    totalRows: normalizedRows.length,
+    processedRows: 0,
+    completedRows: 0,
+    failedRows: 0,
+    progressPercent: 0,
+    rows: normalizedRows,
+    results: [],
+    errors: []
+  };
+  jobs.unshift(job);
+  saveBulkIssueJobs(jobs.slice(0, 50));
+  setTimeout(() => {
+    processBulkIssueJob(id).catch((error) => {
+      const currentJobs = loadBulkIssueJobs();
+      const failedIndex = currentJobs.findIndex((entry) => entry.id === id);
+      if (failedIndex >= 0) {
+        currentJobs[failedIndex].status = 'failed';
+        currentJobs[failedIndex].errors.push({ rowNumber: 0, message: error.message });
+        currentJobs[failedIndex].finishedAt = new Date().toISOString();
+        saveBulkIssueJobs(currentJobs);
+      }
+    });
+  }, 0);
+  return job;
 }
 
 
@@ -466,6 +615,7 @@ function mergeTemplateFields(formData) {
 
   const merged = {
     awardeeName: cleanText(formData.awardeeName),
+    awardeeEmail: normalizeEmail(formData.awardeeEmail),
     issueDate: cleanText(formData.issueDate),
     badgeTemplateId,
     badgeTitle: cleanText(formData.badgeTitle) || cleanText(template && template.title),
@@ -510,10 +660,13 @@ function mergeTemplateFields(formData) {
 
 function createBadgeRecord(formData) {
   const merged = mergeTemplateFields(formData);
-  const { awardeeName, issueDate, badgeTemplateId, badgeTitle, badgeLabel, description, publicSummary, meaning, criteria, issuerName, issuerOrganization, issuerWebsite, careerCenterUrl, badgeImage, certificateBackground } = merged;
+  const { awardeeName, awardeeEmail, issueDate, badgeTemplateId, badgeTitle, badgeLabel, description, publicSummary, meaning, criteria, issuerName, issuerOrganization, issuerWebsite, careerCenterUrl, badgeImage, certificateBackground } = merged;
 
-  if (!awardeeName || !badgeTitle || !publicSummary || !meaning || !criteria) {
-    throw new Error('Awardee name, badge title, summary, meaning, and criteria are required.');
+  if (!awardeeName || !awardeeEmail || !badgeTitle || !publicSummary || !meaning || !criteria) {
+    throw new Error('Awardee name, awardee email, badge title, summary, meaning, and criteria are required.');
+  }
+  if (!isValidEmail(awardeeEmail)) {
+    throw new Error('Awardee email must be a valid email address.');
   }
   if (!issuerName || !issuerOrganization || !issuerWebsite || !careerCenterUrl) {
     throw new Error('Issuer and Career Center URLs are required.');
@@ -530,6 +683,7 @@ function createBadgeRecord(formData) {
   const candidate = {
     id,
     awardeeName,
+    awardeeEmail,
     issueDate: parsedDate.display,
     issueDateISO: parsedDate.iso,
     badgeTemplateId,
@@ -595,6 +749,7 @@ function handleIssueBadge(formData) {
     badgeTitle: badge.badgeTitle,
     badgeTemplateId: badge.badgeTemplateId,
     awardeeName: badge.awardeeName,
+    awardeeEmail: badge.awardeeEmail || '',
     publicUrl: buildBrowserBadgeUrl(badge),
     source: badge.source || 'admin',
     context: 'issuance'
@@ -884,6 +1039,24 @@ function renderDashboardPage(urlObject) {
 }
 
 async function handlePublicApiRequest(request, response, urlObject) {
+  if (request.method === 'POST' && urlObject.pathname === '/api/public/badges-by-email') {
+    try {
+      const formData = await parseBody(request);
+      const email = normalizeEmail(formData.email);
+      if (!isValidEmail(email)) {
+        sendText(response, JSON.stringify({ ok: false, error: 'Enter a valid email address.' }), 400, 'application/json; charset=utf-8');
+        return true;
+      }
+      const matches = sortBadgesDescending(loadBadges())
+        .filter((badge) => normalizeEmail(badge.awardeeEmail) === email)
+        .map((badge) => sanitizeBadgeResponse(badge));
+      sendText(response, JSON.stringify({ ok: true, matches }), 200, 'application/json; charset=utf-8');
+    } catch (error) {
+      sendText(response, JSON.stringify({ ok: false, error: error.message }), 400, 'application/json; charset=utf-8');
+    }
+    return true;
+  }
+
   if (request.method === 'POST' && urlObject.pathname === '/api/public/issue') {
     try {
       const formData = await parseBody(request);
@@ -910,22 +1083,7 @@ async function handlePublicApiRequest(request, response, urlObject) {
         return issuedBadge;
       }, buildPublicSite);
       const browserUrl = buildBrowserBadgeUrl(badge);
-      sendText(
-        response,
-        JSON.stringify({
-          ok: true,
-          badge: {
-            id: badge.id,
-            awardeeName: badge.awardeeName,
-            issueDate: badge.issueDate,
-            badgeTitle: badge.badgeTitle,
-            publicUrl: browserUrl,
-            slug: badge.slug
-          }
-        }),
-        201,
-        'application/json; charset=utf-8'
-      );
+      sendText(response, JSON.stringify({ ok: true, badge: sanitizeBadgeResponse({ ...badge, publicUrl: browserUrl }) }), 201, 'application/json; charset=utf-8');
     } catch (error) {
       sendText(
         response,
@@ -954,6 +1112,7 @@ async function handlePublicApiRequest(request, response, urlObject) {
         badgeTitle: cleanText(formData.badgeTitle),
         badgeTemplateId: cleanText(formData.badgeTemplateId),
         awardeeName: cleanText(formData.awardeeName),
+        awardeeEmail: normalizeEmail(formData.awardeeEmail),
         publicUrl: cleanText(formData.publicUrl),
         generatorKey: buildGeneratorKey(cleanText(formData.badgeTemplateId), cleanText(formData.pageKind) || 'general'),
         generatorLabel: cleanText(formData.generatorLabel),
@@ -1051,6 +1210,42 @@ async function handleAdminRequest(request, response, urlObject) {
         }),
         400
       );
+    }
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/bulk-issue') {
+    sendHtml(
+      response,
+      renderBulkIssuePage({
+        templates: loadBadgeTemplates(),
+        jobs: loadBulkIssueJobs(),
+        notice: queryNotice(urlObject)
+      })
+    );
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/bulk-issue/template.csv') {
+    sendText(response, buildBulkIssueTemplateCsv(), 200, 'text/csv; charset=utf-8', {
+      'Content-Disposition': 'attachment; filename="bulk-badge-issue-template.csv"'
+    });
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/bulk-issue/jobs.json') {
+    sendText(response, JSON.stringify({ ok: true, jobs: loadBulkIssueJobs() }), 200, 'application/json; charset=utf-8');
+    return;
+  }
+
+  if (request.method === 'POST' && urlObject.pathname === '/admin/bulk-issue/start') {
+    try {
+      const formData = await parseBody(request);
+      const job = createBulkIssueJob(formData);
+      appendAuditLog({ action: 'bulk.issue.start', actor: 'admin', jobId: job.id, totalRows: job.totalRows, badgeTemplateId: job.badgeTemplateId });
+      redirect(response, buildNoticeUrl('/admin/bulk-issue', `Bulk issue job ${job.id} started.`));
+    } catch (error) {
+      sendHtml(response, renderBulkIssuePage({ templates: loadBadgeTemplates(), jobs: loadBulkIssueJobs(), notice: error.message }), 400);
     }
     return;
   }

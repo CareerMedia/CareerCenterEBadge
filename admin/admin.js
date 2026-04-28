@@ -257,10 +257,53 @@
     updateDotPositions();
   }
 
+  function initializeBulkIssueJobs() {
+    const body = document.getElementById('bulkIssueJobsBody');
+    if (!body) return;
+
+    function escapeHtml(value) {
+      return String(value == null ? '' : value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function draw(jobs) {
+      if (!Array.isArray(jobs) || !jobs.length) {
+        body.innerHTML = '<tr><td colspan="6" class="empty-row">No bulk issue jobs yet.</td></tr>';
+        return;
+      }
+      body.innerHTML = jobs.map((job) => `
+        <tr>
+          <td><strong>${escapeHtml(job.id || '')}</strong><div class="table-subtext">${escapeHtml(job.badgeTemplateTitle || job.badgeTemplateId || '')}</div></td>
+          <td>${escapeHtml(String(job.status || 'pending'))}</td>
+          <td>${escapeHtml(String(job.totalRows || 0))}</td>
+          <td>${escapeHtml(String(job.completedRows || 0))}</td>
+          <td>${escapeHtml(String(job.failedRows || 0))}</td>
+          <td>${escapeHtml(job.createdAt || '')}</td>
+        </tr>
+      `).join('');
+    }
+
+    draw(window.__BULK_ISSUE_JOBS__ || []);
+    window.setInterval(async () => {
+      try {
+        const response = await fetch('/admin/bulk-issue/jobs.json', { cache: 'no-store' });
+        if (!response.ok) return;
+        const payload = await response.json();
+        draw(payload.jobs || []);
+      } catch (error) {
+      }
+    }, 2500);
+  }
+
   bindCopyButtons();
   bindDeleteConfirms();
   autoFillIssueForm();
   bindFileLoaders();
   bindUploadInputs();
   bindCoordinateEditor();
+  initializeBulkIssueJobs();
 })();

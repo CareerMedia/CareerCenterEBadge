@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSUN Career Center E-Badges | Find My Badge</title>
+    <meta name="description" content="Find your badges by email address. Only matching credentials are shown." />
+    
+    <link rel="stylesheet" href="../assets/public.css" />
+  </head>
+  <body data-page="lookup">
+    
+    <div class="public-topbar">
+      <div class="wrap public-topbar__inner">
+        
+    <div class="brand-lockup">
+      <img class="brand-lockup__logo" src="../assets/CC_Logo_Lockup_Main@5x.png" alt="CSUN Career Center logo" />
+      <div class="brand-lockup__text">
+        <strong>CSUN Career Center E-Badges</strong>
+        <span>Recipient lookup</span>
+      </div>
+    </div>
+        <div class="topbar-actions"><a class="topbar-link topbar-link--primary" href="../generator/">General generator</a></div>
+      </div>
+    </div>
+    <main class="page-stack">
+      <section class="hero-shell hero-shell--registry">
+        <div class="wrap hero-shell__inner hero-shell__inner--registry">
+          <div class="hero-copy">
+            <p class="eyebrow">Public badge recovery</p>
+            <h1>Find your badges by email</h1>
+            <p class="lede">Enter the email used when the badge was issued. Results only show badges attached to that email.</p>
+          </div>
+          <div class="showcase-panel showcase-panel--light">
+            <p class="section-label">Privacy by default</p>
+            <h2>No full public directory shown.</h2>
+            <p>If there are no matches, this page clearly tells you and shows no other badge records.</p>
+          </div>
+        </div>
+      </section>
+      <section class="page-section">
+        <div class="wrap">
+          <div class="panel panel--surface panel--search">
+            <form id="emailLookupForm" class="search-bar search-bar--wide">
+              <label class="sr-only" for="emailLookupInput">Enter your email</label>
+              <input id="emailLookupInput" type="email" placeholder="name@domain.edu" required />
+              <button type="submit">Find my badges</button>
+            </form>
+            <p id="emailLookupStatus" class="muted">Search results are private to the email you enter.</p>
+            <div id="emailLookupResults" class="credential-list"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../assets/site.js"></script>
+  </body>
+</html>

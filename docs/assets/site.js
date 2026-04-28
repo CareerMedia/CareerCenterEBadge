@@ -486,6 +486,7 @@
     const fixedTemplateId = String(data.fixedTemplateId || '').trim();
 
     const nameInput = document.getElementById('publicGeneratorName');
+    const emailInput = document.getElementById('publicGeneratorEmail');
     const dateInput = document.getElementById('publicGeneratorDate');
     const templateSelect = document.getElementById('publicGeneratorTemplate');
     const previewButton = document.getElementById('publicPreviewButton');
@@ -601,6 +602,10 @@
         status.textContent = 'Please enter a recipient name.';
         return null;
       }
+      if (!emailInput.value.trim()) {
+        status.textContent = 'Please enter a recipient email.';
+        return null;
+      }
       if (!selected) {
         status.textContent = 'Please choose a badge type.';
         return null;
@@ -665,6 +670,7 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             awardeeName: nameInput.value.trim(),
+            awardeeEmail: emailInput.value.trim(),
             issueDate: dateInput.value.trim(),
             badgeTemplateId: selected.id,
             pageKind: data.pageKind || (fixedTemplateId ? 'specific' : 'general'),
@@ -846,6 +852,57 @@
     draw();
   }
 
+  function buildLookupCard(badge) {
+    return `
+      <article class="credential-card">
+        <div>
+          <p class="section-label">${escapeHtml(badge.badgeTitle || '')}</p>
+          <h3>${escapeHtml(badge.awardeeName || '')}</h3>
+          <div class="credential-card__meta">
+            <span><strong>Credential ID:</strong> ${escapeHtml(badge.id || '')}</span>
+            <span><strong>Issued:</strong> ${escapeHtml(badge.issueDate || '')}</span>
+          </div>
+        </div>
+        <div class="credential-card__actions">
+          <a class="button-link button-link--secondary" href="${escapeAttribute(badge.publicUrl || '#')}">View badge</a>
+        </div>
+      </article>`;
+  }
+
+  function initializeEmailLookup() {
+    const form = document.getElementById('emailLookupForm');
+    const input = document.getElementById('emailLookupInput');
+    const status = document.getElementById('emailLookupStatus');
+    const results = document.getElementById('emailLookupResults');
+    if (!form || !input || !status || !results) return;
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const email = input.value.trim().toLowerCase();
+      if (!email) return;
+      status.textContent = 'Searching for badges...';
+      results.innerHTML = '';
+      try {
+        const response = await fetch('/api/public/badges-by-email', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+        const payload = await response.json();
+        if (!response.ok || !payload.ok) {
+          throw new Error(payload.error || 'Unable to search for badges.');
+        }
+        if (!Array.isArray(payload.matches) || !payload.matches.length) {
+          status.textContent = 'No badges were found for that email.';
+          return;
+        }
+        status.textContent = `Found ${payload.matches.length} badge${payload.matches.length === 1 ? '' : 's'} for ${email}.`;
+        results.innerHTML = payload.matches.map(buildLookupCard).join('');
+      } catch (error) {
+        status.textContent = error.message;
+      }
+    });
+  }
+
   function bindCopyButtons() {
     document.querySelectorAll('[data-copy-url], [data-copy-text], [data-copy-rich-html], [data-copy-target]').forEach((button) => {
       button.addEventListener('click', async () => {
@@ -878,5 +935,6 @@
   initializePublicGenerator();
   renderRecentBadges();
   initializeRegistrySearch();
+  initializeEmailLookup();
   bindCopyButtons();
 })();
