@@ -320,8 +320,6 @@ function requiresPublicPassword(pathname) {
     normalized === '/index.html' ||
     normalized === '/registry' ||
     normalized === '/registry/index.html' ||
-    normalized === '/lookup' ||
-    normalized === '/lookup/index.html' ||
     normalized.startsWith('/data')
   );
 }
