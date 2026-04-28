@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-28T16:36:30.871Z",
+  "updatedAt": "2026-04-28T16:42:10.816Z",
   "totals": {
     "badgesIssued": 18,
-    "badgeViews": 57,
+    "badgeViews": 58,
     "certificateDownloads": 1,
     "generatorOpens": 41,
     "generatorCompletions": 9,
@@ -15,7 +15,7 @@
       "key": "2026-04",
       "label": "Apr 2026",
       "badgesIssued": 18,
-      "badgeViews": 57,
+      "badgeViews": 58,
       "certificateDownloads": 1,
       "generatorOpens": 41,
       "generatorCompletions": 9,
@@ -28,7 +28,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 18,
-      "badgeViews": 57,
+      "badgeViews": 58,
       "certificateDownloads": 1,
       "generatorOpens": 41,
       "generatorCompletions": 9,
@@ -41,7 +41,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 18,
-      "badgeViews": 57,
+      "badgeViews": 58,
       "certificateDownloads": 1,
       "generatorOpens": 23,
       "generatorCompletions": 9,
@@ -192,6 +192,18 @@
       "latestViewedAt": "2026-04-22T17:57:47.218Z"
     },
     {
+      "slug": "jane-doe-career-champion-csuncc-20010428-0001",
+      "badgeId": "CSUNCC-20010428-0001",
+      "awardeeName": "Jane Doe",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/jane-doe-career-champion-csuncc-20010428-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-04-28T16:42:10.813Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20260428-0001",
       "badgeId": "CSUNCC-20260428-0001",
       "awardeeName": "Jane Doe",
@@ -262,18 +274,6 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
-    },
-    {
-      "slug": "jane-doe-career-champion-csuncc-20010428-0001",
-      "badgeId": "CSUNCC-20010428-0001",
-      "awardeeName": "Jane Doe",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/jane-doe-career-champion-csuncc-20010428-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -330,7 +330,7 @@
     {
       "awardeeName": "Jane Doe",
       "badgesIssued": 2,
-      "badgeViews": 1,
+      "badgeViews": 2,
       "certificateDownloads": 0
     },
     {
