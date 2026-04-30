@@ -68,7 +68,8 @@ const {
   renderBackupsPage,
   renderBulkIssuePage,
   renderBulkIssueValidationPage,
-  renderBulkIssueSuccessPage
+  renderBulkIssueSuccessPage,
+  renderEmailPage
 } = require('./lib/admin-renderer');
 const {
   parseListField,
@@ -80,6 +81,7 @@ const {
   buildWidgetEmbedCode,
   buildGeneratorRoute
 } = require('./lib/credential-utils');
+const { queueBadgeAwardedEmail, getBrevoApiKey } = require('./lib/brevo-mailer');
 
 function loadEnvFile() {
   const envPath = path.join(PATHS.root, '.env');
@@ -806,6 +808,7 @@ function handleIssueBadge(formData) {
   });
   createBackupSnapshot(`Issued badge ${badge.id}`, 'admin');
   appendAuditLog({ action: 'badge.issue', actor: 'admin', badgeId: badge.id, awardeeName: badge.awardeeName });
+  queueBadgeAwardedEmail(loadSiteConfig, badge);
   return badge;
 }
 
@@ -924,7 +927,9 @@ function buildTemplateVerificationSections(formData) {
 }
 
 function saveSettings(formData) {
+  const previous = loadSiteConfig();
   const siteConfig = {
+    ...previous,
     siteName: cleanText(formData.siteName),
     organizationName: cleanText(formData.organizationName),
     publicSiteUrl: normalizeUrl(cleanText(formData.publicSiteUrl)),
@@ -972,6 +977,40 @@ function saveSettings(formData) {
   saveBadges(updatedBadges);
   createBackupSnapshot('Saved settings', 'admin');
   appendAuditLog({ action: 'settings.save', actor: 'admin' });
+}
+
+function saveEmailSettings(formData) {
+  const previous = loadSiteConfig();
+  const clearKey = parseBooleanInput(formData.emailBrevoClearApiKey);
+  const apiKeyInput = String(formData.emailBrevoApiKey || '').trim();
+  let emailBrevoApiKey = String(previous.emailBrevoApiKey || '').trim();
+  if (clearKey) {
+    emailBrevoApiKey = '';
+  } else if (apiKeyInput) {
+    emailBrevoApiKey = apiKeyInput;
+  }
+  const siteConfig = {
+    ...previous,
+    emailBrevoEnabled: parseBooleanInput(formData.emailBrevoEnabled),
+    emailBrevoApiKey,
+    emailBrevoSenderEmail: normalizeEmail(formData.emailBrevoSenderEmail),
+    emailBrevoSenderName: cleanText(formData.emailBrevoSenderName) || 'CSUN Career Center',
+    emailBrevoReplyTo: normalizeEmail(formData.emailBrevoReplyTo)
+  };
+  if (siteConfig.emailBrevoEnabled) {
+    if (!getBrevoApiKey(siteConfig)) {
+      throw new Error('Turn on email only after a Brevo API key is set here or as BREVO_API_KEY on the server.');
+    }
+    if (!isValidEmail(siteConfig.emailBrevoSenderEmail)) {
+      throw new Error('Sender email must be a valid address (and verified as a sender in Brevo).');
+    }
+    if (siteConfig.emailBrevoReplyTo && !isValidEmail(siteConfig.emailBrevoReplyTo)) {
+      throw new Error('Reply-to must be a valid email address when provided.');
+    }
+  }
+  saveSiteConfig(siteConfig);
+  createBackupSnapshot('Saved Brevo email settings', 'admin');
+  appendAuditLog({ action: 'email.settings.save', actor: 'admin' });
 }
 
 function restoreFullBackup(jsonText) {
@@ -1377,6 +1416,18 @@ async function handleAdminRequest(request, response, urlObject) {
     return;
   }
 
+  if (request.method === 'GET' && urlObject.pathname === '/admin/email') {
+    sendHtml(
+      response,
+      renderEmailPage({
+        siteConfig: loadSiteConfig(),
+        envBrevoKeyConfigured: Boolean(String(process.env.BREVO_API_KEY || '').trim()),
+        notice: queryNotice(urlObject)
+      })
+    );
+    return;
+  }
+
   if (request.method === 'GET' && urlObject.pathname === '/admin/analytics') {
     sendHtml(response, renderAnalyticsPage(buildAnalyticsViewModel(urlObject)));
     return;
@@ -1414,6 +1465,24 @@ async function handleAdminRequest(request, response, urlObject) {
     return;
   }
 
+  if (request.method === 'POST' && urlObject.pathname === '/admin/email/save') {
+    try {
+      const formData = await parseBody(request);
+      await persistMutation('Save Brevo email settings', () => saveEmailSettings(formData), buildPublicSite);
+      redirect(response, buildNoticeUrl('/admin/email', 'Email settings saved.'));
+    } catch (error) {
+      sendHtml(
+        response,
+        renderEmailPage({
+          siteConfig: loadSiteConfig(),
+          envBrevoKeyConfigured: Boolean(String(process.env.BREVO_API_KEY || '').trim()),
+          notice: error.message
+        }),
+        400
+      );
+    }
+    return;
+  }
 
   if (request.method === 'POST' && urlObject.pathname === '/admin/backups/snapshot') {
     await persistMutation('Create manual backup snapshot', () => {

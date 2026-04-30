@@ -505,3 +505,16 @@ textarea { min-height: 120px; resize: vertical; }
     grid-template-columns: 1fr;
   }
 }
+
+.email-template-preview {
+  margin: 0.75rem 0 0;
+  padding: 1rem 1.1rem;
+  border-radius: 14px;
+  background: rgba(15, 23, 42, 0.04);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}

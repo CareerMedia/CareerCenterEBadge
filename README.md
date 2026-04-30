@@ -111,6 +111,19 @@ From admin you can:
 - manage badge templates
 - update certificate coordinates and text styling
 - update site settings
+- configure **Email (Brevo)** so awardees receive an automatic message when a badge is issued (including bulk issue)
+
+### Automatic award emails (Brevo)
+
+Path: `/admin/email`
+
+Uses Brevo’s transactional API: `POST https://api.brevo.com/v3/smtp/email` with the `api-key` header and JSON body (`sender`, `to`, `subject`, `htmlContent`, `textContent`). See [Brevo: Send a transactional email](https://developers.brevo.com/reference/send-transac-email).
+
+1. In Brevo, verify a **sender** address under **Senders**, then enter that address as **Sender email** on the Email tab.
+2. Under **SMTP & API** → **API keys**, create a key allowed to send transactional mail. Paste it into **Brevo API key**, or set the host variable **`BREVO_API_KEY`** (it overrides a saved key when present).
+3. Turn on **Send award email automatically**, save, and set **Public site URL** on Settings so badge links in emails are full `https://` URLs.
+
+**Security:** API keys saved in `data/email-config.json` sync to GitHub when persistence is enabled. Prefer `BREVO_API_KEY` on Render (or another host) if you do not want the key in the data branch.
 
 ## Where your generated links and records live
 
@@ -120,6 +133,7 @@ Backend source files:
 - `data/badge-catalog.json` — badge template definitions
 - `data/certificate-template.json` — X/Y coordinates and certificate text settings
 - `data/site-config.json` — global site branding and URLs
+- `data/email-config.json` — Brevo / automatic award email settings (persisted separately so they survive deploys and stay synced on the GitHub data branch)
 
 Generated public files:
 - `docs/index.html`
