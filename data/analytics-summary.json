@@ -1,51 +1,51 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-30T18:47:35.613Z",
+  "updatedAt": "2026-04-30T18:47:53.393Z",
   "totals": {
-    "badgesIssued": 18,
+    "badgesIssued": 19,
     "badgeViews": 60,
     "certificateDownloads": 1,
     "generatorOpens": 44,
-    "generatorCompletions": 9,
-    "conversionRate": 20.5,
+    "generatorCompletions": 10,
+    "conversionRate": 22.7,
     "uniqueVisitorsApprox": 26
   },
   "months": [
     {
       "key": "2026-04",
       "label": "Apr 2026",
-      "badgesIssued": 18,
+      "badgesIssued": 19,
       "badgeViews": 60,
       "certificateDownloads": 1,
       "generatorOpens": 44,
-      "generatorCompletions": 9,
+      "generatorCompletions": 10,
       "uniqueVisitorsApprox": 26,
-      "conversionRate": 20.5
+      "conversionRate": 22.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 18,
+      "badgesIssued": 19,
       "badgeViews": 60,
       "certificateDownloads": 1,
       "generatorOpens": 44,
-      "generatorCompletions": 9,
+      "generatorCompletions": 10,
       "uniqueVisitorsApprox": 26,
-      "conversionRate": 20.5
+      "conversionRate": 22.7
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 18,
+      "badgesIssued": 19,
       "badgeViews": 60,
       "certificateDownloads": 1,
       "generatorOpens": 26,
-      "generatorCompletions": 9,
-      "conversionRate": 34.6
+      "generatorCompletions": 10,
+      "conversionRate": 38.5
     },
     {
       "id": "unassigned",
@@ -274,6 +274,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001",
+      "badgeId": "CSUNCC-20260430-0001",
+      "awardeeName": "Genesis Lozano-Gonzalez",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -283,8 +295,8 @@
       "pageKind": "specific",
       "templateId": "career-champion",
       "opens": 26,
-      "completions": 3,
-      "conversionRate": 11.5
+      "completions": 4,
+      "conversionRate": 15.4
     },
     {
       "key": "general",
@@ -359,6 +371,12 @@
     },
     {
       "awardeeName": "Veronica Torres",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Genesis Lozano-Gonzalez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0

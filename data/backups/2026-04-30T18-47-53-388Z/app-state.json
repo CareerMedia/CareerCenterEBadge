@@ -4273,27 +4273,6 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
-    },
-    {
-      "id": "73b50b88-75c0-4536-abac-13ff09168b54",
-      "type": "generator_completed",
-      "timestamp": "2026-04-30T18:47:53.392Z",
-      "monthKey": "2026-04",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260430-0001",
-      "badgeSlug": "genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Genesis Lozano-Gonzalez",
-      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001/",
-      "pageKind": "specific",
-      "generatorKey": "career-champion",
-      "generatorLabel": "Career Champion generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -4364,14 +4343,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-04-30T18:47:53.393Z",
+    "updatedAt": "2026-04-30T18:47:53.309Z",
     "totals": {
       "badgesIssued": 19,
       "badgeViews": 60,
       "certificateDownloads": 1,
       "generatorOpens": 44,
-      "generatorCompletions": 10,
-      "conversionRate": 22.7,
+      "generatorCompletions": 9,
+      "conversionRate": 20.5,
       "uniqueVisitorsApprox": 26
     },
     "months": [
@@ -4382,9 +4361,9 @@
         "badgeViews": 60,
         "certificateDownloads": 1,
         "generatorOpens": 44,
-        "generatorCompletions": 10,
+        "generatorCompletions": 9,
         "uniqueVisitorsApprox": 26,
-        "conversionRate": 22.7
+        "conversionRate": 20.5
       }
     ],
     "years": [
@@ -4395,9 +4374,9 @@
         "badgeViews": 60,
         "certificateDownloads": 1,
         "generatorOpens": 44,
-        "generatorCompletions": 10,
+        "generatorCompletions": 9,
         "uniqueVisitorsApprox": 26,
-        "conversionRate": 22.7
+        "conversionRate": 20.5
       }
     ],
     "badgeTypes": [
@@ -4408,8 +4387,8 @@
         "badgeViews": 60,
         "certificateDownloads": 1,
         "generatorOpens": 26,
-        "generatorCompletions": 10,
-        "conversionRate": 38.5
+        "generatorCompletions": 9,
+        "conversionRate": 34.6
       },
       {
         "id": "unassigned",
@@ -4659,8 +4638,8 @@
         "pageKind": "specific",
         "templateId": "career-champion",
         "opens": 26,
-        "completions": 4,
-        "conversionRate": 15.4
+        "completions": 3,
+        "conversionRate": 11.5
       },
       {
         "key": "general",
