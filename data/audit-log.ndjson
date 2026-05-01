@@ -61,3 +61,5 @@
 {"timestamp":"2026-05-01T22:22:04.199Z","action":"settings.save","actor":"admin"}
 {"timestamp":"2026-05-01T22:22:29.199Z","action":"backup.snapshot","actor":"admin","reason":"Saved settings","backupId":"2026-05-01T22-22-29-194Z","createdAt":"2026-05-01T22:22:29.195Z"}
 {"timestamp":"2026-05-01T22:22:29.199Z","action":"settings.save","actor":"admin"}
+{"timestamp":"2026-05-01T22:23:17.701Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260501-0001","backupId":"2026-05-01T22-23-17-693Z","createdAt":"2026-05-01T22:23:17.698Z"}
+{"timestamp":"2026-05-01T22:23:17.701Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260501-0001","awardeeName":"Bryce Simon"}
