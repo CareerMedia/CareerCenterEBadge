@@ -2,6 +2,25 @@
   "version": 1,
   "backups": [
     {
+      "backupId": "2026-05-01T22-22-29-194Z",
+      "reason": "Saved settings",
+      "actor": "admin",
+      "createdAt": "2026-05-01T22:22:29.195Z",
+      "counts": {
+        "badges": 20,
+        "deletedBadges": 1,
+        "templates": 1
+      },
+      "hashes": {
+        "appState": "47e606dec6e53b9d7e7c6b6be96d456fbb1726f3e82f1667e545004f12402541",
+        "badgeLinksCsv": "dccf40e4678f3ce89d14abd2dc5e779ed0755a8c362ac9de5ce59649d28ce8c3"
+      },
+      "files": {
+        "appState": "data/backups/2026-05-01T22-22-29-194Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-05-01T22-22-29-194Z/badge-links.csv"
+      }
+    },
+    {
       "backupId": "2026-05-01T22-22-04-196Z",
       "reason": "Saved settings",
       "actor": "admin",
