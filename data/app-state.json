@@ -4762,6 +4762,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "795cb5b7-9ea2-4188-ba88-62b7c57e2f30",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-02T01:54:36.128Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260501-0001",
+      "badgeSlug": "bryce-simon-career-champion-csuncc-20260501-0001",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Bryce Simon",
+      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-champion-csuncc-20260501-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "e3fcf4ec48a2b8e73625668c",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -4832,15 +4853,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-01T22:23:48.354Z",
+    "updatedAt": "2026-05-02T01:54:36.131Z",
     "totals": {
       "badgesIssued": 21,
-      "badgeViews": 65,
+      "badgeViews": 66,
       "certificateDownloads": 1,
       "generatorOpens": 49,
       "generatorCompletions": 11,
       "conversionRate": 22.4,
-      "uniqueVisitorsApprox": 29
+      "uniqueVisitorsApprox": 30
     },
     "months": [
       {
@@ -4858,11 +4879,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 1,
-        "badgeViews": 2,
+        "badgeViews": 3,
         "certificateDownloads": 0,
         "generatorOpens": 1,
         "generatorCompletions": 1,
-        "uniqueVisitorsApprox": 2,
+        "uniqueVisitorsApprox": 3,
         "conversionRate": 100
       }
     ],
@@ -4871,11 +4892,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 21,
-        "badgeViews": 65,
+        "badgeViews": 66,
         "certificateDownloads": 1,
         "generatorOpens": 49,
         "generatorCompletions": 11,
-        "uniqueVisitorsApprox": 29,
+        "uniqueVisitorsApprox": 30,
         "conversionRate": 22.4
       }
     ],
@@ -4884,7 +4905,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 21,
-        "badgeViews": 65,
+        "badgeViews": 66,
         "certificateDownloads": 1,
         "generatorOpens": 29,
         "generatorCompletions": 11,
@@ -5023,6 +5044,18 @@
         "latestViewedAt": "2026-04-30T22:40:07.590Z"
       },
       {
+        "slug": "bryce-simon-career-champion-csuncc-20260501-0001",
+        "badgeId": "CSUNCC-20260501-0001",
+        "awardeeName": "Bryce Simon",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-champion-csuncc-20260501-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-02T01:54:36.128Z"
+      },
+      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -5069,18 +5102,6 @@
         "badgeViews": 1,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-04-28T16:36:30.869Z"
-      },
-      {
-        "slug": "bryce-simon-career-champion-csuncc-20260501-0001",
-        "badgeId": "CSUNCC-20260501-0001",
-        "awardeeName": "Bryce Simon",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-champion-csuncc-20260501-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-01T22:23:48.352Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
@@ -5179,7 +5200,7 @@
       {
         "awardeeName": "Bryce Simon",
         "badgesIssued": 7,
-        "badgeViews": 16,
+        "badgeViews": 17,
         "certificateDownloads": 0
       },
       {
