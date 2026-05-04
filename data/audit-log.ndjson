@@ -96,3 +96,4 @@
 {"timestamp":"2026-05-04T19:02:09.437Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260504-0007","awardeeName":"Bryce Simon"}
 {"timestamp":"2026-05-04T19:02:26.345Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260504-0008","backupId":"2026-05-04T19-02-26-341Z","createdAt":"2026-05-04T19:02:26.342Z"}
 {"timestamp":"2026-05-04T19:02:26.345Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260504-0008","awardeeName":"Genesis Lozano"}
+{"timestamp":"2026-05-04T19:03:02.437Z","action":"bulk.issue.start","actor":"admin","jobId":"bulk-1777921313111","totalRows":2,"completedRows":2,"failedRows":0,"badgeTemplateId":"career-champion"}

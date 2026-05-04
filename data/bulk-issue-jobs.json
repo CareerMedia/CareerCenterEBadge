@@ -1,18 +1,18 @@
 [
   {
     "id": "bulk-1777921313111",
-    "status": "processing",
+    "status": "completed",
     "createdAt": "2026-05-04T19:01:53.111Z",
     "startedAt": "2026-05-04T19:02:09.198Z",
-    "finishedAt": "",
+    "finishedAt": "2026-05-04T19:03:02.350Z",
     "badgeTemplateId": "career-champion",
     "badgeTemplateTitle": "Career Champion",
     "issueDateMode": "today",
     "totalRows": 2,
-    "processedRows": 1,
-    "completedRows": 1,
+    "processedRows": 2,
+    "completedRows": 2,
     "failedRows": 0,
-    "progressPercent": 50,
+    "progressPercent": 100,
     "rows": [
       {
         "rowNumber": 2,
@@ -37,6 +37,12 @@
         "awardeeName": "Bryce Simon",
         "badgeId": "CSUNCC-20260504-0007",
         "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-champion-csuncc-20260504-0007/"
+      },
+      {
+        "rowNumber": 3,
+        "awardeeName": "Genesis Lozano",
+        "badgeId": "CSUNCC-20260504-0008",
+        "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260504-0008/"
       }
     ],
     "errors": []
