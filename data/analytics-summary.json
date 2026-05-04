@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-04T17:38:13.703Z",
+  "updatedAt": "2026-05-04T18:47:47.399Z",
   "totals": {
     "badgesIssued": 24,
     "badgeViews": 75,
     "certificateDownloads": 1,
-    "generatorOpens": 52,
+    "generatorOpens": 53,
     "generatorCompletions": 14,
-    "conversionRate": 26.9,
+    "conversionRate": 26.4,
     "uniqueVisitorsApprox": 35
   },
   "months": [
@@ -28,10 +28,10 @@
       "badgesIssued": 5,
       "badgeViews": 12,
       "certificateDownloads": 0,
-      "generatorOpens": 4,
+      "generatorOpens": 5,
       "generatorCompletions": 4,
       "uniqueVisitorsApprox": 10,
-      "conversionRate": 100
+      "conversionRate": 80
     }
   ],
   "years": [
@@ -41,10 +41,10 @@
       "badgesIssued": 24,
       "badgeViews": 75,
       "certificateDownloads": 1,
-      "generatorOpens": 52,
+      "generatorOpens": 53,
       "generatorCompletions": 14,
       "uniqueVisitorsApprox": 35,
-      "conversionRate": 26.9
+      "conversionRate": 26.4
     }
   ],
   "badgeTypes": [
@@ -64,7 +64,7 @@
       "badgesIssued": 0,
       "badgeViews": 0,
       "certificateDownloads": 0,
-      "generatorOpens": 23,
+      "generatorOpens": 24,
       "generatorCompletions": 0,
       "conversionRate": 0
     }
@@ -386,9 +386,9 @@
       "label": "General generator",
       "pageKind": "general",
       "templateId": "",
-      "opens": 23,
+      "opens": 24,
       "completions": 10,
-      "conversionRate": 43.5
+      "conversionRate": 41.7
     }
   ],
   "recipientStats": [
