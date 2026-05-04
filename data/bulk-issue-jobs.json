@@ -1,5 +1,40 @@
 [
   {
+    "id": "bulk-1777921313111",
+    "status": "processing",
+    "createdAt": "2026-05-04T19:01:53.111Z",
+    "startedAt": "2026-05-04T19:02:09.198Z",
+    "finishedAt": "",
+    "badgeTemplateId": "career-champion",
+    "badgeTemplateTitle": "Career Champion",
+    "issueDateMode": "today",
+    "totalRows": 2,
+    "processedRows": 0,
+    "completedRows": 0,
+    "failedRows": 0,
+    "progressPercent": 0,
+    "rows": [
+      {
+        "rowNumber": 2,
+        "awardeeName": "Bryce Simon",
+        "awardeeEmail": "bryce.simon@csun.edu",
+        "issueDate": "May 4, 2026",
+        "issueDateRaw": "5/4/26",
+        "errors": []
+      },
+      {
+        "rowNumber": 3,
+        "awardeeName": "Genesis Lozano",
+        "awardeeEmail": "genesis.lozano@csun.edu",
+        "issueDate": "May 4, 2026",
+        "issueDateRaw": "5/4/26",
+        "errors": []
+      }
+    ],
+    "results": [],
+    "errors": []
+  },
+  {
     "id": "bulk-1777394161753",
     "status": "completed",
     "createdAt": "2026-04-28T16:36:01.753Z",

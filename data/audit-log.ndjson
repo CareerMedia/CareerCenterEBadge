@@ -91,3 +91,6 @@
 {"timestamp":"2026-05-04T18:58:47.538Z","action":"template.save","actor":"admin","templateId":"career-champion"}
 {"timestamp":"2026-05-04T18:59:22.351Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260504-0006","backupId":"2026-05-04T18-59-22-347Z","createdAt":"2026-05-04T18:59:22.348Z"}
 {"timestamp":"2026-05-04T18:59:22.351Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260504-0006","awardeeName":"Bryce Simon"}
+{"timestamp":"2026-05-04T19:01:53.122Z","action":"bulk.issue.validate","actor":"admin","jobId":"bulk-1777921313111","totalRows":2,"badgeTemplateId":"career-champion"}
+{"timestamp":"2026-05-04T19:02:09.436Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260504-0007","backupId":"2026-05-04T19-02-09-345Z","createdAt":"2026-05-04T19:02:09.346Z"}
+{"timestamp":"2026-05-04T19:02:09.437Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260504-0007","awardeeName":"Bryce Simon"}
