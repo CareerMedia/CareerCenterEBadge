@@ -79,3 +79,5 @@
 {"timestamp":"2026-05-04T18:24:46.257Z","action":"email.settings.save","actor":"admin"}
 {"timestamp":"2026-05-04T18:31:18.195Z","action":"backup.snapshot","actor":"admin","reason":"Saved Brevo email settings","backupId":"2026-05-04T18-31-18-189Z","createdAt":"2026-05-04T18:31:18.191Z"}
 {"timestamp":"2026-05-04T18:31:18.195Z","action":"email.settings.save","actor":"admin"}
+{"timestamp":"2026-05-04T18:41:32.085Z","action":"backup.snapshot","actor":"admin","reason":"Saved Brevo email settings","backupId":"2026-05-04T18-41-31-995Z","createdAt":"2026-05-04T18:41:32.080Z"}
+{"timestamp":"2026-05-04T18:41:32.085Z","action":"email.templates.save","actor":"admin"}
