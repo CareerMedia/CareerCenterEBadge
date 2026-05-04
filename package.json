@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Static GitHub Pages badge verification site with a private local admin issuer dashboard and certificate generator.",
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  },
   "scripts": {
     "start": "node server.js",
     "build": "node build-site.js"

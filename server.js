@@ -32,6 +32,9 @@ const {
   hydrateFilesFromAppState,
   syncAppStateFromFiles,
   loadAppState,
+  loadEmailLogEntries,
+  appendAppErrorLog,
+  loadAppErrorLogEntries,
   createBackupSnapshot,
   getRecentBackups,
   parseFullBackupJson,
@@ -69,7 +72,9 @@ const {
   renderBulkIssuePage,
   renderBulkIssueValidationPage,
   renderBulkIssueSuccessPage,
-  renderEmailPage
+  renderEmailPage,
+  renderEmailLogPage,
+  renderDebugLogPage
 } = require('./lib/admin-renderer');
 const {
   parseListField,
@@ -81,7 +86,7 @@ const {
   buildWidgetEmbedCode,
   buildGeneratorRoute
 } = require('./lib/credential-utils');
-const { queueBadgeAwardedEmail, getBrevoApiKey } = require('./lib/brevo-mailer');
+const { queueBadgeAwardedEmail, getBrevoApiKey, hasSmtpCredentialsConfigured } = require('./lib/brevo-mailer');
 
 function loadEnvFile() {
   const envPath = path.join(PATHS.root, '.env');
@@ -105,8 +110,60 @@ function loadEnvFile() {
 
 loadEnvFile();
 
+let globalErrorHandlersRegistered = false;
+
+function registerGlobalErrorLogging() {
+  if (globalErrorHandlersRegistered) {
+    return;
+  }
+  globalErrorHandlersRegistered = true;
+  process.on('unhandledRejection', (reason) => {
+    const message =
+      reason instanceof Error
+        ? reason.message
+        : typeof reason === 'string'
+          ? reason
+          : (() => {
+              try {
+                return JSON.stringify(reason);
+              } catch {
+                return String(reason);
+              }
+            })();
+    const stack = reason instanceof Error && reason.stack ? reason.stack : '';
+    appendAppErrorLog({
+      severity: 'error',
+      source: 'unhandled_rejection',
+      message,
+      stack
+    });
+    console.error('Unhandled rejection:', reason);
+  });
+  process.on('uncaughtException', (error) => {
+    appendAppErrorLog({
+      severity: 'critical',
+      source: 'uncaught_exception',
+      message: error.message || String(error),
+      stack: error.stack || ''
+    });
+    console.error('Uncaught exception:', error);
+  });
+}
+
+function logHttpRequestError(request, urlObject, error) {
+  appendAppErrorLog({
+    severity: 'error',
+    source: 'http_request',
+    message: error.message || String(error),
+    stack: error.stack || '',
+    path: urlObject && urlObject.pathname != null ? String(urlObject.pathname) : '',
+    method: request && request.method ? String(request.method) : ''
+  });
+}
+
 async function initializeApp() {
   ensureDataFiles();
+  registerGlobalErrorLogging();
   const syncConfig = getConfig();
   if (syncConfig.enabled) {
     try {
@@ -115,6 +172,12 @@ async function initializeApp() {
       console.log(`Loaded persistent badge data from GitHub branch "${syncConfig.branch}".`);
     } catch (error) {
       console.warn(`GitHub data restore failed: ${error.message}`);
+      appendAppErrorLog({
+        severity: 'warning',
+        source: 'startup_github_pull',
+        message: error.message || String(error),
+        stack: error.stack || ''
+      });
     }
   } else {
     console.warn('GitHub sync is not configured. Badge data will reset on Render redeploys until GITHUB_TOKEN and GITHUB_REPO are set.');
@@ -126,6 +189,12 @@ async function initializeApp() {
       await queuePushLocalData(`Backfill ${analyticsBackfill.created} analytics issuance events`);
     } catch (error) {
       console.warn(`Analytics backfill sync failed: ${error.message}`);
+      appendAppErrorLog({
+        severity: 'warning',
+        source: 'startup_analytics_sync',
+        message: error.message || String(error),
+        stack: error.stack || ''
+      });
     }
   }
   buildPublicSite();
@@ -989,17 +1058,25 @@ function saveEmailSettings(formData) {
   } else if (apiKeyInput) {
     emailBrevoApiKey = apiKeyInput;
   }
+  const transport = cleanText(formData.emailBrevoTransport) === 'smtp' ? 'smtp' : 'api';
   const siteConfig = {
     ...previous,
     emailBrevoEnabled: parseBooleanInput(formData.emailBrevoEnabled),
     emailBrevoApiKey,
     emailBrevoSenderEmail: normalizeEmail(formData.emailBrevoSenderEmail),
     emailBrevoSenderName: cleanText(formData.emailBrevoSenderName) || 'CSUN Career Center',
-    emailBrevoReplyTo: normalizeEmail(formData.emailBrevoReplyTo)
+    emailBrevoReplyTo: normalizeEmail(formData.emailBrevoReplyTo),
+    emailBrevoTransport: transport
   };
   if (siteConfig.emailBrevoEnabled) {
-    if (!getBrevoApiKey(siteConfig)) {
-      throw new Error('Turn on email only after a Brevo API key is set here or as BREVO_API_KEY on the server.');
+    if (transport === 'smtp') {
+      if (!hasSmtpCredentialsConfigured()) {
+        throw new Error(
+          'SMTP relay: set BREVO_SMTP_LOGIN and BREVO_SMTP_PASSWORD on the server (Brevo → SMTP & API → SMTP — use the SMTP key, not the REST API key).'
+        );
+      }
+    } else if (!getBrevoApiKey(siteConfig)) {
+      throw new Error('REST API: set a Brevo API key here or as BREVO_API_KEY on the server.');
     }
     if (!isValidEmail(siteConfig.emailBrevoSenderEmail)) {
       throw new Error('Sender email must be a valid address (and verified as a sender in Brevo).');
@@ -1422,6 +1499,29 @@ async function handleAdminRequest(request, response, urlObject) {
       renderEmailPage({
         siteConfig: loadSiteConfig(),
         envBrevoKeyConfigured: Boolean(String(process.env.BREVO_API_KEY || '').trim()),
+        envSmtpConfigured: hasSmtpCredentialsConfigured(),
+        notice: queryNotice(urlObject)
+      })
+    );
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/email-log') {
+    sendHtml(
+      response,
+      renderEmailLogPage({
+        entries: loadEmailLogEntries(200),
+        notice: queryNotice(urlObject)
+      })
+    );
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/debug-log') {
+    sendHtml(
+      response,
+      renderDebugLogPage({
+        entries: loadAppErrorLogEntries(250),
         notice: queryNotice(urlObject)
       })
     );
@@ -1476,6 +1576,7 @@ async function handleAdminRequest(request, response, urlObject) {
         renderEmailPage({
           siteConfig: loadSiteConfig(),
           envBrevoKeyConfigured: Boolean(String(process.env.BREVO_API_KEY || '').trim()),
+          envSmtpConfigured: hasSmtpCredentialsConfigured(),
           notice: error.message
         }),
         400
@@ -1614,6 +1715,7 @@ async function requestListener(request, response) {
 
     sendNotFoundPage(response);
   } catch (error) {
+    logHttpRequestError(request, urlObject, error);
     sendHtml(
       response,
       `<!DOCTYPE html><html><body><h1>Server error</h1><pre>${escapeHtml(error.stack || error.message)}</pre></body></html>`,

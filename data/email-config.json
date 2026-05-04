@@ -3,5 +3,6 @@
   "emailBrevoApiKey": "",
   "emailBrevoSenderEmail": "",
   "emailBrevoSenderName": "CSUN Career Center",
-  "emailBrevoReplyTo": ""
+  "emailBrevoReplyTo": "",
+  "emailBrevoTransport": "api"
 }

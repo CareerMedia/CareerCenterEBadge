@@ -222,6 +222,20 @@ button:hover,
   font-weight: 700;
   text-transform: capitalize;
 }
+.status-tag--error { background: rgba(210,32,48,0.1); color: #b01028; }
+.status-tag--warning { background: rgba(180,120,0,0.12); color: #856404; }
+.status-tag--critical { background: rgba(120,20,20,0.14); color: #7a1010; }
+.error-stack-preview {
+  margin: 0;
+  font-size: 0.72rem;
+  line-height: 1.35;
+  max-height: 140px;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: var(--muted);
+}
 .file-list { flex-direction: column; padding-left: 18px; }
 
 .admin-form,
