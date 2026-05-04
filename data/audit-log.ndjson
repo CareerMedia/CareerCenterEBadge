@@ -73,3 +73,5 @@
 {"timestamp":"2026-05-04T16:36:52.256Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260504-0003","awardeeName":"Bryce Simon"}
 {"timestamp":"2026-05-04T16:39:57.816Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260504-0004","backupId":"2026-05-04T16-39-57-726Z","createdAt":"2026-05-04T16:39:57.727Z"}
 {"timestamp":"2026-05-04T16:39:57.816Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260504-0004","awardeeName":"Bryce Simon"}
+{"timestamp":"2026-05-04T16:44:29.918Z","action":"backup.snapshot","actor":"admin","reason":"Deleted badge CSUNCC-20010428-0001","backupId":"2026-05-04T16-44-29-828Z","createdAt":"2026-05-04T16:44:29.830Z"}
+{"timestamp":"2026-05-04T16:44:29.918Z","action":"badge.delete","actor":"admin","badgeId":"CSUNCC-20010428-0001"}
