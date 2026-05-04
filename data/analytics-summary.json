@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-04T23:41:11.241Z",
+  "updatedAt": "2026-05-04T23:41:35.058Z",
   "totals": {
     "badgesIssued": 28,
     "badgeViews": 80,
     "certificateDownloads": 1,
-    "generatorOpens": 57,
+    "generatorOpens": 59,
     "generatorCompletions": 16,
-    "conversionRate": 28.1,
+    "conversionRate": 27.1,
     "uniqueVisitorsApprox": 36
   },
   "months": [
@@ -28,10 +28,10 @@
       "badgesIssued": 9,
       "badgeViews": 17,
       "certificateDownloads": 0,
-      "generatorOpens": 9,
+      "generatorOpens": 11,
       "generatorCompletions": 6,
       "uniqueVisitorsApprox": 12,
-      "conversionRate": 66.7
+      "conversionRate": 54.5
     }
   ],
   "years": [
@@ -41,10 +41,10 @@
       "badgesIssued": 28,
       "badgeViews": 80,
       "certificateDownloads": 1,
-      "generatorOpens": 57,
+      "generatorOpens": 59,
       "generatorCompletions": 16,
       "uniqueVisitorsApprox": 36,
-      "conversionRate": 28.1
+      "conversionRate": 27.1
     }
   ],
   "badgeTypes": [
@@ -74,7 +74,7 @@
       "badgesIssued": 0,
       "badgeViews": 0,
       "certificateDownloads": 0,
-      "generatorOpens": 1,
+      "generatorOpens": 3,
       "generatorCompletions": 0,
       "conversionRate": 0
     }
@@ -453,7 +453,7 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 1,
+      "opens": 3,
       "completions": 0,
       "conversionRate": 0
     }
