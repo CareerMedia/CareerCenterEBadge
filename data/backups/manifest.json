@@ -2,6 +2,25 @@
   "version": 1,
   "backups": [
     {
+      "backupId": "2026-05-04T18-58-47-455Z",
+      "reason": "Saved template career-champion",
+      "actor": "admin",
+      "createdAt": "2026-05-04T18:58:47.457Z",
+      "counts": {
+        "badges": 25,
+        "deletedBadges": 2,
+        "templates": 1
+      },
+      "hashes": {
+        "appState": "8ba10c873961c652d51dba0161c8e65412fd6f8b25e1287db8ee9aeef26065fa",
+        "badgeLinksCsv": "4de6e3af840e50ea4bde354bce4d49f3887b277611dd5c638b52cdc58564d0ec"
+      },
+      "files": {
+        "appState": "data/backups/2026-05-04T18-58-47-455Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-05-04T18-58-47-455Z/badge-links.csv"
+      }
+    },
+    {
       "backupId": "2026-05-04T18-57-58-045Z",
       "reason": "Saved Brevo email settings",
       "actor": "admin",
