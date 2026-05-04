@@ -85,3 +85,5 @@
 {"timestamp":"2026-05-04T18:46:21.170Z","action":"email.templates.save","actor":"admin"}
 {"timestamp":"2026-05-04T18:47:55.066Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260504-0005","backupId":"2026-05-04T18-47-55-062Z","createdAt":"2026-05-04T18:47:55.063Z"}
 {"timestamp":"2026-05-04T18:47:55.066Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260504-0005","awardeeName":"Bryce Simon"}
+{"timestamp":"2026-05-04T18:57:58.052Z","action":"backup.snapshot","actor":"admin","reason":"Saved Brevo email settings","backupId":"2026-05-04T18-57-58-045Z","createdAt":"2026-05-04T18:57:58.048Z"}
+{"timestamp":"2026-05-04T18:57:58.052Z","action":"email.templates.save","actor":"admin"}
