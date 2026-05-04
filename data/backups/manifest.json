@@ -2,6 +2,25 @@
   "version": 1,
   "backups": [
     {
+      "backupId": "2026-05-04T18-47-55-062Z",
+      "reason": "Issued badge CSUNCC-20260504-0005",
+      "actor": "admin",
+      "createdAt": "2026-05-04T18:47:55.063Z",
+      "counts": {
+        "badges": 25,
+        "deletedBadges": 2,
+        "templates": 1
+      },
+      "hashes": {
+        "appState": "c1023f060c3b2f24073d05dee3b4612d45baba2fa367b1f6f1ffbda8b3c77b7d",
+        "badgeLinksCsv": "4de6e3af840e50ea4bde354bce4d49f3887b277611dd5c638b52cdc58564d0ec"
+      },
+      "files": {
+        "appState": "data/backups/2026-05-04T18-47-55-062Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-05-04T18-47-55-062Z/badge-links.csv"
+      }
+    },
+    {
       "backupId": "2026-05-04T18-46-21-165Z",
       "reason": "Saved Brevo email settings",
       "actor": "admin",

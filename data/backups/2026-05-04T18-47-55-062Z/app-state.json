@@ -5715,27 +5715,6 @@
       "requestPath": "",
       "context": "issuance",
       "meta": {}
-    },
-    {
-      "id": "1b82b2d5-2140-4ee4-8bb4-25add65445ba",
-      "type": "generator_completed",
-      "timestamp": "2026-05-04T18:47:55.262Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260504-0005",
-      "badgeSlug": "bryce-simon-career-champion-csuncc-20260504-0005",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Bryce Simon",
-      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-champion-csuncc-20260504-0005/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -5806,14 +5785,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-04T18:47:55.264Z",
+    "updatedAt": "2026-05-04T18:47:54.955Z",
     "totals": {
       "badgesIssued": 25,
       "badgeViews": 75,
       "certificateDownloads": 1,
       "generatorOpens": 53,
-      "generatorCompletions": 15,
-      "conversionRate": 28.3,
+      "generatorCompletions": 14,
+      "conversionRate": 26.4,
       "uniqueVisitorsApprox": 35
     },
     "months": [
@@ -5835,9 +5814,9 @@
         "badgeViews": 12,
         "certificateDownloads": 0,
         "generatorOpens": 5,
-        "generatorCompletions": 5,
+        "generatorCompletions": 4,
         "uniqueVisitorsApprox": 10,
-        "conversionRate": 100
+        "conversionRate": 80
       }
     ],
     "years": [
@@ -5848,9 +5827,9 @@
         "badgeViews": 75,
         "certificateDownloads": 1,
         "generatorOpens": 53,
-        "generatorCompletions": 15,
+        "generatorCompletions": 14,
         "uniqueVisitorsApprox": 35,
-        "conversionRate": 28.3
+        "conversionRate": 26.4
       }
     ],
     "badgeTypes": [
@@ -5861,8 +5840,8 @@
         "badgeViews": 75,
         "certificateDownloads": 1,
         "generatorOpens": 29,
-        "generatorCompletions": 15,
-        "conversionRate": 51.7
+        "generatorCompletions": 14,
+        "conversionRate": 48.3
       },
       {
         "id": "unassigned",
@@ -6205,8 +6184,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 24,
-        "completions": 11,
-        "conversionRate": 45.8
+        "completions": 10,
+        "conversionRate": 41.7
       }
     ],
     "recipientStats": [
