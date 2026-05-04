@@ -99,3 +99,5 @@
 {"timestamp":"2026-05-04T19:03:02.437Z","action":"bulk.issue.start","actor":"admin","jobId":"bulk-1777921313111","totalRows":2,"completedRows":2,"failedRows":0,"badgeTemplateId":"career-champion"}
 {"timestamp":"2026-05-04T23:36:59.556Z","action":"backup.snapshot","actor":"admin","reason":"Saved template career-activated","backupId":"2026-05-04T23-36-59-539Z","createdAt":"2026-05-04T23:36:59.542Z"}
 {"timestamp":"2026-05-04T23:36:59.556Z","action":"template.save","actor":"admin","templateId":"career-activated"}
+{"timestamp":"2026-05-04T23:38:54.439Z","action":"backup.snapshot","actor":"admin","reason":"Saved template career-activated","backupId":"2026-05-04T23-38-54-348Z","createdAt":"2026-05-04T23:38:54.350Z"}
+{"timestamp":"2026-05-04T23:38:54.439Z","action":"template.save","actor":"admin","templateId":"career-activated"}

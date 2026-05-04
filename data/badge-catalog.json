@@ -115,7 +115,7 @@
     "issuerRegistryUrl": "",
     "issuerTrustLabel": "Official issuer",
     "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1777937819398.png",
-    "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1777937819437.png",
+    "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1777937934256.png",
     "verificationSections": {
       "recipient": true,
       "meaning": true,
@@ -128,11 +128,11 @@
     },
     "certificateTemplateOverrideEnabled": true,
     "certificateTemplate": {
-      "backgroundImage": "assets/certificate.png",
+      "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1777937819437.png",
       "fileNameSuffix": "_Certificate",
       "name": {
-        "x": 1798,
-        "y": 1353,
+        "x": 1914,
+        "y": 1339,
         "fontSize": 180,
         "fontFamily": "Times New Roman",
         "fontWeight": "bold",
@@ -141,8 +141,8 @@
         "maxWidth": 2400
       },
       "date": {
-        "x": 1052,
-        "y": 2131,
+        "x": 1127,
+        "y": 2136,
         "fontSize": 48,
         "fontFamily": "Arial",
         "fontWeight": "normal",
