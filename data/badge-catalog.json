@@ -74,6 +74,7 @@
         "maxWidth": 700
       }
     },
-    "widgetLayout": "stacked"
+    "widgetLayout": "stacked",
+    "emailAwardTemplateId": ""
   }
 ]
