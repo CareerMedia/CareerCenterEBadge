@@ -6336,6 +6336,27 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
+    },
+    {
+      "id": "a3c68c59-8c67-472f-918b-35981dfd954f",
+      "type": "generator_opened",
+      "timestamp": "2026-05-04T23:39:21.505Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "",
+      "badgeTemplateId": "",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "general",
+      "generatorKey": "general",
+      "generatorLabel": "General generator",
+      "source": "generator-page",
+      "visitorId": "5061c5907fa44bf4efdbdace",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -6454,14 +6475,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-04T23:37:34.495Z",
+    "updatedAt": "2026-05-04T23:39:21.507Z",
     "totals": {
       "badgesIssued": 28,
       "badgeViews": 80,
       "certificateDownloads": 1,
-      "generatorOpens": 55,
+      "generatorOpens": 56,
       "generatorCompletions": 16,
-      "conversionRate": 29.1,
+      "conversionRate": 28.6,
       "uniqueVisitorsApprox": 36
     },
     "months": [
@@ -6482,10 +6503,10 @@
         "badgesIssued": 9,
         "badgeViews": 17,
         "certificateDownloads": 0,
-        "generatorOpens": 7,
+        "generatorOpens": 8,
         "generatorCompletions": 6,
         "uniqueVisitorsApprox": 12,
-        "conversionRate": 85.7
+        "conversionRate": 75
       }
     ],
     "years": [
@@ -6495,10 +6516,10 @@
         "badgesIssued": 28,
         "badgeViews": 80,
         "certificateDownloads": 1,
-        "generatorOpens": 55,
+        "generatorOpens": 56,
         "generatorCompletions": 16,
         "uniqueVisitorsApprox": 36,
-        "conversionRate": 29.1
+        "conversionRate": 28.6
       }
     ],
     "badgeTypes": [
@@ -6518,7 +6539,7 @@
         "badgesIssued": 0,
         "badgeViews": 0,
         "certificateDownloads": 0,
-        "generatorOpens": 26,
+        "generatorOpens": 27,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -6888,9 +6909,9 @@
         "label": "General generator",
         "pageKind": "general",
         "templateId": "",
-        "opens": 26,
+        "opens": 27,
         "completions": 12,
-        "conversionRate": 46.2
+        "conversionRate": 44.4
       }
     ],
     "recipientStats": [
