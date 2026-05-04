@@ -511,7 +511,7 @@
         return;
       }
       persistEditorToTemplate();
-      hiddenJson.textContent = JSON.stringify(templates);
+      hiddenJson.value = JSON.stringify(templates);
     });
 
     rebuildPickers();
