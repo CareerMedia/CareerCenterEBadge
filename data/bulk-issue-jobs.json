@@ -9,10 +9,10 @@
     "badgeTemplateTitle": "Career Champion",
     "issueDateMode": "today",
     "totalRows": 2,
-    "processedRows": 0,
-    "completedRows": 0,
+    "processedRows": 1,
+    "completedRows": 1,
     "failedRows": 0,
-    "progressPercent": 0,
+    "progressPercent": 50,
     "rows": [
       {
         "rowNumber": 2,
@@ -31,7 +31,14 @@
         "errors": []
       }
     ],
-    "results": [],
+    "results": [
+      {
+        "rowNumber": 2,
+        "awardeeName": "Bryce Simon",
+        "badgeId": "CSUNCC-20260504-0007",
+        "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-champion-csuncc-20260504-0007/"
+      }
+    ],
     "errors": []
   },
   {
