@@ -70,6 +70,10 @@ button:hover,
   display: grid;
   grid-template-columns: minmax(280px, 320px) 1fr;
   min-height: 100vh;
+  min-height: 100dvh;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
 }
 .admin-sidebar {
   padding: 24px;
@@ -79,12 +83,21 @@ button:hover,
   color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 22px;
-  position: sticky;
-  top: 0;
-  height: 100vh;
+  gap: 18px;
+  min-height: 0;
+  overflow: hidden;
 }
-.admin-sidebar__top { display: grid; gap: 18px; }
+.admin-sidebar__scroll {
+  display: grid;
+  gap: 18px;
+  align-content: start;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 4px;
+}
 .admin-brand {
   display: flex;
   align-items: center;
@@ -128,10 +141,15 @@ button:hover,
   background: rgba(255,255,255,0.12);
   border-color: rgba(255,255,255,0.1);
 }
-.logout-form { margin-top: auto; }
+.logout-form { margin-top: 0; flex-shrink: 0; }
 .logout-form .button--ghost { width: 100%; background: rgba(255,255,255,0.08); color: #fff; border-color: rgba(255,255,255,0.12); }
 
-.admin-main { padding: 28px; }
+.admin-main {
+  padding: 28px;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
 .admin-main > * + * { margin-top: 18px; }
 .admin-notice,
 .admin-error {
@@ -266,9 +284,33 @@ textarea { min-height: 120px; resize: vertical; }
 .backup-item { padding: 20px; border-radius: 22px; background: rgba(255,255,255,0.7); border: 1px solid rgba(23,20,29,0.07); }
 .backup-item h4 { margin: 0 0 8px; font-size: 1.06rem; }
 
+.email-log-details {
+  max-width: 420px;
+}
+.email-log-detail,
+.email-log-meta {
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-top: 6px;
+}
+
 @media (max-width: 1120px) {
-  .admin-shell { grid-template-columns: 1fr; }
-  .admin-sidebar { position: relative; height: auto; }
+  .admin-shell {
+    grid-template-columns: 1fr;
+    height: auto;
+    min-height: 100vh;
+    min-height: 100dvh;
+    overflow: visible;
+  }
+  .admin-sidebar {
+    overflow: visible;
+  }
+  .admin-sidebar__scroll {
+    overflow-y: visible;
+  }
+  .admin-main {
+    overflow-y: visible;
+  }
 }
 @media (max-width: 780px) {
   .admin-main { padding: 18px; }
