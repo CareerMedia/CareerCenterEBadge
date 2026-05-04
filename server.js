@@ -86,7 +86,13 @@ const {
   buildWidgetEmbedCode,
   buildGeneratorRoute
 } = require('./lib/credential-utils');
-const { queueBadgeAwardedEmail, getBrevoApiKey, hasSmtpCredentialsConfigured } = require('./lib/brevo-mailer');
+const {
+  queueBadgeAwardedEmail,
+  getBrevoApiKey,
+  getBrevoHostEnvDiagnostics,
+  hasSmtpCredentialsConfigured,
+  verifyBrevoRestApiKey
+} = require('./lib/brevo-mailer');
 
 function loadEnvFile() {
   const envPath = path.join(PATHS.root, '.env');
@@ -1048,7 +1054,15 @@ function saveSettings(formData) {
   appendAuditLog({ action: 'settings.save', actor: 'admin' });
 }
 
-function saveEmailSettings(formData) {
+const EMAIL_TEMPLATE_MAX = 120000;
+
+function cleanEmailTemplateField(value) {
+  return String(value || '')
+    .replace(/\r\n/g, '\n')
+    .slice(0, EMAIL_TEMPLATE_MAX);
+}
+
+async function saveEmailSettings(formData) {
   const previous = loadSiteConfig();
   const clearKey = parseBooleanInput(formData.emailBrevoClearApiKey);
   const apiKeyInput = String(formData.emailBrevoApiKey || '').trim();
@@ -1066,7 +1080,10 @@ function saveEmailSettings(formData) {
     emailBrevoSenderEmail: normalizeEmail(formData.emailBrevoSenderEmail),
     emailBrevoSenderName: cleanText(formData.emailBrevoSenderName) || 'CSUN Career Center',
     emailBrevoReplyTo: normalizeEmail(formData.emailBrevoReplyTo),
-    emailBrevoTransport: transport
+    emailBrevoTransport: transport,
+    emailAwardSubjectTemplate: cleanEmailTemplateField(formData.emailAwardSubjectTemplate),
+    emailAwardHtmlTemplate: cleanEmailTemplateField(formData.emailAwardHtmlTemplate),
+    emailAwardTextTemplate: cleanEmailTemplateField(formData.emailAwardTextTemplate)
   };
   if (siteConfig.emailBrevoEnabled) {
     if (transport === 'smtp') {
@@ -1083,6 +1100,15 @@ function saveEmailSettings(formData) {
     }
     if (siteConfig.emailBrevoReplyTo && !isValidEmail(siteConfig.emailBrevoReplyTo)) {
       throw new Error('Reply-to must be a valid email address when provided.');
+    }
+  }
+  if (transport === 'api' && getBrevoApiKey(siteConfig)) {
+    try {
+      await verifyBrevoRestApiKey(getBrevoApiKey(siteConfig));
+    } catch (err) {
+      const hint =
+        'Create a new **v3 API key** in Brevo under **SMTP & API** → **API keys** (not the SMTP password). On Render: **Environment** → add or update **BREVO_API_KEY** with that exact key, then **Manual Deploy** so the service restarts. Legacy env name **SENDINBLUE_API_KEY** is also supported if **BREVO_API_KEY** is unset.';
+      throw new Error(`Brevo rejected this REST API key (${err.message || String(err)}). ${hint}`);
     }
   }
   saveSiteConfig(siteConfig);
@@ -1494,11 +1520,13 @@ async function handleAdminRequest(request, response, urlObject) {
   }
 
   if (request.method === 'GET' && urlObject.pathname === '/admin/email') {
+    const brevoEnv = getBrevoHostEnvDiagnostics();
     sendHtml(
       response,
       renderEmailPage({
         siteConfig: loadSiteConfig(),
-        envBrevoKeyConfigured: Boolean(String(process.env.BREVO_API_KEY || '').trim()),
+        envBrevoKeyConfigured: Boolean(brevoEnv.hostKeyActive),
+        brevoEnv,
         envSmtpConfigured: hasSmtpCredentialsConfigured(),
         notice: queryNotice(urlObject)
       })
@@ -1575,7 +1603,8 @@ async function handleAdminRequest(request, response, urlObject) {
         response,
         renderEmailPage({
           siteConfig: loadSiteConfig(),
-          envBrevoKeyConfigured: Boolean(String(process.env.BREVO_API_KEY || '').trim()),
+          envBrevoKeyConfigured: Boolean(getBrevoHostEnvDiagnostics().hostKeyActive),
+          brevoEnv: getBrevoHostEnvDiagnostics(),
           envSmtpConfigured: hasSmtpCredentialsConfigured(),
           notice: error.message
         }),
