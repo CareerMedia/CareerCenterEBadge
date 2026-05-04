@@ -299,6 +299,226 @@
     }, 2500);
   }
 
+  function bindAwardEmailAdminPage() {
+    const state = window.__EMAIL_AWARD_STATE__;
+    const builtin = window.__EMAIL_BUILTIN__;
+    const form = document.getElementById('emailAwardSettingsForm');
+    const hiddenJson = document.getElementById('emailAwardTemplatesJson');
+    if (!state || !form || !hiddenJson) return;
+
+    function escapeHtmlAttr(value) {
+      return String(value == null ? '' : value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    let templates = JSON.parse(JSON.stringify(state.templates || []));
+    if (!templates.length) {
+      return;
+    }
+
+    let activeId = templates[0].id;
+    let activeTab = 'plain';
+
+    const pick = document.getElementById('emailTemplatePicker');
+    const nameEl = document.getElementById('emailTplName');
+    const idEl = document.getElementById('emailTplId');
+    const subEl = document.getElementById('emailTplSubject');
+    const plainEl = document.getElementById('emailTplBodyPlain');
+    const htmlEl = document.getElementById('emailTplBodyHtml');
+    const defSel = document.getElementById('emailAwardDefaultTemplateId');
+    const tabBtns = form.querySelectorAll('.wp-like-tabs__btn');
+    const panePlain = document.getElementById('emailTplPanePlain');
+    const paneHtml = document.getElementById('emailTplPaneHtml');
+
+    function currentTpl() {
+      return templates.find((t) => t.id === activeId);
+    }
+
+    function persistEditorToTemplate() {
+      const t = currentTpl();
+      if (!t || !nameEl || !subEl || !plainEl || !htmlEl) return;
+      t.name = nameEl.value;
+      t.subject = subEl.value;
+      t.bodyPlain = plainEl.value;
+      t.bodyHtml = htmlEl.value;
+    }
+
+    function loadEditor() {
+      const t = currentTpl();
+      if (!t || !nameEl || !idEl || !subEl || !plainEl || !htmlEl) return;
+      nameEl.value = t.name || '';
+      idEl.value = t.id || '';
+      subEl.value = t.subject || '';
+      plainEl.value = t.bodyPlain || '';
+      htmlEl.value = t.bodyHtml || '';
+    }
+
+    function escapeOptionText(value) {
+      return String(value == null ? '' : value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function rebuildPickers() {
+      if (!pick || !defSel) return;
+      pick.innerHTML = templates
+        .map((t) => `<option value="${escapeHtmlAttr(t.id)}">${escapeOptionText(t.name || t.id)}</option>`)
+        .join('');
+      pick.value = activeId;
+      const prevDef = defSel.value;
+      defSel.innerHTML = templates
+        .map((t) => `<option value="${escapeHtmlAttr(t.id)}">${escapeOptionText(t.name || t.id)}</option>`)
+        .join('');
+      if (templates.some((x) => x.id === prevDef)) {
+        defSel.value = prevDef;
+      } else {
+        defSel.value = templates[0].id;
+      }
+    }
+
+    function setTabUi(tab) {
+      activeTab = tab;
+      tabBtns.forEach((b) => {
+        const on = b.getAttribute('data-tab') === tab;
+        b.classList.toggle('is-active', on);
+        b.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      const showPlain = tab === 'plain';
+      if (panePlain) panePlain.hidden = !showPlain;
+      if (paneHtml) paneHtml.hidden = showPlain;
+    }
+
+    async function runSync(mode, text) {
+      const r = await fetch('/admin/email/sync-body', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ mode, text }),
+        credentials: 'same-origin'
+      });
+      const j = await r.json();
+      if (!j.ok) {
+        throw new Error(j.error || 'Sync failed');
+      }
+      return j.text;
+    }
+
+    async function ensureSyncedBodies() {
+      if (activeTab === 'plain') {
+        htmlEl.value = await runSync('plainToHtml', plainEl.value);
+      } else {
+        plainEl.value = await runSync('htmlToPlain', htmlEl.value);
+      }
+    }
+
+    tabBtns.forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const next = btn.getAttribute('data-tab');
+        if (!next || next === activeTab) return;
+        persistEditorToTemplate();
+        try {
+          if (activeTab === 'plain' && next === 'html') {
+            htmlEl.value = await runSync('plainToHtml', plainEl.value);
+          } else if (activeTab === 'html' && next === 'plain') {
+            plainEl.value = await runSync('htmlToPlain', htmlEl.value);
+          }
+        } catch (err) {
+          window.alert(err.message || String(err));
+          return;
+        }
+        setTabUi(next);
+      });
+    });
+
+    if (pick) {
+      pick.addEventListener('change', async () => {
+        try {
+          await ensureSyncedBodies();
+        } catch (err) {
+          window.alert(err.message || String(err));
+          pick.value = activeId;
+          return;
+        }
+        persistEditorToTemplate();
+        activeId = pick.value;
+        loadEditor();
+        setTabUi('plain');
+      });
+    }
+
+    const addBtn = document.getElementById('emailTemplateAdd');
+    if (addBtn) {
+      addBtn.addEventListener('click', async () => {
+        try {
+          await ensureSyncedBodies();
+        } catch (err) {
+          window.alert(err.message || String(err));
+          return;
+        }
+        persistEditorToTemplate();
+        const nid = `tmpl-${Date.now()}`;
+        const b = builtin || {};
+        templates.push({
+          id: nid,
+          name: 'New template',
+          subject: b.subject || '',
+          bodyPlain: b.text || '',
+          bodyHtml: b.html || ''
+        });
+        activeId = nid;
+        rebuildPickers();
+        loadEditor();
+        setTabUi('plain');
+      });
+    }
+
+    const delBtn = document.getElementById('emailTemplateDelete');
+    if (delBtn) {
+      delBtn.addEventListener('click', async () => {
+        if (templates.length <= 1) {
+          window.alert('Keep at least one email template.');
+          return;
+        }
+        try {
+          await ensureSyncedBodies();
+        } catch (err) {
+          window.alert(err.message || String(err));
+          return;
+        }
+        persistEditorToTemplate();
+        const delId = activeId;
+        templates = templates.filter((t) => t.id !== delId);
+        activeId = templates[0].id;
+        if (defSel && defSel.value === delId) {
+          defSel.value = activeId;
+        }
+        rebuildPickers();
+        loadEditor();
+        setTabUi('plain');
+      });
+    }
+
+    form.addEventListener('submit', async (ev) => {
+      try {
+        await ensureSyncedBodies();
+      } catch (err) {
+        ev.preventDefault();
+        window.alert(err.message || String(err));
+        return;
+      }
+      persistEditorToTemplate();
+      hiddenJson.textContent = JSON.stringify(templates);
+    });
+
+    rebuildPickers();
+    loadEditor();
+    setTabUi('plain');
+  }
+
   bindCopyButtons();
   bindDeleteConfirms();
   autoFillIssueForm();
@@ -306,4 +526,5 @@
   bindUploadInputs();
   bindCoordinateEditor();
   initializeBulkIssueJobs();
+  bindAwardEmailAdminPage();
 })();

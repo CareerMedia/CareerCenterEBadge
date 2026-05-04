@@ -294,6 +294,54 @@ textarea { min-height: 120px; resize: vertical; }
   min-width: 0;
 }
 
+.email-award-templates-json {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.email-template-editor-shell {
+  margin-top: 12px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(23, 20, 29, 0.08);
+}
+
+.email-template-toolbar {
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.email-template-toolbar__picker {
+  flex: 1 1 220px;
+  display: grid;
+  gap: 8px;
+}
+
+.wp-like-tabs {
+  margin-top: 12px;
+}
+
+.wp-like-tabs__bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.wp-like-tabs__btn.is-active {
+  background: rgba(23, 20, 29, 0.08);
+  color: var(--text);
+  border: 1px solid rgba(23, 20, 29, 0.12);
+}
+
+.email-template-assignment-note {
+  display: block;
+  margin-top: 8px;
+  font-weight: 400;
+}
+
 .email-log-details {
   max-width: 420px;
 }

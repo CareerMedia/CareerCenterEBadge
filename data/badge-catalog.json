@@ -11,6 +11,7 @@
     "issuerWebsite": "https://csun.edu",
     "careerCenterUrl": "https://csun.edu/career",
     "badgeImage": "assets/badges/career-champion-badge.svg",
-    "certificateBackground": "assets/certificate.png"
+    "certificateBackground": "assets/certificate.png",
+    "emailAwardTemplateId": ""
   }
 ]

@@ -93,6 +93,12 @@ const {
   hasSmtpCredentialsConfigured,
   verifyBrevoRestApiKey
 } = require('./lib/brevo-mailer');
+const {
+  normalizeEmailAwardTemplateEntry,
+  plainBodyToHtmlFragment,
+  htmlFragmentToPlainBody,
+  wrapEmailHtmlDocument
+} = require('./lib/award-email-shared');
 
 function loadEnvFile() {
   const envPath = path.join(PATHS.root, '.env');
@@ -938,6 +944,7 @@ function saveTemplate(formData) {
     certificateBackground,
     widgetLayout: cleanText(formData.widgetLayout) || 'stacked',
     verificationSections: buildTemplateVerificationSections(formData),
+    emailAwardTemplateId: cleanText(formData.emailAwardTemplateId),
     ...buildTemplateCertificateOverride(formData, certificateBackground)
   };
 
@@ -1056,10 +1063,25 @@ function saveSettings(formData) {
 
 const EMAIL_TEMPLATE_MAX = 120000;
 
-function cleanEmailTemplateField(value) {
-  return String(value || '')
-    .replace(/\r\n/g, '\n')
-    .slice(0, EMAIL_TEMPLATE_MAX);
+function parseEmailAwardTemplatesFromForm(formData, previous) {
+  const raw = String(formData.emailAwardTemplatesJson || '').trim();
+  if (!raw) {
+    const prev = Array.isArray(previous.emailAwardTemplates) ? previous.emailAwardTemplates : [];
+    if (!prev.length) {
+      throw new Error('Email templates JSON is required.');
+    }
+    return prev.map((e) => normalizeEmailAwardTemplateEntry(e));
+  }
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch (e) {
+    throw new Error(`Email templates: invalid JSON (${e.message}).`);
+  }
+  if (!Array.isArray(parsed) || !parsed.length) {
+    throw new Error('Add at least one email template (JSON array).');
+  }
+  return parsed.map((e) => normalizeEmailAwardTemplateEntry(e));
 }
 
 async function saveEmailSettings(formData) {
@@ -1073,6 +1095,11 @@ async function saveEmailSettings(formData) {
     emailBrevoApiKey = apiKeyInput;
   }
   const transport = cleanText(formData.emailBrevoTransport) === 'smtp' ? 'smtp' : 'api';
+  const emailAwardTemplates = parseEmailAwardTemplatesFromForm(formData, previous);
+  let emailAwardDefaultTemplateId = cleanText(formData.emailAwardDefaultTemplateId) || '';
+  if (!emailAwardDefaultTemplateId || !emailAwardTemplates.some((t) => t.id === emailAwardDefaultTemplateId)) {
+    emailAwardDefaultTemplateId = emailAwardTemplates[0].id;
+  }
   const siteConfig = {
     ...previous,
     emailBrevoEnabled: parseBooleanInput(formData.emailBrevoEnabled),
@@ -1081,9 +1108,8 @@ async function saveEmailSettings(formData) {
     emailBrevoSenderName: cleanText(formData.emailBrevoSenderName) || 'CSUN Career Center',
     emailBrevoReplyTo: normalizeEmail(formData.emailBrevoReplyTo),
     emailBrevoTransport: transport,
-    emailAwardSubjectTemplate: cleanEmailTemplateField(formData.emailAwardSubjectTemplate),
-    emailAwardHtmlTemplate: cleanEmailTemplateField(formData.emailAwardHtmlTemplate),
-    emailAwardTextTemplate: cleanEmailTemplateField(formData.emailAwardTextTemplate)
+    emailAwardTemplates,
+    emailAwardDefaultTemplateId
   };
   if (siteConfig.emailBrevoEnabled) {
     if (transport === 'smtp') {
@@ -1531,6 +1557,31 @@ async function handleAdminRequest(request, response, urlObject) {
         notice: queryNotice(urlObject)
       })
     );
+    return;
+  }
+
+  if (request.method === 'POST' && urlObject.pathname === '/admin/email/sync-body') {
+    try {
+      const payload = await parseBody(request);
+      const mode = cleanText(payload.mode);
+      const text = String(payload.text ?? '');
+      let out = '';
+      if (mode === 'plainToHtml') {
+        out = wrapEmailHtmlDocument(plainBodyToHtmlFragment(text));
+      } else if (mode === 'htmlToPlain') {
+        out = htmlFragmentToPlainBody(text);
+      } else {
+        throw new Error('mode must be plainToHtml or htmlToPlain');
+      }
+      sendText(response, JSON.stringify({ ok: true, text: out }), 200, 'application/json; charset=utf-8');
+    } catch (error) {
+      sendText(
+        response,
+        JSON.stringify({ ok: false, error: error.message || String(error) }),
+        400,
+        'application/json; charset=utf-8'
+      );
+    }
     return;
   }
 
