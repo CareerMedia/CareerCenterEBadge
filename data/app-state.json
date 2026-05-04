@@ -1852,7 +1852,10 @@
     "emailBrevoSenderEmail": "career.center@csun.edu",
     "emailBrevoSenderName": "CSUN Career Center",
     "emailBrevoReplyTo": "",
-    "emailBrevoTransport": "api"
+    "emailBrevoTransport": "api",
+    "emailAwardSubjectTemplate": "",
+    "emailAwardHtmlTemplate": "",
+    "emailAwardTextTemplate": ""
   },
   "analyticsEvents": [
     {
@@ -5142,6 +5145,27 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
+    },
+    {
+      "id": "75f734fb-d94e-4bff-8b07-36a8656b1f8c",
+      "type": "generator_opened",
+      "timestamp": "2026-05-04T16:36:42.256Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "",
+      "badgeTemplateId": "",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "general",
+      "generatorKey": "general",
+      "generatorLabel": "General generator",
+      "source": "generator-page",
+      "visitorId": "5061c5907fa44bf4efdbdace",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -5212,14 +5236,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-04T16:19:35.400Z",
+    "updatedAt": "2026-05-04T16:36:42.264Z",
     "totals": {
       "badgesIssued": 23,
       "badgeViews": 69,
       "certificateDownloads": 1,
-      "generatorOpens": 51,
+      "generatorOpens": 52,
       "generatorCompletions": 12,
-      "conversionRate": 23.5,
+      "conversionRate": 23.1,
       "uniqueVisitorsApprox": 30
     },
     "months": [
@@ -5240,10 +5264,10 @@
         "badgesIssued": 3,
         "badgeViews": 6,
         "certificateDownloads": 0,
-        "generatorOpens": 3,
+        "generatorOpens": 4,
         "generatorCompletions": 2,
         "uniqueVisitorsApprox": 5,
-        "conversionRate": 66.7
+        "conversionRate": 50
       }
     ],
     "years": [
@@ -5253,10 +5277,10 @@
         "badgesIssued": 23,
         "badgeViews": 69,
         "certificateDownloads": 1,
-        "generatorOpens": 51,
+        "generatorOpens": 52,
         "generatorCompletions": 12,
         "uniqueVisitorsApprox": 30,
-        "conversionRate": 23.5
+        "conversionRate": 23.1
       }
     ],
     "badgeTypes": [
@@ -5276,7 +5300,7 @@
         "badgesIssued": 0,
         "badgeViews": 0,
         "certificateDownloads": 0,
-        "generatorOpens": 22,
+        "generatorOpens": 23,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -5574,9 +5598,9 @@
         "label": "General generator",
         "pageKind": "general",
         "templateId": "",
-        "opens": 22,
+        "opens": 23,
         "completions": 8,
-        "conversionRate": 36.4
+        "conversionRate": 34.8
       }
     ],
     "recipientStats": [

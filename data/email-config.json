@@ -4,5 +4,8 @@
   "emailBrevoSenderEmail": "career.center@csun.edu",
   "emailBrevoSenderName": "CSUN Career Center",
   "emailBrevoReplyTo": "",
-  "emailBrevoTransport": "api"
+  "emailBrevoTransport": "api",
+  "emailAwardSubjectTemplate": "",
+  "emailAwardHtmlTemplate": "",
+  "emailAwardTextTemplate": ""
 }
