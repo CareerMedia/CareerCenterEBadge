@@ -1,0 +1,19 @@
+{
+  "backupId": "2026-05-04T18-31-18-189Z",
+  "reason": "Saved Brevo email settings",
+  "actor": "admin",
+  "createdAt": "2026-05-04T18:31:18.191Z",
+  "counts": {
+    "badges": 24,
+    "deletedBadges": 2,
+    "templates": 1
+  },
+  "hashes": {
+    "appState": "d01b79d1f922bbd06821244492b81e368058853481cb218e5d5f58466170643a",
+    "badgeLinksCsv": "27f7aa3dd135eb73150c1ec6d3e8d1b11feb162d362bf7d643880b8045027c18"
+  },
+  "files": {
+    "appState": "data/backups/2026-05-04T18-31-18-189Z/app-state.json",
+    "badgeLinksCsv": "data/backups/2026-05-04T18-31-18-189Z/badge-links.csv"
+  }
+}
