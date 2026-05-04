@@ -1086,6 +1086,8 @@ function parseEmailAwardTemplatesFromForm(formData, previous) {
 
 async function saveEmailSettings(formData) {
   const previous = loadSiteConfig();
+  const saveMode = cleanText(formData.saveMode) === 'templates_only' ? 'templates_only' : 'full';
+  const templatesOnly = saveMode === 'templates_only';
   const clearKey = parseBooleanInput(formData.emailBrevoClearApiKey);
   const apiKeyInput = String(formData.emailBrevoApiKey || '').trim();
   let emailBrevoApiKey = String(previous.emailBrevoApiKey || '').trim();
@@ -1111,7 +1113,7 @@ async function saveEmailSettings(formData) {
     emailAwardTemplates,
     emailAwardDefaultTemplateId
   };
-  if (siteConfig.emailBrevoEnabled) {
+  if (!templatesOnly && siteConfig.emailBrevoEnabled) {
     if (transport === 'smtp') {
       if (!hasSmtpCredentialsConfigured()) {
         throw new Error(
@@ -1128,7 +1130,7 @@ async function saveEmailSettings(formData) {
       throw new Error('Reply-to must be a valid email address when provided.');
     }
   }
-  if (transport === 'api' && getBrevoApiKey(siteConfig)) {
+  if (!templatesOnly && transport === 'api' && getBrevoApiKey(siteConfig)) {
     try {
       await verifyBrevoRestApiKey(getBrevoApiKey(siteConfig));
     } catch (err) {
@@ -1139,7 +1141,10 @@ async function saveEmailSettings(formData) {
   }
   saveSiteConfig(siteConfig);
   createBackupSnapshot('Saved Brevo email settings', 'admin');
-  appendAuditLog({ action: 'email.settings.save', actor: 'admin' });
+  appendAuditLog({
+    action: templatesOnly ? 'email.templates.save' : 'email.settings.save',
+    actor: 'admin'
+  });
 }
 
 function restoreFullBackup(jsonText) {
@@ -1648,7 +1653,16 @@ async function handleAdminRequest(request, response, urlObject) {
     try {
       const formData = await parseBody(request);
       await persistMutation('Save Brevo email settings', () => saveEmailSettings(formData), buildPublicSite);
-      redirect(response, buildNoticeUrl('/admin/email', 'Email settings saved.'));
+      const templatesOnly = cleanText(formData.saveMode) === 'templates_only';
+      redirect(
+        response,
+        buildNoticeUrl(
+          '/admin/email',
+          templatesOnly
+            ? 'Email templates saved. Brevo credentials were not re-validated.'
+            : 'Email settings saved.'
+        )
+      );
     } catch (error) {
       sendHtml(
         response,
