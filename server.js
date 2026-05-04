@@ -95,6 +95,7 @@ const {
 } = require('./lib/brevo-mailer');
 const {
   normalizeEmailAwardTemplateEntry,
+  createDefaultEmailAwardTemplates,
   plainBodyToHtmlFragment,
   htmlFragmentToPlainBody,
   wrapEmailHtmlDocument
@@ -1065,12 +1066,16 @@ const EMAIL_TEMPLATE_MAX = 120000;
 
 function parseEmailAwardTemplatesFromForm(formData, previous) {
   const raw = String(formData.emailAwardTemplatesJson || '').trim();
-  if (!raw) {
+  const fallbackToPrev = () => {
     const prev = Array.isArray(previous.emailAwardTemplates) ? previous.emailAwardTemplates : [];
-    if (!prev.length) {
-      throw new Error('Email templates JSON is required.');
+    if (prev.length) {
+      return prev.map((e) => normalizeEmailAwardTemplateEntry(e));
     }
-    return prev.map((e) => normalizeEmailAwardTemplateEntry(e));
+    const seed = createDefaultEmailAwardTemplates();
+    return seed.templates.map((e) => normalizeEmailAwardTemplateEntry(e));
+  };
+  if (!raw) {
+    return fallbackToPrev();
   }
   let parsed;
   try {
@@ -1079,7 +1084,7 @@ function parseEmailAwardTemplatesFromForm(formData, previous) {
     throw new Error(`Email templates: invalid JSON (${e.message}).`);
   }
   if (!Array.isArray(parsed) || !parsed.length) {
-    throw new Error('Add at least one email template (JSON array).');
+    return fallbackToPrev();
   }
   return parsed.map((e) => normalizeEmailAwardTemplateEntry(e));
 }

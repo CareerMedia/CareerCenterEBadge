@@ -304,6 +304,7 @@
     const builtin = window.__EMAIL_BUILTIN__;
     const form = document.getElementById('emailAwardSettingsForm');
     const hiddenJson = document.getElementById('emailAwardTemplatesJson');
+    const saveModeInput = document.getElementById('saveModeInput');
     if (!state || !form || !hiddenJson) return;
 
     function escapeHtmlAttr(value) {
@@ -316,11 +317,22 @@
     }
 
     let templates = JSON.parse(JSON.stringify(state.templates || []));
+    if (!templates.length && builtin) {
+      templates = [
+        {
+          id: 'default',
+          name: 'Default award email',
+          subject: builtin.subject || '',
+          bodyPlain: builtin.text || '',
+          bodyHtml: builtin.html || ''
+        }
+      ];
+    }
     if (!templates.length) {
       return;
     }
 
-    let activeId = templates[0].id;
+    let activeId = (state.defaultId && templates.some((t) => t.id === state.defaultId)) ? state.defaultId : templates[0].id;
     let activeTab = 'plain';
 
     const pick = document.getElementById('emailTemplatePicker');
@@ -408,11 +420,19 @@
     }
 
     async function ensureSyncedBodies() {
+      if (!plainEl || !htmlEl) return;
       if (activeTab === 'plain') {
-        htmlEl.value = await runSync('plainToHtml', plainEl.value);
-      } else {
+        if (String(plainEl.value || '').trim()) {
+          htmlEl.value = await runSync('plainToHtml', plainEl.value);
+        }
+      } else if (String(htmlEl.value || '').trim()) {
         plainEl.value = await runSync('htmlToPlain', htmlEl.value);
       }
+    }
+
+    function commitToHiddenField() {
+      persistEditorToTemplate();
+      hiddenJson.value = JSON.stringify(templates);
     }
 
     tabBtns.forEach((btn) => {
@@ -422,14 +442,19 @@
         persistEditorToTemplate();
         try {
           if (activeTab === 'plain' && next === 'html') {
-            htmlEl.value = await runSync('plainToHtml', plainEl.value);
+            if (String(plainEl.value || '').trim()) {
+              htmlEl.value = await runSync('plainToHtml', plainEl.value);
+            }
           } else if (activeTab === 'html' && next === 'plain') {
-            plainEl.value = await runSync('htmlToPlain', htmlEl.value);
+            if (String(htmlEl.value || '').trim()) {
+              plainEl.value = await runSync('htmlToPlain', htmlEl.value);
+            }
           }
         } catch (err) {
           window.alert(err.message || String(err));
           return;
         }
+        persistEditorToTemplate();
         setTabUi(next);
       });
     });
@@ -473,6 +498,7 @@
         rebuildPickers();
         loadEditor();
         setTabUi('plain');
+        commitToHiddenField();
       });
     }
 
@@ -499,24 +525,75 @@
         rebuildPickers();
         loadEditor();
         setTabUi('plain');
+        commitToHiddenField();
       });
     }
 
-    form.addEventListener('submit', async (ev) => {
+    function attachLiveCommit(el) {
+      if (!el) return;
+      el.addEventListener('input', () => {
+        persistEditorToTemplate();
+        hiddenJson.value = JSON.stringify(templates);
+      });
+    }
+    attachLiveCommit(nameEl);
+    attachLiveCommit(subEl);
+    attachLiveCommit(plainEl);
+    attachLiveCommit(htmlEl);
+
+    async function finalizeAndSubmit(saveMode, triggerBtn) {
+      if (triggerBtn) {
+        triggerBtn.disabled = true;
+      }
       try {
-        await ensureSyncedBodies();
-      } catch (err) {
+        try {
+          await ensureSyncedBodies();
+        } catch (err) {
+          window.alert(err.message || String(err));
+          return;
+        }
+        commitToHiddenField();
+        if (saveModeInput) {
+          saveModeInput.value = saveMode === 'templates_only' ? 'templates_only' : 'full';
+        }
+        form.dataset.readyToSubmit = '1';
+        form.submit();
+      } finally {
+        if (triggerBtn) {
+          setTimeout(() => {
+            triggerBtn.disabled = false;
+          }, 4000);
+        }
+      }
+    }
+
+    const saveTemplatesBtn = document.getElementById('saveTemplatesOnlyBtn');
+    if (saveTemplatesBtn) {
+      saveTemplatesBtn.addEventListener('click', (ev) => {
         ev.preventDefault();
-        window.alert(err.message || String(err));
+        finalizeAndSubmit('templates_only', saveTemplatesBtn);
+      });
+    }
+    const saveAllBtn = document.getElementById('saveAllEmailBtn');
+    if (saveAllBtn) {
+      saveAllBtn.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        finalizeAndSubmit('full', saveAllBtn);
+      });
+    }
+
+    form.addEventListener('submit', (ev) => {
+      if (form.dataset.readyToSubmit === '1') {
         return;
       }
-      persistEditorToTemplate();
-      hiddenJson.value = JSON.stringify(templates);
+      ev.preventDefault();
+      finalizeAndSubmit(saveModeInput && saveModeInput.value === 'templates_only' ? 'templates_only' : 'full', null);
     });
 
     rebuildPickers();
     loadEditor();
     setTabUi('plain');
+    commitToHiddenField();
   }
 
   bindCopyButtons();
