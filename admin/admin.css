@@ -632,3 +632,37 @@ textarea { min-height: 120px; resize: vertical; }
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
+
+.bulk-progress-shell {
+  display: grid;
+  gap: 0.9rem;
+}
+.bulk-progress-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem 1rem;
+}
+.bulk-progress-bar {
+  width: 100%;
+  height: 14px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  overflow: hidden;
+}
+.bulk-progress-bar__fill {
+  height: 100%;
+  width: 0%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(210, 32, 48, 0.9), rgba(210, 32, 48, 0.55));
+  transition: width 0.25s ease;
+}
+.bulk-progress-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem 1rem;
+}

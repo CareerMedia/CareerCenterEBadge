@@ -50,7 +50,15 @@ const {
   loadBulkIssueJobs,
   saveBulkIssueJobs
 } = require('./lib/store');
-const { buildPublicSite } = require('./lib/site-generator');
+const {
+  buildPublicSite,
+  publishBadgeArtifacts,
+  unpublishBadgeArtifacts,
+  publishBadgeIndexes,
+  publishTemplateAssets,
+  publishBadgesForTemplate,
+  removeGeneratorAndWidgetForTemplate
+} = require('./lib/site-generator');
 const { pullRemoteData, persistMutation, getConfig, queuePushLocalData } = require('./lib/github-sync');
 const {
   loadAnalyticsEvents,
@@ -72,6 +80,7 @@ const {
   renderBulkIssuePage,
   renderBulkIssueValidationPage,
   renderBulkIssueSuccessPage,
+  renderBulkIssueProgressPage,
   renderEmailPage,
   renderEmailLogPage,
   renderDebugLogPage
@@ -625,16 +634,25 @@ async function processBulkIssueJobSync(jobId) {
 
   for (const row of job.rows) {
     try {
+      let issuedBadge = null;
       const badge = await persistMutation(
         `Bulk issue badge row ${row.rowNumber} (${jobId})`,
-        () => handleIssueBadge({
-          awardeeName: row.awardeeName,
-          awardeeEmail: row.awardeeEmail,
-          issueDate: row.issueDate,
-          badgeTemplateId: job.badgeTemplateId,
-          source: 'admin-bulk-issue'
-        }),
-        buildPublicSite
+        () => {
+          issuedBadge = handleIssueBadge({
+            awardeeName: row.awardeeName,
+            awardeeEmail: row.awardeeEmail,
+            issueDate: row.issueDate,
+            badgeTemplateId: job.badgeTemplateId,
+            source: 'admin-bulk-issue'
+          });
+          return issuedBadge;
+        },
+        () => {
+          if (issuedBadge) {
+            publishBadgeArtifacts(issuedBadge);
+            publishBadgeIndexes();
+          }
+        }
       );
       job.completedRows += 1;
       job.results.push({
@@ -654,6 +672,9 @@ async function processBulkIssueJobSync(jobId) {
   job.status = job.failedRows ? (job.completedRows ? 'completed_with_errors' : 'failed') : 'completed';
   job.finishedAt = new Date().toISOString();
   saveBulkIssueJobs(jobs);
+  if (job.completedRows > 0) {
+    scheduleBackgroundSnapshot(`Bulk issued ${job.completedRows} badge${job.completedRows === 1 ? '' : 's'} (${jobId})`);
+  }
   return job;
 }
 
@@ -888,10 +909,27 @@ function handleIssueBadge(formData) {
     source: badge.source || 'admin',
     context: 'issuance'
   });
-  createBackupSnapshot(`Issued badge ${badge.id}`, 'admin');
   appendAuditLog({ action: 'badge.issue', actor: 'admin', badgeId: badge.id, awardeeName: badge.awardeeName });
   queueBadgeAwardedEmail(loadSiteConfig, badge);
   return badge;
+}
+
+function scheduleBackgroundSnapshot(reason, actor = 'admin') {
+  setImmediate(() => {
+    try {
+      createBackupSnapshot(reason, actor);
+    } catch (err) {
+      try {
+        appendAppErrorLog({
+          severity: 'warning',
+          source: 'backup_snapshot_async',
+          message: err.message || String(err),
+          stack: err.stack || '',
+          context: String(reason || '')
+        });
+      } catch {}
+    }
+  });
 }
 
 function saveTemplate(formData) {
@@ -961,15 +999,13 @@ function saveTemplate(formData) {
     templates.push(template);
   }
   saveBadgeTemplates(templates);
-  createBackupSnapshot(`Saved template ${id}`, 'admin');
   appendAuditLog({ action: 'template.save', actor: 'admin', templateId: id });
+  return template;
 }
 
 function deleteTemplate(templateId) {
-
   const templates = loadBadgeTemplates().filter((entry) => entry.id !== templateId);
   saveBadgeTemplates(templates);
-  createBackupSnapshot(`Deleted template ${templateId}`, 'admin');
   appendAuditLog({ action: 'template.delete', actor: 'admin', templateId });
 }
 
@@ -983,8 +1019,8 @@ function deleteBadge(badgeId) {
     saveDeletedBadges(deleted);
   }
   saveBadges(remaining);
-  createBackupSnapshot(`Deleted badge ${badgeId}`, 'admin');
   appendAuditLog({ action: 'badge.delete', actor: 'admin', badgeId });
+  return deletedBadge || null;
 }
 
 function parseNumber(value, fallback = 0) {
@@ -1288,6 +1324,7 @@ async function handlePublicApiRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/api/public/issue') {
     try {
       const formData = await parseBody(request);
+      let issuedBadgeRef = null;
       const badge = await persistMutation('Issue badge from public generator', () => {
         const issuedBadge = handleIssueBadge({
           ...formData,
@@ -1308,8 +1345,15 @@ async function handlePublicApiRequest(request, response, urlObject) {
           source: 'public-generator',
           context: 'completion'
         });
+        issuedBadgeRef = issuedBadge;
         return issuedBadge;
-      }, buildPublicSite);
+      }, () => {
+        if (issuedBadgeRef) {
+          publishBadgeArtifacts(issuedBadgeRef);
+          publishBadgeIndexes();
+        }
+      });
+      scheduleBackgroundSnapshot(`Issued badge ${badge.id}`);
       const browserUrl = buildBrowserBadgeUrl(badge);
       sendText(response, JSON.stringify({ ok: true, badge: sanitizeBadgeResponse({ ...badge, publicUrl: browserUrl }) }), 201, 'application/json; charset=utf-8');
     } catch (error) {
@@ -1419,7 +1463,21 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/issue') {
     try {
       const formData = await parseBody(request);
-      const badge = await persistMutation('Issue badge from admin dashboard', () => handleIssueBadge(formData), buildPublicSite);
+      let issuedBadgeRef = null;
+      const badge = await persistMutation(
+        'Issue badge from admin dashboard',
+        () => {
+          issuedBadgeRef = handleIssueBadge(formData);
+          return issuedBadgeRef;
+        },
+        () => {
+          if (issuedBadgeRef) {
+            publishBadgeArtifacts(issuedBadgeRef);
+            publishBadgeIndexes();
+          }
+        }
+      );
+      scheduleBackgroundSnapshot(`Issued badge ${badge.id}`);
       const successLink = badge.publicUrl.startsWith('http') ? badge.publicUrl : `/badges/${badge.slug}/`;
       redirect(
         response,
@@ -1495,12 +1553,70 @@ async function handleAdminRequest(request, response, urlObject) {
     try {
       const formData = await parseBody(request);
       jobId = cleanText(formData.jobId);
-      const job = await processBulkIssueJobSync(jobId);
-      appendAuditLog({ action: 'bulk.issue.start', actor: 'admin', jobId: job.id, totalRows: job.totalRows, completedRows: job.completedRows, failedRows: job.failedRows, badgeTemplateId: job.badgeTemplateId });
-      redirect(response, `/admin/bulk-issue/success?job=${encodeURIComponent(job.id)}`);
+      const job = loadBulkIssueJobs().find((entry) => entry.id === jobId);
+      if (!job) {
+        redirect(response, buildNoticeUrl('/admin/bulk-issue', 'Bulk issue job not found.'));
+        return;
+      }
+      if (job.status === 'processing') {
+        redirect(response, `/admin/bulk-issue/progress?job=${encodeURIComponent(job.id)}`);
+        return;
+      }
+      if (!Array.isArray(job.rows) || !job.rows.length) {
+        redirect(response, buildNoticeUrl('/admin/bulk-issue/validate', 'Bulk issue job has no rows to process.') + `&job=${encodeURIComponent(jobId)}`);
+        return;
+      }
+      if (job.rows.some((row) => Array.isArray(row.errors) && row.errors.length)) {
+        redirect(response, buildNoticeUrl('/admin/bulk-issue/validate', 'Resolve validation errors before issuing badges.') + `&job=${encodeURIComponent(jobId)}`);
+        return;
+      }
+      setImmediate(() => {
+        void (async () => {
+          try {
+            const finished = await processBulkIssueJobSync(jobId);
+            appendAuditLog({
+              action: 'bulk.issue.start',
+              actor: 'admin',
+              jobId: finished.id,
+              totalRows: finished.totalRows,
+              completedRows: finished.completedRows,
+              failedRows: finished.failedRows,
+              badgeTemplateId: finished.badgeTemplateId
+            });
+          } catch (err) {
+            appendAppErrorLog({
+              severity: 'error',
+              source: 'bulk_issue_async',
+              message: err.message || String(err),
+              stack: err.stack || '',
+              context: String(jobId || '')
+            });
+          }
+        })();
+      });
+      redirect(response, `/admin/bulk-issue/progress?job=${encodeURIComponent(job.id)}`);
     } catch (error) {
       redirect(response, `${buildNoticeUrl('/admin/bulk-issue/validate', error.message)}&job=${encodeURIComponent(jobId)}`);
     }
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/bulk-issue/progress') {
+    const jobId = cleanText(urlObject.searchParams.get('job'));
+    const job = loadBulkIssueJobs().find((entry) => entry.id === jobId);
+    if (!job) {
+      redirect(response, buildNoticeUrl('/admin/bulk-issue', 'Bulk issue job not found.'));
+      return;
+    }
+    if (job.status === 'completed' || job.status === 'completed_with_errors') {
+      redirect(response, `/admin/bulk-issue/success?job=${encodeURIComponent(job.id)}`);
+      return;
+    }
+    if (job.status === 'failed') {
+      redirect(response, buildNoticeUrl('/admin/bulk-issue/validate', 'Bulk issue job failed. Review and try again.') + `&job=${encodeURIComponent(job.id)}`);
+      return;
+    }
+    sendHtml(response, renderBulkIssueProgressPage({ job, notice: queryNotice(urlObject) }));
     return;
   }
 
@@ -1526,8 +1642,24 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/templates/save') {
     try {
       const formData = await parseBody(request);
-      await persistMutation('Save badge template', () => saveTemplate(formData), buildPublicSite);
-      redirect(response, buildNoticeUrl('/admin/templates', 'Template saved and site rebuilt.'));
+      let savedTemplate = null;
+      await persistMutation(
+        'Save badge template',
+        () => {
+          savedTemplate = saveTemplate(formData);
+          return savedTemplate;
+        },
+        () => {
+          publishTemplateAssets();
+          if (savedTemplate && savedTemplate.id) {
+            publishBadgesForTemplate(savedTemplate.id);
+          }
+        }
+      );
+      if (savedTemplate && savedTemplate.id) {
+        scheduleBackgroundSnapshot(`Saved template ${savedTemplate.id}`);
+      }
+      redirect(response, buildNoticeUrl('/admin/templates', 'Template saved and public files refreshed.'));
     } catch (error) {
       const templates = loadBadgeTemplates();
       sendHtml(response, renderTemplatesPage({ templates, notice: error.message, siteConfig: loadSiteConfig(), certificateTemplate: loadCertificateTemplate() }), 400);
@@ -1537,7 +1669,18 @@ async function handleAdminRequest(request, response, urlObject) {
 
   if (request.method === 'POST' && urlObject.pathname === '/admin/templates/delete') {
     const formData = await parseBody(request);
-    await persistMutation('Delete badge template', () => deleteTemplate(cleanText(formData.templateId)), buildPublicSite);
+    const targetId = cleanText(formData.templateId);
+    await persistMutation(
+      'Delete badge template',
+      () => deleteTemplate(targetId),
+      () => {
+        removeGeneratorAndWidgetForTemplate(targetId);
+        publishTemplateAssets();
+      }
+    );
+    if (targetId) {
+      scheduleBackgroundSnapshot(`Deleted template ${targetId}`);
+    }
     redirect(response, buildNoticeUrl('/admin/templates', 'Template deleted.'));
     return;
   }
@@ -1657,7 +1800,7 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/email/save') {
     try {
       const formData = await parseBody(request);
-      await persistMutation('Save Brevo email settings', () => saveEmailSettings(formData), buildPublicSite);
+      await persistMutation('Save Brevo email settings', () => saveEmailSettings(formData));
       const templatesOnly = cleanText(formData.saveMode) === 'templates_only';
       redirect(
         response,
@@ -1687,7 +1830,7 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/backups/snapshot') {
     await persistMutation('Create manual backup snapshot', () => {
       createBackupSnapshot('Manual snapshot from admin', 'admin');
-    }, buildPublicSite);
+    });
     redirect(response, buildNoticeUrl('/admin/backups', 'Snapshot created and synced.'));
     return;
   }
@@ -1695,7 +1838,12 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/backups/restore-json') {
     try {
       const formData = await parseBody(request);
-      await persistMutation('Restore full app state from backup JSON', () => restoreFullBackup(formData.jsonBackupContent), buildPublicSite);
+      await persistMutation(
+        'Restore full app state from backup JSON',
+        () => restoreFullBackup(formData.jsonBackupContent),
+        buildPublicSite,
+        { syncPush: true }
+      );
       redirect(response, buildNoticeUrl('/admin/backups', 'Full system backup restored.'));
     } catch (error) {
       sendHtml(response, renderBackupsPage({ backups: getRecentBackups(50), appState: loadAppState(), notice: error.message }), 400);
@@ -1706,7 +1854,12 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/backups/restore-csv') {
     try {
       const formData = await parseBody(request);
-      await persistMutation('Restore issued badges from CSV', () => restoreBadgesCsv(formData.csvBackupContent), buildPublicSite);
+      await persistMutation(
+        'Restore issued badges from CSV',
+        () => restoreBadgesCsv(formData.csvBackupContent),
+        buildPublicSite,
+        { syncPush: true }
+      );
       redirect(response, buildNoticeUrl('/admin/backups', 'Issued badges restored from CSV.'));
     } catch (error) {
       sendHtml(response, renderBackupsPage({ backups: getRecentBackups(50), appState: loadAppState(), notice: error.message }), 400);
@@ -1744,7 +1897,24 @@ async function handleAdminRequest(request, response, urlObject) {
 
   if (request.method === 'POST' && urlObject.pathname === '/admin/badges/delete') {
     const formData = await parseBody(request);
-    await persistMutation('Delete issued badge', () => deleteBadge(cleanText(formData.badgeId)), buildPublicSite);
+    const targetId = cleanText(formData.badgeId);
+    let removedBadge = null;
+    await persistMutation(
+      'Delete issued badge',
+      () => {
+        removedBadge = deleteBadge(targetId);
+        return removedBadge;
+      },
+      () => {
+        if (removedBadge && removedBadge.slug) {
+          unpublishBadgeArtifacts(removedBadge.slug);
+        }
+        publishBadgeIndexes();
+      }
+    );
+    if (removedBadge) {
+      scheduleBackgroundSnapshot(`Deleted badge ${removedBadge.id || targetId}`);
+    }
     redirect(response, buildNoticeUrl('/admin', 'Badge deleted and public files refreshed.'));
     return;
   }

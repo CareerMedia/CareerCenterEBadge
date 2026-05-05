@@ -299,6 +299,58 @@
     }, 2500);
   }
 
+  function bindBulkIssueProgressPage() {
+    const jobId = window.__BULK_ISSUE_ACTIVE_JOB__;
+    const shell = document.querySelector('.bulk-progress-shell');
+    if (!jobId || !shell) return;
+
+    const statusEl = document.getElementById('bulkProgressStatus');
+    const fillEl = document.getElementById('bulkProgressFill');
+    const percentEl = document.getElementById('bulkProgressPercent');
+    const completedEl = document.getElementById('bulkProgressCompleted');
+    const totalEl = document.getElementById('bulkProgressTotal');
+    const failedEl = document.getElementById('bulkProgressFailed');
+
+    function clampPercent(v) {
+      const n = Number(v);
+      if (!Number.isFinite(n)) return 0;
+      return Math.max(0, Math.min(100, Math.round(n)));
+    }
+
+    function updateUi(job) {
+      if (!job) return;
+      const pct = clampPercent(job.progressPercent);
+      if (statusEl) statusEl.textContent = String(job.status || 'pending');
+      if (percentEl) percentEl.textContent = String(pct);
+      if (fillEl) fillEl.style.width = `${pct}%`;
+      if (completedEl) completedEl.textContent = String(job.completedRows || 0);
+      if (totalEl) totalEl.textContent = String(job.totalRows || 0);
+      if (failedEl) failedEl.textContent = String(job.failedRows || 0);
+      shell.setAttribute('aria-valuenow', String(pct));
+    }
+
+    async function pollOnce() {
+      const response = await fetch('/admin/bulk-issue/jobs.json', { cache: 'no-store' });
+      if (!response.ok) return;
+      const payload = await response.json();
+      const jobs = payload.jobs || [];
+      const job = jobs.find((j) => j && j.id === jobId);
+      if (!job) return;
+
+      updateUi(job);
+      if (job.status === 'completed' || job.status === 'completed_with_errors') {
+        window.location.href = `/admin/bulk-issue/success?job=${encodeURIComponent(jobId)}`;
+      } else if (job.status === 'failed') {
+        window.location.href = `/admin/bulk-issue/validate?notice=${encodeURIComponent('Bulk issue job failed. Review and try again.')}&job=${encodeURIComponent(jobId)}`;
+      }
+    }
+
+    pollOnce().catch(() => {});
+    window.setInterval(() => {
+      pollOnce().catch(() => {});
+    }, 1200);
+  }
+
   function bindAwardEmailAdminPage() {
     const state = window.__EMAIL_AWARD_STATE__;
     const builtin = window.__EMAIL_BUILTIN__;
@@ -603,5 +655,6 @@
   bindUploadInputs();
   bindCoordinateEditor();
   initializeBulkIssueJobs();
+  bindBulkIssueProgressPage();
   bindAwardEmailAdminPage();
 })();
