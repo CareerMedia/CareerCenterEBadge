@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-05T22:12:33.140Z",
+  "updatedAt": "2026-05-05T22:15:00.500Z",
   "totals": {
-    "badgesIssued": 32,
+    "badgesIssued": 33,
     "badgeViews": 84,
     "certificateDownloads": 1,
     "generatorOpens": 77,
-    "generatorCompletions": 20,
-    "conversionRate": 26,
+    "generatorCompletions": 21,
+    "conversionRate": 27.3,
     "uniqueVisitorsApprox": 36
   },
   "months": [
@@ -25,26 +25,26 @@
     {
       "key": "2026-05",
       "label": "May 2026",
-      "badgesIssued": 13,
+      "badgesIssued": 14,
       "badgeViews": 21,
       "certificateDownloads": 0,
       "generatorOpens": 29,
-      "generatorCompletions": 10,
+      "generatorCompletions": 11,
       "uniqueVisitorsApprox": 12,
-      "conversionRate": 34.5
+      "conversionRate": 37.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 32,
+      "badgesIssued": 33,
       "badgeViews": 84,
       "certificateDownloads": 1,
       "generatorOpens": 77,
-      "generatorCompletions": 20,
+      "generatorCompletions": 21,
       "uniqueVisitorsApprox": 36,
-      "conversionRate": 26
+      "conversionRate": 27.3
     }
   ],
   "badgeTypes": [
@@ -61,12 +61,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 3,
+      "badgesIssued": 4,
       "badgeViews": 2,
       "certificateDownloads": 0,
       "generatorOpens": 16,
-      "generatorCompletions": 3,
-      "conversionRate": 18.8
+      "generatorCompletions": 4,
+      "conversionRate": 25
     },
     {
       "id": "unassigned",
@@ -475,6 +475,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "bryce-simon-career-activated-csuncc-20260505-0004",
+      "badgeId": "CSUNCC-20260505-0004",
+      "awardeeName": "Bryce Simon",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-activated-csuncc-20260505-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -493,8 +505,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 29,
-      "completions": 12,
-      "conversionRate": 41.4
+      "completions": 13,
+      "conversionRate": 44.8
     },
     {
       "key": "career-activated",
@@ -509,7 +521,7 @@
   "recipientStats": [
     {
       "awardeeName": "Bryce Simon",
-      "badgesIssued": 17,
+      "badgesIssued": 18,
       "badgeViews": 31,
       "certificateDownloads": 0
     },
