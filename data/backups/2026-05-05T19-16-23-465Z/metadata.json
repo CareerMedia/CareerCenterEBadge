@@ -1,0 +1,19 @@
+{
+  "backupId": "2026-05-05T19-16-23-465Z",
+  "reason": "Saved template career-activated",
+  "actor": "admin",
+  "createdAt": "2026-05-05T19:16:23.492Z",
+  "counts": {
+    "badges": 31,
+    "deletedBadges": 2,
+    "templates": 2
+  },
+  "hashes": {
+    "appState": "e33fbda5218b6d3bb383bbbe3302edad003ff0c823f4d50d3c4f9585b758d28f",
+    "badgeLinksCsv": "62ddcfff043047d796c62f528f04ee644f0c3d92c3e511af5238d7b2f9c21d8f"
+  },
+  "files": {
+    "appState": "data/backups/2026-05-05T19-16-23-465Z/app-state.json",
+    "badgeLinksCsv": "data/backups/2026-05-05T19-16-23-465Z/badge-links.csv"
+  }
+}
