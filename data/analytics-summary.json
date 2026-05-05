@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-05T18:59:33.657Z",
+  "updatedAt": "2026-05-05T18:59:58.842Z",
   "totals": {
     "badgesIssued": 30,
     "badgeViews": 82,
     "certificateDownloads": 1,
-    "generatorOpens": 69,
+    "generatorOpens": 66,
     "generatorCompletions": 18,
-    "conversionRate": 26.1,
+    "conversionRate": 27.3,
     "uniqueVisitorsApprox": 36
   },
   "months": [
@@ -28,10 +28,10 @@
       "badgesIssued": 11,
       "badgeViews": 19,
       "certificateDownloads": 0,
-      "generatorOpens": 21,
+      "generatorOpens": 18,
       "generatorCompletions": 8,
       "uniqueVisitorsApprox": 12,
-      "conversionRate": 38.1
+      "conversionRate": 44.4
     }
   ],
   "years": [
@@ -41,10 +41,10 @@
       "badgesIssued": 30,
       "badgeViews": 82,
       "certificateDownloads": 1,
-      "generatorOpens": 69,
+      "generatorOpens": 66,
       "generatorCompletions": 18,
       "uniqueVisitorsApprox": 36,
-      "conversionRate": 26.1
+      "conversionRate": 27.3
     }
   ],
   "badgeTypes": [
@@ -64,9 +64,9 @@
       "badgesIssued": 2,
       "badgeViews": 2,
       "certificateDownloads": 0,
-      "generatorOpens": 13,
+      "generatorOpens": 10,
       "generatorCompletions": 2,
-      "conversionRate": 15.4
+      "conversionRate": 20
     },
     {
       "id": "unassigned",
@@ -477,9 +477,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 13,
+      "opens": 10,
       "completions": 2,
-      "conversionRate": 15.4
+      "conversionRate": 20
     }
   ],
   "recipientStats": [
