@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-05T19:03:11.355Z",
+  "updatedAt": "2026-05-05T19:14:34.739Z",
   "totals": {
     "badgesIssued": 31,
-    "badgeViews": 83,
+    "badgeViews": 84,
     "certificateDownloads": 1,
-    "generatorOpens": 68,
+    "generatorOpens": 69,
     "generatorCompletions": 19,
-    "conversionRate": 27.9,
+    "conversionRate": 27.5,
     "uniqueVisitorsApprox": 36
   },
   "months": [
@@ -26,12 +26,12 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 12,
-      "badgeViews": 20,
+      "badgeViews": 21,
       "certificateDownloads": 0,
-      "generatorOpens": 20,
+      "generatorOpens": 21,
       "generatorCompletions": 9,
       "uniqueVisitorsApprox": 12,
-      "conversionRate": 45
+      "conversionRate": 42.9
     }
   ],
   "years": [
@@ -39,12 +39,12 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 31,
-      "badgeViews": 83,
+      "badgeViews": 84,
       "certificateDownloads": 1,
-      "generatorOpens": 68,
+      "generatorOpens": 69,
       "generatorCompletions": 19,
       "uniqueVisitorsApprox": 36,
-      "conversionRate": 27.9
+      "conversionRate": 27.5
     }
   ],
   "badgeTypes": [
@@ -52,11 +52,11 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 29,
-      "badgeViews": 81,
+      "badgeViews": 82,
       "certificateDownloads": 1,
-      "generatorOpens": 30,
+      "generatorOpens": 31,
       "generatorCompletions": 17,
-      "conversionRate": 56.7
+      "conversionRate": 54.8
     },
     {
       "id": "career-activated",
@@ -237,6 +237,18 @@
       "latestViewedAt": "2026-05-04T20:51:23.927Z"
     },
     {
+      "slug": "bryce-simon-career-champion-csuncc-20260505-0002",
+      "badgeId": "CSUNCC-20260505-0002",
+      "awardeeName": "Bryce Simon",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-champion-csuncc-20260505-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-05T19:14:31.753Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -307,18 +319,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-05T18:35:35.060Z"
-    },
-    {
-      "slug": "bryce-simon-career-champion-csuncc-20260505-0002",
-      "badgeId": "CSUNCC-20260505-0002",
-      "awardeeName": "Bryce Simon",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-champion-csuncc-20260505-0002/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-05T19:03:11.353Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -471,9 +471,9 @@
       "label": "Career Champion generator",
       "pageKind": "specific",
       "templateId": "career-champion",
-      "opens": 30,
+      "opens": 31,
       "completions": 5,
-      "conversionRate": 16.7
+      "conversionRate": 16.1
     },
     {
       "key": "general",
@@ -498,7 +498,7 @@
     {
       "awardeeName": "Bryce Simon",
       "badgesIssued": 16,
-      "badgeViews": 30,
+      "badgeViews": 31,
       "certificateDownloads": 0
     },
     {
