@@ -2704,8 +2704,8 @@
       "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
       "issuerRegistryUrl": "",
       "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1777937819398.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1777937934256.png",
+      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
+      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008570092.png",
       "verificationSections": {
         "recipient": true,
         "meaning": true,
@@ -2718,7 +2718,7 @@
       },
       "certificateTemplateOverrideEnabled": true,
       "certificateTemplate": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1777937819437.png",
+        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1777937934256.png",
         "fileNameSuffix": "_Certificate",
         "name": {
           "x": 1914,
