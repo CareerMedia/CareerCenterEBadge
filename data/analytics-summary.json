@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-05T18:34:23.920Z",
+  "updatedAt": "2026-05-05T18:34:52.043Z",
   "totals": {
-    "badgesIssued": 29,
+    "badgesIssued": 30,
     "badgeViews": 81,
     "certificateDownloads": 1,
     "generatorOpens": 64,
-    "generatorCompletions": 17,
-    "conversionRate": 26.6,
+    "generatorCompletions": 18,
+    "conversionRate": 28.1,
     "uniqueVisitorsApprox": 36
   },
   "months": [
@@ -25,26 +25,26 @@
     {
       "key": "2026-05",
       "label": "May 2026",
-      "badgesIssued": 10,
+      "badgesIssued": 11,
       "badgeViews": 18,
       "certificateDownloads": 0,
       "generatorOpens": 16,
-      "generatorCompletions": 7,
+      "generatorCompletions": 8,
       "uniqueVisitorsApprox": 12,
-      "conversionRate": 43.8
+      "conversionRate": 50
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 29,
+      "badgesIssued": 30,
       "badgeViews": 81,
       "certificateDownloads": 1,
       "generatorOpens": 64,
-      "generatorCompletions": 17,
+      "generatorCompletions": 18,
       "uniqueVisitorsApprox": 36,
-      "conversionRate": 26.6
+      "conversionRate": 28.1
     }
   ],
   "badgeTypes": [
@@ -61,12 +61,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 1,
+      "badgesIssued": 2,
       "badgeViews": 1,
       "certificateDownloads": 0,
       "generatorOpens": 8,
-      "generatorCompletions": 1,
-      "conversionRate": 12.5
+      "generatorCompletions": 2,
+      "conversionRate": 25
     },
     {
       "id": "unassigned",
@@ -439,6 +439,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "briana-nueva-fuente-career-activated-csuncc-20260505-0001",
+      "badgeId": "CSUNCC-20260505-0001",
+      "awardeeName": "Briana Nueva Fuente",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/briana-nueva-fuente-career-activated-csuncc-20260505-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -466,8 +478,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 8,
-      "completions": 1,
-      "conversionRate": 12.5
+      "completions": 2,
+      "conversionRate": 25
     }
   ],
   "recipientStats": [
@@ -545,6 +557,12 @@
     },
     {
       "awardeeName": "Veronica Torres",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Briana Nueva Fuente",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
