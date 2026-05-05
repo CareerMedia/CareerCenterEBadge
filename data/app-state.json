@@ -6881,6 +6881,27 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
+    },
+    {
+      "id": "7a195ae8-9398-4a08-b64a-b8e8e22425b1",
+      "type": "generator_opened",
+      "timestamp": "2026-05-05T19:01:19.138Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "Career Activated generator",
+      "source": "generator-page",
+      "visitorId": "5061c5907fa44bf4efdbdace",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -6999,14 +7020,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-05T18:59:58.842Z",
+    "updatedAt": "2026-05-05T19:01:19.141Z",
     "totals": {
       "badgesIssued": 30,
       "badgeViews": 82,
       "certificateDownloads": 1,
-      "generatorOpens": 66,
+      "generatorOpens": 67,
       "generatorCompletions": 18,
-      "conversionRate": 27.3,
+      "conversionRate": 26.9,
       "uniqueVisitorsApprox": 36
     },
     "months": [
@@ -7027,10 +7048,10 @@
         "badgesIssued": 11,
         "badgeViews": 19,
         "certificateDownloads": 0,
-        "generatorOpens": 18,
+        "generatorOpens": 19,
         "generatorCompletions": 8,
         "uniqueVisitorsApprox": 12,
-        "conversionRate": 44.4
+        "conversionRate": 42.1
       }
     ],
     "years": [
@@ -7040,10 +7061,10 @@
         "badgesIssued": 30,
         "badgeViews": 82,
         "certificateDownloads": 1,
-        "generatorOpens": 66,
+        "generatorOpens": 67,
         "generatorCompletions": 18,
         "uniqueVisitorsApprox": 36,
-        "conversionRate": 27.3
+        "conversionRate": 26.9
       }
     ],
     "badgeTypes": [
@@ -7063,9 +7084,9 @@
         "badgesIssued": 2,
         "badgeViews": 2,
         "certificateDownloads": 0,
-        "generatorOpens": 10,
+        "generatorOpens": 11,
         "generatorCompletions": 2,
-        "conversionRate": 20
+        "conversionRate": 18.2
       },
       {
         "id": "unassigned",
@@ -7476,9 +7497,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 10,
+        "opens": 11,
         "completions": 2,
-        "conversionRate": 20
+        "conversionRate": 18.2
       }
     ],
     "recipientStats": [
