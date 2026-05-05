@@ -7563,6 +7563,27 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
+    },
+    {
+      "id": "305248ef-20cc-413e-95bb-a807f2b08495",
+      "type": "generator_opened",
+      "timestamp": "2026-05-05T22:16:32.562Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "",
+      "badgeTemplateId": "",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "general",
+      "generatorKey": "general",
+      "generatorLabel": "General generator",
+      "source": "generator-page",
+      "visitorId": "5061c5907fa44bf4efdbdace",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -7681,14 +7702,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-05T22:15:00.500Z",
+    "updatedAt": "2026-05-05T22:16:32.564Z",
     "totals": {
       "badgesIssued": 33,
       "badgeViews": 84,
       "certificateDownloads": 1,
-      "generatorOpens": 77,
+      "generatorOpens": 78,
       "generatorCompletions": 21,
-      "conversionRate": 27.3,
+      "conversionRate": 26.9,
       "uniqueVisitorsApprox": 36
     },
     "months": [
@@ -7709,10 +7730,10 @@
         "badgesIssued": 14,
         "badgeViews": 21,
         "certificateDownloads": 0,
-        "generatorOpens": 29,
+        "generatorOpens": 30,
         "generatorCompletions": 11,
         "uniqueVisitorsApprox": 12,
-        "conversionRate": 37.9
+        "conversionRate": 36.7
       }
     ],
     "years": [
@@ -7722,10 +7743,10 @@
         "badgesIssued": 33,
         "badgeViews": 84,
         "certificateDownloads": 1,
-        "generatorOpens": 77,
+        "generatorOpens": 78,
         "generatorCompletions": 21,
         "uniqueVisitorsApprox": 36,
-        "conversionRate": 27.3
+        "conversionRate": 26.9
       }
     ],
     "badgeTypes": [
@@ -7755,7 +7776,7 @@
         "badgesIssued": 0,
         "badgeViews": 0,
         "certificateDownloads": 0,
-        "generatorOpens": 29,
+        "generatorOpens": 30,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -8185,9 +8206,9 @@
         "label": "General generator",
         "pageKind": "general",
         "templateId": "",
-        "opens": 29,
+        "opens": 30,
         "completions": 13,
-        "conversionRate": 44.8
+        "conversionRate": 43.3
       },
       {
         "key": "career-activated",
