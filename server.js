@@ -59,7 +59,7 @@ const {
   publishBadgesForTemplate,
   removeGeneratorAndWidgetForTemplate
 } = require('./lib/site-generator');
-const { pullRemoteData, persistMutation, getConfig, queuePushLocalData } = require('./lib/github-sync');
+const { pullRemoteData, persistMutation, getConfig, getSyncStatus, pushLocalData, queuePushLocalData } = require('./lib/github-sync');
 const {
   loadAnalyticsEvents,
   loadAnalyticsSummary,
@@ -81,6 +81,7 @@ const {
   renderBulkIssueValidationPage,
   renderBulkIssueSuccessPage,
   renderBulkIssueProgressPage,
+  renderJobsPage,
   renderEmailPage,
   renderEmailLogPage,
   renderDebugLogPage
@@ -384,6 +385,46 @@ function requireAuth(request, response) {
     redirect(response, '/admin/login');
     return false;
   }
+  return true;
+}
+
+async function tryServeUploadFromGithub(baseDir, requestPath, response) {
+  const reqPath = String(requestPath || '');
+  if (!reqPath.startsWith('/assets/uploads/')) {
+    return false;
+  }
+  const cfg = getConfig();
+  if (!cfg.enabled || !cfg.repo || !cfg.branch) {
+    return false;
+  }
+  const resolved = safeResolve(baseDir, reqPath);
+  if (!resolved) {
+    return false;
+  }
+  // If file exists, normal static handler should have served it.
+  if (fs.existsSync(resolved) && !fs.statSync(resolved).isDirectory()) {
+    return false;
+  }
+  const remotePath = `docs${reqPath}`.replace(/^\/+/, '');
+  const rawUrl = `https://raw.githubusercontent.com/${cfg.repo}/${cfg.branch}/${remotePath}`;
+  let upstream;
+  try {
+    upstream = await fetch(rawUrl);
+  } catch {
+    return false;
+  }
+  if (!upstream.ok) {
+    return false;
+  }
+  const buffer = Buffer.from(await upstream.arrayBuffer());
+  ensureDir(path.dirname(resolved));
+  try {
+    fs.writeFileSync(resolved, buffer);
+  } catch {
+    // If caching fails, still return the bytes.
+  }
+  response.writeHead(200, { 'Content-Type': contentTypeFor(resolved) });
+  response.end(buffer);
   return true;
 }
 
@@ -932,6 +973,12 @@ function scheduleBackgroundSnapshot(reason, actor = 'admin') {
   });
 }
 
+function hasInlineUploadedAssets(formData) {
+  const a = String((formData && formData.badgeImageUploadDataUrl) || '').trim();
+  const b = String((formData && formData.certificateBackgroundUploadDataUrl) || '').trim();
+  return (a && a.startsWith('data:')) || (b && b.startsWith('data:'));
+}
+
 function saveTemplate(formData) {
   const id = slugify(formData.id);
   if (!id) {
@@ -1325,6 +1372,7 @@ async function handlePublicApiRequest(request, response, urlObject) {
     try {
       const formData = await parseBody(request);
       let issuedBadgeRef = null;
+      const syncPush = hasInlineUploadedAssets(formData);
       const badge = await persistMutation('Issue badge from public generator', () => {
         const issuedBadge = handleIssueBadge({
           ...formData,
@@ -1352,7 +1400,7 @@ async function handlePublicApiRequest(request, response, urlObject) {
           publishBadgeArtifacts(issuedBadgeRef);
           publishBadgeIndexes();
         }
-      });
+      }, { syncPush });
       scheduleBackgroundSnapshot(`Issued badge ${badge.id}`);
       const browserUrl = buildBrowserBadgeUrl(badge);
       sendText(response, JSON.stringify({ ok: true, badge: sanitizeBadgeResponse({ ...badge, publicUrl: browserUrl }) }), 201, 'application/json; charset=utf-8');
@@ -1464,6 +1512,7 @@ async function handleAdminRequest(request, response, urlObject) {
     try {
       const formData = await parseBody(request);
       let issuedBadgeRef = null;
+      const syncPush = hasInlineUploadedAssets(formData);
       const badge = await persistMutation(
         'Issue badge from admin dashboard',
         () => {
@@ -1475,7 +1524,8 @@ async function handleAdminRequest(request, response, urlObject) {
             publishBadgeArtifacts(issuedBadgeRef);
             publishBadgeIndexes();
           }
-        }
+        },
+        { syncPush }
       );
       scheduleBackgroundSnapshot(`Issued badge ${badge.id}`);
       const successLink = badge.publicUrl.startsWith('http') ? badge.publicUrl : `/badges/${badge.slug}/`;
@@ -1643,6 +1693,7 @@ async function handleAdminRequest(request, response, urlObject) {
     try {
       const formData = await parseBody(request);
       let savedTemplate = null;
+      const syncPush = hasInlineUploadedAssets(formData);
       await persistMutation(
         'Save badge template',
         () => {
@@ -1654,7 +1705,8 @@ async function handleAdminRequest(request, response, urlObject) {
           if (savedTemplate && savedTemplate.id) {
             publishBadgesForTemplate(savedTemplate.id);
           }
-        }
+        },
+        { syncPush }
       );
       if (savedTemplate && savedTemplate.id) {
         scheduleBackgroundSnapshot(`Saved template ${savedTemplate.id}`);
@@ -1757,6 +1809,57 @@ async function handleAdminRequest(request, response, urlObject) {
         notice: queryNotice(urlObject)
       })
     );
+    return;
+  }
+
+  if (request.method === 'GET' && urlObject.pathname === '/admin/jobs') {
+    if (!requireAuth(request, response)) {
+      return;
+    }
+    sendHtml(
+      response,
+      renderJobsPage({
+        syncStatus: getSyncStatus(),
+        bulkJobs: loadBulkIssueJobs(),
+        notice: queryNotice(urlObject)
+      })
+    );
+    return;
+  }
+
+  if (request.method === 'POST' && urlObject.pathname === '/admin/jobs/sync') {
+    if (!requireAuth(request, response)) {
+      return;
+    }
+    try {
+      const formData = await parseBody(request);
+      const scope = cleanText(formData.scope) || 'all';
+      const scopeMap = {
+        all: null,
+        badges: ['data/badges.json', 'data/badge-links.csv', 'data/deleted-badges.json'],
+        templates: ['data/badge-catalog.json', 'data/certificate-template.json'],
+        settings: ['data/site-config.json', 'data/email-config.json'],
+        uploads: ['docs/assets/uploads/'],
+        logs: [
+          'data/audit-log.ndjson',
+          'data/email-log.ndjson',
+          'data/app-error-log.ndjson',
+          'data/analytics-events.ndjson',
+          'data/analytics-summary.json',
+          'data/bulk-issue-jobs.json'
+        ]
+      };
+      const includePrefixes = Object.prototype.hasOwnProperty.call(scopeMap, scope) ? scopeMap[scope] : null;
+      const reason = `Force sync (${scope}) from admin`;
+      const result = await pushLocalData(reason, includePrefixes ? { includePrefixes } : {});
+      if (result && result.ok) {
+        redirect(response, buildNoticeUrl('/admin/jobs', `Sync complete (${scope}). Commit ${result.commitSha || ''}`));
+        return;
+      }
+      redirect(response, buildNoticeUrl('/admin/jobs', `Sync skipped (${scope}): ${(result && result.reason) || 'unknown'}`));
+    } catch (error) {
+      redirect(response, buildNoticeUrl('/admin/jobs', `Sync failed: ${error.message || String(error)}`));
+    }
     return;
   }
 
@@ -1979,6 +2082,9 @@ async function requestListener(request, response) {
     }
 
     if (serveStatic(PATHS.docsDir, urlObject.pathname, response)) {
+      return;
+    }
+    if (await tryServeUploadFromGithub(PATHS.docsDir, urlObject.pathname, response)) {
       return;
     }
 
