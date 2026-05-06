@@ -7963,6 +7963,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "364d2e00-a1de-40c7-97f2-ab9ee0fa0080",
+      "type": "generator_opened",
+      "timestamp": "2026-05-06T19:11:37.416Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "",
+      "badgeTemplateId": "",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "general",
+      "generatorKey": "general",
+      "generatorLabel": "General generator",
+      "source": "generator-page",
+      "visitorId": "91daf4e9cd23487ffae0f7be",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -8081,15 +8102,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-06T17:45:10.909Z",
+    "updatedAt": "2026-05-06T19:11:37.419Z",
     "totals": {
       "badgesIssued": 35,
       "badgeViews": 86,
       "certificateDownloads": 1,
-      "generatorOpens": 81,
+      "generatorOpens": 82,
       "generatorCompletions": 23,
-      "conversionRate": 28.4,
-      "uniqueVisitorsApprox": 37
+      "conversionRate": 28,
+      "uniqueVisitorsApprox": 38
     },
     "months": [
       {
@@ -8109,10 +8130,10 @@
         "badgesIssued": 16,
         "badgeViews": 23,
         "certificateDownloads": 0,
-        "generatorOpens": 33,
+        "generatorOpens": 34,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 13,
-        "conversionRate": 39.4
+        "uniqueVisitorsApprox": 14,
+        "conversionRate": 38.2
       }
     ],
     "years": [
@@ -8122,10 +8143,10 @@
         "badgesIssued": 35,
         "badgeViews": 86,
         "certificateDownloads": 1,
-        "generatorOpens": 81,
+        "generatorOpens": 82,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 37,
-        "conversionRate": 28.4
+        "uniqueVisitorsApprox": 38,
+        "conversionRate": 28
       }
     ],
     "badgeTypes": [
@@ -8155,7 +8176,7 @@
         "badgesIssued": 0,
         "badgeViews": 0,
         "certificateDownloads": 0,
-        "generatorOpens": 33,
+        "generatorOpens": 34,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -8600,9 +8621,9 @@
         "label": "General generator",
         "pageKind": "general",
         "templateId": "",
-        "opens": 33,
+        "opens": 34,
         "completions": 15,
-        "conversionRate": 45.5
+        "conversionRate": 44.1
       },
       {
         "key": "career-champion",
