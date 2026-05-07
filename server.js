@@ -537,9 +537,13 @@ async function tryServeUploadFromGithub(baseDir, requestPath, response) {
   }
   const remotePath = `docs${reqPath}`.replace(/^\/+/, '');
   const rawUrl = `https://raw.githubusercontent.com/${cfg.repo}/${cfg.branch}/${remotePath}`;
+  const headers = { 'User-Agent': 'csun-career-center-ebadges' };
+  if (cfg.token) {
+    headers.Authorization = `Bearer ${cfg.token}`;
+  }
   let upstream;
   try {
-    upstream = await fetch(rawUrl);
+    upstream = await fetch(rawUrl, { headers });
   } catch {
     return false;
   }
