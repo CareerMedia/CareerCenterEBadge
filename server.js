@@ -228,7 +228,6 @@ async function initializeApp() {
 
 const PORT = Number(process.env.PORT || 8787);
 
-const MIN_PASSWORD_LENGTH = 12;
 const SESSION_TTL_MS = 12 * 60 * 60 * 1000;
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX_FAILS = 5;
@@ -255,12 +254,7 @@ function readRequiredPassword(varName) {
   const trimmed = raw.trim();
   if (!trimmed) {
     fatalConfigError(
-      `${varName} is not set. Configure it in your environment (Render → Environment) with a strong random value of at least ${MIN_PASSWORD_LENGTH} characters before starting the app.`
-    );
-  }
-  if (trimmed.length < MIN_PASSWORD_LENGTH) {
-    fatalConfigError(
-      `${varName} is too short. Use a strong random value of at least ${MIN_PASSWORD_LENGTH} characters.`
+      `${varName} is not set. Configure it in your environment (Render → Environment) before starting the app.`
     );
   }
   return trimmed;

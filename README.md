@@ -19,8 +19,8 @@ Default branding and content now match your latest request:
 - Issuer website: `https://csun.edu`
 - Support email: `career.center@csun.edu`
 - Accent color: `#d22030`
-- Admin password: set `ADMIN_PASSWORD` in your environment (Render → Environment) to a strong random value of at least 12 characters. The app will refuse to start if it's missing or too short.
-- Public directory password: set `PUBLIC_PASSWORD` in your environment to a strong random value of at least 12 characters.
+- Admin password: set `ADMIN_PASSWORD` in your environment (Render → Environment). The app will refuse to start if it's missing.
+- Public directory password: set `PUBLIC_PASSWORD` in your environment (Render → Environment). The app will refuse to start if it's missing.
 
 ## What the app does
 
@@ -169,7 +169,7 @@ PUBLIC_PASSWORD=replace-with-different-strong-random-value
 PORT=8787
 ```
 
-Both passwords must be at least 12 characters; the server refuses to start if either is missing or too short.
+The server refuses to start if either password is missing.
 
 ## Important after Render gives you a live URL
 
