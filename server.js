@@ -227,14 +227,139 @@ async function initializeApp() {
 }
 
 const PORT = Number(process.env.PORT || 8787);
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'spider#5';
-const PUBLIC_PASSWORD = process.env.PUBLIC_PASSWORD || ADMIN_PASSWORD;
+
+const MIN_PASSWORD_LENGTH = 12;
+const SESSION_TTL_MS = 12 * 60 * 60 * 1000;
+const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
+const RATE_LIMIT_MAX_FAILS = 5;
+const RATE_LIMIT_LOCK_MS = 15 * 60 * 1000;
+const COOKIE_SECURE_FLAG =
+  String(process.env.COOKIE_SECURE || '').toLowerCase() === 'true' ||
+  String(process.env.NODE_ENV || '').toLowerCase() === 'production';
+
+function fatalConfigError(message) {
+  console.error(`FATAL: ${message}`);
+  try {
+    appendAppErrorLog({
+      severity: 'critical',
+      source: 'startup_config',
+      message,
+      stack: ''
+    });
+  } catch {}
+  process.exit(1);
+}
+
+function readRequiredPassword(varName) {
+  const raw = String(process.env[varName] || '');
+  const trimmed = raw.trim();
+  if (!trimmed) {
+    fatalConfigError(
+      `${varName} is not set. Configure it in your environment (Render → Environment) with a strong random value of at least ${MIN_PASSWORD_LENGTH} characters before starting the app.`
+    );
+  }
+  if (trimmed.length < MIN_PASSWORD_LENGTH) {
+    fatalConfigError(
+      `${varName} is too short. Use a strong random value of at least ${MIN_PASSWORD_LENGTH} characters.`
+    );
+  }
+  return trimmed;
+}
+
+const ADMIN_PASSWORD = readRequiredPassword('ADMIN_PASSWORD');
+const PUBLIC_PASSWORD = readRequiredPassword('PUBLIC_PASSWORD');
+
 const sessions = new Map();
 const publicSessions = new Map();
 
+function safeEquals(a, b) {
+  const bufA = Buffer.from(String(a || ''), 'utf8');
+  const bufB = Buffer.from(String(b || ''), 'utf8');
+  if (bufA.length !== bufB.length) {
+    const padLen = Math.max(bufA.length, bufB.length, 1);
+    const padA = Buffer.alloc(padLen);
+    const padB = Buffer.alloc(padLen);
+    bufA.copy(padA);
+    bufB.copy(padB);
+    crypto.timingSafeEqual(padA, padB);
+    return false;
+  }
+  return crypto.timingSafeEqual(bufA, bufB);
+}
+
+function getClientIp(request) {
+  const forwarded = String((request.headers && request.headers['x-forwarded-for']) || '').trim();
+  if (forwarded) {
+    const first = forwarded.split(',')[0].trim();
+    if (first) {
+      return first;
+    }
+  }
+  return String((request.socket && request.socket.remoteAddress) || '').trim() || 'unknown';
+}
+
+const loginAttemptTracker = new Map();
+
+function getRateLimitState(ip) {
+  const now = Date.now();
+  const entry = loginAttemptTracker.get(ip);
+  if (!entry) {
+    return { locked: false, retryAfterSec: 0 };
+  }
+  if (entry.blockedUntil && entry.blockedUntil > now) {
+    return {
+      locked: true,
+      retryAfterSec: Math.max(1, Math.ceil((entry.blockedUntil - now) / 1000))
+    };
+  }
+  if (entry.windowStart && now - entry.windowStart > RATE_LIMIT_WINDOW_MS) {
+    loginAttemptTracker.delete(ip);
+  }
+  return { locked: false, retryAfterSec: 0 };
+}
+
+function recordLoginFailure(ip) {
+  const now = Date.now();
+  const existing = loginAttemptTracker.get(ip);
+  if (!existing || (existing.windowStart && now - existing.windowStart > RATE_LIMIT_WINDOW_MS)) {
+    loginAttemptTracker.set(ip, { fails: 1, windowStart: now, blockedUntil: 0 });
+    return;
+  }
+  existing.fails = (existing.fails || 0) + 1;
+  if (existing.fails >= RATE_LIMIT_MAX_FAILS) {
+    existing.blockedUntil = now + RATE_LIMIT_LOCK_MS;
+  }
+  loginAttemptTracker.set(ip, existing);
+}
+
+function clearLoginFailures(ip) {
+  loginAttemptTracker.delete(ip);
+}
+
+function buildSessionCookie(name, sessionId, options = {}) {
+  const sameSite = options.sameSite || 'Strict';
+  const maxAge = options.maxAge != null ? options.maxAge : Math.floor(SESSION_TTL_MS / 1000);
+  const parts = [
+    `${name}=${encodeURIComponent(sessionId)}`,
+    'HttpOnly',
+    'Path=/',
+    `SameSite=${sameSite}`,
+    `Max-Age=${maxAge}`
+  ];
+  if (COOKIE_SECURE_FLAG) {
+    parts.push('Secure');
+  }
+  return parts.join('; ');
+}
+
+function buildClearedCookie(name, options = {}) {
+  return buildSessionCookie(name, '', { ...options, maxAge: 0 });
+}
+
 function createSession(sessionStore = sessions) {
   const sessionId = crypto.randomUUID();
-  sessionStore.set(sessionId, { createdAt: Date.now() });
+  const now = Date.now();
+  sessionStore.set(sessionId, { createdAt: now, expiresAt: now + SESSION_TTL_MS });
   return sessionId;
 }
 
@@ -253,9 +378,20 @@ function getSessionId(request) {
   return cookies.badge_admin_session || '';
 }
 
+function isSessionLive(store, sessionId) {
+  if (!sessionId || !store.has(sessionId)) {
+    return false;
+  }
+  const entry = store.get(sessionId);
+  if (!entry || (entry.expiresAt && entry.expiresAt <= Date.now())) {
+    store.delete(sessionId);
+    return false;
+  }
+  return true;
+}
+
 function isAuthenticated(request) {
-  const sessionId = getSessionId(request);
-  return Boolean(sessionId && sessions.has(sessionId));
+  return isSessionLive(sessions, getSessionId(request));
 }
 
 function isPublicAuthenticated(request) {
@@ -263,7 +399,7 @@ function isPublicAuthenticated(request) {
     return true;
   }
   const sessionId = parseCookies(request).badge_public_session || '';
-  return Boolean(sessionId && publicSessions.has(sessionId));
+  return isSessionLive(publicSessions, sessionId);
 }
 
 function clearSession(request) {
@@ -1463,15 +1599,33 @@ async function handleAdminRequest(request, response, urlObject) {
   }
 
   if (request.method === 'POST' && urlObject.pathname === '/admin/login') {
+    const ip = getClientIp(request);
+    const limit = getRateLimitState(ip);
+    if (limit.locked) {
+      const minutes = Math.ceil(limit.retryAfterSec / 60);
+      response.writeHead(429, {
+        'Content-Type': 'text/html; charset=utf-8',
+        'Retry-After': String(limit.retryAfterSec)
+      });
+      response.end(
+        renderLoginPage(`Too many failed attempts. Try again in ${minutes} minute${minutes === 1 ? '' : 's'}.`)
+      );
+      return;
+    }
     const formData = await parseBody(request);
     const password = cleanText(formData.password);
-    if (password === ADMIN_PASSWORD) {
+    if (password && safeEquals(password, ADMIN_PASSWORD)) {
+      clearLoginFailures(ip);
       const sessionId = createSession();
       redirect(response, '/admin', {
-        'Set-Cookie': `badge_admin_session=${encodeURIComponent(sessionId)}; HttpOnly; Path=/; SameSite=Lax`
+        'Set-Cookie': buildSessionCookie('badge_admin_session', sessionId, { sameSite: 'Strict' })
       });
       return;
     }
+    recordLoginFailure(ip);
+    try {
+      appendAuditLog({ action: 'auth.fail', actor: 'anonymous', path: urlObject.pathname, ip });
+    } catch {}
     sendHtml(response, renderLoginPage('Incorrect password.'), 401);
     return;
   }
@@ -1479,7 +1633,7 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/logout') {
     clearSession(request);
     redirect(response, '/admin/login', {
-      'Set-Cookie': 'badge_admin_session=; HttpOnly; Path=/; Max-Age=0; SameSite=Lax'
+      'Set-Cookie': buildClearedCookie('badge_admin_session', { sameSite: 'Strict' })
     });
     return;
   }
@@ -2044,15 +2198,37 @@ async function requestListener(request, response) {
     }
 
     if (request.method === 'POST' && urlObject.pathname === '/access') {
+      const ip = getClientIp(request);
+      const limit = getRateLimitState(ip);
       const formData = await parseBody(request);
       const nextPath = getSafeNextPath(formData.next);
-      if (cleanText(formData.password) === PUBLIC_PASSWORD) {
+      if (limit.locked) {
+        const minutes = Math.ceil(limit.retryAfterSec / 60);
+        response.writeHead(429, {
+          'Content-Type': 'text/html; charset=utf-8',
+          'Retry-After': String(limit.retryAfterSec)
+        });
+        response.end(
+          renderPublicAccessPage(
+            nextPath,
+            `Too many failed attempts. Try again in ${minutes} minute${minutes === 1 ? '' : 's'}.`
+          )
+        );
+        return;
+      }
+      const password = cleanText(formData.password);
+      if (password && safeEquals(password, PUBLIC_PASSWORD)) {
+        clearLoginFailures(ip);
         const sessionId = createSession(publicSessions);
         redirect(response, nextPath, {
-          'Set-Cookie': `badge_public_session=${encodeURIComponent(sessionId)}; HttpOnly; Path=/; SameSite=Lax`
+          'Set-Cookie': buildSessionCookie('badge_public_session', sessionId, { sameSite: 'Lax' })
         });
         return;
       }
+      recordLoginFailure(ip);
+      try {
+        appendAuditLog({ action: 'auth.fail', actor: 'anonymous', path: urlObject.pathname, ip });
+      } catch {}
       sendHtml(response, renderPublicAccessPage(nextPath, 'Incorrect password.'), 401);
       return;
     }

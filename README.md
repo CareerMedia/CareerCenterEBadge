@@ -19,8 +19,8 @@ Default branding and content now match your latest request:
 - Issuer website: `https://csun.edu`
 - Support email: `career.center@csun.edu`
 - Accent color: `#d22030`
-- Admin password: `spider#5`
-- Public directory password: `spider#5`
+- Admin password: set `ADMIN_PASSWORD` in your environment (Render → Environment) to a strong random value of at least 12 characters. The app will refuse to start if it's missing or too short.
+- Public directory password: set `PUBLIC_PASSWORD` in your environment to a strong random value of at least 12 characters.
 
 ## What the app does
 
@@ -82,13 +82,7 @@ Paths:
 /registry/
 ```
 
-These are protected with the password:
-
-```text
-spider#5
-```
-
-The same password also protects the searchable registry data feed routes used by the home page and registry.
+These are protected with the password configured via the `PUBLIC_PASSWORD` environment variable (Render → Environment). The same password also protects the searchable registry data feed routes used by the home page and registry.
 
 ### 4. Admin dashboard
 Path:
@@ -97,11 +91,7 @@ Path:
 /admin/login
 ```
 
-The admin dashboard is password-only and uses:
-
-```text
-spider#5
-```
+The admin dashboard is password-only and uses the value configured via the `ADMIN_PASSWORD` environment variable (Render → Environment). The literal value is never stored in the repo.
 
 From admin you can:
 - issue badges manually
@@ -171,13 +161,15 @@ http://localhost:8787/
 
 ## Environment file
 
-`.env.example` already matches the current password setup:
+In production set the passwords directly in Render → Environment. For local development you can use a `.env` file (do not commit it) with values like:
 
 ```text
-ADMIN_PASSWORD=spider#5
-PUBLIC_PASSWORD=spider#5
+ADMIN_PASSWORD=replace-with-strong-random-value
+PUBLIC_PASSWORD=replace-with-different-strong-random-value
 PORT=8787
 ```
+
+Both passwords must be at least 12 characters; the server refuses to start if either is missing or too short.
 
 ## Important after Render gives you a live URL
 
