@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-11T05:47:11.429Z",
+  "updatedAt": "2026-05-11T06:03:03.338Z",
   "totals": {
     "badgesIssued": 35,
     "badgeViews": 87,
     "certificateDownloads": 1,
-    "generatorOpens": 89,
+    "generatorOpens": 90,
     "generatorCompletions": 23,
-    "conversionRate": 25.8,
-    "uniqueVisitorsApprox": 41
+    "conversionRate": 25.6,
+    "uniqueVisitorsApprox": 42
   },
   "months": [
     {
@@ -28,10 +28,10 @@
       "badgesIssued": 16,
       "badgeViews": 24,
       "certificateDownloads": 0,
-      "generatorOpens": 41,
+      "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 17,
-      "conversionRate": 31.7
+      "uniqueVisitorsApprox": 18,
+      "conversionRate": 31
     }
   ],
   "years": [
@@ -41,10 +41,10 @@
       "badgesIssued": 35,
       "badgeViews": 87,
       "certificateDownloads": 1,
-      "generatorOpens": 89,
+      "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 41,
-      "conversionRate": 25.8
+      "uniqueVisitorsApprox": 42,
+      "conversionRate": 25.6
     }
   ],
   "badgeTypes": [
@@ -74,7 +74,7 @@
       "badgesIssued": 0,
       "badgeViews": 0,
       "certificateDownloads": 0,
-      "generatorOpens": 37,
+      "generatorOpens": 38,
       "generatorCompletions": 0,
       "conversionRate": 0
     }
@@ -519,9 +519,9 @@
       "label": "General generator",
       "pageKind": "general",
       "templateId": "",
-      "opens": 37,
+      "opens": 38,
       "completions": 15,
-      "conversionRate": 40.5
+      "conversionRate": 39.5
     },
     {
       "key": "career-champion",
