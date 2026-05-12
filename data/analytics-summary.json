@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-12T21:27:01.570Z",
+  "updatedAt": "2026-05-12T21:35:57.099Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 122,
+    "badgeViews": 124,
     "certificateDownloads": 2,
     "generatorOpens": 90,
     "generatorCompletions": 23,
     "conversionRate": 25.6,
-    "uniqueVisitorsApprox": 72
+    "uniqueVisitorsApprox": 74
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 59,
+      "badgeViews": 61,
       "certificateDownloads": 1,
       "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 48,
+      "uniqueVisitorsApprox": 50,
       "conversionRate": 31
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 122,
+      "badgeViews": 124,
       "certificateDownloads": 2,
       "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 72,
+      "uniqueVisitorsApprox": 74,
       "conversionRate": 25.6
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 120,
+      "badgeViews": 122,
       "certificateDownloads": 2,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -367,6 +367,18 @@
       "badgeViews": 2,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-09T21:08:23.615Z"
+    },
+    {
+      "slug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
+      "badgeId": "CSUNCC-20260512-0010",
+      "awardeeName": "Joe Rodriguez",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/joe-rodriguez-career-champion-csuncc-20260512-0010/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-12T21:35:57.096Z"
     },
     {
       "slug": "natalie-howe-career-champion-csuncc-20260512-0017",
@@ -705,18 +717,6 @@
       "latestViewedAt": ""
     },
     {
-      "slug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
-      "badgeId": "CSUNCC-20260512-0010",
-      "awardeeName": "Joe Rodriguez",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/joe-rodriguez-career-champion-csuncc-20260512-0010/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
-    },
-    {
       "slug": "julieta-garcia-career-champion-csuncc-20260512-0011",
       "badgeId": "CSUNCC-20260512-0011",
       "awardeeName": "Julieta Garcia",
@@ -928,6 +928,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Joe Rodriguez",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Natalie Howe",
       "badgesIssued": 1,
       "badgeViews": 2,
@@ -1007,12 +1013,6 @@
     },
     {
       "awardeeName": "Jessica Davis",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Joe Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
