@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-12T20:27:15.590Z",
+  "updatedAt": "2026-05-12T21:26:08.511Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 120,
+    "badgeViews": 121,
     "certificateDownloads": 1,
     "generatorOpens": 90,
     "generatorCompletions": 23,
     "conversionRate": 25.6,
-    "uniqueVisitorsApprox": 70
+    "uniqueVisitorsApprox": 71
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 57,
+      "badgeViews": 58,
       "certificateDownloads": 0,
       "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 46,
+      "uniqueVisitorsApprox": 47,
       "conversionRate": 31
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 120,
+      "badgeViews": 121,
       "certificateDownloads": 1,
       "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 70,
+      "uniqueVisitorsApprox": 71,
       "conversionRate": 25.6
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 118,
+      "badgeViews": 119,
       "certificateDownloads": 1,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -453,6 +453,18 @@
       "latestViewedAt": "2026-05-05T18:35:35.060Z"
     },
     {
+      "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
+      "badgeId": "CSUNCC-20260512-0002",
+      "awardeeName": "Cara Nissen",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/cara-nissen-career-champion-csuncc-20260512-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-12T21:26:08.503Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -639,18 +651,6 @@
       "badgeTitle": "Career Champion",
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
-    },
-    {
-      "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
-      "badgeId": "CSUNCC-20260512-0002",
-      "awardeeName": "Cara Nissen",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/cara-nissen-career-champion-csuncc-20260512-0002/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0,
@@ -964,6 +964,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Cara Nissen",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Harsh Ahir",
       "badgesIssued": 1,
       "badgeViews": 0,
@@ -977,12 +983,6 @@
     },
     {
       "awardeeName": "Amarilis Rivas",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Cara Nissen",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
