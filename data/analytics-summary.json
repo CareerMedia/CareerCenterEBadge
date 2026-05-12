@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-12T19:03:06.299Z",
+  "updatedAt": "2026-05-12T19:03:22.105Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 114,
+    "badgeViews": 115,
     "certificateDownloads": 1,
     "generatorOpens": 90,
     "generatorCompletions": 23,
     "conversionRate": 25.6,
-    "uniqueVisitorsApprox": 65
+    "uniqueVisitorsApprox": 66
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 51,
+      "badgeViews": 52,
       "certificateDownloads": 0,
       "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 41,
+      "uniqueVisitorsApprox": 42,
       "conversionRate": 31
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 114,
+      "badgeViews": 115,
       "certificateDownloads": 1,
       "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 65,
+      "uniqueVisitorsApprox": 66,
       "conversionRate": 25.6
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 112,
+      "badgeViews": 113,
       "certificateDownloads": 1,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -357,6 +357,18 @@
       "latestViewedAt": "2026-05-12T18:16:37.302Z"
     },
     {
+      "slug": "porscha-chambers-career-champion-csuncc-20260512-0020",
+      "badgeId": "CSUNCC-20260512-0020",
+      "awardeeName": "Porscha Chambers",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/porscha-chambers-career-champion-csuncc-20260512-0020/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-12T19:03:22.102Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -427,18 +439,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-05T18:35:35.060Z"
-    },
-    {
-      "slug": "porscha-chambers-career-champion-csuncc-20260512-0020",
-      "badgeId": "CSUNCC-20260512-0020",
-      "awardeeName": "Porscha Chambers",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/porscha-chambers-career-champion-csuncc-20260512-0020/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-12T19:03:06.296Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -922,6 +922,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Porscha Chambers",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -947,12 +953,6 @@
     },
     {
       "awardeeName": "Briana Nueva Fuente",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Porscha Chambers",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
