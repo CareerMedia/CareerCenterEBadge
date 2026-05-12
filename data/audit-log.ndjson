@@ -119,3 +119,30 @@
 {"timestamp":"2026-05-05T22:19:02.597Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260505-0005","backupId":"2026-05-05T22-19-02-592Z","createdAt":"2026-05-05T22:19:02.594Z"}
 {"timestamp":"2026-05-05T22:19:29.097Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260505-0006","awardeeName":"Bryce Simon"}
 {"timestamp":"2026-05-05T22:19:29.295Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260505-0006","backupId":"2026-05-05T22-19-29-292Z","createdAt":"2026-05-05T22:19:29.293Z"}
+{"timestamp":"2026-05-12T17:59:43.712Z","action":"bulk.issue.validate","actor":"admin","jobId":"bulk-1778608783695","totalRows":24,"badgeTemplateId":"career-champion"}
+{"timestamp":"2026-05-12T18:00:13.154Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0001","awardeeName":"Amarilis Rivas"}
+{"timestamp":"2026-05-12T18:00:13.749Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0002","awardeeName":"Cara Nissen"}
+{"timestamp":"2026-05-12T18:00:14.249Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0003","awardeeName":"Cristina Bernstein"}
+{"timestamp":"2026-05-12T18:00:14.751Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0004","awardeeName":"Emalie Mendoza"}
+{"timestamp":"2026-05-12T18:00:15.255Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0005","awardeeName":"Ernesto Cruz"}
+{"timestamp":"2026-05-12T18:00:15.762Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0006","awardeeName":"Jackie Perez"}
+{"timestamp":"2026-05-12T18:00:16.255Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0007","awardeeName":"Jamie Ramirez"}
+{"timestamp":"2026-05-12T18:00:16.853Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0008","awardeeName":"Jennifer Sandoval"}
+{"timestamp":"2026-05-12T18:00:17.355Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0009","awardeeName":"Jessica Davis"}
+{"timestamp":"2026-05-12T18:00:17.954Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0010","awardeeName":"Joe Rodriguez"}
+{"timestamp":"2026-05-12T18:00:18.453Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0011","awardeeName":"Julieta Garcia"}
+{"timestamp":"2026-05-12T18:00:19.056Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0012","awardeeName":"Keila Medina"}
+{"timestamp":"2026-05-12T18:00:19.651Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0013","awardeeName":"Leslie Rodriguez"}
+{"timestamp":"2026-05-12T18:00:20.163Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0014","awardeeName":"Melva Ramirez"}
+{"timestamp":"2026-05-12T18:00:20.856Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0015","awardeeName":"Miguel Hernandez"}
+{"timestamp":"2026-05-12T18:00:21.460Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0016","awardeeName":"Nalleli Figueroa"}
+{"timestamp":"2026-05-12T18:00:22.051Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0017","awardeeName":"Natalie Howe"}
+{"timestamp":"2026-05-12T18:00:22.651Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0018","awardeeName":"Odette Arman"}
+{"timestamp":"2026-05-12T18:00:23.250Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0019","awardeeName":"Patricia Garcia-Ramirez"}
+{"timestamp":"2026-05-12T18:00:23.656Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0020","awardeeName":"Porscha Chambers"}
+{"timestamp":"2026-05-12T18:00:24.261Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0021","awardeeName":"Sarah Le Long"}
+{"timestamp":"2026-05-12T18:00:24.858Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0022","awardeeName":"Stephanie Castro"}
+{"timestamp":"2026-05-12T18:00:25.452Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0023","awardeeName":"Stephanie Colman"}
+{"timestamp":"2026-05-12T18:00:26.053Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260512-0024","awardeeName":"Valerie Ipatzi"}
+{"timestamp":"2026-05-12T18:00:26.155Z","action":"bulk.issue.start","actor":"admin","jobId":"bulk-1778608783695","totalRows":24,"completedRows":24,"failedRows":0,"badgeTemplateId":"career-champion"}
+{"timestamp":"2026-05-12T18:00:26.355Z","action":"backup.snapshot","actor":"admin","reason":"Bulk issued 24 badges (bulk-1778608783695)","backupId":"2026-05-12T18-00-26-348Z","createdAt":"2026-05-12T18:00:26.351Z"}

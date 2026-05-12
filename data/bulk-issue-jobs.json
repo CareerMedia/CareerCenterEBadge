@@ -1,5 +1,361 @@
 [
   {
+    "id": "bulk-1778608783695",
+    "status": "completed",
+    "createdAt": "2026-05-12T17:59:43.695Z",
+    "startedAt": "2026-05-12T18:00:12.498Z",
+    "finishedAt": "2026-05-12T18:00:26.089Z",
+    "badgeTemplateId": "career-champion",
+    "badgeTemplateTitle": "Career Champion",
+    "issueDateMode": "today",
+    "totalRows": 24,
+    "processedRows": 24,
+    "completedRows": 24,
+    "failedRows": 0,
+    "progressPercent": 100,
+    "rows": [
+      {
+        "rowNumber": 2,
+        "awardeeName": "Amarilis Rivas",
+        "awardeeEmail": "amarilis.rivas@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 3,
+        "awardeeName": "Cara Nissen",
+        "awardeeEmail": "cara.nissen@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 4,
+        "awardeeName": "Cristina Bernstein",
+        "awardeeEmail": "cristina.bernstein@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 5,
+        "awardeeName": "Emalie Mendoza",
+        "awardeeEmail": "emalie.mendoza@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 6,
+        "awardeeName": "Ernesto Cruz",
+        "awardeeEmail": "ernesto.cruz@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 7,
+        "awardeeName": "Jackie Perez",
+        "awardeeEmail": "jackie.perez@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 8,
+        "awardeeName": "Jamie Ramirez",
+        "awardeeEmail": "jamie.ramirez@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 9,
+        "awardeeName": "Jennifer Sandoval",
+        "awardeeEmail": "jennifer.sandoval@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 10,
+        "awardeeName": "Jessica Davis",
+        "awardeeEmail": "jessica.davis@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 11,
+        "awardeeName": "Joe Rodriguez",
+        "awardeeEmail": "joe.rodriguez@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 12,
+        "awardeeName": "Julieta Garcia",
+        "awardeeEmail": "julieta.garcia@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 13,
+        "awardeeName": "Keila Medina",
+        "awardeeEmail": "keila.medina@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 14,
+        "awardeeName": "Leslie Rodriguez",
+        "awardeeEmail": "leslie.reyes@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 15,
+        "awardeeName": "Melva Ramirez",
+        "awardeeEmail": "melva.ramirez@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 16,
+        "awardeeName": "Miguel Hernandez",
+        "awardeeEmail": "miguel.hernandez@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 17,
+        "awardeeName": "Nalleli Figueroa",
+        "awardeeEmail": "nalleli.figueroa@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 18,
+        "awardeeName": "Natalie Howe",
+        "awardeeEmail": "natalie.howe@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 19,
+        "awardeeName": "Odette Arman",
+        "awardeeEmail": "odette.arman@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 20,
+        "awardeeName": "Patricia Garcia-Ramirez",
+        "awardeeEmail": "patricia.garcia-ramirez@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 21,
+        "awardeeName": "Porscha Chambers",
+        "awardeeEmail": "porscha.chambers@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 22,
+        "awardeeName": "Sarah Le Long",
+        "awardeeEmail": "sarah.lelong@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 23,
+        "awardeeName": "Stephanie Castro",
+        "awardeeEmail": "stephanie.castro@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 24,
+        "awardeeName": "Stephanie Colman",
+        "awardeeEmail": "stephanie.colman@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      },
+      {
+        "rowNumber": 25,
+        "awardeeName": "Valerie Ipatzi",
+        "awardeeEmail": "valerie.ipatzi@csun.edu",
+        "issueDate": "May 12, 2026",
+        "issueDateRaw": "12/4/2025",
+        "errors": []
+      }
+    ],
+    "results": [
+      {
+        "rowNumber": 2,
+        "awardeeName": "Amarilis Rivas",
+        "badgeId": "CSUNCC-20260512-0001",
+        "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/"
+      },
+      {
+        "rowNumber": 3,
+        "awardeeName": "Cara Nissen",
+        "badgeId": "CSUNCC-20260512-0002",
+        "publicUrl": "https://careerbadge.csun.edu/badges/cara-nissen-career-champion-csuncc-20260512-0002/"
+      },
+      {
+        "rowNumber": 4,
+        "awardeeName": "Cristina Bernstein",
+        "badgeId": "CSUNCC-20260512-0003",
+        "publicUrl": "https://careerbadge.csun.edu/badges/cristina-bernstein-career-champion-csuncc-20260512-0003/"
+      },
+      {
+        "rowNumber": 5,
+        "awardeeName": "Emalie Mendoza",
+        "badgeId": "CSUNCC-20260512-0004",
+        "publicUrl": "https://careerbadge.csun.edu/badges/emalie-mendoza-career-champion-csuncc-20260512-0004/"
+      },
+      {
+        "rowNumber": 6,
+        "awardeeName": "Ernesto Cruz",
+        "badgeId": "CSUNCC-20260512-0005",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/"
+      },
+      {
+        "rowNumber": 7,
+        "awardeeName": "Jackie Perez",
+        "badgeId": "CSUNCC-20260512-0006",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jackie-perez-career-champion-csuncc-20260512-0006/"
+      },
+      {
+        "rowNumber": 8,
+        "awardeeName": "Jamie Ramirez",
+        "badgeId": "CSUNCC-20260512-0007",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jamie-ramirez-career-champion-csuncc-20260512-0007/"
+      },
+      {
+        "rowNumber": 9,
+        "awardeeName": "Jennifer Sandoval",
+        "badgeId": "CSUNCC-20260512-0008",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jennifer-sandoval-career-champion-csuncc-20260512-0008/"
+      },
+      {
+        "rowNumber": 10,
+        "awardeeName": "Jessica Davis",
+        "badgeId": "CSUNCC-20260512-0009",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jessica-davis-career-champion-csuncc-20260512-0009/"
+      },
+      {
+        "rowNumber": 11,
+        "awardeeName": "Joe Rodriguez",
+        "badgeId": "CSUNCC-20260512-0010",
+        "publicUrl": "https://careerbadge.csun.edu/badges/joe-rodriguez-career-champion-csuncc-20260512-0010/"
+      },
+      {
+        "rowNumber": 12,
+        "awardeeName": "Julieta Garcia",
+        "badgeId": "CSUNCC-20260512-0011",
+        "publicUrl": "https://careerbadge.csun.edu/badges/julieta-garcia-career-champion-csuncc-20260512-0011/"
+      },
+      {
+        "rowNumber": 13,
+        "awardeeName": "Keila Medina",
+        "badgeId": "CSUNCC-20260512-0012",
+        "publicUrl": "https://careerbadge.csun.edu/badges/keila-medina-career-champion-csuncc-20260512-0012/"
+      },
+      {
+        "rowNumber": 14,
+        "awardeeName": "Leslie Rodriguez",
+        "badgeId": "CSUNCC-20260512-0013",
+        "publicUrl": "https://careerbadge.csun.edu/badges/leslie-rodriguez-career-champion-csuncc-20260512-0013/"
+      },
+      {
+        "rowNumber": 15,
+        "awardeeName": "Melva Ramirez",
+        "badgeId": "CSUNCC-20260512-0014",
+        "publicUrl": "https://careerbadge.csun.edu/badges/melva-ramirez-career-champion-csuncc-20260512-0014/"
+      },
+      {
+        "rowNumber": 16,
+        "awardeeName": "Miguel Hernandez",
+        "badgeId": "CSUNCC-20260512-0015",
+        "publicUrl": "https://careerbadge.csun.edu/badges/miguel-hernandez-career-champion-csuncc-20260512-0015/"
+      },
+      {
+        "rowNumber": 17,
+        "awardeeName": "Nalleli Figueroa",
+        "badgeId": "CSUNCC-20260512-0016",
+        "publicUrl": "https://careerbadge.csun.edu/badges/nalleli-figueroa-career-champion-csuncc-20260512-0016/"
+      },
+      {
+        "rowNumber": 18,
+        "awardeeName": "Natalie Howe",
+        "badgeId": "CSUNCC-20260512-0017",
+        "publicUrl": "https://careerbadge.csun.edu/badges/natalie-howe-career-champion-csuncc-20260512-0017/"
+      },
+      {
+        "rowNumber": 19,
+        "awardeeName": "Odette Arman",
+        "badgeId": "CSUNCC-20260512-0018",
+        "publicUrl": "https://careerbadge.csun.edu/badges/odette-arman-career-champion-csuncc-20260512-0018/"
+      },
+      {
+        "rowNumber": 20,
+        "awardeeName": "Patricia Garcia-Ramirez",
+        "badgeId": "CSUNCC-20260512-0019",
+        "publicUrl": "https://careerbadge.csun.edu/badges/patricia-garcia-ramirez-career-champion-csuncc-20260512-0019/"
+      },
+      {
+        "rowNumber": 21,
+        "awardeeName": "Porscha Chambers",
+        "badgeId": "CSUNCC-20260512-0020",
+        "publicUrl": "https://careerbadge.csun.edu/badges/porscha-chambers-career-champion-csuncc-20260512-0020/"
+      },
+      {
+        "rowNumber": 22,
+        "awardeeName": "Sarah Le Long",
+        "badgeId": "CSUNCC-20260512-0021",
+        "publicUrl": "https://careerbadge.csun.edu/badges/sarah-le-long-career-champion-csuncc-20260512-0021/"
+      },
+      {
+        "rowNumber": 23,
+        "awardeeName": "Stephanie Castro",
+        "badgeId": "CSUNCC-20260512-0022",
+        "publicUrl": "https://careerbadge.csun.edu/badges/stephanie-castro-career-champion-csuncc-20260512-0022/"
+      },
+      {
+        "rowNumber": 24,
+        "awardeeName": "Stephanie Colman",
+        "badgeId": "CSUNCC-20260512-0023",
+        "publicUrl": "https://careerbadge.csun.edu/badges/stephanie-colman-career-champion-csuncc-20260512-0023/"
+      },
+      {
+        "rowNumber": 25,
+        "awardeeName": "Valerie Ipatzi",
+        "badgeId": "CSUNCC-20260512-0024",
+        "publicUrl": "https://careerbadge.csun.edu/badges/valerie-ipatzi-career-champion-csuncc-20260512-0024/"
+      }
+    ],
+    "errors": []
+  },
+  {
     "id": "bulk-1777921313111",
     "status": "completed",
     "createdAt": "2026-05-04T19:01:53.111Z",
