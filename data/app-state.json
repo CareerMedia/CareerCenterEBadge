@@ -11839,6 +11839,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "fe32f113-ff85-4a92-bd6d-caa73a620d36",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-12T22:09:50.051Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0002",
+      "badgeSlug": "cara-nissen-career-champion-csuncc-20260512-0002",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Cara Nissen",
+      "publicUrl": "https://careerbadge.csun.edu/badges/cara-nissen-career-champion-csuncc-20260512-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "017b9945fc7e5c963d921af2",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -12313,15 +12334,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-12T22:01:57.377Z",
+    "updatedAt": "2026-05-12T22:09:50.054Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 128,
+      "badgeViews": 129,
       "certificateDownloads": 2,
       "generatorOpens": 90,
       "generatorCompletions": 23,
       "conversionRate": 25.6,
-      "uniqueVisitorsApprox": 77
+      "uniqueVisitorsApprox": 78
     },
     "months": [
       {
@@ -12339,11 +12360,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 65,
+        "badgeViews": 66,
         "certificateDownloads": 1,
         "generatorOpens": 42,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 53,
+        "uniqueVisitorsApprox": 54,
         "conversionRate": 31
       }
     ],
@@ -12352,11 +12373,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 128,
+        "badgeViews": 129,
         "certificateDownloads": 2,
         "generatorOpens": 90,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 77,
+        "uniqueVisitorsApprox": 78,
         "conversionRate": 25.6
       }
     ],
@@ -12365,7 +12386,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 126,
+        "badgeViews": 127,
         "certificateDownloads": 2,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -12538,6 +12559,18 @@
         "latestViewedAt": "2026-05-12T18:50:39.937Z"
       },
       {
+        "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
+        "badgeId": "CSUNCC-20260512-0002",
+        "awardeeName": "Cara Nissen",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/cara-nissen-career-champion-csuncc-20260512-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-05-12T22:09:50.051Z"
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
         "badgeId": "CSUNCC-20260409-0003",
         "awardeeName": "Bryce Simon",
@@ -12644,18 +12677,6 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:23:15.496Z"
-      },
-      {
-        "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
-        "badgeId": "CSUNCC-20260512-0002",
-        "awardeeName": "Cara Nissen",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/cara-nissen-career-champion-csuncc-20260512-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-05-12T21:26:19.344Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
@@ -13193,6 +13214,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Cara Nissen",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Jamie Ramirez",
         "badgesIssued": 1,
         "badgeViews": 4,
@@ -13203,12 +13230,6 @@
         "badgesIssued": 1,
         "badgeViews": 4,
         "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Cara Nissen",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Ernesto Cruz",
