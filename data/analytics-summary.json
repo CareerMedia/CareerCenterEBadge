@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-12T18:04:48.044Z",
+  "updatedAt": "2026-05-12T18:05:10.776Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 88,
+    "badgeViews": 90,
     "certificateDownloads": 1,
     "generatorOpens": 90,
     "generatorCompletions": 23,
     "conversionRate": 25.6,
-    "uniqueVisitorsApprox": 43
+    "uniqueVisitorsApprox": 45
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 25,
+      "badgeViews": 27,
       "certificateDownloads": 0,
       "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 19,
+      "uniqueVisitorsApprox": 21,
       "conversionRate": 31
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 88,
+      "badgeViews": 90,
       "certificateDownloads": 1,
       "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 43,
+      "uniqueVisitorsApprox": 45,
       "conversionRate": 25.6
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 86,
+      "badgeViews": 88,
       "certificateDownloads": 1,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -225,6 +225,18 @@
       "latestViewedAt": "2026-05-04T05:37:08.242Z"
     },
     {
+      "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
+      "badgeId": "CSUNCC-20260512-0013",
+      "awardeeName": "Leslie Rodriguez",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/leslie-rodriguez-career-champion-csuncc-20260512-0013/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-12T18:05:10.773Z"
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
       "badgeId": "CSUNCC-20260504-0005",
       "awardeeName": "Bryce Simon",
@@ -331,18 +343,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-05T18:35:35.060Z"
-    },
-    {
-      "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
-      "badgeId": "CSUNCC-20260512-0013",
-      "awardeeName": "Leslie Rodriguez",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/leslie-rodriguez-career-champion-csuncc-20260512-0013/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-12T18:04:48.041Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -868,6 +868,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Leslie Rodriguez",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Jane Doe",
       "badgesIssued": 1,
       "badgeViews": 2,
@@ -899,12 +905,6 @@
     },
     {
       "awardeeName": "Briana Nueva Fuente",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Leslie Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
