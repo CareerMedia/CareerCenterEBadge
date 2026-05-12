@@ -11125,6 +11125,90 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "4c795619-72f9-4825-8531-c7b934eb228c",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-12T18:22:31.661Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260422-0003",
+      "badgeSlug": "hector-carrillo-career-champion-csuncc-20260422-0003",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Hector Carrillo",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "38de54040ec9ec3900798c0e",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "3d54970c-3d6c-47f6-8464-f4b4ff814552",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-12T18:22:58.518Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0023",
+      "badgeSlug": "stephanie-colman-career-champion-csuncc-20260512-0023",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Stephanie Colman",
+      "publicUrl": "https://careerbadge.csun.edu/badges/stephanie-colman-career-champion-csuncc-20260512-0023/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "c594f28408d80ed159423b88",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "3bc53805-6e0b-495b-b4b8-310837b18670",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-12T18:23:09.248Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0023",
+      "badgeSlug": "stephanie-colman-career-champion-csuncc-20260512-0023",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Stephanie Colman",
+      "publicUrl": "https://careerbadge.csun.edu/badges/stephanie-colman-career-champion-csuncc-20260512-0023/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "5608942643953e5cd74db5e6",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "2fde965d-5915-47e1-b532-6015608847d1",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-12T18:23:15.496Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0023",
+      "badgeSlug": "stephanie-colman-career-champion-csuncc-20260512-0023",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Stephanie Colman",
+      "publicUrl": "https://careerbadge.csun.edu/badges/stephanie-colman-career-champion-csuncc-20260512-0023/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "616ea528d3efd8b329c6e34c",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -11599,15 +11683,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-12T18:16:37.306Z",
+    "updatedAt": "2026-05-12T18:23:15.498Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 95,
+      "badgeViews": 99,
       "certificateDownloads": 1,
       "generatorOpens": 90,
       "generatorCompletions": 23,
       "conversionRate": 25.6,
-      "uniqueVisitorsApprox": 50
+      "uniqueVisitorsApprox": 54
     },
     "months": [
       {
@@ -11625,11 +11709,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 32,
+        "badgeViews": 36,
         "certificateDownloads": 0,
         "generatorOpens": 42,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 26,
+        "uniqueVisitorsApprox": 30,
         "conversionRate": 31
       }
     ],
@@ -11638,11 +11722,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 95,
+        "badgeViews": 99,
         "certificateDownloads": 1,
         "generatorOpens": 90,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 50,
+        "uniqueVisitorsApprox": 54,
         "conversionRate": 25.6
       }
     ],
@@ -11651,7 +11735,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 93,
+        "badgeViews": 97,
         "certificateDownloads": 1,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -11699,9 +11783,9 @@
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
         "badgesIssued": 1,
-        "badgeViews": 10,
+        "badgeViews": 11,
         "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-06T17:17:19.738Z"
+        "latestViewedAt": "2026-05-12T18:22:31.661Z"
       },
       {
         "slug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
@@ -11846,6 +11930,18 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:05:10.773Z"
+      },
+      {
+        "slug": "stephanie-colman-career-champion-csuncc-20260512-0023",
+        "badgeId": "CSUNCC-20260512-0023",
+        "awardeeName": "Stephanie Colman",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/stephanie-colman-career-champion-csuncc-20260512-0023/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-12T18:23:15.496Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
@@ -12376,18 +12472,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "stephanie-colman-career-champion-csuncc-20260512-0023",
-        "badgeId": "CSUNCC-20260512-0023",
-        "awardeeName": "Stephanie Colman",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/stephanie-colman-career-champion-csuncc-20260512-0023/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "valerie-ipatzi-career-champion-csuncc-20260512-0024",
         "badgeId": "CSUNCC-20260512-0024",
         "awardeeName": "Valerie Ipatzi",
@@ -12443,16 +12527,16 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Hector Carrillo",
+        "badgesIssued": 1,
+        "badgeViews": 11,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Mikayla Agregado",
         "badgesIssued": 1,
         "badgeViews": 9,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Hector Carrillo",
-        "badgesIssued": 1,
-        "badgeViews": 10,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Brianna Fuente",
@@ -12474,6 +12558,12 @@
       },
       {
         "awardeeName": "Leslie Rodriguez",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Stephanie Colman",
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 0
@@ -12642,12 +12732,6 @@
       },
       {
         "awardeeName": "Stephanie Castro",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Stephanie Colman",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
