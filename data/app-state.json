@@ -11209,6 +11209,90 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "3b18ce50-f1e6-4cd2-afe0-36b89ef099dc",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-12T18:28:20.249Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0007",
+      "badgeSlug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Jamie Ramirez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jamie-ramirez-career-champion-csuncc-20260512-0007/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "d95d7e76009b97986d74a530",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "b8416d26-10b9-41ca-b596-bf208ea2e134",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-12T18:28:46.336Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0007",
+      "badgeSlug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Jamie Ramirez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jamie-ramirez-career-champion-csuncc-20260512-0007/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "241f4e4dda3ec14a649e0016",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "0b034fd1-ba69-4bee-8a86-e577eeced233",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-12T18:28:52.317Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0007",
+      "badgeSlug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Jamie Ramirez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jamie-ramirez-career-champion-csuncc-20260512-0007/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "b646638832e34a5a9cc07292",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "4406b155-93a7-4996-81e1-c8e620639349",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-12T18:29:24.776Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0007",
+      "badgeSlug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Jamie Ramirez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jamie-ramirez-career-champion-csuncc-20260512-0007/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "d95d7e76009b97986d74a530",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -11683,15 +11767,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-12T18:23:15.498Z",
+    "updatedAt": "2026-05-12T18:29:24.780Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 99,
+      "badgeViews": 103,
       "certificateDownloads": 1,
       "generatorOpens": 90,
       "generatorCompletions": 23,
       "conversionRate": 25.6,
-      "uniqueVisitorsApprox": 54
+      "uniqueVisitorsApprox": 57
     },
     "months": [
       {
@@ -11709,11 +11793,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 36,
+        "badgeViews": 40,
         "certificateDownloads": 0,
         "generatorOpens": 42,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 30,
+        "uniqueVisitorsApprox": 33,
         "conversionRate": 31
       }
     ],
@@ -11722,11 +11806,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 99,
+        "badgeViews": 103,
         "certificateDownloads": 1,
         "generatorOpens": 90,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 54,
+        "uniqueVisitorsApprox": 57,
         "conversionRate": 25.6
       }
     ],
@@ -11735,7 +11819,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 97,
+        "badgeViews": 101,
         "certificateDownloads": 1,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -11858,6 +11942,18 @@
         "badgeViews": 4,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-04T15:43:24.083Z"
+      },
+      {
+        "slug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
+        "badgeId": "CSUNCC-20260512-0007",
+        "awardeeName": "Jamie Ramirez",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jamie-ramirez-career-champion-csuncc-20260512-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-12T18:29:24.776Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
@@ -12304,18 +12400,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
-        "badgeId": "CSUNCC-20260512-0007",
-        "awardeeName": "Jamie Ramirez",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jamie-ramirez-career-champion-csuncc-20260512-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "jennifer-sandoval-career-champion-csuncc-20260512-0008",
         "badgeId": "CSUNCC-20260512-0008",
         "awardeeName": "Jennifer Sandoval",
@@ -12551,6 +12635,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Jamie Ramirez",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Ernesto Cruz",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -12648,12 +12738,6 @@
       },
       {
         "awardeeName": "Jackie Perez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Jamie Ramirez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
