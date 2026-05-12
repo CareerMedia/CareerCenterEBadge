@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-12T18:37:32.228Z",
+  "updatedAt": "2026-05-12T18:40:31.226Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 106,
+    "badgeViews": 109,
     "certificateDownloads": 1,
     "generatorOpens": 90,
     "generatorCompletions": 23,
     "conversionRate": 25.6,
-    "uniqueVisitorsApprox": 59
+    "uniqueVisitorsApprox": 62
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 43,
+      "badgeViews": 46,
       "certificateDownloads": 0,
       "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 35,
+      "uniqueVisitorsApprox": 38,
       "conversionRate": 31
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 106,
+      "badgeViews": 109,
       "certificateDownloads": 1,
       "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 59,
+      "uniqueVisitorsApprox": 62,
       "conversionRate": 25.6
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 104,
+      "badgeViews": 107,
       "certificateDownloads": 1,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -247,6 +247,18 @@
       "badgeViews": 3,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:14:58.573Z"
+    },
+    {
+      "slug": "jennifer-sandoval-career-champion-csuncc-20260512-0008",
+      "badgeId": "CSUNCC-20260512-0008",
+      "awardeeName": "Jennifer Sandoval",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jennifer-sandoval-career-champion-csuncc-20260512-0008/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-12T18:40:31.223Z"
     },
     {
       "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
@@ -645,18 +657,6 @@
       "latestViewedAt": ""
     },
     {
-      "slug": "jennifer-sandoval-career-champion-csuncc-20260512-0008",
-      "badgeId": "CSUNCC-20260512-0008",
-      "awardeeName": "Jennifer Sandoval",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jennifer-sandoval-career-champion-csuncc-20260512-0008/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
-    },
-    {
       "slug": "jessica-davis-career-champion-csuncc-20260512-0009",
       "badgeId": "CSUNCC-20260512-0009",
       "awardeeName": "Jessica Davis",
@@ -880,6 +880,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Jennifer Sandoval",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Leslie Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 3,
@@ -977,12 +983,6 @@
     },
     {
       "awardeeName": "Jackie Perez",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Jennifer Sandoval",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
