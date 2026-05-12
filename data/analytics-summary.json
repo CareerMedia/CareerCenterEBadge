@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-12T21:39:32.506Z",
+  "updatedAt": "2026-05-12T21:49:29.004Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 126,
+    "badgeViews": 127,
     "certificateDownloads": 2,
     "generatorOpens": 90,
     "generatorCompletions": 23,
     "conversionRate": 25.6,
-    "uniqueVisitorsApprox": 75
+    "uniqueVisitorsApprox": 76
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 63,
+      "badgeViews": 64,
       "certificateDownloads": 1,
       "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 51,
+      "uniqueVisitorsApprox": 52,
       "conversionRate": 31
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 126,
+      "badgeViews": 127,
       "certificateDownloads": 2,
       "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 75,
+      "uniqueVisitorsApprox": 76,
       "conversionRate": 25.6
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 124,
+      "badgeViews": 125,
       "certificateDownloads": 2,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -165,6 +165,18 @@
       "latestViewedAt": "2026-04-22T17:54:44.455Z"
     },
     {
+      "slug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
+      "badgeId": "CSUNCC-20260512-0010",
+      "awardeeName": "Joe Rodriguez",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/joe-rodriguez-career-champion-csuncc-20260512-0010/",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-12T21:49:28.998Z"
+    },
+    {
       "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
       "badgeId": "CSUNCC-20260512-0014",
       "awardeeName": "Melva Ramirez",
@@ -199,18 +211,6 @@
       "badgeViews": 4,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:29:24.776Z"
-    },
-    {
-      "slug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
-      "badgeId": "CSUNCC-20260512-0010",
-      "awardeeName": "Joe Rodriguez",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/joe-rodriguez-career-champion-csuncc-20260512-0010/",
-      "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-12T21:39:32.504Z"
     },
     {
       "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
@@ -862,6 +862,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Joe Rodriguez",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Melva Ramirez",
       "badgesIssued": 1,
       "badgeViews": 5,
@@ -875,12 +881,6 @@
     },
     {
       "awardeeName": "Jamie Ramirez",
-      "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Joe Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 4,
       "certificateDownloads": 0
