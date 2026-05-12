@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-12T18:29:24.780Z",
+  "updatedAt": "2026-05-12T18:36:49.968Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 103,
+    "badgeViews": 105,
     "certificateDownloads": 1,
     "generatorOpens": 90,
     "generatorCompletions": 23,
     "conversionRate": 25.6,
-    "uniqueVisitorsApprox": 57
+    "uniqueVisitorsApprox": 59
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 40,
+      "badgeViews": 42,
       "certificateDownloads": 0,
       "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 33,
+      "uniqueVisitorsApprox": 35,
       "conversionRate": 31
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 103,
+      "badgeViews": 105,
       "certificateDownloads": 1,
       "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 57,
+      "uniqueVisitorsApprox": 59,
       "conversionRate": 25.6
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 101,
+      "badgeViews": 103,
       "certificateDownloads": 1,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -319,6 +319,18 @@
       "badgeViews": 2,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:16:37.302Z"
+    },
+    {
+      "slug": "odette-arman-career-champion-csuncc-20260512-0018",
+      "badgeId": "CSUNCC-20260512-0018",
+      "awardeeName": "Odette Arman",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/odette-arman-career-champion-csuncc-20260512-0018/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-12T18:36:49.966Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -729,18 +741,6 @@
       "latestViewedAt": ""
     },
     {
-      "slug": "odette-arman-career-champion-csuncc-20260512-0018",
-      "badgeId": "CSUNCC-20260512-0018",
-      "awardeeName": "Odette Arman",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/odette-arman-career-champion-csuncc-20260512-0018/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
-    },
-    {
       "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
       "badgeId": "CSUNCC-20260512-0019",
       "awardeeName": "Patricia Garcia-Ramirez",
@@ -904,6 +904,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Odette Arman",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -1019,12 +1025,6 @@
     },
     {
       "awardeeName": "Nalleli Figueroa",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Odette Arman",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
