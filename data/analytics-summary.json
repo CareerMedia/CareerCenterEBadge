@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-12T18:14:58.577Z",
+  "updatedAt": "2026-05-12T18:16:37.306Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 93,
+    "badgeViews": 95,
     "certificateDownloads": 1,
     "generatorOpens": 90,
     "generatorCompletions": 23,
     "conversionRate": 25.6,
-    "uniqueVisitorsApprox": 48
+    "uniqueVisitorsApprox": 50
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 30,
+      "badgeViews": 32,
       "certificateDownloads": 0,
       "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 24,
+      "uniqueVisitorsApprox": 26,
       "conversionRate": 31
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 93,
+      "badgeViews": 95,
       "certificateDownloads": 1,
       "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 48,
+      "uniqueVisitorsApprox": 50,
       "conversionRate": 25.6
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 91,
+      "badgeViews": 93,
       "certificateDownloads": 1,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -283,6 +283,18 @@
       "badgeViews": 2,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-09T21:08:23.615Z"
+    },
+    {
+      "slug": "natalie-howe-career-champion-csuncc-20260512-0017",
+      "badgeId": "CSUNCC-20260512-0017",
+      "awardeeName": "Natalie Howe",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/natalie-howe-career-champion-csuncc-20260512-0017/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-12T18:16:37.302Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -705,18 +717,6 @@
       "latestViewedAt": ""
     },
     {
-      "slug": "natalie-howe-career-champion-csuncc-20260512-0017",
-      "badgeId": "CSUNCC-20260512-0017",
-      "awardeeName": "Natalie Howe",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/natalie-howe-career-champion-csuncc-20260512-0017/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
-    },
-    {
       "slug": "odette-arman-career-champion-csuncc-20260512-0018",
       "badgeId": "CSUNCC-20260512-0018",
       "awardeeName": "Odette Arman",
@@ -886,6 +886,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Natalie Howe",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -1007,12 +1013,6 @@
     },
     {
       "awardeeName": "Nalleli Figueroa",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Natalie Howe",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
