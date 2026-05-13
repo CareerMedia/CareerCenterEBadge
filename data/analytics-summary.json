@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-13T04:06:18.049Z",
+  "updatedAt": "2026-05-13T04:06:31.958Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 137,
+    "badgeViews": 138,
     "certificateDownloads": 2,
     "generatorOpens": 91,
     "generatorCompletions": 23,
     "conversionRate": 25.3,
-    "uniqueVisitorsApprox": 86
+    "uniqueVisitorsApprox": 87
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 74,
+      "badgeViews": 75,
       "certificateDownloads": 1,
       "generatorOpens": 43,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 62,
+      "uniqueVisitorsApprox": 63,
       "conversionRate": 30.2
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 137,
+      "badgeViews": 138,
       "certificateDownloads": 2,
       "generatorOpens": 91,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 86,
+      "uniqueVisitorsApprox": 87,
       "conversionRate": 25.3
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 135,
+      "badgeViews": 136,
       "certificateDownloads": 2,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -196,9 +196,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
       "badgesIssued": 1,
-      "badgeViews": 5,
+      "badgeViews": 6,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-13T04:06:18.046Z"
+      "latestViewedAt": "2026-05-13T04:06:31.955Z"
     },
     {
       "slug": "genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001",
@@ -876,7 +876,7 @@
     {
       "awardeeName": "Ernesto Cruz",
       "badgesIssued": 1,
-      "badgeViews": 5,
+      "badgeViews": 6,
       "certificateDownloads": 0
     },
     {

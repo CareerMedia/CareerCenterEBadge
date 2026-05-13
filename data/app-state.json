@@ -12028,6 +12028,48 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "3655ae61-7bdc-4050-9d3b-024af51563c8",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-13T04:06:18.046Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0005",
+      "badgeSlug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Ernesto Cruz",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "a5444e3fc146e05da0c67a8d",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "bcb0c80c-c41c-4808-ade6-174de7a8dd1c",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-13T04:06:31.955Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0005",
+      "badgeSlug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Ernesto Cruz",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "cf8e6769a3c9ada5d2502203",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -12502,15 +12544,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-13T04:06:13.708Z",
+    "updatedAt": "2026-05-13T04:06:31.958Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 136,
+      "badgeViews": 138,
       "certificateDownloads": 2,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 85
+      "uniqueVisitorsApprox": 87
     },
     "months": [
       {
@@ -12528,11 +12570,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 73,
+        "badgeViews": 75,
         "certificateDownloads": 1,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 61,
+        "uniqueVisitorsApprox": 63,
         "conversionRate": 30.2
       }
     ],
@@ -12541,11 +12583,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 136,
+        "badgeViews": 138,
         "certificateDownloads": 2,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 85,
+        "uniqueVisitorsApprox": 87,
         "conversionRate": 25.3
       }
     ],
@@ -12554,7 +12596,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 134,
+        "badgeViews": 136,
         "certificateDownloads": 2,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -12691,6 +12733,18 @@
         "latestViewedAt": "2026-04-22T17:54:44.455Z"
       },
       {
+        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+        "badgeId": "CSUNCC-20260512-0005",
+        "awardeeName": "Ernesto Cruz",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 6,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-13T04:06:31.955Z"
+      },
+      {
         "slug": "genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001",
         "badgeId": "CSUNCC-20260430-0001",
         "awardeeName": "Genesis Lozano-Gonzalez",
@@ -12701,18 +12755,6 @@
         "badgeViews": 4,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-04T15:43:24.083Z"
-      },
-      {
-        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
-        "badgeId": "CSUNCC-20260512-0005",
-        "awardeeName": "Ernesto Cruz",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-13T04:06:13.704Z"
       },
       {
         "slug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
@@ -13376,6 +13418,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Ernesto Cruz",
+        "badgesIssued": 1,
+        "badgeViews": 6,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Genesis Lozano-Gonzalez",
         "badgesIssued": 1,
         "badgeViews": 4,
@@ -13386,12 +13434,6 @@
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Ernesto Cruz",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Jamie Ramirez",
