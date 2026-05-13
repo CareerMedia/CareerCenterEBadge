@@ -12154,6 +12154,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "278a6ef4-de35-4e73-a463-74c46634796c",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-13T16:04:35.676Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0018",
+      "badgeSlug": "odette-arman-career-champion-csuncc-20260512-0018",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Odette Arman",
+      "publicUrl": "https://careerbadge.csun.edu/badges/odette-arman-career-champion-csuncc-20260512-0018/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "b8b7caa54ecbd7960f930928",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -12628,15 +12649,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-13T15:25:43.547Z",
+    "updatedAt": "2026-05-13T16:04:35.680Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 142,
+      "badgeViews": 143,
       "certificateDownloads": 2,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 91
+      "uniqueVisitorsApprox": 92
     },
     "months": [
       {
@@ -12654,11 +12675,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 79,
+        "badgeViews": 80,
         "certificateDownloads": 1,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 67,
+        "uniqueVisitorsApprox": 68,
         "conversionRate": 30.2
       }
     ],
@@ -12667,11 +12688,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 142,
+        "badgeViews": 143,
         "certificateDownloads": 2,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 91,
+        "uniqueVisitorsApprox": 92,
         "conversionRate": 25.3
       }
     ],
@@ -12680,7 +12701,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 140,
+        "badgeViews": 141,
         "certificateDownloads": 2,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -12865,6 +12886,18 @@
         "latestViewedAt": "2026-05-12T18:50:39.937Z"
       },
       {
+        "slug": "odette-arman-career-champion-csuncc-20260512-0018",
+        "badgeId": "CSUNCC-20260512-0018",
+        "awardeeName": "Odette Arman",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/odette-arman-career-champion-csuncc-20260512-0018/",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-13T16:04:35.676Z"
+      },
+      {
         "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
         "badgeId": "CSUNCC-20260512-0002",
         "awardeeName": "Cara Nissen",
@@ -12947,18 +12980,6 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T19:34:26.628Z"
-      },
-      {
-        "slug": "odette-arman-career-champion-csuncc-20260512-0018",
-        "badgeId": "CSUNCC-20260512-0018",
-        "awardeeName": "Odette Arman",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/odette-arman-career-champion-csuncc-20260512-0018/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-12T18:37:32.224Z"
       },
       {
         "slug": "porscha-chambers-career-champion-csuncc-20260512-0020",
@@ -13532,6 +13553,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Odette Arman",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Jennifer Sandoval",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -13539,12 +13566,6 @@
       },
       {
         "awardeeName": "Keila Medina",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Odette Arman",
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 0
