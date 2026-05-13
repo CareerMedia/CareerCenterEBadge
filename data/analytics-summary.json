@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-13T03:10:57.741Z",
+  "updatedAt": "2026-05-13T03:19:58.477Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 133,
+    "badgeViews": 134,
     "certificateDownloads": 2,
     "generatorOpens": 91,
     "generatorCompletions": 23,
     "conversionRate": 25.3,
-    "uniqueVisitorsApprox": 82
+    "uniqueVisitorsApprox": 83
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 70,
+      "badgeViews": 71,
       "certificateDownloads": 1,
       "generatorOpens": 43,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 58,
+      "uniqueVisitorsApprox": 59,
       "conversionRate": 30.2
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 133,
+      "badgeViews": 134,
       "certificateDownloads": 2,
       "generatorOpens": 91,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 82,
+      "uniqueVisitorsApprox": 83,
       "conversionRate": 25.3
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 131,
+      "badgeViews": 132,
       "certificateDownloads": 2,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -136,9 +136,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/joe-rodriguez-career-champion-csuncc-20260512-0010/",
       "badgesIssued": 1,
-      "badgeViews": 7,
+      "badgeViews": 8,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-13T00:26:03.687Z"
+      "latestViewedAt": "2026-05-13T03:19:58.473Z"
     },
     {
       "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
@@ -858,7 +858,7 @@
     {
       "awardeeName": "Joe Rodriguez",
       "badgesIssued": 1,
-      "badgeViews": 7,
+      "badgeViews": 8,
       "certificateDownloads": 0
     },
     {
