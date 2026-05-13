@@ -12070,6 +12070,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "3d8323ad-9e5d-44be-9172-8521d544b42a",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-13T05:24:08.556Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0014",
+      "badgeSlug": "melva-ramirez-career-champion-csuncc-20260512-0014",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Melva Ramirez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/melva-ramirez-career-champion-csuncc-20260512-0014/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "cb3908fb5d94b840eeb68da9",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -12544,15 +12565,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-13T04:06:31.958Z",
+    "updatedAt": "2026-05-13T05:24:08.560Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 138,
+      "badgeViews": 139,
       "certificateDownloads": 2,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 87
+      "uniqueVisitorsApprox": 88
     },
     "months": [
       {
@@ -12570,11 +12591,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 75,
+        "badgeViews": 76,
         "certificateDownloads": 1,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 63,
+        "uniqueVisitorsApprox": 64,
         "conversionRate": 30.2
       }
     ],
@@ -12583,11 +12604,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 138,
+        "badgeViews": 139,
         "certificateDownloads": 2,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 87,
+        "uniqueVisitorsApprox": 88,
         "conversionRate": 25.3
       }
     ],
@@ -12596,7 +12617,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 136,
+        "badgeViews": 137,
         "certificateDownloads": 2,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -12661,6 +12682,18 @@
         "latestViewedAt": "2026-04-09T19:06:44.375Z"
       },
       {
+        "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
+        "badgeId": "CSUNCC-20260512-0014",
+        "awardeeName": "Melva Ramirez",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/melva-ramirez-career-champion-csuncc-20260512-0014/",
+        "badgesIssued": 1,
+        "badgeViews": 9,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-13T05:24:08.556Z"
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0004",
         "badgeId": "CSUNCC-20260504-0004",
         "awardeeName": "Bryce Simon",
@@ -12683,18 +12716,6 @@
         "badgeViews": 8,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-13T03:19:58.473Z"
-      },
-      {
-        "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
-        "badgeId": "CSUNCC-20260512-0014",
-        "awardeeName": "Melva Ramirez",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/melva-ramirez-career-champion-csuncc-20260512-0014/",
-        "badgesIssued": 1,
-        "badgeViews": 8,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-13T03:23:37.879Z"
       },
       {
         "slug": "bri-career-champion-csuncc-20260407-0002",
@@ -13400,13 +13421,13 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Joe Rodriguez",
+        "awardeeName": "Melva Ramirez",
         "badgesIssued": 1,
-        "badgeViews": 8,
+        "badgeViews": 9,
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Melva Ramirez",
+        "awardeeName": "Joe Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 8,
         "certificateDownloads": 0
