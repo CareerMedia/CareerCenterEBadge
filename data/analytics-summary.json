@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-13T03:05:00.261Z",
+  "updatedAt": "2026-05-13T03:09:27.263Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 132,
+    "badgeViews": 133,
     "certificateDownloads": 2,
     "generatorOpens": 90,
     "generatorCompletions": 23,
     "conversionRate": 25.6,
-    "uniqueVisitorsApprox": 81
+    "uniqueVisitorsApprox": 82
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 69,
+      "badgeViews": 70,
       "certificateDownloads": 1,
       "generatorOpens": 42,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 57,
+      "uniqueVisitorsApprox": 58,
       "conversionRate": 31
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 132,
+      "badgeViews": 133,
       "certificateDownloads": 2,
       "generatorOpens": 90,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 81,
+      "uniqueVisitorsApprox": 82,
       "conversionRate": 25.6
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 130,
+      "badgeViews": 131,
       "certificateDownloads": 2,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -477,6 +477,18 @@
       "latestViewedAt": "2026-05-05T18:35:35.060Z"
     },
     {
+      "slug": "cristina-bernstein-career-champion-csuncc-20260512-0003",
+      "badgeId": "CSUNCC-20260512-0003",
+      "awardeeName": "Cristina Bernstein",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/cristina-bernstein-career-champion-csuncc-20260512-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-13T03:09:27.260Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -663,18 +675,6 @@
       "badgeTitle": "Career Champion",
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
-    },
-    {
-      "slug": "cristina-bernstein-career-champion-csuncc-20260512-0003",
-      "badgeId": "CSUNCC-20260512-0003",
-      "awardeeName": "Cristina Bernstein",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/cristina-bernstein-career-champion-csuncc-20260512-0003/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0,
@@ -976,6 +976,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Cristina Bernstein",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Harsh Ahir",
       "badgesIssued": 1,
       "badgeViews": 0,
@@ -989,12 +995,6 @@
     },
     {
       "awardeeName": "Amarilis Rivas",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Cristina Bernstein",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
