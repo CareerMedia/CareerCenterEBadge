@@ -11881,6 +11881,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "abfb03d9-283f-43e4-bc50-bf799d7ad26b",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-13T01:31:31.708Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0014",
+      "badgeSlug": "melva-ramirez-career-champion-csuncc-20260512-0014",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Melva Ramirez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/melva-ramirez-career-champion-csuncc-20260512-0014/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "6ab38f3ae8bb1e194a6363b3",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -12355,15 +12376,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-13T00:26:03.699Z",
+    "updatedAt": "2026-05-13T01:31:31.713Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 130,
+      "badgeViews": 131,
       "certificateDownloads": 2,
       "generatorOpens": 90,
       "generatorCompletions": 23,
       "conversionRate": 25.6,
-      "uniqueVisitorsApprox": 79
+      "uniqueVisitorsApprox": 80
     },
     "months": [
       {
@@ -12381,11 +12402,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 67,
+        "badgeViews": 68,
         "certificateDownloads": 1,
         "generatorOpens": 42,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 55,
+        "uniqueVisitorsApprox": 56,
         "conversionRate": 31
       }
     ],
@@ -12394,11 +12415,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 130,
+        "badgeViews": 131,
         "certificateDownloads": 2,
         "generatorOpens": 90,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 79,
+        "uniqueVisitorsApprox": 80,
         "conversionRate": 25.6
       }
     ],
@@ -12407,7 +12428,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 128,
+        "badgeViews": 129,
         "certificateDownloads": 2,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -12539,9 +12560,9 @@
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/melva-ramirez-career-champion-csuncc-20260512-0014/",
         "badgesIssued": 1,
-        "badgeViews": 5,
+        "badgeViews": 6,
         "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-12T20:27:15.586Z"
+        "latestViewedAt": "2026-05-13T01:31:31.708Z"
       },
       {
         "slug": "genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001",
@@ -13225,7 +13246,7 @@
       {
         "awardeeName": "Melva Ramirez",
         "badgesIssued": 1,
-        "badgeViews": 5,
+        "badgeViews": 6,
         "certificateDownloads": 0
       },
       {
