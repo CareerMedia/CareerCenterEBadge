@@ -11860,6 +11860,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "cafabb47-35dc-4155-a6ba-82034577c7b1",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-13T00:26:03.687Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0010",
+      "badgeSlug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Joe Rodriguez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/joe-rodriguez-career-champion-csuncc-20260512-0010/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "edee81bba4e05d51727c6b70",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -12334,15 +12355,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-12T22:09:50.054Z",
+    "updatedAt": "2026-05-13T00:26:03.699Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 129,
+      "badgeViews": 130,
       "certificateDownloads": 2,
       "generatorOpens": 90,
       "generatorCompletions": 23,
       "conversionRate": 25.6,
-      "uniqueVisitorsApprox": 78
+      "uniqueVisitorsApprox": 79
     },
     "months": [
       {
@@ -12360,11 +12381,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 66,
+        "badgeViews": 67,
         "certificateDownloads": 1,
         "generatorOpens": 42,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 54,
+        "uniqueVisitorsApprox": 55,
         "conversionRate": 31
       }
     ],
@@ -12373,11 +12394,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 129,
+        "badgeViews": 130,
         "certificateDownloads": 2,
         "generatorOpens": 90,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 78,
+        "uniqueVisitorsApprox": 79,
         "conversionRate": 25.6
       }
     ],
@@ -12386,7 +12407,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 127,
+        "badgeViews": 128,
         "certificateDownloads": 2,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -12463,6 +12484,18 @@
         "latestViewedAt": "2026-05-04T19:29:13.130Z"
       },
       {
+        "slug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
+        "badgeId": "CSUNCC-20260512-0010",
+        "awardeeName": "Joe Rodriguez",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/joe-rodriguez-career-champion-csuncc-20260512-0010/",
+        "badgesIssued": 1,
+        "badgeViews": 7,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-13T00:26:03.687Z"
+      },
+      {
         "slug": "bri-career-champion-csuncc-20260407-0002",
         "badgeId": "CSUNCC-20260407-0002",
         "awardeeName": "Bri",
@@ -12497,18 +12530,6 @@
         "badgeViews": 6,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-04-22T17:54:44.455Z"
-      },
-      {
-        "slug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
-        "badgeId": "CSUNCC-20260512-0010",
-        "awardeeName": "Joe Rodriguez",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/joe-rodriguez-career-champion-csuncc-20260512-0010/",
-        "badgesIssued": 1,
-        "badgeViews": 6,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-12T22:01:57.373Z"
       },
       {
         "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
@@ -13190,13 +13211,13 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Brianna Fuente",
+        "awardeeName": "Joe Rodriguez",
         "badgesIssued": 1,
-        "badgeViews": 6,
+        "badgeViews": 7,
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Joe Rodriguez",
+        "awardeeName": "Brianna Fuente",
         "badgesIssued": 1,
         "badgeViews": 6,
         "certificateDownloads": 0
