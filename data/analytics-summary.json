@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-13T03:19:58.477Z",
+  "updatedAt": "2026-05-13T03:23:37.883Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 134,
+    "badgeViews": 135,
     "certificateDownloads": 2,
     "generatorOpens": 91,
     "generatorCompletions": 23,
     "conversionRate": 25.3,
-    "uniqueVisitorsApprox": 83
+    "uniqueVisitorsApprox": 84
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 71,
+      "badgeViews": 72,
       "certificateDownloads": 1,
       "generatorOpens": 43,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 59,
+      "uniqueVisitorsApprox": 60,
       "conversionRate": 30.2
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 134,
+      "badgeViews": 135,
       "certificateDownloads": 2,
       "generatorOpens": 91,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 83,
+      "uniqueVisitorsApprox": 84,
       "conversionRate": 25.3
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 132,
+      "badgeViews": 133,
       "certificateDownloads": 2,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -148,9 +148,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/melva-ramirez-career-champion-csuncc-20260512-0014/",
       "badgesIssued": 1,
-      "badgeViews": 7,
+      "badgeViews": 8,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-13T03:05:00.255Z"
+      "latestViewedAt": "2026-05-13T03:23:37.879Z"
     },
     {
       "slug": "bri-career-champion-csuncc-20260407-0002",
@@ -864,7 +864,7 @@
     {
       "awardeeName": "Melva Ramirez",
       "badgesIssued": 1,
-      "badgeViews": 7,
+      "badgeViews": 8,
       "certificateDownloads": 0
     },
     {
