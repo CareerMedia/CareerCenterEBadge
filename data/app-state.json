@@ -12007,6 +12007,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "d0e39417-19af-49c5-b236-ad7296edb991",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-13T04:06:13.704Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0005",
+      "badgeSlug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Ernesto Cruz",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "8c41acbc7a41dbaa2372e234",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -12481,15 +12502,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-13T03:23:37.883Z",
+    "updatedAt": "2026-05-13T04:06:13.708Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 135,
+      "badgeViews": 136,
       "certificateDownloads": 2,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 84
+      "uniqueVisitorsApprox": 85
     },
     "months": [
       {
@@ -12507,11 +12528,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 72,
+        "badgeViews": 73,
         "certificateDownloads": 1,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 60,
+        "uniqueVisitorsApprox": 61,
         "conversionRate": 30.2
       }
     ],
@@ -12520,11 +12541,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 135,
+        "badgeViews": 136,
         "certificateDownloads": 2,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 84,
+        "uniqueVisitorsApprox": 85,
         "conversionRate": 25.3
       }
     ],
@@ -12533,7 +12554,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 133,
+        "badgeViews": 134,
         "certificateDownloads": 2,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -12682,6 +12703,18 @@
         "latestViewedAt": "2026-05-04T15:43:24.083Z"
       },
       {
+        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+        "badgeId": "CSUNCC-20260512-0005",
+        "awardeeName": "Ernesto Cruz",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-13T04:06:13.704Z"
+      },
+      {
         "slug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
         "badgeId": "CSUNCC-20260512-0007",
         "awardeeName": "Jamie Ramirez",
@@ -12764,18 +12797,6 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-04T05:37:08.242Z"
-      },
-      {
-        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
-        "badgeId": "CSUNCC-20260512-0005",
-        "awardeeName": "Ernesto Cruz",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-12T18:14:58.573Z"
       },
       {
         "slug": "jennifer-sandoval-career-champion-csuncc-20260512-0008",
@@ -13367,6 +13388,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Ernesto Cruz",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Jamie Ramirez",
         "badgesIssued": 1,
         "badgeViews": 4,
@@ -13376,12 +13403,6 @@
         "awardeeName": "Leslie Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 4,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Ernesto Cruz",
-        "badgesIssued": 1,
-        "badgeViews": 3,
         "certificateDownloads": 0
       },
       {
