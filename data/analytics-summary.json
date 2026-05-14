@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-14T15:27:40.959Z",
+  "updatedAt": "2026-05-14T17:13:46.837Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 151,
+    "badgeViews": 152,
     "certificateDownloads": 3,
     "generatorOpens": 91,
     "generatorCompletions": 23,
     "conversionRate": 25.3,
-    "uniqueVisitorsApprox": 99
+    "uniqueVisitorsApprox": 100
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 88,
+      "badgeViews": 89,
       "certificateDownloads": 2,
       "generatorOpens": 43,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 75,
+      "uniqueVisitorsApprox": 76,
       "conversionRate": 30.2
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 151,
+      "badgeViews": 152,
       "certificateDownloads": 3,
       "generatorOpens": 91,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 99,
+      "uniqueVisitorsApprox": 100,
       "conversionRate": 25.3
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 149,
+      "badgeViews": 150,
       "certificateDownloads": 3,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -501,6 +501,18 @@
       "latestViewedAt": "2026-05-13T03:09:27.260Z"
     },
     {
+      "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
+      "badgeId": "CSUNCC-20260512-0019",
+      "awardeeName": "Patricia Garcia-Ramirez",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/patricia-garcia-ramirez-career-champion-csuncc-20260512-0019/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-14T17:13:46.834Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -753,18 +765,6 @@
       "latestViewedAt": ""
     },
     {
-      "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
-      "badgeId": "CSUNCC-20260512-0019",
-      "awardeeName": "Patricia Garcia-Ramirez",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/patricia-garcia-ramirez-career-champion-csuncc-20260512-0019/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
-    },
-    {
       "slug": "sarah-le-long-career-champion-csuncc-20260512-0021",
       "badgeId": "CSUNCC-20260512-0021",
       "awardeeName": "Sarah Le Long",
@@ -988,6 +988,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Patricia Garcia-Ramirez",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Harsh Ahir",
       "badgesIssued": 1,
       "badgeViews": 0,
@@ -1031,12 +1037,6 @@
     },
     {
       "awardeeName": "Nalleli Figueroa",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Patricia Garcia-Ramirez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
