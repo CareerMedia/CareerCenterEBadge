@@ -12511,6 +12511,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "4a5780c6-b944-436b-bfec-8a3154638a75",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-18T04:33:28.263Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260422-0003",
+      "badgeSlug": "hector-carrillo-career-champion-csuncc-20260422-0003",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Hector Carrillo",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "03813e6917a66cbbe98884b1",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -12985,15 +13006,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-18T02:31:32.320Z",
+    "updatedAt": "2026-05-18T04:33:28.273Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 157,
+      "badgeViews": 158,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 104
+      "uniqueVisitorsApprox": 105
     },
     "months": [
       {
@@ -13011,11 +13032,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 94,
+        "badgeViews": 95,
         "certificateDownloads": 3,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 80,
+        "uniqueVisitorsApprox": 81,
         "conversionRate": 30.2
       }
     ],
@@ -13024,11 +13045,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 157,
+        "badgeViews": 158,
         "certificateDownloads": 4,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 104,
+        "uniqueVisitorsApprox": 105,
         "conversionRate": 25.3
       }
     ],
@@ -13037,7 +13058,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 155,
+        "badgeViews": 156,
         "certificateDownloads": 4,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -13097,9 +13118,9 @@
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
         "badgesIssued": 1,
-        "badgeViews": 11,
+        "badgeViews": 12,
         "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-12T18:22:31.661Z"
+        "latestViewedAt": "2026-05-18T04:33:28.263Z"
       },
       {
         "slug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
@@ -13837,7 +13858,7 @@
       {
         "awardeeName": "Hector Carrillo",
         "badgesIssued": 1,
-        "badgeViews": 11,
+        "badgeViews": 12,
         "certificateDownloads": 0
       },
       {
