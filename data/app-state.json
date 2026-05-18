@@ -12490,6 +12490,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "5a106188-7888-4b04-b78e-06ab2fe046c0",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-18T02:31:32.121Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0013",
+      "badgeSlug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Leslie Rodriguez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/leslie-rodriguez-career-champion-csuncc-20260512-0013/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "d019026bac713ddaabfd6abc",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -12964,15 +12985,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-15T16:02:21.513Z",
+    "updatedAt": "2026-05-18T02:31:32.320Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 156,
+      "badgeViews": 157,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 103
+      "uniqueVisitorsApprox": 104
     },
     "months": [
       {
@@ -12990,11 +13011,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 93,
+        "badgeViews": 94,
         "certificateDownloads": 3,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 79,
+        "uniqueVisitorsApprox": 80,
         "conversionRate": 30.2
       }
     ],
@@ -13003,11 +13024,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 156,
+        "badgeViews": 157,
         "certificateDownloads": 4,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 103,
+        "uniqueVisitorsApprox": 104,
         "conversionRate": 25.3
       }
     ],
@@ -13016,7 +13037,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 154,
+        "badgeViews": 155,
         "certificateDownloads": 4,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -13189,6 +13210,18 @@
         "latestViewedAt": "2026-05-15T16:02:21.429Z"
       },
       {
+        "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
+        "badgeId": "CSUNCC-20260512-0013",
+        "awardeeName": "Leslie Rodriguez",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/leslie-rodriguez-career-champion-csuncc-20260512-0013/",
+        "badgesIssued": 1,
+        "badgeViews": 5,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-18T02:31:32.121Z"
+      },
+      {
         "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
         "badgeId": "CSUNCC-20260512-0002",
         "awardeeName": "Cara Nissen",
@@ -13223,18 +13256,6 @@
         "badgeViews": 4,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:29:24.776Z"
-      },
-      {
-        "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
-        "badgeId": "CSUNCC-20260512-0013",
-        "awardeeName": "Leslie Rodriguez",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/leslie-rodriguez-career-champion-csuncc-20260512-0013/",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-12T18:50:39.937Z"
       },
       {
         "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
@@ -13862,6 +13883,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Leslie Rodriguez",
+        "badgesIssued": 1,
+        "badgeViews": 5,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Genesis Lozano-Gonzalez",
         "badgesIssued": 1,
         "badgeViews": 4,
@@ -13869,12 +13896,6 @@
       },
       {
         "awardeeName": "Jamie Ramirez",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Leslie Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 4,
         "certificateDownloads": 0
