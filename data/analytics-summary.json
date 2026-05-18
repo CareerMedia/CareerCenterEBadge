@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-18T04:33:28.273Z",
+  "updatedAt": "2026-05-18T15:52:43.147Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 158,
+    "badgeViews": 159,
     "certificateDownloads": 4,
     "generatorOpens": 91,
     "generatorCompletions": 23,
@@ -26,7 +26,7 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 95,
+      "badgeViews": 96,
       "certificateDownloads": 3,
       "generatorOpens": 43,
       "generatorCompletions": 13,
@@ -39,7 +39,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 158,
+      "badgeViews": 159,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 156,
+      "badgeViews": 157,
       "certificateDownloads": 4,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -220,9 +220,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/keila-medina-career-champion-csuncc-20260512-0012/",
       "badgesIssued": 1,
-      "badgeViews": 5,
+      "badgeViews": 6,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-15T16:02:21.429Z"
+      "latestViewedAt": "2026-05-18T15:52:43.067Z"
     },
     {
       "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
@@ -886,16 +886,16 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Keila Medina",
+      "badgesIssued": 1,
+      "badgeViews": 6,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Cara Nissen",
       "badgesIssued": 1,
       "badgeViews": 4,
       "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Keila Medina",
-      "badgesIssued": 1,
-      "badgeViews": 5,
-      "certificateDownloads": 0
     },
     {
       "awardeeName": "Leslie Rodriguez",
