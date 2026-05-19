@@ -12847,6 +12847,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "3e5a3ab1-a013-4eff-91ba-2cf022c696e9",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-19T17:37:11.668Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0005",
+      "badgeSlug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Ernesto Cruz",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "3567a8aff189087c7238ef35",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -13321,15 +13342,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-19T17:16:25.051Z",
+    "updatedAt": "2026-05-19T17:37:11.671Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 173,
+      "badgeViews": 174,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 116
+      "uniqueVisitorsApprox": 117
     },
     "months": [
       {
@@ -13347,11 +13368,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 110,
+        "badgeViews": 111,
         "certificateDownloads": 3,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 92,
+        "uniqueVisitorsApprox": 93,
         "conversionRate": 30.2
       }
     ],
@@ -13360,11 +13381,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 173,
+        "badgeViews": 174,
         "certificateDownloads": 4,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 116,
+        "uniqueVisitorsApprox": 117,
         "conversionRate": 25.3
       }
     ],
@@ -13373,7 +13394,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 171,
+        "badgeViews": 172,
         "certificateDownloads": 4,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -13474,6 +13495,18 @@
         "latestViewedAt": "2026-05-13T03:19:58.473Z"
       },
       {
+        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+        "badgeId": "CSUNCC-20260512-0005",
+        "awardeeName": "Ernesto Cruz",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 7,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-19T17:37:11.668Z"
+      },
+      {
         "slug": "odette-arman-career-champion-csuncc-20260512-0018",
         "badgeId": "CSUNCC-20260512-0018",
         "awardeeName": "Odette Arman",
@@ -13532,18 +13565,6 @@
         "badgeViews": 6,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-19T17:16:25.049Z"
-      },
-      {
-        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
-        "badgeId": "CSUNCC-20260512-0005",
-        "awardeeName": "Ernesto Cruz",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 6,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-13T04:06:31.955Z"
       },
       {
         "slug": "keila-medina-career-champion-csuncc-20260512-0012",
@@ -14189,6 +14210,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Ernesto Cruz",
+        "badgesIssued": 1,
+        "badgeViews": 7,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Odette Arman",
         "badgesIssued": 1,
         "badgeViews": 6,
@@ -14211,12 +14238,6 @@
         "badgesIssued": 1,
         "badgeViews": 5,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Ernesto Cruz",
-        "badgesIssued": 1,
-        "badgeViews": 6,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Keila Medina",
