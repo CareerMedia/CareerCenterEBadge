@@ -12805,6 +12805,48 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "d1f1eb95-52e1-4cbb-9698-b4bfdaec3633",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-19T17:16:14.987Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0001",
+      "badgeSlug": "amarilis-rivas-career-champion-csuncc-20260512-0001",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Amarilis Rivas",
+      "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "bd3268d51663130e2642717d",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "70d6083a-b093-4b97-bbe0-22c7a8cb37bf",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-19T17:16:25.049Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0001",
+      "badgeSlug": "amarilis-rivas-career-champion-csuncc-20260512-0001",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Amarilis Rivas",
+      "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "abda75af3519e7479c131205",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -13279,15 +13321,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-19T17:16:04.709Z",
+    "updatedAt": "2026-05-19T17:16:25.051Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 171,
+      "badgeViews": 173,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 114
+      "uniqueVisitorsApprox": 116
     },
     "months": [
       {
@@ -13305,11 +13347,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 108,
+        "badgeViews": 110,
         "certificateDownloads": 3,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 90,
+        "uniqueVisitorsApprox": 92,
         "conversionRate": 30.2
       }
     ],
@@ -13318,11 +13360,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 171,
+        "badgeViews": 173,
         "certificateDownloads": 4,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 114,
+        "uniqueVisitorsApprox": 116,
         "conversionRate": 25.3
       }
     ],
@@ -13331,7 +13373,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 169,
+        "badgeViews": 171,
         "certificateDownloads": 4,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -13480,6 +13522,18 @@
         "latestViewedAt": "2026-04-22T17:54:44.455Z"
       },
       {
+        "slug": "amarilis-rivas-career-champion-csuncc-20260512-0001",
+        "badgeId": "CSUNCC-20260512-0001",
+        "awardeeName": "Amarilis Rivas",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 6,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-19T17:16:25.049Z"
+      },
+      {
         "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
         "badgeId": "CSUNCC-20260512-0005",
         "awardeeName": "Ernesto Cruz",
@@ -13550,18 +13604,6 @@
         "badgeViews": 4,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-04T15:43:24.083Z"
-      },
-      {
-        "slug": "amarilis-rivas-career-champion-csuncc-20260512-0001",
-        "badgeId": "CSUNCC-20260512-0001",
-        "awardeeName": "Amarilis Rivas",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-19T17:16:04.705Z"
       },
       {
         "slug": "jackie-perez-career-champion-csuncc-20260512-0006",
@@ -14159,6 +14201,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Amarilis Rivas",
+        "badgesIssued": 1,
+        "badgeViews": 6,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Cara Nissen",
         "badgesIssued": 1,
         "badgeViews": 5,
@@ -14190,12 +14238,6 @@
       },
       {
         "awardeeName": "Genesis Lozano-Gonzalez",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Amarilis Rivas",
         "badgesIssued": 1,
         "badgeViews": 4,
         "certificateDownloads": 0
