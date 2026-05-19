@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-19T16:46:37.328Z",
+  "updatedAt": "2026-05-19T16:48:06.474Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 167,
+    "badgeViews": 168,
     "certificateDownloads": 4,
     "generatorOpens": 91,
     "generatorCompletions": 23,
@@ -26,7 +26,7 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 104,
+      "badgeViews": 105,
       "certificateDownloads": 3,
       "generatorOpens": 43,
       "generatorCompletions": 13,
@@ -39,7 +39,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 167,
+      "badgeViews": 168,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 165,
+      "badgeViews": 166,
       "certificateDownloads": 4,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -237,6 +237,18 @@
       "latestViewedAt": "2026-05-18T22:42:28.040Z"
     },
     {
+      "slug": "emalie-mendoza-career-champion-csuncc-20260512-0004",
+      "badgeId": "CSUNCC-20260512-0004",
+      "awardeeName": "Emalie Mendoza",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/emalie-mendoza-career-champion-csuncc-20260512-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-19T16:48:06.471Z"
+    },
+    {
       "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
       "badgeId": "CSUNCC-20260512-0013",
       "awardeeName": "Leslie Rodriguez",
@@ -259,18 +271,6 @@
       "badgeViews": 4,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-04T15:43:24.083Z"
-    },
-    {
-      "slug": "emalie-mendoza-career-champion-csuncc-20260512-0004",
-      "badgeId": "CSUNCC-20260512-0004",
-      "awardeeName": "Emalie Mendoza",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/emalie-mendoza-career-champion-csuncc-20260512-0004/",
-      "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-19T16:46:31.510Z"
     },
     {
       "slug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
@@ -898,6 +898,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Emalie Mendoza",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Leslie Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 5,
@@ -905,12 +911,6 @@
     },
     {
       "awardeeName": "Genesis Lozano-Gonzalez",
-      "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Emalie Mendoza",
       "badgesIssued": 1,
       "badgeViews": 4,
       "certificateDownloads": 0
