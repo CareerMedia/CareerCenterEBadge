@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-19T17:37:11.671Z",
+  "updatedAt": "2026-05-19T17:37:31.034Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 174,
+    "badgeViews": 175,
     "certificateDownloads": 4,
     "generatorOpens": 91,
     "generatorCompletions": 23,
@@ -26,7 +26,7 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 111,
+      "badgeViews": 112,
       "certificateDownloads": 3,
       "generatorOpens": 43,
       "generatorCompletions": 13,
@@ -39,7 +39,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 174,
+      "badgeViews": 175,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 172,
+      "badgeViews": 173,
       "certificateDownloads": 4,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -141,6 +141,18 @@
       "latestViewedAt": "2026-05-04T19:29:13.130Z"
     },
     {
+      "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+      "badgeId": "CSUNCC-20260512-0005",
+      "awardeeName": "Ernesto Cruz",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 8,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-19T17:37:31.029Z"
+    },
+    {
       "slug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
       "badgeId": "CSUNCC-20260512-0010",
       "awardeeName": "Joe Rodriguez",
@@ -151,18 +163,6 @@
       "badgeViews": 8,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-13T03:19:58.473Z"
-    },
-    {
-      "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
-      "badgeId": "CSUNCC-20260512-0005",
-      "awardeeName": "Ernesto Cruz",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
-      "badgesIssued": 1,
-      "badgeViews": 7,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-19T17:37:11.668Z"
     },
     {
       "slug": "odette-arman-career-champion-csuncc-20260512-0018",
@@ -862,15 +862,15 @@
       "certificateDownloads": 1
     },
     {
-      "awardeeName": "Joe Rodriguez",
+      "awardeeName": "Ernesto Cruz",
       "badgesIssued": 1,
       "badgeViews": 8,
       "certificateDownloads": 0
     },
     {
-      "awardeeName": "Ernesto Cruz",
+      "awardeeName": "Joe Rodriguez",
       "badgesIssued": 1,
-      "badgeViews": 7,
+      "badgeViews": 8,
       "certificateDownloads": 0
     },
     {
