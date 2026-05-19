@@ -12658,6 +12658,69 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "3ce0d663-7ec5-43fd-8b04-31287db85f00",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-19T16:46:31.510Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0004",
+      "badgeSlug": "emalie-mendoza-career-champion-csuncc-20260512-0004",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Emalie Mendoza",
+      "publicUrl": "https://careerbadge.csun.edu/badges/emalie-mendoza-career-champion-csuncc-20260512-0004/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "0fe706b6e034ad0f11e391b8",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "4b50b1e1-87ae-4c97-b729-2ab720678aa0",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-19T16:46:31.588Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0006",
+      "badgeSlug": "jackie-perez-career-champion-csuncc-20260512-0006",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Jackie Perez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jackie-perez-career-champion-csuncc-20260512-0006/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "40fb1c9f61a27c71dd48eb65",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "f7b0fdc6-8a5b-4866-8ead-9890feca2055",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-19T16:46:37.324Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0006",
+      "badgeSlug": "jackie-perez-career-champion-csuncc-20260512-0006",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Jackie Perez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jackie-perez-career-champion-csuncc-20260512-0006/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "d3bc278b748bd9dd0adac495",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -13132,15 +13195,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-19T16:43:48.547Z",
+    "updatedAt": "2026-05-19T16:46:37.328Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 164,
+      "badgeViews": 167,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 110
+      "uniqueVisitorsApprox": 112
     },
     "months": [
       {
@@ -13158,11 +13221,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 101,
+        "badgeViews": 104,
         "certificateDownloads": 3,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 86,
+        "uniqueVisitorsApprox": 88,
         "conversionRate": 30.2
       }
     ],
@@ -13171,11 +13234,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 164,
+        "badgeViews": 167,
         "certificateDownloads": 4,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 110,
+        "uniqueVisitorsApprox": 112,
         "conversionRate": 25.3
       }
     ],
@@ -13184,7 +13247,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 162,
+        "badgeViews": 165,
         "certificateDownloads": 4,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -13393,6 +13456,18 @@
         "latestViewedAt": "2026-05-04T15:43:24.083Z"
       },
       {
+        "slug": "emalie-mendoza-career-champion-csuncc-20260512-0004",
+        "badgeId": "CSUNCC-20260512-0004",
+        "awardeeName": "Emalie Mendoza",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/emalie-mendoza-career-champion-csuncc-20260512-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-19T16:46:31.510Z"
+      },
+      {
         "slug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
         "badgeId": "CSUNCC-20260512-0007",
         "awardeeName": "Jamie Ramirez",
@@ -13477,18 +13552,6 @@
         "latestViewedAt": "2026-05-13T23:26:23.131Z"
       },
       {
-        "slug": "emalie-mendoza-career-champion-csuncc-20260512-0004",
-        "badgeId": "CSUNCC-20260512-0004",
-        "awardeeName": "Emalie Mendoza",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/emalie-mendoza-career-champion-csuncc-20260512-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-19T16:43:48.544Z"
-      },
-      {
         "slug": "jennifer-sandoval-career-champion-csuncc-20260512-0008",
         "badgeId": "CSUNCC-20260512-0008",
         "awardeeName": "Jennifer Sandoval",
@@ -13559,6 +13622,18 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-09T21:08:23.615Z"
+      },
+      {
+        "slug": "jackie-perez-career-champion-csuncc-20260512-0006",
+        "badgeId": "CSUNCC-20260512-0006",
+        "awardeeName": "Jackie Perez",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jackie-perez-career-champion-csuncc-20260512-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-19T16:46:37.324Z"
       },
       {
         "slug": "natalie-howe-career-champion-csuncc-20260512-0017",
@@ -13837,18 +13912,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "jackie-perez-career-champion-csuncc-20260512-0006",
-        "badgeId": "CSUNCC-20260512-0006",
-        "awardeeName": "Jackie Perez",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jackie-perez-career-champion-csuncc-20260512-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "jessica-davis-career-champion-csuncc-20260512-0009",
         "badgeId": "CSUNCC-20260512-0009",
         "awardeeName": "Jessica Davis",
@@ -14042,6 +14105,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Emalie Mendoza",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Jamie Ramirez",
         "badgesIssued": 1,
         "badgeViews": 4,
@@ -14055,12 +14124,6 @@
       },
       {
         "awardeeName": "Amarilis Rivas",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Emalie Mendoza",
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 0
@@ -14085,6 +14148,12 @@
       },
       {
         "awardeeName": "Jane Doe",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Jackie Perez",
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 0
@@ -14139,12 +14208,6 @@
       },
       {
         "awardeeName": "Veronica Torres",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Jackie Perez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
