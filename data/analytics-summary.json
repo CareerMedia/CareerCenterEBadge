@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-19T16:54:30.453Z",
+  "updatedAt": "2026-05-19T16:55:48.417Z",
   "totals": {
     "badgesIssued": 59,
-    "badgeViews": 169,
+    "badgeViews": 170,
     "certificateDownloads": 4,
     "generatorOpens": 91,
     "generatorCompletions": 23,
     "conversionRate": 25.3,
-    "uniqueVisitorsApprox": 113
+    "uniqueVisitorsApprox": 114
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 40,
-      "badgeViews": 106,
+      "badgeViews": 107,
       "certificateDownloads": 3,
       "generatorOpens": 43,
       "generatorCompletions": 13,
-      "uniqueVisitorsApprox": 89,
+      "uniqueVisitorsApprox": 90,
       "conversionRate": 30.2
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 59,
-      "badgeViews": 169,
+      "badgeViews": 170,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 113,
+      "uniqueVisitorsApprox": 114,
       "conversionRate": 25.3
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 55,
-      "badgeViews": 167,
+      "badgeViews": 168,
       "certificateDownloads": 4,
       "generatorOpens": 34,
       "generatorCompletions": 19,
@@ -273,6 +273,18 @@
       "latestViewedAt": "2026-05-04T15:43:24.083Z"
     },
     {
+      "slug": "jackie-perez-career-champion-csuncc-20260512-0006",
+      "badgeId": "CSUNCC-20260512-0006",
+      "awardeeName": "Jackie Perez",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jackie-perez-career-champion-csuncc-20260512-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 4,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-19T16:55:48.414Z"
+    },
+    {
       "slug": "jamie-ramirez-career-champion-csuncc-20260512-0007",
       "badgeId": "CSUNCC-20260512-0007",
       "awardeeName": "Jamie Ramirez",
@@ -355,18 +367,6 @@
       "badgeViews": 3,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-13T23:26:23.131Z"
-    },
-    {
-      "slug": "jackie-perez-career-champion-csuncc-20260512-0006",
-      "badgeId": "CSUNCC-20260512-0006",
-      "awardeeName": "Jackie Perez",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jackie-perez-career-champion-csuncc-20260512-0006/",
-      "badgesIssued": 1,
-      "badgeViews": 3,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-19T16:54:30.450Z"
     },
     {
       "slug": "jennifer-sandoval-career-champion-csuncc-20260512-0008",
@@ -916,6 +916,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Jackie Perez",
+      "badgesIssued": 1,
+      "badgeViews": 4,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Jamie Ramirez",
       "badgesIssued": 1,
       "badgeViews": 4,
@@ -929,12 +935,6 @@
     },
     {
       "awardeeName": "Amarilis Rivas",
-      "badgesIssued": 1,
-      "badgeViews": 3,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Jackie Perez",
       "badgesIssued": 1,
       "badgeViews": 3,
       "certificateDownloads": 0
