@@ -13120,6 +13120,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "f0336d4b-0a16-4cc8-bd73-3a59685576f2",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-22T20:30:30.145Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0005",
+      "badgeSlug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Ernesto Cruz",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "09606770845b9cb57be1c581",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -13594,15 +13615,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-22T19:36:35.413Z",
+    "updatedAt": "2026-05-22T20:30:30.150Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 186,
+      "badgeViews": 187,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 123
+      "uniqueVisitorsApprox": 124
     },
     "months": [
       {
@@ -13620,11 +13641,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 123,
+        "badgeViews": 124,
         "certificateDownloads": 3,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 99,
+        "uniqueVisitorsApprox": 100,
         "conversionRate": 30.2
       }
     ],
@@ -13633,11 +13654,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 186,
+        "badgeViews": 187,
         "certificateDownloads": 4,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 123,
+        "uniqueVisitorsApprox": 124,
         "conversionRate": 25.3
       }
     ],
@@ -13646,7 +13667,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 184,
+        "badgeViews": 185,
         "certificateDownloads": 4,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -13723,6 +13744,18 @@
         "latestViewedAt": "2026-04-09T19:06:44.375Z"
       },
       {
+        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+        "badgeId": "CSUNCC-20260512-0005",
+        "awardeeName": "Ernesto Cruz",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 9,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-22T20:30:30.145Z"
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0004",
         "badgeId": "CSUNCC-20260504-0004",
         "awardeeName": "Bryce Simon",
@@ -13733,18 +13766,6 @@
         "badgeViews": 8,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-04T19:29:13.130Z"
-      },
-      {
-        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
-        "badgeId": "CSUNCC-20260512-0005",
-        "awardeeName": "Ernesto Cruz",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 8,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-19T17:37:31.029Z"
       },
       {
         "slug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
@@ -14458,7 +14479,7 @@
       {
         "awardeeName": "Ernesto Cruz",
         "badgesIssued": 1,
-        "badgeViews": 8,
+        "badgeViews": 9,
         "certificateDownloads": 0
       },
       {
