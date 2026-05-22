@@ -13099,6 +13099,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "cfe409bc-784a-44cb-a773-af7766a82a81",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-22T19:36:35.271Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0024",
+      "badgeSlug": "valerie-ipatzi-career-champion-csuncc-20260512-0024",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Valerie Ipatzi",
+      "publicUrl": "https://careerbadge.csun.edu/badges/valerie-ipatzi-career-champion-csuncc-20260512-0024/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "b15466746c8413caa0e0f4ed",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -13573,15 +13594,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-21T22:56:12.792Z",
+    "updatedAt": "2026-05-22T19:36:35.413Z",
     "totals": {
       "badgesIssued": 59,
-      "badgeViews": 185,
+      "badgeViews": 186,
       "certificateDownloads": 4,
       "generatorOpens": 91,
       "generatorCompletions": 23,
       "conversionRate": 25.3,
-      "uniqueVisitorsApprox": 122
+      "uniqueVisitorsApprox": 123
     },
     "months": [
       {
@@ -13599,11 +13620,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 40,
-        "badgeViews": 122,
+        "badgeViews": 123,
         "certificateDownloads": 3,
         "generatorOpens": 43,
         "generatorCompletions": 13,
-        "uniqueVisitorsApprox": 98,
+        "uniqueVisitorsApprox": 99,
         "conversionRate": 30.2
       }
     ],
@@ -13612,11 +13633,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 59,
-        "badgeViews": 185,
+        "badgeViews": 186,
         "certificateDownloads": 4,
         "generatorOpens": 91,
         "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 122,
+        "uniqueVisitorsApprox": 123,
         "conversionRate": 25.3
       }
     ],
@@ -13625,7 +13646,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 55,
-        "badgeViews": 183,
+        "badgeViews": 184,
         "certificateDownloads": 4,
         "generatorOpens": 34,
         "generatorCompletions": 19,
@@ -14110,6 +14131,18 @@
         "latestViewedAt": "2026-05-13T03:09:27.260Z"
       },
       {
+        "slug": "valerie-ipatzi-career-champion-csuncc-20260512-0024",
+        "badgeId": "CSUNCC-20260512-0024",
+        "awardeeName": "Valerie Ipatzi",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/valerie-ipatzi-career-champion-csuncc-20260512-0024/",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-22T19:36:35.271Z"
+      },
+      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -14360,18 +14393,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
-      },
-      {
-        "slug": "valerie-ipatzi-career-champion-csuncc-20260512-0024",
-        "badgeId": "CSUNCC-20260512-0024",
-        "awardeeName": "Valerie Ipatzi",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/valerie-ipatzi-career-champion-csuncc-20260512-0024/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -14579,6 +14600,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Valerie Ipatzi",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -14622,12 +14649,6 @@
       },
       {
         "awardeeName": "Stephanie Castro",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Valerie Ipatzi",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
