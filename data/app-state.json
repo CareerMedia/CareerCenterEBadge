@@ -15142,6 +15142,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "fb1c3d45-af3e-4b8d-bbf4-671a9f26c984",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-26T19:05:53.582Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0003",
+      "badgeSlug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Quin Neumeyer",
+      "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "1fb6d64021e4636329d7d078",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -15616,15 +15637,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T18:59:15.294Z",
+    "updatedAt": "2026-05-26T19:05:53.593Z",
     "totals": {
       "badgesIssued": 71,
-      "badgeViews": 202,
+      "badgeViews": 203,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
       "conversionRate": 38,
-      "uniqueVisitorsApprox": 137
+      "uniqueVisitorsApprox": 138
     },
     "months": [
       {
@@ -15642,11 +15663,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 52,
-        "badgeViews": 139,
+        "badgeViews": 140,
         "certificateDownloads": 4,
         "generatorOpens": 44,
         "generatorCompletions": 25,
-        "uniqueVisitorsApprox": 113,
+        "uniqueVisitorsApprox": 114,
         "conversionRate": 56.8
       }
     ],
@@ -15655,11 +15676,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 71,
-        "badgeViews": 202,
+        "badgeViews": 203,
         "certificateDownloads": 5,
         "generatorOpens": 92,
         "generatorCompletions": 35,
-        "uniqueVisitorsApprox": 137,
+        "uniqueVisitorsApprox": 138,
         "conversionRate": 38
       }
     ],
@@ -15668,7 +15689,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 67,
-        "badgeViews": 200,
+        "badgeViews": 201,
         "certificateDownloads": 5,
         "generatorOpens": 34,
         "generatorCompletions": 31,
@@ -16033,6 +16054,18 @@
         "latestViewedAt": "2026-05-12T18:23:15.496Z"
       },
       {
+        "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+        "badgeId": "CSUNCC-20260526-0003",
+        "awardeeName": "Quin Neumeyer",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-26T19:05:53.582Z"
+      },
+      {
         "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
         "badgeId": "CSUNCC-20260526-0005",
         "awardeeName": "Dorna Basiratmand",
@@ -16103,18 +16136,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:16:37.302Z"
-      },
-      {
-        "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
-        "badgeId": "CSUNCC-20260526-0003",
-        "awardeeName": "Quin Neumeyer",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-26T18:57:55.710Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -16724,6 +16745,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Quin Neumeyer",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Dorna Basiratmand",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -16749,12 +16776,6 @@
       },
       {
         "awardeeName": "Natalie Howe",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Quin Neumeyer",
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 0
