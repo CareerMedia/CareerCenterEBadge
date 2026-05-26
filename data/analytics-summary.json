@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T18:46:17.539Z",
+  "updatedAt": "2026-05-26T18:46:49.174Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 197,
-    "certificateDownloads": 4,
+    "badgeViews": 199,
+    "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
     "conversionRate": 38,
-    "uniqueVisitorsApprox": 133
+    "uniqueVisitorsApprox": 134
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 134,
-      "certificateDownloads": 3,
+      "badgeViews": 136,
+      "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
-      "uniqueVisitorsApprox": 109,
+      "uniqueVisitorsApprox": 110,
       "conversionRate": 56.8
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 197,
-      "certificateDownloads": 4,
+      "badgeViews": 199,
+      "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
-      "uniqueVisitorsApprox": 133,
+      "uniqueVisitorsApprox": 134,
       "conversionRate": 38
     }
   ],
@@ -52,8 +52,8 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 195,
-      "certificateDownloads": 4,
+      "badgeViews": 197,
+      "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
       "conversionRate": 91.2
@@ -261,6 +261,18 @@
       "latestViewedAt": "2026-05-18T22:42:28.040Z"
     },
     {
+      "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
+      "badgeId": "CSUNCC-20260526-0001",
+      "awardeeName": "Minley Moradian",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-05-26T18:46:31.275Z"
+    },
+    {
       "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
       "badgeId": "CSUNCC-20260512-0013",
       "awardeeName": "Leslie Rodriguez",
@@ -307,18 +319,6 @@
       "badgeViews": 4,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:29:24.776Z"
-    },
-    {
-      "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
-      "badgeId": "CSUNCC-20260526-0001",
-      "awardeeName": "Minley Moradian",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-26T18:42:54.626Z"
     },
     {
       "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
@@ -429,6 +429,18 @@
       "latestViewedAt": "2026-05-26T18:41:49.280Z"
     },
     {
+      "slug": "dalia-picado-career-champion-csuncc-20250101-0005",
+      "badgeId": "CSUNCC-20250101-0005",
+      "awardeeName": "Dalia Picado",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-26T18:46:37.421Z"
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
       "badgeId": "CSUNCC-20260504-0005",
       "awardeeName": "Bryce Simon",
@@ -475,18 +487,6 @@
       "badgeViews": 2,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:16:37.302Z"
-    },
-    {
-      "slug": "dalia-picado-career-champion-csuncc-20250101-0005",
-      "badgeId": "CSUNCC-20250101-0005",
-      "awardeeName": "Dalia Picado",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-26T18:46:17.535Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -1054,6 +1054,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Minley Moradian",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Leslie Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 5,
@@ -1084,12 +1090,6 @@
       "certificateDownloads": 1
     },
     {
-      "awardeeName": "Minley Moradian",
-      "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0
-    },
-    {
       "awardeeName": "Jennifer Sandoval",
       "badgesIssued": 1,
       "badgeViews": 3,
@@ -1114,6 +1114,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Dalia Picado",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Jane Doe",
       "badgesIssued": 1,
       "badgeViews": 2,
@@ -1127,12 +1133,6 @@
     },
     {
       "awardeeName": "Natalie Howe",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Dalia Picado",
       "badgesIssued": 1,
       "badgeViews": 2,
       "certificateDownloads": 0
