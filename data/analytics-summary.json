@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T22:46:21.149Z",
+  "updatedAt": "2026-05-26T22:47:01.577Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 211,
+    "badgeViews": 213,
     "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
     "conversionRate": 38,
-    "uniqueVisitorsApprox": 143
+    "uniqueVisitorsApprox": 144
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 148,
+      "badgeViews": 150,
       "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
-      "uniqueVisitorsApprox": 119,
+      "uniqueVisitorsApprox": 120,
       "conversionRate": 56.8
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 211,
+      "badgeViews": 213,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
-      "uniqueVisitorsApprox": 143,
+      "uniqueVisitorsApprox": 144,
       "conversionRate": 38
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 209,
+      "badgeViews": 211,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
@@ -333,6 +333,18 @@
       "latestViewedAt": "2026-05-12T18:29:24.776Z"
     },
     {
+      "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
+      "badgeId": "CSUNCC-20250101-0006",
+      "awardeeName": "Dr. Conchita Battle",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 4,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-26T22:47:01.572Z"
+    },
+    {
       "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
       "badgeId": "CSUNCC-20260512-0019",
       "awardeeName": "Patricia Garcia-Ramirez",
@@ -499,18 +511,6 @@
       "badgeViews": 2,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:16:37.302Z"
-    },
-    {
-      "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
-      "badgeId": "CSUNCC-20250101-0006",
-      "awardeeName": "Dr. Conchita Battle",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-26T22:46:21.144Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -1096,6 +1096,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Dr. Conchita Battle",
+      "badgesIssued": 1,
+      "badgeViews": 4,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Jennifer Sandoval",
       "badgesIssued": 1,
       "badgeViews": 3,
@@ -1139,12 +1145,6 @@
     },
     {
       "awardeeName": "Natalie Howe",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Dr. Conchita Battle",
       "badgesIssued": 1,
       "badgeViews": 2,
       "certificateDownloads": 0
