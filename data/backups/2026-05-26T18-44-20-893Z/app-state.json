@@ -6162,101 +6162,6 @@
       "openBadgeJsonPath": "docs/badges/dalia-picado-career-champion-csuncc-20250101-0005/open-badge.json",
       "verifiableCredentialPath": "docs/badges/dalia-picado-career-champion-csuncc-20250101-0005/credential.json",
       "verificationHash": "3bed765a1e4b9a87857ed496de22bfe732af835cea9d33597d9c26377ae52d5e"
-    },
-    {
-      "id": "CSUNCC-20250101-0006",
-      "awardeeName": "Dr. Conchita Battle",
-      "awardeeEmail": "conchita.battle@csun.edu",
-      "issueDate": "January 1, 2025",
-      "issueDateISO": "2025-01-01",
-      "badgeTemplateId": "career-champion",
-      "badgeTitle": "Career Champion",
-      "badgeLabel": "Career Champion",
-      "description": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "publicSummary": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "meaning": "The CSUN Career Champions Badge is awarded to staff and faculty who have successfully completed the CSUN Career Center’s Career Champions program. Badge earners are recognized as dedicated CSUN professionals who actively integrate career development into their work with students.\r\n\r\nThrough this program, participants gain practical strategies to connect academic pathways with real-world opportunities, support student persistence, and guide students in their transition to meaningful careers. Career Champions are equipped with tools to enhance advising and student interactions—helping students build confidence in selecting majors, exploring career options, and planning for life after graduation.\r\n\r\nEarning this badge reflects a commitment to ongoing professional growth and to fostering a campus-wide culture where career readiness is a shared responsibility among faculty and staff.",
-      "criteria": "To earn this badge, participants must complete the Career Champions course, including all modules, activities, and assessments.",
-      "evidenceLabel": "Program Completion & Reflection",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "Pre- and post-program questionnaire responses\r\nParticipation verification from Career Champion sessions\r\nFollow-up survey responses demonstrating applied learning",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Development Integration",
-        "Student Advising & Support",
-        "Career Readiness Coaching",
-        "Academic-to-Career Alignment",
-        "Student Engagement & Persistence Strategies",
-        "Professional Communication",
-        "Leadership in Student Success"
-      ],
-      "standards": [
-        "NACE Career Readiness Competencies",
-        "NASPA/ACPA Professional Competencies for Student Affairs Educators"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "Cal State Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Issued directly by the CSUN Career Center and maintained in the official credential registry.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/badges/champion-badge.svg",
-      "certificateBackground": "assets/career-champ-cert.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/career-champ-cert.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 2000,
-          "y": 1400,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1150,
-          "y": 2150,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-05-26T18:44:42.793Z",
-      "source": "public-generator",
-      "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
-      "relativeUrl": "../badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
-      "relativeJsonUrl": "../badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
-      "repoPath": "docs/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/index.html",
-      "detailsJsonPath": "docs/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/details.json",
-      "openBadgeJsonPath": "docs/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/credential.json",
-      "verificationHash": "c94d9030244d99f6d1761193474344233c04d28729ec83d7526da9ab57ce0ec8"
     }
   ],
   "deletedBadges": [
@@ -14932,90 +14837,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "f6ec5096-304c-41c6-836e-a88b47ef38e3",
-      "type": "badge_issued",
-      "timestamp": "2026-05-26T18:44:42.793Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0006",
-      "badgeSlug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dr. Conchita Battle",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "d6b458d6-ceb4-436c-86b4-905b4002a82a",
-      "type": "generator_completed",
-      "timestamp": "2026-05-26T18:44:43.089Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0006",
-      "badgeSlug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dr. Conchita Battle",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "98c79a42-d05d-4e4f-aeb7-1ff1d0c9a26b",
-      "type": "badge_viewed",
-      "timestamp": "2026-05-26T18:46:10.123Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0005",
-      "badgeSlug": "dalia-picado-career-champion-csuncc-20250101-0005",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dalia Picado",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9fd19f16f65600b1595834d5",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "3ed3503d-65db-4bf9-86be-ca5090133b33",
-      "type": "badge_viewed",
-      "timestamp": "2026-05-26T18:46:17.535Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0005",
-      "badgeSlug": "dalia-picado-career-champion-csuncc-20250101-0005",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dalia Picado",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "3362e659cfaf0bbc94f1d6b3",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -15490,15 +15311,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T18:46:17.539Z",
+    "updatedAt": "2026-05-26T18:44:20.510Z",
     "totals": {
-      "badgesIssued": 71,
-      "badgeViews": 197,
+      "badgesIssued": 70,
+      "badgeViews": 195,
       "certificateDownloads": 4,
       "generatorOpens": 92,
-      "generatorCompletions": 35,
-      "conversionRate": 38,
-      "uniqueVisitorsApprox": 133
+      "generatorCompletions": 34,
+      "conversionRate": 37,
+      "uniqueVisitorsApprox": 131
     },
     "months": [
       {
@@ -15515,38 +15336,38 @@
       {
         "key": "2026-05",
         "label": "May 2026",
-        "badgesIssued": 52,
-        "badgeViews": 134,
+        "badgesIssued": 51,
+        "badgeViews": 132,
         "certificateDownloads": 3,
         "generatorOpens": 44,
-        "generatorCompletions": 25,
-        "uniqueVisitorsApprox": 109,
-        "conversionRate": 56.8
+        "generatorCompletions": 24,
+        "uniqueVisitorsApprox": 107,
+        "conversionRate": 54.5
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 71,
-        "badgeViews": 197,
+        "badgesIssued": 70,
+        "badgeViews": 195,
         "certificateDownloads": 4,
         "generatorOpens": 92,
-        "generatorCompletions": 35,
-        "uniqueVisitorsApprox": 133,
-        "conversionRate": 38
+        "generatorCompletions": 34,
+        "uniqueVisitorsApprox": 131,
+        "conversionRate": 37
       }
     ],
     "badgeTypes": [
       {
         "id": "career-champion",
         "title": "Career Champion",
-        "badgesIssued": 67,
-        "badgeViews": 195,
+        "badgesIssued": 66,
+        "badgeViews": 193,
         "certificateDownloads": 4,
         "generatorOpens": 34,
-        "generatorCompletions": 31,
-        "conversionRate": 91.2
+        "generatorCompletions": 30,
+        "conversionRate": 88.2
       },
       {
         "id": "career-activated",
@@ -15965,18 +15786,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:16:37.302Z"
-      },
-      {
-        "slug": "dalia-picado-career-champion-csuncc-20250101-0005",
-        "badgeId": "CSUNCC-20250101-0005",
-        "awardeeName": "Dalia Picado",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-26T18:46:17.535Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -16423,12 +16232,12 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
-        "badgeId": "CSUNCC-20250101-0006",
-        "awardeeName": "Dr. Conchita Battle",
+        "slug": "dalia-picado-career-champion-csuncc-20250101-0005",
+        "badgeId": "CSUNCC-20250101-0005",
+        "awardeeName": "Dalia Picado",
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
+        "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -16442,8 +16251,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 40,
-        "completions": 27,
-        "conversionRate": 67.5
+        "completions": 26,
+        "conversionRate": 65
       },
       {
         "key": "career-champion",
@@ -16622,12 +16431,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Dalia Picado",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -16754,7 +16557,7 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Dr. Conchita Battle",
+        "awardeeName": "Dalia Picado",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -14974,48 +14974,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "98c79a42-d05d-4e4f-aeb7-1ff1d0c9a26b",
-      "type": "badge_viewed",
-      "timestamp": "2026-05-26T18:46:10.123Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0005",
-      "badgeSlug": "dalia-picado-career-champion-csuncc-20250101-0005",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dalia Picado",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9fd19f16f65600b1595834d5",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "3ed3503d-65db-4bf9-86be-ca5090133b33",
-      "type": "badge_viewed",
-      "timestamp": "2026-05-26T18:46:17.535Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0005",
-      "badgeSlug": "dalia-picado-career-champion-csuncc-20250101-0005",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dalia Picado",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "3362e659cfaf0bbc94f1d6b3",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -15490,15 +15448,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T18:46:17.539Z",
+    "updatedAt": "2026-05-26T18:44:43.091Z",
     "totals": {
       "badgesIssued": 71,
-      "badgeViews": 197,
+      "badgeViews": 195,
       "certificateDownloads": 4,
       "generatorOpens": 92,
       "generatorCompletions": 35,
       "conversionRate": 38,
-      "uniqueVisitorsApprox": 133
+      "uniqueVisitorsApprox": 131
     },
     "months": [
       {
@@ -15516,11 +15474,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 52,
-        "badgeViews": 134,
+        "badgeViews": 132,
         "certificateDownloads": 3,
         "generatorOpens": 44,
         "generatorCompletions": 25,
-        "uniqueVisitorsApprox": 109,
+        "uniqueVisitorsApprox": 107,
         "conversionRate": 56.8
       }
     ],
@@ -15529,11 +15487,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 71,
-        "badgeViews": 197,
+        "badgeViews": 195,
         "certificateDownloads": 4,
         "generatorOpens": 92,
         "generatorCompletions": 35,
-        "uniqueVisitorsApprox": 133,
+        "uniqueVisitorsApprox": 131,
         "conversionRate": 38
       }
     ],
@@ -15542,7 +15500,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 67,
-        "badgeViews": 195,
+        "badgeViews": 193,
         "certificateDownloads": 4,
         "generatorOpens": 34,
         "generatorCompletions": 31,
@@ -15965,18 +15923,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:16:37.302Z"
-      },
-      {
-        "slug": "dalia-picado-career-champion-csuncc-20250101-0005",
-        "badgeId": "CSUNCC-20250101-0005",
-        "awardeeName": "Dalia Picado",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-26T18:46:17.535Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -16423,6 +16369,18 @@
         "latestViewedAt": ""
       },
       {
+        "slug": "dalia-picado-career-champion-csuncc-20250101-0005",
+        "badgeId": "CSUNCC-20250101-0005",
+        "awardeeName": "Dalia Picado",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
         "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
         "badgeId": "CSUNCC-20250101-0006",
         "awardeeName": "Dr. Conchita Battle",
@@ -16622,12 +16580,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Dalia Picado",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -16749,6 +16701,12 @@
       },
       {
         "awardeeName": "Ivania Fictoria",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Dalia Picado",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

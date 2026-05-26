@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T18:43:27.995Z",
+  "updatedAt": "2026-05-26T18:46:17.539Z",
   "totals": {
-    "badgesIssued": 69,
-    "badgeViews": 195,
+    "badgesIssued": 71,
+    "badgeViews": 197,
     "certificateDownloads": 4,
     "generatorOpens": 92,
-    "generatorCompletions": 33,
-    "conversionRate": 35.9,
-    "uniqueVisitorsApprox": 131
+    "generatorCompletions": 35,
+    "conversionRate": 38,
+    "uniqueVisitorsApprox": 133
   },
   "months": [
     {
@@ -25,38 +25,38 @@
     {
       "key": "2026-05",
       "label": "May 2026",
-      "badgesIssued": 50,
-      "badgeViews": 132,
+      "badgesIssued": 52,
+      "badgeViews": 134,
       "certificateDownloads": 3,
       "generatorOpens": 44,
-      "generatorCompletions": 23,
-      "uniqueVisitorsApprox": 107,
-      "conversionRate": 52.3
+      "generatorCompletions": 25,
+      "uniqueVisitorsApprox": 109,
+      "conversionRate": 56.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 69,
-      "badgeViews": 195,
+      "badgesIssued": 71,
+      "badgeViews": 197,
       "certificateDownloads": 4,
       "generatorOpens": 92,
-      "generatorCompletions": 33,
-      "uniqueVisitorsApprox": 131,
-      "conversionRate": 35.9
+      "generatorCompletions": 35,
+      "uniqueVisitorsApprox": 133,
+      "conversionRate": 38
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 65,
-      "badgeViews": 193,
+      "badgesIssued": 67,
+      "badgeViews": 195,
       "certificateDownloads": 4,
       "generatorOpens": 34,
-      "generatorCompletions": 29,
-      "conversionRate": 85.3
+      "generatorCompletions": 31,
+      "conversionRate": 91.2
     },
     {
       "id": "career-activated",
@@ -475,6 +475,18 @@
       "badgeViews": 2,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:16:37.302Z"
+    },
+    {
+      "slug": "dalia-picado-career-champion-csuncc-20250101-0005",
+      "badgeId": "CSUNCC-20250101-0005",
+      "awardeeName": "Dalia Picado",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dalia-picado-career-champion-csuncc-20250101-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-26T18:46:17.535Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -919,6 +931,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
+      "badgeId": "CSUNCC-20250101-0006",
+      "awardeeName": "Dr. Conchita Battle",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -928,8 +952,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 40,
-      "completions": 25,
-      "conversionRate": 62.5
+      "completions": 27,
+      "conversionRate": 67.5
     },
     {
       "key": "career-champion",
@@ -1108,6 +1132,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Dalia Picado",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -1229,6 +1259,12 @@
     },
     {
       "awardeeName": "Ivania Fictoria",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Dr. Conchita Battle",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
