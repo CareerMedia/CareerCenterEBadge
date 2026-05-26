@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T19:21:03.223Z",
+  "updatedAt": "2026-05-26T21:13:07.964Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 207,
+    "badgeViews": 208,
     "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
     "conversionRate": 38,
-    "uniqueVisitorsApprox": 140
+    "uniqueVisitorsApprox": 141
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 144,
+      "badgeViews": 145,
       "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
-      "uniqueVisitorsApprox": 116,
+      "uniqueVisitorsApprox": 117,
       "conversionRate": 56.8
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 207,
+      "badgeViews": 208,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
-      "uniqueVisitorsApprox": 140,
+      "uniqueVisitorsApprox": 141,
       "conversionRate": 38
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 205,
+      "badgeViews": 206,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
@@ -165,6 +165,18 @@
       "latestViewedAt": "2026-05-13T03:19:58.473Z"
     },
     {
+      "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
+      "badgeId": "CSUNCC-20260526-0001",
+      "awardeeName": "Minley Moradian",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 7,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-05-26T21:13:07.942Z"
+    },
+    {
       "slug": "emalie-mendoza-career-champion-csuncc-20260512-0004",
       "badgeId": "CSUNCC-20260512-0004",
       "awardeeName": "Emalie Mendoza",
@@ -187,18 +199,6 @@
       "badgeViews": 6,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-05-13T16:05:12.966Z"
-    },
-    {
-      "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
-      "badgeId": "CSUNCC-20260526-0001",
-      "awardeeName": "Minley Moradian",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 6,
-      "certificateDownloads": 1,
-      "latestViewedAt": "2026-05-26T18:59:15.292Z"
     },
     {
       "slug": "bri-career-champion-csuncc-20260407-0002",
@@ -1018,6 +1018,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Minley Moradian",
+      "badgesIssued": 1,
+      "badgeViews": 7,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Emalie Mendoza",
       "badgesIssued": 1,
       "badgeViews": 7,
@@ -1025,12 +1031,6 @@
     },
     {
       "awardeeName": "Odette Arman",
-      "badgesIssued": 1,
-      "badgeViews": 6,
-      "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Minley Moradian",
       "badgesIssued": 1,
       "badgeViews": 6,
       "certificateDownloads": 1
