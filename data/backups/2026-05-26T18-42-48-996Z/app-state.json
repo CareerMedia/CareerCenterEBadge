@@ -5972,101 +5972,6 @@
       "openBadgeJsonPath": "docs/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/open-badge.json",
       "verifiableCredentialPath": "docs/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/credential.json",
       "verificationHash": "c9a27c6bfac53d1ab555be6909b7e5b62fcc4156370b2a31ecf6cc8199df24f6"
-    },
-    {
-      "id": "CSUNCC-20250101-0004",
-      "awardeeName": "Ivania Fictoria",
-      "awardeeEmail": "ivania.fictoria@csun.edu",
-      "issueDate": "January 1, 2025",
-      "issueDateISO": "2025-01-01",
-      "badgeTemplateId": "career-champion",
-      "badgeTitle": "Career Champion",
-      "badgeLabel": "Career Champion",
-      "description": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "publicSummary": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "meaning": "The CSUN Career Champions Badge is awarded to staff and faculty who have successfully completed the CSUN Career Center’s Career Champions program. Badge earners are recognized as dedicated CSUN professionals who actively integrate career development into their work with students.\r\n\r\nThrough this program, participants gain practical strategies to connect academic pathways with real-world opportunities, support student persistence, and guide students in their transition to meaningful careers. Career Champions are equipped with tools to enhance advising and student interactions—helping students build confidence in selecting majors, exploring career options, and planning for life after graduation.\r\n\r\nEarning this badge reflects a commitment to ongoing professional growth and to fostering a campus-wide culture where career readiness is a shared responsibility among faculty and staff.",
-      "criteria": "To earn this badge, participants must complete the Career Champions course, including all modules, activities, and assessments.",
-      "evidenceLabel": "Program Completion & Reflection",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "Pre- and post-program questionnaire responses\r\nParticipation verification from Career Champion sessions\r\nFollow-up survey responses demonstrating applied learning",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Development Integration",
-        "Student Advising & Support",
-        "Career Readiness Coaching",
-        "Academic-to-Career Alignment",
-        "Student Engagement & Persistence Strategies",
-        "Professional Communication",
-        "Leadership in Student Success"
-      ],
-      "standards": [
-        "NACE Career Readiness Competencies",
-        "NASPA/ACPA Professional Competencies for Student Affairs Educators"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "Cal State Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Issued directly by the CSUN Career Center and maintained in the official credential registry.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/badges/champion-badge.svg",
-      "certificateBackground": "assets/career-champ-cert.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/career-champ-cert.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 2000,
-          "y": 1400,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1150,
-          "y": 2150,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-05-26T18:43:27.692Z",
-      "source": "public-generator",
-      "slug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
-      "relativeUrl": "../badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
-      "relativeJsonUrl": "../badges/ivania-fictoria-career-champion-csuncc-20250101-0004/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
-      "repoPath": "docs/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/index.html",
-      "detailsJsonPath": "docs/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/details.json",
-      "openBadgeJsonPath": "docs/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/credential.json",
-      "verificationHash": "63185deb946b32d2f11c8350eab9818d78c800600eddb6982549c7189d71c2d1"
     }
   ],
   "deletedBadges": [
@@ -14637,69 +14542,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "405252a7-ffbc-40e1-8fb7-1ff3eaf69844",
-      "type": "badge_viewed",
-      "timestamp": "2026-05-26T18:42:54.626Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260526-0001",
-      "badgeSlug": "minley-moradian-career-champion-csuncc-20260526-0001",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Minley Moradian",
-      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "195af84abbafdb42ec16bb3a",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "4f2d3c8a-5680-408e-ba67-03d010cc84cc",
-      "type": "badge_issued",
-      "timestamp": "2026-05-26T18:43:27.692Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0004",
-      "badgeSlug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Ivania Fictoria",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "1a01e776-80ad-41a0-98f1-046d5ce7a5d7",
-      "type": "generator_completed",
-      "timestamp": "2026-05-26T18:43:27.993Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0004",
-      "badgeSlug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Ivania Fictoria",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -15174,15 +15016,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T18:43:27.995Z",
+    "updatedAt": "2026-05-26T18:42:48.697Z",
     "totals": {
-      "badgesIssued": 69,
-      "badgeViews": 195,
+      "badgesIssued": 68,
+      "badgeViews": 194,
       "certificateDownloads": 4,
       "generatorOpens": 92,
-      "generatorCompletions": 33,
-      "conversionRate": 35.9,
-      "uniqueVisitorsApprox": 131
+      "generatorCompletions": 32,
+      "conversionRate": 34.8,
+      "uniqueVisitorsApprox": 130
     },
     "months": [
       {
@@ -15199,38 +15041,38 @@
       {
         "key": "2026-05",
         "label": "May 2026",
-        "badgesIssued": 50,
-        "badgeViews": 132,
+        "badgesIssued": 49,
+        "badgeViews": 131,
         "certificateDownloads": 3,
         "generatorOpens": 44,
-        "generatorCompletions": 23,
-        "uniqueVisitorsApprox": 107,
-        "conversionRate": 52.3
+        "generatorCompletions": 22,
+        "uniqueVisitorsApprox": 106,
+        "conversionRate": 50
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 69,
-        "badgeViews": 195,
+        "badgesIssued": 68,
+        "badgeViews": 194,
         "certificateDownloads": 4,
         "generatorOpens": 92,
-        "generatorCompletions": 33,
-        "uniqueVisitorsApprox": 131,
-        "conversionRate": 35.9
+        "generatorCompletions": 32,
+        "uniqueVisitorsApprox": 130,
+        "conversionRate": 34.8
       }
     ],
     "badgeTypes": [
       {
         "id": "career-champion",
         "title": "Career Champion",
-        "badgesIssued": 65,
-        "badgeViews": 193,
+        "badgesIssued": 64,
+        "badgeViews": 192,
         "certificateDownloads": 4,
         "generatorOpens": 34,
-        "generatorCompletions": 29,
-        "conversionRate": 85.3
+        "generatorCompletions": 28,
+        "conversionRate": 82.4
       },
       {
         "id": "career-activated",
@@ -15483,18 +15325,6 @@
         "latestViewedAt": "2026-05-12T18:29:24.776Z"
       },
       {
-        "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
-        "badgeId": "CSUNCC-20260526-0001",
-        "awardeeName": "Minley Moradian",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-26T18:42:54.626Z"
-      },
-      {
         "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
         "badgeId": "CSUNCC-20260512-0019",
         "awardeeName": "Patricia Garcia-Ramirez",
@@ -15589,6 +15419,18 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:23:15.496Z"
+      },
+      {
+        "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
+        "badgeId": "CSUNCC-20260526-0001",
+        "awardeeName": "Minley Moradian",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-26T18:42:33.209Z"
       },
       {
         "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
@@ -16081,18 +15923,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
-      },
-      {
-        "slug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
-        "badgeId": "CSUNCC-20250101-0004",
-        "awardeeName": "Ivania Fictoria",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -16102,8 +15932,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 40,
-        "completions": 25,
-        "conversionRate": 62.5
+        "completions": 24,
+        "conversionRate": 60
       },
       {
         "key": "career-champion",
@@ -16234,12 +16064,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Minley Moradian",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Jennifer Sandoval",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -16253,6 +16077,12 @@
       },
       {
         "awardeeName": "Stephanie Colman",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Minley Moradian",
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 0
@@ -16397,12 +16227,6 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Ivania Fictoria",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T18:41:56.898Z",
+  "updatedAt": "2026-05-26T18:43:27.995Z",
   "totals": {
-    "badgesIssued": 66,
-    "badgeViews": 192,
+    "badgesIssued": 69,
+    "badgeViews": 195,
     "certificateDownloads": 4,
     "generatorOpens": 92,
-    "generatorCompletions": 30,
-    "conversionRate": 32.6,
-    "uniqueVisitorsApprox": 128
+    "generatorCompletions": 33,
+    "conversionRate": 35.9,
+    "uniqueVisitorsApprox": 131
   },
   "months": [
     {
@@ -25,38 +25,38 @@
     {
       "key": "2026-05",
       "label": "May 2026",
-      "badgesIssued": 47,
-      "badgeViews": 129,
+      "badgesIssued": 50,
+      "badgeViews": 132,
       "certificateDownloads": 3,
       "generatorOpens": 44,
-      "generatorCompletions": 20,
-      "uniqueVisitorsApprox": 104,
-      "conversionRate": 45.5
+      "generatorCompletions": 23,
+      "uniqueVisitorsApprox": 107,
+      "conversionRate": 52.3
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 66,
-      "badgeViews": 192,
+      "badgesIssued": 69,
+      "badgeViews": 195,
       "certificateDownloads": 4,
       "generatorOpens": 92,
-      "generatorCompletions": 30,
-      "uniqueVisitorsApprox": 128,
-      "conversionRate": 32.6
+      "generatorCompletions": 33,
+      "uniqueVisitorsApprox": 131,
+      "conversionRate": 35.9
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 62,
-      "badgeViews": 190,
+      "badgesIssued": 65,
+      "badgeViews": 193,
       "certificateDownloads": 4,
       "generatorOpens": 34,
-      "generatorCompletions": 26,
-      "conversionRate": 76.5
+      "generatorCompletions": 29,
+      "conversionRate": 85.3
     },
     {
       "id": "career-activated",
@@ -309,6 +309,18 @@
       "latestViewedAt": "2026-05-12T18:29:24.776Z"
     },
     {
+      "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
+      "badgeId": "CSUNCC-20260526-0001",
+      "awardeeName": "Minley Moradian",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 4,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-26T18:42:54.626Z"
+    },
+    {
       "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
       "badgeId": "CSUNCC-20260512-0019",
       "awardeeName": "Patricia Garcia-Ramirez",
@@ -559,18 +571,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-22T19:36:35.271Z"
-    },
-    {
-      "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
-      "badgeId": "CSUNCC-20260526-0001",
-      "awardeeName": "Minley Moradian",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-26T18:37:41.943Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -883,6 +883,42 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "geraldine-sare-career-champion-csuncc-20250101-0002",
+      "badgeId": "CSUNCC-20250101-0002",
+      "awardeeName": "Geraldine Sare",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/geraldine-sare-career-champion-csuncc-20250101-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "antonio-gonzalez-career-champion-csuncc-20250101-0003",
+      "badgeId": "CSUNCC-20250101-0003",
+      "awardeeName": "Antonio Gonzalez",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
+      "badgeId": "CSUNCC-20250101-0004",
+      "awardeeName": "Ivania Fictoria",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -892,8 +928,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 40,
-      "completions": 22,
-      "conversionRate": 55
+      "completions": 25,
+      "conversionRate": 62.5
     },
     {
       "key": "career-champion",
@@ -1024,6 +1060,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Minley Moradian",
+      "badgesIssued": 1,
+      "badgeViews": 4,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Jennifer Sandoval",
       "badgesIssued": 1,
       "badgeViews": 3,
@@ -1102,12 +1144,6 @@
       "certificateDownloads": 0
     },
     {
-      "awardeeName": "Minley Moradian",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0
-    },
-    {
       "awardeeName": "Harsh Ahir",
       "badgesIssued": 1,
       "badgeViews": 0,
@@ -1175,6 +1211,24 @@
     },
     {
       "awardeeName": "Amanda Bradstock-Waitz",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Geraldine Sare",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Antonio Gonzalez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Ivania Fictoria",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
