@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T18:40:17.897Z",
+  "updatedAt": "2026-05-26T18:41:56.898Z",
   "totals": {
-    "badgesIssued": 64,
-    "badgeViews": 189,
+    "badgesIssued": 66,
+    "badgeViews": 192,
     "certificateDownloads": 4,
     "generatorOpens": 92,
-    "generatorCompletions": 28,
-    "conversionRate": 30.4,
-    "uniqueVisitorsApprox": 125
+    "generatorCompletions": 30,
+    "conversionRate": 32.6,
+    "uniqueVisitorsApprox": 128
   },
   "months": [
     {
@@ -25,38 +25,38 @@
     {
       "key": "2026-05",
       "label": "May 2026",
-      "badgesIssued": 45,
-      "badgeViews": 126,
+      "badgesIssued": 47,
+      "badgeViews": 129,
       "certificateDownloads": 3,
       "generatorOpens": 44,
-      "generatorCompletions": 18,
-      "uniqueVisitorsApprox": 101,
-      "conversionRate": 40.9
+      "generatorCompletions": 20,
+      "uniqueVisitorsApprox": 104,
+      "conversionRate": 45.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 64,
-      "badgeViews": 189,
+      "badgesIssued": 66,
+      "badgeViews": 192,
       "certificateDownloads": 4,
       "generatorOpens": 92,
-      "generatorCompletions": 28,
-      "uniqueVisitorsApprox": 125,
-      "conversionRate": 30.4
+      "generatorCompletions": 30,
+      "uniqueVisitorsApprox": 128,
+      "conversionRate": 32.6
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 60,
-      "badgeViews": 187,
+      "badgesIssued": 62,
+      "badgeViews": 190,
       "certificateDownloads": 4,
       "generatorOpens": 34,
-      "generatorCompletions": 24,
-      "conversionRate": 70.6
+      "generatorCompletions": 26,
+      "conversionRate": 76.5
     },
     {
       "id": "career-activated",
@@ -403,6 +403,18 @@
       "badgeViews": 3,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:23:15.496Z"
+    },
+    {
+      "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
+      "badgeId": "CSUNCC-20260526-0005",
+      "awardeeName": "Dorna Basiratmand",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-26T18:41:49.280Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
@@ -849,12 +861,24 @@
       "latestViewedAt": ""
     },
     {
-      "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
-      "badgeId": "CSUNCC-20260526-0005",
-      "awardeeName": "Dorna Basiratmand",
+      "slug": "genesis-lozano-career-champion-csuncc-20260526-0006",
+      "badgeId": "CSUNCC-20260526-0006",
+      "awardeeName": "Genesis Lozano",
       "badgeTitle": "Career Champion",
       "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
+      "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "amanda-bradstock-waitz-career-champion-csuncc-20250101-0001",
+      "badgeId": "CSUNCC-20250101-0001",
+      "awardeeName": "Amanda Bradstock-Waitz",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0,
@@ -868,8 +892,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 40,
-      "completions": 20,
-      "conversionRate": 50
+      "completions": 22,
+      "conversionRate": 55
     },
     {
       "key": "career-champion",
@@ -1018,9 +1042,21 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Dorna Basiratmand",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Jane Doe",
       "badgesIssued": 1,
       "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Genesis Lozano",
+      "badgesIssued": 2,
+      "badgeViews": 1,
       "certificateDownloads": 0
     },
     {
@@ -1043,12 +1079,6 @@
     },
     {
       "awardeeName": "Nyla Dalferes",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Genesis Lozano",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
@@ -1144,7 +1174,7 @@
       "certificateDownloads": 0
     },
     {
-      "awardeeName": "Dorna Basiratmand",
+      "awardeeName": "Amanda Bradstock-Waitz",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0

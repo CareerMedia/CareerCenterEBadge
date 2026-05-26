@@ -5687,101 +5687,6 @@
       "openBadgeJsonPath": "docs/badges/genesis-lozano-career-champion-csuncc-20260526-0006/open-badge.json",
       "verifiableCredentialPath": "docs/badges/genesis-lozano-career-champion-csuncc-20260526-0006/credential.json",
       "verificationHash": "a56bd2e976664ce583e7c0a5e19039e8c05465088c54a72d1dba15632e5574be"
-    },
-    {
-      "id": "CSUNCC-20250101-0001",
-      "awardeeName": "Amanda Bradstock-Waitz",
-      "awardeeEmail": "amanda@csun.edu",
-      "issueDate": "January 1, 2025",
-      "issueDateISO": "2025-01-01",
-      "badgeTemplateId": "career-champion",
-      "badgeTitle": "Career Champion",
-      "badgeLabel": "Career Champion",
-      "description": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "publicSummary": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "meaning": "The CSUN Career Champions Badge is awarded to staff and faculty who have successfully completed the CSUN Career Center’s Career Champions program. Badge earners are recognized as dedicated CSUN professionals who actively integrate career development into their work with students.\r\n\r\nThrough this program, participants gain practical strategies to connect academic pathways with real-world opportunities, support student persistence, and guide students in their transition to meaningful careers. Career Champions are equipped with tools to enhance advising and student interactions—helping students build confidence in selecting majors, exploring career options, and planning for life after graduation.\r\n\r\nEarning this badge reflects a commitment to ongoing professional growth and to fostering a campus-wide culture where career readiness is a shared responsibility among faculty and staff.",
-      "criteria": "To earn this badge, participants must complete the Career Champions course, including all modules, activities, and assessments.",
-      "evidenceLabel": "Program Completion & Reflection",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "Pre- and post-program questionnaire responses\r\nParticipation verification from Career Champion sessions\r\nFollow-up survey responses demonstrating applied learning",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Development Integration",
-        "Student Advising & Support",
-        "Career Readiness Coaching",
-        "Academic-to-Career Alignment",
-        "Student Engagement & Persistence Strategies",
-        "Professional Communication",
-        "Leadership in Student Success"
-      ],
-      "standards": [
-        "NACE Career Readiness Competencies",
-        "NASPA/ACPA Professional Competencies for Student Affairs Educators"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "Cal State Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Issued directly by the CSUN Career Center and maintained in the official credential registry.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/badges/champion-badge.svg",
-      "certificateBackground": "assets/career-champ-cert.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/career-champ-cert.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 2000,
-          "y": 1400,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1150,
-          "y": 2150,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-05-26T18:41:56.492Z",
-      "source": "public-generator",
-      "slug": "amanda-bradstock-waitz-career-champion-csuncc-20250101-0001",
-      "relativeUrl": "../badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/",
-      "relativeJsonUrl": "../badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/",
-      "repoPath": "docs/badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/index.html",
-      "detailsJsonPath": "docs/badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/details.json",
-      "openBadgeJsonPath": "docs/badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/credential.json",
-      "verificationHash": "6f5c856292a4710f37599d188da8af26a676ef9b3f739423d3f5b4fdd752658e"
     }
   ],
   "deletedBadges": [
@@ -14121,111 +14026,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "55c27056-c15b-40da-a8f3-ae4a456f0203",
-      "type": "badge_viewed",
-      "timestamp": "2026-05-26T18:41:29.214Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260526-0005",
-      "badgeSlug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dorna Basiratmand",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d04a42d21003b476907bc614",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "2f854973-2adf-4b64-8a79-29b1310e52fe",
-      "type": "badge_viewed",
-      "timestamp": "2026-05-26T18:41:38.790Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260526-0005",
-      "badgeSlug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dorna Basiratmand",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "eb49426b5d079d82a67e458d",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "702bf45e-a745-4147-b036-b73ef7761aed",
-      "type": "badge_viewed",
-      "timestamp": "2026-05-26T18:41:49.280Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260526-0005",
-      "badgeSlug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dorna Basiratmand",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "a927acf9c419b09e13f9db4c",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "46f41bad-bcee-442f-a0eb-d4559d1e6878",
-      "type": "badge_issued",
-      "timestamp": "2026-05-26T18:41:56.492Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0001",
-      "badgeSlug": "amanda-bradstock-waitz-career-champion-csuncc-20250101-0001",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Amanda Bradstock-Waitz",
-      "publicUrl": "https://careerbadge.csun.edu/badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "05bde992-1c06-473d-8ed8-d02dd7c63d7c",
-      "type": "generator_completed",
-      "timestamp": "2026-05-26T18:41:56.896Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20250101-0001",
-      "badgeSlug": "amanda-bradstock-waitz-career-champion-csuncc-20250101-0001",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Amanda Bradstock-Waitz",
-      "publicUrl": "https://careerbadge.csun.edu/badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -14700,15 +14500,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T18:41:56.898Z",
+    "updatedAt": "2026-05-26T18:40:34.202Z",
     "totals": {
-      "badgesIssued": 66,
-      "badgeViews": 192,
+      "badgesIssued": 65,
+      "badgeViews": 189,
       "certificateDownloads": 4,
       "generatorOpens": 92,
-      "generatorCompletions": 30,
-      "conversionRate": 32.6,
-      "uniqueVisitorsApprox": 128
+      "generatorCompletions": 29,
+      "conversionRate": 31.5,
+      "uniqueVisitorsApprox": 125
     },
     "months": [
       {
@@ -14725,38 +14525,38 @@
       {
         "key": "2026-05",
         "label": "May 2026",
-        "badgesIssued": 47,
-        "badgeViews": 129,
+        "badgesIssued": 46,
+        "badgeViews": 126,
         "certificateDownloads": 3,
         "generatorOpens": 44,
-        "generatorCompletions": 20,
-        "uniqueVisitorsApprox": 104,
-        "conversionRate": 45.5
+        "generatorCompletions": 19,
+        "uniqueVisitorsApprox": 101,
+        "conversionRate": 43.2
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 66,
-        "badgeViews": 192,
+        "badgesIssued": 65,
+        "badgeViews": 189,
         "certificateDownloads": 4,
         "generatorOpens": 92,
-        "generatorCompletions": 30,
-        "uniqueVisitorsApprox": 128,
-        "conversionRate": 32.6
+        "generatorCompletions": 29,
+        "uniqueVisitorsApprox": 125,
+        "conversionRate": 31.5
       }
     ],
     "badgeTypes": [
       {
         "id": "career-champion",
         "title": "Career Champion",
-        "badgesIssued": 62,
-        "badgeViews": 190,
+        "badgesIssued": 61,
+        "badgeViews": 187,
         "certificateDownloads": 4,
         "generatorOpens": 34,
-        "generatorCompletions": 26,
-        "conversionRate": 76.5
+        "generatorCompletions": 25,
+        "conversionRate": 73.5
       },
       {
         "id": "career-activated",
@@ -15103,18 +14903,6 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:23:15.496Z"
-      },
-      {
-        "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
-        "badgeId": "CSUNCC-20260526-0005",
-        "awardeeName": "Dorna Basiratmand",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-26T18:41:49.280Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
@@ -15561,24 +15349,24 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "genesis-lozano-career-champion-csuncc-20260526-0006",
-        "badgeId": "CSUNCC-20260526-0006",
-        "awardeeName": "Genesis Lozano",
+        "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
+        "badgeId": "CSUNCC-20260526-0005",
+        "awardeeName": "Dorna Basiratmand",
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
+        "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
       },
       {
-        "slug": "amanda-bradstock-waitz-career-champion-csuncc-20250101-0001",
-        "badgeId": "CSUNCC-20250101-0001",
-        "awardeeName": "Amanda Bradstock-Waitz",
+        "slug": "genesis-lozano-career-champion-csuncc-20260526-0006",
+        "badgeId": "CSUNCC-20260526-0006",
+        "awardeeName": "Genesis Lozano",
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/amanda-bradstock-waitz-career-champion-csuncc-20250101-0001/",
+        "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -15592,8 +15380,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 40,
-        "completions": 22,
-        "conversionRate": 55
+        "completions": 21,
+        "conversionRate": 52.5
       },
       {
         "key": "career-champion",
@@ -15742,12 +15530,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Dorna Basiratmand",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Jane Doe",
         "badgesIssued": 1,
         "badgeViews": 2,
@@ -15874,7 +15656,7 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Amanda Bradstock-Waitz",
+        "awardeeName": "Dorna Basiratmand",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

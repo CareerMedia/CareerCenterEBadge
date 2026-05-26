@@ -2,6 +2,44 @@
   "version": 1,
   "backups": [
     {
+      "backupId": "2026-05-26T18-41-57-194Z",
+      "reason": "Issued badge CSUNCC-20250101-0001",
+      "actor": "admin",
+      "createdAt": "2026-05-26T18:41:57.196Z",
+      "counts": {
+        "badges": 66,
+        "deletedBadges": 2,
+        "templates": 2
+      },
+      "hashes": {
+        "appState": "d4fcb4f01eb1c6ee051f4c030b315a03cccb3a1db1580aa85109cd5a9c9e929a",
+        "badgeLinksCsv": "1fe5860665ba7148f4ed74d101dc76e1a3f6c32160256fd40f42ec95adb10b2a"
+      },
+      "files": {
+        "appState": "data/backups/2026-05-26T18-41-57-194Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-05-26T18-41-57-194Z/badge-links.csv"
+      }
+    },
+    {
+      "backupId": "2026-05-26T18-40-34-489Z",
+      "reason": "Issued badge CSUNCC-20260526-0006",
+      "actor": "admin",
+      "createdAt": "2026-05-26T18:40:34.491Z",
+      "counts": {
+        "badges": 65,
+        "deletedBadges": 2,
+        "templates": 2
+      },
+      "hashes": {
+        "appState": "43df9e27d9f3e91d2ae451e013a6182bec37400f73032efcc45288f19d334d15",
+        "badgeLinksCsv": "d38cb7bea0e452234a54a26f4c2889f5fa4ce6eee031918a30711a616be13cb6"
+      },
+      "files": {
+        "appState": "data/backups/2026-05-26T18-40-34-489Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-05-26T18-40-34-489Z/badge-links.csv"
+      }
+    },
+    {
       "backupId": "2026-05-26T18-40-18-199Z",
       "reason": "Issued badge CSUNCC-20260526-0005",
       "actor": "admin",
