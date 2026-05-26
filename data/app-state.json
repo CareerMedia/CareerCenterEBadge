@@ -15079,6 +15079,69 @@
       "requestPath": "/api/analytics/track",
       "context": "badge-certificate-download",
       "meta": {}
+    },
+    {
+      "id": "cc238b97-5846-4ce6-becd-b24e442062eb",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-26T18:57:53.096Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0003",
+      "badgeSlug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Quin Neumeyer",
+      "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "fd10c70f738ca0306edae101",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "1f9d4f87-b588-4e6a-a580-7be8e2fc81e6",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-26T18:57:55.710Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0003",
+      "badgeSlug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Quin Neumeyer",
+      "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "6a23e1c2363025d4e9d7eabb",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "de678fa3-548a-4a07-8d7d-12780f0da660",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-26T18:59:15.292Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0001",
+      "badgeSlug": "minley-moradian-career-champion-csuncc-20260526-0001",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Minley Moradian",
+      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "e268e90ed729addc4912d475",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -15553,15 +15616,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T18:46:49.174Z",
+    "updatedAt": "2026-05-26T18:59:15.294Z",
     "totals": {
       "badgesIssued": 71,
-      "badgeViews": 199,
+      "badgeViews": 202,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
       "conversionRate": 38,
-      "uniqueVisitorsApprox": 134
+      "uniqueVisitorsApprox": 137
     },
     "months": [
       {
@@ -15579,11 +15642,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 52,
-        "badgeViews": 136,
+        "badgeViews": 139,
         "certificateDownloads": 4,
         "generatorOpens": 44,
         "generatorCompletions": 25,
-        "uniqueVisitorsApprox": 110,
+        "uniqueVisitorsApprox": 113,
         "conversionRate": 56.8
       }
     ],
@@ -15592,11 +15655,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 71,
-        "badgeViews": 199,
+        "badgeViews": 202,
         "certificateDownloads": 5,
         "generatorOpens": 92,
         "generatorCompletions": 35,
-        "uniqueVisitorsApprox": 134,
+        "uniqueVisitorsApprox": 137,
         "conversionRate": 38
       }
     ],
@@ -15605,7 +15668,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 67,
-        "badgeViews": 197,
+        "badgeViews": 200,
         "certificateDownloads": 5,
         "generatorOpens": 34,
         "generatorCompletions": 31,
@@ -15742,6 +15805,18 @@
         "latestViewedAt": "2026-05-13T16:05:12.966Z"
       },
       {
+        "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
+        "badgeId": "CSUNCC-20260526-0001",
+        "awardeeName": "Minley Moradian",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 6,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-05-26T18:59:15.292Z"
+      },
+      {
         "slug": "bri-career-champion-csuncc-20260407-0002",
         "badgeId": "CSUNCC-20260407-0002",
         "awardeeName": "Bri",
@@ -15812,18 +15887,6 @@
         "badgeViews": 5,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-05-18T22:42:28.040Z"
-      },
-      {
-        "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
-        "badgeId": "CSUNCC-20260526-0001",
-        "awardeeName": "Minley Moradian",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 5,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-05-26T18:46:31.275Z"
       },
       {
         "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
@@ -16040,6 +16103,18 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:16:37.302Z"
+      },
+      {
+        "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+        "badgeId": "CSUNCC-20260526-0003",
+        "awardeeName": "Quin Neumeyer",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-26T18:57:55.710Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -16402,18 +16477,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
-        "badgeId": "CSUNCC-20260526-0003",
-        "awardeeName": "Quin Neumeyer",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "jonathan-b-martinez-career-champion-csuncc-20260526-0004",
         "badgeId": "CSUNCC-20260526-0004",
         "awardeeName": "Jonathan B. Martinez",
@@ -16583,6 +16646,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Minley Moradian",
+        "badgesIssued": 1,
+        "badgeViews": 6,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Brianna Fuente",
         "badgesIssued": 1,
         "badgeViews": 6,
@@ -16605,12 +16674,6 @@
         "badgesIssued": 1,
         "badgeViews": 6,
         "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Minley Moradian",
-        "badgesIssued": 1,
-        "badgeViews": 5,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Leslie Rodriguez",
@@ -16686,6 +16749,12 @@
       },
       {
         "awardeeName": "Natalie Howe",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Quin Neumeyer",
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 0
@@ -16776,12 +16845,6 @@
       },
       {
         "awardeeName": "Baldemar Soto",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Quin Neumeyer",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
