@@ -15226,6 +15226,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "f494c0a7-9c0e-47f9-a2cf-32fe1888ff00",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-26T19:21:03.219Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20250101-0004",
+      "badgeSlug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Ivania Fictoria",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "c1b9a09f5dcfcea4958e685b",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -15700,15 +15721,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T19:14:11.483Z",
+    "updatedAt": "2026-05-26T19:21:03.223Z",
     "totals": {
       "badgesIssued": 71,
-      "badgeViews": 206,
+      "badgeViews": 207,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
       "conversionRate": 38,
-      "uniqueVisitorsApprox": 139
+      "uniqueVisitorsApprox": 140
     },
     "months": [
       {
@@ -15726,11 +15747,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 52,
-        "badgeViews": 143,
+        "badgeViews": 144,
         "certificateDownloads": 4,
         "generatorOpens": 44,
         "generatorCompletions": 25,
-        "uniqueVisitorsApprox": 115,
+        "uniqueVisitorsApprox": 116,
         "conversionRate": 56.8
       }
     ],
@@ -15739,11 +15760,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 71,
-        "badgeViews": 206,
+        "badgeViews": 207,
         "certificateDownloads": 5,
         "generatorOpens": 92,
         "generatorCompletions": 35,
-        "uniqueVisitorsApprox": 139,
+        "uniqueVisitorsApprox": 140,
         "conversionRate": 38
       }
     ],
@@ -15752,7 +15773,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 67,
-        "badgeViews": 204,
+        "badgeViews": 205,
         "certificateDownloads": 5,
         "generatorOpens": 34,
         "generatorCompletions": 31,
@@ -16297,6 +16318,18 @@
         "latestViewedAt": "2026-05-22T19:36:35.271Z"
       },
       {
+        "slug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
+        "badgeId": "CSUNCC-20250101-0004",
+        "awardeeName": "Ivania Fictoria",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-26T19:21:03.219Z"
+      },
+      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -16621,18 +16654,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
-        "badgeId": "CSUNCC-20250101-0004",
-        "awardeeName": "Ivania Fictoria",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
         "badgeId": "CSUNCC-20250101-0006",
         "awardeeName": "Dr. Conchita Battle",
@@ -16880,6 +16901,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Ivania Fictoria",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -16953,12 +16980,6 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Ivania Fictoria",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
