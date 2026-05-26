@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T18:36:28.051Z",
+  "updatedAt": "2026-05-26T18:37:41.946Z",
   "totals": {
-    "badgesIssued": 59,
-    "badgeViews": 188,
+    "badgesIssued": 60,
+    "badgeViews": 189,
     "certificateDownloads": 4,
     "generatorOpens": 92,
-    "generatorCompletions": 23,
-    "conversionRate": 25,
+    "generatorCompletions": 24,
+    "conversionRate": 26.1,
     "uniqueVisitorsApprox": 125
   },
   "months": [
@@ -25,38 +25,38 @@
     {
       "key": "2026-05",
       "label": "May 2026",
-      "badgesIssued": 40,
-      "badgeViews": 125,
+      "badgesIssued": 41,
+      "badgeViews": 126,
       "certificateDownloads": 3,
       "generatorOpens": 44,
-      "generatorCompletions": 13,
+      "generatorCompletions": 14,
       "uniqueVisitorsApprox": 101,
-      "conversionRate": 29.5
+      "conversionRate": 31.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 59,
-      "badgeViews": 188,
+      "badgesIssued": 60,
+      "badgeViews": 189,
       "certificateDownloads": 4,
       "generatorOpens": 92,
-      "generatorCompletions": 23,
+      "generatorCompletions": 24,
       "uniqueVisitorsApprox": 125,
-      "conversionRate": 25
+      "conversionRate": 26.1
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 55,
-      "badgeViews": 186,
+      "badgesIssued": 56,
+      "badgeViews": 187,
       "certificateDownloads": 4,
       "generatorOpens": 34,
-      "generatorCompletions": 19,
-      "conversionRate": 55.9
+      "generatorCompletions": 20,
+      "conversionRate": 58.8
     },
     {
       "id": "career-activated",
@@ -549,6 +549,18 @@
       "latestViewedAt": "2026-05-22T19:36:35.271Z"
     },
     {
+      "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
+      "badgeId": "CSUNCC-20260526-0001",
+      "awardeeName": "Minley Moradian",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-26T18:37:41.943Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -808,8 +820,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 40,
-      "completions": 15,
-      "conversionRate": 37.5
+      "completions": 16,
+      "conversionRate": 40
     },
     {
       "key": "career-champion",
@@ -1007,6 +1019,12 @@
     },
     {
       "awardeeName": "Valerie Ipatzi",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Minley Moradian",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
