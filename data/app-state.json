@@ -15184,6 +15184,48 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "4cdb7ec0-344e-4b7b-b55c-bdffefc59ddc",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-26T19:13:45.151Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0003",
+      "badgeSlug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Quin Neumeyer",
+      "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "ff629da8acba2edf4bbf70ea",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "0559566d-1ef9-4212-939a-4eab72f5c466",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-26T19:14:11.478Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0003",
+      "badgeSlug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Quin Neumeyer",
+      "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "fd10c70f738ca0306edae101",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -15658,15 +15700,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T19:13:16.648Z",
+    "updatedAt": "2026-05-26T19:14:11.483Z",
     "totals": {
       "badgesIssued": 71,
-      "badgeViews": 204,
+      "badgeViews": 206,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
       "conversionRate": 38,
-      "uniqueVisitorsApprox": 138
+      "uniqueVisitorsApprox": 139
     },
     "months": [
       {
@@ -15684,11 +15726,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 52,
-        "badgeViews": 141,
+        "badgeViews": 143,
         "certificateDownloads": 4,
         "generatorOpens": 44,
         "generatorCompletions": 25,
-        "uniqueVisitorsApprox": 114,
+        "uniqueVisitorsApprox": 115,
         "conversionRate": 56.8
       }
     ],
@@ -15697,11 +15739,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 71,
-        "badgeViews": 204,
+        "badgeViews": 206,
         "certificateDownloads": 5,
         "generatorOpens": 92,
         "generatorCompletions": 35,
-        "uniqueVisitorsApprox": 138,
+        "uniqueVisitorsApprox": 139,
         "conversionRate": 38
       }
     ],
@@ -15710,7 +15752,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 67,
-        "badgeViews": 202,
+        "badgeViews": 204,
         "certificateDownloads": 5,
         "generatorOpens": 34,
         "generatorCompletions": 31,
@@ -15919,6 +15961,18 @@
         "latestViewedAt": "2026-05-18T15:52:43.067Z"
       },
       {
+        "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+        "badgeId": "CSUNCC-20260526-0003",
+        "awardeeName": "Quin Neumeyer",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 6,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-26T19:14:11.478Z"
+      },
+      {
         "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
         "badgeId": "CSUNCC-20260512-0002",
         "awardeeName": "Cara Nissen",
@@ -15977,18 +16031,6 @@
         "badgeViews": 4,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:29:24.776Z"
-      },
-      {
-        "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
-        "badgeId": "CSUNCC-20260526-0003",
-        "awardeeName": "Quin Neumeyer",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-26T19:13:16.624Z"
       },
       {
         "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
@@ -16718,6 +16760,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Quin Neumeyer",
+        "badgesIssued": 1,
+        "badgeViews": 6,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Leslie Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 5,
@@ -16746,12 +16794,6 @@
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Quin Neumeyer",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Jennifer Sandoval",
