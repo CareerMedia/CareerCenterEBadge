@@ -15289,6 +15289,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "93459a7a-518a-4974-9875-aa3fad2e90ef",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-26T22:46:13.685Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20250101-0006",
+      "badgeSlug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Dr. Conchita Battle",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "6470a4e0e866dbd056606c53",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -15763,15 +15784,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T21:59:45.475Z",
+    "updatedAt": "2026-05-26T22:46:13.691Z",
     "totals": {
       "badgesIssued": 71,
-      "badgeViews": 209,
+      "badgeViews": 210,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
       "conversionRate": 38,
-      "uniqueVisitorsApprox": 141
+      "uniqueVisitorsApprox": 142
     },
     "months": [
       {
@@ -15789,11 +15810,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 52,
-        "badgeViews": 146,
+        "badgeViews": 147,
         "certificateDownloads": 4,
         "generatorOpens": 44,
         "generatorCompletions": 25,
-        "uniqueVisitorsApprox": 117,
+        "uniqueVisitorsApprox": 118,
         "conversionRate": 56.8
       }
     ],
@@ -15802,11 +15823,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 71,
-        "badgeViews": 209,
+        "badgeViews": 210,
         "certificateDownloads": 5,
         "generatorOpens": 92,
         "generatorCompletions": 35,
-        "uniqueVisitorsApprox": 141,
+        "uniqueVisitorsApprox": 142,
         "conversionRate": 38
       }
     ],
@@ -15815,7 +15836,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 67,
-        "badgeViews": 207,
+        "badgeViews": 208,
         "certificateDownloads": 5,
         "generatorOpens": 34,
         "generatorCompletions": 31,
@@ -16372,6 +16393,18 @@
         "latestViewedAt": "2026-05-26T19:21:03.219Z"
       },
       {
+        "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
+        "badgeId": "CSUNCC-20250101-0006",
+        "awardeeName": "Dr. Conchita Battle",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-26T22:46:13.685Z"
+      },
+      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -16694,18 +16727,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
-      },
-      {
-        "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
-        "badgeId": "CSUNCC-20250101-0006",
-        "awardeeName": "Dr. Conchita Battle",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -16949,6 +16970,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Dr. Conchita Battle",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -17022,12 +17049,6 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Dr. Conchita Battle",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T21:59:45.475Z",
+  "updatedAt": "2026-05-26T22:46:21.149Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 209,
+    "badgeViews": 211,
     "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
     "conversionRate": 38,
-    "uniqueVisitorsApprox": 141
+    "uniqueVisitorsApprox": 143
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 146,
+      "badgeViews": 148,
       "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
-      "uniqueVisitorsApprox": 117,
+      "uniqueVisitorsApprox": 119,
       "conversionRate": 56.8
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 209,
+      "badgeViews": 211,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
-      "uniqueVisitorsApprox": 141,
+      "uniqueVisitorsApprox": 143,
       "conversionRate": 38
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 207,
+      "badgeViews": 209,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
@@ -501,6 +501,18 @@
       "latestViewedAt": "2026-05-12T18:16:37.302Z"
     },
     {
+      "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
+      "badgeId": "CSUNCC-20250101-0006",
+      "awardeeName": "Dr. Conchita Battle",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-26T22:46:21.144Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -931,18 +943,6 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
-    },
-    {
-      "slug": "dr-conchita-battle-career-champion-csuncc-20250101-0006",
-      "badgeId": "CSUNCC-20250101-0006",
-      "awardeeName": "Dr. Conchita Battle",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dr-conchita-battle-career-champion-csuncc-20250101-0006/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -1144,6 +1144,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Dr. Conchita Battle",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -1259,12 +1265,6 @@
     },
     {
       "awardeeName": "Antonio Gonzalez",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Dr. Conchita Battle",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
