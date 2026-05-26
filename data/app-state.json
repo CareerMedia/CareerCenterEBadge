@@ -15163,6 +15163,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "e05b1858-a707-4557-817e-bfa3d233a86c",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-26T19:13:16.624Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0003",
+      "badgeSlug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Quin Neumeyer",
+      "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "fd10c70f738ca0306edae101",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -15637,10 +15658,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T19:05:53.593Z",
+    "updatedAt": "2026-05-26T19:13:16.648Z",
     "totals": {
       "badgesIssued": 71,
-      "badgeViews": 203,
+      "badgeViews": 204,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
@@ -15663,7 +15684,7 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 52,
-        "badgeViews": 140,
+        "badgeViews": 141,
         "certificateDownloads": 4,
         "generatorOpens": 44,
         "generatorCompletions": 25,
@@ -15676,7 +15697,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 71,
-        "badgeViews": 203,
+        "badgeViews": 204,
         "certificateDownloads": 5,
         "generatorOpens": 92,
         "generatorCompletions": 35,
@@ -15689,7 +15710,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 67,
-        "badgeViews": 201,
+        "badgeViews": 202,
         "certificateDownloads": 5,
         "generatorOpens": 34,
         "generatorCompletions": 31,
@@ -15958,6 +15979,18 @@
         "latestViewedAt": "2026-05-12T18:29:24.776Z"
       },
       {
+        "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+        "badgeId": "CSUNCC-20260526-0003",
+        "awardeeName": "Quin Neumeyer",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-26T19:13:16.624Z"
+      },
+      {
         "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
         "badgeId": "CSUNCC-20260512-0019",
         "awardeeName": "Patricia Garcia-Ramirez",
@@ -16052,18 +16085,6 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:23:15.496Z"
-      },
-      {
-        "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
-        "badgeId": "CSUNCC-20260526-0003",
-        "awardeeName": "Quin Neumeyer",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-05-26T19:05:53.582Z"
       },
       {
         "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
@@ -16727,6 +16748,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Quin Neumeyer",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Jennifer Sandoval",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -16740,12 +16767,6 @@
       },
       {
         "awardeeName": "Stephanie Colman",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Quin Neumeyer",
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 0

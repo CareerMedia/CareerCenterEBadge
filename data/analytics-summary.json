@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T19:05:53.593Z",
+  "updatedAt": "2026-05-26T19:13:45.156Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 203,
+    "badgeViews": 205,
     "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
     "conversionRate": 38,
-    "uniqueVisitorsApprox": 138
+    "uniqueVisitorsApprox": 139
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 140,
+      "badgeViews": 142,
       "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
-      "uniqueVisitorsApprox": 114,
+      "uniqueVisitorsApprox": 115,
       "conversionRate": 56.8
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 203,
+      "badgeViews": 205,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
-      "uniqueVisitorsApprox": 138,
+      "uniqueVisitorsApprox": 139,
       "conversionRate": 38
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 201,
+      "badgeViews": 203,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
@@ -285,6 +285,18 @@
       "latestViewedAt": "2026-05-18T02:31:32.121Z"
     },
     {
+      "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+      "badgeId": "CSUNCC-20260526-0003",
+      "awardeeName": "Quin Neumeyer",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-26T19:13:45.151Z"
+    },
+    {
       "slug": "genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001",
       "badgeId": "CSUNCC-20260430-0001",
       "awardeeName": "Genesis Lozano-Gonzalez",
@@ -415,18 +427,6 @@
       "badgeViews": 3,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:23:15.496Z"
-    },
-    {
-      "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
-      "badgeId": "CSUNCC-20260526-0003",
-      "awardeeName": "Quin Neumeyer",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
-      "badgesIssued": 1,
-      "badgeViews": 3,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-26T19:05:53.582Z"
     },
     {
       "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
@@ -1066,6 +1066,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Quin Neumeyer",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Genesis Lozano-Gonzalez",
       "badgesIssued": 1,
       "badgeViews": 4,
@@ -1103,12 +1109,6 @@
     },
     {
       "awardeeName": "Stephanie Colman",
-      "badgesIssued": 1,
-      "badgeViews": 3,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Quin Neumeyer",
       "badgesIssued": 1,
       "badgeViews": 3,
       "certificateDownloads": 0
