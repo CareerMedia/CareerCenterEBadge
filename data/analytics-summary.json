@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-26T18:37:41.946Z",
+  "updatedAt": "2026-05-26T18:40:17.897Z",
   "totals": {
-    "badgesIssued": 60,
+    "badgesIssued": 64,
     "badgeViews": 189,
     "certificateDownloads": 4,
     "generatorOpens": 92,
-    "generatorCompletions": 24,
-    "conversionRate": 26.1,
+    "generatorCompletions": 28,
+    "conversionRate": 30.4,
     "uniqueVisitorsApprox": 125
   },
   "months": [
@@ -25,38 +25,38 @@
     {
       "key": "2026-05",
       "label": "May 2026",
-      "badgesIssued": 41,
+      "badgesIssued": 45,
       "badgeViews": 126,
       "certificateDownloads": 3,
       "generatorOpens": 44,
-      "generatorCompletions": 14,
+      "generatorCompletions": 18,
       "uniqueVisitorsApprox": 101,
-      "conversionRate": 31.8
+      "conversionRate": 40.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 60,
+      "badgesIssued": 64,
       "badgeViews": 189,
       "certificateDownloads": 4,
       "generatorOpens": 92,
-      "generatorCompletions": 24,
+      "generatorCompletions": 28,
       "uniqueVisitorsApprox": 125,
-      "conversionRate": 26.1
+      "conversionRate": 30.4
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 56,
+      "badgesIssued": 60,
       "badgeViews": 187,
       "certificateDownloads": 4,
       "generatorOpens": 34,
-      "generatorCompletions": 20,
-      "conversionRate": 58.8
+      "generatorCompletions": 24,
+      "conversionRate": 70.6
     },
     {
       "id": "career-activated",
@@ -811,6 +811,54 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "baldemar-soto-career-champion-csuncc-20260526-0002",
+      "badgeId": "CSUNCC-20260526-0002",
+      "awardeeName": "Baldemar Soto",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/baldemar-soto-career-champion-csuncc-20260526-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "quin-neumeyer-career-champion-csuncc-20260526-0003",
+      "badgeId": "CSUNCC-20260526-0003",
+      "awardeeName": "Quin Neumeyer",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "jonathan-b-martinez-career-champion-csuncc-20260526-0004",
+      "badgeId": "CSUNCC-20260526-0004",
+      "awardeeName": "Jonathan B. Martinez",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
+      "badgeId": "CSUNCC-20260526-0005",
+      "awardeeName": "Dorna Basiratmand",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -820,8 +868,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 40,
-      "completions": 16,
-      "conversionRate": 40
+      "completions": 20,
+      "conversionRate": 50
     },
     {
       "key": "career-champion",
@@ -1073,6 +1121,30 @@
     },
     {
       "awardeeName": "Stephanie Castro",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Baldemar Soto",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Quin Neumeyer",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Jonathan B. Martinez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Dorna Basiratmand",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0

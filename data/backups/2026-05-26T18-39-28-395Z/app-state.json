@@ -5402,101 +5402,6 @@
       "openBadgeJsonPath": "docs/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/open-badge.json",
       "verifiableCredentialPath": "docs/badges/quin-neumeyer-career-champion-csuncc-20260526-0003/credential.json",
       "verificationHash": "c7752cbf7e44f298026ae105c42d94ba83a9cd909351aa36f79062a047fb5ce2"
-    },
-    {
-      "id": "CSUNCC-20260526-0004",
-      "awardeeName": "Jonathan B. Martinez",
-      "awardeeEmail": "jonathan.b.martinez@csun.edu",
-      "issueDate": "May 26, 2026",
-      "issueDateISO": "2026-05-26",
-      "badgeTemplateId": "career-champion",
-      "badgeTitle": "Career Champion",
-      "badgeLabel": "Career Champion",
-      "description": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "publicSummary": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "meaning": "The CSUN Career Champions Badge is awarded to staff and faculty who have successfully completed the CSUN Career Center’s Career Champions program. Badge earners are recognized as dedicated CSUN professionals who actively integrate career development into their work with students.\r\n\r\nThrough this program, participants gain practical strategies to connect academic pathways with real-world opportunities, support student persistence, and guide students in their transition to meaningful careers. Career Champions are equipped with tools to enhance advising and student interactions—helping students build confidence in selecting majors, exploring career options, and planning for life after graduation.\r\n\r\nEarning this badge reflects a commitment to ongoing professional growth and to fostering a campus-wide culture where career readiness is a shared responsibility among faculty and staff.",
-      "criteria": "To earn this badge, participants must complete the Career Champions course, including all modules, activities, and assessments.",
-      "evidenceLabel": "Program Completion & Reflection",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "Pre- and post-program questionnaire responses\r\nParticipation verification from Career Champion sessions\r\nFollow-up survey responses demonstrating applied learning",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Development Integration",
-        "Student Advising & Support",
-        "Career Readiness Coaching",
-        "Academic-to-Career Alignment",
-        "Student Engagement & Persistence Strategies",
-        "Professional Communication",
-        "Leadership in Student Success"
-      ],
-      "standards": [
-        "NACE Career Readiness Competencies",
-        "NASPA/ACPA Professional Competencies for Student Affairs Educators"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "Cal State Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Issued directly by the CSUN Career Center and maintained in the official credential registry.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/badges/champion-badge.svg",
-      "certificateBackground": "assets/career-champ-cert.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/career-champ-cert.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 2000,
-          "y": 1400,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1150,
-          "y": 2150,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-05-26T18:39:59.090Z",
-      "source": "public-generator",
-      "slug": "jonathan-b-martinez-career-champion-csuncc-20260526-0004",
-      "relativeUrl": "../badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/",
-      "relativeJsonUrl": "../badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/",
-      "repoPath": "docs/badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/index.html",
-      "detailsJsonPath": "docs/badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/details.json",
-      "openBadgeJsonPath": "docs/badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/credential.json",
-      "verificationHash": "e1031eab35063a473d5ba6262c3dd9398d8a4152d49aa08672b6d857b726270c"
     }
   ],
   "deletedBadges": [
@@ -13710,48 +13615,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "f03a7198-3cba-499a-9fef-87605308f725",
-      "type": "badge_issued",
-      "timestamp": "2026-05-26T18:39:59.090Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260526-0004",
-      "badgeSlug": "jonathan-b-martinez-career-champion-csuncc-20260526-0004",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Jonathan B. Martinez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "19d9cd17-5162-47f4-aedb-822f1a9fe52b",
-      "type": "generator_completed",
-      "timestamp": "2026-05-26T18:39:59.489Z",
-      "monthKey": "2026-05",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260526-0004",
-      "badgeSlug": "jonathan-b-martinez-career-champion-csuncc-20260526-0004",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Jonathan B. Martinez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -14226,14 +14089,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-26T18:39:59.491Z",
+    "updatedAt": "2026-05-26T18:39:28.098Z",
     "totals": {
-      "badgesIssued": 63,
+      "badgesIssued": 62,
       "badgeViews": 189,
       "certificateDownloads": 4,
       "generatorOpens": 92,
-      "generatorCompletions": 27,
-      "conversionRate": 29.3,
+      "generatorCompletions": 26,
+      "conversionRate": 28.3,
       "uniqueVisitorsApprox": 125
     },
     "months": [
@@ -14251,38 +14114,38 @@
       {
         "key": "2026-05",
         "label": "May 2026",
-        "badgesIssued": 44,
+        "badgesIssued": 43,
         "badgeViews": 126,
         "certificateDownloads": 3,
         "generatorOpens": 44,
-        "generatorCompletions": 17,
+        "generatorCompletions": 16,
         "uniqueVisitorsApprox": 101,
-        "conversionRate": 38.6
+        "conversionRate": 36.4
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 63,
+        "badgesIssued": 62,
         "badgeViews": 189,
         "certificateDownloads": 4,
         "generatorOpens": 92,
-        "generatorCompletions": 27,
+        "generatorCompletions": 26,
         "uniqueVisitorsApprox": 125,
-        "conversionRate": 29.3
+        "conversionRate": 28.3
       }
     ],
     "badgeTypes": [
       {
         "id": "career-champion",
         "title": "Career Champion",
-        "badgesIssued": 59,
+        "badgesIssued": 58,
         "badgeViews": 187,
         "certificateDownloads": 4,
         "generatorOpens": 34,
-        "generatorCompletions": 23,
-        "conversionRate": 67.6
+        "generatorCompletions": 22,
+        "conversionRate": 64.7
       },
       {
         "id": "career-activated",
@@ -15061,18 +14924,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
-      },
-      {
-        "slug": "jonathan-b-martinez-career-champion-csuncc-20260526-0004",
-        "badgeId": "CSUNCC-20260526-0004",
-        "awardeeName": "Jonathan B. Martinez",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jonathan-b-martinez-career-champion-csuncc-20260526-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -15082,8 +14933,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 40,
-        "completions": 19,
-        "conversionRate": 47.5
+        "completions": 18,
+        "conversionRate": 45
       },
       {
         "key": "career-champion",
@@ -15347,12 +15198,6 @@
       },
       {
         "awardeeName": "Quin Neumeyer",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Jonathan B. Martinez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

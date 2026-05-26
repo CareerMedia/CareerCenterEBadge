@@ -148,3 +148,11 @@
 {"timestamp":"2026-05-12T18:00:26.355Z","action":"backup.snapshot","actor":"admin","reason":"Bulk issued 24 badges (bulk-1778608783695)","backupId":"2026-05-12T18-00-26-348Z","createdAt":"2026-05-12T18:00:26.351Z"}
 {"timestamp":"2026-05-26T18:37:26.907Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260526-0001","awardeeName":"Minley Moradian"}
 {"timestamp":"2026-05-26T18:37:27.391Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260526-0001","backupId":"2026-05-26T18-37-27-302Z","createdAt":"2026-05-26T18:37:27.304Z"}
+{"timestamp":"2026-05-26T18:38:54.991Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260526-0002","awardeeName":"Baldemar Soto"}
+{"timestamp":"2026-05-26T18:38:55.291Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260526-0002","backupId":"2026-05-26T18-38-55-199Z","createdAt":"2026-05-26T18:38:55.201Z"}
+{"timestamp":"2026-05-26T18:39:28.094Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260526-0003","awardeeName":"Quin Neumeyer"}
+{"timestamp":"2026-05-26T18:39:28.491Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260526-0003","backupId":"2026-05-26T18-39-28-395Z","createdAt":"2026-05-26T18:39:28.398Z"}
+{"timestamp":"2026-05-26T18:39:59.402Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260526-0004","awardeeName":"Jonathan B. Martinez"}
+{"timestamp":"2026-05-26T18:39:59.795Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260526-0004","backupId":"2026-05-26T18-39-59-698Z","createdAt":"2026-05-26T18:39:59.790Z"}
+{"timestamp":"2026-05-26T18:40:17.892Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260526-0005","awardeeName":"Dorna Basiratmand"}
+{"timestamp":"2026-05-26T18:40:18.294Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260526-0005","backupId":"2026-05-26T18-40-18-199Z","createdAt":"2026-05-26T18:40:18.201Z"}
