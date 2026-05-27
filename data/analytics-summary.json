@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-27T18:57:05.181Z",
+  "updatedAt": "2026-05-27T19:31:25.550Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 220,
+    "badgeViews": 221,
     "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
@@ -26,7 +26,7 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 157,
+      "badgeViews": 158,
       "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
@@ -39,7 +39,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 220,
+      "badgeViews": 221,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 218,
+      "badgeViews": 219,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
@@ -513,6 +513,18 @@
       "latestViewedAt": "2026-05-12T18:16:37.302Z"
     },
     {
+      "slug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
+      "badgeId": "CSUNCC-20250101-0004",
+      "awardeeName": "Ivania Fictoria",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-27T19:31:25.546Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -607,18 +619,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-22T19:36:35.271Z"
-    },
-    {
-      "slug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
-      "badgeId": "CSUNCC-20250101-0004",
-      "awardeeName": "Ivania Fictoria",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ivania-fictoria-career-champion-csuncc-20250101-0004/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-26T19:21:03.219Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -1150,6 +1150,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Ivania Fictoria",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -1181,12 +1187,6 @@
     },
     {
       "awardeeName": "Valerie Ipatzi",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Ivania Fictoria",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
