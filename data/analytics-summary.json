@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-27T15:21:38.523Z",
+  "updatedAt": "2026-05-27T18:30:49.792Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 217,
+    "badgeViews": 218,
     "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
     "conversionRate": 38,
-    "uniqueVisitorsApprox": 148
+    "uniqueVisitorsApprox": 149
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 154,
+      "badgeViews": 155,
       "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
-      "uniqueVisitorsApprox": 124,
+      "uniqueVisitorsApprox": 125,
       "conversionRate": 56.8
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 217,
+      "badgeViews": 218,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
-      "uniqueVisitorsApprox": 148,
+      "uniqueVisitorsApprox": 149,
       "conversionRate": 38
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 215,
+      "badgeViews": 216,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
@@ -100,9 +100,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
       "badgesIssued": 1,
-      "badgeViews": 16,
+      "badgeViews": 17,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-26T21:59:45.471Z"
+      "latestViewedAt": "2026-05-27T18:30:49.784Z"
     },
     {
       "slug": "bri-career-champion-csuncc-20260409-0005",
@@ -996,7 +996,7 @@
     {
       "awardeeName": "Hector Carrillo",
       "badgesIssued": 1,
-      "badgeViews": 16,
+      "badgeViews": 17,
       "certificateDownloads": 0
     },
     {
