@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T20:06:58.095Z",
+  "updatedAt": "2026-05-28T21:48:08.966Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 228,
+    "badgeViews": 229,
     "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
@@ -26,7 +26,7 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 165,
+      "badgeViews": 166,
       "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
@@ -39,7 +39,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 228,
+      "badgeViews": 229,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 226,
+      "badgeViews": 227,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
@@ -81,6 +81,18 @@
   ],
   "badgePages": [
     {
+      "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
+      "badgeId": "CSUNCC-20260422-0003",
+      "awardeeName": "Hector Carrillo",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 20,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-05-28T21:48:08.959Z"
+    },
+    {
       "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
       "badgeId": "CSUNCC-20260512-0014",
       "awardeeName": "Melva Ramirez",
@@ -91,18 +103,6 @@
       "badgeViews": 20,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-28T03:50:39.859Z"
-    },
-    {
-      "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
-      "badgeId": "CSUNCC-20260422-0003",
-      "awardeeName": "Hector Carrillo",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
-      "badgesIssued": 1,
-      "badgeViews": 19,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-28T20:06:58.001Z"
     },
     {
       "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
@@ -988,15 +988,15 @@
       "certificateDownloads": 0
     },
     {
-      "awardeeName": "Melva Ramirez",
+      "awardeeName": "Hector Carrillo",
       "badgesIssued": 1,
       "badgeViews": 20,
       "certificateDownloads": 0
     },
     {
-      "awardeeName": "Hector Carrillo",
+      "awardeeName": "Melva Ramirez",
       "badgesIssued": 1,
-      "badgeViews": 19,
+      "badgeViews": 20,
       "certificateDownloads": 0
     },
     {
