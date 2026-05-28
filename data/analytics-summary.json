@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-28T09:59:31.886Z",
+  "updatedAt": "2026-05-28T20:06:58.095Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 227,
+    "badgeViews": 228,
     "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
@@ -26,7 +26,7 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 164,
+      "badgeViews": 165,
       "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
@@ -39,7 +39,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 227,
+      "badgeViews": 228,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 225,
+      "badgeViews": 226,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
@@ -100,9 +100,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
       "badgesIssued": 1,
-      "badgeViews": 18,
+      "badgeViews": 19,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-27T18:34:11.605Z"
+      "latestViewedAt": "2026-05-28T20:06:58.001Z"
     },
     {
       "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
@@ -996,7 +996,7 @@
     {
       "awardeeName": "Hector Carrillo",
       "badgesIssued": 1,
-      "badgeViews": 18,
+      "badgeViews": 19,
       "certificateDownloads": 0
     },
     {
