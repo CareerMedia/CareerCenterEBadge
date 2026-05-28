@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-27T20:36:49.251Z",
+  "updatedAt": "2026-05-28T03:50:39.957Z",
   "totals": {
     "badgesIssued": 71,
-    "badgeViews": 224,
+    "badgeViews": 225,
     "certificateDownloads": 5,
     "generatorOpens": 92,
     "generatorCompletions": 35,
     "conversionRate": 38,
-    "uniqueVisitorsApprox": 153
+    "uniqueVisitorsApprox": 154
   },
   "months": [
     {
@@ -26,11 +26,11 @@
       "key": "2026-05",
       "label": "May 2026",
       "badgesIssued": 52,
-      "badgeViews": 161,
+      "badgeViews": 162,
       "certificateDownloads": 4,
       "generatorOpens": 44,
       "generatorCompletions": 25,
-      "uniqueVisitorsApprox": 129,
+      "uniqueVisitorsApprox": 130,
       "conversionRate": 56.8
     }
   ],
@@ -39,11 +39,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 71,
-      "badgeViews": 224,
+      "badgeViews": 225,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
-      "uniqueVisitorsApprox": 153,
+      "uniqueVisitorsApprox": 154,
       "conversionRate": 38
     }
   ],
@@ -52,7 +52,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 67,
-      "badgeViews": 222,
+      "badgeViews": 223,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 31,
@@ -88,9 +88,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/melva-ramirez-career-champion-csuncc-20260512-0014/",
       "badgesIssued": 1,
-      "badgeViews": 19,
+      "badgeViews": 20,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-21T22:56:12.786Z"
+      "latestViewedAt": "2026-05-28T03:50:39.859Z"
     },
     {
       "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
@@ -990,7 +990,7 @@
     {
       "awardeeName": "Melva Ramirez",
       "badgesIssued": 1,
-      "badgeViews": 19,
+      "badgeViews": 20,
       "certificateDownloads": 0
     },
     {
