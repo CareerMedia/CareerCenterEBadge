@@ -15646,6 +15646,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "492819be-efcf-4a78-9146-158654dede50",
+      "type": "badge_viewed",
+      "timestamp": "2026-05-28T09:59:31.861Z",
+      "monthKey": "2026-05",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0009",
+      "badgeSlug": "jessica-davis-career-champion-csuncc-20260512-0009",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Jessica Davis",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jessica-davis-career-champion-csuncc-20260512-0009/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "219ae54c68eaa4e98289a237",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -16120,15 +16141,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-05-28T04:02:37.305Z",
+    "updatedAt": "2026-05-28T09:59:31.886Z",
     "totals": {
       "badgesIssued": 71,
-      "badgeViews": 226,
+      "badgeViews": 227,
       "certificateDownloads": 5,
       "generatorOpens": 92,
       "generatorCompletions": 35,
       "conversionRate": 38,
-      "uniqueVisitorsApprox": 155
+      "uniqueVisitorsApprox": 156
     },
     "months": [
       {
@@ -16146,11 +16167,11 @@
         "key": "2026-05",
         "label": "May 2026",
         "badgesIssued": 52,
-        "badgeViews": 163,
+        "badgeViews": 164,
         "certificateDownloads": 4,
         "generatorOpens": 44,
         "generatorCompletions": 25,
-        "uniqueVisitorsApprox": 131,
+        "uniqueVisitorsApprox": 132,
         "conversionRate": 56.8
       }
     ],
@@ -16159,11 +16180,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 71,
-        "badgeViews": 226,
+        "badgeViews": 227,
         "certificateDownloads": 5,
         "generatorOpens": 92,
         "generatorCompletions": 35,
-        "uniqueVisitorsApprox": 155,
+        "uniqueVisitorsApprox": 156,
         "conversionRate": 38
       }
     ],
@@ -16172,7 +16193,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 67,
-        "badgeViews": 224,
+        "badgeViews": 225,
         "certificateDownloads": 5,
         "generatorOpens": 34,
         "generatorCompletions": 31,
@@ -16729,6 +16750,18 @@
         "latestViewedAt": "2026-05-13T03:09:27.260Z"
       },
       {
+        "slug": "jessica-davis-career-champion-csuncc-20260512-0009",
+        "badgeId": "CSUNCC-20260512-0009",
+        "awardeeName": "Jessica Davis",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jessica-davis-career-champion-csuncc-20260512-0009/",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-05-28T09:59:31.861Z"
+      },
+      {
         "slug": "valerie-ipatzi-career-champion-csuncc-20260512-0024",
         "badgeId": "CSUNCC-20260512-0024",
         "awardeeName": "Valerie Ipatzi",
@@ -16915,18 +16948,6 @@
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-career-champion-csuncc-20260505-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
-      },
-      {
-        "slug": "jessica-davis-career-champion-csuncc-20260512-0009",
-        "badgeId": "CSUNCC-20260512-0009",
-        "awardeeName": "Jessica Davis",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jessica-davis-career-champion-csuncc-20260512-0009/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -17306,6 +17327,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Jessica Davis",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Valerie Ipatzi",
         "badgesIssued": 1,
         "badgeViews": 1,
@@ -17319,12 +17346,6 @@
       },
       {
         "awardeeName": "Veronica Torres",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Jessica Davis",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
