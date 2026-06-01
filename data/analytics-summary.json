@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-01T23:23:07.543Z",
+  "updatedAt": "2026-06-01T23:24:40.458Z",
   "totals": {
-    "badgesIssued": 71,
+    "badgesIssued": 72,
     "badgeViews": 233,
     "certificateDownloads": 5,
     "generatorOpens": 93,
-    "generatorCompletions": 35,
-    "conversionRate": 37.6,
+    "generatorCompletions": 36,
+    "conversionRate": 38.7,
     "uniqueVisitorsApprox": 157
   },
   "months": [
@@ -36,38 +36,38 @@
     {
       "key": "2026-06",
       "label": "Jun 2026",
-      "badgesIssued": 0,
+      "badgesIssued": 1,
       "badgeViews": 3,
       "certificateDownloads": 0,
       "generatorOpens": 1,
-      "generatorCompletions": 0,
+      "generatorCompletions": 1,
       "uniqueVisitorsApprox": 3,
-      "conversionRate": 0
+      "conversionRate": 100
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 71,
+      "badgesIssued": 72,
       "badgeViews": 233,
       "certificateDownloads": 5,
       "generatorOpens": 93,
-      "generatorCompletions": 35,
+      "generatorCompletions": 36,
       "uniqueVisitorsApprox": 157,
-      "conversionRate": 37.6
+      "conversionRate": 38.7
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 67,
+      "badgesIssued": 68,
       "badgeViews": 231,
       "certificateDownloads": 5,
       "generatorOpens": 34,
-      "generatorCompletions": 31,
-      "conversionRate": 91.2
+      "generatorCompletions": 32,
+      "conversionRate": 94.1
     },
     {
       "id": "career-activated",
@@ -954,6 +954,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "isabel-casas-career-champion-csuncc-20260601-0001",
+      "badgeId": "CSUNCC-20260601-0001",
+      "awardeeName": "Isabel Casas",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-career-champion-csuncc-20260601-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -963,8 +975,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 41,
-      "completions": 27,
-      "conversionRate": 65.9
+      "completions": 28,
+      "conversionRate": 68.3
     },
     {
       "key": "career-champion",
@@ -1276,6 +1288,12 @@
     },
     {
       "awardeeName": "Antonio Gonzalez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Isabel Casas",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
