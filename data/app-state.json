@@ -15772,6 +15772,48 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "d3cec0b5-07ca-489b-8767-19c6f0d1a297",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-01T23:22:45.154Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0006",
+      "badgeSlug": "genesis-lozano-career-champion-csuncc-20260526-0006",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Genesis Lozano",
+      "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "38de54040ec9ec3900798c0e",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "28e57a5f-0e7a-4064-9695-9b479c0c0213",
+      "type": "generator_opened",
+      "timestamp": "2026-06-01T23:23:07.539Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "",
+      "badgeTemplateId": "",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "general",
+      "generatorKey": "general",
+      "generatorLabel": "General generator",
+      "source": "generator-page",
+      "visitorId": "826f307846e8994ea5ce614d",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -16246,14 +16288,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-01T23:22:08.069Z",
+    "updatedAt": "2026-06-01T23:23:07.543Z",
     "totals": {
       "badgesIssued": 71,
-      "badgeViews": 232,
+      "badgeViews": 233,
       "certificateDownloads": 5,
-      "generatorOpens": 92,
+      "generatorOpens": 93,
       "generatorCompletions": 35,
-      "conversionRate": 38,
+      "conversionRate": 37.6,
       "uniqueVisitorsApprox": 157
     },
     "months": [
@@ -16283,11 +16325,11 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 0,
-        "badgeViews": 2,
+        "badgeViews": 3,
         "certificateDownloads": 0,
-        "generatorOpens": 0,
+        "generatorOpens": 1,
         "generatorCompletions": 0,
-        "uniqueVisitorsApprox": 2,
+        "uniqueVisitorsApprox": 3,
         "conversionRate": 0
       }
     ],
@@ -16296,12 +16338,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 71,
-        "badgeViews": 232,
+        "badgeViews": 233,
         "certificateDownloads": 5,
-        "generatorOpens": 92,
+        "generatorOpens": 93,
         "generatorCompletions": 35,
         "uniqueVisitorsApprox": 157,
-        "conversionRate": 38
+        "conversionRate": 37.6
       }
     ],
     "badgeTypes": [
@@ -16309,7 +16351,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 67,
-        "badgeViews": 230,
+        "badgeViews": 231,
         "certificateDownloads": 5,
         "generatorOpens": 34,
         "generatorCompletions": 31,
@@ -16331,7 +16373,7 @@
         "badgesIssued": 0,
         "badgeViews": 0,
         "certificateDownloads": 0,
-        "generatorOpens": 40,
+        "generatorOpens": 41,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -16782,6 +16824,18 @@
         "latestViewedAt": "2026-05-12T18:16:37.302Z"
       },
       {
+        "slug": "genesis-lozano-career-champion-csuncc-20260526-0006",
+        "badgeId": "CSUNCC-20260526-0006",
+        "awardeeName": "Genesis Lozano",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-06-01T23:22:45.154Z"
+      },
+      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -16888,18 +16942,6 @@
         "badgeViews": 1,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-22T19:36:35.271Z"
-      },
-      {
-        "slug": "genesis-lozano-career-champion-csuncc-20260526-0006",
-        "badgeId": "CSUNCC-20260526-0006",
-        "awardeeName": "Genesis Lozano",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-06-01T23:22:08.054Z"
       },
       {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -17208,9 +17250,9 @@
         "label": "General generator",
         "pageKind": "general",
         "templateId": "",
-        "opens": 40,
+        "opens": 41,
         "completions": 27,
-        "conversionRate": 67.5
+        "conversionRate": 65.9
       },
       {
         "key": "career-champion",
@@ -17335,6 +17377,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Genesis Lozano",
+        "badgesIssued": 2,
+        "badgeViews": 3,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Jackie Perez",
         "badgesIssued": 1,
         "badgeViews": 4,
@@ -17362,12 +17410,6 @@
         "awardeeName": "Dr. Conchita Battle",
         "badgesIssued": 1,
         "badgeViews": 4,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Genesis Lozano",
-        "badgesIssued": 2,
-        "badgeViews": 2,
         "certificateDownloads": 0
       },
       {
