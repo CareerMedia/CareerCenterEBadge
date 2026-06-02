@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-01T23:24:40.458Z",
+  "updatedAt": "2026-06-02T01:49:25.267Z",
   "totals": {
     "badgesIssued": 72,
-    "badgeViews": 233,
+    "badgeViews": 234,
     "certificateDownloads": 5,
     "generatorOpens": 93,
     "generatorCompletions": 36,
     "conversionRate": 38.7,
-    "uniqueVisitorsApprox": 157
+    "uniqueVisitorsApprox": 158
   },
   "months": [
     {
@@ -37,11 +37,11 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 1,
-      "badgeViews": 3,
+      "badgeViews": 4,
       "certificateDownloads": 0,
       "generatorOpens": 1,
       "generatorCompletions": 1,
-      "uniqueVisitorsApprox": 3,
+      "uniqueVisitorsApprox": 4,
       "conversionRate": 100
     }
   ],
@@ -50,11 +50,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 72,
-      "badgeViews": 233,
+      "badgeViews": 234,
       "certificateDownloads": 5,
       "generatorOpens": 93,
       "generatorCompletions": 36,
-      "uniqueVisitorsApprox": 157,
+      "uniqueVisitorsApprox": 158,
       "conversionRate": 38.7
     }
   ],
@@ -63,7 +63,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 68,
-      "badgeViews": 231,
+      "badgeViews": 232,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 32,
@@ -123,9 +123,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
       "badgesIssued": 1,
-      "badgeViews": 14,
+      "badgeViews": 15,
       "certificateDownloads": 1,
-      "latestViewedAt": "2026-05-28T04:02:37.300Z"
+      "latestViewedAt": "2026-06-02T01:49:25.238Z"
     },
     {
       "slug": "bri-career-champion-csuncc-20260409-0005",
@@ -1025,7 +1025,7 @@
     {
       "awardeeName": "Minley Moradian",
       "badgesIssued": 1,
-      "badgeViews": 14,
+      "badgeViews": 15,
       "certificateDownloads": 1
     },
     {
