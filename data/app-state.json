@@ -15993,6 +15993,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "a7fd79e3-5274-4371-b69c-dadf929dd84a",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-02T17:17:39.789Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0006",
+      "badgeSlug": "genesis-lozano-career-champion-csuncc-20260526-0006",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Genesis Lozano",
+      "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "38de54040ec9ec3900798c0e",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -16467,10 +16488,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-02T07:10:56.748Z",
+    "updatedAt": "2026-06-02T17:17:39.881Z",
     "totals": {
       "badgesIssued": 72,
-      "badgeViews": 235,
+      "badgeViews": 236,
       "certificateDownloads": 5,
       "generatorOpens": 93,
       "generatorCompletions": 36,
@@ -16504,7 +16525,7 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 1,
-        "badgeViews": 5,
+        "badgeViews": 6,
         "certificateDownloads": 0,
         "generatorOpens": 1,
         "generatorCompletions": 1,
@@ -16517,7 +16538,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 72,
-        "badgeViews": 235,
+        "badgeViews": 236,
         "certificateDownloads": 5,
         "generatorOpens": 93,
         "generatorCompletions": 36,
@@ -16530,7 +16551,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 68,
-        "badgeViews": 233,
+        "badgeViews": 234,
         "certificateDownloads": 5,
         "generatorOpens": 34,
         "generatorCompletions": 32,
@@ -16943,6 +16964,18 @@
         "latestViewedAt": "2026-05-26T18:41:49.280Z"
       },
       {
+        "slug": "genesis-lozano-career-champion-csuncc-20260526-0006",
+        "badgeId": "CSUNCC-20260526-0006",
+        "awardeeName": "Genesis Lozano",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-06-02T17:17:39.789Z"
+      },
+      {
         "slug": "dalia-picado-career-champion-csuncc-20250101-0005",
         "badgeId": "CSUNCC-20250101-0005",
         "awardeeName": "Dalia Picado",
@@ -17001,18 +17034,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:16:37.302Z"
-      },
-      {
-        "slug": "genesis-lozano-career-champion-csuncc-20260526-0006",
-        "badgeId": "CSUNCC-20260526-0006",
-        "awardeeName": "Genesis Lozano",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-06-01T23:22:45.154Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -17556,6 +17577,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Genesis Lozano",
+        "badgesIssued": 2,
+        "badgeViews": 4,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Leslie Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 5,
@@ -17565,12 +17592,6 @@
         "awardeeName": "Genesis Lozano-Gonzalez",
         "badgesIssued": 1,
         "badgeViews": 4,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Genesis Lozano",
-        "badgesIssued": 2,
-        "badgeViews": 3,
         "certificateDownloads": 0
       },
       {
