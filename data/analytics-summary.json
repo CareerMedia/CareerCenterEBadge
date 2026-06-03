@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-03T04:48:20.552Z",
+  "updatedAt": "2026-06-03T16:57:47.688Z",
   "totals": {
     "badgesIssued": 72,
-    "badgeViews": 237,
+    "badgeViews": 238,
     "certificateDownloads": 5,
     "generatorOpens": 93,
     "generatorCompletions": 36,
     "conversionRate": 38.7,
-    "uniqueVisitorsApprox": 158
+    "uniqueVisitorsApprox": 159
   },
   "months": [
     {
@@ -37,11 +37,11 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 1,
-      "badgeViews": 7,
+      "badgeViews": 8,
       "certificateDownloads": 0,
       "generatorOpens": 1,
       "generatorCompletions": 1,
-      "uniqueVisitorsApprox": 4,
+      "uniqueVisitorsApprox": 5,
       "conversionRate": 100
     }
   ],
@@ -50,11 +50,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 72,
-      "badgeViews": 237,
+      "badgeViews": 238,
       "certificateDownloads": 5,
       "generatorOpens": 93,
       "generatorCompletions": 36,
-      "uniqueVisitorsApprox": 158,
+      "uniqueVisitorsApprox": 159,
       "conversionRate": 38.7
     }
   ],
@@ -63,7 +63,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 68,
-      "badgeViews": 235,
+      "badgeViews": 236,
       "certificateDownloads": 5,
       "generatorOpens": 34,
       "generatorCompletions": 32,
@@ -99,9 +99,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
       "badgesIssued": 1,
-      "badgeViews": 24,
+      "badgeViews": 25,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-06-03T04:48:20.548Z"
+      "latestViewedAt": "2026-06-03T16:57:47.684Z"
     },
     {
       "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
@@ -1007,7 +1007,7 @@
     {
       "awardeeName": "Hector Carrillo",
       "badgesIssued": 1,
-      "badgeViews": 24,
+      "badgeViews": 25,
       "certificateDownloads": 0
     },
     {
