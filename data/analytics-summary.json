@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-04T22:00:39.921Z",
+  "updatedAt": "2026-06-04T22:51:42.592Z",
   "totals": {
     "badgesIssued": 74,
-    "badgeViews": 262,
+    "badgeViews": 263,
     "certificateDownloads": 9,
     "generatorOpens": 94,
     "generatorCompletions": 38,
     "conversionRate": 40.4,
-    "uniqueVisitorsApprox": 171
+    "uniqueVisitorsApprox": 172
   },
   "months": [
     {
@@ -37,11 +37,11 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 3,
-      "badgeViews": 32,
+      "badgeViews": 33,
       "certificateDownloads": 4,
       "generatorOpens": 2,
       "generatorCompletions": 3,
-      "uniqueVisitorsApprox": 18,
+      "uniqueVisitorsApprox": 19,
       "conversionRate": 150
     }
   ],
@@ -50,11 +50,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 74,
-      "badgeViews": 262,
+      "badgeViews": 263,
       "certificateDownloads": 9,
       "generatorOpens": 94,
       "generatorCompletions": 38,
-      "uniqueVisitorsApprox": 171,
+      "uniqueVisitorsApprox": 172,
       "conversionRate": 40.4
     }
   ],
@@ -63,7 +63,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 70,
-      "badgeViews": 260,
+      "badgeViews": 261,
       "certificateDownloads": 9,
       "generatorOpens": 34,
       "generatorCompletions": 34,
@@ -111,9 +111,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
       "badgesIssued": 1,
-      "badgeViews": 21,
+      "badgeViews": 22,
       "certificateDownloads": 2,
-      "latestViewedAt": "2026-06-04T18:40:56.869Z"
+      "latestViewedAt": "2026-06-04T22:51:42.556Z"
     },
     {
       "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
@@ -1037,7 +1037,7 @@
     {
       "awardeeName": "Minley Moradian",
       "badgesIssued": 1,
-      "badgeViews": 21,
+      "badgeViews": 22,
       "certificateDownloads": 2
     },
     {
