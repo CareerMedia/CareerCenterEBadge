@@ -16855,6 +16855,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "10f40435-5736-400a-9bd6-2c9853743f0d",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-04T21:49:41.586Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260601-0001",
+      "badgeSlug": "isabel-casas-career-champion-csuncc-20260601-0001",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Isabel Casas",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-career-champion-csuncc-20260601-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "38de54040ec9ec3900798c0e",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -17329,10 +17350,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-04T20:12:31.638Z",
+    "updatedAt": "2026-06-04T21:49:41.600Z",
     "totals": {
       "badgesIssued": 74,
-      "badgeViews": 258,
+      "badgeViews": 259,
       "certificateDownloads": 9,
       "generatorOpens": 94,
       "generatorCompletions": 38,
@@ -17366,7 +17387,7 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 3,
-        "badgeViews": 28,
+        "badgeViews": 29,
         "certificateDownloads": 4,
         "generatorOpens": 2,
         "generatorCompletions": 3,
@@ -17379,7 +17400,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 74,
-        "badgeViews": 258,
+        "badgeViews": 259,
         "certificateDownloads": 9,
         "generatorOpens": 94,
         "generatorCompletions": 38,
@@ -17392,7 +17413,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 256,
+        "badgeViews": 257,
         "certificateDownloads": 9,
         "generatorOpens": 34,
         "generatorCompletions": 34,
@@ -17901,6 +17922,18 @@
         "latestViewedAt": "2026-05-12T18:16:37.302Z"
       },
       {
+        "slug": "isabel-casas-career-champion-csuncc-20260601-0001",
+        "badgeId": "CSUNCC-20260601-0001",
+        "awardeeName": "Isabel Casas",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-career-champion-csuncc-20260601-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-06-04T21:49:41.586Z"
+      },
+      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -18007,18 +18040,6 @@
         "badgeViews": 1,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-22T19:36:35.271Z"
-      },
-      {
-        "slug": "isabel-casas-career-champion-csuncc-20260601-0001",
-        "badgeId": "CSUNCC-20260601-0001",
-        "awardeeName": "Isabel Casas",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-career-champion-csuncc-20260601-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-06-03T17:43:13.302Z"
       },
       {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -18544,6 +18565,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Isabel Casas",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -18581,12 +18608,6 @@
       },
       {
         "awardeeName": "Valerie Ipatzi",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Isabel Casas",
         "badgesIssued": 1,
         "badgeViews": 1,
         "certificateDownloads": 0
