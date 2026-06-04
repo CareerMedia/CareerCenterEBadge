@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-04T19:39:06.359Z",
+  "updatedAt": "2026-06-04T19:39:48.556Z",
   "totals": {
     "badgesIssued": 72,
-    "badgeViews": 251,
-    "certificateDownloads": 6,
+    "badgeViews": 253,
+    "certificateDownloads": 7,
     "generatorOpens": 93,
     "generatorCompletions": 36,
     "conversionRate": 38.7,
-    "uniqueVisitorsApprox": 162
+    "uniqueVisitorsApprox": 164
   },
   "months": [
     {
@@ -37,11 +37,11 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 1,
-      "badgeViews": 21,
-      "certificateDownloads": 1,
+      "badgeViews": 23,
+      "certificateDownloads": 2,
       "generatorOpens": 1,
       "generatorCompletions": 1,
-      "uniqueVisitorsApprox": 8,
+      "uniqueVisitorsApprox": 10,
       "conversionRate": 100
     }
   ],
@@ -50,11 +50,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 72,
-      "badgeViews": 251,
-      "certificateDownloads": 6,
+      "badgeViews": 253,
+      "certificateDownloads": 7,
       "generatorOpens": 93,
       "generatorCompletions": 36,
-      "uniqueVisitorsApprox": 162,
+      "uniqueVisitorsApprox": 164,
       "conversionRate": 38.7
     }
   ],
@@ -63,8 +63,8 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 68,
-      "badgeViews": 249,
-      "certificateDownloads": 6,
+      "badgeViews": 251,
+      "certificateDownloads": 7,
       "generatorOpens": 34,
       "generatorCompletions": 32,
       "conversionRate": 94.1
@@ -212,6 +212,18 @@
       "latestViewedAt": "2026-05-13T16:05:12.966Z"
     },
     {
+      "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
+      "badgeId": "CSUNCC-20260526-0005",
+      "awardeeName": "Dorna Basiratmand",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 6,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-06-04T19:39:48.552Z"
+    },
+    {
       "slug": "bri-career-champion-csuncc-20260407-0002",
       "badgeId": "CSUNCC-20260407-0002",
       "awardeeName": "Bri",
@@ -342,18 +354,6 @@
       "badgeViews": 4,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-12T18:29:24.776Z"
-    },
-    {
-      "slug": "dorna-basiratmand-career-champion-csuncc-20260526-0005",
-      "badgeId": "CSUNCC-20260526-0005",
-      "awardeeName": "Dorna Basiratmand",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dorna-basiratmand-career-champion-csuncc-20260526-0005/",
-      "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-06-04T19:39:06.353Z"
     },
     {
       "slug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
@@ -1059,6 +1059,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Dorna Basiratmand",
+      "badgesIssued": 1,
+      "badgeViews": 6,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Brianna Fuente",
       "badgesIssued": 1,
       "badgeViews": 6,
@@ -1123,12 +1129,6 @@
       "badgesIssued": 1,
       "badgeViews": 3,
       "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Dorna Basiratmand",
-      "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0
     },
     {
       "awardeeName": "Ivania Fictoria",
