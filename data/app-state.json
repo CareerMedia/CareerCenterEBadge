@@ -16771,6 +16771,90 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "63646375-b6ff-471c-988a-503ec167483a",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-04T20:12:12.315Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260604-0002",
+      "badgeSlug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Dianita Saucedo Rodriguez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "44f3c55b0afde5eaadc906bb",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "c9d3f89c-aa30-4aae-bdc0-577928335d4e",
+      "type": "certificate_downloaded",
+      "timestamp": "2026-06-04T20:12:24.839Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260604-0002",
+      "badgeSlug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Dianita Saucedo Rodriguez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "44f3c55b0afde5eaadc906bb",
+      "requestPath": "/api/analytics/track",
+      "context": "badge-certificate-download",
+      "meta": {}
+    },
+    {
+      "id": "d57152a8-03c7-40fb-8b8a-e221db31daa2",
+      "type": "certificate_downloaded",
+      "timestamp": "2026-06-04T20:12:25.657Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260604-0002",
+      "badgeSlug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Dianita Saucedo Rodriguez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "44f3c55b0afde5eaadc906bb",
+      "requestPath": "/api/analytics/track",
+      "context": "badge-certificate-download",
+      "meta": {}
+    },
+    {
+      "id": "cade4e45-4520-4707-9cc2-fc87dfe27ea0",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-04T20:12:31.634Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260604-0002",
+      "badgeSlug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Dianita Saucedo Rodriguez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "597378c2fbc52e2defea79bf",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -17245,15 +17329,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-04T20:00:59.136Z",
+    "updatedAt": "2026-06-04T20:12:31.638Z",
     "totals": {
       "badgesIssued": 74,
-      "badgeViews": 256,
-      "certificateDownloads": 7,
+      "badgeViews": 258,
+      "certificateDownloads": 9,
       "generatorOpens": 94,
       "generatorCompletions": 38,
       "conversionRate": 40.4,
-      "uniqueVisitorsApprox": 167
+      "uniqueVisitorsApprox": 169
     },
     "months": [
       {
@@ -17282,11 +17366,11 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 3,
-        "badgeViews": 26,
-        "certificateDownloads": 2,
+        "badgeViews": 28,
+        "certificateDownloads": 4,
         "generatorOpens": 2,
         "generatorCompletions": 3,
-        "uniqueVisitorsApprox": 14,
+        "uniqueVisitorsApprox": 16,
         "conversionRate": 150
       }
     ],
@@ -17295,11 +17379,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 74,
-        "badgeViews": 256,
-        "certificateDownloads": 7,
+        "badgeViews": 258,
+        "certificateDownloads": 9,
         "generatorOpens": 94,
         "generatorCompletions": 38,
-        "uniqueVisitorsApprox": 167,
+        "uniqueVisitorsApprox": 169,
         "conversionRate": 40.4
       }
     ],
@@ -17308,8 +17392,8 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 254,
-        "certificateDownloads": 7,
+        "badgeViews": 256,
+        "certificateDownloads": 9,
         "generatorOpens": 34,
         "generatorCompletions": 34,
         "conversionRate": 100
@@ -17755,6 +17839,18 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-06-04T20:00:59.133Z"
+      },
+      {
+        "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
+        "badgeId": "CSUNCC-20260604-0002",
+        "awardeeName": "Dianita Saucedo Rodriguez",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 2,
+        "latestViewedAt": "2026-06-04T20:12:31.634Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
@@ -18223,18 +18319,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
-      },
-      {
-        "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
-        "badgeId": "CSUNCC-20260604-0002",
-        "awardeeName": "Dianita Saucedo Rodriguez",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -18412,6 +18496,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Dianita Saucedo Rodriguez",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 2
+      },
+      {
         "awardeeName": "Jennifer Sandoval",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -18569,12 +18659,6 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Dianita Saucedo Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
