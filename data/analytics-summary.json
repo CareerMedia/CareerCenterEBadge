@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-04T15:45:41.895Z",
+  "updatedAt": "2026-06-04T15:48:05.883Z",
   "totals": {
     "badgesIssued": 72,
-    "badgeViews": 243,
-    "certificateDownloads": 5,
+    "badgeViews": 245,
+    "certificateDownloads": 6,
     "generatorOpens": 93,
     "generatorCompletions": 36,
     "conversionRate": 38.7,
@@ -37,8 +37,8 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 1,
-      "badgeViews": 13,
-      "certificateDownloads": 0,
+      "badgeViews": 15,
+      "certificateDownloads": 1,
       "generatorOpens": 1,
       "generatorCompletions": 1,
       "uniqueVisitorsApprox": 7,
@@ -50,8 +50,8 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 72,
-      "badgeViews": 243,
-      "certificateDownloads": 5,
+      "badgeViews": 245,
+      "certificateDownloads": 6,
       "generatorOpens": 93,
       "generatorCompletions": 36,
       "uniqueVisitorsApprox": 161,
@@ -63,8 +63,8 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 68,
-      "badgeViews": 241,
-      "certificateDownloads": 5,
+      "badgeViews": 243,
+      "certificateDownloads": 6,
       "generatorOpens": 34,
       "generatorCompletions": 32,
       "conversionRate": 94.1
@@ -123,9 +123,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
       "badgesIssued": 1,
-      "badgeViews": 16,
-      "certificateDownloads": 1,
-      "latestViewedAt": "2026-06-04T15:45:41.889Z"
+      "badgeViews": 18,
+      "certificateDownloads": 2,
+      "latestViewedAt": "2026-06-04T15:48:05.878Z"
     },
     {
       "slug": "bri-career-champion-csuncc-20260409-0005",
@@ -1025,8 +1025,8 @@
     {
       "awardeeName": "Minley Moradian",
       "badgesIssued": 1,
-      "badgeViews": 16,
-      "certificateDownloads": 1
+      "badgeViews": 18,
+      "certificateDownloads": 2
     },
     {
       "awardeeName": "Mikayla Agregado",

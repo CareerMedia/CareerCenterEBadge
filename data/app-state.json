@@ -16161,6 +16161,48 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "89effb6b-3c5a-4566-90d9-aabe6f2d14aa",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-04T15:46:13.454Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0001",
+      "badgeSlug": "minley-moradian-career-champion-csuncc-20260526-0001",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Minley Moradian",
+      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "cfbee6d8ca9d148cc7c7e197",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "f5f7ec74-6189-4781-b0bd-1db2f3e1ba60",
+      "type": "certificate_downloaded",
+      "timestamp": "2026-06-04T15:46:22.473Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0001",
+      "badgeSlug": "minley-moradian-career-champion-csuncc-20260526-0001",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Minley Moradian",
+      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "cfbee6d8ca9d148cc7c7e197",
+      "requestPath": "/api/analytics/track",
+      "context": "badge-certificate-download",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -16635,11 +16677,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-04T15:45:41.895Z",
+    "updatedAt": "2026-06-04T15:46:22.477Z",
     "totals": {
       "badgesIssued": 72,
-      "badgeViews": 243,
-      "certificateDownloads": 5,
+      "badgeViews": 244,
+      "certificateDownloads": 6,
       "generatorOpens": 93,
       "generatorCompletions": 36,
       "conversionRate": 38.7,
@@ -16672,8 +16714,8 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 1,
-        "badgeViews": 13,
-        "certificateDownloads": 0,
+        "badgeViews": 14,
+        "certificateDownloads": 1,
         "generatorOpens": 1,
         "generatorCompletions": 1,
         "uniqueVisitorsApprox": 7,
@@ -16685,8 +16727,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 72,
-        "badgeViews": 243,
-        "certificateDownloads": 5,
+        "badgeViews": 244,
+        "certificateDownloads": 6,
         "generatorOpens": 93,
         "generatorCompletions": 36,
         "uniqueVisitorsApprox": 161,
@@ -16698,8 +16740,8 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 68,
-        "badgeViews": 241,
-        "certificateDownloads": 5,
+        "badgeViews": 242,
+        "certificateDownloads": 6,
         "generatorOpens": 34,
         "generatorCompletions": 32,
         "conversionRate": 94.1
@@ -16758,9 +16800,9 @@
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
         "badgesIssued": 1,
-        "badgeViews": 16,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-06-04T15:45:41.889Z"
+        "badgeViews": 17,
+        "certificateDownloads": 2,
+        "latestViewedAt": "2026-06-04T15:46:13.454Z"
       },
       {
         "slug": "bri-career-champion-csuncc-20260409-0005",
@@ -17660,8 +17702,8 @@
       {
         "awardeeName": "Minley Moradian",
         "badgesIssued": 1,
-        "badgeViews": 16,
-        "certificateDownloads": 1
+        "badgeViews": 17,
+        "certificateDownloads": 2
       },
       {
         "awardeeName": "Mikayla Agregado",
