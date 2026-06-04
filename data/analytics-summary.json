@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-04T19:56:53.470Z",
+  "updatedAt": "2026-06-04T19:58:17.782Z",
   "totals": {
-    "badgesIssued": 72,
+    "badgesIssued": 74,
     "badgeViews": 253,
     "certificateDownloads": 7,
     "generatorOpens": 94,
-    "generatorCompletions": 36,
-    "conversionRate": 38.3,
+    "generatorCompletions": 38,
+    "conversionRate": 40.4,
     "uniqueVisitorsApprox": 164
   },
   "months": [
@@ -36,38 +36,38 @@
     {
       "key": "2026-06",
       "label": "Jun 2026",
-      "badgesIssued": 1,
+      "badgesIssued": 3,
       "badgeViews": 23,
       "certificateDownloads": 2,
       "generatorOpens": 2,
-      "generatorCompletions": 1,
+      "generatorCompletions": 3,
       "uniqueVisitorsApprox": 11,
-      "conversionRate": 50
+      "conversionRate": 150
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 72,
+      "badgesIssued": 74,
       "badgeViews": 253,
       "certificateDownloads": 7,
       "generatorOpens": 94,
-      "generatorCompletions": 36,
+      "generatorCompletions": 38,
       "uniqueVisitorsApprox": 164,
-      "conversionRate": 38.3
+      "conversionRate": 40.4
     }
   ],
   "badgeTypes": [
     {
       "id": "career-champion",
       "title": "Career Champion",
-      "badgesIssued": 68,
+      "badgesIssued": 70,
       "badgeViews": 251,
       "certificateDownloads": 7,
       "generatorOpens": 34,
-      "generatorCompletions": 32,
-      "conversionRate": 94.1
+      "generatorCompletions": 34,
+      "conversionRate": 100
     },
     {
       "id": "career-activated",
@@ -966,6 +966,30 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "nancy-lemus-career-champion-csuncc-20260604-0001",
+      "badgeId": "CSUNCC-20260604-0001",
+      "awardeeName": "Nancy Lemus",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/nancy-lemus-career-champion-csuncc-20260604-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
+      "badgeId": "CSUNCC-20260604-0002",
+      "awardeeName": "Dianita Saucedo Rodriguez",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -975,8 +999,8 @@
       "pageKind": "general",
       "templateId": "",
       "opens": 42,
-      "completions": 28,
-      "conversionRate": 66.7
+      "completions": 30,
+      "conversionRate": 71.4
     },
     {
       "key": "career-champion",
@@ -1294,6 +1318,18 @@
     },
     {
       "awardeeName": "Antonio Gonzalez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Nancy Lemus",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Dianita Saucedo Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0

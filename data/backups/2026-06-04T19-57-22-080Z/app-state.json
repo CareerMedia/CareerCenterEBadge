@@ -6447,101 +6447,6 @@
       "openBadgeJsonPath": "docs/badges/nancy-lemus-career-champion-csuncc-20260604-0001/open-badge.json",
       "verifiableCredentialPath": "docs/badges/nancy-lemus-career-champion-csuncc-20260604-0001/credential.json",
       "verificationHash": "db9ece9d563f4d1620aad9a75d4a604ea9f5833ac2724eb51209dd7cf5d849fe"
-    },
-    {
-      "id": "CSUNCC-20260604-0002",
-      "awardeeName": "Dianita Saucedo Rodriguez",
-      "awardeeEmail": "dianita.saucedo-rodriguez@csun.edu",
-      "issueDate": "June 4, 2026",
-      "issueDateISO": "2026-06-04",
-      "badgeTemplateId": "career-champion",
-      "badgeTitle": "Career Champion",
-      "badgeLabel": "Career Champion",
-      "description": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "publicSummary": "CSUN staff and faculty who earn this badge are recognized for integrating career development into their work and empowering students to succeed beyond graduation.",
-      "meaning": "The CSUN Career Champions Badge is awarded to staff and faculty who have successfully completed the CSUN Career Center’s Career Champions program. Badge earners are recognized as dedicated CSUN professionals who actively integrate career development into their work with students.\r\n\r\nThrough this program, participants gain practical strategies to connect academic pathways with real-world opportunities, support student persistence, and guide students in their transition to meaningful careers. Career Champions are equipped with tools to enhance advising and student interactions—helping students build confidence in selecting majors, exploring career options, and planning for life after graduation.\r\n\r\nEarning this badge reflects a commitment to ongoing professional growth and to fostering a campus-wide culture where career readiness is a shared responsibility among faculty and staff.",
-      "criteria": "To earn this badge, participants must complete the Career Champions course, including all modules, activities, and assessments.",
-      "evidenceLabel": "Program Completion & Reflection",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "Pre- and post-program questionnaire responses\r\nParticipation verification from Career Champion sessions\r\nFollow-up survey responses demonstrating applied learning",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Development Integration",
-        "Student Advising & Support",
-        "Career Readiness Coaching",
-        "Academic-to-Career Alignment",
-        "Student Engagement & Persistence Strategies",
-        "Professional Communication",
-        "Leadership in Student Success"
-      ],
-      "standards": [
-        "NACE Career Readiness Competencies",
-        "NASPA/ACPA Professional Competencies for Student Affairs Educators"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "Cal State Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Issued directly by the CSUN Career Center and maintained in the official credential registry.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/badges/champion-badge.svg",
-      "certificateBackground": "assets/career-champ-cert.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/career-champ-cert.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 2000,
-          "y": 1400,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1150,
-          "y": 2150,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-06-04T19:58:17.473Z",
-      "source": "public-generator",
-      "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
-      "relativeUrl": "../badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
-      "relativeJsonUrl": "../badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
-      "repoPath": "docs/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/index.html",
-      "detailsJsonPath": "docs/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/details.json",
-      "openBadgeJsonPath": "docs/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/credential.json",
-      "verificationHash": "c00428bc68fbd6bb542f0e409a54cf4109375138d07509e89725d14f2d2b8e31"
     }
   ],
   "deletedBadges": [
@@ -16666,48 +16571,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "9f5919b8-d795-4eae-bca3-29810fa3cb62",
-      "type": "badge_issued",
-      "timestamp": "2026-06-04T19:58:17.473Z",
-      "monthKey": "2026-06",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260604-0002",
-      "badgeSlug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dianita Saucedo Rodriguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "09b4a6ed-7e24-41e8-a355-beeef33e5b6b",
-      "type": "generator_completed",
-      "timestamp": "2026-06-04T19:58:17.777Z",
-      "monthKey": "2026-06",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260604-0002",
-      "badgeSlug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Dianita Saucedo Rodriguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
-      "pageKind": "general",
-      "generatorKey": "general",
-      "generatorLabel": "General generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -17182,14 +17045,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-04T19:58:17.782Z",
+    "updatedAt": "2026-06-04T19:57:21.777Z",
     "totals": {
-      "badgesIssued": 74,
+      "badgesIssued": 73,
       "badgeViews": 253,
       "certificateDownloads": 7,
       "generatorOpens": 94,
-      "generatorCompletions": 38,
-      "conversionRate": 40.4,
+      "generatorCompletions": 37,
+      "conversionRate": 39.4,
       "uniqueVisitorsApprox": 164
     },
     "months": [
@@ -17218,38 +17081,38 @@
       {
         "key": "2026-06",
         "label": "Jun 2026",
-        "badgesIssued": 3,
+        "badgesIssued": 2,
         "badgeViews": 23,
         "certificateDownloads": 2,
         "generatorOpens": 2,
-        "generatorCompletions": 3,
+        "generatorCompletions": 2,
         "uniqueVisitorsApprox": 11,
-        "conversionRate": 150
+        "conversionRate": 100
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 74,
+        "badgesIssued": 73,
         "badgeViews": 253,
         "certificateDownloads": 7,
         "generatorOpens": 94,
-        "generatorCompletions": 38,
+        "generatorCompletions": 37,
         "uniqueVisitorsApprox": 164,
-        "conversionRate": 40.4
+        "conversionRate": 39.4
       }
     ],
     "badgeTypes": [
       {
         "id": "career-champion",
         "title": "Career Champion",
-        "badgesIssued": 70,
+        "badgesIssued": 69,
         "badgeViews": 251,
         "certificateDownloads": 7,
         "generatorOpens": 34,
-        "generatorCompletions": 34,
-        "conversionRate": 100
+        "generatorCompletions": 33,
+        "conversionRate": 97.1
       },
       {
         "id": "career-activated",
@@ -18160,18 +18023,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
-      },
-      {
-        "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
-        "badgeId": "CSUNCC-20260604-0002",
-        "awardeeName": "Dianita Saucedo Rodriguez",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -18181,8 +18032,8 @@
         "pageKind": "general",
         "templateId": "",
         "opens": 42,
-        "completions": 30,
-        "conversionRate": 71.4
+        "completions": 29,
+        "conversionRate": 69
       },
       {
         "key": "career-champion",
@@ -18506,12 +18357,6 @@
       },
       {
         "awardeeName": "Nancy Lemus",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Dianita Saucedo Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
