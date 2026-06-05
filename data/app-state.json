@@ -17002,6 +17002,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "8ef775fc-60f9-4783-86d0-a1a423c91c0a",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-05T22:50:02.913Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0005",
+      "badgeSlug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Ernesto Cruz",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "cadd551ab5728391f355bf3f",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -17476,15 +17497,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-05T22:49:59.493Z",
+    "updatedAt": "2026-06-05T22:50:02.916Z",
     "totals": {
       "badgesIssued": 74,
-      "badgeViews": 265,
+      "badgeViews": 266,
       "certificateDownloads": 9,
       "generatorOpens": 94,
       "generatorCompletions": 38,
       "conversionRate": 40.4,
-      "uniqueVisitorsApprox": 174
+      "uniqueVisitorsApprox": 175
     },
     "months": [
       {
@@ -17513,11 +17534,11 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 3,
-        "badgeViews": 35,
+        "badgeViews": 36,
         "certificateDownloads": 4,
         "generatorOpens": 2,
         "generatorCompletions": 3,
-        "uniqueVisitorsApprox": 21,
+        "uniqueVisitorsApprox": 22,
         "conversionRate": 150
       }
     ],
@@ -17526,11 +17547,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 74,
-        "badgeViews": 265,
+        "badgeViews": 266,
         "certificateDownloads": 9,
         "generatorOpens": 94,
         "generatorCompletions": 38,
-        "uniqueVisitorsApprox": 174,
+        "uniqueVisitorsApprox": 175,
         "conversionRate": 40.4
       }
     ],
@@ -17539,7 +17560,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 263,
+        "badgeViews": 264,
         "certificateDownloads": 9,
         "generatorOpens": 34,
         "generatorCompletions": 34,
@@ -17623,9 +17644,9 @@
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
         "badgesIssued": 1,
-        "badgeViews": 11,
+        "badgeViews": 12,
         "certificateDownloads": 0,
-        "latestViewedAt": "2026-06-05T22:49:59.488Z"
+        "latestViewedAt": "2026-06-05T22:50:02.913Z"
       },
       {
         "slug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
@@ -18531,7 +18552,7 @@
       {
         "awardeeName": "Ernesto Cruz",
         "badgesIssued": 1,
-        "badgeViews": 11,
+        "badgeViews": 12,
         "certificateDownloads": 0
       },
       {
