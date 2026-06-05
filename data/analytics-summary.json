@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-05T15:23:44.510Z",
+  "updatedAt": "2026-06-05T22:50:02.916Z",
   "totals": {
     "badgesIssued": 74,
-    "badgeViews": 264,
+    "badgeViews": 266,
     "certificateDownloads": 9,
     "generatorOpens": 94,
     "generatorCompletions": 38,
     "conversionRate": 40.4,
-    "uniqueVisitorsApprox": 173
+    "uniqueVisitorsApprox": 175
   },
   "months": [
     {
@@ -37,11 +37,11 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 3,
-      "badgeViews": 34,
+      "badgeViews": 36,
       "certificateDownloads": 4,
       "generatorOpens": 2,
       "generatorCompletions": 3,
-      "uniqueVisitorsApprox": 20,
+      "uniqueVisitorsApprox": 22,
       "conversionRate": 150
     }
   ],
@@ -50,11 +50,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 74,
-      "badgeViews": 264,
+      "badgeViews": 266,
       "certificateDownloads": 9,
       "generatorOpens": 94,
       "generatorCompletions": 38,
-      "uniqueVisitorsApprox": 173,
+      "uniqueVisitorsApprox": 175,
       "conversionRate": 40.4
     }
   ],
@@ -63,7 +63,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 70,
-      "badgeViews": 262,
+      "badgeViews": 264,
       "certificateDownloads": 9,
       "generatorOpens": 34,
       "generatorCompletions": 34,
@@ -147,9 +147,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
       "badgesIssued": 1,
-      "badgeViews": 10,
+      "badgeViews": 12,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-22T20:33:02.328Z"
+      "latestViewedAt": "2026-06-05T22:50:02.913Z"
     },
     {
       "slug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
@@ -1053,16 +1053,16 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Ernesto Cruz",
+      "badgesIssued": 1,
+      "badgeViews": 12,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Mikayla Agregado",
       "badgesIssued": 1,
       "badgeViews": 9,
       "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Ernesto Cruz",
-      "badgesIssued": 1,
-      "badgeViews": 10,
-      "certificateDownloads": 0
     },
     {
       "awardeeName": "Joe Rodriguez",
