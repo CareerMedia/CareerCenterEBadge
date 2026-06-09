@@ -17248,48 +17248,6 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
-    },
-    {
-      "id": "65998481-7bde-4c7b-9871-e0dd05e6117f",
-      "type": "generator_opened",
-      "timestamp": "2026-06-09T22:54:11.369Z",
-      "monthKey": "2026-06",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "specific",
-      "generatorKey": "fhtc-e-badge",
-      "generatorLabel": "From Here to Career E-Badge generator",
-      "source": "generator-page",
-      "visitorId": "e367641174705c3e0ee73335",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "2558f9f2-44e5-42ca-a335-fb43ddb10691",
-      "type": "badge_viewed",
-      "timestamp": "2026-06-09T22:54:13.407Z",
-      "monthKey": "2026-06",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260512-0002",
-      "badgeSlug": "cara-nissen-career-champion-csuncc-20260512-0002",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Cara Nissen",
-      "publicUrl": "https://careerbadge.csun.edu/badges/cara-nissen-career-champion-csuncc-20260512-0002/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "380f5f3a5d97ef80c9f6e4da",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -17764,15 +17722,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-09T22:54:13.409Z",
+    "updatedAt": "2026-06-09T22:35:03.992Z",
     "totals": {
       "badgesIssued": 74,
-      "badgeViews": 274,
+      "badgeViews": 273,
       "certificateDownloads": 9,
-      "generatorOpens": 95,
+      "generatorOpens": 94,
       "generatorCompletions": 38,
-      "conversionRate": 40,
-      "uniqueVisitorsApprox": 182
+      "conversionRate": 40.4,
+      "uniqueVisitorsApprox": 180
     },
     "months": [
       {
@@ -17801,12 +17759,12 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 3,
-        "badgeViews": 44,
+        "badgeViews": 43,
         "certificateDownloads": 4,
-        "generatorOpens": 3,
+        "generatorOpens": 2,
         "generatorCompletions": 3,
-        "uniqueVisitorsApprox": 29,
-        "conversionRate": 100
+        "uniqueVisitorsApprox": 27,
+        "conversionRate": 150
       }
     ],
     "years": [
@@ -17814,12 +17772,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 74,
-        "badgeViews": 274,
+        "badgeViews": 273,
         "certificateDownloads": 9,
-        "generatorOpens": 95,
+        "generatorOpens": 94,
         "generatorCompletions": 38,
-        "uniqueVisitorsApprox": 182,
-        "conversionRate": 40
+        "uniqueVisitorsApprox": 180,
+        "conversionRate": 40.4
       }
     ],
     "badgeTypes": [
@@ -17827,7 +17785,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 272,
+        "badgeViews": 271,
         "certificateDownloads": 9,
         "generatorOpens": 34,
         "generatorCompletions": 34,
@@ -17850,16 +17808,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "generatorOpens": 42,
-        "generatorCompletions": 0,
-        "conversionRate": 0
-      },
-      {
-        "id": "fhtc-e-badge",
-        "title": "From Here to Career E-Badge",
-        "badgesIssued": 0,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "generatorOpens": 1,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -17986,18 +17934,6 @@
         "latestViewedAt": "2026-06-09T22:35:03.988Z"
       },
       {
-        "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
-        "badgeId": "CSUNCC-20260512-0002",
-        "awardeeName": "Cara Nissen",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/cara-nissen-career-champion-csuncc-20260512-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 6,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-06-09T22:54:13.407Z"
-      },
-      {
         "slug": "odette-arman-career-champion-csuncc-20260512-0018",
         "badgeId": "CSUNCC-20260512-0018",
         "awardeeName": "Odette Arman",
@@ -18092,6 +18028,18 @@
         "badgeViews": 6,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-26T19:14:11.478Z"
+      },
+      {
+        "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
+        "badgeId": "CSUNCC-20260512-0002",
+        "awardeeName": "Cara Nissen",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/cara-nissen-career-champion-csuncc-20260512-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 5,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-05-18T22:42:28.040Z"
       },
       {
         "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
@@ -18793,15 +18741,6 @@
         "opens": 18,
         "completions": 3,
         "conversionRate": 16.7
-      },
-      {
-        "key": "fhtc-e-badge",
-        "label": "From Here to Career E-Badge generator",
-        "pageKind": "specific",
-        "templateId": "fhtc-e-badge",
-        "opens": 1,
-        "completions": 0,
-        "conversionRate": 0
       }
     ],
     "recipientStats": [
@@ -18854,12 +18793,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Cara Nissen",
-        "badgesIssued": 1,
-        "badgeViews": 6,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Emalie Mendoza",
         "badgesIssued": 1,
         "badgeViews": 7,
@@ -18894,6 +18827,12 @@
         "badgesIssued": 1,
         "badgeViews": 6,
         "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Cara Nissen",
+        "badgesIssued": 1,
+        "badgeViews": 5,
+        "certificateDownloads": 1
       },
       {
         "awardeeName": "Keila Medina",

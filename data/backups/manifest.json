@@ -2,6 +2,25 @@
   "version": 1,
   "backups": [
     {
+      "backupId": "2026-06-09T22-53-59-545Z",
+      "reason": "Saved template fhtc-e-badge",
+      "actor": "admin",
+      "createdAt": "2026-06-09T22:53:59.635Z",
+      "counts": {
+        "badges": 74,
+        "deletedBadges": 2,
+        "templates": 3
+      },
+      "hashes": {
+        "appState": "bcc7d876f185696c543e79d5ac4768c73143ef7643567672dc2fda3a96af16e5",
+        "badgeLinksCsv": "9e788a2773c1bebb8c2d7e0bc504c2349b48fd7f92174e33f05cb2240baba4c6"
+      },
+      "files": {
+        "appState": "data/backups/2026-06-09T22-53-59-545Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-06-09T22-53-59-545Z/badge-links.csv"
+      }
+    },
+    {
       "backupId": "2026-06-04T19-58-18-076Z",
       "reason": "Issued badge CSUNCC-20260604-0002",
       "actor": "admin",
