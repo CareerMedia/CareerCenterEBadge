@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-09T15:58:51.779Z",
+  "updatedAt": "2026-06-09T15:59:39.112Z",
   "totals": {
     "badgesIssued": 74,
-    "badgeViews": 270,
+    "badgeViews": 271,
     "certificateDownloads": 9,
     "generatorOpens": 94,
     "generatorCompletions": 38,
@@ -37,7 +37,7 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 3,
-      "badgeViews": 40,
+      "badgeViews": 41,
       "certificateDownloads": 4,
       "generatorOpens": 2,
       "generatorCompletions": 3,
@@ -50,7 +50,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 74,
-      "badgeViews": 270,
+      "badgeViews": 271,
       "certificateDownloads": 9,
       "generatorOpens": 94,
       "generatorCompletions": 38,
@@ -63,7 +63,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 70,
-      "badgeViews": 268,
+      "badgeViews": 269,
       "certificateDownloads": 9,
       "generatorOpens": 34,
       "generatorCompletions": 34,
@@ -135,9 +135,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
       "badgesIssued": 1,
-      "badgeViews": 16,
+      "badgeViews": 17,
       "certificateDownloads": 0,
-      "latestViewedAt": "2026-06-09T15:58:51.773Z"
+      "latestViewedAt": "2026-06-09T15:59:39.107Z"
     },
     {
       "slug": "bri-career-champion-csuncc-20260409-0005",
@@ -1055,7 +1055,7 @@
     {
       "awardeeName": "Ernesto Cruz",
       "badgesIssued": 1,
-      "badgeViews": 16,
+      "badgeViews": 17,
       "certificateDownloads": 0
     },
     {
