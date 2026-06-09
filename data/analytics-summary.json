@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-09T23:22:00.566Z",
+  "updatedAt": "2026-06-09T23:22:47.122Z",
   "totals": {
     "badgesIssued": 76,
-    "badgeViews": 279,
+    "badgeViews": 280,
     "certificateDownloads": 10,
     "generatorOpens": 102,
     "generatorCompletions": 40,
     "conversionRate": 39.2,
-    "uniqueVisitorsApprox": 185
+    "uniqueVisitorsApprox": 186
   },
   "months": [
     {
@@ -37,11 +37,11 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 5,
-      "badgeViews": 49,
+      "badgeViews": 50,
       "certificateDownloads": 5,
       "generatorOpens": 10,
       "generatorCompletions": 5,
-      "uniqueVisitorsApprox": 32,
+      "uniqueVisitorsApprox": 33,
       "conversionRate": 50
     }
   ],
@@ -50,11 +50,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 76,
-      "badgeViews": 279,
+      "badgeViews": 280,
       "certificateDownloads": 10,
       "generatorOpens": 102,
       "generatorCompletions": 40,
-      "uniqueVisitorsApprox": 185,
+      "uniqueVisitorsApprox": 186,
       "conversionRate": 39.2
     }
   ],
@@ -70,6 +70,16 @@
       "conversionRate": 100
     },
     {
+      "id": "fhtc-e-badge",
+      "title": "From Here to Career E-Badge",
+      "badgesIssued": 2,
+      "badgeViews": 5,
+      "certificateDownloads": 1,
+      "generatorOpens": 8,
+      "generatorCompletions": 2,
+      "conversionRate": 25
+    },
+    {
       "id": "career-activated",
       "title": "Career Activated",
       "badgesIssued": 4,
@@ -78,16 +88,6 @@
       "generatorOpens": 18,
       "generatorCompletions": 4,
       "conversionRate": 22.2
-    },
-    {
-      "id": "fhtc-e-badge",
-      "title": "From Here to Career E-Badge",
-      "badgesIssued": 2,
-      "badgeViews": 4,
-      "certificateDownloads": 1,
-      "generatorOpens": 8,
-      "generatorCompletions": 2,
-      "conversionRate": 25
     },
     {
       "id": "unassigned",
@@ -606,6 +606,18 @@
       "latestViewedAt": "2026-05-12T18:16:37.302Z"
     },
     {
+      "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
+      "badgeId": "CSUNCC-20260609-0002",
+      "awardeeName": "Isabel Casas",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-06-09T23:22:47.117Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -712,18 +724,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-22T19:36:35.271Z"
-    },
-    {
-      "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
-      "badgeId": "CSUNCC-20260609-0002",
-      "awardeeName": "Isabel Casas",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-06-09T23:22:00.562Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -1110,7 +1110,7 @@
     {
       "awardeeName": "Isabel Casas",
       "badgesIssued": 2,
-      "badgeViews": 8,
+      "badgeViews": 9,
       "certificateDownloads": 0
     },
     {
