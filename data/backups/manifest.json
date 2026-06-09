@@ -2,6 +2,82 @@
   "version": 1,
   "backups": [
     {
+      "backupId": "2026-06-09T23-11-03-994Z",
+      "reason": "Issued badge CSUNCC-20260609-0001",
+      "actor": "admin",
+      "createdAt": "2026-06-09T23:11:04.193Z",
+      "counts": {
+        "badges": 75,
+        "deletedBadges": 2,
+        "templates": 3
+      },
+      "hashes": {
+        "appState": "3bd5321405adc8727923911275e53406fb5737dee12b95a3608dd5c9feedff17",
+        "badgeLinksCsv": "7b7962c59751a6c729cc29b48e55ed4d3683a0f9e235b6b8bf8891196bfdc425"
+      },
+      "files": {
+        "appState": "data/backups/2026-06-09T23-11-03-994Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-06-09T23-11-03-994Z/badge-links.csv"
+      }
+    },
+    {
+      "backupId": "2026-06-09T23-10-17-927Z",
+      "reason": "Saved template fhtc-e-badge",
+      "actor": "admin",
+      "createdAt": "2026-06-09T23:10:17.995Z",
+      "counts": {
+        "badges": 74,
+        "deletedBadges": 2,
+        "templates": 3
+      },
+      "hashes": {
+        "appState": "38ee80793d09804a758e2652c640839ffe8a1239e8e476d1c343dae4d07e656f",
+        "badgeLinksCsv": "9e788a2773c1bebb8c2d7e0bc504c2349b48fd7f92174e33f05cb2240baba4c6"
+      },
+      "files": {
+        "appState": "data/backups/2026-06-09T23-10-17-927Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-06-09T23-10-17-927Z/badge-links.csv"
+      }
+    },
+    {
+      "backupId": "2026-06-09T23-09-56-598Z",
+      "reason": "Saved template fhtc-e-badge",
+      "actor": "admin",
+      "createdAt": "2026-06-09T23:09:56.601Z",
+      "counts": {
+        "badges": 74,
+        "deletedBadges": 2,
+        "templates": 3
+      },
+      "hashes": {
+        "appState": "e8146d77fda6de4770bbf10db3bf72002dec8d8d1a4670409704b32fd2e19120",
+        "badgeLinksCsv": "9e788a2773c1bebb8c2d7e0bc504c2349b48fd7f92174e33f05cb2240baba4c6"
+      },
+      "files": {
+        "appState": "data/backups/2026-06-09T23-09-56-598Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-06-09T23-09-56-598Z/badge-links.csv"
+      }
+    },
+    {
+      "backupId": "2026-06-09T23-09-25-896Z",
+      "reason": "Saved template fhtc-e-badge",
+      "actor": "admin",
+      "createdAt": "2026-06-09T23:09:25.898Z",
+      "counts": {
+        "badges": 74,
+        "deletedBadges": 2,
+        "templates": 3
+      },
+      "hashes": {
+        "appState": "12b4ef3fdf1dc01de6fda113bb60e0c37ae16ff46a12ffb91f892b85c0723949",
+        "badgeLinksCsv": "9e788a2773c1bebb8c2d7e0bc504c2349b48fd7f92174e33f05cb2240baba4c6"
+      },
+      "files": {
+        "appState": "data/backups/2026-06-09T23-09-25-896Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-06-09T23-09-25-896Z/badge-links.csv"
+      }
+    },
+    {
       "backupId": "2026-06-09T22-53-59-545Z",
       "reason": "Saved template fhtc-e-badge",
       "actor": "admin",

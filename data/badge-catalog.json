@@ -206,11 +206,11 @@
     },
     "certificateTemplateOverrideEnabled": true,
     "certificateTemplate": {
-      "backgroundImage": "assets/certificate.png",
+      "backgroundImage": "assets/uploads/certificate-backgrounds/fhtc-e-badge-certificate-1781045509839.png",
       "fileNameSuffix": "_Certificate",
       "name": {
-        "x": 516,
-        "y": 566,
+        "x": 697,
+        "y": 567,
         "fontSize": 180,
         "fontFamily": "Times New Roman",
         "fontWeight": "bold",
@@ -219,8 +219,8 @@
         "maxWidth": 2400
       },
       "date": {
-        "x": 303,
-        "y": 1025,
+        "x": 347,
+        "y": 1017,
         "fontSize": 48,
         "fontFamily": "Arial",
         "fontWeight": "normal",

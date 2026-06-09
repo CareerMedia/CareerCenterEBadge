@@ -1,0 +1,19 @@
+{
+  "backupId": "2026-06-09T23-09-56-598Z",
+  "reason": "Saved template fhtc-e-badge",
+  "actor": "admin",
+  "createdAt": "2026-06-09T23:09:56.601Z",
+  "counts": {
+    "badges": 74,
+    "deletedBadges": 2,
+    "templates": 3
+  },
+  "hashes": {
+    "appState": "e8146d77fda6de4770bbf10db3bf72002dec8d8d1a4670409704b32fd2e19120",
+    "badgeLinksCsv": "9e788a2773c1bebb8c2d7e0bc504c2349b48fd7f92174e33f05cb2240baba4c6"
+  },
+  "files": {
+    "appState": "data/backups/2026-06-09T23-09-56-598Z/app-state.json",
+    "badgeLinksCsv": "data/backups/2026-06-09T23-09-56-598Z/badge-links.csv"
+  }
+}

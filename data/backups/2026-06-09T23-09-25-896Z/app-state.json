@@ -6542,101 +6542,6 @@
       "openBadgeJsonPath": "docs/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/open-badge.json",
       "verifiableCredentialPath": "docs/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/credential.json",
       "verificationHash": "c00428bc68fbd6bb542f0e409a54cf4109375138d07509e89725d14f2d2b8e31"
-    },
-    {
-      "id": "CSUNCC-20260609-0001",
-      "awardeeName": "Bryce Simon",
-      "awardeeEmail": "bryce.simon@csun.edu",
-      "issueDate": "June 9, 2026",
-      "issueDateISO": "2026-06-09",
-      "badgeTemplateId": "fhtc-e-badge",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeLabel": "From Here to Career E-Badge",
-      "description": "CSUN on-campus student employees who earn this badge are recognized for completing all the requirements of the CSUN Career Center's From Here to Career Program. This 3-month program, guided by the National Association of Colleges and Employers (NACE) Career Readiness Competencies, helps student assistants learn valuable skills that future employers seek in candidates.",
-      "publicSummary": "CSUN on-campus student employees who earn this badge are recognized for completing all the requirements of the CSUN Career Center's From Here to Career Program. This 3-month program, guided by the National Association of Colleges and Employers (NACE) Career Readiness Competencies, helps student assistants learn valuable skills that future employers seek in candidates.",
-      "meaning": "CSUN on-campus student employees who earn this badge are recognized for completing all the requirements of the CSUN Career Center's From Here to Career Program. This 3-month program, guided by the National Association of Colleges and Employers (NACE) Career Readiness Competencies, helps student assistants learn valuable skills that future employers seek in candidates.",
-      "criteria": "To earn this badge, student assistants must complete 10 self-paced Canvas modules, attend 1 qualifying alumni networking event, 1 career center workshop, 1 career advising session, and monthly check-ins with their supervisor.",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career and Self-Development",
-        "Communication",
-        "Critical Thinking",
-        "Equity and Inclusion",
-        "Leadership",
-        "Professionalism/Workplace Readiness",
-        "Teamwork",
-        "Technology"
-      ],
-      "standards": [
-        "NACE CAREER READINESS COMPETENCIES"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "CSUN Career Center",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu/career",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/fhtc-e-badge-icon-1781045509836.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/fhtc-e-badge-certificate-1781045509839.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/fhtc-e-badge-certificate-1781045509839.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 697,
-          "y": 567,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 347,
-          "y": 1017,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": false,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-06-09T23:11:03.105Z",
-      "source": "public-generator",
-      "slug": "bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001",
-      "relativeUrl": "../badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/",
-      "relativeJsonUrl": "../badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/",
-      "repoPath": "docs/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/index.html",
-      "detailsJsonPath": "docs/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/details.json",
-      "openBadgeJsonPath": "docs/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/credential.json",
-      "verificationHash": "cead52b3eca1a17d756468871f725c0b3c649e7b6f88ef2342f5e959b5d80b73"
     }
   ],
   "deletedBadges": [
@@ -6977,8 +6882,8 @@
         "backgroundImage": "assets/uploads/certificate-backgrounds/fhtc-e-badge-certificate-1781045509839.png",
         "fileNameSuffix": "_Certificate",
         "name": {
-          "x": 697,
-          "y": 567,
+          "x": 632,
+          "y": 571,
           "fontSize": 180,
           "fontFamily": "Times New Roman",
           "fontWeight": "bold",
@@ -6987,8 +6892,8 @@
           "maxWidth": 2400
         },
         "date": {
-          "x": 347,
-          "y": 1017,
+          "x": 338,
+          "y": 1025,
           "fontSize": 48,
           "fontFamily": "Arial",
           "fontWeight": "normal",
@@ -17427,111 +17332,6 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
-    },
-    {
-      "id": "9882ee97-cebc-4419-8fa8-148c45e735ee",
-      "type": "generator_opened",
-      "timestamp": "2026-06-09T23:09:29.639Z",
-      "monthKey": "2026-06",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "specific",
-      "generatorKey": "fhtc-e-badge",
-      "generatorLabel": "From Here to Career E-Badge generator",
-      "source": "generator-page",
-      "visitorId": "e367641174705c3e0ee73335",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "420e44bd-13eb-43ea-b166-109e5ad1f862",
-      "type": "generator_opened",
-      "timestamp": "2026-06-09T23:09:59.397Z",
-      "monthKey": "2026-06",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "specific",
-      "generatorKey": "fhtc-e-badge",
-      "generatorLabel": "From Here to Career E-Badge generator",
-      "source": "generator-page",
-      "visitorId": "e367641174705c3e0ee73335",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "c81ffed7-48e1-487e-8cf7-5cf1c57c37b8",
-      "type": "generator_opened",
-      "timestamp": "2026-06-09T23:10:22.228Z",
-      "monthKey": "2026-06",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "specific",
-      "generatorKey": "fhtc-e-badge",
-      "generatorLabel": "From Here to Career E-Badge generator",
-      "source": "generator-page",
-      "visitorId": "e367641174705c3e0ee73335",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "3ebc7702-d815-47e4-b912-53c2c5bfe79a",
-      "type": "badge_issued",
-      "timestamp": "2026-06-09T23:11:03.105Z",
-      "monthKey": "2026-06",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260609-0001",
-      "badgeSlug": "bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "awardeeName": "Bryce Simon",
-      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "359ed5b6-4d45-4b62-9c81-bd55d30ead58",
-      "type": "generator_completed",
-      "timestamp": "2026-06-09T23:11:03.508Z",
-      "monthKey": "2026-06",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260609-0001",
-      "badgeSlug": "bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "awardeeName": "Bryce Simon",
-      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/",
-      "pageKind": "specific",
-      "generatorKey": "fhtc-e-badge",
-      "generatorLabel": "From Here to Career E-Badge generator",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -18006,14 +17806,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-09T23:11:03.596Z",
+    "updatedAt": "2026-06-09T23:08:59.275Z",
     "totals": {
-      "badgesIssued": 75,
+      "badgesIssued": 74,
       "badgeViews": 275,
       "certificateDownloads": 9,
-      "generatorOpens": 99,
-      "generatorCompletions": 39,
-      "conversionRate": 39.4,
+      "generatorOpens": 96,
+      "generatorCompletions": 38,
+      "conversionRate": 39.6,
       "uniqueVisitorsApprox": 183
     },
     "months": [
@@ -18042,26 +17842,26 @@
       {
         "key": "2026-06",
         "label": "Jun 2026",
-        "badgesIssued": 4,
+        "badgesIssued": 3,
         "badgeViews": 45,
         "certificateDownloads": 4,
-        "generatorOpens": 7,
-        "generatorCompletions": 4,
+        "generatorOpens": 4,
+        "generatorCompletions": 3,
         "uniqueVisitorsApprox": 30,
-        "conversionRate": 57.1
+        "conversionRate": 75
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 75,
+        "badgesIssued": 74,
         "badgeViews": 275,
         "certificateDownloads": 9,
-        "generatorOpens": 99,
-        "generatorCompletions": 39,
+        "generatorOpens": 96,
+        "generatorCompletions": 38,
         "uniqueVisitorsApprox": 183,
-        "conversionRate": 39.4
+        "conversionRate": 39.6
       }
     ],
     "badgeTypes": [
@@ -18086,22 +17886,22 @@
         "conversionRate": 22.2
       },
       {
-        "id": "fhtc-e-badge",
-        "title": "From Here to Career E-Badge",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "generatorOpens": 5,
-        "generatorCompletions": 1,
-        "conversionRate": 20
-      },
-      {
         "id": "unassigned",
         "title": "Unassigned badge type",
         "badgesIssued": 0,
         "badgeViews": 0,
         "certificateDownloads": 0,
         "generatorOpens": 42,
+        "generatorCompletions": 0,
+        "conversionRate": 0
+      },
+      {
+        "id": "fhtc-e-badge",
+        "title": "From Here to Career E-Badge",
+        "badgesIssued": 0,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "generatorOpens": 2,
         "generatorCompletions": 0,
         "conversionRate": 0
       }
@@ -19006,18 +18806,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
-      },
-      {
-        "slug": "bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001",
-        "badgeId": "CSUNCC-20260609-0001",
-        "awardeeName": "Bryce Simon",
-        "badgeTitle": "From Here to Career E-Badge",
-        "badgeTemplateId": "fhtc-e-badge",
-        "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -19053,15 +18841,15 @@
         "label": "From Here to Career E-Badge generator",
         "pageKind": "specific",
         "templateId": "fhtc-e-badge",
-        "opens": 5,
-        "completions": 1,
-        "conversionRate": 20
+        "opens": 2,
+        "completions": 0,
+        "conversionRate": 0
       }
     ],
     "recipientStats": [
       {
         "awardeeName": "Bryce Simon",
-        "badgesIssued": 21,
+        "badgesIssued": 20,
         "badgeViews": 33,
         "certificateDownloads": 0
       },
