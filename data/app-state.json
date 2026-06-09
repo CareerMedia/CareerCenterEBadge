@@ -17858,6 +17858,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "44205183-11f4-43b8-82e9-7e20dc86c853",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-09T23:25:08.495Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260609-0002",
+      "badgeSlug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "awardeeName": "Isabel Casas",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "f415ad1ae0796d81903847b7",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -18332,15 +18353,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-09T23:22:47.122Z",
+    "updatedAt": "2026-06-09T23:25:08.500Z",
     "totals": {
       "badgesIssued": 76,
-      "badgeViews": 280,
+      "badgeViews": 281,
       "certificateDownloads": 10,
       "generatorOpens": 102,
       "generatorCompletions": 40,
       "conversionRate": 39.2,
-      "uniqueVisitorsApprox": 186
+      "uniqueVisitorsApprox": 187
     },
     "months": [
       {
@@ -18369,11 +18390,11 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 5,
-        "badgeViews": 50,
+        "badgeViews": 51,
         "certificateDownloads": 5,
         "generatorOpens": 10,
         "generatorCompletions": 5,
-        "uniqueVisitorsApprox": 33,
+        "uniqueVisitorsApprox": 34,
         "conversionRate": 50
       }
     ],
@@ -18382,11 +18403,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 76,
-        "badgeViews": 280,
+        "badgeViews": 281,
         "certificateDownloads": 10,
         "generatorOpens": 102,
         "generatorCompletions": 40,
-        "uniqueVisitorsApprox": 186,
+        "uniqueVisitorsApprox": 187,
         "conversionRate": 39.2
       }
     ],
@@ -18405,7 +18426,7 @@
         "id": "fhtc-e-badge",
         "title": "From Here to Career E-Badge",
         "badgesIssued": 2,
-        "badgeViews": 5,
+        "badgeViews": 6,
         "certificateDownloads": 1,
         "generatorOpens": 8,
         "generatorCompletions": 2,
@@ -18878,6 +18899,18 @@
         "latestViewedAt": "2026-06-04T20:00:59.133Z"
       },
       {
+        "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
+        "badgeId": "CSUNCC-20260609-0002",
+        "awardeeName": "Isabel Casas",
+        "badgeTitle": "From Here to Career E-Badge",
+        "badgeTemplateId": "fhtc-e-badge",
+        "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-06-09T23:25:08.495Z"
+      },
+      {
         "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
         "badgeId": "CSUNCC-20260604-0002",
         "awardeeName": "Dianita Saucedo Rodriguez",
@@ -18936,18 +18969,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-12T18:16:37.302Z"
-      },
-      {
-        "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
-        "badgeId": "CSUNCC-20260609-0002",
-        "awardeeName": "Isabel Casas",
-        "badgeTitle": "From Here to Career E-Badge",
-        "badgeTemplateId": "fhtc-e-badge",
-        "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-06-09T23:22:47.117Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -19434,16 +19455,16 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Isabel Casas",
+        "badgesIssued": 2,
+        "badgeViews": 10,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Mikayla Agregado",
         "badgesIssued": 1,
         "badgeViews": 9,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Isabel Casas",
-        "badgesIssued": 2,
-        "badgeViews": 9,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Cara Nissen",
