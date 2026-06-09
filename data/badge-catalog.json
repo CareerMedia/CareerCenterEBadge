@@ -153,5 +153,83 @@
     },
     "widgetLayout": "stacked",
     "emailAwardTemplateId": ""
+  },
+  {
+    "id": "fhtc-e-badge",
+    "title": "From Here to Career E-Badge",
+    "badgeLabel": "From Here to Career E-Badge",
+    "description": "CSUN on-campus student employees who earn this badge are recognized for completing all the requirements of the CSUN Career Center's From Here to Career Program. This 3-month program, guided by the National Association of Colleges and Employers (NACE) Career Readiness Competencies, helps student assistants learn valuable skills that future employers seek in candidates.",
+    "publicSummary": "CSUN on-campus student employees who earn this badge are recognized for completing all the requirements of the CSUN Career Center's From Here to Career Program. This 3-month program, guided by the National Association of Colleges and Employers (NACE) Career Readiness Competencies, helps student assistants learn valuable skills that future employers seek in candidates.",
+    "meaning": "CSUN on-campus student employees who earn this badge are recognized for completing all the requirements of the CSUN Career Center's From Here to Career Program. This 3-month program, guided by the National Association of Colleges and Employers (NACE) Career Readiness Competencies, helps student assistants learn valuable skills that future employers seek in candidates.",
+    "criteria": "To earn this badge, student assistants must complete 10 self-paced Canvas modules, attend 1 qualifying alumni networking event, 1 career center workshop, 1 career advising session, and monthly check-ins with their supervisor.",
+    "evidenceLabel": "Evidence",
+    "evidencePrompt": "",
+    "evidenceExampleUrl": "",
+    "evidenceDescription": "",
+    "skills": [
+      "Career and Self-Development",
+      "Communication",
+      "Critical Thinking",
+      "Equity and Inclusion",
+      "Leadership",
+      "Professionalism/Workplace Readiness",
+      "Teamwork",
+      "Technology"
+    ],
+    "standards": [
+      "NACE CAREER READINESS COMPETENCIES"
+    ],
+    "pathwayId": "",
+    "pathwayTitle": "",
+    "pathwayDescription": "",
+    "pathwayOrder": 1,
+    "pathwayItems": [],
+    "issuerName": "CSUN Career Center",
+    "issuerOrganization": "CSUN Career Center",
+    "issuerWebsite": "https://csun.edu/career",
+    "careerCenterUrl": "https://csun.edu/career",
+    "issuerContactEmail": "career.center@csun.edu",
+    "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
+    "issuerRegistryUrl": "",
+    "issuerTrustLabel": "Official issuer",
+    "badgeImage": "assets/uploads/badge-icons/fhtc-e-badge-icon-1781045509836.png",
+    "certificateBackground": "assets/uploads/certificate-backgrounds/fhtc-e-badge-certificate-1781045509839.png",
+    "verificationSections": {
+      "recipient": true,
+      "meaning": true,
+      "criteria": true,
+      "issuerTrust": true,
+      "evidence": false,
+      "skills": true,
+      "pathway": false,
+      "certificate": true
+    },
+    "certificateTemplateOverrideEnabled": true,
+    "certificateTemplate": {
+      "backgroundImage": "assets/certificate.png",
+      "fileNameSuffix": "_Certificate",
+      "name": {
+        "x": 516,
+        "y": 566,
+        "fontSize": 180,
+        "fontFamily": "Times New Roman",
+        "fontWeight": "bold",
+        "color": "#000000",
+        "align": "center",
+        "maxWidth": 2400
+      },
+      "date": {
+        "x": 303,
+        "y": 1025,
+        "fontSize": 48,
+        "fontFamily": "Arial",
+        "fontWeight": "normal",
+        "color": "#333333",
+        "align": "center",
+        "maxWidth": 700
+      }
+    },
+    "widgetLayout": "stacked",
+    "emailAwardTemplateId": ""
   }
 ]
