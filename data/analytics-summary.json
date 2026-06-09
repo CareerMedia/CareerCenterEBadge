@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-09T23:11:11.589Z",
+  "updatedAt": "2026-06-09T23:13:03.217Z",
   "totals": {
-    "badgesIssued": 75,
-    "badgeViews": 276,
-    "certificateDownloads": 9,
-    "generatorOpens": 99,
-    "generatorCompletions": 39,
-    "conversionRate": 39.4,
-    "uniqueVisitorsApprox": 183
+    "badgesIssued": 76,
+    "badgeViews": 278,
+    "certificateDownloads": 10,
+    "generatorOpens": 100,
+    "generatorCompletions": 40,
+    "conversionRate": 40,
+    "uniqueVisitorsApprox": 185
   },
   "months": [
     {
@@ -36,26 +36,26 @@
     {
       "key": "2026-06",
       "label": "Jun 2026",
-      "badgesIssued": 4,
-      "badgeViews": 46,
-      "certificateDownloads": 4,
-      "generatorOpens": 7,
-      "generatorCompletions": 4,
-      "uniqueVisitorsApprox": 30,
-      "conversionRate": 57.1
+      "badgesIssued": 5,
+      "badgeViews": 48,
+      "certificateDownloads": 5,
+      "generatorOpens": 8,
+      "generatorCompletions": 5,
+      "uniqueVisitorsApprox": 32,
+      "conversionRate": 62.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 75,
-      "badgeViews": 276,
-      "certificateDownloads": 9,
-      "generatorOpens": 99,
-      "generatorCompletions": 39,
-      "uniqueVisitorsApprox": 183,
-      "conversionRate": 39.4
+      "badgesIssued": 76,
+      "badgeViews": 278,
+      "certificateDownloads": 10,
+      "generatorOpens": 100,
+      "generatorCompletions": 40,
+      "uniqueVisitorsApprox": 185,
+      "conversionRate": 40
     }
   ],
   "badgeTypes": [
@@ -82,12 +82,12 @@
     {
       "id": "fhtc-e-badge",
       "title": "From Here to Career E-Badge",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "generatorOpens": 5,
-      "generatorCompletions": 1,
-      "conversionRate": 20
+      "badgesIssued": 2,
+      "badgeViews": 3,
+      "certificateDownloads": 1,
+      "generatorOpens": 6,
+      "generatorCompletions": 2,
+      "conversionRate": 33.3
     },
     {
       "id": "unassigned",
@@ -414,6 +414,18 @@
       "latestViewedAt": "2026-05-14T17:14:16.944Z"
     },
     {
+      "slug": "bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001",
+      "badgeId": "CSUNCC-20260609-0001",
+      "awardeeName": "Bryce Simon",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-06-09T23:13:03.215Z"
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
       "badgeId": "CSUNCC-20260409-0003",
       "awardeeName": "Bryce Simon",
@@ -700,18 +712,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-22T19:36:35.271Z"
-    },
-    {
-      "slug": "bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001",
-      "badgeId": "CSUNCC-20260609-0001",
-      "awardeeName": "Bryce Simon",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "publicUrl": "https://careerbadge.csun.edu/badges/bryce-simon-from-here-to-career-e-badge-csuncc-20260609-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-06-09T23:11:11.586Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -1012,6 +1012,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
+      "badgeId": "CSUNCC-20260609-0002",
+      "awardeeName": "Isabel Casas",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -1047,17 +1059,17 @@
       "label": "From Here to Career E-Badge generator",
       "pageKind": "specific",
       "templateId": "fhtc-e-badge",
-      "opens": 5,
-      "completions": 1,
-      "conversionRate": 20
+      "opens": 6,
+      "completions": 2,
+      "conversionRate": 33.3
     }
   ],
   "recipientStats": [
     {
       "awardeeName": "Bryce Simon",
       "badgesIssued": 21,
-      "badgeViews": 34,
-      "certificateDownloads": 0
+      "badgeViews": 36,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Hector Carrillo",
@@ -1108,6 +1120,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Isabel Casas",
+      "badgesIssued": 2,
+      "badgeViews": 7,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Emalie Mendoza",
       "badgesIssued": 1,
       "badgeViews": 7,
@@ -1124,12 +1142,6 @@
       "badgesIssued": 1,
       "badgeViews": 6,
       "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Isabel Casas",
-      "badgesIssued": 1,
-      "badgeViews": 7,
-      "certificateDownloads": 0
     },
     {
       "awardeeName": "Brianna Fuente",
