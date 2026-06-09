@@ -873,10 +873,11 @@ function persistAssetField({ uploadValue, manualValue, category, preferredName }
 
 function buildTemplateCertificateOverride(formData, fallbackBackground) {
   const enabled = parseBooleanInput(formData.certificateTemplateOverrideEnabled);
+  const backgroundImage = cleanText(fallbackBackground);
   return {
     certificateTemplateOverrideEnabled: enabled,
     certificateTemplate: normalizeCertificateConfig({
-      backgroundImage: cleanText(formData.certificateBackgroundOverride) || cleanText(fallbackBackground),
+      backgroundImage,
       fileNameSuffix: cleanText(formData.fileNameSuffixOverride) || cleanText(formData.fileNameSuffix) || '_Certificate',
       name: {
         x: parseNumber(formData.templateNameX, parseNumber(formData.nameX, 2000)),
@@ -1842,8 +1843,9 @@ async function handleAdminRequest(request, response, urlObject) {
   }
 
   if (request.method === 'POST' && urlObject.pathname === '/admin/templates/save') {
+    let formData = null;
     try {
-      const formData = await parseBody(request);
+      formData = await parseBody(request);
       let savedTemplate = null;
       const syncPush = hasInlineUploadedAssets(formData);
       await persistMutation(
@@ -1863,10 +1865,25 @@ async function handleAdminRequest(request, response, urlObject) {
       if (savedTemplate && savedTemplate.id) {
         scheduleBackgroundSnapshot(`Saved template ${savedTemplate.id}`);
       }
-      redirect(response, buildNoticeUrl('/admin/templates', 'Template saved and public files refreshed.'));
+      redirect(
+        response,
+        `/admin/templates?edit=${encodeURIComponent(savedTemplate.id)}&notice=${encodeURIComponent('Template saved and public files refreshed.')}`
+      );
     } catch (error) {
       const templates = loadBadgeTemplates();
-      sendHtml(response, renderTemplatesPage({ templates, notice: error.message, siteConfig: loadSiteConfig(), certificateTemplate: loadCertificateTemplate() }), 400);
+      const editId = formData ? slugify(formData.id) : '';
+      const editTemplate = editId ? templates.find((entry) => entry.id === editId) || null : null;
+      sendHtml(
+        response,
+        renderTemplatesPage({
+          templates,
+          editTemplate,
+          notice: error.message,
+          siteConfig: loadSiteConfig(),
+          certificateTemplate: loadCertificateTemplate()
+        }),
+        400
+      );
     }
     return;
   }

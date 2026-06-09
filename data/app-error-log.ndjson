@@ -1,1 +1,2 @@
 {"timestamp":"2026-05-07T15:27:29.075Z","severity":"critical","source":"startup_config","message":"ADMIN_PASSWORD is not set. Configure it in your environment (Render → Environment) with a strong random value of at least 12 characters before starting the app.","stack":"","path":"","method":"","context":""}
+{"timestamp":"2026-06-09T23:00:16.777Z","severity":"critical","source":"startup_config","message":"ADMIN_PASSWORD is not set. Configure it in your environment (Render → Environment) before starting the app.","stack":"","path":"","method":"","context":""}

@@ -114,6 +114,36 @@
     });
   }
 
+  function resolveAdminAssetUrl(value) {
+    const raw = String(value || '').trim();
+    if (!raw) return '';
+    if (/^(?:https?:|data:|\/)/i.test(raw)) return raw;
+    return `/${raw.replace(/^\/+/, '')}`;
+  }
+
+  function syncCertificateBackgroundOverride(pathValue) {
+    const overrideField = document.getElementById('certificateBackgroundOverride');
+    if (!overrideField) return;
+    const normalized = String(pathValue || '').trim();
+    if (normalized) {
+      overrideField.value = normalized;
+    }
+  }
+
+  function updateCertificateCoordinatePreview(pathValue, dataUrl) {
+    const image = document.getElementById('certificateCoordinateImage');
+    if (!image) return;
+    if (dataUrl) {
+      image.src = dataUrl;
+      return;
+    }
+    const normalized = String(pathValue || '').trim();
+    if (!normalized) return;
+    image.src = resolveAdminAssetUrl(normalized);
+    image.setAttribute('data-background-path', normalized);
+    syncCertificateBackgroundOverride(normalized);
+  }
+
   function bindUploadInputs() {
     document.querySelectorAll('[data-upload-target]').forEach((input) => {
       input.addEventListener('change', () => {
@@ -125,14 +155,15 @@
         if (!file || !target) return;
         const reader = new FileReader();
         reader.onload = () => {
-          target.value = String(reader.result || '');
-          if (previewTarget) {
+          const dataUrl = String(reader.result || '');
+          target.value = dataUrl;
+          const isCertificateUpload = targetId === 'certificateBackgroundUploadDataUrl';
+          if (previewTarget && !isCertificateUpload) {
             previewTarget.value = file.name;
             previewTarget.dispatchEvent(new Event('change', { bubbles: true }));
           }
-          const previewImage = document.getElementById('certificateCoordinateImage');
-          if (previewImage && targetId === 'certificateBackgroundUploadDataUrl') {
-            previewImage.src = String(reader.result || '');
+          if (isCertificateUpload) {
+            updateCertificateCoordinatePreview('', dataUrl);
           }
         };
         reader.readAsDataURL(file);
@@ -157,6 +188,9 @@
     const namePreview = document.getElementById('coordinatePreviewName');
     const datePreview = document.getElementById('coordinatePreviewDate');
     const overrideToggle = document.getElementById('certificateTemplateOverrideEnabled');
+    const autoCenterBtn = document.getElementById('certificateAutoCenterBtn');
+    const coordinateFields = document.getElementById('certificateCoordinateFields');
+    const backgroundOverrideField = document.getElementById('certificateBackgroundOverride');
 
     function syncEnabledState() {
       const enabled = !overrideToggle || overrideToggle.checked;
@@ -241,15 +275,45 @@
     bindDrag(dateDot, dateMarker, dateX, dateY);
     [nameFontSize, dateFontSize].forEach((field) => field && field.addEventListener('input', updateDotPositions));
 
+    function autoCenterCoordinates() {
+      const naturalWidth = image.naturalWidth || image.width || 0;
+      if (!naturalWidth) return;
+      const centerX = Math.round(naturalWidth / 2);
+      if (nameX) nameX.value = String(centerX);
+      if (dateX) dateX.value = String(centerX);
+      updateDotPositions();
+      if (coordinateFields) {
+        coordinateFields.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+      if (nameX) {
+        nameX.focus({ preventScroll: true });
+      }
+    }
+
     const backgroundInput = document.getElementById('templateCertificateBackground');
     if (backgroundInput) {
       backgroundInput.addEventListener('change', () => {
         const value = backgroundInput.value.trim();
-        if (value) image.src = value;
+        if (value) {
+          updateCertificateCoordinatePreview(value);
+        }
       });
+      backgroundInput.addEventListener('input', () => {
+        syncCertificateBackgroundOverride(backgroundInput.value.trim());
+      });
+    }
+    if (autoCenterBtn) {
+      autoCenterBtn.addEventListener('click', autoCenterCoordinates);
     }
     if (overrideToggle) {
       overrideToggle.addEventListener('change', syncEnabledState);
+    }
+    if (window.__TEMPLATE_EDITOR__ && window.__TEMPLATE_EDITOR__.backgroundImage) {
+      updateCertificateCoordinatePreview(window.__TEMPLATE_EDITOR__.backgroundImage);
+    } else if (backgroundInput && backgroundInput.value.trim()) {
+      updateCertificateCoordinatePreview(backgroundInput.value.trim());
+    } else if (backgroundOverrideField && backgroundOverrideField.value.trim()) {
+      updateCertificateCoordinatePreview(backgroundOverrideField.value.trim());
     }
     image.addEventListener('load', updateDotPositions);
     window.addEventListener('resize', updateDotPositions);
