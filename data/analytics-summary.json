@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-09T23:25:08.500Z",
+  "updatedAt": "2026-06-09T23:36:40.918Z",
   "totals": {
     "badgesIssued": 76,
-    "badgeViews": 281,
+    "badgeViews": 282,
     "certificateDownloads": 10,
     "generatorOpens": 102,
     "generatorCompletions": 40,
@@ -37,7 +37,7 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 5,
-      "badgeViews": 51,
+      "badgeViews": 52,
       "certificateDownloads": 5,
       "generatorOpens": 10,
       "generatorCompletions": 5,
@@ -50,7 +50,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 76,
-      "badgeViews": 281,
+      "badgeViews": 282,
       "certificateDownloads": 10,
       "generatorOpens": 102,
       "generatorCompletions": 40,
@@ -63,7 +63,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 70,
-      "badgeViews": 273,
+      "badgeViews": 274,
       "certificateDownloads": 9,
       "generatorOpens": 34,
       "generatorCompletions": 34,
@@ -198,6 +198,18 @@
       "latestViewedAt": "2026-05-13T03:19:58.473Z"
     },
     {
+      "slug": "isabel-casas-career-champion-csuncc-20260601-0001",
+      "badgeId": "CSUNCC-20260601-0001",
+      "awardeeName": "Isabel Casas",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-career-champion-csuncc-20260601-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 8,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-06-09T23:36:40.913Z"
+    },
+    {
       "slug": "cara-nissen-career-champion-csuncc-20260512-0002",
       "badgeId": "CSUNCC-20260512-0002",
       "awardeeName": "Cara Nissen",
@@ -220,18 +232,6 @@
       "badgeViews": 7,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-20T02:06:01.175Z"
-    },
-    {
-      "slug": "isabel-casas-career-champion-csuncc-20260601-0001",
-      "badgeId": "CSUNCC-20260601-0001",
-      "awardeeName": "Isabel Casas",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-career-champion-csuncc-20260601-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 7,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-06-09T22:35:03.988Z"
     },
     {
       "slug": "odette-arman-career-champion-csuncc-20260512-0018",
@@ -1104,7 +1104,7 @@
     {
       "awardeeName": "Isabel Casas",
       "badgesIssued": 2,
-      "badgeViews": 10,
+      "badgeViews": 11,
       "certificateDownloads": 0
     },
     {
