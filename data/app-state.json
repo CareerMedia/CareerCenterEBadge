@@ -17816,6 +17816,27 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
+    },
+    {
+      "id": "6a17ed8a-593b-4841-bdbd-1040aafb3ec6",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-09T23:22:00.562Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260609-0002",
+      "badgeSlug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "awardeeName": "Isabel Casas",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "31b79d1e65a13517bf7f67f6",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -18290,10 +18311,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-09T23:16:00.750Z",
+    "updatedAt": "2026-06-09T23:22:00.566Z",
     "totals": {
       "badgesIssued": 76,
-      "badgeViews": 278,
+      "badgeViews": 279,
       "certificateDownloads": 10,
       "generatorOpens": 102,
       "generatorCompletions": 40,
@@ -18327,7 +18348,7 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 5,
-        "badgeViews": 48,
+        "badgeViews": 49,
         "certificateDownloads": 5,
         "generatorOpens": 10,
         "generatorCompletions": 5,
@@ -18340,7 +18361,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 76,
-        "badgeViews": 278,
+        "badgeViews": 279,
         "certificateDownloads": 10,
         "generatorOpens": 102,
         "generatorCompletions": 40,
@@ -18373,7 +18394,7 @@
         "id": "fhtc-e-badge",
         "title": "From Here to Career E-Badge",
         "badgesIssued": 2,
-        "badgeViews": 3,
+        "badgeViews": 4,
         "certificateDownloads": 1,
         "generatorOpens": 8,
         "generatorCompletions": 2,
@@ -19004,6 +19025,18 @@
         "latestViewedAt": "2026-05-22T19:36:35.271Z"
       },
       {
+        "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
+        "badgeId": "CSUNCC-20260609-0002",
+        "awardeeName": "Isabel Casas",
+        "badgeTitle": "From Here to Career E-Badge",
+        "badgeTemplateId": "fhtc-e-badge",
+        "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-06-09T23:22:00.562Z"
+      },
+      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -19302,18 +19335,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
-      },
-      {
-        "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
-        "badgeId": "CSUNCC-20260609-0002",
-        "awardeeName": "Isabel Casas",
-        "badgeTitle": "From Here to Career E-Badge",
-        "badgeTemplateId": "fhtc-e-badge",
-        "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -19398,6 +19419,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Isabel Casas",
+        "badgesIssued": 2,
+        "badgeViews": 8,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Cara Nissen",
         "badgesIssued": 1,
         "badgeViews": 7,
@@ -19407,12 +19434,6 @@
         "awardeeName": "Joe Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 8,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Isabel Casas",
-        "badgesIssued": 2,
-        "badgeViews": 7,
         "certificateDownloads": 0
       },
       {
