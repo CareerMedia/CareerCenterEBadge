@@ -17942,6 +17942,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "a929d364-dc1b-442c-97a4-5f04a0ff89d8",
+      "type": "generator_opened",
+      "timestamp": "2026-06-10T17:01:28.634Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "fhtc-e-badge",
+      "generatorLabel": "From Here to Career E-Badge widget",
+      "source": "generator-page",
+      "visitorId": "38de54040ec9ec3900798c0e",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -18416,14 +18437,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-10T03:38:50.422Z",
+    "updatedAt": "2026-06-10T17:01:28.640Z",
     "totals": {
       "badgesIssued": 76,
       "badgeViews": 283,
       "certificateDownloads": 10,
-      "generatorOpens": 103,
+      "generatorOpens": 104,
       "generatorCompletions": 40,
-      "conversionRate": 38.8,
+      "conversionRate": 38.5,
       "uniqueVisitorsApprox": 187
     },
     "months": [
@@ -18455,10 +18476,10 @@
         "badgesIssued": 5,
         "badgeViews": 53,
         "certificateDownloads": 5,
-        "generatorOpens": 11,
+        "generatorOpens": 12,
         "generatorCompletions": 5,
         "uniqueVisitorsApprox": 34,
-        "conversionRate": 45.5
+        "conversionRate": 41.7
       }
     ],
     "years": [
@@ -18468,10 +18489,10 @@
         "badgesIssued": 76,
         "badgeViews": 283,
         "certificateDownloads": 10,
-        "generatorOpens": 103,
+        "generatorOpens": 104,
         "generatorCompletions": 40,
         "uniqueVisitorsApprox": 187,
-        "conversionRate": 38.8
+        "conversionRate": 38.5
       }
     ],
     "badgeTypes": [
@@ -18491,9 +18512,9 @@
         "badgesIssued": 2,
         "badgeViews": 7,
         "certificateDownloads": 1,
-        "generatorOpens": 9,
+        "generatorOpens": 10,
         "generatorCompletions": 2,
-        "conversionRate": 22.2
+        "conversionRate": 20
       },
       {
         "id": "career-activated",
@@ -19475,9 +19496,9 @@
         "label": "From Here to Career E-Badge generator",
         "pageKind": "specific",
         "templateId": "fhtc-e-badge",
-        "opens": 9,
+        "opens": 10,
         "completions": 2,
-        "conversionRate": 22.2
+        "conversionRate": 20
       }
     ],
     "recipientStats": [
