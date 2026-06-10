@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-10T17:01:28.640Z",
+  "updatedAt": "2026-06-10T21:04:11.535Z",
   "totals": {
     "badgesIssued": 76,
-    "badgeViews": 283,
+    "badgeViews": 284,
     "certificateDownloads": 10,
     "generatorOpens": 104,
     "generatorCompletions": 40,
@@ -37,7 +37,7 @@
       "key": "2026-06",
       "label": "Jun 2026",
       "badgesIssued": 5,
-      "badgeViews": 53,
+      "badgeViews": 54,
       "certificateDownloads": 5,
       "generatorOpens": 12,
       "generatorCompletions": 5,
@@ -50,7 +50,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 76,
-      "badgeViews": 283,
+      "badgeViews": 284,
       "certificateDownloads": 10,
       "generatorOpens": 104,
       "generatorCompletions": 40,
@@ -73,7 +73,7 @@
       "id": "fhtc-e-badge",
       "title": "From Here to Career E-Badge",
       "badgesIssued": 2,
-      "badgeViews": 7,
+      "badgeViews": 8,
       "certificateDownloads": 1,
       "generatorOpens": 10,
       "generatorCompletions": 2,
@@ -342,6 +342,18 @@
       "latestViewedAt": "2026-05-18T02:31:32.121Z"
     },
     {
+      "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
+      "badgeId": "CSUNCC-20260609-0002",
+      "awardeeName": "Isabel Casas",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-06-10T21:04:11.528Z"
+    },
+    {
       "slug": "genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001",
       "badgeId": "CSUNCC-20260430-0001",
       "awardeeName": "Genesis Lozano-Gonzalez",
@@ -400,18 +412,6 @@
       "badgeViews": 4,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-26T22:47:01.572Z"
-    },
-    {
-      "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
-      "badgeId": "CSUNCC-20260609-0002",
-      "awardeeName": "Isabel Casas",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
-      "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-06-10T03:38:50.416Z"
     },
     {
       "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
@@ -1104,7 +1104,7 @@
     {
       "awardeeName": "Isabel Casas",
       "badgesIssued": 2,
-      "badgeViews": 12,
+      "badgeViews": 13,
       "certificateDownloads": 0
     },
     {
