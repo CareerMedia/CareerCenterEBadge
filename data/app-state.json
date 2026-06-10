@@ -17984,6 +17984,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "85602bc2-e69a-4b40-98c1-82aed11d5f1f",
+      "type": "badge_viewed",
+      "timestamp": "2026-06-10T21:04:58.796Z",
+      "monthKey": "2026-06",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260609-0002",
+      "badgeSlug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "awardeeName": "Isabel Casas",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "8a2b79e451506edca5aa1c5b",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -18458,15 +18479,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-06-10T21:04:11.535Z",
+    "updatedAt": "2026-06-10T21:04:58.800Z",
     "totals": {
       "badgesIssued": 76,
-      "badgeViews": 284,
+      "badgeViews": 285,
       "certificateDownloads": 10,
       "generatorOpens": 104,
       "generatorCompletions": 40,
       "conversionRate": 38.5,
-      "uniqueVisitorsApprox": 187
+      "uniqueVisitorsApprox": 188
     },
     "months": [
       {
@@ -18495,11 +18516,11 @@
         "key": "2026-06",
         "label": "Jun 2026",
         "badgesIssued": 5,
-        "badgeViews": 54,
+        "badgeViews": 55,
         "certificateDownloads": 5,
         "generatorOpens": 12,
         "generatorCompletions": 5,
-        "uniqueVisitorsApprox": 34,
+        "uniqueVisitorsApprox": 35,
         "conversionRate": 41.7
       }
     ],
@@ -18508,11 +18529,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 76,
-        "badgeViews": 284,
+        "badgeViews": 285,
         "certificateDownloads": 10,
         "generatorOpens": 104,
         "generatorCompletions": 40,
-        "uniqueVisitorsApprox": 187,
+        "uniqueVisitorsApprox": 188,
         "conversionRate": 38.5
       }
     ],
@@ -18531,7 +18552,7 @@
         "id": "fhtc-e-badge",
         "title": "From Here to Career E-Badge",
         "badgesIssued": 2,
-        "badgeViews": 8,
+        "badgeViews": 9,
         "certificateDownloads": 1,
         "generatorOpens": 10,
         "generatorCompletions": 2,
@@ -18788,6 +18809,18 @@
         "latestViewedAt": "2026-05-26T19:14:11.478Z"
       },
       {
+        "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
+        "badgeId": "CSUNCC-20260609-0002",
+        "awardeeName": "Isabel Casas",
+        "badgeTitle": "From Here to Career E-Badge",
+        "badgeTemplateId": "fhtc-e-badge",
+        "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 6,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-06-10T21:04:58.796Z"
+      },
+      {
         "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
         "badgeId": "CSUNCC-20260512-0013",
         "awardeeName": "Leslie Rodriguez",
@@ -18798,18 +18831,6 @@
         "badgeViews": 5,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-18T02:31:32.121Z"
-      },
-      {
-        "slug": "isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002",
-        "badgeId": "CSUNCC-20260609-0002",
-        "awardeeName": "Isabel Casas",
-        "badgeTitle": "From Here to Career E-Badge",
-        "badgeTemplateId": "fhtc-e-badge",
-        "publicUrl": "https://careerbadge.csun.edu/badges/isabel-casas-from-here-to-career-e-badge-csuncc-20260609-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 5,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-06-10T21:04:11.528Z"
       },
       {
         "slug": "genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001",
@@ -19562,7 +19583,7 @@
       {
         "awardeeName": "Isabel Casas",
         "badgesIssued": 2,
-        "badgeViews": 13,
+        "badgeViews": 14,
         "certificateDownloads": 0
       },
       {
