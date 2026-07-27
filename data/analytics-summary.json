@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T23:56:49.573Z",
+  "updatedAt": "2026-07-27T17:58:53.707Z",
   "totals": {
     "badgesIssued": 76,
-    "badgeViews": 301,
+    "badgeViews": 302,
     "certificateDownloads": 10,
     "generatorOpens": 105,
     "generatorCompletions": 40,
     "conversionRate": 38.1,
-    "uniqueVisitorsApprox": 202
+    "uniqueVisitorsApprox": 203
   },
   "months": [
     {
@@ -48,11 +48,11 @@
       "key": "2026-07",
       "label": "Jul 2026",
       "badgesIssued": 0,
-      "badgeViews": 10,
+      "badgeViews": 11,
       "certificateDownloads": 0,
       "generatorOpens": 0,
       "generatorCompletions": 0,
-      "uniqueVisitorsApprox": 10,
+      "uniqueVisitorsApprox": 11,
       "conversionRate": 0
     }
   ],
@@ -61,11 +61,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 76,
-      "badgeViews": 301,
+      "badgeViews": 302,
       "certificateDownloads": 10,
       "generatorOpens": 105,
       "generatorCompletions": 40,
-      "uniqueVisitorsApprox": 202,
+      "uniqueVisitorsApprox": 203,
       "conversionRate": 38.1
     }
   ],
@@ -74,7 +74,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 70,
-      "badgeViews": 290,
+      "badgeViews": 291,
       "certificateDownloads": 9,
       "generatorOpens": 34,
       "generatorCompletions": 34,
@@ -144,9 +144,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
       "badgesIssued": 1,
-      "badgeViews": 26,
+      "badgeViews": 27,
       "certificateDownloads": 2,
-      "latestViewedAt": "2026-07-24T23:56:49.568Z"
+      "latestViewedAt": "2026-07-27T17:58:53.697Z"
     },
     {
       "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
@@ -1097,7 +1097,7 @@
     {
       "awardeeName": "Minley Moradian",
       "badgesIssued": 1,
-      "badgeViews": 26,
+      "badgeViews": 27,
       "certificateDownloads": 2
     },
     {
