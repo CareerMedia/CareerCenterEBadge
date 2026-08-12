@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T00:17:52.257Z",
+  "updatedAt": "2026-08-12T00:18:12.854Z",
   "totals": {
     "badgesIssued": 77,
-    "badgeViews": 307,
-    "certificateDownloads": 10,
+    "badgeViews": 308,
+    "certificateDownloads": 11,
     "generatorOpens": 106,
     "generatorCompletions": 41,
     "conversionRate": 38.7,
@@ -59,8 +59,8 @@
       "key": "2026-08",
       "label": "Aug 2026",
       "badgesIssued": 1,
-      "badgeViews": 4,
-      "certificateDownloads": 0,
+      "badgeViews": 5,
+      "certificateDownloads": 1,
       "generatorOpens": 1,
       "generatorCompletions": 1,
       "uniqueVisitorsApprox": 5,
@@ -72,8 +72,8 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 77,
-      "badgeViews": 307,
-      "certificateDownloads": 10,
+      "badgeViews": 308,
+      "certificateDownloads": 11,
       "generatorOpens": 106,
       "generatorCompletions": 41,
       "uniqueVisitorsApprox": 209,
@@ -95,8 +95,8 @@
       "id": "fhtc-e-badge",
       "title": "From Here to Career E-Badge",
       "badgesIssued": 3,
-      "badgeViews": 9,
-      "certificateDownloads": 1,
+      "badgeViews": 10,
+      "certificateDownloads": 2,
       "generatorOpens": 12,
       "generatorCompletions": 3,
       "conversionRate": 25
@@ -640,6 +640,18 @@
       "latestViewedAt": "2026-05-12T18:16:37.302Z"
     },
     {
+      "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001",
+      "badgeId": "CSUNCC-20260811-0001",
+      "awardeeName": "Matty Matador",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "publicUrl": "https://careerbadge.csun.edu/badges/matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-08-12T00:18:03.511Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1046,18 +1058,6 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
-    },
-    {
-      "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001",
-      "badgeId": "CSUNCC-20260811-0001",
-      "awardeeName": "Matty Matador",
-      "badgeTitle": "From Here to Career E-Badge",
-      "badgeTemplateId": "fhtc-e-badge",
-      "publicUrl": "https://careerbadge.csun.edu/badges/matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -1298,6 +1298,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Matty Matador",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -1407,12 +1413,6 @@
     },
     {
       "awardeeName": "Antonio Gonzalez",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Matty Matador",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
