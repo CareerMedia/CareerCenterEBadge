@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T02:02:21.645Z",
+  "updatedAt": "2026-08-20T19:13:45.144Z",
   "totals": {
     "badgesIssued": 77,
-    "badgeViews": 312,
+    "badgeViews": 313,
     "certificateDownloads": 11,
     "generatorOpens": 106,
     "generatorCompletions": 41,
     "conversionRate": 38.7,
-    "uniqueVisitorsApprox": 213
+    "uniqueVisitorsApprox": 214
   },
   "months": [
     {
@@ -59,11 +59,11 @@
       "key": "2026-08",
       "label": "Aug 2026",
       "badgesIssued": 1,
-      "badgeViews": 9,
+      "badgeViews": 10,
       "certificateDownloads": 1,
       "generatorOpens": 1,
       "generatorCompletions": 1,
-      "uniqueVisitorsApprox": 9,
+      "uniqueVisitorsApprox": 10,
       "conversionRate": 100
     }
   ],
@@ -72,11 +72,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 77,
-      "badgeViews": 312,
+      "badgeViews": 313,
       "certificateDownloads": 11,
       "generatorOpens": 106,
       "generatorCompletions": 41,
-      "uniqueVisitorsApprox": 213,
+      "uniqueVisitorsApprox": 214,
       "conversionRate": 38.7
     }
   ],
@@ -85,7 +85,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 70,
-      "badgeViews": 300,
+      "badgeViews": 301,
       "certificateDownloads": 9,
       "generatorOpens": 34,
       "generatorCompletions": 34,
@@ -131,9 +131,9 @@
       "badgeTemplateId": "career-champion",
       "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
       "badgesIssued": 1,
-      "badgeViews": 31,
+      "badgeViews": 32,
       "certificateDownloads": 2,
-      "latestViewedAt": "2026-08-18T02:02:21.634Z"
+      "latestViewedAt": "2026-08-20T19:13:45.140Z"
     },
     {
       "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
@@ -1108,7 +1108,7 @@
     {
       "awardeeName": "Minley Moradian",
       "badgesIssued": 1,
-      "badgeViews": 31,
+      "badgeViews": 32,
       "certificateDownloads": 2
     },
     {
