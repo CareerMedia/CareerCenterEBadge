@@ -18992,27 +18992,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "887e513d-ca37-456b-a07c-e86d76570db4",
-      "type": "badge_viewed",
-      "timestamp": "2026-08-24T23:57:16.486Z",
-      "monthKey": "2026-08",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260824-0001",
-      "badgeSlug": "karolann-moreno-career-activated-csuncc-20260824-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Karolann Moreno",
-      "publicUrl": "https://careerbadge.csun.edu/badges/karolann-moreno-career-activated-csuncc-20260824-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d94735d09e6d1f8f08ed651f",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -19487,10 +19466,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-08-24T23:57:16.489Z",
+    "updatedAt": "2026-08-24T23:57:12.058Z",
     "totals": {
       "badgesIssued": 78,
-      "badgeViews": 315,
+      "badgeViews": 314,
       "certificateDownloads": 11,
       "generatorOpens": 108,
       "generatorCompletions": 42,
@@ -19546,7 +19525,7 @@
         "key": "2026-08",
         "label": "Aug 2026",
         "badgesIssued": 2,
-        "badgeViews": 12,
+        "badgeViews": 11,
         "certificateDownloads": 1,
         "generatorOpens": 3,
         "generatorCompletions": 2,
@@ -19559,7 +19538,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 78,
-        "badgeViews": 315,
+        "badgeViews": 314,
         "certificateDownloads": 11,
         "generatorOpens": 108,
         "generatorCompletions": 42,
@@ -19592,7 +19571,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 5,
-        "badgeViews": 3,
+        "badgeViews": 2,
         "certificateDownloads": 0,
         "generatorOpens": 20,
         "generatorCompletions": 5,
@@ -20247,18 +20226,6 @@
         "latestViewedAt": "2026-05-22T19:36:35.271Z"
       },
       {
-        "slug": "karolann-moreno-career-activated-csuncc-20260824-0001",
-        "badgeId": "CSUNCC-20260824-0001",
-        "awardeeName": "Karolann Moreno",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/karolann-moreno-career-activated-csuncc-20260824-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-08-24T23:57:16.486Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -20557,6 +20524,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "karolann-moreno-career-activated-csuncc-20260824-0001",
+        "badgeId": "CSUNCC-20260824-0001",
+        "awardeeName": "Karolann Moreno",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/karolann-moreno-career-activated-csuncc-20260824-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -20845,12 +20824,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Karolann Moreno",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -20918,6 +20891,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Karolann Moreno",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
