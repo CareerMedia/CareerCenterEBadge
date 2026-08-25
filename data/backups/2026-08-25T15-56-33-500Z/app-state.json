@@ -19348,27 +19348,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "fda72043-4dd3-42eb-ba29-5ba8c9099485",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-08-25T15:56:36.312Z",
-      "monthKey": "2026-08",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260825-0002",
-      "badgeSlug": "rogelio-arredondo-servin-career-activated-csuncc-20260825-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Rogelio Arredondo-Servin",
-      "publicUrl": "https://careerbadge.csun.edu/badges/rogelio-arredondo-servin-career-activated-csuncc-20260825-0002/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "c286dccc9f2e322010766826",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -19843,11 +19822,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-08-25T15:56:36.318Z",
+    "updatedAt": "2026-08-25T15:56:33.003Z",
     "totals": {
       "badgesIssued": 80,
       "badgeViews": 315,
-      "certificateDownloads": 13,
+      "certificateDownloads": 12,
       "generatorOpens": 110,
       "generatorCompletions": 44,
       "conversionRate": 40,
@@ -19903,7 +19882,7 @@
         "label": "Aug 2026",
         "badgesIssued": 4,
         "badgeViews": 12,
-        "certificateDownloads": 3,
+        "certificateDownloads": 2,
         "generatorOpens": 5,
         "generatorCompletions": 4,
         "uniqueVisitorsApprox": 15,
@@ -19916,7 +19895,7 @@
         "label": "2026",
         "badgesIssued": 80,
         "badgeViews": 315,
-        "certificateDownloads": 13,
+        "certificateDownloads": 12,
         "generatorOpens": 110,
         "generatorCompletions": 44,
         "uniqueVisitorsApprox": 219,
@@ -19949,7 +19928,7 @@
         "title": "Career Activated",
         "badgesIssued": 7,
         "badgeViews": 3,
-        "certificateDownloads": 2,
+        "certificateDownloads": 1,
         "generatorOpens": 22,
         "generatorCompletions": 7,
         "conversionRate": 31.8
@@ -20639,18 +20618,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "rogelio-arredondo-servin-career-activated-csuncc-20260825-0002",
-        "badgeId": "CSUNCC-20260825-0002",
-        "awardeeName": "Rogelio Arredondo-Servin",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/rogelio-arredondo-servin-career-activated-csuncc-20260825-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -20933,6 +20900,18 @@
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "rogelio-arredondo-servin-career-activated-csuncc-20260825-0002",
+        "badgeId": "CSUNCC-20260825-0002",
+        "awardeeName": "Rogelio Arredondo-Servin",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/rogelio-arredondo-servin-career-activated-csuncc-20260825-0002/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -21237,12 +21216,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Rogelio Arredondo-Servin",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -21310,6 +21283,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Rogelio Arredondo-Servin",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
