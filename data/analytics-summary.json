@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T15:43:18.378Z",
+  "updatedAt": "2026-08-25T15:45:10.159Z",
   "totals": {
-    "badgesIssued": 78,
+    "badgesIssued": 79,
     "badgeViews": 315,
-    "certificateDownloads": 11,
+    "certificateDownloads": 12,
     "generatorOpens": 109,
-    "generatorCompletions": 42,
-    "conversionRate": 38.5,
+    "generatorCompletions": 43,
+    "conversionRate": 39.4,
     "uniqueVisitorsApprox": 218
   },
   "months": [
@@ -58,26 +58,26 @@
     {
       "key": "2026-08",
       "label": "Aug 2026",
-      "badgesIssued": 2,
+      "badgesIssued": 3,
       "badgeViews": 12,
-      "certificateDownloads": 1,
+      "certificateDownloads": 2,
       "generatorOpens": 4,
-      "generatorCompletions": 2,
+      "generatorCompletions": 3,
       "uniqueVisitorsApprox": 14,
-      "conversionRate": 50
+      "conversionRate": 75
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 78,
+      "badgesIssued": 79,
       "badgeViews": 315,
-      "certificateDownloads": 11,
+      "certificateDownloads": 12,
       "generatorOpens": 109,
-      "generatorCompletions": 42,
+      "generatorCompletions": 43,
       "uniqueVisitorsApprox": 218,
-      "conversionRate": 38.5
+      "conversionRate": 39.4
     }
   ],
   "badgeTypes": [
@@ -104,12 +104,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 5,
+      "badgesIssued": 6,
       "badgeViews": 3,
-      "certificateDownloads": 0,
+      "certificateDownloads": 1,
       "generatorOpens": 21,
-      "generatorCompletions": 5,
-      "conversionRate": 23.8
+      "generatorCompletions": 6,
+      "conversionRate": 28.6
     },
     {
       "id": "unassigned",
@@ -784,6 +784,18 @@
       "latestViewedAt": "2026-04-28T16:42:10.813Z"
     },
     {
+      "slug": "noemi-ornelas-career-activated-csuncc-20260825-0001",
+      "badgeId": "CSUNCC-20260825-0001",
+      "awardeeName": "Noemi Ornelas",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/noemi-ornelas-career-activated-csuncc-20260825-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1097,8 +1109,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 21,
-      "completions": 4,
-      "conversionRate": 19
+      "completions": 5,
+      "conversionRate": 23.8
     },
     {
       "key": "fhtc-e-badge",
@@ -1362,6 +1374,12 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Noemi Ornelas",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Harsh Ahir",

@@ -19170,27 +19170,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "92ec3945-1fdb-4eea-a123-496fa78a4c49",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-08-25T15:45:10.154Z",
-      "monthKey": "2026-08",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260825-0001",
-      "badgeSlug": "noemi-ornelas-career-activated-csuncc-20260825-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Noemi Ornelas",
-      "publicUrl": "https://careerbadge.csun.edu/badges/noemi-ornelas-career-activated-csuncc-20260825-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "0033762850c644e8c2eba905",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -19665,11 +19644,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-08-25T15:45:10.159Z",
+    "updatedAt": "2026-08-25T15:44:15.536Z",
     "totals": {
       "badgesIssued": 79,
       "badgeViews": 315,
-      "certificateDownloads": 12,
+      "certificateDownloads": 11,
       "generatorOpens": 109,
       "generatorCompletions": 43,
       "conversionRate": 39.4,
@@ -19725,7 +19704,7 @@
         "label": "Aug 2026",
         "badgesIssued": 3,
         "badgeViews": 12,
-        "certificateDownloads": 2,
+        "certificateDownloads": 1,
         "generatorOpens": 4,
         "generatorCompletions": 3,
         "uniqueVisitorsApprox": 14,
@@ -19738,7 +19717,7 @@
         "label": "2026",
         "badgesIssued": 79,
         "badgeViews": 315,
-        "certificateDownloads": 12,
+        "certificateDownloads": 11,
         "generatorOpens": 109,
         "generatorCompletions": 43,
         "uniqueVisitorsApprox": 218,
@@ -19771,7 +19750,7 @@
         "title": "Career Activated",
         "badgesIssued": 6,
         "badgeViews": 3,
-        "certificateDownloads": 1,
+        "certificateDownloads": 0,
         "generatorOpens": 21,
         "generatorCompletions": 6,
         "conversionRate": 28.6
@@ -20449,18 +20428,6 @@
         "latestViewedAt": "2026-04-28T16:42:10.813Z"
       },
       {
-        "slug": "noemi-ornelas-career-activated-csuncc-20260825-0001",
-        "badgeId": "CSUNCC-20260825-0001",
-        "awardeeName": "Noemi Ornelas",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/noemi-ornelas-career-activated-csuncc-20260825-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -20743,6 +20710,18 @@
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "noemi-ornelas-career-activated-csuncc-20260825-0001",
+        "badgeId": "CSUNCC-20260825-0001",
+        "awardeeName": "Noemi Ornelas",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/noemi-ornelas-career-activated-csuncc-20260825-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -21041,12 +21020,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Noemi Ornelas",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -21114,6 +21087,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Noemi Ornelas",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
