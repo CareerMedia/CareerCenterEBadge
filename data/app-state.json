@@ -19390,6 +19390,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "6d617ad4-fb81-48d4-ae58-6ea12158dac9",
+      "type": "badge_viewed",
+      "timestamp": "2026-08-25T20:22:02.425Z",
+      "monthKey": "2026-08",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260422-0003",
+      "badgeSlug": "hector-carrillo-career-champion-csuncc-20260422-0003",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Hector Carrillo",
+      "publicUrl": "https://careerchampionsbadge.onrender.com/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "95b60a4d7a22a99399618551",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -19864,15 +19885,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-08-25T19:34:28.081Z",
+    "updatedAt": "2026-08-25T20:22:02.457Z",
     "totals": {
       "badgesIssued": 80,
-      "badgeViews": 316,
+      "badgeViews": 317,
       "certificateDownloads": 13,
       "generatorOpens": 110,
       "generatorCompletions": 44,
       "conversionRate": 40,
-      "uniqueVisitorsApprox": 220
+      "uniqueVisitorsApprox": 221
     },
     "months": [
       {
@@ -19923,11 +19944,11 @@
         "key": "2026-08",
         "label": "Aug 2026",
         "badgesIssued": 4,
-        "badgeViews": 13,
+        "badgeViews": 14,
         "certificateDownloads": 3,
         "generatorOpens": 5,
         "generatorCompletions": 4,
-        "uniqueVisitorsApprox": 16,
+        "uniqueVisitorsApprox": 17,
         "conversionRate": 80
       }
     ],
@@ -19936,11 +19957,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 80,
-        "badgeViews": 316,
+        "badgeViews": 317,
         "certificateDownloads": 13,
         "generatorOpens": 110,
         "generatorCompletions": 44,
-        "uniqueVisitorsApprox": 220,
+        "uniqueVisitorsApprox": 221,
         "conversionRate": 40
       }
     ],
@@ -19949,7 +19970,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 302,
+        "badgeViews": 303,
         "certificateDownloads": 9,
         "generatorOpens": 34,
         "generatorCompletions": 34,
@@ -20000,6 +20021,18 @@
         "latestViewedAt": "2026-08-20T19:13:45.140Z"
       },
       {
+        "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
+        "badgeId": "CSUNCC-20260422-0003",
+        "awardeeName": "Hector Carrillo",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 31,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-08-25T20:22:02.425Z"
+      },
+      {
         "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
         "badgeId": "CSUNCC-20260512-0005",
         "awardeeName": "Ernesto Cruz",
@@ -20010,18 +20043,6 @@
         "badgeViews": 31,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-08-12T22:06:02.593Z"
-      },
-      {
-        "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
-        "badgeId": "CSUNCC-20260422-0003",
-        "awardeeName": "Hector Carrillo",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/hector-carrillo-career-champion-csuncc-20260422-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 30,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-06-04T19:19:56.190Z"
       },
       {
         "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
@@ -21012,15 +21033,15 @@
         "certificateDownloads": 2
       },
       {
-        "awardeeName": "Ernesto Cruz",
+        "awardeeName": "Hector Carrillo",
         "badgesIssued": 1,
         "badgeViews": 31,
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Hector Carrillo",
+        "awardeeName": "Ernesto Cruz",
         "badgesIssued": 1,
-        "badgeViews": 30,
+        "badgeViews": 31,
         "certificateDownloads": 0
       },
       {
