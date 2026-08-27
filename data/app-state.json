@@ -19653,6 +19653,27 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
+    },
+    {
+      "id": "527decdf-3982-499d-99b9-d1342b186935",
+      "type": "badge_viewed",
+      "timestamp": "2026-08-27T17:43:51.442Z",
+      "monthKey": "2026-08",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260827-0001",
+      "badgeSlug": "matty-matador-from-here-to-career-e-badge-csuncc-20260827-0001",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "awardeeName": "Matty Matador",
+      "publicUrl": "https://careerbadge.csun.edu/badges/matty-matador-from-here-to-career-e-badge-csuncc-20260827-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "2bc2cf7ea878f8b3af3f8751",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -20127,10 +20148,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-08-27T17:43:36.694Z",
+    "updatedAt": "2026-08-27T17:43:51.446Z",
     "totals": {
       "badgesIssued": 81,
-      "badgeViews": 320,
+      "badgeViews": 321,
       "certificateDownloads": 13,
       "generatorOpens": 112,
       "generatorCompletions": 45,
@@ -20186,7 +20207,7 @@
         "key": "2026-08",
         "label": "Aug 2026",
         "badgesIssued": 5,
-        "badgeViews": 17,
+        "badgeViews": 18,
         "certificateDownloads": 3,
         "generatorOpens": 7,
         "generatorCompletions": 5,
@@ -20199,7 +20220,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 81,
-        "badgeViews": 320,
+        "badgeViews": 321,
         "certificateDownloads": 13,
         "generatorOpens": 112,
         "generatorCompletions": 45,
@@ -20222,7 +20243,7 @@
         "id": "fhtc-e-badge",
         "title": "From Here to Career E-Badge",
         "badgesIssued": 4,
-        "badgeViews": 10,
+        "badgeViews": 11,
         "certificateDownloads": 2,
         "generatorOpens": 14,
         "generatorCompletions": 4,
@@ -20899,6 +20920,18 @@
         "latestViewedAt": "2026-05-22T19:36:35.271Z"
       },
       {
+        "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260827-0001",
+        "badgeId": "CSUNCC-20260827-0001",
+        "awardeeName": "Matty Matador",
+        "badgeTitle": "From Here to Career E-Badge",
+        "badgeTemplateId": "fhtc-e-badge",
+        "publicUrl": "https://careerbadge.csun.edu/badges/matty-matador-from-here-to-career-e-badge-csuncc-20260827-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-08-27T17:43:51.442Z"
+      },
+      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -21221,18 +21254,6 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
-      },
-      {
-        "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260827-0001",
-        "badgeId": "CSUNCC-20260827-0001",
-        "awardeeName": "Matty Matador",
-        "badgeTitle": "From Here to Career E-Badge",
-        "badgeTemplateId": "fhtc-e-badge",
-        "publicUrl": "https://careerbadge.csun.edu/badges/matty-matador-from-here-to-career-e-badge-csuncc-20260827-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -21437,6 +21458,12 @@
         "certificateDownloads": 2
       },
       {
+        "awardeeName": "Matty Matador",
+        "badgesIssued": 2,
+        "badgeViews": 2,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Jennifer Sandoval",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -21459,12 +21486,6 @@
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Matty Matador",
-        "badgesIssued": 2,
-        "badgeViews": 1,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Jane Doe",
