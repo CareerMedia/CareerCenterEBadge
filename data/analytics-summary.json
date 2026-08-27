@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T00:48:11.548Z",
+  "updatedAt": "2026-08-26T23:58:09.206Z",
   "totals": {
     "badgesIssued": 80,
     "badgeViews": 320,
     "certificateDownloads": 13,
-    "generatorOpens": 110,
+    "generatorOpens": 111,
     "generatorCompletions": 44,
-    "conversionRate": 40,
-    "uniqueVisitorsApprox": 224
+    "conversionRate": 39.6,
+    "uniqueVisitorsApprox": 225
   },
   "months": [
     {
@@ -61,10 +61,10 @@
       "badgesIssued": 4,
       "badgeViews": 17,
       "certificateDownloads": 3,
-      "generatorOpens": 5,
+      "generatorOpens": 6,
       "generatorCompletions": 4,
-      "uniqueVisitorsApprox": 20,
-      "conversionRate": 80
+      "uniqueVisitorsApprox": 21,
+      "conversionRate": 66.7
     }
   ],
   "years": [
@@ -74,10 +74,10 @@
       "badgesIssued": 80,
       "badgeViews": 320,
       "certificateDownloads": 13,
-      "generatorOpens": 110,
+      "generatorOpens": 111,
       "generatorCompletions": 44,
-      "uniqueVisitorsApprox": 224,
-      "conversionRate": 40
+      "uniqueVisitorsApprox": 225,
+      "conversionRate": 39.6
     }
   ],
   "badgeTypes": [
@@ -97,9 +97,9 @@
       "badgesIssued": 3,
       "badgeViews": 10,
       "certificateDownloads": 2,
-      "generatorOpens": 12,
+      "generatorOpens": 13,
       "generatorCompletions": 3,
-      "conversionRate": 25
+      "conversionRate": 23.1
     },
     {
       "id": "career-activated",
@@ -1129,9 +1129,9 @@
       "label": "From Here to Career E-Badge generator",
       "pageKind": "specific",
       "templateId": "fhtc-e-badge",
-      "opens": 12,
+      "opens": 13,
       "completions": 3,
-      "conversionRate": 25
+      "conversionRate": 23.1
     }
   ],
   "recipientStats": [
