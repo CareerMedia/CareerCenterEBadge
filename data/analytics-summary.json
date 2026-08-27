@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-27T17:38:02.665Z",
+  "updatedAt": "2026-08-27T17:43:36.694Z",
   "totals": {
-    "badgesIssued": 80,
+    "badgesIssued": 81,
     "badgeViews": 320,
     "certificateDownloads": 13,
     "generatorOpens": 112,
-    "generatorCompletions": 44,
-    "conversionRate": 39.3,
+    "generatorCompletions": 45,
+    "conversionRate": 40.2,
     "uniqueVisitorsApprox": 225
   },
   "months": [
@@ -58,26 +58,26 @@
     {
       "key": "2026-08",
       "label": "Aug 2026",
-      "badgesIssued": 4,
+      "badgesIssued": 5,
       "badgeViews": 17,
       "certificateDownloads": 3,
       "generatorOpens": 7,
-      "generatorCompletions": 4,
+      "generatorCompletions": 5,
       "uniqueVisitorsApprox": 21,
-      "conversionRate": 57.1
+      "conversionRate": 71.4
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 80,
+      "badgesIssued": 81,
       "badgeViews": 320,
       "certificateDownloads": 13,
       "generatorOpens": 112,
-      "generatorCompletions": 44,
+      "generatorCompletions": 45,
       "uniqueVisitorsApprox": 225,
-      "conversionRate": 39.3
+      "conversionRate": 40.2
     }
   ],
   "badgeTypes": [
@@ -94,12 +94,12 @@
     {
       "id": "fhtc-e-badge",
       "title": "From Here to Career E-Badge",
-      "badgesIssued": 3,
+      "badgesIssued": 4,
       "badgeViews": 10,
       "certificateDownloads": 2,
       "generatorOpens": 14,
-      "generatorCompletions": 3,
-      "conversionRate": 21.4
+      "generatorCompletions": 4,
+      "conversionRate": 28.6
     },
     {
       "id": "career-activated",
@@ -1094,6 +1094,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260827-0001",
+      "badgeId": "CSUNCC-20260827-0001",
+      "awardeeName": "Matty Matador",
+      "badgeTitle": "From Here to Career E-Badge",
+      "badgeTemplateId": "fhtc-e-badge",
+      "publicUrl": "https://careerbadge.csun.edu/badges/matty-matador-from-here-to-career-e-badge-csuncc-20260827-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -1130,8 +1142,8 @@
       "pageKind": "specific",
       "templateId": "fhtc-e-badge",
       "opens": 14,
-      "completions": 3,
-      "conversionRate": 21.4
+      "completions": 4,
+      "conversionRate": 28.6
     }
   ],
   "recipientStats": [
@@ -1322,6 +1334,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Matty Matador",
+      "badgesIssued": 2,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Jane Doe",
       "badgesIssued": 1,
       "badgeViews": 2,
@@ -1332,12 +1350,6 @@
       "badgesIssued": 1,
       "badgeViews": 2,
       "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Matty Matador",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 1
     },
     {
       "awardeeName": "Karolann Moreno",
