@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-27T17:43:51.446Z",
+  "updatedAt": "2026-08-28T15:38:16.211Z",
   "totals": {
     "badgesIssued": 81,
-    "badgeViews": 321,
+    "badgeViews": 323,
     "certificateDownloads": 13,
     "generatorOpens": 112,
     "generatorCompletions": 45,
     "conversionRate": 40.2,
-    "uniqueVisitorsApprox": 225
+    "uniqueVisitorsApprox": 227
   },
   "months": [
     {
@@ -59,11 +59,11 @@
       "key": "2026-08",
       "label": "Aug 2026",
       "badgesIssued": 5,
-      "badgeViews": 18,
+      "badgeViews": 20,
       "certificateDownloads": 3,
       "generatorOpens": 7,
       "generatorCompletions": 5,
-      "uniqueVisitorsApprox": 21,
+      "uniqueVisitorsApprox": 23,
       "conversionRate": 71.4
     }
   ],
@@ -72,11 +72,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 81,
-      "badgeViews": 321,
+      "badgeViews": 323,
       "certificateDownloads": 13,
       "generatorOpens": 112,
       "generatorCompletions": 45,
-      "uniqueVisitorsApprox": 225,
+      "uniqueVisitorsApprox": 227,
       "conversionRate": 40.2
     }
   ],
@@ -85,7 +85,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 70,
-      "badgeViews": 306,
+      "badgeViews": 308,
       "certificateDownloads": 9,
       "generatorOpens": 34,
       "generatorCompletions": 34,
@@ -220,6 +220,18 @@
       "latestViewedAt": "2026-08-13T22:01:58.655Z"
     },
     {
+      "slug": "emalie-mendoza-career-champion-csuncc-20260512-0004",
+      "badgeId": "CSUNCC-20260512-0004",
+      "awardeeName": "Emalie Mendoza",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/emalie-mendoza-career-champion-csuncc-20260512-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 9,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-08-28T15:38:16.206Z"
+    },
+    {
       "slug": "joe-rodriguez-career-champion-csuncc-20260512-0010",
       "badgeId": "CSUNCC-20260512-0010",
       "awardeeName": "Joe Rodriguez",
@@ -254,18 +266,6 @@
       "badgeViews": 7,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-06-09T22:54:25.346Z"
-    },
-    {
-      "slug": "emalie-mendoza-career-champion-csuncc-20260512-0004",
-      "badgeId": "CSUNCC-20260512-0004",
-      "awardeeName": "Emalie Mendoza",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/emalie-mendoza-career-champion-csuncc-20260512-0004/",
-      "badgesIssued": 1,
-      "badgeViews": 7,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-05-20T02:06:01.175Z"
     },
     {
       "slug": "odette-arman-career-champion-csuncc-20260512-0018",
@@ -1202,6 +1202,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Emalie Mendoza",
+      "badgesIssued": 1,
+      "badgeViews": 9,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Cara Nissen",
       "badgesIssued": 1,
       "badgeViews": 7,
@@ -1211,12 +1217,6 @@
       "awardeeName": "Joe Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 8,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Emalie Mendoza",
-      "badgesIssued": 1,
-      "badgeViews": 7,
       "certificateDownloads": 0
     },
     {
