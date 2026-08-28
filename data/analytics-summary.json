@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T18:47:09.806Z",
+  "updatedAt": "2026-08-28T18:49:23.281Z",
   "totals": {
-    "badgesIssued": 81,
-    "badgeViews": 325,
-    "certificateDownloads": 14,
+    "badgesIssued": 82,
+    "badgeViews": 328,
+    "certificateDownloads": 15,
     "generatorOpens": 113,
-    "generatorCompletions": 45,
-    "conversionRate": 39.8,
-    "uniqueVisitorsApprox": 229
+    "generatorCompletions": 46,
+    "conversionRate": 40.7,
+    "uniqueVisitorsApprox": 230
   },
   "months": [
     {
@@ -58,26 +58,26 @@
     {
       "key": "2026-08",
       "label": "Aug 2026",
-      "badgesIssued": 5,
-      "badgeViews": 22,
-      "certificateDownloads": 4,
+      "badgesIssued": 6,
+      "badgeViews": 25,
+      "certificateDownloads": 5,
       "generatorOpens": 8,
-      "generatorCompletions": 5,
-      "uniqueVisitorsApprox": 25,
-      "conversionRate": 62.5
+      "generatorCompletions": 6,
+      "uniqueVisitorsApprox": 26,
+      "conversionRate": 75
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 81,
-      "badgeViews": 325,
-      "certificateDownloads": 14,
+      "badgesIssued": 82,
+      "badgeViews": 328,
+      "certificateDownloads": 15,
       "generatorOpens": 113,
-      "generatorCompletions": 45,
-      "uniqueVisitorsApprox": 229,
-      "conversionRate": 39.8
+      "generatorCompletions": 46,
+      "uniqueVisitorsApprox": 230,
+      "conversionRate": 40.7
     }
   ],
   "badgeTypes": [
@@ -92,6 +92,16 @@
       "conversionRate": 100
     },
     {
+      "id": "career-activated",
+      "title": "Career Activated",
+      "badgesIssued": 8,
+      "badgeViews": 7,
+      "certificateDownloads": 3,
+      "generatorOpens": 23,
+      "generatorCompletions": 8,
+      "conversionRate": 34.8
+    },
+    {
       "id": "fhtc-e-badge",
       "title": "From Here to Career E-Badge",
       "badgesIssued": 4,
@@ -100,16 +110,6 @@
       "generatorOpens": 14,
       "generatorCompletions": 4,
       "conversionRate": 28.6
-    },
-    {
-      "id": "career-activated",
-      "title": "Career Activated",
-      "badgesIssued": 7,
-      "badgeViews": 4,
-      "certificateDownloads": 2,
-      "generatorOpens": 23,
-      "generatorCompletions": 7,
-      "conversionRate": 30.4
     },
     {
       "id": "unassigned",
@@ -470,6 +470,18 @@
       "badgeViews": 3,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-06-09T23:13:03.215Z"
+    },
+    {
+      "slug": "natalie-nicole-rendon-career-activated-csuncc-20260828-0001",
+      "badgeId": "CSUNCC-20260828-0001",
+      "awardeeName": "Natalie Nicole Rendon",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/natalie-nicole-rendon-career-activated-csuncc-20260828-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-08-28T18:49:23.276Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
@@ -1133,8 +1145,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 23,
-      "completions": 6,
-      "conversionRate": 26.1
+      "completions": 7,
+      "conversionRate": 30.4
     },
     {
       "key": "fhtc-e-badge",
@@ -1313,6 +1325,12 @@
       "awardeeName": "Matty Matador",
       "badgesIssued": 2,
       "badgeViews": 2,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Natalie Nicole Rendon",
+      "badgesIssued": 1,
+      "badgeViews": 3,
       "certificateDownloads": 1
     },
     {

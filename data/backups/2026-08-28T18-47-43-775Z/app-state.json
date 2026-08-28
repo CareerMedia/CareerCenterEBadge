@@ -19936,90 +19936,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "27a8fbfd-00ba-4a28-b313-d4b6b01b554e",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-08-28T18:48:03.062Z",
-      "monthKey": "2026-08",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260828-0001",
-      "badgeSlug": "natalie-nicole-rendon-career-activated-csuncc-20260828-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Natalie Nicole Rendon",
-      "publicUrl": "https://careerbadge.csun.edu/badges/natalie-nicole-rendon-career-activated-csuncc-20260828-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "7344126eb7184fe85ba8cc24",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "b6b8081e-bb96-4d17-83fa-9544d8c8168a",
-      "type": "badge_viewed",
-      "timestamp": "2026-08-28T18:48:20.256Z",
-      "monthKey": "2026-08",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260828-0001",
-      "badgeSlug": "natalie-nicole-rendon-career-activated-csuncc-20260828-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Natalie Nicole Rendon",
-      "publicUrl": "https://careerbadge.csun.edu/badges/natalie-nicole-rendon-career-activated-csuncc-20260828-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "7344126eb7184fe85ba8cc24",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "16f8188c-5320-4608-aa15-7a4e2632c251",
-      "type": "badge_viewed",
-      "timestamp": "2026-08-28T18:48:29.662Z",
-      "monthKey": "2026-08",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260828-0001",
-      "badgeSlug": "natalie-nicole-rendon-career-activated-csuncc-20260828-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Natalie Nicole Rendon",
-      "publicUrl": "https://careerbadge.csun.edu/badges/natalie-nicole-rendon-career-activated-csuncc-20260828-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "ee932aeaf79df80a2a4d17b1",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "65e8fc47-a948-43e3-b00b-05f0df532d00",
-      "type": "badge_viewed",
-      "timestamp": "2026-08-28T18:49:23.276Z",
-      "monthKey": "2026-08",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260828-0001",
-      "badgeSlug": "natalie-nicole-rendon-career-activated-csuncc-20260828-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Natalie Nicole Rendon",
-      "publicUrl": "https://careerbadge.csun.edu/badges/natalie-nicole-rendon-career-activated-csuncc-20260828-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "7344126eb7184fe85ba8cc24",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -20494,15 +20410,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-08-28T18:49:23.281Z",
+    "updatedAt": "2026-08-28T18:47:43.384Z",
     "totals": {
       "badgesIssued": 82,
-      "badgeViews": 328,
-      "certificateDownloads": 15,
+      "badgeViews": 325,
+      "certificateDownloads": 14,
       "generatorOpens": 113,
       "generatorCompletions": 46,
       "conversionRate": 40.7,
-      "uniqueVisitorsApprox": 230
+      "uniqueVisitorsApprox": 229
     },
     "months": [
       {
@@ -20553,11 +20469,11 @@
         "key": "2026-08",
         "label": "Aug 2026",
         "badgesIssued": 6,
-        "badgeViews": 25,
-        "certificateDownloads": 5,
+        "badgeViews": 22,
+        "certificateDownloads": 4,
         "generatorOpens": 8,
         "generatorCompletions": 6,
-        "uniqueVisitorsApprox": 26,
+        "uniqueVisitorsApprox": 25,
         "conversionRate": 75
       }
     ],
@@ -20566,11 +20482,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 82,
-        "badgeViews": 328,
-        "certificateDownloads": 15,
+        "badgeViews": 325,
+        "certificateDownloads": 14,
         "generatorOpens": 113,
         "generatorCompletions": 46,
-        "uniqueVisitorsApprox": 230,
+        "uniqueVisitorsApprox": 229,
         "conversionRate": 40.7
       }
     ],
@@ -20586,16 +20502,6 @@
         "conversionRate": 100
       },
       {
-        "id": "career-activated",
-        "title": "Career Activated",
-        "badgesIssued": 8,
-        "badgeViews": 7,
-        "certificateDownloads": 3,
-        "generatorOpens": 23,
-        "generatorCompletions": 8,
-        "conversionRate": 34.8
-      },
-      {
         "id": "fhtc-e-badge",
         "title": "From Here to Career E-Badge",
         "badgesIssued": 4,
@@ -20604,6 +20510,16 @@
         "generatorOpens": 14,
         "generatorCompletions": 4,
         "conversionRate": 28.6
+      },
+      {
+        "id": "career-activated",
+        "title": "Career Activated",
+        "badgesIssued": 8,
+        "badgeViews": 4,
+        "certificateDownloads": 2,
+        "generatorOpens": 23,
+        "generatorCompletions": 8,
+        "conversionRate": 34.8
       },
       {
         "id": "unassigned",
@@ -20964,18 +20880,6 @@
         "badgeViews": 3,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-06-09T23:13:03.215Z"
-      },
-      {
-        "slug": "natalie-nicole-rendon-career-activated-csuncc-20260828-0001",
-        "badgeId": "CSUNCC-20260828-0001",
-        "awardeeName": "Natalie Nicole Rendon",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/natalie-nicole-rendon-career-activated-csuncc-20260828-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-08-28T18:49:23.276Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
@@ -21612,6 +21516,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "natalie-nicole-rendon-career-activated-csuncc-20260828-0001",
+        "badgeId": "CSUNCC-20260828-0001",
+        "awardeeName": "Natalie Nicole Rendon",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/natalie-nicole-rendon-career-activated-csuncc-20260828-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -21822,12 +21738,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Natalie Nicole Rendon",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Jennifer Sandoval",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -21991,6 +21901,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Natalie Nicole Rendon",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
