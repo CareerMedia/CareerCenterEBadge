@@ -20240,6 +20240,27 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-certificate-download",
       "meta": {}
+    },
+    {
+      "id": "46793283-3922-4cf2-86f0-8c6cc8b31f1a",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-01T20:57:35.372Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260831-0001",
+      "badgeSlug": "jose-vargas-career-activated-csuncc-20260831-0001",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Jose Vargas",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jose-vargas-career-activated-csuncc-20260831-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "6c3f1bf4b6e97f2609a7b27d",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -20714,15 +20735,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-01T02:51:30.060Z",
+    "updatedAt": "2026-09-01T20:57:35.377Z",
     "totals": {
       "badgesIssued": 83,
-      "badgeViews": 330,
+      "badgeViews": 331,
       "certificateDownloads": 16,
       "generatorOpens": 114,
       "generatorCompletions": 47,
       "conversionRate": 41.2,
-      "uniqueVisitorsApprox": 232
+      "uniqueVisitorsApprox": 233
     },
     "months": [
       {
@@ -20784,11 +20805,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 1,
-        "badgeViews": 1,
+        "badgeViews": 2,
         "certificateDownloads": 1,
         "generatorOpens": 1,
         "generatorCompletions": 1,
-        "uniqueVisitorsApprox": 1,
+        "uniqueVisitorsApprox": 2,
         "conversionRate": 100
       }
     ],
@@ -20797,11 +20818,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 83,
-        "badgeViews": 330,
+        "badgeViews": 331,
         "certificateDownloads": 16,
         "generatorOpens": 114,
         "generatorCompletions": 47,
-        "uniqueVisitorsApprox": 232,
+        "uniqueVisitorsApprox": 233,
         "conversionRate": 41.2
       }
     ],
@@ -20820,7 +20841,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 9,
-        "badgeViews": 9,
+        "badgeViews": 10,
         "certificateDownloads": 4,
         "generatorOpens": 24,
         "generatorCompletions": 9,
@@ -21329,6 +21350,18 @@
         "latestViewedAt": "2026-06-04T20:12:31.634Z"
       },
       {
+        "slug": "jose-vargas-career-activated-csuncc-20260831-0001",
+        "badgeId": "CSUNCC-20260831-0001",
+        "awardeeName": "Jose Vargas",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jose-vargas-career-activated-csuncc-20260831-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-09-01T20:57:35.372Z"
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
         "badgeId": "CSUNCC-20260504-0005",
         "awardeeName": "Bryce Simon",
@@ -21399,18 +21432,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-08-12T00:18:03.511Z"
-      },
-      {
-        "slug": "jose-vargas-career-activated-csuncc-20260831-0001",
-        "badgeId": "CSUNCC-20260831-0001",
-        "awardeeName": "Jose Vargas",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jose-vargas-career-activated-csuncc-20260831-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-01T02:51:18.404Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -22095,6 +22116,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Jose Vargas",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Jane Doe",
         "badgesIssued": 1,
         "badgeViews": 2,
@@ -22111,12 +22138,6 @@
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Jose Vargas",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Maddie Paul",
