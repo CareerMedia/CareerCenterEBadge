@@ -20261,6 +20261,48 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "5890aaaf-fe7f-4ca2-93ba-dd95098bb01d",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-01T20:59:18.067Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260604-0002",
+      "badgeSlug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Dianita Saucedo Rodriguez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "6c3f1bf4b6e97f2609a7b27d",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "953d27b4-6a07-430b-9766-3d8849b9b2d7",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-01T20:59:26.699Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0006",
+      "badgeSlug": "genesis-lozano-career-champion-csuncc-20260526-0006",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Genesis Lozano",
+      "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "6c3f1bf4b6e97f2609a7b27d",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -20735,10 +20777,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-01T20:57:35.377Z",
+    "updatedAt": "2026-09-01T20:59:26.702Z",
     "totals": {
       "badgesIssued": 83,
-      "badgeViews": 331,
+      "badgeViews": 333,
       "certificateDownloads": 16,
       "generatorOpens": 114,
       "generatorCompletions": 47,
@@ -20805,7 +20847,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 1,
-        "badgeViews": 2,
+        "badgeViews": 4,
         "certificateDownloads": 1,
         "generatorOpens": 1,
         "generatorCompletions": 1,
@@ -20818,7 +20860,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 83,
-        "badgeViews": 331,
+        "badgeViews": 333,
         "certificateDownloads": 16,
         "generatorOpens": 114,
         "generatorCompletions": 47,
@@ -20831,7 +20873,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 310,
+        "badgeViews": 312,
         "certificateDownloads": 10,
         "generatorOpens": 34,
         "generatorCompletions": 34,
@@ -21170,6 +21212,18 @@
         "latestViewedAt": "2026-05-12T18:29:24.776Z"
       },
       {
+        "slug": "genesis-lozano-career-champion-csuncc-20260526-0006",
+        "badgeId": "CSUNCC-20260526-0006",
+        "awardeeName": "Genesis Lozano",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 4,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-09-01T20:59:26.699Z"
+      },
+      {
         "slug": "ivania-fictoria-career-champion-csuncc-20250101-0004",
         "badgeId": "CSUNCC-20250101-0004",
         "awardeeName": "Ivania Fictoria",
@@ -21204,6 +21258,18 @@
         "badgeViews": 4,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-26T22:47:01.572Z"
+      },
+      {
+        "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
+        "badgeId": "CSUNCC-20260604-0002",
+        "awardeeName": "Dianita Saucedo Rodriguez",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 2,
+        "latestViewedAt": "2026-09-01T20:59:18.067Z"
       },
       {
         "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
@@ -21314,18 +21380,6 @@
         "latestViewedAt": "2026-05-12T18:23:15.496Z"
       },
       {
-        "slug": "genesis-lozano-career-champion-csuncc-20260526-0006",
-        "badgeId": "CSUNCC-20260526-0006",
-        "awardeeName": "Genesis Lozano",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/genesis-lozano-career-champion-csuncc-20260526-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-06-02T17:17:39.789Z"
-      },
-      {
         "slug": "nancy-lemus-career-champion-csuncc-20260604-0001",
         "badgeId": "CSUNCC-20260604-0001",
         "awardeeName": "Nancy Lemus",
@@ -21336,18 +21390,6 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-06-04T20:00:59.133Z"
-      },
-      {
-        "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
-        "badgeId": "CSUNCC-20260604-0002",
-        "awardeeName": "Dianita Saucedo Rodriguez",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 2,
-        "latestViewedAt": "2026-06-04T20:12:31.634Z"
       },
       {
         "slug": "jose-vargas-career-activated-csuncc-20260831-0001",
@@ -22008,6 +22050,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Genesis Lozano",
+        "badgesIssued": 2,
+        "badgeViews": 5,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Keila Medina",
         "badgesIssued": 1,
         "badgeViews": 6,
@@ -22020,16 +22068,16 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Genesis Lozano",
-        "badgesIssued": 2,
-        "badgeViews": 4,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Leslie Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 5,
         "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Dianita Saucedo Rodriguez",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 2
       },
       {
         "awardeeName": "Natalie Nicole Rendon",
@@ -22078,12 +22126,6 @@
         "badgesIssued": 1,
         "badgeViews": 4,
         "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Dianita Saucedo Rodriguez",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 2
       },
       {
         "awardeeName": "Matty Matador",
