@@ -20460,48 +20460,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "39b96323-cf8d-4707-971e-ff6ee5ff3332",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-02T05:37:59.628Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260901-0001",
-      "badgeSlug": "anna-tapia-career-activated-csuncc-20260901-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Anna Tapia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/anna-tapia-career-activated-csuncc-20260901-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "3bb4fe9c5ec7874b6fbb2dcc",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "dd27b87c-363c-4ae4-9f9d-0b8eddb8ebdc",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-02T05:38:19.542Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260901-0001",
-      "badgeSlug": "anna-tapia-career-activated-csuncc-20260901-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Anna Tapia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/anna-tapia-career-activated-csuncc-20260901-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "3bb4fe9c5ec7874b6fbb2dcc",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -20976,11 +20934,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-02T05:38:19.548Z",
+    "updatedAt": "2026-09-02T05:37:54.956Z",
     "totals": {
       "badgesIssued": 84,
-      "badgeViews": 334,
-      "certificateDownloads": 17,
+      "badgeViews": 333,
+      "certificateDownloads": 16,
       "generatorOpens": 115,
       "generatorCompletions": 48,
       "conversionRate": 41.7,
@@ -21046,8 +21004,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 2,
-        "badgeViews": 5,
-        "certificateDownloads": 2,
+        "badgeViews": 4,
+        "certificateDownloads": 1,
         "generatorOpens": 2,
         "generatorCompletions": 2,
         "uniqueVisitorsApprox": 3,
@@ -21059,8 +21017,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 84,
-        "badgeViews": 334,
-        "certificateDownloads": 17,
+        "badgeViews": 333,
+        "certificateDownloads": 16,
         "generatorOpens": 115,
         "generatorCompletions": 48,
         "uniqueVisitorsApprox": 234,
@@ -21082,8 +21040,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 10,
-        "badgeViews": 11,
-        "certificateDownloads": 5,
+        "badgeViews": 10,
+        "certificateDownloads": 4,
         "generatorOpens": 25,
         "generatorCompletions": 10,
         "conversionRate": 40
@@ -21675,18 +21633,6 @@
         "latestViewedAt": "2026-08-12T00:18:03.511Z"
       },
       {
-        "slug": "anna-tapia-career-activated-csuncc-20260901-0001",
-        "badgeId": "CSUNCC-20260901-0001",
-        "awardeeName": "Anna Tapia",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/anna-tapia-career-activated-csuncc-20260901-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-02T05:38:19.542Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -22129,6 +22075,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "anna-tapia-career-activated-csuncc-20260901-0001",
+        "badgeId": "CSUNCC-20260901-0001",
+        "awardeeName": "Anna Tapia",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/anna-tapia-career-activated-csuncc-20260901-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -22393,12 +22351,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Anna Tapia",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -22520,6 +22472,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Anna Tapia",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
