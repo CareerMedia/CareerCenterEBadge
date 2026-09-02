@@ -21256,48 +21256,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "9aaa3aa1-c2c7-412a-a4cd-a4eb896f0d0f",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-02T22:43:50.912Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260902-0004",
-      "badgeSlug": "nicolei-padua-career-activated-csuncc-20260902-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Nicolei Padua",
-      "publicUrl": "https://careerbadge.csun.edu/badges/nicolei-padua-career-activated-csuncc-20260902-0004/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9c0c0a579537d5e0c4018a98",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "0d6b693d-dcb7-44f0-bc3b-741ed01483a9",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-02T22:44:12.804Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260902-0004",
-      "badgeSlug": "nicolei-padua-career-activated-csuncc-20260902-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Nicolei Padua",
-      "publicUrl": "https://careerbadge.csun.edu/badges/nicolei-padua-career-activated-csuncc-20260902-0004/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9c0c0a579537d5e0c4018a98",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -21772,15 +21730,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-02T22:44:12.807Z",
+    "updatedAt": "2026-09-02T22:43:37.267Z",
     "totals": {
       "badgesIssued": 88,
-      "badgeViews": 337,
-      "certificateDownloads": 22,
+      "badgeViews": 336,
+      "certificateDownloads": 21,
       "generatorOpens": 119,
       "generatorCompletions": 52,
       "conversionRate": 43.7,
-      "uniqueVisitorsApprox": 239
+      "uniqueVisitorsApprox": 238
     },
     "months": [
       {
@@ -21842,11 +21800,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 6,
-        "badgeViews": 8,
-        "certificateDownloads": 7,
+        "badgeViews": 7,
+        "certificateDownloads": 6,
         "generatorOpens": 6,
         "generatorCompletions": 6,
-        "uniqueVisitorsApprox": 8,
+        "uniqueVisitorsApprox": 7,
         "conversionRate": 100
       }
     ],
@@ -21855,11 +21813,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 88,
-        "badgeViews": 337,
-        "certificateDownloads": 22,
+        "badgeViews": 336,
+        "certificateDownloads": 21,
         "generatorOpens": 119,
         "generatorCompletions": 52,
-        "uniqueVisitorsApprox": 239,
+        "uniqueVisitorsApprox": 238,
         "conversionRate": 43.7
       }
     ],
@@ -21878,8 +21836,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 14,
-        "badgeViews": 14,
-        "certificateDownloads": 10,
+        "badgeViews": 13,
+        "certificateDownloads": 9,
         "generatorOpens": 29,
         "generatorCompletions": 14,
         "conversionRate": 48.3
@@ -22507,18 +22465,6 @@
         "latestViewedAt": "2026-09-02T21:56:15.438Z"
       },
       {
-        "slug": "nicolei-padua-career-activated-csuncc-20260902-0004",
-        "badgeId": "CSUNCC-20260902-0004",
-        "awardeeName": "Nicolei Padua",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/nicolei-padua-career-activated-csuncc-20260902-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-02T22:43:50.912Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -22973,6 +22919,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "nicolei-padua-career-activated-csuncc-20260902-0004",
+        "badgeId": "CSUNCC-20260902-0004",
+        "awardeeName": "Nicolei Padua",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/nicolei-padua-career-activated-csuncc-20260902-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -23255,12 +23213,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Nicolei Padua",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -23388,6 +23340,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Nicolei Padua",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
