@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T21:55:31.276Z",
+  "updatedAt": "2026-09-02T21:57:52.936Z",
   "totals": {
-    "badgesIssued": 85,
-    "badgeViews": 334,
-    "certificateDownloads": 18,
-    "generatorOpens": 117,
-    "generatorCompletions": 49,
-    "conversionRate": 41.9,
-    "uniqueVisitorsApprox": 236
+    "badgesIssued": 87,
+    "badgeViews": 335,
+    "certificateDownloads": 20,
+    "generatorOpens": 118,
+    "generatorCompletions": 51,
+    "conversionRate": 43.2,
+    "uniqueVisitorsApprox": 237
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 3,
-      "badgeViews": 5,
-      "certificateDownloads": 3,
-      "generatorOpens": 4,
-      "generatorCompletions": 3,
-      "uniqueVisitorsApprox": 5,
-      "conversionRate": 75
+      "badgesIssued": 5,
+      "badgeViews": 6,
+      "certificateDownloads": 5,
+      "generatorOpens": 5,
+      "generatorCompletions": 5,
+      "uniqueVisitorsApprox": 6,
+      "conversionRate": 100
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 85,
-      "badgeViews": 334,
-      "certificateDownloads": 18,
-      "generatorOpens": 117,
-      "generatorCompletions": 49,
-      "uniqueVisitorsApprox": 236,
-      "conversionRate": 41.9
+      "badgesIssued": 87,
+      "badgeViews": 335,
+      "certificateDownloads": 20,
+      "generatorOpens": 118,
+      "generatorCompletions": 51,
+      "uniqueVisitorsApprox": 237,
+      "conversionRate": 43.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 11,
-      "badgeViews": 11,
-      "certificateDownloads": 6,
-      "generatorOpens": 27,
-      "generatorCompletions": 11,
-      "conversionRate": 40.7
+      "badgesIssued": 13,
+      "badgeViews": 12,
+      "certificateDownloads": 8,
+      "generatorOpens": 28,
+      "generatorCompletions": 13,
+      "conversionRate": 46.4
     },
     {
       "id": "fhtc-e-badge",
@@ -711,6 +711,18 @@
       "latestViewedAt": "2026-09-02T05:38:19.542Z"
     },
     {
+      "slug": "destiny-gonzalez-cruz-career-activated-csuncc-20260902-0002",
+      "badgeId": "CSUNCC-20260902-0002",
+      "awardeeName": "Destiny Gonzalez Cruz",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/destiny-gonzalez-cruz-career-activated-csuncc-20260902-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-02T21:56:15.438Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -873,6 +885,18 @@
       "badgeTitle": "Career Activated",
       "badgeTemplateId": "career-activated",
       "publicUrl": "https://careerbadge.csun.edu/badges/anastasia-litvak-career-activated-csuncc-20260902-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "chimezie-roberson-career-activated-csuncc-20260902-0003",
+      "badgeId": "CSUNCC-20260902-0003",
+      "awardeeName": "Chimezie Roberson",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/chimezie-roberson-career-activated-csuncc-20260902-0003/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1,
@@ -1191,9 +1215,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 27,
-      "completions": 10,
-      "conversionRate": 37
+      "opens": 28,
+      "completions": 12,
+      "conversionRate": 42.9
     },
     {
       "key": "fhtc-e-badge",
@@ -1435,6 +1459,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Destiny Gonzalez Cruz",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -1490,6 +1520,12 @@
     },
     {
       "awardeeName": "Anastasia Litvak",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Chimezie Roberson",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
