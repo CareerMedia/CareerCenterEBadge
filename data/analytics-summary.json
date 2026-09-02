@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T21:57:52.936Z",
+  "updatedAt": "2026-09-02T22:01:25.564Z",
   "totals": {
     "badgesIssued": 87,
-    "badgeViews": 335,
-    "certificateDownloads": 20,
+    "badgeViews": 336,
+    "certificateDownloads": 21,
     "generatorOpens": 118,
     "generatorCompletions": 51,
     "conversionRate": 43.2,
@@ -70,8 +70,8 @@
       "key": "2026-09",
       "label": "Sep 2026",
       "badgesIssued": 5,
-      "badgeViews": 6,
-      "certificateDownloads": 5,
+      "badgeViews": 7,
+      "certificateDownloads": 6,
       "generatorOpens": 5,
       "generatorCompletions": 5,
       "uniqueVisitorsApprox": 6,
@@ -83,8 +83,8 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 87,
-      "badgeViews": 335,
-      "certificateDownloads": 20,
+      "badgeViews": 336,
+      "certificateDownloads": 21,
       "generatorOpens": 118,
       "generatorCompletions": 51,
       "uniqueVisitorsApprox": 237,
@@ -106,8 +106,8 @@
       "id": "career-activated",
       "title": "Career Activated",
       "badgesIssued": 13,
-      "badgeViews": 12,
-      "certificateDownloads": 8,
+      "badgeViews": 13,
+      "certificateDownloads": 9,
       "generatorOpens": 28,
       "generatorCompletions": 13,
       "conversionRate": 46.4
@@ -687,6 +687,18 @@
       "latestViewedAt": "2026-08-25T19:34:28.078Z"
     },
     {
+      "slug": "chimezie-roberson-career-activated-csuncc-20260902-0003",
+      "badgeId": "CSUNCC-20260902-0003",
+      "awardeeName": "Chimezie Roberson",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/chimezie-roberson-career-activated-csuncc-20260902-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 2,
+      "latestViewedAt": "2026-09-02T21:58:06.978Z"
+    },
+    {
       "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001",
       "badgeId": "CSUNCC-20260811-0001",
       "awardeeName": "Matty Matador",
@@ -885,18 +897,6 @@
       "badgeTitle": "Career Activated",
       "badgeTemplateId": "career-activated",
       "publicUrl": "https://careerbadge.csun.edu/badges/anastasia-litvak-career-activated-csuncc-20260902-0001/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 1,
-      "latestViewedAt": ""
-    },
-    {
-      "slug": "chimezie-roberson-career-activated-csuncc-20260902-0003",
-      "badgeId": "CSUNCC-20260902-0003",
-      "awardeeName": "Chimezie Roberson",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/chimezie-roberson-career-activated-csuncc-20260902-0003/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1,
@@ -1435,6 +1435,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Chimezie Roberson",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 2
+    },
+    {
       "awardeeName": "Jane Doe",
       "badgesIssued": 1,
       "badgeViews": 2,
@@ -1520,12 +1526,6 @@
     },
     {
       "awardeeName": "Anastasia Litvak",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Chimezie Roberson",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
