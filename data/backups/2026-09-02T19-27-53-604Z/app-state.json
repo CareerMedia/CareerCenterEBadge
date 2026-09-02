@@ -20659,27 +20659,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "d5fdea08-d44b-41bd-a8d6-6695161af3d0",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-02T19:27:57.968Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260902-0001",
-      "badgeSlug": "anastasia-litvak-career-activated-csuncc-20260902-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Anastasia Litvak",
-      "publicUrl": "https://careerbadge.csun.edu/badges/anastasia-litvak-career-activated-csuncc-20260902-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "961f88332fd9eaf94f92efd0",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -21154,11 +21133,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-02T19:27:57.971Z",
+    "updatedAt": "2026-09-02T19:27:53.302Z",
     "totals": {
       "badgesIssued": 85,
       "badgeViews": 334,
-      "certificateDownloads": 18,
+      "certificateDownloads": 17,
       "generatorOpens": 116,
       "generatorCompletions": 49,
       "conversionRate": 42.2,
@@ -21225,7 +21204,7 @@
         "label": "Sep 2026",
         "badgesIssued": 3,
         "badgeViews": 5,
-        "certificateDownloads": 3,
+        "certificateDownloads": 2,
         "generatorOpens": 3,
         "generatorCompletions": 3,
         "uniqueVisitorsApprox": 4,
@@ -21238,7 +21217,7 @@
         "label": "2026",
         "badgesIssued": 85,
         "badgeViews": 334,
-        "certificateDownloads": 18,
+        "certificateDownloads": 17,
         "generatorOpens": 116,
         "generatorCompletions": 49,
         "uniqueVisitorsApprox": 235,
@@ -21261,7 +21240,7 @@
         "title": "Career Activated",
         "badgesIssued": 11,
         "badgeViews": 11,
-        "certificateDownloads": 6,
+        "certificateDownloads": 5,
         "generatorOpens": 26,
         "generatorCompletions": 11,
         "conversionRate": 42.3
@@ -22021,18 +22000,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "anastasia-litvak-career-activated-csuncc-20260902-0001",
-        "badgeId": "CSUNCC-20260902-0001",
-        "awardeeName": "Anastasia Litvak",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/anastasia-litvak-career-activated-csuncc-20260902-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -22315,6 +22282,18 @@
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "anastasia-litvak-career-activated-csuncc-20260902-0001",
+        "badgeId": "CSUNCC-20260902-0001",
+        "awardeeName": "Anastasia Litvak",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/anastasia-litvak-career-activated-csuncc-20260902-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -22643,12 +22622,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Anastasia Litvak",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -22716,6 +22689,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Anastasia Litvak",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

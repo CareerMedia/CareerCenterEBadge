@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T19:27:33.798Z",
+  "updatedAt": "2026-09-02T19:27:57.971Z",
   "totals": {
-    "badgesIssued": 84,
+    "badgesIssued": 85,
     "badgeViews": 334,
-    "certificateDownloads": 17,
+    "certificateDownloads": 18,
     "generatorOpens": 116,
-    "generatorCompletions": 48,
-    "conversionRate": 41.4,
+    "generatorCompletions": 49,
+    "conversionRate": 42.2,
     "uniqueVisitorsApprox": 235
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 2,
+      "badgesIssued": 3,
       "badgeViews": 5,
-      "certificateDownloads": 2,
+      "certificateDownloads": 3,
       "generatorOpens": 3,
-      "generatorCompletions": 2,
+      "generatorCompletions": 3,
       "uniqueVisitorsApprox": 4,
-      "conversionRate": 66.7
+      "conversionRate": 100
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 84,
+      "badgesIssued": 85,
       "badgeViews": 334,
-      "certificateDownloads": 17,
+      "certificateDownloads": 18,
       "generatorOpens": 116,
-      "generatorCompletions": 48,
+      "generatorCompletions": 49,
       "uniqueVisitorsApprox": 235,
-      "conversionRate": 41.4
+      "conversionRate": 42.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 10,
+      "badgesIssued": 11,
       "badgeViews": 11,
-      "certificateDownloads": 5,
+      "certificateDownloads": 6,
       "generatorOpens": 26,
-      "generatorCompletions": 10,
-      "conversionRate": 38.5
+      "generatorCompletions": 11,
+      "conversionRate": 42.3
     },
     {
       "id": "fhtc-e-badge",
@@ -867,6 +867,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "anastasia-litvak-career-activated-csuncc-20260902-0001",
+      "badgeId": "CSUNCC-20260902-0001",
+      "awardeeName": "Anastasia Litvak",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/anastasia-litvak-career-activated-csuncc-20260902-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1180,8 +1192,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 26,
-      "completions": 9,
-      "conversionRate": 34.6
+      "completions": 10,
+      "conversionRate": 38.5
     },
     {
       "key": "fhtc-e-badge",
@@ -1472,6 +1484,12 @@
     },
     {
       "awardeeName": "Rogelio Arredondo-Servin",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Anastasia Litvak",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
