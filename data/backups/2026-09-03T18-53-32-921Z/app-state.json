@@ -23781,27 +23781,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "c5b50fe1-37e2-4e85-bee3-0445366a0510",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-03T18:53:42.980Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260903-0001",
-      "badgeSlug": "alfredo-sanchez-sanchez-career-activated-csuncc-20260903-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Alfredo Sanchez Sanchez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/alfredo-sanchez-sanchez-career-activated-csuncc-20260903-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "0f148b84afd9cc4031b2a877",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -24276,11 +24255,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-03T18:53:42.988Z",
+    "updatedAt": "2026-09-03T18:53:32.424Z",
     "totals": {
       "badgesIssued": 99,
       "badgeViews": 360,
-      "certificateDownloads": 33,
+      "certificateDownloads": 32,
       "generatorOpens": 133,
       "generatorCompletions": 63,
       "conversionRate": 47.4,
@@ -24347,7 +24326,7 @@
         "label": "Sep 2026",
         "badgesIssued": 17,
         "badgeViews": 31,
-        "certificateDownloads": 18,
+        "certificateDownloads": 17,
         "generatorOpens": 20,
         "generatorCompletions": 17,
         "uniqueVisitorsApprox": 26,
@@ -24360,7 +24339,7 @@
         "label": "2026",
         "badgesIssued": 99,
         "badgeViews": 360,
-        "certificateDownloads": 33,
+        "certificateDownloads": 32,
         "generatorOpens": 133,
         "generatorCompletions": 63,
         "uniqueVisitorsApprox": 257,
@@ -24383,7 +24362,7 @@
         "title": "Career Activated",
         "badgesIssued": 25,
         "badgeViews": 34,
-        "certificateDownloads": 21,
+        "certificateDownloads": 20,
         "generatorOpens": 43,
         "generatorCompletions": 25,
         "conversionRate": 58.1
@@ -25311,18 +25290,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "alfredo-sanchez-sanchez-career-activated-csuncc-20260903-0001",
-        "badgeId": "CSUNCC-20260903-0001",
-        "awardeeName": "Alfredo Sanchez Sanchez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/alfredo-sanchez-sanchez-career-activated-csuncc-20260903-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -25605,6 +25572,18 @@
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "alfredo-sanchez-sanchez-career-activated-csuncc-20260903-0001",
+        "badgeId": "CSUNCC-20260903-0001",
+        "awardeeName": "Alfredo Sanchez Sanchez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/alfredo-sanchez-sanchez-career-activated-csuncc-20260903-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -26005,12 +25984,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Alfredo Sanchez Sanchez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -26078,6 +26051,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Alfredo Sanchez Sanchez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

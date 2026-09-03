@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T18:52:55.071Z",
+  "updatedAt": "2026-09-03T18:53:42.988Z",
   "totals": {
-    "badgesIssued": 98,
+    "badgesIssued": 99,
     "badgeViews": 360,
-    "certificateDownloads": 32,
+    "certificateDownloads": 33,
     "generatorOpens": 133,
-    "generatorCompletions": 62,
-    "conversionRate": 46.6,
+    "generatorCompletions": 63,
+    "conversionRate": 47.4,
     "uniqueVisitorsApprox": 257
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 16,
+      "badgesIssued": 17,
       "badgeViews": 31,
-      "certificateDownloads": 17,
+      "certificateDownloads": 18,
       "generatorOpens": 20,
-      "generatorCompletions": 16,
+      "generatorCompletions": 17,
       "uniqueVisitorsApprox": 26,
-      "conversionRate": 80
+      "conversionRate": 85
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 98,
+      "badgesIssued": 99,
       "badgeViews": 360,
-      "certificateDownloads": 32,
+      "certificateDownloads": 33,
       "generatorOpens": 133,
-      "generatorCompletions": 62,
+      "generatorCompletions": 63,
       "uniqueVisitorsApprox": 257,
-      "conversionRate": 46.6
+      "conversionRate": 47.4
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 24,
+      "badgesIssued": 25,
       "badgeViews": 34,
-      "certificateDownloads": 20,
+      "certificateDownloads": 21,
       "generatorOpens": 43,
-      "generatorCompletions": 24,
-      "conversionRate": 55.8
+      "generatorCompletions": 25,
+      "conversionRate": 58.1
     },
     {
       "id": "fhtc-e-badge",
@@ -1035,6 +1035,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "alfredo-sanchez-sanchez-career-activated-csuncc-20260903-0001",
+      "badgeId": "CSUNCC-20260903-0001",
+      "awardeeName": "Alfredo Sanchez Sanchez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/alfredo-sanchez-sanchez-career-activated-csuncc-20260903-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1330,8 +1342,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 43,
-      "completions": 23,
-      "conversionRate": 53.5
+      "completions": 24,
+      "conversionRate": 55.8
     },
     {
       "key": "general",
@@ -1712,6 +1724,12 @@
     },
     {
       "awardeeName": "Anastasia Litvak",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Alfredo Sanchez Sanchez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
