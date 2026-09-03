@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T03:00:30.392Z",
+  "updatedAt": "2026-09-03T03:01:44.184Z",
   "totals": {
-    "badgesIssued": 91,
-    "badgeViews": 341,
-    "certificateDownloads": 25,
+    "badgesIssued": 92,
+    "badgeViews": 342,
+    "certificateDownloads": 26,
     "generatorOpens": 123,
-    "generatorCompletions": 55,
-    "conversionRate": 44.7,
+    "generatorCompletions": 56,
+    "conversionRate": 45.5,
     "uniqueVisitorsApprox": 244
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 9,
-      "badgeViews": 12,
-      "certificateDownloads": 10,
+      "badgesIssued": 10,
+      "badgeViews": 13,
+      "certificateDownloads": 11,
       "generatorOpens": 10,
-      "generatorCompletions": 9,
+      "generatorCompletions": 10,
       "uniqueVisitorsApprox": 13,
-      "conversionRate": 90
+      "conversionRate": 100
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 91,
-      "badgeViews": 341,
-      "certificateDownloads": 25,
+      "badgesIssued": 92,
+      "badgeViews": 342,
+      "certificateDownloads": 26,
       "generatorOpens": 123,
-      "generatorCompletions": 55,
+      "generatorCompletions": 56,
       "uniqueVisitorsApprox": 244,
-      "conversionRate": 44.7
+      "conversionRate": 45.5
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 17,
-      "badgeViews": 15,
-      "certificateDownloads": 13,
+      "badgesIssued": 18,
+      "badgeViews": 16,
+      "certificateDownloads": 14,
       "generatorOpens": 33,
-      "generatorCompletions": 17,
-      "conversionRate": 51.5
+      "generatorCompletions": 18,
+      "conversionRate": 54.5
     },
     {
       "id": "fhtc-e-badge",
@@ -759,6 +759,18 @@
       "latestViewedAt": "2026-09-03T00:52:22.342Z"
     },
     {
+      "slug": "steve-munoz-career-activated-csuncc-20260902-0008",
+      "badgeId": "CSUNCC-20260902-0008",
+      "awardeeName": "Steve Muñoz",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/steve-munoz-career-activated-csuncc-20260902-0008/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-03T03:01:44.180Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1264,8 +1276,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 33,
-      "completions": 16,
-      "conversionRate": 48.5
+      "completions": 17,
+      "conversionRate": 51.5
     },
     {
       "key": "fhtc-e-badge",
@@ -1526,6 +1538,12 @@
     },
     {
       "awardeeName": "Naomi Alava",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Steve Muñoz",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1
