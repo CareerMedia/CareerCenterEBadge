@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T00:51:45.028Z",
+  "updatedAt": "2026-09-03T00:52:22.347Z",
   "totals": {
-    "badgesIssued": 88,
-    "badgeViews": 339,
-    "certificateDownloads": 22,
+    "badgesIssued": 89,
+    "badgeViews": 340,
+    "certificateDownloads": 23,
     "generatorOpens": 120,
-    "generatorCompletions": 52,
-    "conversionRate": 43.3,
+    "generatorCompletions": 53,
+    "conversionRate": 44.2,
     "uniqueVisitorsApprox": 242
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 6,
-      "badgeViews": 10,
-      "certificateDownloads": 7,
+      "badgesIssued": 7,
+      "badgeViews": 11,
+      "certificateDownloads": 8,
       "generatorOpens": 7,
-      "generatorCompletions": 6,
+      "generatorCompletions": 7,
       "uniqueVisitorsApprox": 11,
-      "conversionRate": 85.7
+      "conversionRate": 100
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 88,
-      "badgeViews": 339,
-      "certificateDownloads": 22,
+      "badgesIssued": 89,
+      "badgeViews": 340,
+      "certificateDownloads": 23,
       "generatorOpens": 120,
-      "generatorCompletions": 52,
+      "generatorCompletions": 53,
       "uniqueVisitorsApprox": 242,
-      "conversionRate": 43.3
+      "conversionRate": 44.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 14,
-      "badgeViews": 14,
-      "certificateDownloads": 10,
+      "badgesIssued": 15,
+      "badgeViews": 15,
+      "certificateDownloads": 11,
       "generatorOpens": 30,
-      "generatorCompletions": 14,
-      "conversionRate": 46.7
+      "generatorCompletions": 15,
+      "conversionRate": 50
     },
     {
       "id": "fhtc-e-badge",
@@ -747,6 +747,18 @@
       "latestViewedAt": "2026-09-02T22:43:50.912Z"
     },
     {
+      "slug": "naomi-alava-career-activated-csuncc-20260902-0005",
+      "badgeId": "CSUNCC-20260902-0005",
+      "awardeeName": "Naomi Alava",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/naomi-alava-career-activated-csuncc-20260902-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-03T00:52:22.342Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1228,8 +1240,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 30,
-      "completions": 13,
-      "conversionRate": 43.3
+      "completions": 14,
+      "conversionRate": 46.7
     },
     {
       "key": "fhtc-e-badge",
@@ -1484,6 +1496,12 @@
     },
     {
       "awardeeName": "Nicolei Padua",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Naomi Alava",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1
