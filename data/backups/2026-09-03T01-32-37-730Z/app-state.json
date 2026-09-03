@@ -21895,27 +21895,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "be3d362e-fd5a-492a-8880-aece915876d0",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-03T01:32:40.807Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260902-0007",
-      "badgeSlug": "anna-tapia-career-activated-csuncc-20260902-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Anna Tapia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/anna-tapia-career-activated-csuncc-20260902-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "3bb4fe9c5ec7874b6fbb2dcc",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -22390,11 +22369,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-03T01:32:40.811Z",
+    "updatedAt": "2026-09-03T01:32:37.240Z",
     "totals": {
       "badgesIssued": 91,
       "badgeViews": 341,
-      "certificateDownloads": 25,
+      "certificateDownloads": 24,
       "generatorOpens": 122,
       "generatorCompletions": 55,
       "conversionRate": 45.1,
@@ -22461,7 +22440,7 @@
         "label": "Sep 2026",
         "badgesIssued": 9,
         "badgeViews": 12,
-        "certificateDownloads": 10,
+        "certificateDownloads": 9,
         "generatorOpens": 9,
         "generatorCompletions": 9,
         "uniqueVisitorsApprox": 12,
@@ -22474,7 +22453,7 @@
         "label": "2026",
         "badgesIssued": 91,
         "badgeViews": 341,
-        "certificateDownloads": 25,
+        "certificateDownloads": 24,
         "generatorOpens": 122,
         "generatorCompletions": 55,
         "uniqueVisitorsApprox": 243,
@@ -22497,7 +22476,7 @@
         "title": "Career Activated",
         "badgesIssued": 17,
         "badgeViews": 15,
-        "certificateDownloads": 13,
+        "certificateDownloads": 12,
         "generatorOpens": 32,
         "generatorCompletions": 17,
         "conversionRate": 53.1
@@ -23329,18 +23308,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "anna-tapia-career-activated-csuncc-20260902-0007",
-        "badgeId": "CSUNCC-20260902-0007",
-        "awardeeName": "Anna Tapia",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/anna-tapia-career-activated-csuncc-20260902-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -23627,6 +23594,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "anna-tapia-career-activated-csuncc-20260902-0007",
+        "badgeId": "CSUNCC-20260902-0007",
+        "awardeeName": "Anna Tapia",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/anna-tapia-career-activated-csuncc-20260902-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -23777,12 +23756,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Anna Tapia",
-        "badgesIssued": 3,
-        "badgeViews": 1,
-        "certificateDownloads": 3
-      },
-      {
         "awardeeName": "Leslie Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 5,
@@ -23799,6 +23772,12 @@
         "badgesIssued": 1,
         "badgeViews": 4,
         "certificateDownloads": 1
+      },
+      {
+        "awardeeName": "Anna Tapia",
+        "badgesIssued": 3,
+        "badgeViews": 1,
+        "certificateDownloads": 2
       },
       {
         "awardeeName": "Genesis Lozano-Gonzalez",
