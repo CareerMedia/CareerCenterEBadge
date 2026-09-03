@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T06:39:42.587Z",
+  "updatedAt": "2026-09-03T18:52:55.071Z",
   "totals": {
     "badgesIssued": 98,
     "badgeViews": 360,
     "certificateDownloads": 32,
-    "generatorOpens": 132,
+    "generatorOpens": 133,
     "generatorCompletions": 62,
-    "conversionRate": 47,
-    "uniqueVisitorsApprox": 256
+    "conversionRate": 46.6,
+    "uniqueVisitorsApprox": 257
   },
   "months": [
     {
@@ -72,10 +72,10 @@
       "badgesIssued": 16,
       "badgeViews": 31,
       "certificateDownloads": 17,
-      "generatorOpens": 19,
+      "generatorOpens": 20,
       "generatorCompletions": 16,
-      "uniqueVisitorsApprox": 25,
-      "conversionRate": 84.2
+      "uniqueVisitorsApprox": 26,
+      "conversionRate": 80
     }
   ],
   "years": [
@@ -85,10 +85,10 @@
       "badgesIssued": 98,
       "badgeViews": 360,
       "certificateDownloads": 32,
-      "generatorOpens": 132,
+      "generatorOpens": 133,
       "generatorCompletions": 62,
-      "uniqueVisitorsApprox": 256,
-      "conversionRate": 47
+      "uniqueVisitorsApprox": 257,
+      "conversionRate": 46.6
     }
   ],
   "badgeTypes": [
@@ -108,9 +108,9 @@
       "badgesIssued": 24,
       "badgeViews": 34,
       "certificateDownloads": 20,
-      "generatorOpens": 42,
+      "generatorOpens": 43,
       "generatorCompletions": 24,
-      "conversionRate": 57.1
+      "conversionRate": 55.8
     },
     {
       "id": "fhtc-e-badge",
@@ -1325,6 +1325,15 @@
   ],
   "generatorPages": [
     {
+      "key": "career-activated",
+      "label": "Career Activated widget",
+      "pageKind": "specific",
+      "templateId": "career-activated",
+      "opens": 43,
+      "completions": 23,
+      "conversionRate": 53.5
+    },
+    {
       "key": "general",
       "label": "General generator",
       "pageKind": "general",
@@ -1332,15 +1341,6 @@
       "opens": 42,
       "completions": 30,
       "conversionRate": 71.4
-    },
-    {
-      "key": "career-activated",
-      "label": "Career Activated widget",
-      "pageKind": "specific",
-      "templateId": "career-activated",
-      "opens": 42,
-      "completions": 23,
-      "conversionRate": 54.8
     },
     {
       "key": "career-champion",
