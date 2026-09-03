@@ -23980,48 +23980,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "d66183b9-ed50-45d6-91c5-8ff3ff1f3ba6",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-03T22:53:42.883Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260903-0002",
-      "badgeSlug": "katie-lares-career-activated-csuncc-20260903-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Katie Lares",
-      "publicUrl": "https://careerbadge.csun.edu/badges/katie-lares-career-activated-csuncc-20260903-0002/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "be0a4067d38f6408607e3fc0",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "8031d993-6371-4b00-84c1-7a7adbead9a6",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-03T22:54:05.822Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260526-0001",
-      "badgeSlug": "minley-moradian-career-champion-csuncc-20260526-0001",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "awardeeName": "Minley Moradian",
-      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "4000d80d3b6a221b05444f80",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -24496,15 +24454,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-03T22:54:05.827Z",
+    "updatedAt": "2026-09-03T22:53:34.091Z",
     "totals": {
       "badgesIssued": 100,
-      "badgeViews": 361,
-      "certificateDownloads": 34,
+      "badgeViews": 360,
+      "certificateDownloads": 33,
       "generatorOpens": 135,
       "generatorCompletions": 64,
       "conversionRate": 47.4,
-      "uniqueVisitorsApprox": 259
+      "uniqueVisitorsApprox": 258
     },
     "months": [
       {
@@ -24566,11 +24524,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 18,
-        "badgeViews": 32,
-        "certificateDownloads": 19,
+        "badgeViews": 31,
+        "certificateDownloads": 18,
         "generatorOpens": 22,
         "generatorCompletions": 18,
-        "uniqueVisitorsApprox": 28,
+        "uniqueVisitorsApprox": 27,
         "conversionRate": 81.8
       }
     ],
@@ -24579,11 +24537,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 100,
-        "badgeViews": 361,
-        "certificateDownloads": 34,
+        "badgeViews": 360,
+        "certificateDownloads": 33,
         "generatorOpens": 135,
         "generatorCompletions": 64,
-        "uniqueVisitorsApprox": 259,
+        "uniqueVisitorsApprox": 258,
         "conversionRate": 47.4
       }
     ],
@@ -24592,7 +24550,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 316,
+        "badgeViews": 315,
         "certificateDownloads": 10,
         "generatorOpens": 34,
         "generatorCompletions": 34,
@@ -24603,7 +24561,7 @@
         "title": "Career Activated",
         "badgesIssued": 26,
         "badgeViews": 34,
-        "certificateDownloads": 22,
+        "certificateDownloads": 21,
         "generatorOpens": 45,
         "generatorCompletions": 26,
         "conversionRate": 57.8
@@ -24638,9 +24596,9 @@
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
         "badgesIssued": 1,
-        "badgeViews": 36,
+        "badgeViews": 35,
         "certificateDownloads": 2,
-        "latestViewedAt": "2026-09-03T22:54:05.822Z"
+        "latestViewedAt": "2026-09-03T01:13:11.710Z"
       },
       {
         "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
@@ -25543,18 +25501,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "katie-lares-career-activated-csuncc-20260903-0002",
-        "badgeId": "CSUNCC-20260903-0002",
-        "awardeeName": "Katie Lares",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/katie-lares-career-activated-csuncc-20260903-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -25841,6 +25787,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "katie-lares-career-activated-csuncc-20260903-0002",
+        "badgeId": "CSUNCC-20260903-0002",
+        "awardeeName": "Katie Lares",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/katie-lares-career-activated-csuncc-20260903-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -25891,7 +25849,7 @@
       {
         "awardeeName": "Minley Moradian",
         "badgesIssued": 1,
-        "badgeViews": 36,
+        "badgeViews": 35,
         "certificateDownloads": 2
       },
       {
@@ -26243,12 +26201,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Katie Lares",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -26316,6 +26268,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Katie Lares",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
