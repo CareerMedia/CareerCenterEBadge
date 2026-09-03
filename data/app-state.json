@@ -23142,6 +23142,48 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "ed061acf-e654-4af7-90a2-f2de834e8c2f",
+      "type": "generator_opened",
+      "timestamp": "2026-09-03T05:55:01.885Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "Career Activated widget",
+      "source": "generator-page",
+      "visitorId": "b1be283e87b2556f789bf38f",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
+    },
+    {
+      "id": "6ef2d5cb-25c3-46fd-8fba-fa1605b4b97c",
+      "type": "generator_opened",
+      "timestamp": "2026-09-03T05:56:01.516Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "Career Activated widget",
+      "source": "generator-page",
+      "visitorId": "b1be283e87b2556f789bf38f",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -23616,14 +23658,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-03T05:53:29.807Z",
+    "updatedAt": "2026-09-03T05:56:01.521Z",
     "totals": {
       "badgesIssued": 96,
       "badgeViews": 356,
       "certificateDownloads": 30,
-      "generatorOpens": 128,
+      "generatorOpens": 130,
       "generatorCompletions": 60,
-      "conversionRate": 46.9,
+      "conversionRate": 46.2,
       "uniqueVisitorsApprox": 252
     },
     "months": [
@@ -23688,10 +23730,10 @@
         "badgesIssued": 14,
         "badgeViews": 27,
         "certificateDownloads": 15,
-        "generatorOpens": 15,
+        "generatorOpens": 17,
         "generatorCompletions": 14,
         "uniqueVisitorsApprox": 21,
-        "conversionRate": 93.3
+        "conversionRate": 82.4
       }
     ],
     "years": [
@@ -23701,10 +23743,10 @@
         "badgesIssued": 96,
         "badgeViews": 356,
         "certificateDownloads": 30,
-        "generatorOpens": 128,
+        "generatorOpens": 130,
         "generatorCompletions": 60,
         "uniqueVisitorsApprox": 252,
-        "conversionRate": 46.9
+        "conversionRate": 46.2
       }
     ],
     "badgeTypes": [
@@ -23724,9 +23766,9 @@
         "badgesIssued": 22,
         "badgeViews": 30,
         "certificateDownloads": 18,
-        "generatorOpens": 38,
+        "generatorOpens": 40,
         "generatorCompletions": 22,
-        "conversionRate": 57.9
+        "conversionRate": 55
       },
       {
         "id": "fhtc-e-badge",
@@ -24930,9 +24972,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 38,
+        "opens": 40,
         "completions": 21,
-        "conversionRate": 55.3
+        "conversionRate": 52.5
       },
       {
         "key": "career-champion",
