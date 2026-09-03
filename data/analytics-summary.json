@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T05:42:12.275Z",
+  "updatedAt": "2026-09-03T05:45:33.478Z",
   "totals": {
     "badgesIssued": 96,
-    "badgeViews": 348,
+    "badgeViews": 351,
     "certificateDownloads": 30,
     "generatorOpens": 127,
     "generatorCompletions": 60,
     "conversionRate": 47.2,
-    "uniqueVisitorsApprox": 248
+    "uniqueVisitorsApprox": 250
   },
   "months": [
     {
@@ -70,11 +70,11 @@
       "key": "2026-09",
       "label": "Sep 2026",
       "badgesIssued": 14,
-      "badgeViews": 19,
+      "badgeViews": 22,
       "certificateDownloads": 15,
       "generatorOpens": 14,
       "generatorCompletions": 14,
-      "uniqueVisitorsApprox": 17,
+      "uniqueVisitorsApprox": 19,
       "conversionRate": 100
     }
   ],
@@ -83,11 +83,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 96,
-      "badgeViews": 348,
+      "badgeViews": 351,
       "certificateDownloads": 30,
       "generatorOpens": 127,
       "generatorCompletions": 60,
-      "uniqueVisitorsApprox": 248,
+      "uniqueVisitorsApprox": 250,
       "conversionRate": 47.2
     }
   ],
@@ -106,7 +106,7 @@
       "id": "career-activated",
       "title": "Career Activated",
       "badgesIssued": 22,
-      "badgeViews": 22,
+      "badgeViews": 25,
       "certificateDownloads": 18,
       "generatorOpens": 37,
       "generatorCompletions": 22,
@@ -385,6 +385,18 @@
       "badgeViews": 5,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-05-18T02:31:32.121Z"
+    },
+    {
+      "slug": "daisy-jardon-career-activated-csuncc-20260902-0011",
+      "badgeId": "CSUNCC-20260902-0011",
+      "awardeeName": "Daisy Jardon",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/daisy-jardon-career-activated-csuncc-20260902-0011/",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-03T05:45:33.474Z"
     },
     {
       "slug": "natalie-nicole-rendon-career-activated-csuncc-20260828-0001",
@@ -709,18 +721,6 @@
       "badgeViews": 2,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-08-25T19:34:28.078Z"
-    },
-    {
-      "slug": "daisy-jardon-career-activated-csuncc-20260902-0011",
-      "badgeId": "CSUNCC-20260902-0011",
-      "awardeeName": "Daisy Jardon",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/daisy-jardon-career-activated-csuncc-20260902-0011/",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-09-03T05:42:12.269Z"
     },
     {
       "slug": "chimezie-roberson-career-activated-csuncc-20260902-0003",
@@ -1471,6 +1471,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Daisy Jardon",
+      "badgesIssued": 1,
+      "badgeViews": 5,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Genesis Lozano-Gonzalez",
       "badgesIssued": 1,
       "badgeViews": 4,
@@ -1607,12 +1613,6 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Daisy Jardon",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 0
     },
     {
       "awardeeName": "Maddie Paul",
