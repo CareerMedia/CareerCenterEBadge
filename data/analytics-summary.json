@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T05:17:40.066Z",
+  "updatedAt": "2026-09-03T05:18:24.282Z",
   "totals": {
-    "badgesIssued": 94,
-    "badgeViews": 346,
+    "badgesIssued": 95,
+    "badgeViews": 347,
     "certificateDownloads": 29,
     "generatorOpens": 125,
-    "generatorCompletions": 58,
-    "conversionRate": 46.4,
+    "generatorCompletions": 59,
+    "conversionRate": 47.2,
     "uniqueVisitorsApprox": 246
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 12,
-      "badgeViews": 17,
+      "badgesIssued": 13,
+      "badgeViews": 18,
       "certificateDownloads": 14,
       "generatorOpens": 12,
-      "generatorCompletions": 12,
+      "generatorCompletions": 13,
       "uniqueVisitorsApprox": 15,
-      "conversionRate": 100
+      "conversionRate": 108.3
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 94,
-      "badgeViews": 346,
+      "badgesIssued": 95,
+      "badgeViews": 347,
       "certificateDownloads": 29,
       "generatorOpens": 125,
-      "generatorCompletions": 58,
+      "generatorCompletions": 59,
       "uniqueVisitorsApprox": 246,
-      "conversionRate": 46.4
+      "conversionRate": 47.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 20,
-      "badgeViews": 20,
+      "badgesIssued": 21,
+      "badgeViews": 21,
       "certificateDownloads": 17,
       "generatorOpens": 35,
-      "generatorCompletions": 20,
-      "conversionRate": 57.1
+      "generatorCompletions": 21,
+      "conversionRate": 60
     },
     {
       "id": "fhtc-e-badge",
@@ -915,6 +915,18 @@
       "latestViewedAt": "2026-08-27T17:43:51.442Z"
     },
     {
+      "slug": "daisy-jardon-career-activated-csuncc-20260902-0011",
+      "badgeId": "CSUNCC-20260902-0011",
+      "awardeeName": "Daisy Jardon",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/daisy-jardon-career-activated-csuncc-20260902-0011/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-03T05:18:24.272Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -1291,8 +1303,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 35,
-      "completions": 19,
-      "conversionRate": 54.3
+      "completions": 20,
+      "conversionRate": 57.1
     },
     {
       "key": "career-champion",
@@ -1643,6 +1655,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Daisy Jardon",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",
