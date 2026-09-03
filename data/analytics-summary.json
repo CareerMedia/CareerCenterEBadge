@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T04:32:51.738Z",
+  "updatedAt": "2026-09-03T04:34:36.518Z",
   "totals": {
-    "badgesIssued": 93,
-    "badgeViews": 343,
-    "certificateDownloads": 27,
+    "badgesIssued": 94,
+    "badgeViews": 345,
+    "certificateDownloads": 28,
     "generatorOpens": 124,
-    "generatorCompletions": 57,
-    "conversionRate": 46,
+    "generatorCompletions": 58,
+    "conversionRate": 46.8,
     "uniqueVisitorsApprox": 245
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 11,
-      "badgeViews": 14,
-      "certificateDownloads": 12,
+      "badgesIssued": 12,
+      "badgeViews": 16,
+      "certificateDownloads": 13,
       "generatorOpens": 11,
-      "generatorCompletions": 11,
+      "generatorCompletions": 12,
       "uniqueVisitorsApprox": 14,
-      "conversionRate": 100
+      "conversionRate": 109.1
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 93,
-      "badgeViews": 343,
-      "certificateDownloads": 27,
+      "badgesIssued": 94,
+      "badgeViews": 345,
+      "certificateDownloads": 28,
       "generatorOpens": 124,
-      "generatorCompletions": 57,
+      "generatorCompletions": 58,
       "uniqueVisitorsApprox": 245,
-      "conversionRate": 46
+      "conversionRate": 46.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 19,
-      "badgeViews": 17,
-      "certificateDownloads": 15,
+      "badgesIssued": 20,
+      "badgeViews": 19,
+      "certificateDownloads": 16,
       "generatorOpens": 34,
-      "generatorCompletions": 19,
-      "conversionRate": 55.9
+      "generatorCompletions": 20,
+      "conversionRate": 58.8
     },
     {
       "id": "fhtc-e-badge",
@@ -627,6 +627,18 @@
       "latestViewedAt": "2026-09-01T20:57:35.372Z"
     },
     {
+      "slug": "melissa-garcis-career-activated-csuncc-20260902-0009",
+      "badgeId": "CSUNCC-20260902-0009",
+      "awardeeName": "Melissa Garcis",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/melissa-garcis-career-activated-csuncc-20260902-0009/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-03T04:34:04.646Z"
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
       "badgeId": "CSUNCC-20260504-0005",
       "awardeeName": "Bryce Simon",
@@ -771,16 +783,16 @@
       "latestViewedAt": "2026-09-03T03:01:44.180Z"
     },
     {
-      "slug": "melissa-garcis-career-activated-csuncc-20260902-0009",
-      "badgeId": "CSUNCC-20260902-0009",
-      "awardeeName": "Melissa Garcis",
+      "slug": "melissa-garcia-career-activated-csuncc-20260902-0010",
+      "badgeId": "CSUNCC-20260902-0010",
+      "awardeeName": "Melissa Garcia",
       "badgeTitle": "Career Activated",
       "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/melissa-garcis-career-activated-csuncc-20260902-0009/",
+      "publicUrl": "https://careerbadge.csun.edu/badges/melissa-garcia-career-activated-csuncc-20260902-0010/",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1,
-      "latestViewedAt": "2026-09-03T04:32:27.916Z"
+      "latestViewedAt": "2026-09-03T04:34:25.882Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -1288,8 +1300,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 34,
-      "completions": 18,
-      "conversionRate": 52.9
+      "completions": 19,
+      "conversionRate": 55.9
     },
     {
       "key": "fhtc-e-badge",
@@ -1519,6 +1531,12 @@
       "certificateDownloads": 2
     },
     {
+      "awardeeName": "Melissa Garcis",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Jane Doe",
       "badgesIssued": 1,
       "badgeViews": 2,
@@ -1561,7 +1579,7 @@
       "certificateDownloads": 1
     },
     {
-      "awardeeName": "Melissa Garcis",
+      "awardeeName": "Melissa Garcia",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1
