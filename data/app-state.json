@@ -22932,6 +22932,27 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-certificate-download",
       "meta": {}
+    },
+    {
+      "id": "9295e733-1771-4ab8-a3d7-20b22547e503",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-03T05:42:12.269Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260902-0011",
+      "badgeSlug": "daisy-jardon-career-activated-csuncc-20260902-0011",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Daisy Jardon",
+      "publicUrl": "https://careerbadge.csun.edu/badges/daisy-jardon-career-activated-csuncc-20260902-0011/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "8f1fac2efe714be94da96d46",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -23406,15 +23427,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-03T05:38:13.132Z",
+    "updatedAt": "2026-09-03T05:42:12.275Z",
     "totals": {
       "badgesIssued": 96,
-      "badgeViews": 347,
+      "badgeViews": 348,
       "certificateDownloads": 30,
       "generatorOpens": 127,
       "generatorCompletions": 60,
       "conversionRate": 47.2,
-      "uniqueVisitorsApprox": 247
+      "uniqueVisitorsApprox": 248
     },
     "months": [
       {
@@ -23476,11 +23497,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 14,
-        "badgeViews": 18,
+        "badgeViews": 19,
         "certificateDownloads": 15,
         "generatorOpens": 14,
         "generatorCompletions": 14,
-        "uniqueVisitorsApprox": 16,
+        "uniqueVisitorsApprox": 17,
         "conversionRate": 100
       }
     ],
@@ -23489,11 +23510,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 96,
-        "badgeViews": 347,
+        "badgeViews": 348,
         "certificateDownloads": 30,
         "generatorOpens": 127,
         "generatorCompletions": 60,
-        "uniqueVisitorsApprox": 247,
+        "uniqueVisitorsApprox": 248,
         "conversionRate": 47.2
       }
     ],
@@ -23512,7 +23533,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 22,
-        "badgeViews": 21,
+        "badgeViews": 22,
         "certificateDownloads": 18,
         "generatorOpens": 37,
         "generatorCompletions": 22,
@@ -24117,6 +24138,18 @@
         "latestViewedAt": "2026-08-25T19:34:28.078Z"
       },
       {
+        "slug": "daisy-jardon-career-activated-csuncc-20260902-0011",
+        "badgeId": "CSUNCC-20260902-0011",
+        "awardeeName": "Daisy Jardon",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/daisy-jardon-career-activated-csuncc-20260902-0011/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-09-03T05:42:12.269Z"
+      },
+      {
         "slug": "chimezie-roberson-career-activated-csuncc-20260902-0003",
         "badgeId": "CSUNCC-20260902-0003",
         "awardeeName": "Chimezie Roberson",
@@ -24319,18 +24352,6 @@
         "badgeViews": 1,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-08-27T17:43:51.442Z"
-      },
-      {
-        "slug": "daisy-jardon-career-activated-csuncc-20260902-0011",
-        "badgeId": "CSUNCC-20260902-0011",
-        "awardeeName": "Daisy Jardon",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/daisy-jardon-career-activated-csuncc-20260902-0011/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-03T05:18:24.272Z"
       },
       {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -25015,6 +25036,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Daisy Jardon",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -25073,12 +25100,6 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Daisy Jardon",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Javier Lemus Sanchez",
