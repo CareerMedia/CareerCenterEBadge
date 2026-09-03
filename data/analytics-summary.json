@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T01:29:08.339Z",
+  "updatedAt": "2026-09-03T01:29:44.839Z",
   "totals": {
-    "badgesIssued": 89,
+    "badgesIssued": 90,
     "badgeViews": 341,
-    "certificateDownloads": 23,
+    "certificateDownloads": 24,
     "generatorOpens": 121,
-    "generatorCompletions": 53,
-    "conversionRate": 43.8,
+    "generatorCompletions": 54,
+    "conversionRate": 44.6,
     "uniqueVisitorsApprox": 243
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 7,
+      "badgesIssued": 8,
       "badgeViews": 12,
-      "certificateDownloads": 8,
+      "certificateDownloads": 9,
       "generatorOpens": 8,
-      "generatorCompletions": 7,
+      "generatorCompletions": 8,
       "uniqueVisitorsApprox": 12,
-      "conversionRate": 87.5
+      "conversionRate": 100
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 89,
+      "badgesIssued": 90,
       "badgeViews": 341,
-      "certificateDownloads": 23,
+      "certificateDownloads": 24,
       "generatorOpens": 121,
-      "generatorCompletions": 53,
+      "generatorCompletions": 54,
       "uniqueVisitorsApprox": 243,
-      "conversionRate": 43.8
+      "conversionRate": 44.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 15,
+      "badgesIssued": 16,
       "badgeViews": 15,
-      "certificateDownloads": 11,
+      "certificateDownloads": 12,
       "generatorOpens": 31,
-      "generatorCompletions": 15,
-      "conversionRate": 48.4
+      "generatorCompletions": 16,
+      "conversionRate": 51.6
     },
     {
       "id": "fhtc-e-badge",
@@ -927,6 +927,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "anna-tapia-career-activated-csuncc-20260902-0006",
+      "badgeId": "CSUNCC-20260902-0006",
+      "awardeeName": "Anna Tapia",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/anna-tapia-career-activated-csuncc-20260902-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1240,8 +1252,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 31,
-      "completions": 14,
-      "conversionRate": 45.2
+      "completions": 15,
+      "conversionRate": 48.4
     },
     {
       "key": "fhtc-e-badge",
@@ -1429,6 +1441,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Anna Tapia",
+      "badgesIssued": 2,
+      "badgeViews": 1,
+      "certificateDownloads": 2
+    },
+    {
       "awardeeName": "Jennifer Sandoval",
       "badgesIssued": 1,
       "badgeViews": 3,
@@ -1481,12 +1499,6 @@
       "badgesIssued": 1,
       "badgeViews": 2,
       "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Anna Tapia",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 1
     },
     {
       "awardeeName": "Destiny Gonzalez Cruz",
