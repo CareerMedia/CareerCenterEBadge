@@ -22513,6 +22513,48 @@
       "requestPath": "/api/analytics/track",
       "context": "badge-certificate-download",
       "meta": {}
+    },
+    {
+      "id": "14b7c8bb-5582-4240-86cf-0cb25fdc02ea",
+      "type": "certificate_downloaded",
+      "timestamp": "2026-09-03T04:46:57.951Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260902-0010",
+      "badgeSlug": "melissa-garcia-career-activated-csuncc-20260902-0010",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Melissa Garcia",
+      "publicUrl": "https://careerbadge.csun.edu/badges/melissa-garcia-career-activated-csuncc-20260902-0010/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "63fcabd7fac3a9d0861e1bd7",
+      "requestPath": "/api/analytics/track",
+      "context": "badge-certificate-download",
+      "meta": {}
+    },
+    {
+      "id": "3c951443-b4a7-4345-967d-e85659fd37a6",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-03T04:46:58.274Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260902-0010",
+      "badgeSlug": "melissa-garcia-career-activated-csuncc-20260902-0010",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Melissa Garcia",
+      "publicUrl": "https://careerbadge.csun.edu/badges/melissa-garcia-career-activated-csuncc-20260902-0010/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "63fcabd7fac3a9d0861e1bd7",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -22987,11 +23029,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-03T04:34:36.518Z",
+    "updatedAt": "2026-09-03T04:46:58.280Z",
     "totals": {
       "badgesIssued": 94,
-      "badgeViews": 345,
-      "certificateDownloads": 28,
+      "badgeViews": 346,
+      "certificateDownloads": 29,
       "generatorOpens": 124,
       "generatorCompletions": 58,
       "conversionRate": 46.8,
@@ -23057,8 +23099,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 12,
-        "badgeViews": 16,
-        "certificateDownloads": 13,
+        "badgeViews": 17,
+        "certificateDownloads": 14,
         "generatorOpens": 11,
         "generatorCompletions": 12,
         "uniqueVisitorsApprox": 14,
@@ -23070,8 +23112,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 94,
-        "badgeViews": 345,
-        "certificateDownloads": 28,
+        "badgeViews": 346,
+        "certificateDownloads": 29,
         "generatorOpens": 124,
         "generatorCompletions": 58,
         "uniqueVisitorsApprox": 245,
@@ -23093,8 +23135,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 20,
-        "badgeViews": 19,
-        "certificateDownloads": 16,
+        "badgeViews": 20,
+        "certificateDownloads": 17,
         "generatorOpens": 34,
         "generatorCompletions": 20,
         "conversionRate": 58.8
@@ -23602,6 +23644,18 @@
         "latestViewedAt": "2026-06-04T20:00:59.133Z"
       },
       {
+        "slug": "melissa-garcia-career-activated-csuncc-20260902-0010",
+        "badgeId": "CSUNCC-20260902-0010",
+        "awardeeName": "Melissa Garcia",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/melissa-garcia-career-activated-csuncc-20260902-0010/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 2,
+        "latestViewedAt": "2026-09-03T04:46:58.274Z"
+      },
+      {
         "slug": "jose-vargas-career-activated-csuncc-20260831-0001",
         "badgeId": "CSUNCC-20260831-0001",
         "awardeeName": "Jose Vargas",
@@ -23768,18 +23822,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-03T03:01:44.180Z"
-      },
-      {
-        "slug": "melissa-garcia-career-activated-csuncc-20260902-0010",
-        "badgeId": "CSUNCC-20260902-0010",
-        "awardeeName": "Melissa Garcia",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/melissa-garcia-career-activated-csuncc-20260902-0010/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-03T04:34:25.882Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -24482,6 +24524,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Melissa Garcia",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 2
+      },
+      {
         "awardeeName": "Jennifer Sandoval",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -24561,12 +24609,6 @@
       },
       {
         "awardeeName": "Steve Muñoz",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Melissa Garcia",
         "badgesIssued": 1,
         "badgeViews": 1,
         "certificateDownloads": 1
