@@ -22911,27 +22911,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "0827caa9-ee14-4a64-a892-b585bd32fa16",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-03T05:38:13.129Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260902-0012",
-      "badgeSlug": "javier-lemus-sanchez-career-activated-csuncc-20260902-0012",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Javier Lemus Sanchez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/javier-lemus-sanchez-career-activated-csuncc-20260902-0012/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "982a3ef3986a6e9ad4edaf32",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -23406,11 +23385,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-03T05:38:13.132Z",
+    "updatedAt": "2026-09-03T05:38:06.020Z",
     "totals": {
       "badgesIssued": 96,
       "badgeViews": 347,
-      "certificateDownloads": 30,
+      "certificateDownloads": 29,
       "generatorOpens": 127,
       "generatorCompletions": 60,
       "conversionRate": 47.2,
@@ -23477,7 +23456,7 @@
         "label": "Sep 2026",
         "badgesIssued": 14,
         "badgeViews": 18,
-        "certificateDownloads": 15,
+        "certificateDownloads": 14,
         "generatorOpens": 14,
         "generatorCompletions": 14,
         "uniqueVisitorsApprox": 16,
@@ -23490,7 +23469,7 @@
         "label": "2026",
         "badgesIssued": 96,
         "badgeViews": 347,
-        "certificateDownloads": 30,
+        "certificateDownloads": 29,
         "generatorOpens": 127,
         "generatorCompletions": 60,
         "uniqueVisitorsApprox": 247,
@@ -23513,7 +23492,7 @@
         "title": "Career Activated",
         "badgesIssued": 22,
         "badgeViews": 21,
-        "certificateDownloads": 18,
+        "certificateDownloads": 17,
         "generatorOpens": 37,
         "generatorCompletions": 22,
         "conversionRate": 59.5
@@ -24405,18 +24384,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "javier-lemus-sanchez-career-activated-csuncc-20260902-0012",
-        "badgeId": "CSUNCC-20260902-0012",
-        "awardeeName": "Javier Lemus Sanchez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/javier-lemus-sanchez-career-activated-csuncc-20260902-0012/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -24699,6 +24666,18 @@
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "javier-lemus-sanchez-career-activated-csuncc-20260902-0012",
+        "badgeId": "CSUNCC-20260902-0012",
+        "awardeeName": "Javier Lemus Sanchez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/javier-lemus-sanchez-career-activated-csuncc-20260902-0012/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -25081,12 +25060,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Javier Lemus Sanchez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -25154,6 +25127,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Javier Lemus Sanchez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
