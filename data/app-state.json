@@ -24441,6 +24441,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "44ce35e5-3d88-44b7-ac09-9c741e763744",
+      "type": "certificate_downloaded",
+      "timestamp": "2026-09-04T05:16:15.801Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260902-0013",
+      "badgeSlug": "leah-serrano-career-activated-csuncc-20260902-0013",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Leah serrano",
+      "publicUrl": "https://careerbadge.csun.edu/badges/leah-serrano-career-activated-csuncc-20260902-0013/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "c5a895c5c51659c78a20ff9e",
+      "requestPath": "/api/analytics/track",
+      "context": "badge-certificate-download",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -24915,11 +24936,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-04T05:16:07.885Z",
+    "updatedAt": "2026-09-04T05:16:15.811Z",
     "totals": {
       "badgesIssued": 102,
       "badgeViews": 364,
-      "certificateDownloads": 36,
+      "certificateDownloads": 37,
       "generatorOpens": 137,
       "generatorCompletions": 66,
       "conversionRate": 48.2,
@@ -24986,7 +25007,7 @@
         "label": "Sep 2026",
         "badgesIssued": 20,
         "badgeViews": 35,
-        "certificateDownloads": 21,
+        "certificateDownloads": 22,
         "generatorOpens": 24,
         "generatorCompletions": 20,
         "uniqueVisitorsApprox": 31,
@@ -24999,7 +25020,7 @@
         "label": "2026",
         "badgesIssued": 102,
         "badgeViews": 364,
-        "certificateDownloads": 36,
+        "certificateDownloads": 37,
         "generatorOpens": 137,
         "generatorCompletions": 66,
         "uniqueVisitorsApprox": 262,
@@ -25022,7 +25043,7 @@
         "title": "Career Activated",
         "badgesIssued": 28,
         "badgeViews": 37,
-        "certificateDownloads": 24,
+        "certificateDownloads": 25,
         "generatorOpens": 47,
         "generatorCompletions": 28,
         "conversionRate": 59.6
@@ -25434,6 +25455,18 @@
         "latestViewedAt": "2026-09-01T20:59:18.067Z"
       },
       {
+        "slug": "leah-serrano-career-activated-csuncc-20260902-0013",
+        "badgeId": "CSUNCC-20260902-0013",
+        "awardeeName": "Leah serrano",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/leah-serrano-career-activated-csuncc-20260902-0013/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 2,
+        "latestViewedAt": "2026-09-04T05:16:07.879Z"
+      },
+      {
         "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
         "badgeId": "CSUNCC-20260512-0019",
         "awardeeName": "Patricia Garcia-Ramirez",
@@ -25456,18 +25489,6 @@
         "badgeViews": 3,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-06-09T23:13:03.215Z"
-      },
-      {
-        "slug": "leah-serrano-career-activated-csuncc-20260902-0013",
-        "badgeId": "CSUNCC-20260902-0013",
-        "awardeeName": "Leah serrano",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/leah-serrano-career-activated-csuncc-20260902-0013/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-04T05:16:07.879Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
@@ -26470,6 +26491,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Leah serrano",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 2
+      },
+      {
         "awardeeName": "Genesis Lozano-Gonzalez",
         "badgesIssued": 1,
         "badgeViews": 4,
@@ -26522,12 +26549,6 @@
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Leah serrano",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Jennifer Sandoval",
