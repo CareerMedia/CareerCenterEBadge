@@ -24640,27 +24640,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "f029f572-1dd7-493b-aedf-7132f9192d4c",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-04T20:10:48.945Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260904-0001",
-      "badgeSlug": "jalie-rivera-career-activated-csuncc-20260904-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jalie Rivera",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jalie-rivera-career-activated-csuncc-20260904-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "07272f046f9b555c3998b9c6",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -25135,11 +25114,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-04T20:10:48.949Z",
+    "updatedAt": "2026-09-04T20:10:42.488Z",
     "totals": {
       "badgesIssued": 103,
       "badgeViews": 365,
-      "certificateDownloads": 38,
+      "certificateDownloads": 37,
       "generatorOpens": 138,
       "generatorCompletions": 67,
       "conversionRate": 48.6,
@@ -25206,7 +25185,7 @@
         "label": "Sep 2026",
         "badgesIssued": 21,
         "badgeViews": 36,
-        "certificateDownloads": 23,
+        "certificateDownloads": 22,
         "generatorOpens": 25,
         "generatorCompletions": 21,
         "uniqueVisitorsApprox": 33,
@@ -25219,7 +25198,7 @@
         "label": "2026",
         "badgesIssued": 103,
         "badgeViews": 365,
-        "certificateDownloads": 38,
+        "certificateDownloads": 37,
         "generatorOpens": 138,
         "generatorCompletions": 67,
         "uniqueVisitorsApprox": 264,
@@ -25242,7 +25221,7 @@
         "title": "Career Activated",
         "badgesIssued": 29,
         "badgeViews": 38,
-        "certificateDownloads": 26,
+        "certificateDownloads": 25,
         "generatorOpens": 48,
         "generatorCompletions": 29,
         "conversionRate": 60.4
@@ -26218,18 +26197,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "jalie-rivera-career-activated-csuncc-20260904-0001",
-        "badgeId": "CSUNCC-20260904-0001",
-        "awardeeName": "Jalie Rivera",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jalie-rivera-career-activated-csuncc-20260904-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -26512,6 +26479,18 @@
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "jalie-rivera-career-activated-csuncc-20260904-0001",
+        "badgeId": "CSUNCC-20260904-0001",
+        "awardeeName": "Jalie Rivera",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jalie-rivera-career-activated-csuncc-20260904-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -26936,12 +26915,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Jalie Rivera",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -27009,6 +26982,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Jalie Rivera",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

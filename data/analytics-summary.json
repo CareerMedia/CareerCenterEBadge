@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T20:09:56.945Z",
+  "updatedAt": "2026-09-04T20:10:48.949Z",
   "totals": {
-    "badgesIssued": 102,
+    "badgesIssued": 103,
     "badgeViews": 365,
-    "certificateDownloads": 37,
+    "certificateDownloads": 38,
     "generatorOpens": 138,
-    "generatorCompletions": 66,
-    "conversionRate": 47.8,
+    "generatorCompletions": 67,
+    "conversionRate": 48.6,
     "uniqueVisitorsApprox": 264
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 20,
+      "badgesIssued": 21,
       "badgeViews": 36,
-      "certificateDownloads": 22,
+      "certificateDownloads": 23,
       "generatorOpens": 25,
-      "generatorCompletions": 20,
+      "generatorCompletions": 21,
       "uniqueVisitorsApprox": 33,
-      "conversionRate": 80
+      "conversionRate": 84
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 102,
+      "badgesIssued": 103,
       "badgeViews": 365,
-      "certificateDownloads": 37,
+      "certificateDownloads": 38,
       "generatorOpens": 138,
-      "generatorCompletions": 66,
+      "generatorCompletions": 67,
       "uniqueVisitorsApprox": 264,
-      "conversionRate": 47.8
+      "conversionRate": 48.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 28,
+      "badgesIssued": 29,
       "badgeViews": 38,
-      "certificateDownloads": 25,
+      "certificateDownloads": 26,
       "generatorOpens": 48,
-      "generatorCompletions": 28,
-      "conversionRate": 58.3
+      "generatorCompletions": 29,
+      "conversionRate": 60.4
     },
     {
       "id": "fhtc-e-badge",
@@ -1083,6 +1083,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "jalie-rivera-career-activated-csuncc-20260904-0001",
+      "badgeId": "CSUNCC-20260904-0001",
+      "awardeeName": "Jalie Rivera",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jalie-rivera-career-activated-csuncc-20260904-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1378,8 +1390,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 48,
-      "completions": 27,
-      "conversionRate": 56.3
+      "completions": 28,
+      "conversionRate": 58.3
     },
     {
       "key": "general",
@@ -1784,6 +1796,12 @@
     },
     {
       "awardeeName": "Airam Perez-Ramirez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Jalie Rivera",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
