@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T01:08:15.796Z",
+  "updatedAt": "2026-09-04T01:08:36.422Z",
   "totals": {
-    "badgesIssued": 101,
-    "badgeViews": 361,
-    "certificateDownloads": 35,
+    "badgesIssued": 102,
+    "badgeViews": 362,
+    "certificateDownloads": 36,
     "generatorOpens": 137,
-    "generatorCompletions": 65,
-    "conversionRate": 47.4,
+    "generatorCompletions": 66,
+    "conversionRate": 48.2,
     "uniqueVisitorsApprox": 261
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 19,
-      "badgeViews": 32,
-      "certificateDownloads": 20,
+      "badgesIssued": 20,
+      "badgeViews": 33,
+      "certificateDownloads": 21,
       "generatorOpens": 24,
-      "generatorCompletions": 19,
+      "generatorCompletions": 20,
       "uniqueVisitorsApprox": 30,
-      "conversionRate": 79.2
+      "conversionRate": 83.3
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 101,
-      "badgeViews": 361,
-      "certificateDownloads": 35,
+      "badgesIssued": 102,
+      "badgeViews": 362,
+      "certificateDownloads": 36,
       "generatorOpens": 137,
-      "generatorCompletions": 65,
+      "generatorCompletions": 66,
       "uniqueVisitorsApprox": 261,
-      "conversionRate": 47.4
+      "conversionRate": 48.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 27,
-      "badgeViews": 34,
-      "certificateDownloads": 23,
+      "badgesIssued": 28,
+      "badgeViews": 35,
+      "certificateDownloads": 24,
       "generatorOpens": 47,
-      "generatorCompletions": 27,
-      "conversionRate": 57.4
+      "generatorCompletions": 28,
+      "conversionRate": 59.6
     },
     {
       "id": "fhtc-e-badge",
@@ -843,6 +843,18 @@
       "latestViewedAt": "2026-09-03T03:01:44.180Z"
     },
     {
+      "slug": "noah-beubis-career-activated-csuncc-20260903-0004",
+      "badgeId": "CSUNCC-20260903-0004",
+      "awardeeName": "Noah Beubis",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/noah-beubis-career-activated-csuncc-20260903-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-04T01:08:36.419Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1366,8 +1378,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 47,
-      "completions": 26,
-      "conversionRate": 55.3
+      "completions": 27,
+      "conversionRate": 57.4
     },
     {
       "key": "general",
@@ -1688,6 +1700,12 @@
     },
     {
       "awardeeName": "Steve Muñoz",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Noah Beubis",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1

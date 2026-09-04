@@ -24357,48 +24357,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "9aa1749e-4c6a-4f67-aa6c-eedfa47734b2",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-04T01:08:31.132Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260903-0004",
-      "badgeSlug": "noah-beubis-career-activated-csuncc-20260903-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Noah Beubis",
-      "publicUrl": "https://careerbadge.csun.edu/badges/noah-beubis-career-activated-csuncc-20260903-0004/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9ac817013e19955f4f7dab48",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "dff21b2d-bb3a-4434-9235-e0319af06d41",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-04T01:08:36.419Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260903-0004",
-      "badgeSlug": "noah-beubis-career-activated-csuncc-20260903-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Noah Beubis",
-      "publicUrl": "https://careerbadge.csun.edu/badges/noah-beubis-career-activated-csuncc-20260903-0004/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9ac817013e19955f4f7dab48",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -24873,11 +24831,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-04T01:08:36.422Z",
+    "updatedAt": "2026-09-04T01:08:27.300Z",
     "totals": {
       "badgesIssued": 102,
-      "badgeViews": 362,
-      "certificateDownloads": 36,
+      "badgeViews": 361,
+      "certificateDownloads": 35,
       "generatorOpens": 137,
       "generatorCompletions": 66,
       "conversionRate": 48.2,
@@ -24943,8 +24901,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 20,
-        "badgeViews": 33,
-        "certificateDownloads": 21,
+        "badgeViews": 32,
+        "certificateDownloads": 20,
         "generatorOpens": 24,
         "generatorCompletions": 20,
         "uniqueVisitorsApprox": 30,
@@ -24956,8 +24914,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 102,
-        "badgeViews": 362,
-        "certificateDownloads": 36,
+        "badgeViews": 361,
+        "certificateDownloads": 35,
         "generatorOpens": 137,
         "generatorCompletions": 66,
         "uniqueVisitorsApprox": 261,
@@ -24979,8 +24937,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 28,
-        "badgeViews": 35,
-        "certificateDownloads": 24,
+        "badgeViews": 34,
+        "certificateDownloads": 23,
         "generatorOpens": 47,
         "generatorCompletions": 28,
         "conversionRate": 59.6
@@ -25716,18 +25674,6 @@
         "latestViewedAt": "2026-09-03T03:01:44.180Z"
       },
       {
-        "slug": "noah-beubis-career-activated-csuncc-20260903-0004",
-        "badgeId": "CSUNCC-20260903-0004",
-        "awardeeName": "Noah Beubis",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/noah-beubis-career-activated-csuncc-20260903-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-04T01:08:36.419Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -26242,6 +26188,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "noah-beubis-career-activated-csuncc-20260903-0004",
+        "badgeId": "CSUNCC-20260903-0004",
+        "awardeeName": "Noah Beubis",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/noah-beubis-career-activated-csuncc-20260903-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -26578,12 +26536,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Noah Beubis",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -26729,6 +26681,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Noah Beubis",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
