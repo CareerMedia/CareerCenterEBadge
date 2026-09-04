@@ -24179,27 +24179,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "c65c030c-0280-4e1a-9728-7454cd0d0456",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-04T00:54:45.709Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260903-0003",
-      "badgeSlug": "airam-perez-ramirez-career-activated-csuncc-20260903-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Airam Perez-Ramirez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/airam-perez-ramirez-career-activated-csuncc-20260903-0003/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "7ae1033ae15df52e44639f0f",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -24674,11 +24653,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-04T00:54:45.715Z",
+    "updatedAt": "2026-09-04T00:54:38.088Z",
     "totals": {
       "badgesIssued": 101,
       "badgeViews": 361,
-      "certificateDownloads": 35,
+      "certificateDownloads": 34,
       "generatorOpens": 136,
       "generatorCompletions": 65,
       "conversionRate": 47.8,
@@ -24745,7 +24724,7 @@
         "label": "Sep 2026",
         "badgesIssued": 19,
         "badgeViews": 32,
-        "certificateDownloads": 20,
+        "certificateDownloads": 19,
         "generatorOpens": 23,
         "generatorCompletions": 19,
         "uniqueVisitorsApprox": 29,
@@ -24758,7 +24737,7 @@
         "label": "2026",
         "badgesIssued": 101,
         "badgeViews": 361,
-        "certificateDownloads": 35,
+        "certificateDownloads": 34,
         "generatorOpens": 136,
         "generatorCompletions": 65,
         "uniqueVisitorsApprox": 260,
@@ -24781,7 +24760,7 @@
         "title": "Career Activated",
         "badgesIssued": 27,
         "badgeViews": 34,
-        "certificateDownloads": 23,
+        "certificateDownloads": 22,
         "generatorOpens": 46,
         "generatorCompletions": 27,
         "conversionRate": 58.7
@@ -25733,18 +25712,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "airam-perez-ramirez-career-activated-csuncc-20260903-0003",
-        "badgeId": "CSUNCC-20260903-0003",
-        "awardeeName": "Airam Perez-Ramirez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/airam-perez-ramirez-career-activated-csuncc-20260903-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -26027,6 +25994,18 @@
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "airam-perez-ramirez-career-activated-csuncc-20260903-0003",
+        "badgeId": "CSUNCC-20260903-0003",
+        "awardeeName": "Airam Perez-Ramirez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/airam-perez-ramirez-career-activated-csuncc-20260903-0003/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -26439,12 +26418,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Airam Perez-Ramirez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -26512,6 +26485,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Airam Perez-Ramirez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

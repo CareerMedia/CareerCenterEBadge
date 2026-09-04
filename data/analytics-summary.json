@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T00:53:58.785Z",
+  "updatedAt": "2026-09-04T00:54:45.715Z",
   "totals": {
-    "badgesIssued": 100,
+    "badgesIssued": 101,
     "badgeViews": 361,
-    "certificateDownloads": 34,
+    "certificateDownloads": 35,
     "generatorOpens": 136,
-    "generatorCompletions": 64,
-    "conversionRate": 47.1,
+    "generatorCompletions": 65,
+    "conversionRate": 47.8,
     "uniqueVisitorsApprox": 260
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 18,
+      "badgesIssued": 19,
       "badgeViews": 32,
-      "certificateDownloads": 19,
+      "certificateDownloads": 20,
       "generatorOpens": 23,
-      "generatorCompletions": 18,
+      "generatorCompletions": 19,
       "uniqueVisitorsApprox": 29,
-      "conversionRate": 78.3
+      "conversionRate": 82.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 100,
+      "badgesIssued": 101,
       "badgeViews": 361,
-      "certificateDownloads": 34,
+      "certificateDownloads": 35,
       "generatorOpens": 136,
-      "generatorCompletions": 64,
+      "generatorCompletions": 65,
       "uniqueVisitorsApprox": 260,
-      "conversionRate": 47.1
+      "conversionRate": 47.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 26,
+      "badgesIssued": 27,
       "badgeViews": 34,
-      "certificateDownloads": 22,
+      "certificateDownloads": 23,
       "generatorOpens": 46,
-      "generatorCompletions": 26,
-      "conversionRate": 56.5
+      "generatorCompletions": 27,
+      "conversionRate": 58.7
     },
     {
       "id": "fhtc-e-badge",
@@ -1059,6 +1059,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "airam-perez-ramirez-career-activated-csuncc-20260903-0003",
+      "badgeId": "CSUNCC-20260903-0003",
+      "awardeeName": "Airam Perez-Ramirez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/airam-perez-ramirez-career-activated-csuncc-20260903-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1354,8 +1366,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 46,
-      "completions": 25,
-      "conversionRate": 54.3
+      "completions": 26,
+      "conversionRate": 56.5
     },
     {
       "key": "general",
@@ -1748,6 +1760,12 @@
     },
     {
       "awardeeName": "Katie Lares",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Airam Perez-Ramirez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
