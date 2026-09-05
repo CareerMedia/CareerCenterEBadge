@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T15:22:40.611Z",
+  "updatedAt": "2026-09-05T15:23:22.758Z",
   "totals": {
-    "badgesIssued": 104,
+    "badgesIssued": 105,
     "badgeViews": 365,
     "certificateDownloads": 39,
     "generatorOpens": 140,
-    "generatorCompletions": 68,
-    "conversionRate": 48.6,
+    "generatorCompletions": 69,
+    "conversionRate": 49.3,
     "uniqueVisitorsApprox": 266
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 22,
+      "badgesIssued": 23,
       "badgeViews": 36,
       "certificateDownloads": 24,
       "generatorOpens": 27,
-      "generatorCompletions": 22,
+      "generatorCompletions": 23,
       "uniqueVisitorsApprox": 35,
-      "conversionRate": 81.5
+      "conversionRate": 85.2
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 104,
+      "badgesIssued": 105,
       "badgeViews": 365,
       "certificateDownloads": 39,
       "generatorOpens": 140,
-      "generatorCompletions": 68,
+      "generatorCompletions": 69,
       "uniqueVisitorsApprox": 266,
-      "conversionRate": 48.6
+      "conversionRate": 49.3
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 30,
+      "badgesIssued": 31,
       "badgeViews": 38,
       "certificateDownloads": 27,
       "generatorOpens": 50,
-      "generatorCompletions": 30,
-      "conversionRate": 60
+      "generatorCompletions": 31,
+      "conversionRate": 62
     },
     {
       "id": "fhtc-e-badge",
@@ -1393,6 +1393,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "nicholas-ibarra-career-activated-csuncc-20260905-0001",
+      "badgeId": "CSUNCC-20260905-0001",
+      "awardeeName": "Nicholas Ibarra",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/nicholas-ibarra-career-activated-csuncc-20260905-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -1402,8 +1414,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 50,
-      "completions": 29,
-      "conversionRate": 58
+      "completions": 30,
+      "conversionRate": 60
     },
     {
       "key": "general",
@@ -1892,6 +1904,12 @@
     },
     {
       "awardeeName": "Antonio Gonzalez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Nicholas Ibarra",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
