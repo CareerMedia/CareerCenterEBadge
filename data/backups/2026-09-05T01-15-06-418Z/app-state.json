@@ -24818,27 +24818,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "e90b89d9-8a86-4b2d-8fd9-6cc8769d7b1a",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-05T01:15:13.249Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260904-0002",
-      "badgeSlug": "laila-rozalia-dixon-career-activated-csuncc-20260904-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Laila Rozalia Dixon",
-      "publicUrl": "https://careerbadge.csun.edu/badges/laila-rozalia-dixon-career-activated-csuncc-20260904-0002/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "b363483b4434f4864ce88d14",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -25313,11 +25292,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-05T01:15:13.255Z",
+    "updatedAt": "2026-09-05T01:15:06.016Z",
     "totals": {
       "badgesIssued": 104,
       "badgeViews": 365,
-      "certificateDownloads": 39,
+      "certificateDownloads": 38,
       "generatorOpens": 139,
       "generatorCompletions": 68,
       "conversionRate": 48.9,
@@ -25384,7 +25363,7 @@
         "label": "Sep 2026",
         "badgesIssued": 22,
         "badgeViews": 36,
-        "certificateDownloads": 24,
+        "certificateDownloads": 23,
         "generatorOpens": 26,
         "generatorCompletions": 22,
         "uniqueVisitorsApprox": 34,
@@ -25397,7 +25376,7 @@
         "label": "2026",
         "badgesIssued": 104,
         "badgeViews": 365,
-        "certificateDownloads": 39,
+        "certificateDownloads": 38,
         "generatorOpens": 139,
         "generatorCompletions": 68,
         "uniqueVisitorsApprox": 265,
@@ -25420,7 +25399,7 @@
         "title": "Career Activated",
         "badgesIssued": 30,
         "badgeViews": 38,
-        "certificateDownloads": 27,
+        "certificateDownloads": 26,
         "generatorOpens": 49,
         "generatorCompletions": 30,
         "conversionRate": 61.2
@@ -26408,18 +26387,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "laila-rozalia-dixon-career-activated-csuncc-20260904-0002",
-        "badgeId": "CSUNCC-20260904-0002",
-        "awardeeName": "Laila Rozalia Dixon",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/laila-rozalia-dixon-career-activated-csuncc-20260904-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -26702,6 +26669,18 @@
         "badgeTitle": "Career Champion",
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/antonio-gonzalez-career-champion-csuncc-20250101-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "laila-rozalia-dixon-career-activated-csuncc-20260904-0002",
+        "badgeId": "CSUNCC-20260904-0002",
+        "awardeeName": "Laila Rozalia Dixon",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/laila-rozalia-dixon-career-activated-csuncc-20260904-0002/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -27132,12 +27111,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Laila Rozalia Dixon",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -27205,6 +27178,12 @@
       },
       {
         "awardeeName": "Antonio Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Laila Rozalia Dixon",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

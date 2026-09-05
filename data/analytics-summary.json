@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T01:13:46.697Z",
+  "updatedAt": "2026-09-05T01:15:13.255Z",
   "totals": {
-    "badgesIssued": 103,
+    "badgesIssued": 104,
     "badgeViews": 365,
-    "certificateDownloads": 38,
+    "certificateDownloads": 39,
     "generatorOpens": 139,
-    "generatorCompletions": 67,
-    "conversionRate": 48.2,
+    "generatorCompletions": 68,
+    "conversionRate": 48.9,
     "uniqueVisitorsApprox": 265
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 21,
+      "badgesIssued": 22,
       "badgeViews": 36,
-      "certificateDownloads": 23,
+      "certificateDownloads": 24,
       "generatorOpens": 26,
-      "generatorCompletions": 21,
+      "generatorCompletions": 22,
       "uniqueVisitorsApprox": 34,
-      "conversionRate": 80.8
+      "conversionRate": 84.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 103,
+      "badgesIssued": 104,
       "badgeViews": 365,
-      "certificateDownloads": 38,
+      "certificateDownloads": 39,
       "generatorOpens": 139,
-      "generatorCompletions": 67,
+      "generatorCompletions": 68,
       "uniqueVisitorsApprox": 265,
-      "conversionRate": 48.2
+      "conversionRate": 48.9
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 29,
+      "badgesIssued": 30,
       "badgeViews": 38,
-      "certificateDownloads": 26,
+      "certificateDownloads": 27,
       "generatorOpens": 49,
-      "generatorCompletions": 29,
-      "conversionRate": 59.2
+      "generatorCompletions": 30,
+      "conversionRate": 61.2
     },
     {
       "id": "fhtc-e-badge",
@@ -1095,6 +1095,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "laila-rozalia-dixon-career-activated-csuncc-20260904-0002",
+      "badgeId": "CSUNCC-20260904-0002",
+      "awardeeName": "Laila Rozalia Dixon",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/laila-rozalia-dixon-career-activated-csuncc-20260904-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1390,8 +1402,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 49,
-      "completions": 28,
-      "conversionRate": 57.1
+      "completions": 29,
+      "conversionRate": 59.2
     },
     {
       "key": "general",
@@ -1802,6 +1814,12 @@
     },
     {
       "awardeeName": "Jalie Rivera",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Laila Rozalia Dixon",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
