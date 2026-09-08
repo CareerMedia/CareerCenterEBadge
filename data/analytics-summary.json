@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T06:19:02.399Z",
+  "updatedAt": "2026-09-08T06:20:30.032Z",
   "totals": {
-    "badgesIssued": 119,
+    "badgesIssued": 120,
     "badgeViews": 374,
     "certificateDownloads": 52,
     "generatorOpens": 154,
-    "generatorCompletions": 83,
-    "conversionRate": 53.9,
+    "generatorCompletions": 84,
+    "conversionRate": 54.5,
     "uniqueVisitorsApprox": 279
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 37,
+      "badgesIssued": 38,
       "badgeViews": 45,
       "certificateDownloads": 37,
       "generatorOpens": 41,
-      "generatorCompletions": 37,
+      "generatorCompletions": 38,
       "uniqueVisitorsApprox": 48,
-      "conversionRate": 90.2
+      "conversionRate": 92.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 119,
+      "badgesIssued": 120,
       "badgeViews": 374,
       "certificateDownloads": 52,
       "generatorOpens": 154,
-      "generatorCompletions": 83,
+      "generatorCompletions": 84,
       "uniqueVisitorsApprox": 279,
-      "conversionRate": 53.9
+      "conversionRate": 54.5
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 45,
+      "badgesIssued": 46,
       "badgeViews": 47,
       "certificateDownloads": 40,
       "generatorOpens": 64,
-      "generatorCompletions": 45,
-      "conversionRate": 70.3
+      "generatorCompletions": 46,
+      "conversionRate": 71.9
     },
     {
       "id": "fhtc-e-badge",
@@ -1573,6 +1573,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "emily-rosado-alonso-career-activated-csuncc-20260907-0007",
+      "badgeId": "CSUNCC-20260907-0007",
+      "awardeeName": "Emily Rosado Alonso",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/emily-rosado-alonso-career-activated-csuncc-20260907-0007/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -1582,8 +1594,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 64,
-      "completions": 44,
-      "conversionRate": 68.8
+      "completions": 45,
+      "conversionRate": 70.3
     },
     {
       "key": "general",
@@ -2150,6 +2162,12 @@
     },
     {
       "awardeeName": "Pauli Sandra-Lynne Linscomb",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Emily Rosado Alonso",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
