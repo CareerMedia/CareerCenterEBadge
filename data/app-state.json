@@ -28368,6 +28368,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "6f913499-c73e-4e3f-a38f-978f474f4646",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-08T15:47:23.962Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0001",
+      "badgeSlug": "amarilis-rivas-career-champion-csuncc-20260512-0001",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Amarilis Rivas",
+      "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "d44f7fcce77f6b590f13de4a",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -28842,15 +28863,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-08T15:47:20.217Z",
+    "updatedAt": "2026-09-08T15:47:24.040Z",
     "totals": {
       "badgesIssued": 123,
-      "badgeViews": 377,
+      "badgeViews": 378,
       "certificateDownloads": 54,
       "generatorOpens": 157,
       "generatorCompletions": 87,
       "conversionRate": 55.4,
-      "uniqueVisitorsApprox": 283
+      "uniqueVisitorsApprox": 284
     },
     "months": [
       {
@@ -28912,11 +28933,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 41,
-        "badgeViews": 48,
+        "badgeViews": 49,
         "certificateDownloads": 39,
         "generatorOpens": 44,
         "generatorCompletions": 41,
-        "uniqueVisitorsApprox": 52,
+        "uniqueVisitorsApprox": 53,
         "conversionRate": 93.2
       }
     ],
@@ -28925,11 +28946,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 123,
-        "badgeViews": 377,
+        "badgeViews": 378,
         "certificateDownloads": 54,
         "generatorOpens": 157,
         "generatorCompletions": 87,
-        "uniqueVisitorsApprox": 283,
+        "uniqueVisitorsApprox": 284,
         "conversionRate": 55.4
       }
     ],
@@ -28938,7 +28959,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 317,
+        "badgeViews": 318,
         "certificateDownloads": 10,
         "generatorOpens": 34,
         "generatorCompletions": 34,
@@ -29049,6 +29070,18 @@
         "latestViewedAt": "2026-08-28T15:53:40.555Z"
       },
       {
+        "slug": "amarilis-rivas-career-champion-csuncc-20260512-0001",
+        "badgeId": "CSUNCC-20260512-0001",
+        "awardeeName": "Amarilis Rivas",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 11,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-09-08T15:47:23.962Z"
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0004",
         "badgeId": "CSUNCC-20260504-0004",
         "awardeeName": "Bryce Simon",
@@ -29059,18 +29092,6 @@
         "badgeViews": 10,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-08-26T00:48:11.546Z"
-      },
-      {
-        "slug": "amarilis-rivas-career-champion-csuncc-20260512-0001",
-        "badgeId": "CSUNCC-20260512-0001",
-        "awardeeName": "Amarilis Rivas",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/amarilis-rivas-career-champion-csuncc-20260512-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 10,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-08T15:47:20.209Z"
       },
       {
         "slug": "mikayla-agregado-career-champion-csuncc-20260409-0002",
@@ -30553,16 +30574,16 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Amarilis Rivas",
+        "badgesIssued": 1,
+        "badgeViews": 11,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Mikayla Agregado",
         "badgesIssued": 1,
         "badgeViews": 9,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Amarilis Rivas",
-        "badgesIssued": 1,
-        "badgeViews": 10,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Cara Nissen",
