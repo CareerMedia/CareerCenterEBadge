@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T08:14:51.177Z",
+  "updatedAt": "2026-09-08T08:16:14.495Z",
   "totals": {
-    "badgesIssued": 121,
-    "badgeViews": 374,
-    "certificateDownloads": 53,
+    "badgesIssued": 122,
+    "badgeViews": 375,
+    "certificateDownloads": 54,
     "generatorOpens": 156,
-    "generatorCompletions": 85,
-    "conversionRate": 54.5,
+    "generatorCompletions": 86,
+    "conversionRate": 55.1,
     "uniqueVisitorsApprox": 281
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 39,
-      "badgeViews": 45,
-      "certificateDownloads": 38,
+      "badgesIssued": 40,
+      "badgeViews": 46,
+      "certificateDownloads": 39,
       "generatorOpens": 43,
-      "generatorCompletions": 39,
+      "generatorCompletions": 40,
       "uniqueVisitorsApprox": 50,
-      "conversionRate": 90.7
+      "conversionRate": 93
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 121,
-      "badgeViews": 374,
-      "certificateDownloads": 53,
+      "badgesIssued": 122,
+      "badgeViews": 375,
+      "certificateDownloads": 54,
       "generatorOpens": 156,
-      "generatorCompletions": 85,
+      "generatorCompletions": 86,
       "uniqueVisitorsApprox": 281,
-      "conversionRate": 54.5
+      "conversionRate": 55.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 47,
-      "badgeViews": 47,
-      "certificateDownloads": 41,
+      "badgesIssued": 48,
+      "badgeViews": 48,
+      "certificateDownloads": 42,
       "generatorOpens": 66,
-      "generatorCompletions": 47,
-      "conversionRate": 71.2
+      "generatorCompletions": 48,
+      "conversionRate": 72.7
     },
     {
       "id": "fhtc-e-badge",
@@ -915,6 +915,18 @@
       "latestViewedAt": "2026-09-08T04:56:50.836Z"
     },
     {
+      "slug": "yuridia-sucel-vazquez-career-activated-csuncc-20260908-0002",
+      "badgeId": "CSUNCC-20260908-0002",
+      "awardeeName": "Yuridia Sucel Vazquez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/yuridia-sucel-vazquez-career-activated-csuncc-20260908-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-08T08:16:14.488Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1606,8 +1618,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 66,
-      "completions": 46,
-      "conversionRate": 69.7
+      "completions": 47,
+      "conversionRate": 71.2
     },
     {
       "key": "general",
@@ -1970,6 +1982,12 @@
     },
     {
       "awardeeName": "Noel Benicio Washington",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Yuridia Sucel Vazquez",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1
