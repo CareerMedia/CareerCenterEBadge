@@ -27593,48 +27593,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "bac1adfd-6913-420d-bedc-70a6e6c53d04",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-08T04:56:28.223Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260907-0006",
-      "badgeSlug": "noel-benicio-washington-career-activated-csuncc-20260907-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Noel Benicio Washington",
-      "publicUrl": "https://careerbadge.csun.edu/badges/noel-benicio-washington-career-activated-csuncc-20260907-0006/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "24ffad8f3dd4d44c5d1d0b9f",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "c792e014-024e-4bea-acbb-b1c3a6c7ab06",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-08T04:56:50.836Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260907-0006",
-      "badgeSlug": "noel-benicio-washington-career-activated-csuncc-20260907-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Noel Benicio Washington",
-      "publicUrl": "https://careerbadge.csun.edu/badges/noel-benicio-washington-career-activated-csuncc-20260907-0006/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "24ffad8f3dd4d44c5d1d0b9f",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -28109,11 +28067,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-08T04:56:50.842Z",
+    "updatedAt": "2026-09-08T04:56:21.569Z",
     "totals": {
       "badgesIssued": 119,
-      "badgeViews": 374,
-      "certificateDownloads": 52,
+      "badgeViews": 373,
+      "certificateDownloads": 51,
       "generatorOpens": 153,
       "generatorCompletions": 83,
       "conversionRate": 54.2,
@@ -28179,8 +28137,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 37,
-        "badgeViews": 45,
-        "certificateDownloads": 37,
+        "badgeViews": 44,
+        "certificateDownloads": 36,
         "generatorOpens": 40,
         "generatorCompletions": 37,
         "uniqueVisitorsApprox": 47,
@@ -28192,8 +28150,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 119,
-        "badgeViews": 374,
-        "certificateDownloads": 52,
+        "badgeViews": 373,
+        "certificateDownloads": 51,
         "generatorOpens": 153,
         "generatorCompletions": 83,
         "uniqueVisitorsApprox": 278,
@@ -28215,8 +28173,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 45,
-        "badgeViews": 47,
-        "certificateDownloads": 40,
+        "badgeViews": 46,
+        "certificateDownloads": 39,
         "generatorOpens": 63,
         "generatorCompletions": 45,
         "conversionRate": 71.4
@@ -29012,18 +28970,6 @@
         "latestViewedAt": "2026-09-08T04:55:14.576Z"
       },
       {
-        "slug": "noel-benicio-washington-career-activated-csuncc-20260907-0006",
-        "badgeId": "CSUNCC-20260907-0006",
-        "awardeeName": "Noel Benicio Washington",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/noel-benicio-washington-career-activated-csuncc-20260907-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-08T04:56:50.836Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -29682,6 +29628,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "noel-benicio-washington-career-activated-csuncc-20260907-0006",
+        "badgeId": "CSUNCC-20260907-0006",
+        "awardeeName": "Noel Benicio Washington",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/noel-benicio-washington-career-activated-csuncc-20260907-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -30054,12 +30012,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Noel Benicio Washington",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -30259,6 +30211,12 @@
       },
       {
         "awardeeName": "Pauli Sandra-Lynne Linscomb",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Noel Benicio Washington",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

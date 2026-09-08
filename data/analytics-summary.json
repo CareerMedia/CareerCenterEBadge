@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T04:54:37.628Z",
+  "updatedAt": "2026-09-08T04:56:50.842Z",
   "totals": {
-    "badgesIssued": 116,
-    "badgeViews": 371,
-    "certificateDownloads": 48,
+    "badgesIssued": 119,
+    "badgeViews": 374,
+    "certificateDownloads": 52,
     "generatorOpens": 153,
-    "generatorCompletions": 80,
-    "conversionRate": 52.3,
+    "generatorCompletions": 83,
+    "conversionRate": 54.2,
     "uniqueVisitorsApprox": 278
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 34,
-      "badgeViews": 42,
-      "certificateDownloads": 33,
+      "badgesIssued": 37,
+      "badgeViews": 45,
+      "certificateDownloads": 37,
       "generatorOpens": 40,
-      "generatorCompletions": 34,
+      "generatorCompletions": 37,
       "uniqueVisitorsApprox": 47,
-      "conversionRate": 85
+      "conversionRate": 92.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 116,
-      "badgeViews": 371,
-      "certificateDownloads": 48,
+      "badgesIssued": 119,
+      "badgeViews": 374,
+      "certificateDownloads": 52,
       "generatorOpens": 153,
-      "generatorCompletions": 80,
+      "generatorCompletions": 83,
       "uniqueVisitorsApprox": 278,
-      "conversionRate": 52.3
+      "conversionRate": 54.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 42,
-      "badgeViews": 44,
-      "certificateDownloads": 36,
+      "badgesIssued": 45,
+      "badgeViews": 47,
+      "certificateDownloads": 40,
       "generatorOpens": 63,
-      "generatorCompletions": 42,
-      "conversionRate": 66.7
+      "generatorCompletions": 45,
+      "conversionRate": 71.4
     },
     {
       "id": "fhtc-e-badge",
@@ -807,6 +807,18 @@
       "latestViewedAt": "2026-09-02T21:58:06.978Z"
     },
     {
+      "slug": "noel-benico-washington-career-activated-csuncc-20260907-0005",
+      "badgeId": "CSUNCC-20260907-0005",
+      "awardeeName": "Noel Benico Washington",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/noel-benico-washington-career-activated-csuncc-20260907-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 2,
+      "latestViewedAt": "2026-09-08T04:56:05.780Z"
+    },
+    {
       "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001",
       "badgeId": "CSUNCC-20260811-0001",
       "awardeeName": "Matty Matador",
@@ -877,6 +889,30 @@
       "badgeViews": 1,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-04T01:08:36.419Z"
+    },
+    {
+      "slug": "noel-washington-career-activated-csuncc-20260907-0004",
+      "badgeId": "CSUNCC-20260907-0004",
+      "awardeeName": "Noel Washington",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/noel-washington-career-activated-csuncc-20260907-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-08T04:55:14.576Z"
+    },
+    {
+      "slug": "noel-benicio-washington-career-activated-csuncc-20260907-0006",
+      "badgeId": "CSUNCC-20260907-0006",
+      "awardeeName": "Noel Benicio Washington",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/noel-benicio-washington-career-activated-csuncc-20260907-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-08T04:56:50.836Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -1546,8 +1582,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 63,
-      "completions": 41,
-      "conversionRate": 65.1
+      "completions": 44,
+      "conversionRate": 69.8
     },
     {
       "key": "general",
@@ -1849,6 +1885,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Noel Benico Washington",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 2
+    },
+    {
       "awardeeName": "Jane Doe",
       "badgesIssued": 1,
       "badgeViews": 2,
@@ -1894,6 +1936,18 @@
       "awardeeName": "Ameera Mourad",
       "badgesIssued": 2,
       "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Noel Washington",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Noel Benicio Washington",
+      "badgesIssued": 1,
+      "badgeViews": 1,
       "certificateDownloads": 1
     },
     {
