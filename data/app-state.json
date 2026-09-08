@@ -27949,6 +27949,27 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
+    },
+    {
+      "id": "4a8c240e-d400-4dd3-a5d1-76367ecc476c",
+      "type": "certificate_downloaded",
+      "timestamp": "2026-09-08T07:49:13.610Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260908-0001",
+      "badgeSlug": "test-student-career-activated-csuncc-20260908-0001",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Test student",
+      "publicUrl": "https://careerbadge.csun.edu/badges/test-student-career-activated-csuncc-20260908-0001/",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "",
+      "source": "generator-page",
+      "visitorId": "7f7def0244b31d211d9aeadc",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-certificate-download",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -28423,11 +28444,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-08T07:41:45.129Z",
+    "updatedAt": "2026-09-08T07:49:13.618Z",
     "totals": {
       "badgesIssued": 121,
       "badgeViews": 374,
-      "certificateDownloads": 52,
+      "certificateDownloads": 53,
       "generatorOpens": 155,
       "generatorCompletions": 85,
       "conversionRate": 54.8,
@@ -28494,7 +28515,7 @@
         "label": "Sep 2026",
         "badgesIssued": 39,
         "badgeViews": 45,
-        "certificateDownloads": 37,
+        "certificateDownloads": 38,
         "generatorOpens": 42,
         "generatorCompletions": 39,
         "uniqueVisitorsApprox": 49,
@@ -28507,7 +28528,7 @@
         "label": "2026",
         "badgesIssued": 121,
         "badgeViews": 374,
-        "certificateDownloads": 52,
+        "certificateDownloads": 53,
         "generatorOpens": 155,
         "generatorCompletions": 85,
         "uniqueVisitorsApprox": 280,
@@ -28530,7 +28551,7 @@
         "title": "Career Activated",
         "badgesIssued": 47,
         "badgeViews": 47,
-        "certificateDownloads": 40,
+        "certificateDownloads": 41,
         "generatorOpens": 65,
         "generatorCompletions": 47,
         "conversionRate": 72.3
@@ -29674,6 +29695,18 @@
         "latestViewedAt": ""
       },
       {
+        "slug": "test-student-career-activated-csuncc-20260908-0001",
+        "badgeId": "CSUNCC-20260908-0001",
+        "awardeeName": "Test student",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/test-student-career-activated-csuncc-20260908-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 1,
+        "latestViewedAt": ""
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -30004,18 +30037,6 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/emily-rosado-alonso-career-activated-csuncc-20260907-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
-      },
-      {
-        "slug": "test-student-career-activated-csuncc-20260908-0001",
-        "badgeId": "CSUNCC-20260908-0001",
-        "awardeeName": "Test student",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/test-student-career-activated-csuncc-20260908-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -30518,6 +30539,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Test student",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -30603,12 +30630,6 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Test student",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
