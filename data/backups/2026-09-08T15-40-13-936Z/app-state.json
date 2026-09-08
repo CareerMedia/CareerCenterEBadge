@@ -28326,27 +28326,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "f121552d-68f6-4510-b152-94f231fe9489",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-08T15:40:19.315Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0003",
-      "badgeSlug": "david-adanalyan-career-activated-csuncc-20260908-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "David Adanalyan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/david-adanalyan-career-activated-csuncc-20260908-0003/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "219b522f184e0daf718a26bc",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -28821,10 +28800,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-08T15:40:19.320Z",
+    "updatedAt": "2026-09-08T15:40:13.435Z",
     "totals": {
       "badgesIssued": 123,
-      "badgeViews": 376,
+      "badgeViews": 375,
       "certificateDownloads": 54,
       "generatorOpens": 157,
       "generatorCompletions": 87,
@@ -28891,7 +28870,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 41,
-        "badgeViews": 47,
+        "badgeViews": 46,
         "certificateDownloads": 39,
         "generatorOpens": 44,
         "generatorCompletions": 41,
@@ -28904,7 +28883,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 123,
-        "badgeViews": 376,
+        "badgeViews": 375,
         "certificateDownloads": 54,
         "generatorOpens": 157,
         "generatorCompletions": 87,
@@ -28927,7 +28906,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 49,
-        "badgeViews": 49,
+        "badgeViews": 48,
         "certificateDownloads": 42,
         "generatorOpens": 67,
         "generatorCompletions": 49,
@@ -29880,18 +29859,6 @@
         "latestViewedAt": "2026-09-06T19:38:29.460Z"
       },
       {
-        "slug": "david-adanalyan-career-activated-csuncc-20260908-0003",
-        "badgeId": "CSUNCC-20260908-0003",
-        "awardeeName": "David Adanalyan",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/david-adanalyan-career-activated-csuncc-20260908-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-08T15:40:19.315Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -30442,6 +30409,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "david-adanalyan-career-activated-csuncc-20260908-0003",
+        "badgeId": "CSUNCC-20260908-0003",
+        "awardeeName": "David Adanalyan",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/david-adanalyan-career-activated-csuncc-20260908-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -30952,12 +30931,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "David Adanalyan",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -31043,6 +31016,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "David Adanalyan",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
