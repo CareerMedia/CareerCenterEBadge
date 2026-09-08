@@ -28567,27 +28567,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "0e271485-08bc-4edd-a258-47417e71cf59",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-08T19:36:57.296Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0004",
-      "badgeSlug": "kaydee-hong-career-activated-csuncc-20260908-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kaydee Hong",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kaydee-hong-career-activated-csuncc-20260908-0004/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9b63fdee809308d1c6b7d6e0",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -29062,11 +29041,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-08T19:36:57.302Z",
+    "updatedAt": "2026-09-08T19:36:50.558Z",
     "totals": {
       "badgesIssued": 124,
       "badgeViews": 378,
-      "certificateDownloads": 55,
+      "certificateDownloads": 54,
       "generatorOpens": 159,
       "generatorCompletions": 88,
       "conversionRate": 55.3,
@@ -29133,7 +29112,7 @@
         "label": "Sep 2026",
         "badgesIssued": 42,
         "badgeViews": 49,
-        "certificateDownloads": 40,
+        "certificateDownloads": 39,
         "generatorOpens": 46,
         "generatorCompletions": 42,
         "uniqueVisitorsApprox": 55,
@@ -29146,7 +29125,7 @@
         "label": "2026",
         "badgesIssued": 124,
         "badgeViews": 378,
-        "certificateDownloads": 55,
+        "certificateDownloads": 54,
         "generatorOpens": 159,
         "generatorCompletions": 88,
         "uniqueVisitorsApprox": 286,
@@ -29169,7 +29148,7 @@
         "title": "Career Activated",
         "badgesIssued": 50,
         "badgeViews": 49,
-        "certificateDownloads": 43,
+        "certificateDownloads": 42,
         "generatorOpens": 69,
         "generatorCompletions": 50,
         "conversionRate": 72.5
@@ -30349,18 +30328,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "kaydee-hong-career-activated-csuncc-20260908-0004",
-        "badgeId": "CSUNCC-20260908-0004",
-        "awardeeName": "Kaydee Hong",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/kaydee-hong-career-activated-csuncc-20260908-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -30691,6 +30658,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/emily-rosado-alonso-career-activated-csuncc-20260907-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "kaydee-hong-career-activated-csuncc-20260908-0004",
+        "badgeId": "CSUNCC-20260908-0004",
+        "awardeeName": "Kaydee Hong",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/kaydee-hong-career-activated-csuncc-20260908-0004/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -31211,12 +31190,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Kaydee Hong",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -31302,6 +31275,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Kaydee Hong",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
