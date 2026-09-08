@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T20:47:47.858Z",
+  "updatedAt": "2026-09-08T20:49:59.813Z",
   "totals": {
-    "badgesIssued": 124,
+    "badgesIssued": 125,
     "badgeViews": 378,
-    "certificateDownloads": 55,
+    "certificateDownloads": 56,
     "generatorOpens": 160,
-    "generatorCompletions": 88,
-    "conversionRate": 55,
+    "generatorCompletions": 89,
+    "conversionRate": 55.6,
     "uniqueVisitorsApprox": 287
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 42,
+      "badgesIssued": 43,
       "badgeViews": 49,
-      "certificateDownloads": 40,
+      "certificateDownloads": 41,
       "generatorOpens": 47,
-      "generatorCompletions": 42,
+      "generatorCompletions": 43,
       "uniqueVisitorsApprox": 56,
-      "conversionRate": 89.4
+      "conversionRate": 91.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 124,
+      "badgesIssued": 125,
       "badgeViews": 378,
-      "certificateDownloads": 55,
+      "certificateDownloads": 56,
       "generatorOpens": 160,
-      "generatorCompletions": 88,
+      "generatorCompletions": 89,
       "uniqueVisitorsApprox": 287,
-      "conversionRate": 55
+      "conversionRate": 55.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 50,
+      "badgesIssued": 51,
       "badgeViews": 49,
-      "certificateDownloads": 43,
+      "certificateDownloads": 44,
       "generatorOpens": 70,
-      "generatorCompletions": 50,
-      "conversionRate": 71.4
+      "generatorCompletions": 51,
+      "conversionRate": 72.9
     },
     {
       "id": "fhtc-e-badge",
@@ -1299,6 +1299,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "jocelynn-sastre-bautista-career-activated-csuncc-20260908-0005",
+      "badgeId": "CSUNCC-20260908-0005",
+      "awardeeName": "Jocelynn Sastre Bautista",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jocelynn-sastre-bautista-career-activated-csuncc-20260908-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1642,8 +1654,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 70,
-      "completions": 49,
-      "conversionRate": 70
+      "completions": 50,
+      "conversionRate": 71.4
     },
     {
       "key": "general",
@@ -2150,6 +2162,12 @@
     },
     {
       "awardeeName": "Kaydee Hong",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Jocelynn Sastre Bautista",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

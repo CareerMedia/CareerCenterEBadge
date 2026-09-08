@@ -28745,27 +28745,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "92c21cc0-5478-4c1b-8ce8-698f39cacdc8",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-08T20:49:59.807Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0005",
-      "badgeSlug": "jocelynn-sastre-bautista-career-activated-csuncc-20260908-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jocelynn Sastre Bautista",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jocelynn-sastre-bautista-career-activated-csuncc-20260908-0005/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "0146dbe54cc5a44ca1bbffa5",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -29240,11 +29219,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-08T20:49:59.813Z",
+    "updatedAt": "2026-09-08T20:49:49.263Z",
     "totals": {
       "badgesIssued": 125,
       "badgeViews": 378,
-      "certificateDownloads": 56,
+      "certificateDownloads": 55,
       "generatorOpens": 160,
       "generatorCompletions": 89,
       "conversionRate": 55.6,
@@ -29311,7 +29290,7 @@
         "label": "Sep 2026",
         "badgesIssued": 43,
         "badgeViews": 49,
-        "certificateDownloads": 41,
+        "certificateDownloads": 40,
         "generatorOpens": 47,
         "generatorCompletions": 43,
         "uniqueVisitorsApprox": 56,
@@ -29324,7 +29303,7 @@
         "label": "2026",
         "badgesIssued": 125,
         "badgeViews": 378,
-        "certificateDownloads": 56,
+        "certificateDownloads": 55,
         "generatorOpens": 160,
         "generatorCompletions": 89,
         "uniqueVisitorsApprox": 287,
@@ -29347,7 +29326,7 @@
         "title": "Career Activated",
         "badgesIssued": 51,
         "badgeViews": 49,
-        "certificateDownloads": 44,
+        "certificateDownloads": 43,
         "generatorOpens": 70,
         "generatorCompletions": 51,
         "conversionRate": 72.9
@@ -30539,18 +30518,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "jocelynn-sastre-bautista-career-activated-csuncc-20260908-0005",
-        "badgeId": "CSUNCC-20260908-0005",
-        "awardeeName": "Jocelynn Sastre Bautista",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jocelynn-sastre-bautista-career-activated-csuncc-20260908-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -30881,6 +30848,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/emily-rosado-alonso-career-activated-csuncc-20260907-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "jocelynn-sastre-bautista-career-activated-csuncc-20260908-0005",
+        "badgeId": "CSUNCC-20260908-0005",
+        "awardeeName": "Jocelynn Sastre Bautista",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jocelynn-sastre-bautista-career-activated-csuncc-20260908-0005/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -31407,12 +31386,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Jocelynn Sastre Bautista",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -31498,6 +31471,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Jocelynn Sastre Bautista",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
