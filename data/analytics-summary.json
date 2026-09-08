@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T04:16:52.175Z",
+  "updatedAt": "2026-09-08T04:18:51.470Z",
   "totals": {
-    "badgesIssued": 115,
+    "badgesIssued": 116,
     "badgeViews": 371,
     "certificateDownloads": 48,
     "generatorOpens": 152,
-    "generatorCompletions": 79,
-    "conversionRate": 52,
+    "generatorCompletions": 80,
+    "conversionRate": 52.6,
     "uniqueVisitorsApprox": 277
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 33,
+      "badgesIssued": 34,
       "badgeViews": 42,
       "certificateDownloads": 33,
       "generatorOpens": 39,
-      "generatorCompletions": 33,
+      "generatorCompletions": 34,
       "uniqueVisitorsApprox": 46,
-      "conversionRate": 84.6
+      "conversionRate": 87.2
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 115,
+      "badgesIssued": 116,
       "badgeViews": 371,
       "certificateDownloads": 48,
       "generatorOpens": 152,
-      "generatorCompletions": 79,
+      "generatorCompletions": 80,
       "uniqueVisitorsApprox": 277,
-      "conversionRate": 52
+      "conversionRate": 52.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 41,
+      "badgesIssued": 42,
       "badgeViews": 44,
       "certificateDownloads": 36,
       "generatorOpens": 62,
-      "generatorCompletions": 41,
-      "conversionRate": 66.1
+      "generatorCompletions": 42,
+      "conversionRate": 67.7
     },
     {
       "id": "fhtc-e-badge",
@@ -1525,6 +1525,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "pauli-sandra-lynne-linscomb-career-activated-csuncc-20260907-0003",
+      "badgeId": "CSUNCC-20260907-0003",
+      "awardeeName": "Pauli Sandra-Lynne Linscomb",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/pauli-sandra-lynne-linscomb-career-activated-csuncc-20260907-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -1534,8 +1546,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 62,
-      "completions": 40,
-      "conversionRate": 64.5
+      "completions": 41,
+      "conversionRate": 66.1
     },
     {
       "key": "general",
@@ -2078,6 +2090,12 @@
     },
     {
       "awardeeName": "Nicholas Ibarra",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Pauli Sandra-Lynne Linscomb",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
