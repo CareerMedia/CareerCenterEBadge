@@ -1,0 +1,19 @@
+{
+  "backupId": "2026-09-09T04-32-25-340Z",
+  "reason": "Issued badge CSUNCC-20260908-0010",
+  "actor": "admin",
+  "createdAt": "2026-09-09T04:32:25.436Z",
+  "counts": {
+    "badges": 130,
+    "deletedBadges": 2,
+    "templates": 3
+  },
+  "hashes": {
+    "appState": "160972d3f1f39e612cc1e8210f4b6c340c014d2d6bda6f1117c291f4f9446bce",
+    "badgeLinksCsv": "8cd3acc92a81db93838deb886f2cc6e99ccee8cbd95da58c79291f0e5cb42a1e"
+  },
+  "files": {
+    "appState": "data/backups/2026-09-09T04-32-25-340Z/app-state.json",
+    "badgeLinksCsv": "data/backups/2026-09-09T04-32-25-340Z/badge-links.csv"
+  }
+}

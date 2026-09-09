@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T04:31:49.727Z",
+  "updatedAt": "2026-09-09T04:32:37.723Z",
   "totals": {
-    "badgesIssued": 129,
-    "badgeViews": 379,
-    "certificateDownloads": 60,
+    "badgesIssued": 130,
+    "badgeViews": 380,
+    "certificateDownloads": 61,
     "generatorOpens": 165,
-    "generatorCompletions": 93,
-    "conversionRate": 56.4,
+    "generatorCompletions": 94,
+    "conversionRate": 57,
     "uniqueVisitorsApprox": 292
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 47,
-      "badgeViews": 50,
-      "certificateDownloads": 45,
+      "badgesIssued": 48,
+      "badgeViews": 51,
+      "certificateDownloads": 46,
       "generatorOpens": 52,
-      "generatorCompletions": 47,
+      "generatorCompletions": 48,
       "uniqueVisitorsApprox": 61,
-      "conversionRate": 90.4
+      "conversionRate": 92.3
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 129,
-      "badgeViews": 379,
-      "certificateDownloads": 60,
+      "badgesIssued": 130,
+      "badgeViews": 380,
+      "certificateDownloads": 61,
       "generatorOpens": 165,
-      "generatorCompletions": 93,
+      "generatorCompletions": 94,
       "uniqueVisitorsApprox": 292,
-      "conversionRate": 56.4
+      "conversionRate": 57
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 55,
-      "badgeViews": 50,
-      "certificateDownloads": 48,
+      "badgesIssued": 56,
+      "badgeViews": 51,
+      "certificateDownloads": 49,
       "generatorOpens": 75,
-      "generatorCompletions": 55,
-      "conversionRate": 73.3
+      "generatorCompletions": 56,
+      "conversionRate": 74.7
     },
     {
       "id": "fhtc-e-badge",
@@ -939,6 +939,18 @@
       "latestViewedAt": "2026-09-08T23:58:05.685Z"
     },
     {
+      "slug": "crystal-pham-career-activated-csuncc-20260908-0010",
+      "badgeId": "CSUNCC-20260908-0010",
+      "awardeeName": "Crystal Pham",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/crystal-pham-career-activated-csuncc-20260908-0010/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-09T04:32:31.961Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1702,8 +1714,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 75,
-      "completions": 54,
-      "conversionRate": 72
+      "completions": 55,
+      "conversionRate": 73.3
     },
     {
       "key": "general",
@@ -2078,6 +2090,12 @@
     },
     {
       "awardeeName": "Arath Nathan Reyes Garcia",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Crystal Pham",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1

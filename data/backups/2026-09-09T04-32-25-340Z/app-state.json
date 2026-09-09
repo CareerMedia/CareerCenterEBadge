@@ -29656,48 +29656,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "de44d2ba-c1b4-4959-bf22-9f1dd32c7ca3",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-09T04:32:31.961Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0010",
-      "badgeSlug": "crystal-pham-career-activated-csuncc-20260908-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Crystal Pham",
-      "publicUrl": "https://careerbadge.csun.edu/badges/crystal-pham-career-activated-csuncc-20260908-0010/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "db5c9d00b050860b729a5076",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "fc4e4b44-d1b7-4f3c-8f31-91092b739ead",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-09T04:32:37.718Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0010",
-      "badgeSlug": "crystal-pham-career-activated-csuncc-20260908-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Crystal Pham",
-      "publicUrl": "https://careerbadge.csun.edu/badges/crystal-pham-career-activated-csuncc-20260908-0010/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "db5c9d00b050860b729a5076",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -30172,11 +30130,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-09T04:32:37.723Z",
+    "updatedAt": "2026-09-09T04:32:24.640Z",
     "totals": {
       "badgesIssued": 130,
-      "badgeViews": 380,
-      "certificateDownloads": 61,
+      "badgeViews": 379,
+      "certificateDownloads": 60,
       "generatorOpens": 165,
       "generatorCompletions": 94,
       "conversionRate": 57,
@@ -30242,8 +30200,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 48,
-        "badgeViews": 51,
-        "certificateDownloads": 46,
+        "badgeViews": 50,
+        "certificateDownloads": 45,
         "generatorOpens": 52,
         "generatorCompletions": 48,
         "uniqueVisitorsApprox": 61,
@@ -30255,8 +30213,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 130,
-        "badgeViews": 380,
-        "certificateDownloads": 61,
+        "badgeViews": 379,
+        "certificateDownloads": 60,
         "generatorOpens": 165,
         "generatorCompletions": 94,
         "uniqueVisitorsApprox": 292,
@@ -30278,8 +30236,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 56,
-        "badgeViews": 51,
-        "certificateDownloads": 49,
+        "badgeViews": 50,
+        "certificateDownloads": 48,
         "generatorOpens": 75,
         "generatorCompletions": 56,
         "conversionRate": 74.7
@@ -31111,18 +31069,6 @@
         "latestViewedAt": "2026-09-08T23:58:05.685Z"
       },
       {
-        "slug": "crystal-pham-career-activated-csuncc-20260908-0010",
-        "badgeId": "CSUNCC-20260908-0010",
-        "awardeeName": "Crystal Pham",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/crystal-pham-career-activated-csuncc-20260908-0010/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-09T04:32:31.961Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -31877,6 +31823,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "crystal-pham-career-activated-csuncc-20260908-0010",
+        "badgeId": "CSUNCC-20260908-0010",
+        "awardeeName": "Crystal Pham",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/crystal-pham-career-activated-csuncc-20260908-0010/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -32267,12 +32225,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Crystal Pham",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -32520,6 +32472,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Crystal Pham",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
