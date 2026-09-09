@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T05:16:38.643Z",
+  "updatedAt": "2026-09-09T05:18:34.320Z",
   "totals": {
-    "badgesIssued": 130,
-    "badgeViews": 380,
+    "badgesIssued": 131,
+    "badgeViews": 381,
     "certificateDownloads": 61,
     "generatorOpens": 166,
-    "generatorCompletions": 94,
-    "conversionRate": 56.6,
-    "uniqueVisitorsApprox": 293
+    "generatorCompletions": 95,
+    "conversionRate": 57.2,
+    "uniqueVisitorsApprox": 294
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 48,
-      "badgeViews": 51,
+      "badgesIssued": 49,
+      "badgeViews": 52,
       "certificateDownloads": 46,
       "generatorOpens": 53,
-      "generatorCompletions": 48,
-      "uniqueVisitorsApprox": 62,
-      "conversionRate": 90.6
+      "generatorCompletions": 49,
+      "uniqueVisitorsApprox": 63,
+      "conversionRate": 92.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 130,
-      "badgeViews": 380,
+      "badgesIssued": 131,
+      "badgeViews": 381,
       "certificateDownloads": 61,
       "generatorOpens": 166,
-      "generatorCompletions": 94,
-      "uniqueVisitorsApprox": 293,
-      "conversionRate": 56.6
+      "generatorCompletions": 95,
+      "uniqueVisitorsApprox": 294,
+      "conversionRate": 57.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 56,
-      "badgeViews": 51,
+      "badgesIssued": 57,
+      "badgeViews": 52,
       "certificateDownloads": 49,
       "generatorOpens": 76,
-      "generatorCompletions": 56,
-      "conversionRate": 73.7
+      "generatorCompletions": 57,
+      "conversionRate": 75
     },
     {
       "id": "fhtc-e-badge",
@@ -1095,6 +1095,18 @@
       "latestViewedAt": "2026-09-08T15:40:19.315Z"
     },
     {
+      "slug": "allison-vera-tiu-career-activated-csuncc-20260908-0011",
+      "badgeId": "CSUNCC-20260908-0011",
+      "awardeeName": "Allison Vera-Tiu",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/allison-vera-tiu-career-activated-csuncc-20260908-0011/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-09T05:18:34.317Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -1714,8 +1726,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 76,
-      "completions": 55,
-      "conversionRate": 72.4
+      "completions": 56,
+      "conversionRate": 73.7
     },
     {
       "key": "general",
@@ -2261,6 +2273,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Allison Vera-Tiu",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",
