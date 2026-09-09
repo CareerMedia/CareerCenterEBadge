@@ -29122,27 +29122,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "d9802451-f81d-4f4e-acde-00bbeb0b2750",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-09T02:28:24.831Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0007",
-      "badgeSlug": "eddie-ramirez-career-activated-csuncc-20260908-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Eddie Ramirez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/eddie-ramirez-career-activated-csuncc-20260908-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9ac043080709b63931cf5202",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -29617,11 +29596,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-09T02:28:24.836Z",
+    "updatedAt": "2026-09-09T02:27:33.138Z",
     "totals": {
       "badgesIssued": 127,
       "badgeViews": 379,
-      "certificateDownloads": 58,
+      "certificateDownloads": 57,
       "generatorOpens": 162,
       "generatorCompletions": 91,
       "conversionRate": 56.2,
@@ -29688,7 +29667,7 @@
         "label": "Sep 2026",
         "badgesIssued": 45,
         "badgeViews": 50,
-        "certificateDownloads": 43,
+        "certificateDownloads": 42,
         "generatorOpens": 49,
         "generatorCompletions": 45,
         "uniqueVisitorsApprox": 58,
@@ -29701,7 +29680,7 @@
         "label": "2026",
         "badgesIssued": 127,
         "badgeViews": 379,
-        "certificateDownloads": 58,
+        "certificateDownloads": 57,
         "generatorOpens": 162,
         "generatorCompletions": 91,
         "uniqueVisitorsApprox": 289,
@@ -29724,7 +29703,7 @@
         "title": "Career Activated",
         "badgesIssued": 53,
         "badgeViews": 50,
-        "certificateDownloads": 46,
+        "certificateDownloads": 45,
         "generatorOpens": 72,
         "generatorCompletions": 53,
         "conversionRate": 73.6
@@ -30940,18 +30919,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "eddie-ramirez-career-activated-csuncc-20260908-0007",
-        "badgeId": "CSUNCC-20260908-0007",
-        "awardeeName": "Eddie Ramirez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/eddie-ramirez-career-activated-csuncc-20260908-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -31282,6 +31249,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/emily-rosado-alonso-career-activated-csuncc-20260907-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "eddie-ramirez-career-activated-csuncc-20260908-0007",
+        "badgeId": "CSUNCC-20260908-0007",
+        "awardeeName": "Eddie Ramirez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/eddie-ramirez-career-activated-csuncc-20260908-0007/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -31820,12 +31799,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Eddie Ramirez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -31911,6 +31884,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Eddie Ramirez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T02:26:58.496Z",
+  "updatedAt": "2026-09-09T02:28:24.836Z",
   "totals": {
-    "badgesIssued": 126,
+    "badgesIssued": 127,
     "badgeViews": 379,
-    "certificateDownloads": 57,
+    "certificateDownloads": 58,
     "generatorOpens": 162,
-    "generatorCompletions": 90,
-    "conversionRate": 55.6,
+    "generatorCompletions": 91,
+    "conversionRate": 56.2,
     "uniqueVisitorsApprox": 289
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 44,
+      "badgesIssued": 45,
       "badgeViews": 50,
-      "certificateDownloads": 42,
+      "certificateDownloads": 43,
       "generatorOpens": 49,
-      "generatorCompletions": 44,
+      "generatorCompletions": 45,
       "uniqueVisitorsApprox": 58,
-      "conversionRate": 89.8
+      "conversionRate": 91.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 126,
+      "badgesIssued": 127,
       "badgeViews": 379,
-      "certificateDownloads": 57,
+      "certificateDownloads": 58,
       "generatorOpens": 162,
-      "generatorCompletions": 90,
+      "generatorCompletions": 91,
       "uniqueVisitorsApprox": 289,
-      "conversionRate": 55.6
+      "conversionRate": 56.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 52,
+      "badgesIssued": 53,
       "badgeViews": 50,
-      "certificateDownloads": 45,
+      "certificateDownloads": 46,
       "generatorOpens": 72,
-      "generatorCompletions": 52,
-      "conversionRate": 72.2
+      "generatorCompletions": 53,
+      "conversionRate": 73.6
     },
     {
       "id": "fhtc-e-badge",
@@ -1323,6 +1323,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "eddie-ramirez-career-activated-csuncc-20260908-0007",
+      "badgeId": "CSUNCC-20260908-0007",
+      "awardeeName": "Eddie Ramirez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/eddie-ramirez-career-activated-csuncc-20260908-0007/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1666,8 +1678,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 72,
-      "completions": 51,
-      "conversionRate": 70.8
+      "completions": 52,
+      "conversionRate": 72.2
     },
     {
       "key": "general",
@@ -2186,6 +2198,12 @@
     },
     {
       "awardeeName": "Jocelynn Sastre Bautista",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Eddie Ramirez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
