@@ -29478,27 +29478,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "bae9bda0-7e21-4a2f-994c-e44fd0a1bb45",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-09T03:48:36.034Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0009",
-      "badgeSlug": "elizabeth-orozco-career-activated-csuncc-20260908-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Elizabeth Orozco",
-      "publicUrl": "https://careerbadge.csun.edu/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "642a6dbee3521c47d268ec73",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -29973,11 +29952,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-09T03:48:36.042Z",
+    "updatedAt": "2026-09-09T03:48:31.414Z",
     "totals": {
       "badgesIssued": 129,
       "badgeViews": 379,
-      "certificateDownloads": 60,
+      "certificateDownloads": 59,
       "generatorOpens": 164,
       "generatorCompletions": 93,
       "conversionRate": 56.7,
@@ -30044,7 +30023,7 @@
         "label": "Sep 2026",
         "badgesIssued": 47,
         "badgeViews": 50,
-        "certificateDownloads": 45,
+        "certificateDownloads": 44,
         "generatorOpens": 51,
         "generatorCompletions": 47,
         "uniqueVisitorsApprox": 60,
@@ -30057,7 +30036,7 @@
         "label": "2026",
         "badgesIssued": 129,
         "badgeViews": 379,
-        "certificateDownloads": 60,
+        "certificateDownloads": 59,
         "generatorOpens": 164,
         "generatorCompletions": 93,
         "uniqueVisitorsApprox": 291,
@@ -30080,7 +30059,7 @@
         "title": "Career Activated",
         "badgesIssued": 55,
         "badgeViews": 50,
-        "certificateDownloads": 48,
+        "certificateDownloads": 47,
         "generatorOpens": 74,
         "generatorCompletions": 55,
         "conversionRate": 74.3
@@ -31320,18 +31299,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "elizabeth-orozco-career-activated-csuncc-20260908-0009",
-        "badgeId": "CSUNCC-20260908-0009",
-        "awardeeName": "Elizabeth Orozco",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -31662,6 +31629,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/emily-rosado-alonso-career-activated-csuncc-20260907-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "elizabeth-orozco-career-activated-csuncc-20260908-0009",
+        "badgeId": "CSUNCC-20260908-0009",
+        "awardeeName": "Elizabeth Orozco",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -32212,12 +32191,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Elizabeth Orozco",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -32303,6 +32276,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Elizabeth Orozco",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

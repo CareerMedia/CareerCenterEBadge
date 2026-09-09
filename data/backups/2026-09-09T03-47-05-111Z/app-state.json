@@ -11622,100 +11622,6 @@
       "openBadgeJsonPath": "docs/badges/kyle-noyes-career-activated-csuncc-20260908-0008/open-badge.json",
       "verifiableCredentialPath": "docs/badges/kyle-noyes-career-activated-csuncc-20260908-0008/credential.json",
       "verificationHash": "64eaa56983779df1addff8a00bc729f60e095c8a4be24f0c5c891c260ca7d8e8"
-    },
-    {
-      "id": "CSUNCC-20260908-0009",
-      "awardeeName": "Elizabeth Orozco",
-      "awardeeEmail": "elizabeth.orozco.458@my.csun.edu",
-      "issueDate": "September 8, 2026",
-      "issueDateISO": "2026-09-08",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-09T03:48:30.814Z",
-      "source": "public-generator",
-      "slug": "elizabeth-orozco-career-activated-csuncc-20260908-0009",
-      "relativeUrl": "../badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/",
-      "relativeJsonUrl": "../badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/",
-      "repoPath": "docs/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/index.html",
-      "detailsJsonPath": "docs/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/details.json",
-      "openBadgeJsonPath": "docs/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/credential.json",
-      "verificationHash": "51b2b41c3d4aabe9335f51b7fb069cf5cbce57abb590be5a5fed99303114e5bb"
     }
   ],
   "deletedBadges": [
@@ -29394,111 +29300,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "77fed1a6-1166-49fc-a1f0-1a776ff51103",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-09T03:47:30.036Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0008",
-      "badgeSlug": "kyle-noyes-career-activated-csuncc-20260908-0008",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kyle Noyes",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kyle-noyes-career-activated-csuncc-20260908-0008/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "f989c35b2c8d0e6399dc83f6",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "6851aaab-7b09-4db0-bfda-b1c39c4dd07c",
-      "type": "generator_opened",
-      "timestamp": "2026-09-09T03:48:06.979Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "642a6dbee3521c47d268ec73",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "5db12af9-edd5-4689-95c0-23da4a42435e",
-      "type": "badge_issued",
-      "timestamp": "2026-09-09T03:48:30.814Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0009",
-      "badgeSlug": "elizabeth-orozco-career-activated-csuncc-20260908-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Elizabeth Orozco",
-      "publicUrl": "https://careerbadge.csun.edu/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "2cefb77d-40bc-46f9-863b-9868494904f2",
-      "type": "generator_completed",
-      "timestamp": "2026-09-09T03:48:31.408Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0009",
-      "badgeSlug": "elizabeth-orozco-career-activated-csuncc-20260908-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Elizabeth Orozco",
-      "publicUrl": "https://careerbadge.csun.edu/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "bae9bda0-7e21-4a2f-994c-e44fd0a1bb45",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-09T03:48:36.034Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0009",
-      "badgeSlug": "elizabeth-orozco-career-activated-csuncc-20260908-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Elizabeth Orozco",
-      "publicUrl": "https://careerbadge.csun.edu/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "642a6dbee3521c47d268ec73",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -29973,15 +29774,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-09T03:48:36.042Z",
+    "updatedAt": "2026-09-09T03:47:04.409Z",
     "totals": {
-      "badgesIssued": 129,
+      "badgesIssued": 128,
       "badgeViews": 379,
-      "certificateDownloads": 60,
-      "generatorOpens": 164,
-      "generatorCompletions": 93,
-      "conversionRate": 56.7,
-      "uniqueVisitorsApprox": 291
+      "certificateDownloads": 58,
+      "generatorOpens": 163,
+      "generatorCompletions": 92,
+      "conversionRate": 56.4,
+      "uniqueVisitorsApprox": 290
     },
     "months": [
       {
@@ -30042,26 +29843,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 47,
+        "badgesIssued": 46,
         "badgeViews": 50,
-        "certificateDownloads": 45,
-        "generatorOpens": 51,
-        "generatorCompletions": 47,
-        "uniqueVisitorsApprox": 60,
-        "conversionRate": 92.2
+        "certificateDownloads": 43,
+        "generatorOpens": 50,
+        "generatorCompletions": 46,
+        "uniqueVisitorsApprox": 59,
+        "conversionRate": 92
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 129,
+        "badgesIssued": 128,
         "badgeViews": 379,
-        "certificateDownloads": 60,
-        "generatorOpens": 164,
-        "generatorCompletions": 93,
-        "uniqueVisitorsApprox": 291,
-        "conversionRate": 56.7
+        "certificateDownloads": 58,
+        "generatorOpens": 163,
+        "generatorCompletions": 92,
+        "uniqueVisitorsApprox": 290,
+        "conversionRate": 56.4
       }
     ],
     "badgeTypes": [
@@ -30078,12 +29879,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 55,
+        "badgesIssued": 54,
         "badgeViews": 50,
-        "certificateDownloads": 48,
-        "generatorOpens": 74,
-        "generatorCompletions": 55,
-        "conversionRate": 74.3
+        "certificateDownloads": 46,
+        "generatorOpens": 73,
+        "generatorCompletions": 54,
+        "conversionRate": 74
       },
       {
         "id": "fhtc-e-badge",
@@ -31308,30 +31109,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "kyle-noyes-career-activated-csuncc-20260908-0008",
-        "badgeId": "CSUNCC-20260908-0008",
-        "awardeeName": "Kyle Noyes",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/kyle-noyes-career-activated-csuncc-20260908-0008/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
-        "slug": "elizabeth-orozco-career-activated-csuncc-20260908-0009",
-        "badgeId": "CSUNCC-20260908-0009",
-        "awardeeName": "Elizabeth Orozco",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/elizabeth-orozco-career-activated-csuncc-20260908-0009/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -31666,6 +31443,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "kyle-noyes-career-activated-csuncc-20260908-0008",
+        "badgeId": "CSUNCC-20260908-0008",
+        "awardeeName": "Kyle Noyes",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/kyle-noyes-career-activated-csuncc-20260908-0008/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -31674,9 +31463,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 74,
-        "completions": 54,
-        "conversionRate": 73
+        "opens": 73,
+        "completions": 53,
+        "conversionRate": 72.6
       },
       {
         "key": "general",
@@ -32206,18 +31995,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Kyle Noyes",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Elizabeth Orozco",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -32303,6 +32080,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Kyle Noyes",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
