@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T23:00:55.992Z",
+  "updatedAt": "2026-09-09T23:04:10.462Z",
   "totals": {
     "badgesIssued": 135,
     "badgeViews": 383,
-    "certificateDownloads": 65,
-    "generatorOpens": 171,
+    "certificateDownloads": 66,
+    "generatorOpens": 172,
     "generatorCompletions": 99,
-    "conversionRate": 57.9,
+    "conversionRate": 57.6,
     "uniqueVisitorsApprox": 300
   },
   "months": [
@@ -71,11 +71,11 @@
       "label": "Sep 2026",
       "badgesIssued": 53,
       "badgeViews": 54,
-      "certificateDownloads": 50,
-      "generatorOpens": 58,
+      "certificateDownloads": 51,
+      "generatorOpens": 59,
       "generatorCompletions": 53,
       "uniqueVisitorsApprox": 69,
-      "conversionRate": 91.4
+      "conversionRate": 89.8
     }
   ],
   "years": [
@@ -84,11 +84,11 @@
       "label": "2026",
       "badgesIssued": 135,
       "badgeViews": 383,
-      "certificateDownloads": 65,
-      "generatorOpens": 171,
+      "certificateDownloads": 66,
+      "generatorOpens": 172,
       "generatorCompletions": 99,
       "uniqueVisitorsApprox": 300,
-      "conversionRate": 57.9
+      "conversionRate": 57.6
     }
   ],
   "badgeTypes": [
@@ -107,10 +107,10 @@
       "title": "Career Activated",
       "badgesIssued": 61,
       "badgeViews": 54,
-      "certificateDownloads": 53,
-      "generatorOpens": 81,
+      "certificateDownloads": 54,
+      "generatorOpens": 82,
       "generatorCompletions": 61,
-      "conversionRate": 75.3
+      "conversionRate": 74.4
     },
     {
       "id": "fhtc-e-badge",
@@ -1131,6 +1131,18 @@
       "latestViewedAt": "2026-04-28T16:42:10.813Z"
     },
     {
+      "slug": "leo-martinez-career-activated-csuncc-20260909-0002",
+      "badgeId": "CSUNCC-20260909-0002",
+      "awardeeName": "Leo Martinez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/leo-martinez-career-activated-csuncc-20260909-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 2,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "noemi-ornelas-career-activated-csuncc-20260825-0001",
       "badgeId": "CSUNCC-20260825-0001",
       "awardeeName": "Noemi Ornelas",
@@ -1413,18 +1425,6 @@
       "badgeTitle": "Career Activated",
       "badgeTemplateId": "career-activated",
       "publicUrl": "https://careerbadge.csun.edu/badges/allan-johnson-career-activated-csuncc-20260908-0013/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 1,
-      "latestViewedAt": ""
-    },
-    {
-      "slug": "leo-martinez-career-activated-csuncc-20260909-0002",
-      "badgeId": "CSUNCC-20260909-0002",
-      "awardeeName": "Leo Martinez",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/leo-martinez-career-activated-csuncc-20260909-0002/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1,
@@ -1773,9 +1773,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 81,
+      "opens": 82,
       "completions": 60,
-      "conversionRate": 74.1
+      "conversionRate": 73.2
     },
     {
       "key": "general",
@@ -2167,6 +2167,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Leo Martinez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 2
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -2342,12 +2348,6 @@
     },
     {
       "awardeeName": "Allan Johnson",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Leo Martinez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
