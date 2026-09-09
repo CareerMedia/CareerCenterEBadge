@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T05:49:25.756Z",
+  "updatedAt": "2026-09-09T05:49:39.736Z",
   "totals": {
-    "badgesIssued": 132,
+    "badgesIssued": 133,
     "badgeViews": 381,
-    "certificateDownloads": 62,
+    "certificateDownloads": 63,
     "generatorOpens": 168,
-    "generatorCompletions": 96,
-    "conversionRate": 57.1,
+    "generatorCompletions": 97,
+    "conversionRate": 57.7,
     "uniqueVisitorsApprox": 296
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 50,
+      "badgesIssued": 51,
       "badgeViews": 52,
-      "certificateDownloads": 47,
+      "certificateDownloads": 48,
       "generatorOpens": 55,
-      "generatorCompletions": 50,
+      "generatorCompletions": 51,
       "uniqueVisitorsApprox": 65,
-      "conversionRate": 90.9
+      "conversionRate": 92.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 132,
+      "badgesIssued": 133,
       "badgeViews": 381,
-      "certificateDownloads": 62,
+      "certificateDownloads": 63,
       "generatorOpens": 168,
-      "generatorCompletions": 96,
+      "generatorCompletions": 97,
       "uniqueVisitorsApprox": 296,
-      "conversionRate": 57.1
+      "conversionRate": 57.7
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 58,
+      "badgesIssued": 59,
       "badgeViews": 52,
-      "certificateDownloads": 50,
+      "certificateDownloads": 51,
       "generatorOpens": 78,
-      "generatorCompletions": 58,
-      "conversionRate": 74.4
+      "generatorCompletions": 59,
+      "conversionRate": 75.6
     },
     {
       "id": "fhtc-e-badge",
@@ -1395,6 +1395,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "allan-johnson-career-activated-csuncc-20260908-0013",
+      "badgeId": "CSUNCC-20260908-0013",
+      "awardeeName": "Allan Johnson",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/allan-johnson-career-activated-csuncc-20260908-0013/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1738,8 +1750,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 78,
-      "completions": 57,
-      "conversionRate": 73.1
+      "completions": 58,
+      "conversionRate": 74.4
     },
     {
       "key": "general",
@@ -2294,6 +2306,12 @@
     },
     {
       "awardeeName": "angel sandoval",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Allan Johnson",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
