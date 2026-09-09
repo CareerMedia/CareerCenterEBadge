@@ -30033,27 +30033,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "c4eb9dbf-8c5f-430d-ac05-f5413aed2858",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-09T05:40:29.582Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0012",
-      "badgeSlug": "angel-sandoval-career-activated-csuncc-20260908-0012",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "angel sandoval",
-      "publicUrl": "https://careerbadge.csun.edu/badges/angel-sandoval-career-activated-csuncc-20260908-0012/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "73142dee4023af99fd6ac7a7",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -30528,11 +30507,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-09T05:40:29.589Z",
+    "updatedAt": "2026-09-09T05:40:22.294Z",
     "totals": {
       "badgesIssued": 132,
       "badgeViews": 381,
-      "certificateDownloads": 62,
+      "certificateDownloads": 61,
       "generatorOpens": 167,
       "generatorCompletions": 96,
       "conversionRate": 57.5,
@@ -30599,7 +30578,7 @@
         "label": "Sep 2026",
         "badgesIssued": 50,
         "badgeViews": 52,
-        "certificateDownloads": 47,
+        "certificateDownloads": 46,
         "generatorOpens": 54,
         "generatorCompletions": 50,
         "uniqueVisitorsApprox": 64,
@@ -30612,7 +30591,7 @@
         "label": "2026",
         "badgesIssued": 132,
         "badgeViews": 381,
-        "certificateDownloads": 62,
+        "certificateDownloads": 61,
         "generatorOpens": 167,
         "generatorCompletions": 96,
         "uniqueVisitorsApprox": 295,
@@ -30635,7 +30614,7 @@
         "title": "Career Activated",
         "badgesIssued": 58,
         "badgeViews": 52,
-        "certificateDownloads": 50,
+        "certificateDownloads": 49,
         "generatorOpens": 77,
         "generatorCompletions": 58,
         "conversionRate": 75.3
@@ -31911,18 +31890,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "angel-sandoval-career-activated-csuncc-20260908-0012",
-        "badgeId": "CSUNCC-20260908-0012",
-        "awardeeName": "angel sandoval",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/angel-sandoval-career-activated-csuncc-20260908-0012/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -32253,6 +32220,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/emily-rosado-alonso-career-activated-csuncc-20260907-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "angel-sandoval-career-activated-csuncc-20260908-0012",
+        "badgeId": "CSUNCC-20260908-0012",
+        "awardeeName": "angel sandoval",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/angel-sandoval-career-activated-csuncc-20260908-0012/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -32821,12 +32800,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "angel sandoval",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -32912,6 +32885,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "angel sandoval",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

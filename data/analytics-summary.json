@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T05:39:58.489Z",
+  "updatedAt": "2026-09-09T05:40:29.589Z",
   "totals": {
-    "badgesIssued": 131,
+    "badgesIssued": 132,
     "badgeViews": 381,
-    "certificateDownloads": 61,
+    "certificateDownloads": 62,
     "generatorOpens": 167,
-    "generatorCompletions": 95,
-    "conversionRate": 56.9,
+    "generatorCompletions": 96,
+    "conversionRate": 57.5,
     "uniqueVisitorsApprox": 295
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 49,
+      "badgesIssued": 50,
       "badgeViews": 52,
-      "certificateDownloads": 46,
+      "certificateDownloads": 47,
       "generatorOpens": 54,
-      "generatorCompletions": 49,
+      "generatorCompletions": 50,
       "uniqueVisitorsApprox": 64,
-      "conversionRate": 90.7
+      "conversionRate": 92.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 131,
+      "badgesIssued": 132,
       "badgeViews": 381,
-      "certificateDownloads": 61,
+      "certificateDownloads": 62,
       "generatorOpens": 167,
-      "generatorCompletions": 95,
+      "generatorCompletions": 96,
       "uniqueVisitorsApprox": 295,
-      "conversionRate": 56.9
+      "conversionRate": 57.5
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 57,
+      "badgesIssued": 58,
       "badgeViews": 52,
-      "certificateDownloads": 49,
+      "certificateDownloads": 50,
       "generatorOpens": 77,
-      "generatorCompletions": 57,
-      "conversionRate": 74
+      "generatorCompletions": 58,
+      "conversionRate": 75.3
     },
     {
       "id": "fhtc-e-badge",
@@ -1383,6 +1383,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "angel-sandoval-career-activated-csuncc-20260908-0012",
+      "badgeId": "CSUNCC-20260908-0012",
+      "awardeeName": "angel sandoval",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/angel-sandoval-career-activated-csuncc-20260908-0012/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1726,8 +1738,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 77,
-      "completions": 56,
-      "conversionRate": 72.7
+      "completions": 57,
+      "conversionRate": 74
     },
     {
       "key": "general",
@@ -2279,6 +2291,12 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "angel sandoval",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Harsh Ahir",
