@@ -30630,27 +30630,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "2d86a096-6acf-4f22-85eb-63476bdb4047",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-09T23:00:55.987Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260909-0002",
-      "badgeSlug": "leo-martinez-career-activated-csuncc-20260909-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Leo Martinez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/leo-martinez-career-activated-csuncc-20260909-0002/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "5b0b7e89a665e3b95077b3cd",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -31125,11 +31104,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-09T23:00:55.992Z",
+    "updatedAt": "2026-09-09T23:00:52.253Z",
     "totals": {
       "badgesIssued": 135,
       "badgeViews": 383,
-      "certificateDownloads": 65,
+      "certificateDownloads": 64,
       "generatorOpens": 171,
       "generatorCompletions": 99,
       "conversionRate": 57.9,
@@ -31196,7 +31175,7 @@
         "label": "Sep 2026",
         "badgesIssued": 53,
         "badgeViews": 54,
-        "certificateDownloads": 50,
+        "certificateDownloads": 49,
         "generatorOpens": 58,
         "generatorCompletions": 53,
         "uniqueVisitorsApprox": 69,
@@ -31209,7 +31188,7 @@
         "label": "2026",
         "badgesIssued": 135,
         "badgeViews": 383,
-        "certificateDownloads": 65,
+        "certificateDownloads": 64,
         "generatorOpens": 171,
         "generatorCompletions": 99,
         "uniqueVisitorsApprox": 300,
@@ -31232,7 +31211,7 @@
         "title": "Career Activated",
         "badgesIssued": 61,
         "badgeViews": 54,
-        "certificateDownloads": 53,
+        "certificateDownloads": 52,
         "generatorOpens": 81,
         "generatorCompletions": 61,
         "conversionRate": 75.3
@@ -32544,18 +32523,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "leo-martinez-career-activated-csuncc-20260909-0002",
-        "badgeId": "CSUNCC-20260909-0002",
-        "awardeeName": "Leo Martinez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/leo-martinez-career-activated-csuncc-20260909-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -32886,6 +32853,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/emily-rosado-alonso-career-activated-csuncc-20260907-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "leo-martinez-career-activated-csuncc-20260909-0002",
+        "badgeId": "CSUNCC-20260909-0002",
+        "awardeeName": "Leo Martinez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/leo-martinez-career-activated-csuncc-20260909-0002/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -33472,12 +33451,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Leo Martinez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -33563,6 +33536,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Leo Martinez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
