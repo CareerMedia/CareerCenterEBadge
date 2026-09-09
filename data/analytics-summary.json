@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T23:56:28.896Z",
+  "updatedAt": "2026-09-08T23:58:05.694Z",
   "totals": {
-    "badgesIssued": 125,
-    "badgeViews": 378,
-    "certificateDownloads": 56,
+    "badgesIssued": 126,
+    "badgeViews": 379,
+    "certificateDownloads": 57,
     "generatorOpens": 161,
-    "generatorCompletions": 89,
-    "conversionRate": 55.3,
+    "generatorCompletions": 90,
+    "conversionRate": 55.9,
     "uniqueVisitorsApprox": 288
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 43,
-      "badgeViews": 49,
-      "certificateDownloads": 41,
+      "badgesIssued": 44,
+      "badgeViews": 50,
+      "certificateDownloads": 42,
       "generatorOpens": 48,
-      "generatorCompletions": 43,
+      "generatorCompletions": 44,
       "uniqueVisitorsApprox": 57,
-      "conversionRate": 89.6
+      "conversionRate": 91.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 125,
-      "badgeViews": 378,
-      "certificateDownloads": 56,
+      "badgesIssued": 126,
+      "badgeViews": 379,
+      "certificateDownloads": 57,
       "generatorOpens": 161,
-      "generatorCompletions": 89,
+      "generatorCompletions": 90,
       "uniqueVisitorsApprox": 288,
-      "conversionRate": 55.3
+      "conversionRate": 55.9
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 51,
-      "badgeViews": 49,
-      "certificateDownloads": 44,
+      "badgesIssued": 52,
+      "badgeViews": 50,
+      "certificateDownloads": 45,
       "generatorOpens": 71,
-      "generatorCompletions": 51,
-      "conversionRate": 71.8
+      "generatorCompletions": 52,
+      "conversionRate": 73.2
     },
     {
       "id": "fhtc-e-badge",
@@ -927,6 +927,18 @@
       "latestViewedAt": "2026-09-08T08:16:14.488Z"
     },
     {
+      "slug": "arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006",
+      "badgeId": "CSUNCC-20260908-0006",
+      "awardeeName": "Arath Nathan Reyes Garcia",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-08T23:58:05.685Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1654,8 +1666,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 71,
-      "completions": 50,
-      "conversionRate": 70.4
+      "completions": 51,
+      "conversionRate": 71.8
     },
     {
       "key": "general",
@@ -2024,6 +2036,12 @@
     },
     {
       "awardeeName": "Yuridia Sucel Vazquez",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Arath Nathan Reyes Garcia",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1

@@ -28923,48 +28923,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "b1128d89-c120-439c-90a2-f5df4aeb37d1",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-08T23:57:37.778Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0006",
-      "badgeSlug": "arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Arath Nathan Reyes Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "244fde28a226b3c67d193a6b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "3df94194-4dd3-4280-a1b2-a35996f98511",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-08T23:58:05.685Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260908-0006",
-      "badgeSlug": "arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Arath Nathan Reyes Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "244fde28a226b3c67d193a6b",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -29439,11 +29397,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-08T23:58:05.694Z",
+    "updatedAt": "2026-09-08T23:57:30.882Z",
     "totals": {
       "badgesIssued": 126,
-      "badgeViews": 379,
-      "certificateDownloads": 57,
+      "badgeViews": 378,
+      "certificateDownloads": 56,
       "generatorOpens": 161,
       "generatorCompletions": 90,
       "conversionRate": 55.9,
@@ -29509,8 +29467,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 44,
-        "badgeViews": 50,
-        "certificateDownloads": 42,
+        "badgeViews": 49,
+        "certificateDownloads": 41,
         "generatorOpens": 48,
         "generatorCompletions": 44,
         "uniqueVisitorsApprox": 57,
@@ -29522,8 +29480,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 126,
-        "badgeViews": 379,
-        "certificateDownloads": 57,
+        "badgeViews": 378,
+        "certificateDownloads": 56,
         "generatorOpens": 161,
         "generatorCompletions": 90,
         "uniqueVisitorsApprox": 288,
@@ -29545,8 +29503,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 52,
-        "badgeViews": 50,
-        "certificateDownloads": 45,
+        "badgeViews": 49,
+        "certificateDownloads": 44,
         "generatorOpens": 71,
         "generatorCompletions": 52,
         "conversionRate": 73.2
@@ -30366,18 +30324,6 @@
         "latestViewedAt": "2026-09-08T08:16:14.488Z"
       },
       {
-        "slug": "arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006",
-        "badgeId": "CSUNCC-20260908-0006",
-        "awardeeName": "Arath Nathan Reyes Garcia",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-08T23:58:05.685Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -31096,6 +31042,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006",
+        "badgeId": "CSUNCC-20260908-0006",
+        "awardeeName": "Arath Nathan Reyes Garcia",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/arath-nathan-reyes-garcia-career-activated-csuncc-20260908-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -31480,12 +31438,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Arath Nathan Reyes Garcia",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -31715,6 +31667,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Arath Nathan Reyes Garcia",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
