@@ -32002,48 +32002,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "6496c1e4-e9cc-4080-9830-aa408c176395",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-10T18:04:17.083Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260910-0002",
-      "badgeSlug": "miley-v-molina-guzman-career-activated-csuncc-20260910-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Miley V. Molina Guzman",
-      "publicUrl": "https://careerbadge.csun.edu/badges/miley-v-molina-guzman-career-activated-csuncc-20260910-0002/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "e8a709b1cad6e91b6f4a3256",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "4c1112bc-2b76-4653-b9c5-5f3c01f3c0b5",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-10T18:04:25.978Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260910-0002",
-      "badgeSlug": "miley-v-molina-guzman-career-activated-csuncc-20260910-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Miley V. Molina Guzman",
-      "publicUrl": "https://careerbadge.csun.edu/badges/miley-v-molina-guzman-career-activated-csuncc-20260910-0002/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "e8a709b1cad6e91b6f4a3256",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -32518,11 +32476,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-10T18:04:25.985Z",
+    "updatedAt": "2026-09-10T18:04:13.533Z",
     "totals": {
       "badgesIssued": 142,
-      "badgeViews": 391,
-      "certificateDownloads": 72,
+      "badgeViews": 390,
+      "certificateDownloads": 71,
       "generatorOpens": 177,
       "generatorCompletions": 106,
       "conversionRate": 59.9,
@@ -32588,8 +32546,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 60,
-        "badgeViews": 62,
-        "certificateDownloads": 57,
+        "badgeViews": 61,
+        "certificateDownloads": 56,
         "generatorOpens": 64,
         "generatorCompletions": 60,
         "uniqueVisitorsApprox": 75,
@@ -32601,8 +32559,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 142,
-        "badgeViews": 391,
-        "certificateDownloads": 72,
+        "badgeViews": 390,
+        "certificateDownloads": 71,
         "generatorOpens": 177,
         "generatorCompletions": 106,
         "uniqueVisitorsApprox": 306,
@@ -32624,8 +32582,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 68,
-        "badgeViews": 62,
-        "certificateDownloads": 60,
+        "badgeViews": 61,
+        "certificateDownloads": 59,
         "generatorOpens": 87,
         "generatorCompletions": 68,
         "conversionRate": 78.2
@@ -33517,18 +33475,6 @@
         "latestViewedAt": "2026-09-10T18:03:01.711Z"
       },
       {
-        "slug": "miley-v-molina-guzman-career-activated-csuncc-20260910-0002",
-        "badgeId": "CSUNCC-20260910-0002",
-        "awardeeName": "Miley V. Molina Guzman",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/miley-v-molina-guzman-career-activated-csuncc-20260910-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-10T18:04:17.083Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -34367,6 +34313,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "miley-v-molina-guzman-career-activated-csuncc-20260910-0002",
+        "badgeId": "CSUNCC-20260910-0002",
+        "awardeeName": "Miley V. Molina Guzman",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/miley-v-molina-guzman-career-activated-csuncc-20260910-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -34793,12 +34751,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Miley V. Molina Guzman",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -35076,6 +35028,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Miley V. Molina Guzman",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

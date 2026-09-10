@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T18:01:48.620Z",
+  "updatedAt": "2026-09-10T18:04:25.985Z",
   "totals": {
-    "badgesIssued": 140,
-    "badgeViews": 389,
-    "certificateDownloads": 70,
+    "badgesIssued": 142,
+    "badgeViews": 391,
+    "certificateDownloads": 72,
     "generatorOpens": 177,
-    "generatorCompletions": 104,
-    "conversionRate": 58.8,
+    "generatorCompletions": 106,
+    "conversionRate": 59.9,
     "uniqueVisitorsApprox": 306
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 58,
-      "badgeViews": 60,
-      "certificateDownloads": 55,
+      "badgesIssued": 60,
+      "badgeViews": 62,
+      "certificateDownloads": 57,
       "generatorOpens": 64,
-      "generatorCompletions": 58,
+      "generatorCompletions": 60,
       "uniqueVisitorsApprox": 75,
-      "conversionRate": 90.6
+      "conversionRate": 93.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 140,
-      "badgeViews": 389,
-      "certificateDownloads": 70,
+      "badgesIssued": 142,
+      "badgeViews": 391,
+      "certificateDownloads": 72,
       "generatorOpens": 177,
-      "generatorCompletions": 104,
+      "generatorCompletions": 106,
       "uniqueVisitorsApprox": 306,
-      "conversionRate": 58.8
+      "conversionRate": 59.9
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 66,
-      "badgeViews": 60,
-      "certificateDownloads": 58,
+      "badgesIssued": 68,
+      "badgeViews": 62,
+      "certificateDownloads": 60,
       "generatorOpens": 87,
-      "generatorCompletions": 66,
-      "conversionRate": 75.9
+      "generatorCompletions": 68,
+      "conversionRate": 78.2
     },
     {
       "id": "fhtc-e-badge",
@@ -987,6 +987,30 @@
       "latestViewedAt": "2026-09-09T19:48:29.081Z"
     },
     {
+      "slug": "miley-vanessa-molina-guzman-career-activated-csuncc-20260910-0001",
+      "badgeId": "CSUNCC-20260910-0001",
+      "awardeeName": "Miley Vanessa Molina Guzman",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/miley-vanessa-molina-guzman-career-activated-csuncc-20260910-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-10T18:03:01.711Z"
+    },
+    {
+      "slug": "miley-v-molina-guzman-career-activated-csuncc-20260910-0002",
+      "badgeId": "CSUNCC-20260910-0002",
+      "awardeeName": "Miley V. Molina Guzman",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/miley-v-molina-guzman-career-activated-csuncc-20260910-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-10T18:04:17.083Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1834,8 +1858,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 87,
-      "completions": 65,
-      "conversionRate": 74.7
+      "completions": 67,
+      "conversionRate": 77
     },
     {
       "key": "general",
@@ -2243,6 +2267,18 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Miley Vanessa Molina Guzman",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Miley V. Molina Guzman",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Maddie Paul",
