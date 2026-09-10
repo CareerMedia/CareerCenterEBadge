@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T05:55:16.684Z",
+  "updatedAt": "2026-09-10T06:02:06.790Z",
   "totals": {
     "badgesIssued": 140,
-    "badgeViews": 386,
+    "badgeViews": 387,
     "certificateDownloads": 70,
     "generatorOpens": 176,
     "generatorCompletions": 104,
@@ -70,7 +70,7 @@
       "key": "2026-09",
       "label": "Sep 2026",
       "badgesIssued": 58,
-      "badgeViews": 57,
+      "badgeViews": 58,
       "certificateDownloads": 55,
       "generatorOpens": 63,
       "generatorCompletions": 58,
@@ -83,7 +83,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 140,
-      "badgeViews": 386,
+      "badgeViews": 387,
       "certificateDownloads": 70,
       "generatorOpens": 176,
       "generatorCompletions": 104,
@@ -106,7 +106,7 @@
       "id": "career-activated",
       "title": "Career Activated",
       "badgesIssued": 66,
-      "badgeViews": 57,
+      "badgeViews": 58,
       "certificateDownloads": 58,
       "generatorOpens": 86,
       "generatorCompletions": 66,
@@ -567,6 +567,18 @@
       "latestViewedAt": "2026-06-09T23:13:03.215Z"
     },
     {
+      "slug": "maximiliano-cervantes-career-activated-csuncc-20260909-0005",
+      "badgeId": "CSUNCC-20260909-0005",
+      "awardeeName": "Maximiliano cervantes",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-10T06:02:06.773Z"
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
       "badgeId": "CSUNCC-20260409-0003",
       "awardeeName": "Bryce Simon",
@@ -745,18 +757,6 @@
       "badgeViews": 2,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-07T04:46:09.231Z"
-    },
-    {
-      "slug": "maximiliano-cervantes-career-activated-csuncc-20260909-0005",
-      "badgeId": "CSUNCC-20260909-0005",
-      "awardeeName": "Maximiliano cervantes",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0005/",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 1,
-      "latestViewedAt": "2026-09-10T05:54:16.912Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
@@ -2029,6 +2029,12 @@
       "certificateDownloads": 2
     },
     {
+      "awardeeName": "Maximiliano cervantes",
+      "badgesIssued": 2,
+      "badgeViews": 3,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Genesis Lozano-Gonzalez",
       "badgesIssued": 1,
       "badgeViews": 4,
@@ -2087,12 +2093,6 @@
       "badgesIssued": 1,
       "badgeViews": 2,
       "certificateDownloads": 2
-    },
-    {
-      "awardeeName": "Maximiliano cervantes",
-      "badgesIssued": 2,
-      "badgeViews": 2,
-      "certificateDownloads": 1
     },
     {
       "awardeeName": "Jennifer Sandoval",
