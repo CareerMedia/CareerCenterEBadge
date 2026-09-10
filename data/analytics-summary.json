@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T22:19:58.832Z",
+  "updatedAt": "2026-09-10T22:20:57.882Z",
   "totals": {
-    "badgesIssued": 142,
+    "badgesIssued": 143,
     "badgeViews": 391,
-    "certificateDownloads": 72,
+    "certificateDownloads": 73,
     "generatorOpens": 178,
-    "generatorCompletions": 106,
-    "conversionRate": 59.6,
+    "generatorCompletions": 107,
+    "conversionRate": 60.1,
     "uniqueVisitorsApprox": 307
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 60,
+      "badgesIssued": 61,
       "badgeViews": 62,
-      "certificateDownloads": 57,
+      "certificateDownloads": 58,
       "generatorOpens": 65,
-      "generatorCompletions": 60,
+      "generatorCompletions": 61,
       "uniqueVisitorsApprox": 76,
-      "conversionRate": 92.3
+      "conversionRate": 93.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 142,
+      "badgesIssued": 143,
       "badgeViews": 391,
-      "certificateDownloads": 72,
+      "certificateDownloads": 73,
       "generatorOpens": 178,
-      "generatorCompletions": 106,
+      "generatorCompletions": 107,
       "uniqueVisitorsApprox": 307,
-      "conversionRate": 59.6
+      "conversionRate": 60.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 68,
+      "badgesIssued": 69,
       "badgeViews": 62,
-      "certificateDownloads": 60,
+      "certificateDownloads": 61,
       "generatorOpens": 88,
-      "generatorCompletions": 68,
-      "conversionRate": 77.3
+      "generatorCompletions": 69,
+      "conversionRate": 78.4
     },
     {
       "id": "fhtc-e-badge",
@@ -1503,6 +1503,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "fuamatala-brown-career-activated-csuncc-20260910-0003",
+      "badgeId": "CSUNCC-20260910-0003",
+      "awardeeName": "Fuamatala Brown",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/fuamatala-brown-career-activated-csuncc-20260910-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1858,8 +1870,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 88,
-      "completions": 67,
-      "conversionRate": 76.1
+      "completions": 68,
+      "conversionRate": 77.3
     },
     {
       "key": "general",
@@ -2468,6 +2480,12 @@
     },
     {
       "awardeeName": "Niyah De La garza",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Fuamatala Brown",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

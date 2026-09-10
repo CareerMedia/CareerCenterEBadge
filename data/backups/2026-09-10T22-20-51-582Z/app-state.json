@@ -32201,27 +32201,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "939d6a70-4dde-469e-b723-11120d9f2667",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-10T22:20:57.864Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260910-0003",
-      "badgeSlug": "fuamatala-brown-career-activated-csuncc-20260910-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Fuamatala Brown",
-      "publicUrl": "https://careerbadge.csun.edu/badges/fuamatala-brown-career-activated-csuncc-20260910-0003/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "226a2301fb385c91c01d3554",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -32696,11 +32675,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-10T22:20:57.882Z",
+    "updatedAt": "2026-09-10T22:20:50.782Z",
     "totals": {
       "badgesIssued": 143,
       "badgeViews": 391,
-      "certificateDownloads": 73,
+      "certificateDownloads": 72,
       "generatorOpens": 178,
       "generatorCompletions": 107,
       "conversionRate": 60.1,
@@ -32767,7 +32746,7 @@
         "label": "Sep 2026",
         "badgesIssued": 61,
         "badgeViews": 62,
-        "certificateDownloads": 58,
+        "certificateDownloads": 57,
         "generatorOpens": 65,
         "generatorCompletions": 61,
         "uniqueVisitorsApprox": 76,
@@ -32780,7 +32759,7 @@
         "label": "2026",
         "badgesIssued": 143,
         "badgeViews": 391,
-        "certificateDownloads": 73,
+        "certificateDownloads": 72,
         "generatorOpens": 178,
         "generatorCompletions": 107,
         "uniqueVisitorsApprox": 307,
@@ -32803,7 +32782,7 @@
         "title": "Career Activated",
         "badgesIssued": 69,
         "badgeViews": 62,
-        "certificateDownloads": 61,
+        "certificateDownloads": 60,
         "generatorOpens": 88,
         "generatorCompletions": 69,
         "conversionRate": 78.4
@@ -34199,18 +34178,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "fuamatala-brown-career-activated-csuncc-20260910-0003",
-        "badgeId": "CSUNCC-20260910-0003",
-        "awardeeName": "Fuamatala Brown",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/fuamatala-brown-career-activated-csuncc-20260910-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -34553,6 +34520,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "fuamatala-brown-career-activated-csuncc-20260910-0003",
+        "badgeId": "CSUNCC-20260910-0003",
+        "awardeeName": "Fuamatala Brown",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/fuamatala-brown-career-activated-csuncc-20260910-0003/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -35181,12 +35160,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Fuamatala Brown",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -35272,6 +35245,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Fuamatala Brown",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
