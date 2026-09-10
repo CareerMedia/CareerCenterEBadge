@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T22:20:57.882Z",
+  "updatedAt": "2026-09-10T23:40:41.760Z",
   "totals": {
     "badgesIssued": 143,
-    "badgeViews": 391,
+    "badgeViews": 392,
     "certificateDownloads": 73,
     "generatorOpens": 178,
     "generatorCompletions": 107,
     "conversionRate": 60.1,
-    "uniqueVisitorsApprox": 307
+    "uniqueVisitorsApprox": 308
   },
   "months": [
     {
@@ -70,11 +70,11 @@
       "key": "2026-09",
       "label": "Sep 2026",
       "badgesIssued": 61,
-      "badgeViews": 62,
+      "badgeViews": 63,
       "certificateDownloads": 58,
       "generatorOpens": 65,
       "generatorCompletions": 61,
-      "uniqueVisitorsApprox": 76,
+      "uniqueVisitorsApprox": 77,
       "conversionRate": 93.8
     }
   ],
@@ -83,11 +83,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 143,
-      "badgeViews": 391,
+      "badgeViews": 392,
       "certificateDownloads": 73,
       "generatorOpens": 178,
       "generatorCompletions": 107,
-      "uniqueVisitorsApprox": 307,
+      "uniqueVisitorsApprox": 308,
       "conversionRate": 60.1
     }
   ],
@@ -106,7 +106,7 @@
       "id": "career-activated",
       "title": "Career Activated",
       "badgesIssued": 69,
-      "badgeViews": 62,
+      "badgeViews": 63,
       "certificateDownloads": 61,
       "generatorOpens": 88,
       "generatorCompletions": 69,
@@ -567,6 +567,18 @@
       "latestViewedAt": "2026-06-09T23:13:03.215Z"
     },
     {
+      "slug": "nicolei-padua-career-activated-csuncc-20260902-0004",
+      "badgeId": "CSUNCC-20260902-0004",
+      "awardeeName": "Nicolei Padua",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/nicolei-padua-career-activated-csuncc-20260902-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-10T23:40:41.751Z"
+    },
+    {
       "slug": "maximiliano-cervantes-career-activated-csuncc-20260909-0005",
       "badgeId": "CSUNCC-20260909-0005",
       "awardeeName": "Maximiliano cervantes",
@@ -709,18 +721,6 @@
       "badgeViews": 2,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-01T20:57:35.372Z"
-    },
-    {
-      "slug": "nicolei-padua-career-activated-csuncc-20260902-0004",
-      "badgeId": "CSUNCC-20260902-0004",
-      "awardeeName": "Nicolei Padua",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/nicolei-padua-career-activated-csuncc-20260902-0004/",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 1,
-      "latestViewedAt": "2026-09-09T20:31:33.800Z"
     },
     {
       "slug": "melissa-garcis-career-activated-csuncc-20260902-0009",
@@ -2119,6 +2119,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Nicolei Padua",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Melissa Garcia",
       "badgesIssued": 1,
       "badgeViews": 2,
@@ -2165,12 +2171,6 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 2
-    },
-    {
-      "awardeeName": "Nicolei Padua",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 1
     },
     {
       "awardeeName": "Melissa Garcis",
