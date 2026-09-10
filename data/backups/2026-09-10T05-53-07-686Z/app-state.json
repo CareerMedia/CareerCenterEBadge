@@ -12656,100 +12656,6 @@
       "openBadgeJsonPath": "docs/badges/niyah-de-la-garza-career-activated-csuncc-20260909-0006/open-badge.json",
       "verifiableCredentialPath": "docs/badges/niyah-de-la-garza-career-activated-csuncc-20260909-0006/credential.json",
       "verificationHash": "8df045d9c0e02ca659f92af7782af06a30576d4e88719fa91778d870f3ee488e"
-    },
-    {
-      "id": "CSUNCC-20260909-0007",
-      "awardeeName": "Maximiliano cervantes",
-      "awardeeEmail": "maximilianocervantes08@gmail.com",
-      "issueDate": "September 9, 2026",
-      "issueDateISO": "2026-09-09",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-10T05:55:15.980Z",
-      "source": "public-generator",
-      "slug": "maximiliano-cervantes-career-activated-csuncc-20260909-0007",
-      "relativeUrl": "../badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
-      "relativeJsonUrl": "../badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
-      "repoPath": "docs/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/index.html",
-      "detailsJsonPath": "docs/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/details.json",
-      "openBadgeJsonPath": "docs/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/credential.json",
-      "verificationHash": "7a617cc685bae3ca3d2b986b2d27054b502c102bffe555c04a59e1f6a540da8a"
     }
   ],
   "deletedBadges": [
@@ -31478,132 +31384,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "19361a8a-ff93-4eb7-8798-2573d8d12351",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-10T05:53:12.725Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260909-0006",
-      "badgeSlug": "niyah-de-la-garza-career-activated-csuncc-20260909-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Niyah De La garza",
-      "publicUrl": "https://careerbadge.csun.edu/badges/niyah-de-la-garza-career-activated-csuncc-20260909-0006/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "f4e73519ef503ec61b3b6d4e",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "7e367eae-b605-4a57-a850-a4b3b93233a5",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-10T05:53:21.143Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260909-0005",
-      "badgeSlug": "maximiliano-cervantes-career-activated-csuncc-20260909-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Maximiliano cervantes",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0005/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "ce0fad1af0c9b6f9cd3fe4cf",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "26405634-a380-4dff-bd34-24fdfbaa6c50",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-10T05:53:38.167Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260909-0005",
-      "badgeSlug": "maximiliano-cervantes-career-activated-csuncc-20260909-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Maximiliano cervantes",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "ce0fad1af0c9b6f9cd3fe4cf",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "c6bea8e6-474d-4b8c-b75c-7e37d226332d",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-10T05:54:16.912Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260909-0005",
-      "badgeSlug": "maximiliano-cervantes-career-activated-csuncc-20260909-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Maximiliano cervantes",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "ce0fad1af0c9b6f9cd3fe4cf",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "d9b2fd23-05c9-46e3-a0da-0be187284d66",
-      "type": "badge_issued",
-      "timestamp": "2026-09-10T05:55:15.980Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260909-0007",
-      "badgeSlug": "maximiliano-cervantes-career-activated-csuncc-20260909-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Maximiliano cervantes",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "c9b51bdc-5fb5-4986-95ca-931015a75617",
-      "type": "generator_completed",
-      "timestamp": "2026-09-10T05:55:16.607Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260909-0007",
-      "badgeSlug": "maximiliano-cervantes-career-activated-csuncc-20260909-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Maximiliano cervantes",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -32078,14 +31858,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-10T05:55:16.684Z",
+    "updatedAt": "2026-09-10T05:53:06.983Z",
     "totals": {
-      "badgesIssued": 140,
-      "badgeViews": 386,
-      "certificateDownloads": 70,
+      "badgesIssued": 139,
+      "badgeViews": 384,
+      "certificateDownloads": 68,
       "generatorOpens": 176,
-      "generatorCompletions": 104,
-      "conversionRate": 59.1,
+      "generatorCompletions": 103,
+      "conversionRate": 58.5,
       "uniqueVisitorsApprox": 304
     },
     "months": [
@@ -32147,26 +31927,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 58,
-        "badgeViews": 57,
-        "certificateDownloads": 55,
+        "badgesIssued": 57,
+        "badgeViews": 55,
+        "certificateDownloads": 53,
         "generatorOpens": 63,
-        "generatorCompletions": 58,
+        "generatorCompletions": 57,
         "uniqueVisitorsApprox": 73,
-        "conversionRate": 92.1
+        "conversionRate": 90.5
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 140,
-        "badgeViews": 386,
-        "certificateDownloads": 70,
+        "badgesIssued": 139,
+        "badgeViews": 384,
+        "certificateDownloads": 68,
         "generatorOpens": 176,
-        "generatorCompletions": 104,
+        "generatorCompletions": 103,
         "uniqueVisitorsApprox": 304,
-        "conversionRate": 59.1
+        "conversionRate": 58.5
       }
     ],
     "badgeTypes": [
@@ -32183,12 +31963,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 66,
-        "badgeViews": 57,
-        "certificateDownloads": 58,
+        "badgesIssued": 65,
+        "badgeViews": 55,
+        "certificateDownloads": 56,
         "generatorOpens": 86,
-        "generatorCompletions": 66,
-        "conversionRate": 76.7
+        "generatorCompletions": 65,
+        "conversionRate": 75.6
       },
       {
         "id": "fhtc-e-badge",
@@ -32823,18 +32603,6 @@
         "badgeViews": 2,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-07T04:46:09.231Z"
-      },
-      {
-        "slug": "maximiliano-cervantes-career-activated-csuncc-20260909-0005",
-        "badgeId": "CSUNCC-20260909-0005",
-        "awardeeName": "Maximiliano cervantes",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-10T05:54:16.912Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
@@ -33545,18 +33313,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "niyah-de-la-garza-career-activated-csuncc-20260909-0006",
-        "badgeId": "CSUNCC-20260909-0006",
-        "awardeeName": "Niyah De La garza",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/niyah-de-la-garza-career-activated-csuncc-20260909-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -33893,12 +33649,24 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "maximiliano-cervantes-career-activated-csuncc-20260909-0007",
-        "badgeId": "CSUNCC-20260909-0007",
+        "slug": "maximiliano-cervantes-career-activated-csuncc-20260909-0005",
+        "badgeId": "CSUNCC-20260909-0005",
         "awardeeName": "Maximiliano cervantes",
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
+        "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "niyah-de-la-garza-career-activated-csuncc-20260909-0006",
+        "badgeId": "CSUNCC-20260909-0006",
+        "awardeeName": "Niyah De La garza",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/niyah-de-la-garza-career-activated-csuncc-20260909-0006/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -33912,8 +33680,8 @@
         "pageKind": "specific",
         "templateId": "career-activated",
         "opens": 86,
-        "completions": 65,
-        "conversionRate": 75.6
+        "completions": 64,
+        "conversionRate": 74.4
       },
       {
         "key": "general",
@@ -34165,12 +33933,6 @@
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Maximiliano cervantes",
-        "badgesIssued": 2,
-        "badgeViews": 2,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Jennifer Sandoval",
@@ -34509,12 +34271,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Niyah De La garza",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -34600,6 +34356,18 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Maximiliano cervantes",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Niyah De La garza",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

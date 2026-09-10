@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T05:52:16.490Z",
+  "updatedAt": "2026-09-10T05:55:16.684Z",
   "totals": {
-    "badgesIssued": 137,
-    "badgeViews": 384,
-    "certificateDownloads": 68,
+    "badgesIssued": 140,
+    "badgeViews": 386,
+    "certificateDownloads": 70,
     "generatorOpens": 176,
-    "generatorCompletions": 101,
-    "conversionRate": 57.4,
+    "generatorCompletions": 104,
+    "conversionRate": 59.1,
     "uniqueVisitorsApprox": 304
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 55,
-      "badgeViews": 55,
-      "certificateDownloads": 53,
+      "badgesIssued": 58,
+      "badgeViews": 57,
+      "certificateDownloads": 55,
       "generatorOpens": 63,
-      "generatorCompletions": 55,
+      "generatorCompletions": 58,
       "uniqueVisitorsApprox": 73,
-      "conversionRate": 87.3
+      "conversionRate": 92.1
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 137,
-      "badgeViews": 384,
-      "certificateDownloads": 68,
+      "badgesIssued": 140,
+      "badgeViews": 386,
+      "certificateDownloads": 70,
       "generatorOpens": 176,
-      "generatorCompletions": 101,
+      "generatorCompletions": 104,
       "uniqueVisitorsApprox": 304,
-      "conversionRate": 57.4
+      "conversionRate": 59.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 63,
-      "badgeViews": 55,
-      "certificateDownloads": 56,
+      "badgesIssued": 66,
+      "badgeViews": 57,
+      "certificateDownloads": 58,
       "generatorOpens": 86,
-      "generatorCompletions": 63,
-      "conversionRate": 73.3
+      "generatorCompletions": 66,
+      "conversionRate": 76.7
     },
     {
       "id": "fhtc-e-badge",
@@ -745,6 +745,18 @@
       "badgeViews": 2,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-07T04:46:09.231Z"
+    },
+    {
+      "slug": "maximiliano-cervantes-career-activated-csuncc-20260909-0005",
+      "badgeId": "CSUNCC-20260909-0005",
+      "awardeeName": "Maximiliano cervantes",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-10T05:54:16.912Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
@@ -1455,6 +1467,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "niyah-de-la-garza-career-activated-csuncc-20260909-0006",
+      "badgeId": "CSUNCC-20260909-0006",
+      "awardeeName": "Niyah De La garza",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/niyah-de-la-garza-career-activated-csuncc-20260909-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1789,6 +1813,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "maximiliano-cervantes-career-activated-csuncc-20260909-0007",
+      "badgeId": "CSUNCC-20260909-0007",
+      "awardeeName": "Maximiliano cervantes",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -1798,8 +1834,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 86,
-      "completions": 62,
-      "conversionRate": 72.1
+      "completions": 65,
+      "conversionRate": 75.6
     },
     {
       "key": "general",
@@ -2051,6 +2087,12 @@
       "badgesIssued": 1,
       "badgeViews": 2,
       "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Maximiliano cervantes",
+      "badgesIssued": 2,
+      "badgeViews": 2,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Jennifer Sandoval",
@@ -2384,6 +2426,12 @@
     },
     {
       "awardeeName": "Thara Rajeev",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Niyah De La garza",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
