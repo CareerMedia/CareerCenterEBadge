@@ -31625,6 +31625,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "7b070619-cdb0-47fe-bd3d-5ae1e1706f72",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-10T07:00:40.937Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260909-0003",
+      "badgeSlug": "anthony-guillen-career-activated-csuncc-20260909-0003",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Anthony Guillen",
+      "publicUrl": "https://careerbadge.csun.edu/badges/anthony-guillen-career-activated-csuncc-20260909-0003/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "7e1aa5da860dfdc1259dd5b4",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -32099,10 +32120,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-10T06:02:06.790Z",
+    "updatedAt": "2026-09-10T07:00:40.945Z",
     "totals": {
       "badgesIssued": 140,
-      "badgeViews": 387,
+      "badgeViews": 388,
       "certificateDownloads": 70,
       "generatorOpens": 176,
       "generatorCompletions": 104,
@@ -32169,7 +32190,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 58,
-        "badgeViews": 58,
+        "badgeViews": 59,
         "certificateDownloads": 55,
         "generatorOpens": 63,
         "generatorCompletions": 58,
@@ -32182,7 +32203,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 140,
-        "badgeViews": 387,
+        "badgeViews": 388,
         "certificateDownloads": 70,
         "generatorOpens": 176,
         "generatorCompletions": 104,
@@ -32205,7 +32226,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 66,
-        "badgeViews": 58,
+        "badgeViews": 59,
         "certificateDownloads": 58,
         "generatorOpens": 86,
         "generatorCompletions": 66,
@@ -32858,6 +32879,18 @@
         "latestViewedAt": "2026-09-07T04:46:09.231Z"
       },
       {
+        "slug": "anthony-guillen-career-activated-csuncc-20260909-0003",
+        "badgeId": "CSUNCC-20260909-0003",
+        "awardeeName": "Anthony Guillen",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/anthony-guillen-career-activated-csuncc-20260909-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-09-10T07:00:40.937Z"
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
         "badgeId": "CSUNCC-20260504-0005",
         "awardeeName": "Bryce Simon",
@@ -33072,18 +33105,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-09T19:48:29.081Z"
-      },
-      {
-        "slug": "anthony-guillen-career-activated-csuncc-20260909-0003",
-        "badgeId": "CSUNCC-20260909-0003",
-        "awardeeName": "Anthony Guillen",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/anthony-guillen-career-activated-csuncc-20260909-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-10T00:47:47.965Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -34254,6 +34275,12 @@
         "certificateDownloads": 2
       },
       {
+        "awardeeName": "Anthony Guillen",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Jane Doe",
         "badgesIssued": 1,
         "badgeViews": 2,
@@ -34336,12 +34363,6 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Anthony Guillen",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Maddie Paul",
