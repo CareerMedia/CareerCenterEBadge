@@ -31049,27 +31049,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "62a45067-bcf8-431a-b37f-676e923df656",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-10T01:01:41.670Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260909-0004",
-      "badgeSlug": "thara-rajeev-career-activated-csuncc-20260909-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Thara Rajeev",
-      "publicUrl": "https://careerbadge.csun.edu/badges/thara-rajeev-career-activated-csuncc-20260909-0004/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "f91f43e58bbc4f037d18b8cf",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -31544,11 +31523,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-10T01:01:41.676Z",
+    "updatedAt": "2026-09-10T01:01:26.391Z",
     "totals": {
       "badgesIssued": 137,
       "badgeViews": 384,
-      "certificateDownloads": 68,
+      "certificateDownloads": 67,
       "generatorOpens": 174,
       "generatorCompletions": 101,
       "conversionRate": 58,
@@ -31615,7 +31594,7 @@
         "label": "Sep 2026",
         "badgesIssued": 55,
         "badgeViews": 55,
-        "certificateDownloads": 53,
+        "certificateDownloads": 52,
         "generatorOpens": 61,
         "generatorCompletions": 55,
         "uniqueVisitorsApprox": 71,
@@ -31628,7 +31607,7 @@
         "label": "2026",
         "badgesIssued": 137,
         "badgeViews": 384,
-        "certificateDownloads": 68,
+        "certificateDownloads": 67,
         "generatorOpens": 174,
         "generatorCompletions": 101,
         "uniqueVisitorsApprox": 302,
@@ -31651,7 +31630,7 @@
         "title": "Career Activated",
         "badgesIssued": 63,
         "badgeViews": 55,
-        "certificateDownloads": 56,
+        "certificateDownloads": 55,
         "generatorOpens": 84,
         "generatorCompletions": 63,
         "conversionRate": 75
@@ -32987,18 +32966,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "thara-rajeev-career-activated-csuncc-20260909-0004",
-        "badgeId": "CSUNCC-20260909-0004",
-        "awardeeName": "Thara Rajeev",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/thara-rajeev-career-activated-csuncc-20260909-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -33329,6 +33296,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/emily-rosado-alonso-career-activated-csuncc-20260907-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "thara-rajeev-career-activated-csuncc-20260909-0004",
+        "badgeId": "CSUNCC-20260909-0004",
+        "awardeeName": "Thara Rajeev",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/thara-rajeev-career-activated-csuncc-20260909-0004/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -33927,12 +33906,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Thara Rajeev",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -34018,6 +33991,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Thara Rajeev",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
