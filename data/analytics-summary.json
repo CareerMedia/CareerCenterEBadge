@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T00:47:05.354Z",
+  "updatedAt": "2026-09-10T00:48:20.613Z",
   "totals": {
-    "badgesIssued": 135,
-    "badgeViews": 383,
-    "certificateDownloads": 66,
+    "badgesIssued": 136,
+    "badgeViews": 384,
+    "certificateDownloads": 67,
     "generatorOpens": 173,
-    "generatorCompletions": 99,
-    "conversionRate": 57.2,
+    "generatorCompletions": 100,
+    "conversionRate": 57.8,
     "uniqueVisitorsApprox": 301
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 53,
-      "badgeViews": 54,
-      "certificateDownloads": 51,
+      "badgesIssued": 54,
+      "badgeViews": 55,
+      "certificateDownloads": 52,
       "generatorOpens": 60,
-      "generatorCompletions": 53,
+      "generatorCompletions": 54,
       "uniqueVisitorsApprox": 70,
-      "conversionRate": 88.3
+      "conversionRate": 90
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 135,
-      "badgeViews": 383,
-      "certificateDownloads": 66,
+      "badgesIssued": 136,
+      "badgeViews": 384,
+      "certificateDownloads": 67,
       "generatorOpens": 173,
-      "generatorCompletions": 99,
+      "generatorCompletions": 100,
       "uniqueVisitorsApprox": 301,
-      "conversionRate": 57.2
+      "conversionRate": 57.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 61,
-      "badgeViews": 54,
-      "certificateDownloads": 54,
+      "badgesIssued": 62,
+      "badgeViews": 55,
+      "certificateDownloads": 55,
       "generatorOpens": 83,
-      "generatorCompletions": 61,
-      "conversionRate": 73.5
+      "generatorCompletions": 62,
+      "conversionRate": 74.7
     },
     {
       "id": "fhtc-e-badge",
@@ -963,6 +963,18 @@
       "latestViewedAt": "2026-09-09T19:48:29.081Z"
     },
     {
+      "slug": "anthony-guillen-career-activated-csuncc-20260909-0003",
+      "badgeId": "CSUNCC-20260909-0003",
+      "awardeeName": "Anthony Guillen",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/anthony-guillen-career-activated-csuncc-20260909-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-10T00:47:47.965Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1774,8 +1786,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 83,
-      "completions": 60,
-      "conversionRate": 72.3
+      "completions": 61,
+      "conversionRate": 73.5
     },
     {
       "key": "general",
@@ -2171,6 +2183,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Anthony Guillen",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Maddie Paul",
