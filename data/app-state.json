@@ -31646,6 +31646,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "f88a68ea-2362-4c82-b27a-b221d5cf421c",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-10T17:09:03.511Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260902-0005",
+      "badgeSlug": "naomi-alava-career-activated-csuncc-20260902-0005",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Naomi Alava",
+      "publicUrl": "https://careerbadge.csun.edu/badges/naomi-alava-career-activated-csuncc-20260902-0005/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "a6c9d480448aa9eadf44ef82",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -32120,15 +32141,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-10T07:00:40.945Z",
+    "updatedAt": "2026-09-10T17:09:03.523Z",
     "totals": {
       "badgesIssued": 140,
-      "badgeViews": 388,
+      "badgeViews": 389,
       "certificateDownloads": 70,
       "generatorOpens": 176,
       "generatorCompletions": 104,
       "conversionRate": 59.1,
-      "uniqueVisitorsApprox": 304
+      "uniqueVisitorsApprox": 305
     },
     "months": [
       {
@@ -32190,11 +32211,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 58,
-        "badgeViews": 59,
+        "badgeViews": 60,
         "certificateDownloads": 55,
         "generatorOpens": 63,
         "generatorCompletions": 58,
-        "uniqueVisitorsApprox": 73,
+        "uniqueVisitorsApprox": 74,
         "conversionRate": 92.1
       }
     ],
@@ -32203,11 +32224,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 140,
-        "badgeViews": 388,
+        "badgeViews": 389,
         "certificateDownloads": 70,
         "generatorOpens": 176,
         "generatorCompletions": 104,
-        "uniqueVisitorsApprox": 304,
+        "uniqueVisitorsApprox": 305,
         "conversionRate": 59.1
       }
     ],
@@ -32226,7 +32247,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 66,
-        "badgeViews": 59,
+        "badgeViews": 60,
         "certificateDownloads": 58,
         "generatorOpens": 86,
         "generatorCompletions": 66,
@@ -32507,6 +32528,18 @@
         "latestViewedAt": "2026-09-03T05:51:04.127Z"
       },
       {
+        "slug": "naomi-alava-career-activated-csuncc-20260902-0005",
+        "badgeId": "CSUNCC-20260902-0005",
+        "awardeeName": "Naomi Alava",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/naomi-alava-career-activated-csuncc-20260902-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 5,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-09-10T17:09:03.511Z"
+      },
+      {
         "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
         "badgeId": "CSUNCC-20260512-0013",
         "awardeeName": "Leslie Rodriguez",
@@ -32529,18 +32562,6 @@
         "badgeViews": 4,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-08-28T18:49:50.487Z"
-      },
-      {
-        "slug": "naomi-alava-career-activated-csuncc-20260902-0005",
-        "badgeId": "CSUNCC-20260902-0005",
-        "awardeeName": "Naomi Alava",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/naomi-alava-career-activated-csuncc-20260902-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-06T16:26:52.784Z"
       },
       {
         "slug": "javier-lemus-sanchez-career-activated-csuncc-20260902-0012",
@@ -34101,6 +34122,12 @@
         "certificateDownloads": 3
       },
       {
+        "awardeeName": "Naomi Alava",
+        "badgesIssued": 1,
+        "badgeViews": 5,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Daisy Jardon",
         "badgesIssued": 1,
         "badgeViews": 6,
@@ -34120,12 +34147,6 @@
       },
       {
         "awardeeName": "Natalie Nicole Rendon",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Naomi Alava",
         "badgesIssued": 1,
         "badgeViews": 4,
         "certificateDownloads": 1
