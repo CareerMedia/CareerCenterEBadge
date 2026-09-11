@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T21:10:04.051Z",
+  "updatedAt": "2026-09-11T21:13:20.874Z",
   "totals": {
-    "badgesIssued": 145,
+    "badgesIssued": 146,
     "badgeViews": 392,
-    "certificateDownloads": 75,
+    "certificateDownloads": 76,
     "generatorOpens": 181,
-    "generatorCompletions": 109,
-    "conversionRate": 60.2,
+    "generatorCompletions": 110,
+    "conversionRate": 60.8,
     "uniqueVisitorsApprox": 311
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 63,
+      "badgesIssued": 64,
       "badgeViews": 63,
-      "certificateDownloads": 60,
+      "certificateDownloads": 61,
       "generatorOpens": 68,
-      "generatorCompletions": 63,
+      "generatorCompletions": 64,
       "uniqueVisitorsApprox": 80,
-      "conversionRate": 92.6
+      "conversionRate": 94.1
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 145,
+      "badgesIssued": 146,
       "badgeViews": 392,
-      "certificateDownloads": 75,
+      "certificateDownloads": 76,
       "generatorOpens": 181,
-      "generatorCompletions": 109,
+      "generatorCompletions": 110,
       "uniqueVisitorsApprox": 311,
-      "conversionRate": 60.2
+      "conversionRate": 60.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 71,
+      "badgesIssued": 72,
       "badgeViews": 63,
-      "certificateDownloads": 63,
+      "certificateDownloads": 64,
       "generatorOpens": 91,
-      "generatorCompletions": 71,
-      "conversionRate": 78
+      "generatorCompletions": 72,
+      "conversionRate": 79.1
     },
     {
       "id": "fhtc-e-badge",
@@ -1539,6 +1539,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "jolene-orellana-career-activated-csuncc-20260911-0002",
+      "badgeId": "CSUNCC-20260911-0002",
+      "awardeeName": "Jolene Orellana",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jolene-orellana-career-activated-csuncc-20260911-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1894,8 +1906,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 91,
-      "completions": 70,
-      "conversionRate": 76.9
+      "completions": 71,
+      "conversionRate": 78
     },
     {
       "key": "general",
@@ -2522,6 +2534,12 @@
     },
     {
       "awardeeName": "Amna Mohib Ahmed",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Jolene Orellana",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

@@ -32756,27 +32756,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "0604b32e-88a2-4ea5-8f1b-d6aa9fa5928c",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-11T21:13:20.865Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260911-0002",
-      "badgeSlug": "jolene-orellana-career-activated-csuncc-20260911-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jolene Orellana",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jolene-orellana-career-activated-csuncc-20260911-0002/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "0f0cc332411c765279a18b7c",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -33251,11 +33230,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-11T21:13:20.874Z",
+    "updatedAt": "2026-09-11T21:12:46.654Z",
     "totals": {
       "badgesIssued": 146,
       "badgeViews": 392,
-      "certificateDownloads": 76,
+      "certificateDownloads": 75,
       "generatorOpens": 181,
       "generatorCompletions": 110,
       "conversionRate": 60.8,
@@ -33322,7 +33301,7 @@
         "label": "Sep 2026",
         "badgesIssued": 64,
         "badgeViews": 63,
-        "certificateDownloads": 61,
+        "certificateDownloads": 60,
         "generatorOpens": 68,
         "generatorCompletions": 64,
         "uniqueVisitorsApprox": 80,
@@ -33335,7 +33314,7 @@
         "label": "2026",
         "badgesIssued": 146,
         "badgeViews": 392,
-        "certificateDownloads": 76,
+        "certificateDownloads": 75,
         "generatorOpens": 181,
         "generatorCompletions": 110,
         "uniqueVisitorsApprox": 311,
@@ -33358,7 +33337,7 @@
         "title": "Career Activated",
         "badgesIssued": 72,
         "badgeViews": 63,
-        "certificateDownloads": 64,
+        "certificateDownloads": 63,
         "generatorOpens": 91,
         "generatorCompletions": 72,
         "conversionRate": 79.1
@@ -34790,18 +34769,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "jolene-orellana-career-activated-csuncc-20260911-0002",
-        "badgeId": "CSUNCC-20260911-0002",
-        "awardeeName": "Jolene Orellana",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jolene-orellana-career-activated-csuncc-20260911-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -35144,6 +35111,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "jolene-orellana-career-activated-csuncc-20260911-0002",
+        "badgeId": "CSUNCC-20260911-0002",
+        "awardeeName": "Jolene Orellana",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jolene-orellana-career-activated-csuncc-20260911-0002/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -35790,12 +35769,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Jolene Orellana",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -35881,6 +35854,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Jolene Orellana",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
