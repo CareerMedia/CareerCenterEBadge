@@ -32578,27 +32578,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "15e94c40-a0b5-49f2-927f-4f312861039b",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-11T18:46:04.027Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260911-0001",
-      "badgeSlug": "amna-mohib-ahmed-career-activated-csuncc-20260911-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Amna Mohib Ahmed",
-      "publicUrl": "https://careerbadge.csun.edu/badges/amna-mohib-ahmed-career-activated-csuncc-20260911-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "d2eee7025733cb9d2bfc24c0",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -33073,11 +33052,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-11T18:46:04.032Z",
+    "updatedAt": "2026-09-11T18:45:53.382Z",
     "totals": {
       "badgesIssued": 145,
       "badgeViews": 392,
-      "certificateDownloads": 75,
+      "certificateDownloads": 74,
       "generatorOpens": 180,
       "generatorCompletions": 109,
       "conversionRate": 60.6,
@@ -33144,7 +33123,7 @@
         "label": "Sep 2026",
         "badgesIssued": 63,
         "badgeViews": 63,
-        "certificateDownloads": 60,
+        "certificateDownloads": 59,
         "generatorOpens": 67,
         "generatorCompletions": 63,
         "uniqueVisitorsApprox": 79,
@@ -33157,7 +33136,7 @@
         "label": "2026",
         "badgesIssued": 145,
         "badgeViews": 392,
-        "certificateDownloads": 75,
+        "certificateDownloads": 74,
         "generatorOpens": 180,
         "generatorCompletions": 109,
         "uniqueVisitorsApprox": 310,
@@ -33180,7 +33159,7 @@
         "title": "Career Activated",
         "badgesIssued": 71,
         "badgeViews": 63,
-        "certificateDownloads": 63,
+        "certificateDownloads": 62,
         "generatorOpens": 90,
         "generatorCompletions": 71,
         "conversionRate": 78.9
@@ -34600,18 +34579,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "amna-mohib-ahmed-career-activated-csuncc-20260911-0001",
-        "badgeId": "CSUNCC-20260911-0001",
-        "awardeeName": "Amna Mohib Ahmed",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/amna-mohib-ahmed-career-activated-csuncc-20260911-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -34954,6 +34921,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "amna-mohib-ahmed-career-activated-csuncc-20260911-0001",
+        "badgeId": "CSUNCC-20260911-0001",
+        "awardeeName": "Amna Mohib Ahmed",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/amna-mohib-ahmed-career-activated-csuncc-20260911-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -35594,12 +35573,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Amna Mohib Ahmed",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -35685,6 +35658,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Amna Mohib Ahmed",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
