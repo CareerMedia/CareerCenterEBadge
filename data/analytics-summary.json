@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T03:40:42.933Z",
+  "updatedAt": "2026-09-11T03:41:14.373Z",
   "totals": {
-    "badgesIssued": 143,
+    "badgesIssued": 144,
     "badgeViews": 392,
-    "certificateDownloads": 73,
+    "certificateDownloads": 74,
     "generatorOpens": 179,
-    "generatorCompletions": 107,
-    "conversionRate": 59.8,
+    "generatorCompletions": 108,
+    "conversionRate": 60.3,
     "uniqueVisitorsApprox": 309
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 61,
+      "badgesIssued": 62,
       "badgeViews": 63,
-      "certificateDownloads": 58,
+      "certificateDownloads": 59,
       "generatorOpens": 66,
-      "generatorCompletions": 61,
+      "generatorCompletions": 62,
       "uniqueVisitorsApprox": 78,
-      "conversionRate": 92.4
+      "conversionRate": 93.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 143,
+      "badgesIssued": 144,
       "badgeViews": 392,
-      "certificateDownloads": 73,
+      "certificateDownloads": 74,
       "generatorOpens": 179,
-      "generatorCompletions": 107,
+      "generatorCompletions": 108,
       "uniqueVisitorsApprox": 309,
-      "conversionRate": 59.8
+      "conversionRate": 60.3
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 69,
+      "badgesIssued": 70,
       "badgeViews": 63,
-      "certificateDownloads": 61,
+      "certificateDownloads": 62,
       "generatorOpens": 89,
-      "generatorCompletions": 69,
-      "conversionRate": 77.5
+      "generatorCompletions": 70,
+      "conversionRate": 78.7
     },
     {
       "id": "fhtc-e-badge",
@@ -1515,6 +1515,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "anahi-rodriguez-career-activated-csuncc-20260910-0004",
+      "badgeId": "CSUNCC-20260910-0004",
+      "awardeeName": "Anahi Rodriguez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/anahi-rodriguez-career-activated-csuncc-20260910-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1870,8 +1882,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 89,
-      "completions": 68,
-      "conversionRate": 76.4
+      "completions": 69,
+      "conversionRate": 77.5
     },
     {
       "key": "general",
@@ -2486,6 +2498,12 @@
     },
     {
       "awardeeName": "Fuamatala Brown",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Anahi Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

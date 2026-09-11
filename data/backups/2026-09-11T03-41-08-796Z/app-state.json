@@ -32400,27 +32400,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "df081b70-b1a9-4031-a56f-75f7672e688e",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-11T03:41:14.369Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260910-0004",
-      "badgeSlug": "anahi-rodriguez-career-activated-csuncc-20260910-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Anahi Rodriguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/anahi-rodriguez-career-activated-csuncc-20260910-0004/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "b92372f6f2f0d3c27bc3bd4b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -32895,11 +32874,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-11T03:41:14.373Z",
+    "updatedAt": "2026-09-11T03:41:08.293Z",
     "totals": {
       "badgesIssued": 144,
       "badgeViews": 392,
-      "certificateDownloads": 74,
+      "certificateDownloads": 73,
       "generatorOpens": 179,
       "generatorCompletions": 108,
       "conversionRate": 60.3,
@@ -32966,7 +32945,7 @@
         "label": "Sep 2026",
         "badgesIssued": 62,
         "badgeViews": 63,
-        "certificateDownloads": 59,
+        "certificateDownloads": 58,
         "generatorOpens": 66,
         "generatorCompletions": 62,
         "uniqueVisitorsApprox": 78,
@@ -32979,7 +32958,7 @@
         "label": "2026",
         "badgesIssued": 144,
         "badgeViews": 392,
-        "certificateDownloads": 74,
+        "certificateDownloads": 73,
         "generatorOpens": 179,
         "generatorCompletions": 108,
         "uniqueVisitorsApprox": 309,
@@ -33002,7 +32981,7 @@
         "title": "Career Activated",
         "badgesIssued": 70,
         "badgeViews": 63,
-        "certificateDownloads": 62,
+        "certificateDownloads": 61,
         "generatorOpens": 89,
         "generatorCompletions": 70,
         "conversionRate": 78.7
@@ -34410,18 +34389,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "anahi-rodriguez-career-activated-csuncc-20260910-0004",
-        "badgeId": "CSUNCC-20260910-0004",
-        "awardeeName": "Anahi Rodriguez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/anahi-rodriguez-career-activated-csuncc-20260910-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -34764,6 +34731,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "anahi-rodriguez-career-activated-csuncc-20260910-0004",
+        "badgeId": "CSUNCC-20260910-0004",
+        "awardeeName": "Anahi Rodriguez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/anahi-rodriguez-career-activated-csuncc-20260910-0004/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -35398,12 +35377,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Anahi Rodriguez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -35489,6 +35462,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Anahi Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
