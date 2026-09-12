@@ -33196,111 +33196,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "f21abc5a-1baf-4614-99ed-fb481a23979e",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-12T03:57:59.113Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260911-0004",
-      "badgeSlug": "maribella-sanchez-career-activated-csuncc-20260911-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Maribella Sanchez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maribella-sanchez-career-activated-csuncc-20260911-0004/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "f1527942ce51bed3b5a7df27",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "724ff7fe-24fd-48de-ac41-630ea76a7102",
-      "type": "generator_opened",
-      "timestamp": "2026-09-12T03:58:52.863Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "f1527942ce51bed3b5a7df27",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "f38cdc49-0ead-464a-a093-442843f9f607",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-12T03:59:34.245Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260911-0004",
-      "badgeSlug": "maribella-sanchez-career-activated-csuncc-20260911-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Maribella Sanchez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maribella-sanchez-career-activated-csuncc-20260911-0004/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "f1527942ce51bed3b5a7df27",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "d789b59c-3fa2-427a-bf4e-7a81ba67cdd7",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-12T03:59:39.198Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260911-0004",
-      "badgeSlug": "maribella-sanchez-career-activated-csuncc-20260911-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Maribella Sanchez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maribella-sanchez-career-activated-csuncc-20260911-0004/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "98165659c37d6ae2ac520ac8",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "ac4fe6da-5b54-4f64-b80e-cecacc4f7a16",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-12T04:00:25.338Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260911-0004",
-      "badgeSlug": "maribella-sanchez-career-activated-csuncc-20260911-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Maribella Sanchez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/maribella-sanchez-career-activated-csuncc-20260911-0004/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "4d3a9871aafd0de843bc9e70",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -33775,15 +33670,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-12T04:00:25.362Z",
+    "updatedAt": "2026-09-12T03:57:39.163Z",
     "totals": {
       "badgesIssued": 148,
-      "badgeViews": 398,
+      "badgeViews": 394,
       "certificateDownloads": 78,
-      "generatorOpens": 185,
+      "generatorOpens": 184,
       "generatorCompletions": 112,
-      "conversionRate": 60.5,
-      "uniqueVisitorsApprox": 317
+      "conversionRate": 60.9,
+      "uniqueVisitorsApprox": 315
     },
     "months": [
       {
@@ -33845,12 +33740,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 66,
-        "badgeViews": 69,
+        "badgeViews": 65,
         "certificateDownloads": 63,
-        "generatorOpens": 72,
+        "generatorOpens": 71,
         "generatorCompletions": 66,
-        "uniqueVisitorsApprox": 86,
-        "conversionRate": 91.7
+        "uniqueVisitorsApprox": 84,
+        "conversionRate": 93
       }
     ],
     "years": [
@@ -33858,12 +33753,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 148,
-        "badgeViews": 398,
+        "badgeViews": 394,
         "certificateDownloads": 78,
-        "generatorOpens": 185,
+        "generatorOpens": 184,
         "generatorCompletions": 112,
-        "uniqueVisitorsApprox": 317,
-        "conversionRate": 60.5
+        "uniqueVisitorsApprox": 315,
+        "conversionRate": 60.9
       }
     ],
     "badgeTypes": [
@@ -33881,11 +33776,11 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 74,
-        "badgeViews": 67,
+        "badgeViews": 63,
         "certificateDownloads": 66,
-        "generatorOpens": 95,
+        "generatorOpens": 94,
         "generatorCompletions": 74,
-        "conversionRate": 77.9
+        "conversionRate": 78.7
       },
       {
         "id": "fhtc-e-badge",
@@ -34292,18 +34187,6 @@
         "badgeViews": 4,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-05-26T22:47:01.572Z"
-      },
-      {
-        "slug": "maribella-sanchez-career-activated-csuncc-20260911-0004",
-        "badgeId": "CSUNCC-20260911-0004",
-        "awardeeName": "Maribella Sanchez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/maribella-sanchez-career-activated-csuncc-20260911-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-12T04:00:25.338Z"
       },
       {
         "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
@@ -35696,6 +35579,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "maribella-sanchez-career-activated-csuncc-20260911-0004",
+        "badgeId": "CSUNCC-20260911-0004",
+        "awardeeName": "Maribella Sanchez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/maribella-sanchez-career-activated-csuncc-20260911-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -35704,9 +35599,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 95,
+        "opens": 94,
         "completions": 73,
-        "conversionRate": 76.8
+        "conversionRate": 77.7
       },
       {
         "key": "general",
@@ -35970,12 +35865,6 @@
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Maribella Sanchez",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Jennifer Sandoval",
@@ -36441,6 +36330,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Maribella Sanchez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
