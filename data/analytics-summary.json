@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T01:58:36.322Z",
+  "updatedAt": "2026-09-12T02:06:48.282Z",
   "totals": {
-    "badgesIssued": 146,
+    "badgesIssued": 147,
     "badgeViews": 394,
     "certificateDownloads": 76,
     "generatorOpens": 182,
-    "generatorCompletions": 110,
-    "conversionRate": 60.4,
+    "generatorCompletions": 111,
+    "conversionRate": 61,
     "uniqueVisitorsApprox": 314
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 64,
+      "badgesIssued": 65,
       "badgeViews": 65,
       "certificateDownloads": 61,
       "generatorOpens": 69,
-      "generatorCompletions": 64,
+      "generatorCompletions": 65,
       "uniqueVisitorsApprox": 83,
-      "conversionRate": 92.8
+      "conversionRate": 94.2
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 146,
+      "badgesIssued": 147,
       "badgeViews": 394,
       "certificateDownloads": 76,
       "generatorOpens": 182,
-      "generatorCompletions": 110,
+      "generatorCompletions": 111,
       "uniqueVisitorsApprox": 314,
-      "conversionRate": 60.4
+      "conversionRate": 61
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 72,
+      "badgesIssued": 73,
       "badgeViews": 63,
       "certificateDownloads": 64,
       "generatorOpens": 92,
-      "generatorCompletions": 72,
-      "conversionRate": 78.3
+      "generatorCompletions": 73,
+      "conversionRate": 79.3
     },
     {
       "id": "fhtc-e-badge",
@@ -1897,6 +1897,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "gaven-zamora-cardenas-career-activated-csuncc-20260911-0003",
+      "badgeId": "CSUNCC-20260911-0003",
+      "awardeeName": "Gaven Zamora Cardenas",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/gaven-zamora-cardenas-career-activated-csuncc-20260911-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -1906,8 +1918,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 92,
-      "completions": 71,
-      "conversionRate": 77.2
+      "completions": 72,
+      "conversionRate": 78.3
     },
     {
       "key": "general",
@@ -2630,6 +2642,12 @@
     },
     {
       "awardeeName": "Emily Rosado Alonso",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Gaven Zamora Cardenas",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
