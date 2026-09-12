@@ -33479,27 +33479,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "6b7e669a-fed1-4049-8722-0e062de7dc3b",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-12T23:43:44.799Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260912-0001",
-      "badgeSlug": "malia-danielle-locklin-career-activated-csuncc-20260912-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Malia Danielle Locklin",
-      "publicUrl": "https://careerbadge.csun.edu/badges/malia-danielle-locklin-career-activated-csuncc-20260912-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "df22eed8d17329326bd9f752",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -33974,11 +33953,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-12T23:43:44.804Z",
+    "updatedAt": "2026-09-12T23:43:34.432Z",
     "totals": {
       "badgesIssued": 149,
       "badgeViews": 398,
-      "certificateDownloads": 79,
+      "certificateDownloads": 78,
       "generatorOpens": 187,
       "generatorCompletions": 113,
       "conversionRate": 60.4,
@@ -34045,7 +34024,7 @@
         "label": "Sep 2026",
         "badgesIssued": 67,
         "badgeViews": 69,
-        "certificateDownloads": 64,
+        "certificateDownloads": 63,
         "generatorOpens": 74,
         "generatorCompletions": 67,
         "uniqueVisitorsApprox": 88,
@@ -34058,7 +34037,7 @@
         "label": "2026",
         "badgesIssued": 149,
         "badgeViews": 398,
-        "certificateDownloads": 79,
+        "certificateDownloads": 78,
         "generatorOpens": 187,
         "generatorCompletions": 113,
         "uniqueVisitorsApprox": 319,
@@ -34081,7 +34060,7 @@
         "title": "Career Activated",
         "badgesIssued": 75,
         "badgeViews": 67,
-        "certificateDownloads": 67,
+        "certificateDownloads": 66,
         "generatorOpens": 97,
         "generatorCompletions": 75,
         "conversionRate": 77.3
@@ -35549,18 +35528,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "malia-danielle-locklin-career-activated-csuncc-20260912-0001",
-        "badgeId": "CSUNCC-20260912-0001",
-        "awardeeName": "Malia Danielle Locklin",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/malia-danielle-locklin-career-activated-csuncc-20260912-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -35903,6 +35870,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "malia-danielle-locklin-career-activated-csuncc-20260912-0001",
+        "badgeId": "CSUNCC-20260912-0001",
+        "awardeeName": "Malia Danielle Locklin",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/malia-danielle-locklin-career-activated-csuncc-20260912-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -36567,12 +36546,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Malia Danielle Locklin",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -36658,6 +36631,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Malia Danielle Locklin",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

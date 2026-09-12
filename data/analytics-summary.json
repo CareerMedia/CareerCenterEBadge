@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T23:42:24.094Z",
+  "updatedAt": "2026-09-12T23:43:44.804Z",
   "totals": {
-    "badgesIssued": 148,
+    "badgesIssued": 149,
     "badgeViews": 398,
-    "certificateDownloads": 78,
+    "certificateDownloads": 79,
     "generatorOpens": 187,
-    "generatorCompletions": 112,
-    "conversionRate": 59.9,
+    "generatorCompletions": 113,
+    "conversionRate": 60.4,
     "uniqueVisitorsApprox": 319
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 66,
+      "badgesIssued": 67,
       "badgeViews": 69,
-      "certificateDownloads": 63,
+      "certificateDownloads": 64,
       "generatorOpens": 74,
-      "generatorCompletions": 66,
+      "generatorCompletions": 67,
       "uniqueVisitorsApprox": 88,
-      "conversionRate": 89.2
+      "conversionRate": 90.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 148,
+      "badgesIssued": 149,
       "badgeViews": 398,
-      "certificateDownloads": 78,
+      "certificateDownloads": 79,
       "generatorOpens": 187,
-      "generatorCompletions": 112,
+      "generatorCompletions": 113,
       "uniqueVisitorsApprox": 319,
-      "conversionRate": 59.9
+      "conversionRate": 60.4
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 74,
+      "badgesIssued": 75,
       "badgeViews": 67,
-      "certificateDownloads": 66,
+      "certificateDownloads": 67,
       "generatorOpens": 97,
-      "generatorCompletions": 74,
-      "conversionRate": 76.3
+      "generatorCompletions": 75,
+      "conversionRate": 77.3
     },
     {
       "id": "fhtc-e-badge",
@@ -1575,6 +1575,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "malia-danielle-locklin-career-activated-csuncc-20260912-0001",
+      "badgeId": "CSUNCC-20260912-0001",
+      "awardeeName": "Malia Danielle Locklin",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/malia-danielle-locklin-career-activated-csuncc-20260912-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1930,8 +1942,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 97,
-      "completions": 73,
-      "conversionRate": 75.3
+      "completions": 74,
+      "conversionRate": 76.3
     },
     {
       "key": "general",
@@ -2576,6 +2588,12 @@
     },
     {
       "awardeeName": "Jolene Orellana",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Malia Danielle Locklin",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
