@@ -34275,27 +34275,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "7d33db84-c589-4d22-9c1b-a39dab36dd30",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-14T18:29:58.185Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0004",
-      "badgeSlug": "alain-hernandez-career-activated-csuncc-20260914-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Alain Hernandez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/alain-hernandez-career-activated-csuncc-20260914-0004/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "6af08b8b012089dba1297557",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -34770,10 +34749,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-14T18:29:58.191Z",
+    "updatedAt": "2026-09-14T18:29:51.897Z",
     "totals": {
       "badgesIssued": 153,
-      "badgeViews": 404,
+      "badgeViews": 403,
       "certificateDownloads": 81,
       "generatorOpens": 191,
       "generatorCompletions": 117,
@@ -34840,7 +34819,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 71,
-        "badgeViews": 75,
+        "badgeViews": 74,
         "certificateDownloads": 66,
         "generatorOpens": 78,
         "generatorCompletions": 71,
@@ -34853,7 +34832,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 153,
-        "badgeViews": 404,
+        "badgeViews": 403,
         "certificateDownloads": 81,
         "generatorOpens": 191,
         "generatorCompletions": 117,
@@ -34876,7 +34855,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 79,
-        "badgeViews": 70,
+        "badgeViews": 69,
         "certificateDownloads": 69,
         "generatorOpens": 101,
         "generatorCompletions": 79,
@@ -35973,18 +35952,6 @@
         "latestViewedAt": "2026-09-14T17:41:09.109Z"
       },
       {
-        "slug": "alain-hernandez-career-activated-csuncc-20260914-0004",
-        "badgeId": "CSUNCC-20260914-0004",
-        "awardeeName": "Alain Hernandez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/alain-hernandez-career-activated-csuncc-20260914-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-14T18:29:58.185Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -36751,6 +36718,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "alain-hernandez-career-activated-csuncc-20260914-0004",
+        "badgeId": "CSUNCC-20260914-0004",
+        "awardeeName": "Alain Hernandez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/alain-hernandez-career-activated-csuncc-20260914-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -37435,12 +37414,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Alain Hernandez",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -37526,6 +37499,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Alain Hernandez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

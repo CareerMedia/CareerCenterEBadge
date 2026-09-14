@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T18:29:10.725Z",
+  "updatedAt": "2026-09-14T18:29:58.191Z",
   "totals": {
-    "badgesIssued": 152,
-    "badgeViews": 403,
+    "badgesIssued": 153,
+    "badgeViews": 404,
     "certificateDownloads": 81,
     "generatorOpens": 191,
-    "generatorCompletions": 116,
-    "conversionRate": 60.7,
+    "generatorCompletions": 117,
+    "conversionRate": 61.3,
     "uniqueVisitorsApprox": 327
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 70,
-      "badgeViews": 74,
+      "badgesIssued": 71,
+      "badgeViews": 75,
       "certificateDownloads": 66,
       "generatorOpens": 78,
-      "generatorCompletions": 70,
+      "generatorCompletions": 71,
       "uniqueVisitorsApprox": 96,
-      "conversionRate": 89.7
+      "conversionRate": 91
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 152,
-      "badgeViews": 403,
+      "badgesIssued": 153,
+      "badgeViews": 404,
       "certificateDownloads": 81,
       "generatorOpens": 191,
-      "generatorCompletions": 116,
+      "generatorCompletions": 117,
       "uniqueVisitorsApprox": 327,
-      "conversionRate": 60.7
+      "conversionRate": 61.3
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 78,
-      "badgeViews": 69,
+      "badgesIssued": 79,
+      "badgeViews": 70,
       "certificateDownloads": 69,
       "generatorOpens": 101,
-      "generatorCompletions": 78,
-      "conversionRate": 77.2
+      "generatorCompletions": 79,
+      "conversionRate": 78.2
     },
     {
       "id": "fhtc-e-badge",
@@ -1203,6 +1203,18 @@
       "latestViewedAt": "2026-09-14T17:41:09.109Z"
     },
     {
+      "slug": "alain-hernandez-career-activated-csuncc-20260914-0004",
+      "badgeId": "CSUNCC-20260914-0004",
+      "awardeeName": "Alain Hernandez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/alain-hernandez-career-activated-csuncc-20260914-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-14T18:29:58.185Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -1978,8 +1990,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 101,
-      "completions": 77,
-      "conversionRate": 76.2
+      "completions": 78,
+      "conversionRate": 77.2
     },
     {
       "key": "general",
@@ -2648,6 +2660,12 @@
     },
     {
       "awardeeName": "Eddie Reyes",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Alain Hernandez",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
