@@ -34097,27 +34097,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "cc7d8de4-7659-4da6-815b-d3f560281f71",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-14T17:41:09.109Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0003",
-      "badgeSlug": "eddie-reyes-career-activated-csuncc-20260914-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Eddie Reyes",
-      "publicUrl": "https://careerbadge.csun.edu/badges/eddie-reyes-career-activated-csuncc-20260914-0003/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "a27b9ccd2047b5abeb5d81de",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -34592,15 +34571,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-14T17:41:09.116Z",
+    "updatedAt": "2026-09-14T17:40:23.478Z",
     "totals": {
       "badgesIssued": 152,
-      "badgeViews": 403,
+      "badgeViews": 402,
       "certificateDownloads": 81,
       "generatorOpens": 190,
       "generatorCompletions": 116,
       "conversionRate": 61.1,
-      "uniqueVisitorsApprox": 326
+      "uniqueVisitorsApprox": 325
     },
     "months": [
       {
@@ -34662,11 +34641,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 70,
-        "badgeViews": 74,
+        "badgeViews": 73,
         "certificateDownloads": 66,
         "generatorOpens": 77,
         "generatorCompletions": 70,
-        "uniqueVisitorsApprox": 95,
+        "uniqueVisitorsApprox": 94,
         "conversionRate": 90.9
       }
     ],
@@ -34675,11 +34654,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 152,
-        "badgeViews": 403,
+        "badgeViews": 402,
         "certificateDownloads": 81,
         "generatorOpens": 190,
         "generatorCompletions": 116,
-        "uniqueVisitorsApprox": 326,
+        "uniqueVisitorsApprox": 325,
         "conversionRate": 61.1
       }
     ],
@@ -34698,7 +34677,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 78,
-        "badgeViews": 69,
+        "badgeViews": 68,
         "certificateDownloads": 69,
         "generatorOpens": 100,
         "generatorCompletions": 78,
@@ -35783,18 +35762,6 @@
         "latestViewedAt": "2026-09-09T05:18:34.317Z"
       },
       {
-        "slug": "eddie-reyes-career-activated-csuncc-20260914-0003",
-        "badgeId": "CSUNCC-20260914-0003",
-        "awardeeName": "Eddie Reyes",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/eddie-reyes-career-activated-csuncc-20260914-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-14T17:41:09.109Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -36561,6 +36528,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "eddie-reyes-career-activated-csuncc-20260914-0003",
+        "badgeId": "CSUNCC-20260914-0003",
+        "awardeeName": "Eddie Reyes",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/eddie-reyes-career-activated-csuncc-20260914-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -37239,12 +37218,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Eddie Reyes",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -37330,6 +37303,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Eddie Reyes",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T17:38:13.027Z",
+  "updatedAt": "2026-09-14T17:41:09.116Z",
   "totals": {
-    "badgesIssued": 151,
-    "badgeViews": 402,
+    "badgesIssued": 152,
+    "badgeViews": 403,
     "certificateDownloads": 81,
     "generatorOpens": 190,
-    "generatorCompletions": 115,
-    "conversionRate": 60.5,
-    "uniqueVisitorsApprox": 325
+    "generatorCompletions": 116,
+    "conversionRate": 61.1,
+    "uniqueVisitorsApprox": 326
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 69,
-      "badgeViews": 73,
+      "badgesIssued": 70,
+      "badgeViews": 74,
       "certificateDownloads": 66,
       "generatorOpens": 77,
-      "generatorCompletions": 69,
-      "uniqueVisitorsApprox": 94,
-      "conversionRate": 89.6
+      "generatorCompletions": 70,
+      "uniqueVisitorsApprox": 95,
+      "conversionRate": 90.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 151,
-      "badgeViews": 402,
+      "badgesIssued": 152,
+      "badgeViews": 403,
       "certificateDownloads": 81,
       "generatorOpens": 190,
-      "generatorCompletions": 115,
-      "uniqueVisitorsApprox": 325,
-      "conversionRate": 60.5
+      "generatorCompletions": 116,
+      "uniqueVisitorsApprox": 326,
+      "conversionRate": 61.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 77,
-      "badgeViews": 68,
+      "badgesIssued": 78,
+      "badgeViews": 69,
       "certificateDownloads": 69,
       "generatorOpens": 100,
-      "generatorCompletions": 77,
-      "conversionRate": 77
+      "generatorCompletions": 78,
+      "conversionRate": 78
     },
     {
       "id": "fhtc-e-badge",
@@ -1191,6 +1191,18 @@
       "latestViewedAt": "2026-09-09T05:18:34.317Z"
     },
     {
+      "slug": "eddie-reyes-career-activated-csuncc-20260914-0003",
+      "badgeId": "CSUNCC-20260914-0003",
+      "awardeeName": "Eddie Reyes",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/eddie-reyes-career-activated-csuncc-20260914-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-14T17:41:09.109Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -1966,8 +1978,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 100,
-      "completions": 76,
-      "conversionRate": 76
+      "completions": 77,
+      "conversionRate": 77
     },
     {
       "key": "general",
@@ -2633,6 +2645,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Eddie Reyes",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",
