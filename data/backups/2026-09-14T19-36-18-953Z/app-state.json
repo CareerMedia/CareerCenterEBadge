@@ -34652,48 +34652,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "5c3f2155-3cda-40a7-9a5d-a3067a240359",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-14T19:36:45.113Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0006",
-      "badgeSlug": "melissa-sanchez-career-activated-csuncc-20260914-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Melissa Sanchez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/melissa-sanchez-career-activated-csuncc-20260914-0006/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "6a74f383e0d0313098a77925",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "266a2549-bd2b-47f2-b6e0-b5e65c821c05",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-14T19:37:37.997Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0006",
-      "badgeSlug": "melissa-sanchez-career-activated-csuncc-20260914-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Melissa Sanchez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/melissa-sanchez-career-activated-csuncc-20260914-0006/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "684760dc655adac8b70d7c82",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -35168,15 +35126,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-14T19:37:38.005Z",
+    "updatedAt": "2026-09-14T19:36:18.252Z",
     "totals": {
       "badgesIssued": 155,
-      "badgeViews": 407,
+      "badgeViews": 405,
       "certificateDownloads": 81,
       "generatorOpens": 194,
       "generatorCompletions": 119,
       "conversionRate": 61.3,
-      "uniqueVisitorsApprox": 331
+      "uniqueVisitorsApprox": 329
     },
     "months": [
       {
@@ -35238,11 +35196,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 73,
-        "badgeViews": 78,
+        "badgeViews": 76,
         "certificateDownloads": 66,
         "generatorOpens": 81,
         "generatorCompletions": 73,
-        "uniqueVisitorsApprox": 100,
+        "uniqueVisitorsApprox": 98,
         "conversionRate": 90.1
       }
     ],
@@ -35251,11 +35209,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 155,
-        "badgeViews": 407,
+        "badgeViews": 405,
         "certificateDownloads": 81,
         "generatorOpens": 194,
         "generatorCompletions": 119,
-        "uniqueVisitorsApprox": 331,
+        "uniqueVisitorsApprox": 329,
         "conversionRate": 61.3
       }
     ],
@@ -35274,7 +35232,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 81,
-        "badgeViews": 73,
+        "badgeViews": 71,
         "certificateDownloads": 69,
         "generatorOpens": 104,
         "generatorCompletions": 81,
@@ -36009,18 +35967,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-08-25T19:34:28.078Z"
-      },
-      {
-        "slug": "melissa-sanchez-career-activated-csuncc-20260914-0006",
-        "badgeId": "CSUNCC-20260914-0006",
-        "awardeeName": "Melissa Sanchez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/melissa-sanchez-career-activated-csuncc-20260914-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-14T19:37:37.997Z"
       },
       {
         "slug": "chimezie-roberson-career-activated-csuncc-20260902-0003",
@@ -37173,6 +37119,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "melissa-sanchez-career-activated-csuncc-20260914-0006",
+        "badgeId": "CSUNCC-20260914-0006",
+        "awardeeName": "Melissa Sanchez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/melissa-sanchez-career-activated-csuncc-20260914-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -37623,12 +37581,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Melissa Sanchez",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -37960,6 +37912,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Melissa Sanchez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
