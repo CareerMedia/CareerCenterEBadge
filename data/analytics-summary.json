@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T22:23:21.593Z",
+  "updatedAt": "2026-09-14T22:31:30.058Z",
   "totals": {
     "badgesIssued": 158,
-    "badgeViews": 410,
+    "badgeViews": 411,
     "certificateDownloads": 83,
     "generatorOpens": 197,
     "generatorCompletions": 122,
@@ -70,7 +70,7 @@
       "key": "2026-09",
       "label": "Sep 2026",
       "badgesIssued": 76,
-      "badgeViews": 81,
+      "badgeViews": 82,
       "certificateDownloads": 68,
       "generatorOpens": 84,
       "generatorCompletions": 76,
@@ -83,7 +83,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 158,
-      "badgeViews": 410,
+      "badgeViews": 411,
       "certificateDownloads": 83,
       "generatorOpens": 197,
       "generatorCompletions": 122,
@@ -106,7 +106,7 @@
       "id": "career-activated",
       "title": "Career Activated",
       "badgesIssued": 84,
-      "badgeViews": 76,
+      "badgeViews": 77,
       "certificateDownloads": 71,
       "generatorOpens": 107,
       "generatorCompletions": 84,
@@ -867,6 +867,18 @@
       "latestViewedAt": "2026-09-14T19:37:37.997Z"
     },
     {
+      "slug": "jazmin-watts-career-activated-csuncc-20260914-0008",
+      "badgeId": "CSUNCC-20260914-0008",
+      "awardeeName": "Jazmin Watts",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jazmin-watts-career-activated-csuncc-20260914-0008/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-14T22:31:30.048Z"
+    },
+    {
       "slug": "chimezie-roberson-career-activated-csuncc-20260902-0003",
       "badgeId": "CSUNCC-20260902-0003",
       "awardeeName": "Chimezie Roberson",
@@ -1249,18 +1261,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-09-14T19:21:13.772Z"
-    },
-    {
-      "slug": "jazmin-watts-career-activated-csuncc-20260914-0008",
-      "badgeId": "CSUNCC-20260914-0008",
-      "awardeeName": "Jazmin Watts",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jazmin-watts-career-activated-csuncc-20260914-0008/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-09-14T22:10:30.836Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -2503,6 +2503,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Jazmin Watts",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -2744,12 +2750,6 @@
     },
     {
       "awardeeName": "Abraham Otworth",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Jazmin Watts",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
