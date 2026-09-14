@@ -34453,27 +34453,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "bb8cfd23-50a6-4ea6-abd0-e38ac50159e9",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-14T19:21:13.772Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0005",
-      "badgeSlug": "abraham-otworth-career-activated-csuncc-20260914-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Abraham Otworth",
-      "publicUrl": "https://careerbadge.csun.edu/badges/abraham-otworth-career-activated-csuncc-20260914-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "747e236a4254e6e0df5cff39",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -34948,10 +34927,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-14T19:21:13.780Z",
+    "updatedAt": "2026-09-14T19:20:55.277Z",
     "totals": {
       "badgesIssued": 154,
-      "badgeViews": 405,
+      "badgeViews": 404,
       "certificateDownloads": 81,
       "generatorOpens": 192,
       "generatorCompletions": 118,
@@ -35018,7 +34997,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 72,
-        "badgeViews": 76,
+        "badgeViews": 75,
         "certificateDownloads": 66,
         "generatorOpens": 79,
         "generatorCompletions": 72,
@@ -35031,7 +35010,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 154,
-        "badgeViews": 405,
+        "badgeViews": 404,
         "certificateDownloads": 81,
         "generatorOpens": 192,
         "generatorCompletions": 118,
@@ -35054,7 +35033,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 80,
-        "badgeViews": 71,
+        "badgeViews": 70,
         "certificateDownloads": 69,
         "generatorOpens": 102,
         "generatorCompletions": 80,
@@ -36163,18 +36142,6 @@
         "latestViewedAt": "2026-09-14T18:29:58.185Z"
       },
       {
-        "slug": "abraham-otworth-career-activated-csuncc-20260914-0005",
-        "badgeId": "CSUNCC-20260914-0005",
-        "awardeeName": "Abraham Otworth",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/abraham-otworth-career-activated-csuncc-20260914-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-14T19:21:13.772Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -36941,6 +36908,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "abraham-otworth-career-activated-csuncc-20260914-0005",
+        "badgeId": "CSUNCC-20260914-0005",
+        "awardeeName": "Abraham Otworth",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/abraham-otworth-career-activated-csuncc-20260914-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -37631,12 +37610,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Abraham Otworth",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -37722,6 +37695,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Abraham Otworth",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

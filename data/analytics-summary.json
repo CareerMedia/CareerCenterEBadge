@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T19:20:29.396Z",
+  "updatedAt": "2026-09-14T19:21:13.780Z",
   "totals": {
-    "badgesIssued": 153,
-    "badgeViews": 404,
+    "badgesIssued": 154,
+    "badgeViews": 405,
     "certificateDownloads": 81,
     "generatorOpens": 192,
-    "generatorCompletions": 117,
-    "conversionRate": 60.9,
+    "generatorCompletions": 118,
+    "conversionRate": 61.5,
     "uniqueVisitorsApprox": 328
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 71,
-      "badgeViews": 75,
+      "badgesIssued": 72,
+      "badgeViews": 76,
       "certificateDownloads": 66,
       "generatorOpens": 79,
-      "generatorCompletions": 71,
+      "generatorCompletions": 72,
       "uniqueVisitorsApprox": 97,
-      "conversionRate": 89.9
+      "conversionRate": 91.1
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 153,
-      "badgeViews": 404,
+      "badgesIssued": 154,
+      "badgeViews": 405,
       "certificateDownloads": 81,
       "generatorOpens": 192,
-      "generatorCompletions": 117,
+      "generatorCompletions": 118,
       "uniqueVisitorsApprox": 328,
-      "conversionRate": 60.9
+      "conversionRate": 61.5
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 79,
-      "badgeViews": 70,
+      "badgesIssued": 80,
+      "badgeViews": 71,
       "certificateDownloads": 69,
       "generatorOpens": 102,
-      "generatorCompletions": 79,
-      "conversionRate": 77.5
+      "generatorCompletions": 80,
+      "conversionRate": 78.4
     },
     {
       "id": "fhtc-e-badge",
@@ -1215,6 +1215,18 @@
       "latestViewedAt": "2026-09-14T18:29:58.185Z"
     },
     {
+      "slug": "abraham-otworth-career-activated-csuncc-20260914-0005",
+      "badgeId": "CSUNCC-20260914-0005",
+      "awardeeName": "Abraham Otworth",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/abraham-otworth-career-activated-csuncc-20260914-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-14T19:21:13.772Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -1990,8 +2002,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 102,
-      "completions": 78,
-      "conversionRate": 76.5
+      "completions": 79,
+      "conversionRate": 77.5
     },
     {
       "key": "general",
@@ -2666,6 +2678,12 @@
     },
     {
       "awardeeName": "Alain Hernandez",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Abraham Otworth",
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
