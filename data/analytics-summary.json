@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T08:14:15.979Z",
+  "updatedAt": "2026-09-14T08:15:57.857Z",
   "totals": {
-    "badgesIssued": 149,
-    "badgeViews": 401,
-    "certificateDownloads": 79,
+    "badgesIssued": 150,
+    "badgeViews": 402,
+    "certificateDownloads": 80,
     "generatorOpens": 188,
-    "generatorCompletions": 113,
-    "conversionRate": 60.1,
+    "generatorCompletions": 114,
+    "conversionRate": 60.6,
     "uniqueVisitorsApprox": 323
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 67,
-      "badgeViews": 72,
-      "certificateDownloads": 64,
+      "badgesIssued": 68,
+      "badgeViews": 73,
+      "certificateDownloads": 65,
       "generatorOpens": 75,
-      "generatorCompletions": 67,
+      "generatorCompletions": 68,
       "uniqueVisitorsApprox": 92,
-      "conversionRate": 89.3
+      "conversionRate": 90.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 149,
-      "badgeViews": 401,
-      "certificateDownloads": 79,
+      "badgesIssued": 150,
+      "badgeViews": 402,
+      "certificateDownloads": 80,
       "generatorOpens": 188,
-      "generatorCompletions": 113,
+      "generatorCompletions": 114,
       "uniqueVisitorsApprox": 323,
-      "conversionRate": 60.1
+      "conversionRate": 60.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 75,
-      "badgeViews": 67,
-      "certificateDownloads": 67,
+      "badgesIssued": 76,
+      "badgeViews": 68,
+      "certificateDownloads": 68,
       "generatorOpens": 98,
-      "generatorCompletions": 75,
-      "conversionRate": 76.5
+      "generatorCompletions": 76,
+      "conversionRate": 77.6
     },
     {
       "id": "fhtc-e-badge",
@@ -1021,6 +1021,18 @@
       "badgeViews": 1,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-10T18:04:17.083Z"
+    },
+    {
+      "slug": "alexa-cuenca-salgado-career-activated-csuncc-20260914-0001",
+      "badgeId": "CSUNCC-20260914-0001",
+      "awardeeName": "Alexa Cuenca Salgado",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/alexa-cuenca-salgado-career-activated-csuncc-20260914-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-14T08:15:57.843Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -1942,8 +1954,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 98,
-      "completions": 74,
-      "conversionRate": 75.5
+      "completions": 75,
+      "conversionRate": 76.5
     },
     {
       "key": "general",
@@ -2375,6 +2387,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Alexa Cuenca Salgado",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Maddie Paul",

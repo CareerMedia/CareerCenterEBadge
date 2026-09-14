@@ -33720,48 +33720,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "9d28c185-f4dc-4aa0-8955-2068888b3606",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-14T08:15:00.636Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0001",
-      "badgeSlug": "alexa-cuenca-salgado-career-activated-csuncc-20260914-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Alexa Cuenca Salgado",
-      "publicUrl": "https://careerbadge.csun.edu/badges/alexa-cuenca-salgado-career-activated-csuncc-20260914-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "423193a09f9d55f739d91f76",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "adbdafc8-9142-4d33-ba83-aa54229c2e17",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-14T08:15:57.843Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0001",
-      "badgeSlug": "alexa-cuenca-salgado-career-activated-csuncc-20260914-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Alexa Cuenca Salgado",
-      "publicUrl": "https://careerbadge.csun.edu/badges/alexa-cuenca-salgado-career-activated-csuncc-20260914-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "423193a09f9d55f739d91f76",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -34236,11 +34194,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-14T08:15:57.857Z",
+    "updatedAt": "2026-09-14T08:14:56.765Z",
     "totals": {
       "badgesIssued": 150,
-      "badgeViews": 402,
-      "certificateDownloads": 80,
+      "badgeViews": 401,
+      "certificateDownloads": 79,
       "generatorOpens": 188,
       "generatorCompletions": 114,
       "conversionRate": 60.6,
@@ -34306,8 +34264,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 68,
-        "badgeViews": 73,
-        "certificateDownloads": 65,
+        "badgeViews": 72,
+        "certificateDownloads": 64,
         "generatorOpens": 75,
         "generatorCompletions": 68,
         "uniqueVisitorsApprox": 92,
@@ -34319,8 +34277,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 150,
-        "badgeViews": 402,
-        "certificateDownloads": 80,
+        "badgeViews": 401,
+        "certificateDownloads": 79,
         "generatorOpens": 188,
         "generatorCompletions": 114,
         "uniqueVisitorsApprox": 323,
@@ -34342,8 +34300,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 76,
-        "badgeViews": 68,
-        "certificateDownloads": 68,
+        "badgeViews": 67,
+        "certificateDownloads": 67,
         "generatorOpens": 98,
         "generatorCompletions": 76,
         "conversionRate": 77.6
@@ -35259,18 +35217,6 @@
         "latestViewedAt": "2026-09-10T18:04:17.083Z"
       },
       {
-        "slug": "alexa-cuenca-salgado-career-activated-csuncc-20260914-0001",
-        "badgeId": "CSUNCC-20260914-0001",
-        "awardeeName": "Alexa Cuenca Salgado",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/alexa-cuenca-salgado-career-activated-csuncc-20260914-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-14T08:15:57.843Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -36181,6 +36127,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "alexa-cuenca-salgado-career-activated-csuncc-20260914-0001",
+        "badgeId": "CSUNCC-20260914-0001",
+        "awardeeName": "Alexa Cuenca Salgado",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/alexa-cuenca-salgado-career-activated-csuncc-20260914-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -36625,12 +36583,6 @@
         "certificateDownloads": 2
       },
       {
-        "awardeeName": "Alexa Cuenca Salgado",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -36938,6 +36890,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Alexa Cuenca Salgado",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
