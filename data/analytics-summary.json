@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T09:11:02.486Z",
+  "updatedAt": "2026-09-14T09:11:45.948Z",
   "totals": {
-    "badgesIssued": 150,
+    "badgesIssued": 151,
     "badgeViews": 402,
-    "certificateDownloads": 80,
+    "certificateDownloads": 81,
     "generatorOpens": 189,
-    "generatorCompletions": 114,
-    "conversionRate": 60.3,
+    "generatorCompletions": 115,
+    "conversionRate": 60.8,
     "uniqueVisitorsApprox": 324
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 68,
+      "badgesIssued": 69,
       "badgeViews": 73,
-      "certificateDownloads": 65,
+      "certificateDownloads": 66,
       "generatorOpens": 76,
-      "generatorCompletions": 68,
+      "generatorCompletions": 69,
       "uniqueVisitorsApprox": 93,
-      "conversionRate": 89.5
+      "conversionRate": 90.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 150,
+      "badgesIssued": 151,
       "badgeViews": 402,
-      "certificateDownloads": 80,
+      "certificateDownloads": 81,
       "generatorOpens": 189,
-      "generatorCompletions": 114,
+      "generatorCompletions": 115,
       "uniqueVisitorsApprox": 324,
-      "conversionRate": 60.3
+      "conversionRate": 60.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 76,
+      "badgesIssued": 77,
       "badgeViews": 68,
-      "certificateDownloads": 68,
+      "certificateDownloads": 69,
       "generatorOpens": 99,
-      "generatorCompletions": 76,
-      "conversionRate": 76.8
+      "generatorCompletions": 77,
+      "conversionRate": 77.8
     },
     {
       "id": "fhtc-e-badge",
@@ -1599,6 +1599,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "jose-amaya-manriquez-career-activated-csuncc-20260914-0002",
+      "badgeId": "CSUNCC-20260914-0002",
+      "awardeeName": "Jose Amaya-manriquez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jose-amaya-manriquez-career-activated-csuncc-20260914-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -1954,8 +1966,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 99,
-      "completions": 75,
-      "conversionRate": 75.8
+      "completions": 76,
+      "conversionRate": 76.8
     },
     {
       "key": "general",
@@ -2612,6 +2624,12 @@
     },
     {
       "awardeeName": "Malia Danielle Locklin",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Jose Amaya-manriquez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

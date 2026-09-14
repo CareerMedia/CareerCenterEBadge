@@ -33919,27 +33919,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "e0002498-dee9-427b-ba6e-3165f310f579",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-14T09:11:45.939Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0002",
-      "badgeSlug": "jose-amaya-manriquez-career-activated-csuncc-20260914-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jose Amaya-manriquez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jose-amaya-manriquez-career-activated-csuncc-20260914-0002/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "38ecbd722a4a2a179fc849a4",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -34414,11 +34393,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-14T09:11:45.948Z",
+    "updatedAt": "2026-09-14T09:11:43.040Z",
     "totals": {
       "badgesIssued": 151,
       "badgeViews": 402,
-      "certificateDownloads": 81,
+      "certificateDownloads": 80,
       "generatorOpens": 189,
       "generatorCompletions": 115,
       "conversionRate": 60.8,
@@ -34485,7 +34464,7 @@
         "label": "Sep 2026",
         "badgesIssued": 69,
         "badgeViews": 73,
-        "certificateDownloads": 66,
+        "certificateDownloads": 65,
         "generatorOpens": 76,
         "generatorCompletions": 69,
         "uniqueVisitorsApprox": 93,
@@ -34498,7 +34477,7 @@
         "label": "2026",
         "badgesIssued": 151,
         "badgeViews": 402,
-        "certificateDownloads": 81,
+        "certificateDownloads": 80,
         "generatorOpens": 189,
         "generatorCompletions": 115,
         "uniqueVisitorsApprox": 324,
@@ -34521,7 +34500,7 @@
         "title": "Career Activated",
         "badgesIssued": 77,
         "badgeViews": 68,
-        "certificateDownloads": 69,
+        "certificateDownloads": 68,
         "generatorOpens": 99,
         "generatorCompletions": 77,
         "conversionRate": 77.8
@@ -36013,18 +35992,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "jose-amaya-manriquez-career-activated-csuncc-20260914-0002",
-        "badgeId": "CSUNCC-20260914-0002",
-        "awardeeName": "Jose Amaya-manriquez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jose-amaya-manriquez-career-activated-csuncc-20260914-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -36367,6 +36334,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "jose-amaya-manriquez-career-activated-csuncc-20260914-0002",
+        "badgeId": "CSUNCC-20260914-0002",
+        "awardeeName": "Jose Amaya-manriquez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jose-amaya-manriquez-career-activated-csuncc-20260914-0002/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -37043,12 +37022,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Jose Amaya-manriquez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -37134,6 +37107,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Jose Amaya-manriquez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
