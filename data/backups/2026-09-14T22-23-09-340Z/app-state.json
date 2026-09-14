@@ -35249,27 +35249,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "e7e6eda9-9d72-4ac6-991c-f2a910d699ec",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-14T22:23:21.585Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0009",
-      "badgeSlug": "ivanna-ronco-career-activated-csuncc-20260914-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ivanna Ronco",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ivanna-ronco-career-activated-csuncc-20260914-0009/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "a5519a602ac71fc305b84cf3",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -35744,11 +35723,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-14T22:23:21.593Z",
+    "updatedAt": "2026-09-14T22:23:08.545Z",
     "totals": {
       "badgesIssued": 158,
       "badgeViews": 410,
-      "certificateDownloads": 83,
+      "certificateDownloads": 82,
       "generatorOpens": 197,
       "generatorCompletions": 122,
       "conversionRate": 61.9,
@@ -35815,7 +35794,7 @@
         "label": "Sep 2026",
         "badgesIssued": 76,
         "badgeViews": 81,
-        "certificateDownloads": 68,
+        "certificateDownloads": 67,
         "generatorOpens": 84,
         "generatorCompletions": 76,
         "uniqueVisitorsApprox": 105,
@@ -35828,7 +35807,7 @@
         "label": "2026",
         "badgesIssued": 158,
         "badgeViews": 410,
-        "certificateDownloads": 83,
+        "certificateDownloads": 82,
         "generatorOpens": 197,
         "generatorCompletions": 122,
         "uniqueVisitorsApprox": 336,
@@ -35851,7 +35830,7 @@
         "title": "Career Activated",
         "badgesIssued": 84,
         "badgeViews": 76,
-        "certificateDownloads": 71,
+        "certificateDownloads": 70,
         "generatorOpens": 107,
         "generatorCompletions": 84,
         "conversionRate": 78.5
@@ -37427,18 +37406,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "ivanna-ronco-career-activated-csuncc-20260914-0009",
-        "badgeId": "CSUNCC-20260914-0009",
-        "awardeeName": "Ivanna Ronco",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ivanna-ronco-career-activated-csuncc-20260914-0009/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -37781,6 +37748,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/maximiliano-cervantes-career-activated-csuncc-20260909-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "ivanna-ronco-career-activated-csuncc-20260914-0009",
+        "badgeId": "CSUNCC-20260914-0009",
+        "awardeeName": "Ivanna Ronco",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ivanna-ronco-career-activated-csuncc-20260914-0009/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -38499,12 +38478,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Ivanna Ronco",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -38590,6 +38563,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Ivanna Ronco",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

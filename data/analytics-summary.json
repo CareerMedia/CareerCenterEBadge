@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T22:22:48.145Z",
+  "updatedAt": "2026-09-14T22:23:21.593Z",
   "totals": {
-    "badgesIssued": 157,
+    "badgesIssued": 158,
     "badgeViews": 410,
-    "certificateDownloads": 82,
+    "certificateDownloads": 83,
     "generatorOpens": 197,
-    "generatorCompletions": 121,
-    "conversionRate": 61.4,
+    "generatorCompletions": 122,
+    "conversionRate": 61.9,
     "uniqueVisitorsApprox": 336
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 75,
+      "badgesIssued": 76,
       "badgeViews": 81,
-      "certificateDownloads": 67,
+      "certificateDownloads": 68,
       "generatorOpens": 84,
-      "generatorCompletions": 75,
+      "generatorCompletions": 76,
       "uniqueVisitorsApprox": 105,
-      "conversionRate": 89.3
+      "conversionRate": 90.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 157,
+      "badgesIssued": 158,
       "badgeViews": 410,
-      "certificateDownloads": 82,
+      "certificateDownloads": 83,
       "generatorOpens": 197,
-      "generatorCompletions": 121,
+      "generatorCompletions": 122,
       "uniqueVisitorsApprox": 336,
-      "conversionRate": 61.4
+      "conversionRate": 61.9
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 83,
+      "badgesIssued": 84,
       "badgeViews": 76,
-      "certificateDownloads": 70,
+      "certificateDownloads": 71,
       "generatorOpens": 107,
-      "generatorCompletions": 83,
-      "conversionRate": 77.6
+      "generatorCompletions": 84,
+      "conversionRate": 78.5
     },
     {
       "id": "fhtc-e-badge",
@@ -1683,6 +1683,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "ivanna-ronco-career-activated-csuncc-20260914-0009",
+      "badgeId": "CSUNCC-20260914-0009",
+      "awardeeName": "Ivanna Ronco",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ivanna-ronco-career-activated-csuncc-20260914-0009/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2038,8 +2050,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 107,
-      "completions": 82,
-      "conversionRate": 76.6
+      "completions": 83,
+      "conversionRate": 77.6
     },
     {
       "key": "general",
@@ -2741,6 +2753,12 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Ivanna Ronco",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Harsh Ahir",
