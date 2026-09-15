@@ -38706,48 +38706,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "ab6e4a22-9827-44df-85c3-be38a8766cdf",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T05:53:08.638Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0025",
-      "badgeSlug": "caleb-bradford-career-activated-csuncc-20260914-0025",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Caleb Bradford",
-      "publicUrl": "https://careerbadge.csun.edu/badges/caleb-bradford-career-activated-csuncc-20260914-0025/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "24612bc93efe77ba84876d6a",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "475032ca-82cb-4ed6-9994-f92be56578cb",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T05:53:13.201Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0025",
-      "badgeSlug": "caleb-bradford-career-activated-csuncc-20260914-0025",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Caleb Bradford",
-      "publicUrl": "https://careerbadge.csun.edu/badges/caleb-bradford-career-activated-csuncc-20260914-0025/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "24612bc93efe77ba84876d6a",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -39222,11 +39180,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T05:53:13.208Z",
+    "updatedAt": "2026-09-15T05:53:03.966Z",
     "totals": {
       "badgesIssued": 174,
-      "badgeViews": 430,
-      "certificateDownloads": 102,
+      "badgeViews": 429,
+      "certificateDownloads": 101,
       "generatorOpens": 220,
       "generatorCompletions": 138,
       "conversionRate": 62.7,
@@ -39292,8 +39250,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 92,
-        "badgeViews": 101,
-        "certificateDownloads": 87,
+        "badgeViews": 100,
+        "certificateDownloads": 86,
         "generatorOpens": 107,
         "generatorCompletions": 92,
         "uniqueVisitorsApprox": 132,
@@ -39305,8 +39263,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 174,
-        "badgeViews": 430,
-        "certificateDownloads": 102,
+        "badgeViews": 429,
+        "certificateDownloads": 101,
         "generatorOpens": 220,
         "generatorCompletions": 138,
         "uniqueVisitorsApprox": 363,
@@ -39328,8 +39286,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 100,
-        "badgeViews": 94,
-        "certificateDownloads": 90,
+        "badgeViews": 93,
+        "certificateDownloads": 89,
         "generatorOpens": 130,
         "generatorCompletions": 100,
         "conversionRate": 76.9
@@ -40389,18 +40347,6 @@
         "latestViewedAt": "2026-09-15T04:06:53.921Z"
       },
       {
-        "slug": "caleb-bradford-career-activated-csuncc-20260914-0025",
-        "badgeId": "CSUNCC-20260914-0025",
-        "awardeeName": "Caleb Bradford",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/caleb-bradford-career-activated-csuncc-20260914-0025/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T05:53:13.201Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -41455,6 +41401,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "caleb-bradford-career-activated-csuncc-20260914-0025",
+        "badgeId": "CSUNCC-20260914-0025",
+        "awardeeName": "Caleb Bradford",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/caleb-bradford-career-activated-csuncc-20260914-0025/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -41971,12 +41929,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Caleb Bradford",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -42350,6 +42302,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Caleb Bradford",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
