@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T03:49:49.996Z",
+  "updatedAt": "2026-09-15T03:52:26.628Z",
   "totals": {
-    "badgesIssued": 171,
-    "badgeViews": 425,
-    "certificateDownloads": 98,
-    "generatorOpens": 217,
-    "generatorCompletions": 135,
-    "conversionRate": 62.2,
-    "uniqueVisitorsApprox": 360
+    "badgesIssued": 172,
+    "badgeViews": 428,
+    "certificateDownloads": 100,
+    "generatorOpens": 218,
+    "generatorCompletions": 136,
+    "conversionRate": 62.4,
+    "uniqueVisitorsApprox": 361
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 89,
-      "badgeViews": 96,
-      "certificateDownloads": 83,
-      "generatorOpens": 104,
-      "generatorCompletions": 89,
-      "uniqueVisitorsApprox": 129,
-      "conversionRate": 85.6
+      "badgesIssued": 90,
+      "badgeViews": 99,
+      "certificateDownloads": 85,
+      "generatorOpens": 105,
+      "generatorCompletions": 90,
+      "uniqueVisitorsApprox": 130,
+      "conversionRate": 85.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 171,
-      "badgeViews": 425,
-      "certificateDownloads": 98,
-      "generatorOpens": 217,
-      "generatorCompletions": 135,
-      "uniqueVisitorsApprox": 360,
-      "conversionRate": 62.2
+      "badgesIssued": 172,
+      "badgeViews": 428,
+      "certificateDownloads": 100,
+      "generatorOpens": 218,
+      "generatorCompletions": 136,
+      "uniqueVisitorsApprox": 361,
+      "conversionRate": 62.4
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 97,
-      "badgeViews": 89,
-      "certificateDownloads": 86,
-      "generatorOpens": 127,
-      "generatorCompletions": 97,
-      "conversionRate": 76.4
+      "badgesIssued": 98,
+      "badgeViews": 92,
+      "certificateDownloads": 88,
+      "generatorOpens": 128,
+      "generatorCompletions": 98,
+      "conversionRate": 76.6
     },
     {
       "id": "fhtc-e-badge",
@@ -565,6 +565,18 @@
       "badgeViews": 3,
       "certificateDownloads": 2,
       "latestViewedAt": "2026-09-15T03:25:21.348Z"
+    },
+    {
+      "slug": "jacqueline-perez-caballero-career-activated-csuncc-20260914-0023",
+      "badgeId": "CSUNCC-20260914-0023",
+      "awardeeName": "Jacqueline Perez Caballero",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jacqueline-perez-caballero-career-activated-csuncc-20260914-0023/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 2,
+      "latestViewedAt": "2026-09-15T03:52:05.380Z"
     },
     {
       "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
@@ -2205,9 +2217,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 127,
-      "completions": 96,
-      "conversionRate": 75.6
+      "opens": 128,
+      "completions": 97,
+      "conversionRate": 75.8
     },
     {
       "key": "general",
@@ -2414,6 +2426,12 @@
     },
     {
       "awardeeName": "Camila Aguayo",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Jacqueline Perez Caballero",
       "badgesIssued": 1,
       "badgeViews": 3,
       "certificateDownloads": 2

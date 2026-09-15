@@ -38224,132 +38224,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "3df93a5e-dfa2-4d71-8759-93d8a6a4a178",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T03:50:21.524Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0023",
-      "badgeSlug": "jacqueline-perez-caballero-career-activated-csuncc-20260914-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jacqueline Perez Caballero",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jacqueline-perez-caballero-career-activated-csuncc-20260914-0023/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "6e17858310632c410cbe5b24",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "02ea6c8c-ee45-418a-bc53-cbedf14309f7",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T03:50:29.077Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0023",
-      "badgeSlug": "jacqueline-perez-caballero-career-activated-csuncc-20260914-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jacqueline Perez Caballero",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jacqueline-perez-caballero-career-activated-csuncc-20260914-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "6e17858310632c410cbe5b24",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "954c2a04-f574-4f46-a8e4-cf9f122c8dbf",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T03:50:50.173Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0023",
-      "badgeSlug": "jacqueline-perez-caballero-career-activated-csuncc-20260914-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jacqueline Perez Caballero",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jacqueline-perez-caballero-career-activated-csuncc-20260914-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "6e17858310632c410cbe5b24",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "56d7d22d-e299-4527-b197-3979aacc9223",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T03:51:03.183Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0023",
-      "badgeSlug": "jacqueline-perez-caballero-career-activated-csuncc-20260914-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jacqueline Perez Caballero",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jacqueline-perez-caballero-career-activated-csuncc-20260914-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "6e17858310632c410cbe5b24",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "548d510c-013c-4217-88f1-2519f4d2b61d",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T03:52:05.380Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0023",
-      "badgeSlug": "jacqueline-perez-caballero-career-activated-csuncc-20260914-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jacqueline Perez Caballero",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jacqueline-perez-caballero-career-activated-csuncc-20260914-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "454779627a8c771302ede0ea",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "a9a12b41-2213-4ed2-bf57-8be4038205d3",
-      "type": "generator_opened",
-      "timestamp": "2026-09-15T03:52:26.619Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "e5f4a93d651b061b69e49b85",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -38824,15 +38698,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T03:52:26.628Z",
+    "updatedAt": "2026-09-15T03:50:16.448Z",
     "totals": {
       "badgesIssued": 172,
-      "badgeViews": 428,
-      "certificateDownloads": 100,
-      "generatorOpens": 218,
+      "badgeViews": 425,
+      "certificateDownloads": 98,
+      "generatorOpens": 217,
       "generatorCompletions": 136,
-      "conversionRate": 62.4,
-      "uniqueVisitorsApprox": 361
+      "conversionRate": 62.7,
+      "uniqueVisitorsApprox": 360
     },
     "months": [
       {
@@ -38894,12 +38768,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 90,
-        "badgeViews": 99,
-        "certificateDownloads": 85,
-        "generatorOpens": 105,
+        "badgeViews": 96,
+        "certificateDownloads": 83,
+        "generatorOpens": 104,
         "generatorCompletions": 90,
-        "uniqueVisitorsApprox": 130,
-        "conversionRate": 85.7
+        "uniqueVisitorsApprox": 129,
+        "conversionRate": 86.5
       }
     ],
     "years": [
@@ -38907,12 +38781,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 172,
-        "badgeViews": 428,
-        "certificateDownloads": 100,
-        "generatorOpens": 218,
+        "badgeViews": 425,
+        "certificateDownloads": 98,
+        "generatorOpens": 217,
         "generatorCompletions": 136,
-        "uniqueVisitorsApprox": 361,
-        "conversionRate": 62.4
+        "uniqueVisitorsApprox": 360,
+        "conversionRate": 62.7
       }
     ],
     "badgeTypes": [
@@ -38930,11 +38804,11 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 98,
-        "badgeViews": 92,
-        "certificateDownloads": 88,
-        "generatorOpens": 128,
+        "badgeViews": 89,
+        "certificateDownloads": 86,
+        "generatorOpens": 127,
         "generatorCompletions": 98,
-        "conversionRate": 76.6
+        "conversionRate": 77.2
       },
       {
         "id": "fhtc-e-badge",
@@ -39389,18 +39263,6 @@
         "badgeViews": 3,
         "certificateDownloads": 2,
         "latestViewedAt": "2026-09-15T03:25:21.348Z"
-      },
-      {
-        "slug": "jacqueline-perez-caballero-career-activated-csuncc-20260914-0023",
-        "badgeId": "CSUNCC-20260914-0023",
-        "awardeeName": "Jacqueline Perez Caballero",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jacqueline-perez-caballero-career-activated-csuncc-20260914-0023/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 2,
-        "latestViewedAt": "2026-09-15T03:52:05.380Z"
       },
       {
         "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
@@ -41033,6 +40895,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "jacqueline-perez-caballero-career-activated-csuncc-20260914-0023",
+        "badgeId": "CSUNCC-20260914-0023",
+        "awardeeName": "Jacqueline Perez Caballero",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jacqueline-perez-caballero-career-activated-csuncc-20260914-0023/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -41041,9 +40915,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 128,
+        "opens": 127,
         "completions": 97,
-        "conversionRate": 75.8
+        "conversionRate": 76.4
       },
       {
         "key": "general",
@@ -41250,12 +41124,6 @@
       },
       {
         "awardeeName": "Camila Aguayo",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Jacqueline Perez Caballero",
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 2
@@ -41916,6 +41784,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Jacqueline Perez Caballero",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
