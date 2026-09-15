@@ -39282,27 +39282,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "aacb0ba1-e63d-441c-9922-0f92cd99a36a",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T16:33:21.497Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0002",
-      "badgeSlug": "alexander-smith-career-activated-csuncc-20260915-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Alexander Smith",
-      "publicUrl": "https://careerbadge.csun.edu/badges/alexander-smith-career-activated-csuncc-20260915-0002/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "5acfb9bf3acd6ffcbf933426",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -39777,11 +39756,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T16:33:21.504Z",
+    "updatedAt": "2026-09-15T16:33:12.858Z",
     "totals": {
       "badgesIssued": 177,
       "badgeViews": 430,
-      "certificateDownloads": 105,
+      "certificateDownloads": 104,
       "generatorOpens": 224,
       "generatorCompletions": 141,
       "conversionRate": 62.9,
@@ -39848,7 +39827,7 @@
         "label": "Sep 2026",
         "badgesIssued": 95,
         "badgeViews": 101,
-        "certificateDownloads": 90,
+        "certificateDownloads": 89,
         "generatorOpens": 111,
         "generatorCompletions": 95,
         "uniqueVisitorsApprox": 136,
@@ -39861,7 +39840,7 @@
         "label": "2026",
         "badgesIssued": 177,
         "badgeViews": 430,
-        "certificateDownloads": 105,
+        "certificateDownloads": 104,
         "generatorOpens": 224,
         "generatorCompletions": 141,
         "uniqueVisitorsApprox": 367,
@@ -39884,7 +39863,7 @@
         "title": "Career Activated",
         "badgesIssued": 103,
         "badgeViews": 94,
-        "certificateDownloads": 93,
+        "certificateDownloads": 92,
         "generatorOpens": 134,
         "generatorCompletions": 103,
         "conversionRate": 76.9
@@ -41664,18 +41643,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "alexander-smith-career-activated-csuncc-20260915-0002",
-        "badgeId": "CSUNCC-20260915-0002",
-        "awardeeName": "Alexander Smith",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/alexander-smith-career-activated-csuncc-20260915-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -42042,6 +42009,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/mariah-makonie-career-activated-csuncc-20260914-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "alexander-smith-career-activated-csuncc-20260915-0002",
+        "badgeId": "CSUNCC-20260915-0002",
+        "awardeeName": "Alexander Smith",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/alexander-smith-career-activated-csuncc-20260915-0002/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -42868,12 +42847,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Alexander Smith",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -42959,6 +42932,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Alexander Smith",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
