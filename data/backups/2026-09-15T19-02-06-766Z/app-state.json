@@ -40036,27 +40036,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "98178885-701e-40a8-8e15-633ca070dad8",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T19:02:28.330Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0006",
-      "badgeSlug": "sophia-perdomo-saucedo-career-activated-csuncc-20260915-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Sophia Perdomo Saucedo",
-      "publicUrl": "https://careerbadge.csun.edu/badges/sophia-perdomo-saucedo-career-activated-csuncc-20260915-0006/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "7d32b7354989dc9da61b9e90",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -40531,11 +40510,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T19:02:28.362Z",
+    "updatedAt": "2026-09-15T19:02:05.956Z",
     "totals": {
       "badgesIssued": 181,
       "badgeViews": 430,
-      "certificateDownloads": 109,
+      "certificateDownloads": 108,
       "generatorOpens": 230,
       "generatorCompletions": 145,
       "conversionRate": 63,
@@ -40602,7 +40581,7 @@
         "label": "Sep 2026",
         "badgesIssued": 99,
         "badgeViews": 101,
-        "certificateDownloads": 94,
+        "certificateDownloads": 93,
         "generatorOpens": 117,
         "generatorCompletions": 99,
         "uniqueVisitorsApprox": 142,
@@ -40615,7 +40594,7 @@
         "label": "2026",
         "badgesIssued": 181,
         "badgeViews": 430,
-        "certificateDownloads": 109,
+        "certificateDownloads": 108,
         "generatorOpens": 230,
         "generatorCompletions": 145,
         "uniqueVisitorsApprox": 373,
@@ -40638,7 +40617,7 @@
         "title": "Career Activated",
         "badgesIssued": 107,
         "badgeViews": 94,
-        "certificateDownloads": 97,
+        "certificateDownloads": 96,
         "generatorOpens": 140,
         "generatorCompletions": 107,
         "conversionRate": 76.4
@@ -42466,18 +42445,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "sophia-perdomo-saucedo-career-activated-csuncc-20260915-0006",
-        "badgeId": "CSUNCC-20260915-0006",
-        "awardeeName": "Sophia Perdomo Saucedo",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/sophia-perdomo-saucedo-career-activated-csuncc-20260915-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -42844,6 +42811,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/mariah-makonie-career-activated-csuncc-20260914-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "sophia-perdomo-saucedo-career-activated-csuncc-20260915-0006",
+        "badgeId": "CSUNCC-20260915-0006",
+        "awardeeName": "Sophia Perdomo Saucedo",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/sophia-perdomo-saucedo-career-activated-csuncc-20260915-0006/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -43694,12 +43673,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Sophia Perdomo Saucedo",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -43785,6 +43758,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Sophia Perdomo Saucedo",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
