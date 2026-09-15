@@ -36925,6 +36925,48 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-certificate-download",
       "meta": {}
+    },
+    {
+      "id": "6286ec83-3809-4d9c-8e1b-63607bdbb65e",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-15T03:06:58.851Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260512-0005",
+      "badgeSlug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Ernesto Cruz",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "5264000088930ad0b97e1d68",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "2856c30e-1877-46f9-b73b-cd0b18afa220",
+      "type": "generator_opened",
+      "timestamp": "2026-09-15T03:07:53.820Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "Career Activated widget",
+      "source": "generator-page",
+      "visitorId": "6cf6f872b2e769a6d2cb0eb8",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -37399,15 +37441,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T02:57:15.205Z",
+    "updatedAt": "2026-09-15T03:07:53.848Z",
     "totals": {
       "badgesIssued": 166,
-      "badgeViews": 416,
+      "badgeViews": 417,
       "certificateDownloads": 94,
-      "generatorOpens": 207,
+      "generatorOpens": 208,
       "generatorCompletions": 130,
-      "conversionRate": 62.8,
-      "uniqueVisitorsApprox": 348
+      "conversionRate": 62.5,
+      "uniqueVisitorsApprox": 350
     },
     "months": [
       {
@@ -37469,12 +37511,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 84,
-        "badgeViews": 87,
+        "badgeViews": 88,
         "certificateDownloads": 79,
-        "generatorOpens": 94,
+        "generatorOpens": 95,
         "generatorCompletions": 84,
-        "uniqueVisitorsApprox": 117,
-        "conversionRate": 89.4
+        "uniqueVisitorsApprox": 119,
+        "conversionRate": 88.4
       }
     ],
     "years": [
@@ -37482,12 +37524,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 166,
-        "badgeViews": 416,
+        "badgeViews": 417,
         "certificateDownloads": 94,
-        "generatorOpens": 207,
+        "generatorOpens": 208,
         "generatorCompletions": 130,
-        "uniqueVisitorsApprox": 348,
-        "conversionRate": 62.8
+        "uniqueVisitorsApprox": 350,
+        "conversionRate": 62.5
       }
     ],
     "badgeTypes": [
@@ -37495,7 +37537,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 323,
+        "badgeViews": 324,
         "certificateDownloads": 10,
         "generatorOpens": 34,
         "generatorCompletions": 34,
@@ -37507,9 +37549,9 @@
         "badgesIssued": 92,
         "badgeViews": 82,
         "certificateDownloads": 82,
-        "generatorOpens": 117,
+        "generatorOpens": 118,
         "generatorCompletions": 92,
-        "conversionRate": 78.6
+        "conversionRate": 78
       },
       {
         "id": "fhtc-e-badge",
@@ -37546,6 +37588,18 @@
         "latestViewedAt": "2026-09-03T22:54:05.822Z"
       },
       {
+        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+        "badgeId": "CSUNCC-20260512-0005",
+        "awardeeName": "Ernesto Cruz",
+        "badgeTitle": "Career Champion",
+        "badgeTemplateId": "career-champion",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 35,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-09-15T03:06:58.851Z"
+      },
+      {
         "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
         "badgeId": "CSUNCC-20260422-0003",
         "awardeeName": "Hector Carrillo",
@@ -37556,18 +37610,6 @@
         "badgeViews": 34,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-09-13T05:20:06.246Z"
-      },
-      {
-        "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
-        "badgeId": "CSUNCC-20260512-0005",
-        "awardeeName": "Ernesto Cruz",
-        "badgeTitle": "Career Champion",
-        "badgeTemplateId": "career-champion",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 34,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-11T23:01:43.737Z"
       },
       {
         "slug": "melva-ramirez-career-champion-csuncc-20260512-0014",
@@ -39544,9 +39586,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 117,
+        "opens": 118,
         "completions": 91,
-        "conversionRate": 77.8
+        "conversionRate": 77.1
       },
       {
         "key": "general",
@@ -39590,13 +39632,13 @@
         "certificateDownloads": 2
       },
       {
-        "awardeeName": "Hector Carrillo",
+        "awardeeName": "Ernesto Cruz",
         "badgesIssued": 1,
-        "badgeViews": 34,
+        "badgeViews": 35,
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Ernesto Cruz",
+        "awardeeName": "Hector Carrillo",
         "badgesIssued": 1,
         "badgeViews": 34,
         "certificateDownloads": 0
