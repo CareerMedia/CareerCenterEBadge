@@ -36904,27 +36904,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "5170619a-95ef-49e4-852e-633ad83b2522",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T02:57:15.195Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0017",
-      "badgeSlug": "paula-de-jeronimo-career-activated-csuncc-20260914-0017",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Paula De Jeronimo",
-      "publicUrl": "https://careerbadge.csun.edu/badges/paula-de-jeronimo-career-activated-csuncc-20260914-0017/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "d325b60886583c04f2c87238",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -37399,11 +37378,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T02:57:15.205Z",
+    "updatedAt": "2026-09-15T02:57:08.650Z",
     "totals": {
       "badgesIssued": 166,
       "badgeViews": 416,
-      "certificateDownloads": 94,
+      "certificateDownloads": 93,
       "generatorOpens": 207,
       "generatorCompletions": 130,
       "conversionRate": 62.8,
@@ -37470,7 +37449,7 @@
         "label": "Sep 2026",
         "badgesIssued": 84,
         "badgeViews": 87,
-        "certificateDownloads": 79,
+        "certificateDownloads": 78,
         "generatorOpens": 94,
         "generatorCompletions": 84,
         "uniqueVisitorsApprox": 117,
@@ -37483,7 +37462,7 @@
         "label": "2026",
         "badgesIssued": 166,
         "badgeViews": 416,
-        "certificateDownloads": 94,
+        "certificateDownloads": 93,
         "generatorOpens": 207,
         "generatorCompletions": 130,
         "uniqueVisitorsApprox": 348,
@@ -37506,7 +37485,7 @@
         "title": "Career Activated",
         "badgesIssued": 92,
         "badgeViews": 82,
-        "certificateDownloads": 82,
+        "certificateDownloads": 81,
         "generatorOpens": 117,
         "generatorCompletions": 92,
         "conversionRate": 78.6
@@ -39154,18 +39133,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "paula-de-jeronimo-career-activated-csuncc-20260914-0017",
-        "badgeId": "CSUNCC-20260914-0017",
-        "awardeeName": "Paula De Jeronimo",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/paula-de-jeronimo-career-activated-csuncc-20260914-0017/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -39532,6 +39499,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/mariah-makonie-career-activated-csuncc-20260914-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "paula-de-jeronimo-career-activated-csuncc-20260914-0017",
+        "badgeId": "CSUNCC-20260914-0017",
+        "awardeeName": "Paula De Jeronimo",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/paula-de-jeronimo-career-activated-csuncc-20260914-0017/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -40292,12 +40271,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Paula De Jeronimo",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -40383,6 +40356,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Paula De Jeronimo",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

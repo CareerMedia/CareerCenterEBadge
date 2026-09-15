@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T02:56:21.823Z",
+  "updatedAt": "2026-09-15T02:57:15.205Z",
   "totals": {
-    "badgesIssued": 165,
+    "badgesIssued": 166,
     "badgeViews": 416,
-    "certificateDownloads": 93,
+    "certificateDownloads": 94,
     "generatorOpens": 207,
-    "generatorCompletions": 129,
-    "conversionRate": 62.3,
+    "generatorCompletions": 130,
+    "conversionRate": 62.8,
     "uniqueVisitorsApprox": 348
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 83,
+      "badgesIssued": 84,
       "badgeViews": 87,
-      "certificateDownloads": 78,
+      "certificateDownloads": 79,
       "generatorOpens": 94,
-      "generatorCompletions": 83,
+      "generatorCompletions": 84,
       "uniqueVisitorsApprox": 117,
-      "conversionRate": 88.3
+      "conversionRate": 89.4
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 165,
+      "badgesIssued": 166,
       "badgeViews": 416,
-      "certificateDownloads": 93,
+      "certificateDownloads": 94,
       "generatorOpens": 207,
-      "generatorCompletions": 129,
+      "generatorCompletions": 130,
       "uniqueVisitorsApprox": 348,
-      "conversionRate": 62.3
+      "conversionRate": 62.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 91,
+      "badgesIssued": 92,
       "badgeViews": 82,
-      "certificateDownloads": 81,
+      "certificateDownloads": 82,
       "generatorOpens": 117,
-      "generatorCompletions": 91,
-      "conversionRate": 77.8
+      "generatorCompletions": 92,
+      "conversionRate": 78.6
     },
     {
       "id": "fhtc-e-badge",
@@ -1755,6 +1755,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "paula-de-jeronimo-career-activated-csuncc-20260914-0017",
+      "badgeId": "CSUNCC-20260914-0017",
+      "awardeeName": "Paula De Jeronimo",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/paula-de-jeronimo-career-activated-csuncc-20260914-0017/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2134,8 +2146,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 117,
-      "completions": 90,
-      "conversionRate": 76.9
+      "completions": 91,
+      "conversionRate": 77.8
     },
     {
       "key": "general",
@@ -2876,6 +2888,12 @@
     },
     {
       "awardeeName": "Alejandro Moscoso",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Paula De Jeronimo",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
