@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T19:02:28.362Z",
+  "updatedAt": "2026-09-15T19:09:11.964Z",
   "totals": {
-    "badgesIssued": 181,
-    "badgeViews": 430,
-    "certificateDownloads": 109,
-    "generatorOpens": 230,
-    "generatorCompletions": 145,
-    "conversionRate": 63,
-    "uniqueVisitorsApprox": 373
+    "badgesIssued": 183,
+    "badgeViews": 431,
+    "certificateDownloads": 110,
+    "generatorOpens": 232,
+    "generatorCompletions": 147,
+    "conversionRate": 63.4,
+    "uniqueVisitorsApprox": 375
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 99,
-      "badgeViews": 101,
-      "certificateDownloads": 94,
-      "generatorOpens": 117,
-      "generatorCompletions": 99,
-      "uniqueVisitorsApprox": 142,
-      "conversionRate": 84.6
+      "badgesIssued": 101,
+      "badgeViews": 102,
+      "certificateDownloads": 95,
+      "generatorOpens": 119,
+      "generatorCompletions": 101,
+      "uniqueVisitorsApprox": 144,
+      "conversionRate": 84.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 181,
-      "badgeViews": 430,
-      "certificateDownloads": 109,
-      "generatorOpens": 230,
-      "generatorCompletions": 145,
-      "uniqueVisitorsApprox": 373,
-      "conversionRate": 63
+      "badgesIssued": 183,
+      "badgeViews": 431,
+      "certificateDownloads": 110,
+      "generatorOpens": 232,
+      "generatorCompletions": 147,
+      "uniqueVisitorsApprox": 375,
+      "conversionRate": 63.4
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 107,
-      "badgeViews": 94,
-      "certificateDownloads": 97,
-      "generatorOpens": 140,
-      "generatorCompletions": 107,
-      "conversionRate": 76.4
+      "badgesIssued": 109,
+      "badgeViews": 95,
+      "certificateDownloads": 98,
+      "generatorOpens": 142,
+      "generatorCompletions": 109,
+      "conversionRate": 76.8
     },
     {
       "id": "fhtc-e-badge",
@@ -1177,6 +1177,18 @@
       "badgeViews": 1,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-15T05:53:13.201Z"
+    },
+    {
+      "slug": "leslie-navarro-career-activated-csuncc-20260915-0007",
+      "badgeId": "CSUNCC-20260915-0007",
+      "awardeeName": "Leslie Navarro",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/leslie-navarro-career-activated-csuncc-20260915-0007/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-15T19:07:48.650Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -2317,6 +2329,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "angelina-acosta-career-activated-csuncc-20260915-0008",
+      "badgeId": "CSUNCC-20260915-0008",
+      "awardeeName": "Angelina Acosta",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/angelina-acosta-career-activated-csuncc-20260915-0008/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -2325,9 +2349,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 140,
-      "completions": 106,
-      "conversionRate": 75.7
+      "opens": 142,
+      "completions": 108,
+      "conversionRate": 76.1
     },
     {
       "key": "general",
@@ -2839,6 +2863,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Leslie Navarro",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -3254,6 +3284,12 @@
     },
     {
       "awardeeName": "Emily Rosado Alonso",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Angelina Acosta",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0

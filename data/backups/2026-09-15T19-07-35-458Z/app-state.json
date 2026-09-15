@@ -40214,48 +40214,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "d4ace6bc-5868-46ea-beae-4edfa2673760",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T19:07:48.650Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0007",
-      "badgeSlug": "leslie-navarro-career-activated-csuncc-20260915-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Leslie Navarro",
-      "publicUrl": "https://careerbadge.csun.edu/badges/leslie-navarro-career-activated-csuncc-20260915-0007/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "166fd33ad433a966601c1d29",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "9c208dc7-9739-43dd-beb5-d6a4b7b16fca",
-      "type": "generator_opened",
-      "timestamp": "2026-09-15T19:08:14.271Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "b2cfefc33c2ac7c3cbe33bed",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -40730,15 +40688,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T19:08:14.283Z",
+    "updatedAt": "2026-09-15T19:07:34.012Z",
     "totals": {
       "badgesIssued": 182,
-      "badgeViews": 431,
+      "badgeViews": 430,
       "certificateDownloads": 109,
-      "generatorOpens": 232,
+      "generatorOpens": 231,
       "generatorCompletions": 146,
-      "conversionRate": 62.9,
-      "uniqueVisitorsApprox": 375
+      "conversionRate": 63.2,
+      "uniqueVisitorsApprox": 374
     },
     "months": [
       {
@@ -40800,12 +40758,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 100,
-        "badgeViews": 102,
+        "badgeViews": 101,
         "certificateDownloads": 94,
-        "generatorOpens": 119,
+        "generatorOpens": 118,
         "generatorCompletions": 100,
-        "uniqueVisitorsApprox": 144,
-        "conversionRate": 84
+        "uniqueVisitorsApprox": 143,
+        "conversionRate": 84.7
       }
     ],
     "years": [
@@ -40813,12 +40771,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 182,
-        "badgeViews": 431,
+        "badgeViews": 430,
         "certificateDownloads": 109,
-        "generatorOpens": 232,
+        "generatorOpens": 231,
         "generatorCompletions": 146,
-        "uniqueVisitorsApprox": 375,
-        "conversionRate": 62.9
+        "uniqueVisitorsApprox": 374,
+        "conversionRate": 63.2
       }
     ],
     "badgeTypes": [
@@ -40836,11 +40794,11 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 108,
-        "badgeViews": 95,
+        "badgeViews": 94,
         "certificateDownloads": 97,
-        "generatorOpens": 142,
+        "generatorOpens": 141,
         "generatorCompletions": 108,
-        "conversionRate": 76.1
+        "conversionRate": 76.6
       },
       {
         "id": "fhtc-e-badge",
@@ -42113,18 +42071,6 @@
         "latestViewedAt": "2026-09-15T03:28:58.535Z"
       },
       {
-        "slug": "leslie-navarro-career-activated-csuncc-20260915-0007",
-        "badgeId": "CSUNCC-20260915-0007",
-        "awardeeName": "Leslie Navarro",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/leslie-navarro-career-activated-csuncc-20260915-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-15T19:07:48.650Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -43059,6 +43005,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "leslie-navarro-career-activated-csuncc-20260915-0007",
+        "badgeId": "CSUNCC-20260915-0007",
+        "awardeeName": "Leslie Navarro",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/leslie-navarro-career-activated-csuncc-20260915-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -43067,9 +43025,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 142,
+        "opens": 141,
         "completions": 107,
-        "conversionRate": 75.4
+        "conversionRate": 75.9
       },
       {
         "key": "general",
@@ -43911,12 +43869,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Leslie Navarro",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -44002,6 +43954,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Leslie Navarro",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
