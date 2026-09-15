@@ -36726,48 +36726,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "31321d5c-455d-4800-9b66-97febb1ba1f2",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T02:56:13.940Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0016",
-      "badgeSlug": "alejandro-moscoso-career-activated-csuncc-20260914-0016",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Alejandro Moscoso",
-      "publicUrl": "https://careerbadge.csun.edu/badges/alejandro-moscoso-career-activated-csuncc-20260914-0016/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "f3009542ba5e953fcbdd5fb0",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "298e27d6-6dae-45c1-b4df-bc53ae398fab",
-      "type": "generator_opened",
-      "timestamp": "2026-09-15T02:56:21.816Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "d325b60886583c04f2c87238",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -37242,15 +37200,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T02:56:21.823Z",
+    "updatedAt": "2026-09-15T02:54:56.647Z",
     "totals": {
       "badgesIssued": 165,
       "badgeViews": 416,
-      "certificateDownloads": 93,
-      "generatorOpens": 207,
+      "certificateDownloads": 92,
+      "generatorOpens": 206,
       "generatorCompletions": 129,
-      "conversionRate": 62.3,
-      "uniqueVisitorsApprox": 348
+      "conversionRate": 62.6,
+      "uniqueVisitorsApprox": 347
     },
     "months": [
       {
@@ -37313,11 +37271,11 @@
         "label": "Sep 2026",
         "badgesIssued": 83,
         "badgeViews": 87,
-        "certificateDownloads": 78,
-        "generatorOpens": 94,
+        "certificateDownloads": 77,
+        "generatorOpens": 93,
         "generatorCompletions": 83,
-        "uniqueVisitorsApprox": 117,
-        "conversionRate": 88.3
+        "uniqueVisitorsApprox": 116,
+        "conversionRate": 89.2
       }
     ],
     "years": [
@@ -37326,11 +37284,11 @@
         "label": "2026",
         "badgesIssued": 165,
         "badgeViews": 416,
-        "certificateDownloads": 93,
-        "generatorOpens": 207,
+        "certificateDownloads": 92,
+        "generatorOpens": 206,
         "generatorCompletions": 129,
-        "uniqueVisitorsApprox": 348,
-        "conversionRate": 62.3
+        "uniqueVisitorsApprox": 347,
+        "conversionRate": 62.6
       }
     ],
     "badgeTypes": [
@@ -37349,10 +37307,10 @@
         "title": "Career Activated",
         "badgesIssued": 91,
         "badgeViews": 82,
-        "certificateDownloads": 81,
-        "generatorOpens": 117,
+        "certificateDownloads": 80,
+        "generatorOpens": 116,
         "generatorCompletions": 91,
-        "conversionRate": 77.8
+        "conversionRate": 78.4
       },
       {
         "id": "fhtc-e-badge",
@@ -38985,18 +38943,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "alejandro-moscoso-career-activated-csuncc-20260914-0016",
-        "badgeId": "CSUNCC-20260914-0016",
-        "awardeeName": "Alejandro Moscoso",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/alejandro-moscoso-career-activated-csuncc-20260914-0016/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -39367,6 +39313,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "alejandro-moscoso-career-activated-csuncc-20260914-0016",
+        "badgeId": "CSUNCC-20260914-0016",
+        "awardeeName": "Alejandro Moscoso",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/alejandro-moscoso-career-activated-csuncc-20260914-0016/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -39375,9 +39333,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 117,
+        "opens": 116,
         "completions": 90,
-        "conversionRate": 76.9
+        "conversionRate": 77.6
       },
       {
         "key": "general",
@@ -40117,12 +40075,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Alejandro Moscoso",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -40208,6 +40160,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Alejandro Moscoso",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
