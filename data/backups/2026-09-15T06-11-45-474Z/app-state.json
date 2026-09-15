@@ -38905,27 +38905,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "7d60a87c-a947-4068-93a2-2338b6f0e8ba",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T06:11:50.904Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0026",
-      "badgeSlug": "victoria-salas-career-activated-csuncc-20260914-0026",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Victoria Salas",
-      "publicUrl": "https://careerbadge.csun.edu/badges/victoria-salas-career-activated-csuncc-20260914-0026/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "ebc39e347181f583414826f2",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -39400,11 +39379,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T06:11:50.912Z",
+    "updatedAt": "2026-09-15T06:11:44.569Z",
     "totals": {
       "badgesIssued": 175,
       "badgeViews": 430,
-      "certificateDownloads": 103,
+      "certificateDownloads": 102,
       "generatorOpens": 221,
       "generatorCompletions": 139,
       "conversionRate": 62.9,
@@ -39471,7 +39450,7 @@
         "label": "Sep 2026",
         "badgesIssued": 93,
         "badgeViews": 101,
-        "certificateDownloads": 88,
+        "certificateDownloads": 87,
         "generatorOpens": 108,
         "generatorCompletions": 93,
         "uniqueVisitorsApprox": 133,
@@ -39484,7 +39463,7 @@
         "label": "2026",
         "badgesIssued": 175,
         "badgeViews": 430,
-        "certificateDownloads": 103,
+        "certificateDownloads": 102,
         "generatorOpens": 221,
         "generatorCompletions": 139,
         "uniqueVisitorsApprox": 364,
@@ -39507,7 +39486,7 @@
         "title": "Career Activated",
         "badgesIssued": 101,
         "badgeViews": 94,
-        "certificateDownloads": 91,
+        "certificateDownloads": 90,
         "generatorOpens": 131,
         "generatorCompletions": 101,
         "conversionRate": 77.1
@@ -41263,18 +41242,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "victoria-salas-career-activated-csuncc-20260914-0026",
-        "badgeId": "CSUNCC-20260914-0026",
-        "awardeeName": "Victoria Salas",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/victoria-salas-career-activated-csuncc-20260914-0026/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -41641,6 +41608,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/mariah-makonie-career-activated-csuncc-20260914-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "victoria-salas-career-activated-csuncc-20260914-0026",
+        "badgeId": "CSUNCC-20260914-0026",
+        "awardeeName": "Victoria Salas",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/victoria-salas-career-activated-csuncc-20260914-0026/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -42455,12 +42434,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Victoria Salas",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -42546,6 +42519,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Victoria Salas",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
