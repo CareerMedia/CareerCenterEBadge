@@ -40811,27 +40811,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "f00f6061-8f8a-4ee8-b0b0-ef97d20999f8",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T19:16:39.163Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0010",
-      "badgeSlug": "janiyah-smith-career-activated-csuncc-20260915-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "JaNiyah Smith",
-      "publicUrl": "https://careerbadge.csun.edu/badges/janiyah-smith-career-activated-csuncc-20260915-0010/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "f9221cd0a336ac6a180e89f0",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -41306,11 +41285,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T19:16:39.256Z",
+    "updatedAt": "2026-09-15T19:16:31.558Z",
     "totals": {
       "badgesIssued": 185,
       "badgeViews": 433,
-      "certificateDownloads": 113,
+      "certificateDownloads": 112,
       "generatorOpens": 234,
       "generatorCompletions": 149,
       "conversionRate": 63.7,
@@ -41377,7 +41356,7 @@
         "label": "Sep 2026",
         "badgesIssued": 103,
         "badgeViews": 104,
-        "certificateDownloads": 98,
+        "certificateDownloads": 97,
         "generatorOpens": 121,
         "generatorCompletions": 103,
         "uniqueVisitorsApprox": 146,
@@ -41390,7 +41369,7 @@
         "label": "2026",
         "badgesIssued": 185,
         "badgeViews": 433,
-        "certificateDownloads": 113,
+        "certificateDownloads": 112,
         "generatorOpens": 234,
         "generatorCompletions": 149,
         "uniqueVisitorsApprox": 377,
@@ -41413,7 +41392,7 @@
         "title": "Career Activated",
         "badgesIssued": 111,
         "badgeViews": 97,
-        "certificateDownloads": 101,
+        "certificateDownloads": 100,
         "generatorOpens": 144,
         "generatorCompletions": 111,
         "conversionRate": 77.1
@@ -43289,18 +43268,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "janiyah-smith-career-activated-csuncc-20260915-0010",
-        "badgeId": "CSUNCC-20260915-0010",
-        "awardeeName": "JaNiyah Smith",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/janiyah-smith-career-activated-csuncc-20260915-0010/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -43667,6 +43634,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/mariah-makonie-career-activated-csuncc-20260914-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "janiyah-smith-career-activated-csuncc-20260915-0010",
+        "badgeId": "CSUNCC-20260915-0010",
+        "awardeeName": "JaNiyah Smith",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/janiyah-smith-career-activated-csuncc-20260915-0010/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -44541,12 +44520,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "JaNiyah Smith",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -44632,6 +44605,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "JaNiyah Smith",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
