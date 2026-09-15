@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T03:08:18.544Z",
+  "updatedAt": "2026-09-15T03:49:49.996Z",
   "totals": {
-    "badgesIssued": 166,
-    "badgeViews": 418,
-    "certificateDownloads": 94,
-    "generatorOpens": 208,
-    "generatorCompletions": 130,
-    "conversionRate": 62.5,
-    "uniqueVisitorsApprox": 351
+    "badgesIssued": 171,
+    "badgeViews": 425,
+    "certificateDownloads": 98,
+    "generatorOpens": 217,
+    "generatorCompletions": 135,
+    "conversionRate": 62.2,
+    "uniqueVisitorsApprox": 360
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 84,
-      "badgeViews": 89,
-      "certificateDownloads": 79,
-      "generatorOpens": 95,
-      "generatorCompletions": 84,
-      "uniqueVisitorsApprox": 120,
-      "conversionRate": 88.4
+      "badgesIssued": 89,
+      "badgeViews": 96,
+      "certificateDownloads": 83,
+      "generatorOpens": 104,
+      "generatorCompletions": 89,
+      "uniqueVisitorsApprox": 129,
+      "conversionRate": 85.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 166,
-      "badgeViews": 418,
-      "certificateDownloads": 94,
-      "generatorOpens": 208,
-      "generatorCompletions": 130,
-      "uniqueVisitorsApprox": 351,
-      "conversionRate": 62.5
+      "badgesIssued": 171,
+      "badgeViews": 425,
+      "certificateDownloads": 98,
+      "generatorOpens": 217,
+      "generatorCompletions": 135,
+      "uniqueVisitorsApprox": 360,
+      "conversionRate": 62.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 92,
-      "badgeViews": 82,
-      "certificateDownloads": 82,
-      "generatorOpens": 118,
-      "generatorCompletions": 92,
-      "conversionRate": 78
+      "badgesIssued": 97,
+      "badgeViews": 89,
+      "certificateDownloads": 86,
+      "generatorOpens": 127,
+      "generatorCompletions": 97,
+      "conversionRate": 76.4
     },
     {
       "id": "fhtc-e-badge",
@@ -555,6 +555,18 @@
       "latestViewedAt": "2026-09-04T05:16:07.879Z"
     },
     {
+      "slug": "camila-aguayo-career-activated-csuncc-20260914-0020",
+      "badgeId": "CSUNCC-20260914-0020",
+      "awardeeName": "Camila Aguayo",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/camila-aguayo-career-activated-csuncc-20260914-0020/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 2,
+      "latestViewedAt": "2026-09-15T03:25:21.348Z"
+    },
+    {
       "slug": "patricia-garcia-ramirez-career-champion-csuncc-20260512-0019",
       "badgeId": "CSUNCC-20260512-0019",
       "awardeeName": "Patricia Garcia-Ramirez",
@@ -891,6 +903,18 @@
       "latestViewedAt": "2026-09-14T22:31:30.048Z"
     },
     {
+      "slug": "sherlyn-castillo-career-activated-csuncc-20260914-0022",
+      "badgeId": "CSUNCC-20260914-0022",
+      "awardeeName": "Sherlyn Castillo",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/sherlyn-castillo-career-activated-csuncc-20260914-0022/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-15T03:37:05.564Z"
+    },
+    {
       "slug": "michael-hobbs-career-activated-csuncc-20260914-0015",
       "badgeId": "CSUNCC-20260914-0015",
       "awardeeName": "Michael Hobbs",
@@ -1107,6 +1131,18 @@
       "latestViewedAt": "2026-09-15T01:25:36.033Z"
     },
     {
+      "slug": "evelyn-ponce-career-activated-csuncc-20260914-0019",
+      "badgeId": "CSUNCC-20260914-0019",
+      "awardeeName": "Evelyn Ponce",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/evelyn-ponce-career-activated-csuncc-20260914-0019/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-15T03:14:24.679Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1297,6 +1333,18 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-09-14T19:21:13.772Z"
+    },
+    {
+      "slug": "stacey-ramirez-career-activated-csuncc-20260914-0021",
+      "badgeId": "CSUNCC-20260914-0021",
+      "awardeeName": "Stacey Ramirez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/stacey-ramirez-career-activated-csuncc-20260914-0021/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-15T03:28:58.535Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -1767,6 +1815,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "arianne-gasgonia-career-activated-csuncc-20260914-0018",
+      "badgeId": "CSUNCC-20260914-0018",
+      "awardeeName": "Arianne Gasgonia",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/arianne-gasgonia-career-activated-csuncc-20260914-0018/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2145,9 +2205,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 118,
-      "completions": 91,
-      "conversionRate": 77.1
+      "opens": 127,
+      "completions": 96,
+      "conversionRate": 75.6
     },
     {
       "key": "general",
@@ -2351,6 +2411,12 @@
       "badgesIssued": 2,
       "badgeViews": 3,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Camila Aguayo",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 2
     },
     {
       "awardeeName": "Genesis Lozano-Gonzalez",
@@ -2621,6 +2687,18 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Evelyn Ponce",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Sherlyn Castillo",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Maddie Paul",
@@ -2897,6 +2975,18 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Arianne Gasgonia",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Stacey Ramirez",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",

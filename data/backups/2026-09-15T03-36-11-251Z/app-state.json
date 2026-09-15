@@ -38025,69 +38025,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "1a7616b4-0036-4b44-9857-4510b42022ba",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T03:36:57.259Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0022",
-      "badgeSlug": "sherlyn-castillo-career-activated-csuncc-20260914-0022",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Sherlyn Castillo",
-      "publicUrl": "https://careerbadge.csun.edu/badges/sherlyn-castillo-career-activated-csuncc-20260914-0022/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "7a5c14ddc38f9851a2d3c373",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "841b89c1-891c-4185-aa0d-993f62a3c3b7",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T03:37:05.564Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0022",
-      "badgeSlug": "sherlyn-castillo-career-activated-csuncc-20260914-0022",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Sherlyn Castillo",
-      "publicUrl": "https://careerbadge.csun.edu/badges/sherlyn-castillo-career-activated-csuncc-20260914-0022/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "7e281cac3514729752bd3c90",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "74f23eda-7737-4d30-8501-752aa53cedb7",
-      "type": "generator_opened",
-      "timestamp": "2026-09-15T03:49:49.987Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "6e17858310632c410cbe5b24",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -38562,15 +38499,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T03:49:49.996Z",
+    "updatedAt": "2026-09-15T03:36:10.449Z",
     "totals": {
       "badgesIssued": 171,
-      "badgeViews": 425,
+      "badgeViews": 423,
       "certificateDownloads": 98,
-      "generatorOpens": 217,
+      "generatorOpens": 216,
       "generatorCompletions": 135,
-      "conversionRate": 62.2,
-      "uniqueVisitorsApprox": 360
+      "conversionRate": 62.5,
+      "uniqueVisitorsApprox": 358
     },
     "months": [
       {
@@ -38632,12 +38569,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 89,
-        "badgeViews": 96,
+        "badgeViews": 94,
         "certificateDownloads": 83,
-        "generatorOpens": 104,
+        "generatorOpens": 103,
         "generatorCompletions": 89,
-        "uniqueVisitorsApprox": 129,
-        "conversionRate": 85.6
+        "uniqueVisitorsApprox": 127,
+        "conversionRate": 86.4
       }
     ],
     "years": [
@@ -38645,12 +38582,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 171,
-        "badgeViews": 425,
+        "badgeViews": 423,
         "certificateDownloads": 98,
-        "generatorOpens": 217,
+        "generatorOpens": 216,
         "generatorCompletions": 135,
-        "uniqueVisitorsApprox": 360,
-        "conversionRate": 62.2
+        "uniqueVisitorsApprox": 358,
+        "conversionRate": 62.5
       }
     ],
     "badgeTypes": [
@@ -38668,11 +38605,11 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 97,
-        "badgeViews": 89,
+        "badgeViews": 87,
         "certificateDownloads": 86,
-        "generatorOpens": 127,
+        "generatorOpens": 126,
         "generatorCompletions": 97,
-        "conversionRate": 76.4
+        "conversionRate": 77
       },
       {
         "id": "fhtc-e-badge",
@@ -39463,18 +39400,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-09-14T22:31:30.048Z"
-      },
-      {
-        "slug": "sherlyn-castillo-career-activated-csuncc-20260914-0022",
-        "badgeId": "CSUNCC-20260914-0022",
-        "awardeeName": "Sherlyn Castillo",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/sherlyn-castillo-career-activated-csuncc-20260914-0022/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-15T03:37:05.564Z"
       },
       {
         "slug": "michael-hobbs-career-activated-csuncc-20260914-0015",
@@ -40759,6 +40684,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "sherlyn-castillo-career-activated-csuncc-20260914-0022",
+        "badgeId": "CSUNCC-20260914-0022",
+        "awardeeName": "Sherlyn Castillo",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/sherlyn-castillo-career-activated-csuncc-20260914-0022/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -40767,9 +40704,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 127,
+        "opens": 126,
         "completions": 96,
-        "conversionRate": 75.6
+        "conversionRate": 76.2
       },
       {
         "key": "general",
@@ -41257,12 +41194,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Sherlyn Castillo",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -41636,6 +41567,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Sherlyn Castillo",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
