@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T19:25:05.966Z",
+  "updatedAt": "2026-09-15T21:44:50.331Z",
   "totals": {
-    "badgesIssued": 185,
+    "badgesIssued": 186,
     "badgeViews": 433,
     "certificateDownloads": 114,
-    "generatorOpens": 235,
-    "generatorCompletions": 149,
-    "conversionRate": 63.4,
-    "uniqueVisitorsApprox": 377
+    "generatorOpens": 236,
+    "generatorCompletions": 150,
+    "conversionRate": 63.6,
+    "uniqueVisitorsApprox": 378
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 103,
+      "badgesIssued": 104,
       "badgeViews": 104,
       "certificateDownloads": 99,
-      "generatorOpens": 122,
-      "generatorCompletions": 103,
-      "uniqueVisitorsApprox": 146,
-      "conversionRate": 84.4
+      "generatorOpens": 123,
+      "generatorCompletions": 104,
+      "uniqueVisitorsApprox": 147,
+      "conversionRate": 84.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 185,
+      "badgesIssued": 186,
       "badgeViews": 433,
       "certificateDownloads": 114,
-      "generatorOpens": 235,
-      "generatorCompletions": 149,
-      "uniqueVisitorsApprox": 377,
-      "conversionRate": 63.4
+      "generatorOpens": 236,
+      "generatorCompletions": 150,
+      "uniqueVisitorsApprox": 378,
+      "conversionRate": 63.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 111,
+      "badgesIssued": 112,
       "badgeViews": 97,
       "certificateDownloads": 102,
-      "generatorOpens": 145,
-      "generatorCompletions": 111,
-      "conversionRate": 76.6
+      "generatorOpens": 146,
+      "generatorCompletions": 112,
+      "conversionRate": 76.7
     },
     {
       "id": "fhtc-e-badge",
@@ -2365,6 +2365,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "sean-mcneil-career-activated-csuncc-20260915-0011",
+      "badgeId": "CSUNCC-20260915-0011",
+      "awardeeName": "Sean McNeil",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/sean-mcneil-career-activated-csuncc-20260915-0011/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -2373,9 +2385,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 145,
-      "completions": 110,
-      "conversionRate": 75.9
+      "opens": 146,
+      "completions": 111,
+      "conversionRate": 76
     },
     {
       "key": "general",
@@ -3326,6 +3338,12 @@
     },
     {
       "awardeeName": "Emily Rosado Alonso",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Sean McNeil",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
