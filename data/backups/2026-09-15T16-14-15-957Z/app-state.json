@@ -39104,27 +39104,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "ff64b6f4-c6fb-433d-b81f-c888d4d2de3b",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T16:14:25.782Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0001",
-      "badgeSlug": "johnny-martinez-career-activated-csuncc-20260915-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Johnny Martinez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/johnny-martinez-career-activated-csuncc-20260915-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "bd1ea5c4229e5bc8c3fdb553",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -39599,11 +39578,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T16:14:25.853Z",
+    "updatedAt": "2026-09-15T16:14:15.153Z",
     "totals": {
       "badgesIssued": 176,
       "badgeViews": 430,
-      "certificateDownloads": 104,
+      "certificateDownloads": 103,
       "generatorOpens": 223,
       "generatorCompletions": 140,
       "conversionRate": 62.8,
@@ -39670,7 +39649,7 @@
         "label": "Sep 2026",
         "badgesIssued": 94,
         "badgeViews": 101,
-        "certificateDownloads": 89,
+        "certificateDownloads": 88,
         "generatorOpens": 110,
         "generatorCompletions": 94,
         "uniqueVisitorsApprox": 135,
@@ -39683,7 +39662,7 @@
         "label": "2026",
         "badgesIssued": 176,
         "badgeViews": 430,
-        "certificateDownloads": 104,
+        "certificateDownloads": 103,
         "generatorOpens": 223,
         "generatorCompletions": 140,
         "uniqueVisitorsApprox": 366,
@@ -39706,7 +39685,7 @@
         "title": "Career Activated",
         "badgesIssued": 102,
         "badgeViews": 94,
-        "certificateDownloads": 92,
+        "certificateDownloads": 91,
         "generatorOpens": 133,
         "generatorCompletions": 102,
         "conversionRate": 76.7
@@ -41474,18 +41453,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "johnny-martinez-career-activated-csuncc-20260915-0001",
-        "badgeId": "CSUNCC-20260915-0001",
-        "awardeeName": "Johnny Martinez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/johnny-martinez-career-activated-csuncc-20260915-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -41852,6 +41819,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/mariah-makonie-career-activated-csuncc-20260914-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "johnny-martinez-career-activated-csuncc-20260915-0001",
+        "badgeId": "CSUNCC-20260915-0001",
+        "awardeeName": "Johnny Martinez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/johnny-martinez-career-activated-csuncc-20260915-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -42672,12 +42651,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Johnny Martinez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -42763,6 +42736,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Johnny Martinez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T16:13:49.220Z",
+  "updatedAt": "2026-09-15T16:14:25.853Z",
   "totals": {
-    "badgesIssued": 175,
+    "badgesIssued": 176,
     "badgeViews": 430,
-    "certificateDownloads": 103,
+    "certificateDownloads": 104,
     "generatorOpens": 223,
-    "generatorCompletions": 139,
-    "conversionRate": 62.3,
+    "generatorCompletions": 140,
+    "conversionRate": 62.8,
     "uniqueVisitorsApprox": 366
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 93,
+      "badgesIssued": 94,
       "badgeViews": 101,
-      "certificateDownloads": 88,
+      "certificateDownloads": 89,
       "generatorOpens": 110,
-      "generatorCompletions": 93,
+      "generatorCompletions": 94,
       "uniqueVisitorsApprox": 135,
-      "conversionRate": 84.5
+      "conversionRate": 85.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 175,
+      "badgesIssued": 176,
       "badgeViews": 430,
-      "certificateDownloads": 103,
+      "certificateDownloads": 104,
       "generatorOpens": 223,
-      "generatorCompletions": 139,
+      "generatorCompletions": 140,
       "uniqueVisitorsApprox": 366,
-      "conversionRate": 62.3
+      "conversionRate": 62.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 101,
+      "badgesIssued": 102,
       "badgeViews": 94,
-      "certificateDownloads": 91,
+      "certificateDownloads": 92,
       "generatorOpens": 133,
-      "generatorCompletions": 101,
-      "conversionRate": 75.9
+      "generatorCompletions": 102,
+      "conversionRate": 76.7
     },
     {
       "id": "fhtc-e-badge",
@@ -1875,6 +1875,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "johnny-martinez-career-activated-csuncc-20260915-0001",
+      "badgeId": "CSUNCC-20260915-0001",
+      "awardeeName": "Johnny Martinez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/johnny-martinez-career-activated-csuncc-20260915-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2254,8 +2266,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 133,
-      "completions": 100,
-      "conversionRate": 75.2
+      "completions": 101,
+      "conversionRate": 75.9
     },
     {
       "key": "general",
@@ -3056,6 +3068,12 @@
     },
     {
       "awardeeName": "Victoria Salas",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Johnny Martinez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
