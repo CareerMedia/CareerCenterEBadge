@@ -38507,48 +38507,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "ef701c2b-9718-4a13-b288-b4320f389f3e",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T04:06:53.921Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0024",
-      "badgeSlug": "aaron-luc-career-activated-csuncc-20260914-0024",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Aaron Luc",
-      "publicUrl": "https://careerbadge.csun.edu/badges/aaron-luc-career-activated-csuncc-20260914-0024/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "f5ddde45c82f154cbfdb0326",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "268eff66-b8e5-45ac-8fe7-248fcbfbd59e",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T04:07:02.475Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0024",
-      "badgeSlug": "aaron-luc-career-activated-csuncc-20260914-0024",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Aaron Luc",
-      "publicUrl": "https://careerbadge.csun.edu/badges/aaron-luc-career-activated-csuncc-20260914-0024/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "f5ddde45c82f154cbfdb0326",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -39023,11 +38981,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T04:07:02.485Z",
+    "updatedAt": "2026-09-15T04:06:43.353Z",
     "totals": {
       "badgesIssued": 173,
-      "badgeViews": 429,
-      "certificateDownloads": 101,
+      "badgeViews": 428,
+      "certificateDownloads": 100,
       "generatorOpens": 219,
       "generatorCompletions": 137,
       "conversionRate": 62.6,
@@ -39093,8 +39051,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 91,
-        "badgeViews": 100,
-        "certificateDownloads": 86,
+        "badgeViews": 99,
+        "certificateDownloads": 85,
         "generatorOpens": 106,
         "generatorCompletions": 91,
         "uniqueVisitorsApprox": 131,
@@ -39106,8 +39064,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 173,
-        "badgeViews": 429,
-        "certificateDownloads": 101,
+        "badgeViews": 428,
+        "certificateDownloads": 100,
         "generatorOpens": 219,
         "generatorCompletions": 137,
         "uniqueVisitorsApprox": 362,
@@ -39129,8 +39087,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 99,
-        "badgeViews": 93,
-        "certificateDownloads": 89,
+        "badgeViews": 92,
+        "certificateDownloads": 88,
         "generatorOpens": 129,
         "generatorCompletions": 99,
         "conversionRate": 76.7
@@ -40176,18 +40134,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-15T03:14:24.679Z"
-      },
-      {
-        "slug": "aaron-luc-career-activated-csuncc-20260914-0024",
-        "badgeId": "CSUNCC-20260914-0024",
-        "awardeeName": "Aaron Luc",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/aaron-luc-career-activated-csuncc-20260914-0024/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T04:06:53.921Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -41244,6 +41190,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "aaron-luc-career-activated-csuncc-20260914-0024",
+        "badgeId": "CSUNCC-20260914-0024",
+        "awardeeName": "Aaron Luc",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/aaron-luc-career-activated-csuncc-20260914-0024/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -41754,12 +41712,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Aaron Luc",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -42133,6 +42085,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Aaron Luc",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
