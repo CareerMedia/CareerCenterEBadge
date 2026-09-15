@@ -36024,48 +36024,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "cd7c7226-aaff-4379-9af1-b55978628778",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T01:25:36.033Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0013",
-      "badgeSlug": "itzel-lopez-career-activated-csuncc-20260914-0013",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Itzel Lopez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/itzel-lopez-career-activated-csuncc-20260914-0013/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "8dcea9019c1b68a72251f499",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "964506ff-e101-4caa-a4c4-b61c291b1572",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T01:25:54.265Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0013",
-      "badgeSlug": "itzel-lopez-career-activated-csuncc-20260914-0013",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Itzel Lopez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/itzel-lopez-career-activated-csuncc-20260914-0013/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "8dcea9019c1b68a72251f499",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -36540,11 +36498,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T01:25:54.273Z",
+    "updatedAt": "2026-09-15T01:25:30.925Z",
     "totals": {
       "badgesIssued": 162,
-      "badgeViews": 415,
-      "certificateDownloads": 85,
+      "badgeViews": 414,
+      "certificateDownloads": 84,
       "generatorOpens": 202,
       "generatorCompletions": 126,
       "conversionRate": 62.4,
@@ -36610,8 +36568,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 80,
-        "badgeViews": 86,
-        "certificateDownloads": 70,
+        "badgeViews": 85,
+        "certificateDownloads": 69,
         "generatorOpens": 89,
         "generatorCompletions": 80,
         "uniqueVisitorsApprox": 111,
@@ -36623,8 +36581,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 162,
-        "badgeViews": 415,
-        "certificateDownloads": 85,
+        "badgeViews": 414,
+        "certificateDownloads": 84,
         "generatorOpens": 202,
         "generatorCompletions": 126,
         "uniqueVisitorsApprox": 342,
@@ -36646,8 +36604,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 88,
-        "badgeViews": 81,
-        "certificateDownloads": 73,
+        "badgeViews": 80,
+        "certificateDownloads": 72,
         "generatorOpens": 112,
         "generatorCompletions": 88,
         "conversionRate": 78.6
@@ -37621,18 +37579,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-14T08:15:57.843Z"
-      },
-      {
-        "slug": "itzel-lopez-career-activated-csuncc-20260914-0013",
-        "badgeId": "CSUNCC-20260914-0013",
-        "awardeeName": "Itzel Lopez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/itzel-lopez-career-activated-csuncc-20260914-0013/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T01:25:36.033Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -38629,6 +38575,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "itzel-lopez-career-activated-csuncc-20260914-0013",
+        "badgeId": "CSUNCC-20260914-0013",
+        "awardeeName": "Itzel Lopez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/itzel-lopez-career-activated-csuncc-20260914-0013/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -39103,12 +39061,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Itzel Lopez",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -39452,6 +39404,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Itzel Lopez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
