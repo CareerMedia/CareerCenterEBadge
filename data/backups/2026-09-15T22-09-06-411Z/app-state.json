@@ -41188,69 +41188,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "b6deb00a-9adb-4729-b117-b50c25eed62e",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T22:09:19.816Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0012",
-      "badgeSlug": "sayjah-thomson-career-activated-csuncc-20260915-0012",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Sayjah Thomson",
-      "publicUrl": "https://careerbadge.csun.edu/badges/sayjah-thomson-career-activated-csuncc-20260915-0012/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "e7849fd3fe443929265185eb",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "f38d0819-e22b-48fe-b307-f9fe6d871b9b",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T22:09:25.040Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0012",
-      "badgeSlug": "sayjah-thomson-career-activated-csuncc-20260915-0012",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Sayjah Thomson",
-      "publicUrl": "https://careerbadge.csun.edu/badges/sayjah-thomson-career-activated-csuncc-20260915-0012/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "e7849fd3fe443929265185eb",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "b4d54794-bb00-4a4c-a94b-4ff36545c98d",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T22:09:47.505Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0021",
-      "badgeSlug": "stacey-ramirez-career-activated-csuncc-20260914-0021",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Stacey Ramirez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/stacey-ramirez-career-activated-csuncc-20260914-0021/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9722eca4ef83383645a9cfae",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -41725,11 +41662,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T22:09:47.521Z",
+    "updatedAt": "2026-09-15T22:09:05.416Z",
     "totals": {
       "badgesIssued": 187,
-      "badgeViews": 435,
-      "certificateDownloads": 115,
+      "badgeViews": 433,
+      "certificateDownloads": 114,
       "generatorOpens": 237,
       "generatorCompletions": 151,
       "conversionRate": 63.7,
@@ -41795,8 +41732,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 105,
-        "badgeViews": 106,
-        "certificateDownloads": 100,
+        "badgeViews": 104,
+        "certificateDownloads": 99,
         "generatorOpens": 124,
         "generatorCompletions": 105,
         "uniqueVisitorsApprox": 148,
@@ -41808,8 +41745,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 187,
-        "badgeViews": 435,
-        "certificateDownloads": 115,
+        "badgeViews": 433,
+        "certificateDownloads": 114,
         "generatorOpens": 237,
         "generatorCompletions": 151,
         "uniqueVisitorsApprox": 379,
@@ -41831,8 +41768,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 113,
-        "badgeViews": 99,
-        "certificateDownloads": 103,
+        "badgeViews": 97,
+        "certificateDownloads": 102,
         "generatorOpens": 147,
         "generatorCompletions": 113,
         "conversionRate": 76.9
@@ -42640,18 +42577,6 @@
         "latestViewedAt": "2026-09-14T22:31:30.048Z"
       },
       {
-        "slug": "stacey-ramirez-career-activated-csuncc-20260914-0021",
-        "badgeId": "CSUNCC-20260914-0021",
-        "awardeeName": "Stacey Ramirez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/stacey-ramirez-career-activated-csuncc-20260914-0021/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-15T22:09:47.505Z"
-      },
-      {
         "slug": "sherlyn-castillo-career-activated-csuncc-20260914-0022",
         "badgeId": "CSUNCC-20260914-0022",
         "awardeeName": "Sherlyn Castillo",
@@ -42952,18 +42877,6 @@
         "latestViewedAt": "2026-09-15T19:13:53.088Z"
       },
       {
-        "slug": "sayjah-thomson-career-activated-csuncc-20260915-0012",
-        "badgeId": "CSUNCC-20260915-0012",
-        "awardeeName": "Sayjah Thomson",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/sayjah-thomson-career-activated-csuncc-20260915-0012/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T22:09:25.040Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -43154,6 +43067,18 @@
         "badgeViews": 1,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-09-14T19:21:13.772Z"
+      },
+      {
+        "slug": "stacey-ramirez-career-activated-csuncc-20260914-0021",
+        "badgeId": "CSUNCC-20260914-0021",
+        "awardeeName": "Stacey Ramirez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/stacey-ramirez-career-activated-csuncc-20260914-0021/",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-09-15T03:28:58.535Z"
       },
       {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -44114,6 +44039,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "sayjah-thomson-career-activated-csuncc-20260915-0012",
+        "badgeId": "CSUNCC-20260915-0012",
+        "awardeeName": "Sayjah Thomson",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/sayjah-thomson-career-activated-csuncc-20260915-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -44618,12 +44555,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Stacey Ramirez",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Sherlyn Castillo",
         "badgesIssued": 1,
         "badgeViews": 2,
@@ -44664,12 +44595,6 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Sayjah Thomson",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Maddie Paul",
@@ -44954,6 +44879,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Stacey Ramirez",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Victoria Salas",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -45087,6 +45018,12 @@
       },
       {
         "awardeeName": "Sean McNeil",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Sayjah Thomson",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

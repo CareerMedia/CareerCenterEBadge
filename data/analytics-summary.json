@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T22:07:09.115Z",
+  "updatedAt": "2026-09-15T22:09:47.521Z",
   "totals": {
-    "badgesIssued": 186,
-    "badgeViews": 433,
-    "certificateDownloads": 114,
+    "badgesIssued": 187,
+    "badgeViews": 435,
+    "certificateDownloads": 115,
     "generatorOpens": 237,
-    "generatorCompletions": 150,
-    "conversionRate": 63.3,
+    "generatorCompletions": 151,
+    "conversionRate": 63.7,
     "uniqueVisitorsApprox": 379
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 104,
-      "badgeViews": 104,
-      "certificateDownloads": 99,
+      "badgesIssued": 105,
+      "badgeViews": 106,
+      "certificateDownloads": 100,
       "generatorOpens": 124,
-      "generatorCompletions": 104,
+      "generatorCompletions": 105,
       "uniqueVisitorsApprox": 148,
-      "conversionRate": 83.9
+      "conversionRate": 84.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 186,
-      "badgeViews": 433,
-      "certificateDownloads": 114,
+      "badgesIssued": 187,
+      "badgeViews": 435,
+      "certificateDownloads": 115,
       "generatorOpens": 237,
-      "generatorCompletions": 150,
+      "generatorCompletions": 151,
       "uniqueVisitorsApprox": 379,
-      "conversionRate": 63.3
+      "conversionRate": 63.7
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 112,
-      "badgeViews": 97,
-      "certificateDownloads": 102,
+      "badgesIssued": 113,
+      "badgeViews": 99,
+      "certificateDownloads": 103,
       "generatorOpens": 147,
-      "generatorCompletions": 112,
-      "conversionRate": 76.2
+      "generatorCompletions": 113,
+      "conversionRate": 76.9
     },
     {
       "id": "fhtc-e-badge",
@@ -915,6 +915,18 @@
       "latestViewedAt": "2026-09-14T22:31:30.048Z"
     },
     {
+      "slug": "stacey-ramirez-career-activated-csuncc-20260914-0021",
+      "badgeId": "CSUNCC-20260914-0021",
+      "awardeeName": "Stacey Ramirez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/stacey-ramirez-career-activated-csuncc-20260914-0021/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-15T22:09:47.505Z"
+    },
+    {
       "slug": "sherlyn-castillo-career-activated-csuncc-20260914-0022",
       "badgeId": "CSUNCC-20260914-0022",
       "awardeeName": "Sherlyn Castillo",
@@ -1215,6 +1227,18 @@
       "latestViewedAt": "2026-09-15T19:13:53.088Z"
     },
     {
+      "slug": "sayjah-thomson-career-activated-csuncc-20260915-0012",
+      "badgeId": "CSUNCC-20260915-0012",
+      "awardeeName": "Sayjah Thomson",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/sayjah-thomson-career-activated-csuncc-20260915-0012/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-15T22:09:25.040Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1405,18 +1429,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-09-14T19:21:13.772Z"
-    },
-    {
-      "slug": "stacey-ramirez-career-activated-csuncc-20260914-0021",
-      "badgeId": "CSUNCC-20260914-0021",
-      "awardeeName": "Stacey Ramirez",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/stacey-ramirez-career-activated-csuncc-20260914-0021/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-09-15T03:28:58.535Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -2386,8 +2398,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 147,
-      "completions": 111,
-      "conversionRate": 75.5
+      "completions": 112,
+      "conversionRate": 76.2
     },
     {
       "key": "general",
@@ -2881,6 +2893,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Stacey Ramirez",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Sherlyn Castillo",
       "badgesIssued": 1,
       "badgeViews": 2,
@@ -2921,6 +2939,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Sayjah Thomson",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Maddie Paul",
@@ -3203,12 +3227,6 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Stacey Ramirez",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0
     },
     {
       "awardeeName": "Victoria Salas",
