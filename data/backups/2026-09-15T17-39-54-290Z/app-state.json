@@ -39659,27 +39659,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "6bee15da-d96c-4bc6-88a7-e6d4b9c2399d",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T17:39:59.411Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0004",
-      "badgeSlug": "eunice-luis-career-activated-csuncc-20260915-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "eunice luis",
-      "publicUrl": "https://careerbadge.csun.edu/badges/eunice-luis-career-activated-csuncc-20260915-0004/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "234f11ca982fdd27ee497c8f",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -40154,11 +40133,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T17:39:59.416Z",
+    "updatedAt": "2026-09-15T17:39:53.488Z",
     "totals": {
       "badgesIssued": 179,
       "badgeViews": 430,
-      "certificateDownloads": 107,
+      "certificateDownloads": 106,
       "generatorOpens": 227,
       "generatorCompletions": 143,
       "conversionRate": 63,
@@ -40225,7 +40204,7 @@
         "label": "Sep 2026",
         "badgesIssued": 97,
         "badgeViews": 101,
-        "certificateDownloads": 92,
+        "certificateDownloads": 91,
         "generatorOpens": 114,
         "generatorCompletions": 97,
         "uniqueVisitorsApprox": 139,
@@ -40238,7 +40217,7 @@
         "label": "2026",
         "badgesIssued": 179,
         "badgeViews": 430,
-        "certificateDownloads": 107,
+        "certificateDownloads": 106,
         "generatorOpens": 227,
         "generatorCompletions": 143,
         "uniqueVisitorsApprox": 370,
@@ -40261,7 +40240,7 @@
         "title": "Career Activated",
         "badgesIssued": 105,
         "badgeViews": 94,
-        "certificateDownloads": 95,
+        "certificateDownloads": 94,
         "generatorOpens": 137,
         "generatorCompletions": 105,
         "conversionRate": 76.6
@@ -42065,18 +42044,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "eunice-luis-career-activated-csuncc-20260915-0004",
-        "badgeId": "CSUNCC-20260915-0004",
-        "awardeeName": "eunice luis",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/eunice-luis-career-activated-csuncc-20260915-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -42443,6 +42410,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/mariah-makonie-career-activated-csuncc-20260914-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "eunice-luis-career-activated-csuncc-20260915-0004",
+        "badgeId": "CSUNCC-20260915-0004",
+        "awardeeName": "eunice luis",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/eunice-luis-career-activated-csuncc-20260915-0004/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -43281,12 +43260,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "eunice luis",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -43372,6 +43345,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "eunice luis",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
