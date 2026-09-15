@@ -41408,48 +41408,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "919bf4b0-dd1f-41f9-9381-1853d80ca195",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T22:50:41.872Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0013",
-      "badgeSlug": "syana-trotter-career-activated-csuncc-20260915-0013",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Syana Trotter",
-      "publicUrl": "https://careerbadge.csun.edu/badges/syana-trotter-career-activated-csuncc-20260915-0013/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "126c2d3d4193108f4a2add39",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "58387cb6-e60e-4a36-a443-f7c4d4ebdfc7",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T22:50:48.670Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0013",
-      "badgeSlug": "syana-trotter-career-activated-csuncc-20260915-0013",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Syana Trotter",
-      "publicUrl": "https://careerbadge.csun.edu/badges/syana-trotter-career-activated-csuncc-20260915-0013/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "126c2d3d4193108f4a2add39",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -41924,11 +41882,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T22:50:48.679Z",
+    "updatedAt": "2026-09-15T22:50:11.319Z",
     "totals": {
       "badgesIssued": 188,
-      "badgeViews": 436,
-      "certificateDownloads": 116,
+      "badgeViews": 435,
+      "certificateDownloads": 115,
       "generatorOpens": 238,
       "generatorCompletions": 152,
       "conversionRate": 63.9,
@@ -41994,8 +41952,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 106,
-        "badgeViews": 107,
-        "certificateDownloads": 101,
+        "badgeViews": 106,
+        "certificateDownloads": 100,
         "generatorOpens": 125,
         "generatorCompletions": 106,
         "uniqueVisitorsApprox": 149,
@@ -42007,8 +41965,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 188,
-        "badgeViews": 436,
-        "certificateDownloads": 116,
+        "badgeViews": 435,
+        "certificateDownloads": 115,
         "generatorOpens": 238,
         "generatorCompletions": 152,
         "uniqueVisitorsApprox": 380,
@@ -42030,8 +41988,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 114,
-        "badgeViews": 100,
-        "certificateDownloads": 104,
+        "badgeViews": 99,
+        "certificateDownloads": 103,
         "generatorOpens": 148,
         "generatorCompletions": 114,
         "conversionRate": 77
@@ -43161,18 +43119,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-15T22:09:25.040Z"
-      },
-      {
-        "slug": "syana-trotter-career-activated-csuncc-20260915-0013",
-        "badgeId": "CSUNCC-20260915-0013",
-        "awardeeName": "Syana Trotter",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/syana-trotter-career-activated-csuncc-20260915-0013/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T22:50:48.670Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -44325,6 +44271,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "syana-trotter-career-activated-csuncc-20260915-0013",
+        "badgeId": "CSUNCC-20260915-0013",
+        "awardeeName": "Syana Trotter",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/syana-trotter-career-activated-csuncc-20260915-0013/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -44883,12 +44841,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Syana Trotter",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -45304,6 +45256,12 @@
       },
       {
         "awardeeName": "Sean McNeil",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Syana Trotter",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
