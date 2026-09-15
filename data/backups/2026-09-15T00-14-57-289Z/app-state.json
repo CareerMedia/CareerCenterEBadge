@@ -35469,90 +35469,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "ce2e6965-8f51-4c63-92f5-6dc7f5d14286",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T00:15:06.344Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0010",
-      "badgeSlug": "london-bingham-career-activated-csuncc-20260914-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "london bingham",
-      "publicUrl": "https://careerbadge.csun.edu/badges/london-bingham-career-activated-csuncc-20260914-0010/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "57bc23c2271ce2fa20d45ed0",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "6aabe2c5-d2d3-42b6-9f15-8340b6b01a83",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T00:17:38.556Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0010",
-      "badgeSlug": "london-bingham-career-activated-csuncc-20260914-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "london bingham",
-      "publicUrl": "https://careerbadge.csun.edu/badges/london-bingham-career-activated-csuncc-20260914-0010/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9fae6f1fb4db9f3fb2d1bfd8",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "43a39e12-d412-4e56-9ec6-848e02147051",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T00:17:44.749Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0010",
-      "badgeSlug": "london-bingham-career-activated-csuncc-20260914-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "london bingham",
-      "publicUrl": "https://careerbadge.csun.edu/badges/london-bingham-career-activated-csuncc-20260914-0010/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "cc0e9a4bab98395675cccf87",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "fba3e56a-31c4-4aa5-a848-a5a8da04a3af",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T00:18:07.984Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260914-0010",
-      "badgeSlug": "london-bingham-career-activated-csuncc-20260914-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "london bingham",
-      "publicUrl": "https://careerbadge.csun.edu/badges/london-bingham-career-activated-csuncc-20260914-0010/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9fae6f1fb4db9f3fb2d1bfd8",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -36027,15 +35943,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T00:18:07.991Z",
+    "updatedAt": "2026-09-15T00:14:56.291Z",
     "totals": {
       "badgesIssued": 159,
-      "badgeViews": 414,
-      "certificateDownloads": 84,
+      "badgeViews": 411,
+      "certificateDownloads": 83,
       "generatorOpens": 199,
       "generatorCompletions": 123,
       "conversionRate": 61.8,
-      "uniqueVisitorsApprox": 340
+      "uniqueVisitorsApprox": 338
     },
     "months": [
       {
@@ -36097,11 +36013,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 77,
-        "badgeViews": 85,
-        "certificateDownloads": 69,
+        "badgeViews": 82,
+        "certificateDownloads": 68,
         "generatorOpens": 86,
         "generatorCompletions": 77,
-        "uniqueVisitorsApprox": 109,
+        "uniqueVisitorsApprox": 107,
         "conversionRate": 89.5
       }
     ],
@@ -36110,11 +36026,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 159,
-        "badgeViews": 414,
-        "certificateDownloads": 84,
+        "badgeViews": 411,
+        "certificateDownloads": 83,
         "generatorOpens": 199,
         "generatorCompletions": 123,
-        "uniqueVisitorsApprox": 340,
+        "uniqueVisitorsApprox": 338,
         "conversionRate": 61.8
       }
     ],
@@ -36133,8 +36049,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 85,
-        "badgeViews": 80,
-        "certificateDownloads": 72,
+        "badgeViews": 77,
+        "certificateDownloads": 71,
         "generatorOpens": 109,
         "generatorCompletions": 85,
         "conversionRate": 78
@@ -36628,18 +36544,6 @@
         "badgeViews": 3,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-10T06:02:06.773Z"
-      },
-      {
-        "slug": "london-bingham-career-activated-csuncc-20260914-0010",
-        "badgeId": "CSUNCC-20260914-0010",
-        "awardeeName": "london bingham",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/london-bingham-career-activated-csuncc-20260914-0010/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T00:17:44.749Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
@@ -38080,6 +37984,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "london-bingham-career-activated-csuncc-20260914-0010",
+        "badgeId": "CSUNCC-20260914-0010",
+        "awardeeName": "london bingham",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/london-bingham-career-activated-csuncc-20260914-0010/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -38360,12 +38276,6 @@
         "badgesIssued": 1,
         "badgeViews": 4,
         "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "london bingham",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Jennifer Sandoval",
@@ -38891,6 +38801,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "london bingham",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
