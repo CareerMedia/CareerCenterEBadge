@@ -40832,6 +40832,48 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-certificate-download",
       "meta": {}
+    },
+    {
+      "id": "b03a202f-c9ad-4e65-b9be-9a28994f34dc",
+      "type": "certificate_downloaded",
+      "timestamp": "2026-09-15T19:25:05.421Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260915-0010",
+      "badgeSlug": "janiyah-smith-career-activated-csuncc-20260915-0010",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "JaNiyah Smith",
+      "publicUrl": "https://careerbadge.csun.edu/badges/janiyah-smith-career-activated-csuncc-20260915-0010/",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "",
+      "source": "generator-page",
+      "visitorId": "f9221cd0a336ac6a180e89f0",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-certificate-download",
+      "meta": {}
+    },
+    {
+      "id": "05a62d95-eb9a-4564-8576-d8420bf46d89",
+      "type": "generator_opened",
+      "timestamp": "2026-09-15T19:25:05.958Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "Career Activated widget",
+      "source": "generator-page",
+      "visitorId": "f9221cd0a336ac6a180e89f0",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -41306,14 +41348,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T19:16:39.256Z",
+    "updatedAt": "2026-09-15T19:25:05.966Z",
     "totals": {
       "badgesIssued": 185,
       "badgeViews": 433,
-      "certificateDownloads": 113,
-      "generatorOpens": 234,
+      "certificateDownloads": 114,
+      "generatorOpens": 235,
       "generatorCompletions": 149,
-      "conversionRate": 63.7,
+      "conversionRate": 63.4,
       "uniqueVisitorsApprox": 377
     },
     "months": [
@@ -41377,11 +41419,11 @@
         "label": "Sep 2026",
         "badgesIssued": 103,
         "badgeViews": 104,
-        "certificateDownloads": 98,
-        "generatorOpens": 121,
+        "certificateDownloads": 99,
+        "generatorOpens": 122,
         "generatorCompletions": 103,
         "uniqueVisitorsApprox": 146,
-        "conversionRate": 85.1
+        "conversionRate": 84.4
       }
     ],
     "years": [
@@ -41390,11 +41432,11 @@
         "label": "2026",
         "badgesIssued": 185,
         "badgeViews": 433,
-        "certificateDownloads": 113,
-        "generatorOpens": 234,
+        "certificateDownloads": 114,
+        "generatorOpens": 235,
         "generatorCompletions": 149,
         "uniqueVisitorsApprox": 377,
-        "conversionRate": 63.7
+        "conversionRate": 63.4
       }
     ],
     "badgeTypes": [
@@ -41413,10 +41455,10 @@
         "title": "Career Activated",
         "badgesIssued": 111,
         "badgeViews": 97,
-        "certificateDownloads": 101,
-        "generatorOpens": 144,
+        "certificateDownloads": 102,
+        "generatorOpens": 145,
         "generatorCompletions": 111,
-        "conversionRate": 77.1
+        "conversionRate": 76.6
       },
       {
         "id": "fhtc-e-badge",
@@ -42761,6 +42803,18 @@
         "latestViewedAt": ""
       },
       {
+        "slug": "janiyah-smith-career-activated-csuncc-20260915-0010",
+        "badgeId": "CSUNCC-20260915-0010",
+        "awardeeName": "JaNiyah Smith",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/janiyah-smith-career-activated-csuncc-20260915-0010/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 2,
+        "latestViewedAt": ""
+      },
+      {
         "slug": "noemi-ornelas-career-activated-csuncc-20260825-0001",
         "badgeId": "CSUNCC-20260825-0001",
         "awardeeName": "Noemi Ornelas",
@@ -43289,18 +43343,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "janiyah-smith-career-activated-csuncc-20260915-0010",
-        "badgeId": "CSUNCC-20260915-0010",
-        "awardeeName": "JaNiyah Smith",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/janiyah-smith-career-activated-csuncc-20260915-0010/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -43679,9 +43721,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 144,
+        "opens": 145,
         "completions": 110,
-        "conversionRate": 76.4
+        "conversionRate": 75.9
       },
       {
         "key": "general",
@@ -44211,6 +44253,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "JaNiyah Smith",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 2
+      },
+      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -44536,12 +44584,6 @@
       },
       {
         "awardeeName": "Sophia Perdomo Saucedo",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "JaNiyah Smith",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 1
