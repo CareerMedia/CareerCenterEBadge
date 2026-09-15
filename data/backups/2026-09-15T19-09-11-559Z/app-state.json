@@ -16792,100 +16792,6 @@
       "openBadgeJsonPath": "docs/badges/angelina-acosta-career-activated-csuncc-20260915-0008/open-badge.json",
       "verifiableCredentialPath": "docs/badges/angelina-acosta-career-activated-csuncc-20260915-0008/credential.json",
       "verificationHash": "3b70b37bc882112bfdcfeb0f4a63f019c5acfb4a6b5b7913ac40c5fe70e1543c"
-    },
-    {
-      "id": "CSUNCC-20260915-0009",
-      "awardeeName": "Myles Russell",
-      "awardeeEmail": "myles.russell.799@my.csun.edu",
-      "issueDate": "September 15, 2026",
-      "issueDateISO": "2026-09-15",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-15T19:12:44.165Z",
-      "source": "public-generator",
-      "slug": "myles-russell-career-activated-csuncc-20260915-0009",
-      "relativeUrl": "../badges/myles-russell-career-activated-csuncc-20260915-0009/",
-      "relativeJsonUrl": "../badges/myles-russell-career-activated-csuncc-20260915-0009/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
-      "repoPath": "docs/badges/myles-russell-career-activated-csuncc-20260915-0009/index.html",
-      "detailsJsonPath": "docs/badges/myles-russell-career-activated-csuncc-20260915-0009/details.json",
-      "openBadgeJsonPath": "docs/badges/myles-russell-career-activated-csuncc-20260915-0009/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/myles-russell-career-activated-csuncc-20260915-0009/credential.json",
-      "verificationHash": "2d7773ead01d504ac5de0d62fd3b04d41fccf2fa6fd8f2d38122958ef7ff0858"
     }
   ],
   "deletedBadges": [
@@ -40486,174 +40392,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "30fcb81b-5ac1-484d-89d5-caaffd68dcbd",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T19:09:11.959Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0007",
-      "badgeSlug": "leslie-navarro-career-activated-csuncc-20260915-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Leslie Navarro",
-      "publicUrl": "https://careerbadge.csun.edu/badges/leslie-navarro-career-activated-csuncc-20260915-0007/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "166fd33ad433a966601c1d29",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "6742aba2-e50d-4c2b-8a2c-9f2b6a71d03c",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T19:09:24.892Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0008",
-      "badgeSlug": "angelina-acosta-career-activated-csuncc-20260915-0008",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Angelina Acosta",
-      "publicUrl": "https://careerbadge.csun.edu/badges/angelina-acosta-career-activated-csuncc-20260915-0008/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "b2cfefc33c2ac7c3cbe33bed",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "1b3bd869-9348-4e4d-8a97-2f3b9ddd2ac6",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T19:09:35.209Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0008",
-      "badgeSlug": "angelina-acosta-career-activated-csuncc-20260915-0008",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Angelina Acosta",
-      "publicUrl": "https://careerbadge.csun.edu/badges/angelina-acosta-career-activated-csuncc-20260915-0008/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "b2cfefc33c2ac7c3cbe33bed",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "e78f6bde-73f8-42c7-963e-1513d409ad2e",
-      "type": "generator_opened",
-      "timestamp": "2026-09-15T19:12:09.013Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "083facaa0578e20d55b7151b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "9a7a1696-59df-451d-85fc-3c4ee8eabda8",
-      "type": "badge_issued",
-      "timestamp": "2026-09-15T19:12:44.165Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0009",
-      "badgeSlug": "myles-russell-career-activated-csuncc-20260915-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Myles Russell",
-      "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "910765bd-3410-471d-b44f-3caba1175354",
-      "type": "generator_completed",
-      "timestamp": "2026-09-15T19:12:45.161Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0009",
-      "badgeSlug": "myles-russell-career-activated-csuncc-20260915-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Myles Russell",
-      "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "6db6e8b9-2d3c-4e6b-8ef8-6da29cd90bdd",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T19:12:56.408Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0009",
-      "badgeSlug": "myles-russell-career-activated-csuncc-20260915-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Myles Russell",
-      "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "083facaa0578e20d55b7151b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "9508938f-d900-4871-8dcc-b23500622833",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T19:13:53.088Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0009",
-      "badgeSlug": "myles-russell-career-activated-csuncc-20260915-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Myles Russell",
-      "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "083facaa0578e20d55b7151b",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -41128,15 +40866,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T19:13:53.096Z",
+    "updatedAt": "2026-09-15T19:09:10.758Z",
     "totals": {
-      "badgesIssued": 184,
-      "badgeViews": 433,
-      "certificateDownloads": 112,
-      "generatorOpens": 233,
-      "generatorCompletions": 148,
-      "conversionRate": 63.5,
-      "uniqueVisitorsApprox": 376
+      "badgesIssued": 183,
+      "badgeViews": 431,
+      "certificateDownloads": 109,
+      "generatorOpens": 232,
+      "generatorCompletions": 147,
+      "conversionRate": 63.4,
+      "uniqueVisitorsApprox": 375
     },
     "months": [
       {
@@ -41197,26 +40935,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 102,
-        "badgeViews": 104,
-        "certificateDownloads": 97,
-        "generatorOpens": 120,
-        "generatorCompletions": 102,
-        "uniqueVisitorsApprox": 145,
-        "conversionRate": 85
+        "badgesIssued": 101,
+        "badgeViews": 102,
+        "certificateDownloads": 94,
+        "generatorOpens": 119,
+        "generatorCompletions": 101,
+        "uniqueVisitorsApprox": 144,
+        "conversionRate": 84.9
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 184,
-        "badgeViews": 433,
-        "certificateDownloads": 112,
-        "generatorOpens": 233,
-        "generatorCompletions": 148,
-        "uniqueVisitorsApprox": 376,
-        "conversionRate": 63.5
+        "badgesIssued": 183,
+        "badgeViews": 431,
+        "certificateDownloads": 109,
+        "generatorOpens": 232,
+        "generatorCompletions": 147,
+        "uniqueVisitorsApprox": 375,
+        "conversionRate": 63.4
       }
     ],
     "badgeTypes": [
@@ -41233,12 +40971,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 110,
-        "badgeViews": 97,
-        "certificateDownloads": 100,
-        "generatorOpens": 143,
-        "generatorCompletions": 110,
-        "conversionRate": 76.9
+        "badgesIssued": 109,
+        "badgeViews": 95,
+        "certificateDownloads": 97,
+        "generatorOpens": 142,
+        "generatorCompletions": 109,
+        "conversionRate": 76.8
       },
       {
         "id": "fhtc-e-badge",
@@ -42307,42 +42045,6 @@
         "latestViewedAt": "2026-09-15T05:53:13.201Z"
       },
       {
-        "slug": "leslie-navarro-career-activated-csuncc-20260915-0007",
-        "badgeId": "CSUNCC-20260915-0007",
-        "awardeeName": "Leslie Navarro",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/leslie-navarro-career-activated-csuncc-20260915-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T19:07:48.650Z"
-      },
-      {
-        "slug": "angelina-acosta-career-activated-csuncc-20260915-0008",
-        "badgeId": "CSUNCC-20260915-0008",
-        "awardeeName": "Angelina Acosta",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/angelina-acosta-career-activated-csuncc-20260915-0008/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T19:09:24.892Z"
-      },
-      {
-        "slug": "myles-russell-career-activated-csuncc-20260915-0009",
-        "badgeId": "CSUNCC-20260915-0009",
-        "awardeeName": "Myles Russell",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T19:13:53.088Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -42545,6 +42247,18 @@
         "badgeViews": 1,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-09-15T03:28:58.535Z"
+      },
+      {
+        "slug": "leslie-navarro-career-activated-csuncc-20260915-0007",
+        "badgeId": "CSUNCC-20260915-0007",
+        "awardeeName": "Leslie Navarro",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/leslie-navarro-career-activated-csuncc-20260915-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-09-15T19:07:48.650Z"
       },
       {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -43481,6 +43195,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "angelina-acosta-career-activated-csuncc-20260915-0008",
+        "badgeId": "CSUNCC-20260915-0008",
+        "awardeeName": "Angelina Acosta",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/angelina-acosta-career-activated-csuncc-20260915-0008/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -43489,9 +43215,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 143,
-        "completions": 109,
-        "conversionRate": 76.2
+        "opens": 142,
+        "completions": 108,
+        "conversionRate": 76.1
       },
       {
         "key": "general",
@@ -44003,24 +43729,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Leslie Navarro",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Angelina Acosta",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Myles Russell",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -44351,6 +44059,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Leslie Navarro",
+        "badgesIssued": 1,
+        "badgeViews": 1,
+        "certificateDownloads": 0
+      },
+      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -44436,6 +44150,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Angelina Acosta",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T19:09:11.964Z",
+  "updatedAt": "2026-09-15T19:13:53.096Z",
   "totals": {
-    "badgesIssued": 183,
-    "badgeViews": 431,
-    "certificateDownloads": 110,
-    "generatorOpens": 232,
-    "generatorCompletions": 147,
-    "conversionRate": 63.4,
-    "uniqueVisitorsApprox": 375
+    "badgesIssued": 184,
+    "badgeViews": 433,
+    "certificateDownloads": 112,
+    "generatorOpens": 233,
+    "generatorCompletions": 148,
+    "conversionRate": 63.5,
+    "uniqueVisitorsApprox": 376
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 101,
-      "badgeViews": 102,
-      "certificateDownloads": 95,
-      "generatorOpens": 119,
-      "generatorCompletions": 101,
-      "uniqueVisitorsApprox": 144,
-      "conversionRate": 84.9
+      "badgesIssued": 102,
+      "badgeViews": 104,
+      "certificateDownloads": 97,
+      "generatorOpens": 120,
+      "generatorCompletions": 102,
+      "uniqueVisitorsApprox": 145,
+      "conversionRate": 85
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 183,
-      "badgeViews": 431,
-      "certificateDownloads": 110,
-      "generatorOpens": 232,
-      "generatorCompletions": 147,
-      "uniqueVisitorsApprox": 375,
-      "conversionRate": 63.4
+      "badgesIssued": 184,
+      "badgeViews": 433,
+      "certificateDownloads": 112,
+      "generatorOpens": 233,
+      "generatorCompletions": 148,
+      "uniqueVisitorsApprox": 376,
+      "conversionRate": 63.5
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 109,
-      "badgeViews": 95,
-      "certificateDownloads": 98,
-      "generatorOpens": 142,
-      "generatorCompletions": 109,
-      "conversionRate": 76.8
+      "badgesIssued": 110,
+      "badgeViews": 97,
+      "certificateDownloads": 100,
+      "generatorOpens": 143,
+      "generatorCompletions": 110,
+      "conversionRate": 76.9
     },
     {
       "id": "fhtc-e-badge",
@@ -1189,6 +1189,30 @@
       "badgeViews": 1,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-15T19:07:48.650Z"
+    },
+    {
+      "slug": "angelina-acosta-career-activated-csuncc-20260915-0008",
+      "badgeId": "CSUNCC-20260915-0008",
+      "awardeeName": "Angelina Acosta",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/angelina-acosta-career-activated-csuncc-20260915-0008/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-15T19:09:24.892Z"
+    },
+    {
+      "slug": "myles-russell-career-activated-csuncc-20260915-0009",
+      "badgeId": "CSUNCC-20260915-0009",
+      "awardeeName": "Myles Russell",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-15T19:13:53.088Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -2329,18 +2353,6 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
-    },
-    {
-      "slug": "angelina-acosta-career-activated-csuncc-20260915-0008",
-      "badgeId": "CSUNCC-20260915-0008",
-      "awardeeName": "Angelina Acosta",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/angelina-acosta-career-activated-csuncc-20260915-0008/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0,
-      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -2349,9 +2361,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 142,
-      "completions": 108,
-      "conversionRate": 76.1
+      "opens": 143,
+      "completions": 109,
+      "conversionRate": 76.2
     },
     {
       "key": "general",
@@ -2869,6 +2881,18 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Angelina Acosta",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Myles Russell",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -3284,12 +3308,6 @@
     },
     {
       "awardeeName": "Emily Rosado Alonso",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 0
-    },
-    {
-      "awardeeName": "Angelina Acosta",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0

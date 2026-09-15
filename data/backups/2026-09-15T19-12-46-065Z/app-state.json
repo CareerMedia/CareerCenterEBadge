@@ -40612,48 +40612,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "6db6e8b9-2d3c-4e6b-8ef8-6da29cd90bdd",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T19:12:56.408Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0009",
-      "badgeSlug": "myles-russell-career-activated-csuncc-20260915-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Myles Russell",
-      "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "083facaa0578e20d55b7151b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "9508938f-d900-4871-8dcc-b23500622833",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-15T19:13:53.088Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0009",
-      "badgeSlug": "myles-russell-career-activated-csuncc-20260915-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Myles Russell",
-      "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "083facaa0578e20d55b7151b",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -41128,11 +41086,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T19:13:53.096Z",
+    "updatedAt": "2026-09-15T19:12:45.171Z",
     "totals": {
       "badgesIssued": 184,
-      "badgeViews": 433,
-      "certificateDownloads": 112,
+      "badgeViews": 432,
+      "certificateDownloads": 111,
       "generatorOpens": 233,
       "generatorCompletions": 148,
       "conversionRate": 63.5,
@@ -41198,8 +41156,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 102,
-        "badgeViews": 104,
-        "certificateDownloads": 97,
+        "badgeViews": 103,
+        "certificateDownloads": 96,
         "generatorOpens": 120,
         "generatorCompletions": 102,
         "uniqueVisitorsApprox": 145,
@@ -41211,8 +41169,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 184,
-        "badgeViews": 433,
-        "certificateDownloads": 112,
+        "badgeViews": 432,
+        "certificateDownloads": 111,
         "generatorOpens": 233,
         "generatorCompletions": 148,
         "uniqueVisitorsApprox": 376,
@@ -41234,8 +41192,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 110,
-        "badgeViews": 97,
-        "certificateDownloads": 100,
+        "badgeViews": 96,
+        "certificateDownloads": 99,
         "generatorOpens": 143,
         "generatorCompletions": 110,
         "conversionRate": 76.9
@@ -42329,18 +42287,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-15T19:09:24.892Z"
-      },
-      {
-        "slug": "myles-russell-career-activated-csuncc-20260915-0009",
-        "badgeId": "CSUNCC-20260915-0009",
-        "awardeeName": "Myles Russell",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-15T19:13:53.088Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -43481,6 +43427,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "myles-russell-career-activated-csuncc-20260915-0009",
+        "badgeId": "CSUNCC-20260915-0009",
+        "awardeeName": "Myles Russell",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/myles-russell-career-activated-csuncc-20260915-0009/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -44015,12 +43973,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Myles Russell",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -44436,6 +44388,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Myles Russell",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
