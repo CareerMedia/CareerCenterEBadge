@@ -407,3 +407,5 @@
 {"timestamp":"2026-09-15T19:12:46.166Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260915-0009","backupId":"2026-09-15T19-12-46-065Z","createdAt":"2026-09-15T19:12:46.158Z"}
 {"timestamp":"2026-09-15T19:16:31.464Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260915-0010","awardeeName":"JaNiyah Smith"}
 {"timestamp":"2026-09-15T19:16:32.663Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260915-0010","backupId":"2026-09-15T19-16-32-358Z","createdAt":"2026-09-15T19:16:32.364Z"}
+{"timestamp":"2026-09-15T21:44:50.220Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260915-0011","awardeeName":"Sean McNeil"}
+{"timestamp":"2026-09-15T21:44:52.015Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260915-0011","backupId":"2026-09-15T21-44-51-614Z","createdAt":"2026-09-15T21:44:51.912Z"}
