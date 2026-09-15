@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T18:51:11.822Z",
+  "updatedAt": "2026-09-15T18:52:43.955Z",
   "totals": {
-    "badgesIssued": 179,
+    "badgesIssued": 180,
     "badgeViews": 430,
-    "certificateDownloads": 107,
+    "certificateDownloads": 108,
     "generatorOpens": 229,
-    "generatorCompletions": 143,
-    "conversionRate": 62.4,
+    "generatorCompletions": 144,
+    "conversionRate": 62.9,
     "uniqueVisitorsApprox": 372
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 97,
+      "badgesIssued": 98,
       "badgeViews": 101,
-      "certificateDownloads": 92,
+      "certificateDownloads": 93,
       "generatorOpens": 116,
-      "generatorCompletions": 97,
+      "generatorCompletions": 98,
       "uniqueVisitorsApprox": 141,
-      "conversionRate": 83.6
+      "conversionRate": 84.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 179,
+      "badgesIssued": 180,
       "badgeViews": 430,
-      "certificateDownloads": 107,
+      "certificateDownloads": 108,
       "generatorOpens": 229,
-      "generatorCompletions": 143,
+      "generatorCompletions": 144,
       "uniqueVisitorsApprox": 372,
-      "conversionRate": 62.4
+      "conversionRate": 62.9
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 105,
+      "badgesIssued": 106,
       "badgeViews": 94,
-      "certificateDownloads": 95,
+      "certificateDownloads": 96,
       "generatorOpens": 139,
-      "generatorCompletions": 105,
-      "conversionRate": 75.5
+      "generatorCompletions": 106,
+      "conversionRate": 76.3
     },
     {
       "id": "fhtc-e-badge",
@@ -1923,6 +1923,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "desiree-alvarado-nava-career-activated-csuncc-20260915-0005",
+      "badgeId": "CSUNCC-20260915-0005",
+      "awardeeName": "Desiree Alvarado Nava",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/desiree-alvarado-nava-career-activated-csuncc-20260915-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2302,8 +2314,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 139,
-      "completions": 104,
-      "conversionRate": 74.8
+      "completions": 105,
+      "conversionRate": 75.5
     },
     {
       "key": "general",
@@ -3128,6 +3140,12 @@
     },
     {
       "awardeeName": "eunice luis",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Desiree Alvarado Nava",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

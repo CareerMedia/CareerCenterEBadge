@@ -39858,27 +39858,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "0c78fc25-9e31-4a8d-8b6b-052a2afa590e",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T18:52:43.918Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0005",
-      "badgeSlug": "desiree-alvarado-nava-career-activated-csuncc-20260915-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Desiree Alvarado Nava",
-      "publicUrl": "https://careerbadge.csun.edu/badges/desiree-alvarado-nava-career-activated-csuncc-20260915-0005/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "a466826bef9a8eb81983d13c",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -40353,11 +40332,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T18:52:43.955Z",
+    "updatedAt": "2026-09-15T18:52:34.161Z",
     "totals": {
       "badgesIssued": 180,
       "badgeViews": 430,
-      "certificateDownloads": 108,
+      "certificateDownloads": 107,
       "generatorOpens": 229,
       "generatorCompletions": 144,
       "conversionRate": 62.9,
@@ -40424,7 +40403,7 @@
         "label": "Sep 2026",
         "badgesIssued": 98,
         "badgeViews": 101,
-        "certificateDownloads": 93,
+        "certificateDownloads": 92,
         "generatorOpens": 116,
         "generatorCompletions": 98,
         "uniqueVisitorsApprox": 141,
@@ -40437,7 +40416,7 @@
         "label": "2026",
         "badgesIssued": 180,
         "badgeViews": 430,
-        "certificateDownloads": 108,
+        "certificateDownloads": 107,
         "generatorOpens": 229,
         "generatorCompletions": 144,
         "uniqueVisitorsApprox": 372,
@@ -40460,7 +40439,7 @@
         "title": "Career Activated",
         "badgesIssued": 106,
         "badgeViews": 94,
-        "certificateDownloads": 96,
+        "certificateDownloads": 95,
         "generatorOpens": 139,
         "generatorCompletions": 106,
         "conversionRate": 76.3
@@ -42276,18 +42255,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "desiree-alvarado-nava-career-activated-csuncc-20260915-0005",
-        "badgeId": "CSUNCC-20260915-0005",
-        "awardeeName": "Desiree Alvarado Nava",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/desiree-alvarado-nava-career-activated-csuncc-20260915-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -42654,6 +42621,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/mariah-makonie-career-activated-csuncc-20260914-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "desiree-alvarado-nava-career-activated-csuncc-20260915-0005",
+        "badgeId": "CSUNCC-20260915-0005",
+        "awardeeName": "Desiree Alvarado Nava",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/desiree-alvarado-nava-career-activated-csuncc-20260915-0005/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -43498,12 +43477,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Desiree Alvarado Nava",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -43589,6 +43562,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Desiree Alvarado Nava",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
