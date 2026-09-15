@@ -39460,27 +39460,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "8b3d24ed-de0b-4af1-850e-da6bd4857d07",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-15T17:14:29.154Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0003",
-      "badgeSlug": "diego-rodas-career-activated-csuncc-20260915-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Diego Rodas",
-      "publicUrl": "https://careerbadge.csun.edu/badges/diego-rodas-career-activated-csuncc-20260915-0003/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "028d39527244ddeab6af36dd",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -39955,11 +39934,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-15T17:14:29.161Z",
+    "updatedAt": "2026-09-15T17:14:20.589Z",
     "totals": {
       "badgesIssued": 178,
       "badgeViews": 430,
-      "certificateDownloads": 106,
+      "certificateDownloads": 105,
       "generatorOpens": 225,
       "generatorCompletions": 142,
       "conversionRate": 63.1,
@@ -40026,7 +40005,7 @@
         "label": "Sep 2026",
         "badgesIssued": 96,
         "badgeViews": 101,
-        "certificateDownloads": 91,
+        "certificateDownloads": 90,
         "generatorOpens": 112,
         "generatorCompletions": 96,
         "uniqueVisitorsApprox": 137,
@@ -40039,7 +40018,7 @@
         "label": "2026",
         "badgesIssued": 178,
         "badgeViews": 430,
-        "certificateDownloads": 106,
+        "certificateDownloads": 105,
         "generatorOpens": 225,
         "generatorCompletions": 142,
         "uniqueVisitorsApprox": 368,
@@ -40062,7 +40041,7 @@
         "title": "Career Activated",
         "badgesIssued": 104,
         "badgeViews": 94,
-        "certificateDownloads": 94,
+        "certificateDownloads": 93,
         "generatorOpens": 135,
         "generatorCompletions": 104,
         "conversionRate": 77
@@ -41854,18 +41833,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "diego-rodas-career-activated-csuncc-20260915-0003",
-        "badgeId": "CSUNCC-20260915-0003",
-        "awardeeName": "Diego Rodas",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/diego-rodas-career-activated-csuncc-20260915-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -42232,6 +42199,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/mariah-makonie-career-activated-csuncc-20260914-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "diego-rodas-career-activated-csuncc-20260915-0003",
+        "badgeId": "CSUNCC-20260915-0003",
+        "awardeeName": "Diego Rodas",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/diego-rodas-career-activated-csuncc-20260915-0003/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -43064,12 +43043,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Diego Rodas",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -43155,6 +43128,12 @@
       },
       {
         "awardeeName": "Emily Rosado Alonso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Diego Rodas",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
