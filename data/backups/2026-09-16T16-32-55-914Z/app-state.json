@@ -48038,27 +48038,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "0dd605bf-1748-4f81-bf7c-118b47f9ed19",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T16:33:02.751Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0009",
-      "badgeSlug": "ta-nijha-career-activated-csuncc-20260916-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ta’Nijha",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ta-nijha-career-activated-csuncc-20260916-0009/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "bfc6b8d63014b8f088d2f518",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -48533,11 +48512,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T16:33:02.762Z",
+    "updatedAt": "2026-09-16T16:32:54.811Z",
     "totals": {
       "badgesIssued": 221,
       "badgeViews": 454,
-      "certificateDownloads": 156,
+      "certificateDownloads": 155,
       "generatorOpens": 281,
       "generatorCompletions": 185,
       "conversionRate": 65.8,
@@ -48604,7 +48583,7 @@
         "label": "Sep 2026",
         "badgesIssued": 139,
         "badgeViews": 125,
-        "certificateDownloads": 141,
+        "certificateDownloads": 140,
         "generatorOpens": 168,
         "generatorCompletions": 139,
         "uniqueVisitorsApprox": 188,
@@ -48617,7 +48596,7 @@
         "label": "2026",
         "badgesIssued": 221,
         "badgeViews": 454,
-        "certificateDownloads": 156,
+        "certificateDownloads": 155,
         "generatorOpens": 281,
         "generatorCompletions": 185,
         "uniqueVisitorsApprox": 419,
@@ -48640,7 +48619,7 @@
         "title": "Career Activated",
         "badgesIssued": 147,
         "badgeViews": 118,
-        "certificateDownloads": 144,
+        "certificateDownloads": 143,
         "generatorOpens": 191,
         "generatorCompletions": 147,
         "conversionRate": 77
@@ -50924,18 +50903,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "ta-nijha-career-activated-csuncc-20260916-0009",
-        "badgeId": "CSUNCC-20260916-0009",
-        "awardeeName": "Ta’Nijha",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ta-nijha-career-activated-csuncc-20260916-0009/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -51326,6 +51293,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "ta-nijha-career-activated-csuncc-20260916-0009",
+        "badgeId": "CSUNCC-20260916-0009",
+        "awardeeName": "Ta’Nijha",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ta-nijha-career-activated-csuncc-20260916-0009/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -52404,12 +52383,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Ta’Nijha",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -52507,6 +52480,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Ta’Nijha",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
