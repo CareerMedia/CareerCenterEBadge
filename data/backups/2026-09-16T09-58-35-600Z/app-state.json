@@ -19988,100 +19988,6 @@
       "openBadgeJsonPath": "docs/badges/zion-brown-career-activated-csuncc-20260916-0006/open-badge.json",
       "verifiableCredentialPath": "docs/badges/zion-brown-career-activated-csuncc-20260916-0006/credential.json",
       "verificationHash": "8d1d08d470ba13deec02c6cacfe601ae762f99d530687a03b1b0248d807fe20b"
-    },
-    {
-      "id": "CSUNCC-20260916-0007",
-      "awardeeName": "Zion Bronw",
-      "awardeeEmail": "zion.brown.304@my.csun.edu",
-      "issueDate": "September 16, 2026",
-      "issueDateISO": "2026-09-16",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-16T10:03:06.708Z",
-      "source": "public-generator",
-      "slug": "zion-bronw-career-activated-csuncc-20260916-0007",
-      "relativeUrl": "../badges/zion-bronw-career-activated-csuncc-20260916-0007/",
-      "relativeJsonUrl": "../badges/zion-bronw-career-activated-csuncc-20260916-0007/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/zion-bronw-career-activated-csuncc-20260916-0007/",
-      "repoPath": "docs/badges/zion-bronw-career-activated-csuncc-20260916-0007/index.html",
-      "detailsJsonPath": "docs/badges/zion-bronw-career-activated-csuncc-20260916-0007/details.json",
-      "openBadgeJsonPath": "docs/badges/zion-bronw-career-activated-csuncc-20260916-0007/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/zion-bronw-career-activated-csuncc-20260916-0007/credential.json",
-      "verificationHash": "c39e89cfa7eb5abb91ce71315d085109949ac5eaec6a56da7e00b3b2235f3416"
     }
   ],
   "deletedBadges": [
@@ -47336,111 +47242,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "6bbeaafe-e712-4817-92e1-1bfd850cbed0",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T09:59:14.172Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0006",
-      "badgeSlug": "zion-brown-career-activated-csuncc-20260916-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Zion Brown",
-      "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9ab856c2a918c6a0c0dd4e6c",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "ba26d471-ad86-410f-9999-811f1e57224e",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T10:02:30.185Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "9ab856c2a918c6a0c0dd4e6c",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "19246273-bfa1-4b1e-ad69-4413e8ca11a1",
-      "type": "badge_issued",
-      "timestamp": "2026-09-16T10:03:06.708Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0007",
-      "badgeSlug": "zion-bronw-career-activated-csuncc-20260916-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Zion Bronw",
-      "publicUrl": "https://careerbadge.csun.edu/badges/zion-bronw-career-activated-csuncc-20260916-0007/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "112b76c5-c878-4919-be84-69fd13f87b12",
-      "type": "generator_completed",
-      "timestamp": "2026-09-16T10:03:07.809Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0007",
-      "badgeSlug": "zion-bronw-career-activated-csuncc-20260916-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Zion Bronw",
-      "publicUrl": "https://careerbadge.csun.edu/badges/zion-bronw-career-activated-csuncc-20260916-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "df08da36-1396-40d2-929b-2ffde1a2e1cb",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T10:03:16.832Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0007",
-      "badgeSlug": "zion-bronw-career-activated-csuncc-20260916-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Zion Bronw",
-      "publicUrl": "https://careerbadge.csun.edu/badges/zion-bronw-career-activated-csuncc-20260916-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9ab856c2a918c6a0c0dd4e6c",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -47915,14 +47716,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T10:03:16.905Z",
+    "updatedAt": "2026-09-16T09:58:34.206Z",
     "totals": {
-      "badgesIssued": 218,
+      "badgesIssued": 217,
       "badgeViews": 451,
-      "certificateDownloads": 153,
-      "generatorOpens": 277,
-      "generatorCompletions": 182,
-      "conversionRate": 65.7,
+      "certificateDownloads": 151,
+      "generatorOpens": 276,
+      "generatorCompletions": 181,
+      "conversionRate": 65.6,
       "uniqueVisitorsApprox": 414
     },
     "months": [
@@ -47984,26 +47785,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 136,
+        "badgesIssued": 135,
         "badgeViews": 122,
-        "certificateDownloads": 138,
-        "generatorOpens": 164,
-        "generatorCompletions": 136,
+        "certificateDownloads": 136,
+        "generatorOpens": 163,
+        "generatorCompletions": 135,
         "uniqueVisitorsApprox": 183,
-        "conversionRate": 82.9
+        "conversionRate": 82.8
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 218,
+        "badgesIssued": 217,
         "badgeViews": 451,
-        "certificateDownloads": 153,
-        "generatorOpens": 277,
-        "generatorCompletions": 182,
+        "certificateDownloads": 151,
+        "generatorOpens": 276,
+        "generatorCompletions": 181,
         "uniqueVisitorsApprox": 414,
-        "conversionRate": 65.7
+        "conversionRate": 65.6
       }
     ],
     "badgeTypes": [
@@ -48020,12 +47821,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 144,
+        "badgesIssued": 143,
         "badgeViews": 115,
-        "certificateDownloads": 141,
-        "generatorOpens": 187,
-        "generatorCompletions": 144,
-        "conversionRate": 77
+        "certificateDownloads": 139,
+        "generatorOpens": 186,
+        "generatorCompletions": 143,
+        "conversionRate": 76.9
       },
       {
         "id": "fhtc-e-badge",
@@ -50258,30 +50059,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "zion-brown-career-activated-csuncc-20260916-0006",
-        "badgeId": "CSUNCC-20260916-0006",
-        "awardeeName": "Zion Brown",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
-        "slug": "zion-bronw-career-activated-csuncc-20260916-0007",
-        "badgeId": "CSUNCC-20260916-0007",
-        "awardeeName": "Zion Bronw",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/zion-bronw-career-activated-csuncc-20260916-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -50676,6 +50453,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "zion-brown-career-activated-csuncc-20260916-0006",
+        "badgeId": "CSUNCC-20260916-0006",
+        "awardeeName": "Zion Brown",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -50684,9 +50473,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 187,
-        "completions": 143,
-        "conversionRate": 76.5
+        "opens": 186,
+        "completions": 142,
+        "conversionRate": 76.3
       },
       {
         "key": "general",
@@ -51726,18 +51515,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Zion Brown",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Zion Bronw",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -51835,6 +51612,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Zion Brown",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

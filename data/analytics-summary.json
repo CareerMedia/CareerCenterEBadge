@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T09:58:09.731Z",
+  "updatedAt": "2026-09-16T10:03:16.905Z",
   "totals": {
-    "badgesIssued": 216,
+    "badgesIssued": 218,
     "badgeViews": 451,
-    "certificateDownloads": 151,
-    "generatorOpens": 276,
-    "generatorCompletions": 180,
-    "conversionRate": 65.2,
+    "certificateDownloads": 153,
+    "generatorOpens": 277,
+    "generatorCompletions": 182,
+    "conversionRate": 65.7,
     "uniqueVisitorsApprox": 414
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 134,
+      "badgesIssued": 136,
       "badgeViews": 122,
-      "certificateDownloads": 136,
-      "generatorOpens": 163,
-      "generatorCompletions": 134,
+      "certificateDownloads": 138,
+      "generatorOpens": 164,
+      "generatorCompletions": 136,
       "uniqueVisitorsApprox": 183,
-      "conversionRate": 82.2
+      "conversionRate": 82.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 216,
+      "badgesIssued": 218,
       "badgeViews": 451,
-      "certificateDownloads": 151,
-      "generatorOpens": 276,
-      "generatorCompletions": 180,
+      "certificateDownloads": 153,
+      "generatorOpens": 277,
+      "generatorCompletions": 182,
       "uniqueVisitorsApprox": 414,
-      "conversionRate": 65.2
+      "conversionRate": 65.7
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 142,
+      "badgesIssued": 144,
       "badgeViews": 115,
-      "certificateDownloads": 139,
-      "generatorOpens": 186,
-      "generatorCompletions": 142,
-      "conversionRate": 76.3
+      "certificateDownloads": 141,
+      "generatorOpens": 187,
+      "generatorCompletions": 144,
+      "conversionRate": 77
     },
     {
       "id": "fhtc-e-badge",
@@ -2343,6 +2343,30 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "zion-brown-career-activated-csuncc-20260916-0006",
+      "badgeId": "CSUNCC-20260916-0006",
+      "awardeeName": "Zion Brown",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "zion-bronw-career-activated-csuncc-20260916-0007",
+      "badgeId": "CSUNCC-20260916-0007",
+      "awardeeName": "Zion Bronw",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/zion-bronw-career-activated-csuncc-20260916-0007/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2745,9 +2769,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 186,
-      "completions": 141,
-      "conversionRate": 75.8
+      "opens": 187,
+      "completions": 143,
+      "conversionRate": 76.5
     },
     {
       "key": "general",
@@ -3782,6 +3806,18 @@
     },
     {
       "awardeeName": "isaiah humphreys",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Zion Brown",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Zion Bronw",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

@@ -47420,27 +47420,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "df08da36-1396-40d2-929b-2ffde1a2e1cb",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T10:03:16.832Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0007",
-      "badgeSlug": "zion-bronw-career-activated-csuncc-20260916-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Zion Bronw",
-      "publicUrl": "https://careerbadge.csun.edu/badges/zion-bronw-career-activated-csuncc-20260916-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9ab856c2a918c6a0c0dd4e6c",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -47915,11 +47894,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T10:03:16.905Z",
+    "updatedAt": "2026-09-16T10:03:07.906Z",
     "totals": {
       "badgesIssued": 218,
       "badgeViews": 451,
-      "certificateDownloads": 153,
+      "certificateDownloads": 152,
       "generatorOpens": 277,
       "generatorCompletions": 182,
       "conversionRate": 65.7,
@@ -47986,7 +47965,7 @@
         "label": "Sep 2026",
         "badgesIssued": 136,
         "badgeViews": 122,
-        "certificateDownloads": 138,
+        "certificateDownloads": 137,
         "generatorOpens": 164,
         "generatorCompletions": 136,
         "uniqueVisitorsApprox": 183,
@@ -47999,7 +47978,7 @@
         "label": "2026",
         "badgesIssued": 218,
         "badgeViews": 451,
-        "certificateDownloads": 153,
+        "certificateDownloads": 152,
         "generatorOpens": 277,
         "generatorCompletions": 182,
         "uniqueVisitorsApprox": 414,
@@ -48022,7 +48001,7 @@
         "title": "Career Activated",
         "badgesIssued": 144,
         "badgeViews": 115,
-        "certificateDownloads": 141,
+        "certificateDownloads": 140,
         "generatorOpens": 187,
         "generatorCompletions": 144,
         "conversionRate": 77
@@ -50270,18 +50249,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "zion-bronw-career-activated-csuncc-20260916-0007",
-        "badgeId": "CSUNCC-20260916-0007",
-        "awardeeName": "Zion Bronw",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/zion-bronw-career-activated-csuncc-20260916-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -50672,6 +50639,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "zion-bronw-career-activated-csuncc-20260916-0007",
+        "badgeId": "CSUNCC-20260916-0007",
+        "awardeeName": "Zion Bronw",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/zion-bronw-career-activated-csuncc-20260916-0007/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -51732,12 +51711,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Zion Bronw",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -51835,6 +51808,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Zion Bronw",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
