@@ -46111,27 +46111,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "205a76e5-ac75-42e6-877d-345f6397c2a2",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T07:00:25.920Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0036",
-      "badgeSlug": "jaeven-holzendorf-career-activated-csuncc-20260915-0036",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jaeven Holzendorf",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jaeven-holzendorf-career-activated-csuncc-20260915-0036/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "f0f9ae87b20399d31c043224",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -46606,11 +46585,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T07:00:25.929Z",
+    "updatedAt": "2026-09-16T07:00:18.899Z",
     "totals": {
       "badgesIssued": 211,
       "badgeViews": 450,
-      "certificateDownloads": 145,
+      "certificateDownloads": 144,
       "generatorOpens": 269,
       "generatorCompletions": 175,
       "conversionRate": 65.1,
@@ -46677,7 +46656,7 @@
         "label": "Sep 2026",
         "badgesIssued": 129,
         "badgeViews": 121,
-        "certificateDownloads": 130,
+        "certificateDownloads": 129,
         "generatorOpens": 156,
         "generatorCompletions": 129,
         "uniqueVisitorsApprox": 177,
@@ -46690,7 +46669,7 @@
         "label": "2026",
         "badgesIssued": 211,
         "badgeViews": 450,
-        "certificateDownloads": 145,
+        "certificateDownloads": 144,
         "generatorOpens": 269,
         "generatorCompletions": 175,
         "uniqueVisitorsApprox": 408,
@@ -46713,7 +46692,7 @@
         "title": "Career Activated",
         "badgesIssued": 137,
         "badgeViews": 114,
-        "certificateDownloads": 133,
+        "certificateDownloads": 132,
         "generatorOpens": 179,
         "generatorCompletions": 137,
         "conversionRate": 76.5
@@ -48877,18 +48856,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "jaeven-holzendorf-career-activated-csuncc-20260915-0036",
-        "badgeId": "CSUNCC-20260915-0036",
-        "awardeeName": "Jaeven Holzendorf",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jaeven-holzendorf-career-activated-csuncc-20260915-0036/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -49279,6 +49246,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "jaeven-holzendorf-career-activated-csuncc-20260915-0036",
+        "badgeId": "CSUNCC-20260915-0036",
+        "awardeeName": "Jaeven Holzendorf",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jaeven-holzendorf-career-activated-csuncc-20260915-0036/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -50297,12 +50276,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Jaeven Holzendorf",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -50400,6 +50373,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Jaeven Holzendorf",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

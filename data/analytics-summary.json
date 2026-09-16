@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T06:59:16.399Z",
+  "updatedAt": "2026-09-16T07:00:25.929Z",
   "totals": {
-    "badgesIssued": 210,
+    "badgesIssued": 211,
     "badgeViews": 450,
-    "certificateDownloads": 144,
+    "certificateDownloads": 145,
     "generatorOpens": 269,
-    "generatorCompletions": 174,
-    "conversionRate": 64.7,
+    "generatorCompletions": 175,
+    "conversionRate": 65.1,
     "uniqueVisitorsApprox": 408
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 128,
+      "badgesIssued": 129,
       "badgeViews": 121,
-      "certificateDownloads": 129,
+      "certificateDownloads": 130,
       "generatorOpens": 156,
-      "generatorCompletions": 128,
+      "generatorCompletions": 129,
       "uniqueVisitorsApprox": 177,
-      "conversionRate": 82.1
+      "conversionRate": 82.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 210,
+      "badgesIssued": 211,
       "badgeViews": 450,
-      "certificateDownloads": 144,
+      "certificateDownloads": 145,
       "generatorOpens": 269,
-      "generatorCompletions": 174,
+      "generatorCompletions": 175,
       "uniqueVisitorsApprox": 408,
-      "conversionRate": 64.7
+      "conversionRate": 65.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 136,
+      "badgesIssued": 137,
       "badgeViews": 114,
-      "certificateDownloads": 132,
+      "certificateDownloads": 133,
       "generatorOpens": 179,
-      "generatorCompletions": 136,
-      "conversionRate": 76
+      "generatorCompletions": 137,
+      "conversionRate": 76.5
     },
     {
       "id": "fhtc-e-badge",
@@ -2271,6 +2271,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "jaeven-holzendorf-career-activated-csuncc-20260915-0036",
+      "badgeId": "CSUNCC-20260915-0036",
+      "awardeeName": "Jaeven Holzendorf",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jaeven-holzendorf-career-activated-csuncc-20260915-0036/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2674,8 +2686,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 179,
-      "completions": 135,
-      "conversionRate": 75.4
+      "completions": 136,
+      "conversionRate": 76
     },
     {
       "key": "general",
@@ -3674,6 +3686,12 @@
     },
     {
       "awardeeName": "Daniel Sanchez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Jaeven Holzendorf",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
