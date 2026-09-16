@@ -43189,6 +43189,27 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
+    },
+    {
+      "id": "9bc284f4-fdf7-4b64-8b51-c71606d74103",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-16T03:51:58.650Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260915-0021",
+      "badgeSlug": "ruby-gonzalez-career-activated-csuncc-20260915-0021",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Ruby Gonzalez",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ruby-gonzalez-career-activated-csuncc-20260915-0021/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "681c88aad82b50d1f79fd29a",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -43663,10 +43684,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T02:54:39.339Z",
+    "updatedAt": "2026-09-16T03:51:58.676Z",
     "totals": {
       "badgesIssued": 196,
-      "badgeViews": 442,
+      "badgeViews": 443,
       "certificateDownloads": 127,
       "generatorOpens": 252,
       "generatorCompletions": 160,
@@ -43733,7 +43754,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 114,
-        "badgeViews": 113,
+        "badgeViews": 114,
         "certificateDownloads": 112,
         "generatorOpens": 139,
         "generatorCompletions": 114,
@@ -43746,7 +43767,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 196,
-        "badgeViews": 442,
+        "badgeViews": 443,
         "certificateDownloads": 127,
         "generatorOpens": 252,
         "generatorCompletions": 160,
@@ -43769,7 +43790,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 122,
-        "badgeViews": 106,
+        "badgeViews": 107,
         "certificateDownloads": 115,
         "generatorOpens": 162,
         "generatorCompletions": 122,
@@ -44194,6 +44215,18 @@
         "latestViewedAt": "2026-09-12T04:00:25.338Z"
       },
       {
+        "slug": "ruby-gonzalez-career-activated-csuncc-20260915-0021",
+        "badgeId": "CSUNCC-20260915-0021",
+        "awardeeName": "Ruby Gonzalez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ruby-gonzalez-career-activated-csuncc-20260915-0021/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 6,
+        "latestViewedAt": "2026-09-16T03:51:58.650Z"
+      },
+      {
         "slug": "dianita-saucedo-rodriguez-career-champion-csuncc-20260604-0002",
         "badgeId": "CSUNCC-20260604-0002",
         "awardeeName": "Dianita Saucedo Rodriguez",
@@ -44396,18 +44429,6 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-06-04T20:00:59.133Z"
-      },
-      {
-        "slug": "ruby-gonzalez-career-activated-csuncc-20260915-0021",
-        "badgeId": "CSUNCC-20260915-0021",
-        "awardeeName": "Ruby Gonzalez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ruby-gonzalez-career-activated-csuncc-20260915-0021/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 6,
-        "latestViewedAt": "2026-09-16T02:51:20.815Z"
       },
       {
         "slug": "melissa-garcia-career-activated-csuncc-20260902-0010",
@@ -46262,6 +46283,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Ruby Gonzalez",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 6
+      },
+      {
         "awardeeName": "Cara Nissen",
         "badgesIssued": 1,
         "badgeViews": 7,
@@ -46272,12 +46299,6 @@
         "badgesIssued": 1,
         "badgeViews": 8,
         "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Ruby Gonzalez",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 6
       },
       {
         "awardeeName": "Odette Arman",
