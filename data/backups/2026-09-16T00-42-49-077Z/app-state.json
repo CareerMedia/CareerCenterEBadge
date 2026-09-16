@@ -17450,100 +17450,6 @@
       "openBadgeJsonPath": "docs/badges/zion-career-activated-csuncc-20260915-0015/open-badge.json",
       "verifiableCredentialPath": "docs/badges/zion-career-activated-csuncc-20260915-0015/credential.json",
       "verificationHash": "87677fb5a9eaf6f7586e7d39a01a9f86eec9adef2e504ac546be820b61faecb0"
-    },
-    {
-      "id": "CSUNCC-20260915-0016",
-      "awardeeName": "Justin Grantley",
-      "awardeeEmail": "justin.grantley.461@my.csun.edu",
-      "issueDate": "September 15, 2026",
-      "issueDateISO": "2026-09-15",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-16T00:43:02.171Z",
-      "source": "public-generator",
-      "slug": "justin-grantley-career-activated-csuncc-20260915-0016",
-      "relativeUrl": "../badges/justin-grantley-career-activated-csuncc-20260915-0016/",
-      "relativeJsonUrl": "../badges/justin-grantley-career-activated-csuncc-20260915-0016/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/justin-grantley-career-activated-csuncc-20260915-0016/",
-      "repoPath": "docs/badges/justin-grantley-career-activated-csuncc-20260915-0016/index.html",
-      "detailsJsonPath": "docs/badges/justin-grantley-career-activated-csuncc-20260915-0016/details.json",
-      "openBadgeJsonPath": "docs/badges/justin-grantley-career-activated-csuncc-20260915-0016/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/justin-grantley-career-activated-csuncc-20260915-0016/credential.json",
-      "verificationHash": "c7b40ca16973cc85a06a77450757d3ff72de18fc3f3ca560db0c86ca7e5c1848"
     }
   ],
   "deletedBadges": [
@@ -41900,111 +41806,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "0c94d1ca-40ef-463f-9e62-2da6b1545748",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T00:42:55.963Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0015",
-      "badgeSlug": "zion-career-activated-csuncc-20260915-0015",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Zion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/zion-career-activated-csuncc-20260915-0015/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "fd190a63a3c680b1d563761d",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "8914e483-c3d1-4d4e-aa69-c7727948d4f4",
-      "type": "badge_issued",
-      "timestamp": "2026-09-16T00:43:02.171Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0016",
-      "badgeSlug": "justin-grantley-career-activated-csuncc-20260915-0016",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Justin Grantley",
-      "publicUrl": "https://careerbadge.csun.edu/badges/justin-grantley-career-activated-csuncc-20260915-0016/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "859d26aa-9aee-4ec5-b35d-b77f1214b419",
-      "type": "generator_completed",
-      "timestamp": "2026-09-16T00:43:02.875Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0016",
-      "badgeSlug": "justin-grantley-career-activated-csuncc-20260915-0016",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Justin Grantley",
-      "publicUrl": "https://careerbadge.csun.edu/badges/justin-grantley-career-activated-csuncc-20260915-0016/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "c017adb0-1113-4d6d-a923-ad0fdc89deed",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T00:43:08.327Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0016",
-      "badgeSlug": "justin-grantley-career-activated-csuncc-20260915-0016",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Justin Grantley",
-      "publicUrl": "https://careerbadge.csun.edu/badges/justin-grantley-career-activated-csuncc-20260915-0016/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "32e3710f81151a256ba43e04",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "7c23a184-ca7b-47e5-8692-6c542c4bf2e0",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T00:43:14.968Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0016",
-      "badgeSlug": "justin-grantley-career-activated-csuncc-20260915-0016",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Justin Grantley",
-      "publicUrl": "https://careerbadge.csun.edu/badges/justin-grantley-career-activated-csuncc-20260915-0016/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "32e3710f81151a256ba43e04",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -42479,14 +42280,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T00:43:15.072Z",
+    "updatedAt": "2026-09-16T00:42:47.879Z",
     "totals": {
-      "badgesIssued": 191,
-      "badgeViews": 438,
-      "certificateDownloads": 118,
+      "badgesIssued": 190,
+      "badgeViews": 437,
+      "certificateDownloads": 116,
       "generatorOpens": 241,
-      "generatorCompletions": 155,
-      "conversionRate": 64.3,
+      "generatorCompletions": 154,
+      "conversionRate": 63.9,
       "uniqueVisitorsApprox": 383
     },
     "months": [
@@ -42548,26 +42349,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 109,
-        "badgeViews": 109,
-        "certificateDownloads": 103,
+        "badgesIssued": 108,
+        "badgeViews": 108,
+        "certificateDownloads": 101,
         "generatorOpens": 128,
-        "generatorCompletions": 109,
+        "generatorCompletions": 108,
         "uniqueVisitorsApprox": 152,
-        "conversionRate": 85.2
+        "conversionRate": 84.4
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 191,
-        "badgeViews": 438,
-        "certificateDownloads": 118,
+        "badgesIssued": 190,
+        "badgeViews": 437,
+        "certificateDownloads": 116,
         "generatorOpens": 241,
-        "generatorCompletions": 155,
+        "generatorCompletions": 154,
         "uniqueVisitorsApprox": 383,
-        "conversionRate": 64.3
+        "conversionRate": 63.9
       }
     ],
     "badgeTypes": [
@@ -42584,12 +42385,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 117,
-        "badgeViews": 102,
-        "certificateDownloads": 106,
+        "badgesIssued": 116,
+        "badgeViews": 101,
+        "certificateDownloads": 104,
         "generatorOpens": 151,
-        "generatorCompletions": 117,
-        "conversionRate": 77.5
+        "generatorCompletions": 116,
+        "conversionRate": 76.8
       },
       {
         "id": "fhtc-e-badge",
@@ -43730,18 +43531,6 @@
         "latestViewedAt": "2026-09-15T22:50:48.670Z"
       },
       {
-        "slug": "justin-grantley-career-activated-csuncc-20260915-0016",
-        "badgeId": "CSUNCC-20260915-0016",
-        "awardeeName": "Justin Grantley",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/justin-grantley-career-activated-csuncc-20260915-0016/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T00:43:08.327Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -44522,18 +44311,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "zion-career-activated-csuncc-20260915-0015",
-        "badgeId": "CSUNCC-20260915-0015",
-        "awardeeName": "Zion",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/zion-career-activated-csuncc-20260915-0015/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -44916,6 +44693,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "zion-career-activated-csuncc-20260915-0015",
+        "badgeId": "CSUNCC-20260915-0015",
+        "awardeeName": "Zion",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/zion-career-activated-csuncc-20260915-0015/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -44925,8 +44714,8 @@
         "pageKind": "specific",
         "templateId": "career-activated",
         "opens": 151,
-        "completions": 116,
-        "conversionRate": 76.8
+        "completions": 115,
+        "conversionRate": 76.2
       },
       {
         "key": "general",
@@ -45480,12 +45269,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Justin Grantley",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -45816,12 +45599,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Zion",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -45913,6 +45690,12 @@
       },
       {
         "awardeeName": "Sean McNeil",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Zion",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
