@@ -48415,6 +48415,27 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-certificate-download",
       "meta": {}
+    },
+    {
+      "id": "ee9363ff-5b2b-4efd-9137-8cb3cfb80ae4",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-16T17:51:25.350Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260915-0018",
+      "badgeSlug": "der-eon-robinson-career-activated-csuncc-20260915-0018",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Der'eon Robinson",
+      "publicUrl": "https://careerbadge.csun.edu/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "3bad47d119bc5deb21fbbeaa",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -48889,10 +48910,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T17:16:55.371Z",
+    "updatedAt": "2026-09-16T17:51:25.363Z",
     "totals": {
       "badgesIssued": 223,
-      "badgeViews": 454,
+      "badgeViews": 455,
       "certificateDownloads": 158,
       "generatorOpens": 283,
       "generatorCompletions": 187,
@@ -48959,7 +48980,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 141,
-        "badgeViews": 125,
+        "badgeViews": 126,
         "certificateDownloads": 143,
         "generatorOpens": 170,
         "generatorCompletions": 141,
@@ -48972,7 +48993,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 223,
-        "badgeViews": 454,
+        "badgeViews": 455,
         "certificateDownloads": 158,
         "generatorOpens": 283,
         "generatorCompletions": 187,
@@ -48995,7 +49016,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 149,
-        "badgeViews": 118,
+        "badgeViews": 119,
         "certificateDownloads": 146,
         "generatorOpens": 193,
         "generatorCompletions": 149,
@@ -49756,6 +49777,18 @@
         "latestViewedAt": "2026-09-14T20:09:18.962Z"
       },
       {
+        "slug": "der-eon-robinson-career-activated-csuncc-20260915-0018",
+        "badgeId": "CSUNCC-20260915-0018",
+        "awardeeName": "Der'eon Robinson",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-09-16T17:51:25.350Z"
+      },
+      {
         "slug": "onyinyechi-osuji-career-activated-csuncc-20260915-0037",
         "badgeId": "CSUNCC-20260915-0037",
         "awardeeName": "Onyinyechi Osuji",
@@ -50198,18 +50231,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-16T00:43:08.327Z"
-      },
-      {
-        "slug": "der-eon-robinson-career-activated-csuncc-20260915-0018",
-        "badgeId": "CSUNCC-20260915-0018",
-        "awardeeName": "Der'eon Robinson",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T00:54:33.269Z"
       },
       {
         "slug": "treazzurie-curry-career-activated-csuncc-20260915-0023",
@@ -52100,6 +52121,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "Der'eon Robinson",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Onyinyechi Osuji",
         "badgesIssued": 1,
         "badgeViews": 2,
@@ -52299,12 +52326,6 @@
       },
       {
         "awardeeName": "Justin Grantley",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Der'eon Robinson",
         "badgesIssued": 1,
         "badgeViews": 1,
         "certificateDownloads": 1
