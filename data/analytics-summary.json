@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T06:02:39.929Z",
+  "updatedAt": "2026-09-16T06:09:02.481Z",
   "totals": {
-    "badgesIssued": 208,
+    "badgesIssued": 209,
     "badgeViews": 450,
-    "certificateDownloads": 142,
+    "certificateDownloads": 143,
     "generatorOpens": 267,
-    "generatorCompletions": 172,
-    "conversionRate": 64.4,
+    "generatorCompletions": 173,
+    "conversionRate": 64.8,
     "uniqueVisitorsApprox": 406
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 126,
+      "badgesIssued": 127,
       "badgeViews": 121,
-      "certificateDownloads": 127,
+      "certificateDownloads": 128,
       "generatorOpens": 154,
-      "generatorCompletions": 126,
+      "generatorCompletions": 127,
       "uniqueVisitorsApprox": 175,
-      "conversionRate": 81.8
+      "conversionRate": 82.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 208,
+      "badgesIssued": 209,
       "badgeViews": 450,
-      "certificateDownloads": 142,
+      "certificateDownloads": 143,
       "generatorOpens": 267,
-      "generatorCompletions": 172,
+      "generatorCompletions": 173,
       "uniqueVisitorsApprox": 406,
-      "conversionRate": 64.4
+      "conversionRate": 64.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 134,
+      "badgesIssued": 135,
       "badgeViews": 114,
-      "certificateDownloads": 130,
+      "certificateDownloads": 131,
       "generatorOpens": 177,
-      "generatorCompletions": 134,
-      "conversionRate": 75.7
+      "generatorCompletions": 135,
+      "conversionRate": 76.3
     },
     {
       "id": "fhtc-e-badge",
@@ -2247,6 +2247,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "jacob-smith-career-activated-csuncc-20260915-0034",
+      "badgeId": "CSUNCC-20260915-0034",
+      "awardeeName": "Jacob Smith",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/jacob-smith-career-activated-csuncc-20260915-0034/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2650,8 +2662,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 177,
-      "completions": 133,
-      "conversionRate": 75.1
+      "completions": 134,
+      "conversionRate": 75.7
     },
     {
       "key": "general",
@@ -3638,6 +3650,12 @@
     },
     {
       "awardeeName": "Lauren Peay",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Jacob Smith",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

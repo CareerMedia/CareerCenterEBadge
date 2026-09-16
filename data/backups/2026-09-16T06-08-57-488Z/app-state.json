@@ -45755,27 +45755,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "47e4281a-cd5e-4906-8761-fda12e8ed118",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T06:09:02.471Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0034",
-      "badgeSlug": "jacob-smith-career-activated-csuncc-20260915-0034",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jacob Smith",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jacob-smith-career-activated-csuncc-20260915-0034/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "1145b08de5193585e757d30b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -46250,11 +46229,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T06:09:02.481Z",
+    "updatedAt": "2026-09-16T06:08:56.488Z",
     "totals": {
       "badgesIssued": 209,
       "badgeViews": 450,
-      "certificateDownloads": 143,
+      "certificateDownloads": 142,
       "generatorOpens": 267,
       "generatorCompletions": 173,
       "conversionRate": 64.8,
@@ -46321,7 +46300,7 @@
         "label": "Sep 2026",
         "badgesIssued": 127,
         "badgeViews": 121,
-        "certificateDownloads": 128,
+        "certificateDownloads": 127,
         "generatorOpens": 154,
         "generatorCompletions": 127,
         "uniqueVisitorsApprox": 175,
@@ -46334,7 +46313,7 @@
         "label": "2026",
         "badgesIssued": 209,
         "badgeViews": 450,
-        "certificateDownloads": 143,
+        "certificateDownloads": 142,
         "generatorOpens": 267,
         "generatorCompletions": 173,
         "uniqueVisitorsApprox": 406,
@@ -46357,7 +46336,7 @@
         "title": "Career Activated",
         "badgesIssued": 135,
         "badgeViews": 114,
-        "certificateDownloads": 131,
+        "certificateDownloads": 130,
         "generatorOpens": 177,
         "generatorCompletions": 135,
         "conversionRate": 76.3
@@ -48497,18 +48476,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "jacob-smith-career-activated-csuncc-20260915-0034",
-        "badgeId": "CSUNCC-20260915-0034",
-        "awardeeName": "Jacob Smith",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jacob-smith-career-activated-csuncc-20260915-0034/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -48899,6 +48866,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "jacob-smith-career-activated-csuncc-20260915-0034",
+        "badgeId": "CSUNCC-20260915-0034",
+        "awardeeName": "Jacob Smith",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jacob-smith-career-activated-csuncc-20260915-0034/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -49905,12 +49884,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Jacob Smith",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -50008,6 +49981,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Jacob Smith",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
