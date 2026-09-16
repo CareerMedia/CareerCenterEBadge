@@ -47881,6 +47881,27 @@
       "requestPath": "/api/analytics/track",
       "context": "generator-page-open",
       "meta": {}
+    },
+    {
+      "id": "f97af586-4677-438b-a6cd-4924fc8ad566",
+      "type": "generator_opened",
+      "timestamp": "2026-09-16T16:32:12.525Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "Career Activated widget",
+      "source": "generator-page",
+      "visitorId": "bfc6b8d63014b8f088d2f518",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -48355,15 +48376,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T15:33:30.755Z",
+    "updatedAt": "2026-09-16T16:32:12.533Z",
     "totals": {
       "badgesIssued": 220,
       "badgeViews": 454,
       "certificateDownloads": 155,
-      "generatorOpens": 280,
+      "generatorOpens": 281,
       "generatorCompletions": 184,
-      "conversionRate": 65.7,
-      "uniqueVisitorsApprox": 418
+      "conversionRate": 65.5,
+      "uniqueVisitorsApprox": 419
     },
     "months": [
       {
@@ -48427,10 +48448,10 @@
         "badgesIssued": 138,
         "badgeViews": 125,
         "certificateDownloads": 140,
-        "generatorOpens": 167,
+        "generatorOpens": 168,
         "generatorCompletions": 138,
-        "uniqueVisitorsApprox": 187,
-        "conversionRate": 82.6
+        "uniqueVisitorsApprox": 188,
+        "conversionRate": 82.1
       }
     ],
     "years": [
@@ -48440,10 +48461,10 @@
         "badgesIssued": 220,
         "badgeViews": 454,
         "certificateDownloads": 155,
-        "generatorOpens": 280,
+        "generatorOpens": 281,
         "generatorCompletions": 184,
-        "uniqueVisitorsApprox": 418,
-        "conversionRate": 65.7
+        "uniqueVisitorsApprox": 419,
+        "conversionRate": 65.5
       }
     ],
     "badgeTypes": [
@@ -48463,9 +48484,9 @@
         "badgesIssued": 146,
         "badgeViews": 118,
         "certificateDownloads": 143,
-        "generatorOpens": 190,
+        "generatorOpens": 191,
         "generatorCompletions": 146,
-        "conversionRate": 76.8
+        "conversionRate": 76.4
       },
       {
         "id": "fhtc-e-badge",
@@ -51148,9 +51169,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 190,
+        "opens": 191,
         "completions": 145,
-        "conversionRate": 76.3
+        "conversionRate": 75.9
       },
       {
         "key": "general",
