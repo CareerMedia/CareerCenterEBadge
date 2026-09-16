@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T09:04:04.703Z",
+  "updatedAt": "2026-09-16T09:38:03.248Z",
   "totals": {
-    "badgesIssued": 215,
+    "badgesIssued": 216,
     "badgeViews": 451,
-    "certificateDownloads": 149,
-    "generatorOpens": 273,
-    "generatorCompletions": 179,
-    "conversionRate": 65.6,
-    "uniqueVisitorsApprox": 412
+    "certificateDownloads": 151,
+    "generatorOpens": 275,
+    "generatorCompletions": 180,
+    "conversionRate": 65.5,
+    "uniqueVisitorsApprox": 413
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 133,
+      "badgesIssued": 134,
       "badgeViews": 122,
-      "certificateDownloads": 134,
-      "generatorOpens": 160,
-      "generatorCompletions": 133,
-      "uniqueVisitorsApprox": 181,
-      "conversionRate": 83.1
+      "certificateDownloads": 136,
+      "generatorOpens": 162,
+      "generatorCompletions": 134,
+      "uniqueVisitorsApprox": 182,
+      "conversionRate": 82.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 215,
+      "badgesIssued": 216,
       "badgeViews": 451,
-      "certificateDownloads": 149,
-      "generatorOpens": 273,
-      "generatorCompletions": 179,
-      "uniqueVisitorsApprox": 412,
-      "conversionRate": 65.6
+      "certificateDownloads": 151,
+      "generatorOpens": 275,
+      "generatorCompletions": 180,
+      "uniqueVisitorsApprox": 413,
+      "conversionRate": 65.5
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 141,
+      "badgesIssued": 142,
       "badgeViews": 115,
-      "certificateDownloads": 137,
-      "generatorOpens": 183,
-      "generatorCompletions": 141,
-      "conversionRate": 77
+      "certificateDownloads": 139,
+      "generatorOpens": 185,
+      "generatorCompletions": 142,
+      "conversionRate": 76.8
     },
     {
       "id": "fhtc-e-badge",
@@ -1635,6 +1635,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "katelyn-m-avery-career-activated-csuncc-20260916-0004",
+      "badgeId": "CSUNCC-20260916-0004",
+      "awardeeName": "Katelyn M Avery",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/katelyn-m-avery-career-activated-csuncc-20260916-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 2,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "noemi-ornelas-career-activated-csuncc-20260825-0001",
       "badgeId": "CSUNCC-20260825-0001",
       "awardeeName": "Noemi Ornelas",
@@ -2319,12 +2331,12 @@
       "latestViewedAt": ""
     },
     {
-      "slug": "katelyn-m-avery-career-activated-csuncc-20260916-0004",
-      "badgeId": "CSUNCC-20260916-0004",
-      "awardeeName": "Katelyn M Avery",
+      "slug": "isaiah-humphreys-career-activated-csuncc-20260916-0005",
+      "badgeId": "CSUNCC-20260916-0005",
+      "awardeeName": "isaiah humphreys",
       "badgeTitle": "Career Activated",
       "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/katelyn-m-avery-career-activated-csuncc-20260916-0004/",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isaiah-humphreys-career-activated-csuncc-20260916-0005/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1,
@@ -2733,9 +2745,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 183,
-      "completions": 140,
-      "conversionRate": 76.5
+      "opens": 185,
+      "completions": 141,
+      "conversionRate": 76.2
     },
     {
       "key": "general",
@@ -3349,6 +3361,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Katelyn M Avery",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 2
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -3763,7 +3781,7 @@
       "certificateDownloads": 1
     },
     {
-      "awardeeName": "Katelyn M Avery",
+      "awardeeName": "isaiah humphreys",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
