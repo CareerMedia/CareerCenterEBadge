@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T05:15:04.619Z",
+  "updatedAt": "2026-09-16T05:24:02.687Z",
   "totals": {
-    "badgesIssued": 199,
+    "badgesIssued": 201,
     "badgeViews": 444,
-    "certificateDownloads": 130,
-    "generatorOpens": 255,
-    "generatorCompletions": 163,
-    "conversionRate": 63.9,
-    "uniqueVisitorsApprox": 395
+    "certificateDownloads": 132,
+    "generatorOpens": 257,
+    "generatorCompletions": 165,
+    "conversionRate": 64.2,
+    "uniqueVisitorsApprox": 397
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 117,
+      "badgesIssued": 119,
       "badgeViews": 115,
-      "certificateDownloads": 115,
-      "generatorOpens": 142,
-      "generatorCompletions": 117,
-      "uniqueVisitorsApprox": 164,
-      "conversionRate": 82.4
+      "certificateDownloads": 117,
+      "generatorOpens": 144,
+      "generatorCompletions": 119,
+      "uniqueVisitorsApprox": 166,
+      "conversionRate": 82.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 199,
+      "badgesIssued": 201,
       "badgeViews": 444,
-      "certificateDownloads": 130,
-      "generatorOpens": 255,
-      "generatorCompletions": 163,
-      "uniqueVisitorsApprox": 395,
-      "conversionRate": 63.9
+      "certificateDownloads": 132,
+      "generatorOpens": 257,
+      "generatorCompletions": 165,
+      "uniqueVisitorsApprox": 397,
+      "conversionRate": 64.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 125,
+      "badgesIssued": 127,
       "badgeViews": 108,
-      "certificateDownloads": 118,
-      "generatorOpens": 165,
-      "generatorCompletions": 125,
-      "conversionRate": 75.8
+      "certificateDownloads": 120,
+      "generatorOpens": 167,
+      "generatorCompletions": 127,
+      "conversionRate": 76
     },
     {
       "id": "fhtc-e-badge",
@@ -1563,6 +1563,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "amiyah-flounoy-career-activated-csuncc-20260915-0025",
+      "badgeId": "CSUNCC-20260915-0025",
+      "awardeeName": "Amiyah Flounoy",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/amiyah-flounoy-career-activated-csuncc-20260915-0025/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 2,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "noemi-ornelas-career-activated-csuncc-20260825-0001",
       "badgeId": "CSUNCC-20260825-0001",
       "awardeeName": "Noemi Ornelas",
@@ -2533,6 +2545,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "ariel-gray-career-activated-csuncc-20260915-0026",
+      "badgeId": "CSUNCC-20260915-0026",
+      "awardeeName": "Ariel Gray",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -2541,9 +2565,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 165,
-      "completions": 124,
-      "conversionRate": 75.2
+      "opens": 167,
+      "completions": 126,
+      "conversionRate": 75.4
     },
     {
       "key": "general",
@@ -3121,6 +3145,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Amiyah Flounoy",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 2
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -3578,6 +3608,12 @@
     },
     {
       "awardeeName": "Sean McNeil",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Ariel Gray",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
