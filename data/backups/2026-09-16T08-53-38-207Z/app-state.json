@@ -46666,27 +46666,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "f4d29f7a-366e-474e-a57f-b38e879caa5e",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T08:53:41.891Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0003",
-      "badgeSlug": "tiffany-powell-career-activated-csuncc-20260916-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Tiffany Powell",
-      "publicUrl": "https://careerbadge.csun.edu/badges/tiffany-powell-career-activated-csuncc-20260916-0003/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9d971476b3bab86a938dcc84",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -47161,11 +47140,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T08:53:41.897Z",
+    "updatedAt": "2026-09-16T08:53:36.705Z",
     "totals": {
       "badgesIssued": 214,
       "badgeViews": 451,
-      "certificateDownloads": 148,
+      "certificateDownloads": 147,
       "generatorOpens": 272,
       "generatorCompletions": 178,
       "conversionRate": 65.4,
@@ -47232,7 +47211,7 @@
         "label": "Sep 2026",
         "badgesIssued": 132,
         "badgeViews": 122,
-        "certificateDownloads": 133,
+        "certificateDownloads": 132,
         "generatorOpens": 159,
         "generatorCompletions": 132,
         "uniqueVisitorsApprox": 180,
@@ -47245,7 +47224,7 @@
         "label": "2026",
         "badgesIssued": 214,
         "badgeViews": 451,
-        "certificateDownloads": 148,
+        "certificateDownloads": 147,
         "generatorOpens": 272,
         "generatorCompletions": 178,
         "uniqueVisitorsApprox": 411,
@@ -47268,7 +47247,7 @@
         "title": "Career Activated",
         "badgesIssued": 140,
         "badgeViews": 115,
-        "certificateDownloads": 136,
+        "certificateDownloads": 135,
         "generatorOpens": 182,
         "generatorCompletions": 140,
         "conversionRate": 76.9
@@ -49468,18 +49447,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "tiffany-powell-career-activated-csuncc-20260916-0003",
-        "badgeId": "CSUNCC-20260916-0003",
-        "awardeeName": "Tiffany Powell",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/tiffany-powell-career-activated-csuncc-20260916-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -49870,6 +49837,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "tiffany-powell-career-activated-csuncc-20260916-0003",
+        "badgeId": "CSUNCC-20260916-0003",
+        "awardeeName": "Tiffany Powell",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/tiffany-powell-career-activated-csuncc-20260916-0003/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -50906,12 +50885,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Tiffany Powell",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -51009,6 +50982,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Tiffany Powell",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
