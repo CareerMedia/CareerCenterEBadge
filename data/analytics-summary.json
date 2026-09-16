@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T05:55:22.988Z",
+  "updatedAt": "2026-09-16T06:01:13.589Z",
   "totals": {
-    "badgesIssued": 205,
-    "badgeViews": 447,
-    "certificateDownloads": 137,
-    "generatorOpens": 264,
-    "generatorCompletions": 169,
-    "conversionRate": 64,
-    "uniqueVisitorsApprox": 403
+    "badgesIssued": 206,
+    "badgeViews": 449,
+    "certificateDownloads": 140,
+    "generatorOpens": 265,
+    "generatorCompletions": 170,
+    "conversionRate": 64.2,
+    "uniqueVisitorsApprox": 404
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 123,
-      "badgeViews": 118,
-      "certificateDownloads": 122,
-      "generatorOpens": 151,
-      "generatorCompletions": 123,
-      "uniqueVisitorsApprox": 172,
-      "conversionRate": 81.5
+      "badgesIssued": 124,
+      "badgeViews": 120,
+      "certificateDownloads": 125,
+      "generatorOpens": 152,
+      "generatorCompletions": 124,
+      "uniqueVisitorsApprox": 173,
+      "conversionRate": 81.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 205,
-      "badgeViews": 447,
-      "certificateDownloads": 137,
-      "generatorOpens": 264,
-      "generatorCompletions": 169,
-      "uniqueVisitorsApprox": 403,
-      "conversionRate": 64
+      "badgesIssued": 206,
+      "badgeViews": 449,
+      "certificateDownloads": 140,
+      "generatorOpens": 265,
+      "generatorCompletions": 170,
+      "uniqueVisitorsApprox": 404,
+      "conversionRate": 64.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 131,
-      "badgeViews": 111,
-      "certificateDownloads": 125,
-      "generatorOpens": 174,
-      "generatorCompletions": 131,
-      "conversionRate": 75.3
+      "badgesIssued": 132,
+      "badgeViews": 113,
+      "certificateDownloads": 128,
+      "generatorOpens": 175,
+      "generatorCompletions": 132,
+      "conversionRate": 75.4
     },
     {
       "id": "fhtc-e-badge",
@@ -745,6 +745,18 @@
       "badgeViews": 3,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-06-04T20:00:59.133Z"
+    },
+    {
+      "slug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
+      "badgeId": "CSUNCC-20260915-0031",
+      "awardeeName": "Gabrielle Richard",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/gabrielle-richard-career-activated-csuncc-20260915-0031/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 3,
+      "latestViewedAt": "2026-09-16T05:58:13.568Z"
     },
     {
       "slug": "melissa-garcia-career-activated-csuncc-20260902-0010",
@@ -2613,9 +2625,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 174,
-      "completions": 130,
-      "conversionRate": 74.7
+      "opens": 175,
+      "completions": 131,
+      "conversionRate": 74.9
     },
     {
       "key": "general",
@@ -2837,6 +2849,12 @@
       "badgesIssued": 1,
       "badgeViews": 3,
       "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Gabrielle Richard",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 3
     },
     {
       "awardeeName": "Genesis Lozano-Gonzalez",

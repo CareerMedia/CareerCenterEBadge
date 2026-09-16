@@ -45116,132 +45116,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "05f2e410-c9a7-43d2-a37f-6c5b9ea656f7",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:57:29.271Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0031",
-      "badgeSlug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Gabrielle Richard",
-      "publicUrl": "https://careerbadge.csun.edu/badges/gabrielle-richard-career-activated-csuncc-20260915-0031/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "7f8dffb10190ca2fb81a763b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "ddcf2550-f1fc-4b72-823b-c68f07cd9187",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T05:57:38.960Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0031",
-      "badgeSlug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Gabrielle Richard",
-      "publicUrl": "https://careerbadge.csun.edu/badges/gabrielle-richard-career-activated-csuncc-20260915-0031/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "7f8dffb10190ca2fb81a763b",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "dcaf3369-2946-4c58-9936-51be9331df8c",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:57:59.450Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0031",
-      "badgeSlug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Gabrielle Richard",
-      "publicUrl": "https://careerbadge.csun.edu/badges/gabrielle-richard-career-activated-csuncc-20260915-0031/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "7f8dffb10190ca2fb81a763b",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "297d9c12-d272-440b-a046-3969b0016d25",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T05:58:13.568Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0031",
-      "badgeSlug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Gabrielle Richard",
-      "publicUrl": "https://careerbadge.csun.edu/badges/gabrielle-richard-career-activated-csuncc-20260915-0031/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "7f8dffb10190ca2fb81a763b",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "30e10824-af41-4546-bb7e-4f2fa73f89b7",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:58:19.756Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0031",
-      "badgeSlug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Gabrielle Richard",
-      "publicUrl": "https://careerbadge.csun.edu/badges/gabrielle-richard-career-activated-csuncc-20260915-0031/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "7f8dffb10190ca2fb81a763b",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "39d5abc8-9019-4abc-aedc-4ec90458a02d",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T06:01:13.573Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "89cc6e3936390be31809f41f",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -45716,15 +45590,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T06:01:13.589Z",
+    "updatedAt": "2026-09-16T05:57:21.699Z",
     "totals": {
       "badgesIssued": 206,
-      "badgeViews": 449,
-      "certificateDownloads": 140,
-      "generatorOpens": 265,
+      "badgeViews": 447,
+      "certificateDownloads": 137,
+      "generatorOpens": 264,
       "generatorCompletions": 170,
-      "conversionRate": 64.2,
-      "uniqueVisitorsApprox": 404
+      "conversionRate": 64.4,
+      "uniqueVisitorsApprox": 403
     },
     "months": [
       {
@@ -45786,12 +45660,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 124,
-        "badgeViews": 120,
-        "certificateDownloads": 125,
-        "generatorOpens": 152,
+        "badgeViews": 118,
+        "certificateDownloads": 122,
+        "generatorOpens": 151,
         "generatorCompletions": 124,
-        "uniqueVisitorsApprox": 173,
-        "conversionRate": 81.6
+        "uniqueVisitorsApprox": 172,
+        "conversionRate": 82.1
       }
     ],
     "years": [
@@ -45799,12 +45673,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 206,
-        "badgeViews": 449,
-        "certificateDownloads": 140,
-        "generatorOpens": 265,
+        "badgeViews": 447,
+        "certificateDownloads": 137,
+        "generatorOpens": 264,
         "generatorCompletions": 170,
-        "uniqueVisitorsApprox": 404,
-        "conversionRate": 64.2
+        "uniqueVisitorsApprox": 403,
+        "conversionRate": 64.4
       }
     ],
     "badgeTypes": [
@@ -45822,11 +45696,11 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 132,
-        "badgeViews": 113,
-        "certificateDownloads": 128,
-        "generatorOpens": 175,
+        "badgeViews": 111,
+        "certificateDownloads": 125,
+        "generatorOpens": 174,
         "generatorCompletions": 132,
-        "conversionRate": 75.4
+        "conversionRate": 75.9
       },
       {
         "id": "fhtc-e-badge",
@@ -46461,18 +46335,6 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-06-04T20:00:59.133Z"
-      },
-      {
-        "slug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
-        "badgeId": "CSUNCC-20260915-0031",
-        "awardeeName": "Gabrielle Richard",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/gabrielle-richard-career-activated-csuncc-20260915-0031/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 3,
-        "latestViewedAt": "2026-09-16T05:58:13.568Z"
       },
       {
         "slug": "melissa-garcia-career-activated-csuncc-20260902-0010",
@@ -48333,6 +48195,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
+        "badgeId": "CSUNCC-20260915-0031",
+        "awardeeName": "Gabrielle Richard",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/gabrielle-richard-career-activated-csuncc-20260915-0031/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -48341,9 +48215,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 175,
+        "opens": 174,
         "completions": 131,
-        "conversionRate": 74.9
+        "conversionRate": 75.3
       },
       {
         "key": "general",
@@ -48565,12 +48439,6 @@
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Gabrielle Richard",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 3
       },
       {
         "awardeeName": "Genesis Lozano-Gonzalez",
@@ -49420,6 +49288,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Gabrielle Richard",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
