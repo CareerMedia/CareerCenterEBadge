@@ -17638,100 +17638,6 @@
       "openBadgeJsonPath": "docs/badges/sanai-vanhook-career-activated-csuncc-20260915-0017/open-badge.json",
       "verifiableCredentialPath": "docs/badges/sanai-vanhook-career-activated-csuncc-20260915-0017/credential.json",
       "verificationHash": "de8252ce67b9a1bddbc927a920c123b613bce4666bfab24dc35b673def83c282"
-    },
-    {
-      "id": "CSUNCC-20260915-0018",
-      "awardeeName": "Der'eon Robinson",
-      "awardeeEmail": "dereon.robinson.580@my.csun.edu",
-      "issueDate": "September 15, 2026",
-      "issueDateISO": "2026-09-15",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-16T00:54:27.770Z",
-      "source": "public-generator",
-      "slug": "der-eon-robinson-career-activated-csuncc-20260915-0018",
-      "relativeUrl": "../badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
-      "relativeJsonUrl": "../badges/der-eon-robinson-career-activated-csuncc-20260915-0018/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
-      "repoPath": "docs/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/index.html",
-      "detailsJsonPath": "docs/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/details.json",
-      "openBadgeJsonPath": "docs/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/credential.json",
-      "verificationHash": "bd878a0b25f02cc1c0ab058a6771471a28f5955afb702933800d912d2b96ff21"
     }
   ],
   "deletedBadges": [
@@ -42256,132 +42162,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "7012654c-84d5-435f-8a2d-4e768588960c",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T00:53:20.453Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0017",
-      "badgeSlug": "sanai-vanhook-career-activated-csuncc-20260915-0017",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Sanai Vanhook",
-      "publicUrl": "https://careerbadge.csun.edu/badges/sanai-vanhook-career-activated-csuncc-20260915-0017/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "70322c1e88582fe3f6a287b8",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "e5b33f94-ac46-4467-a2ef-83090aa6d607",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T00:53:52.717Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "3bad47d119bc5deb21fbbeaa",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "baa0d4d2-f9ab-43e9-9c58-bcde4e63a752",
-      "type": "badge_issued",
-      "timestamp": "2026-09-16T00:54:27.770Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0018",
-      "badgeSlug": "der-eon-robinson-career-activated-csuncc-20260915-0018",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Der'eon Robinson",
-      "publicUrl": "https://careerbadge.csun.edu/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "461e5cf9-b3b7-4291-a97b-7a7206a4005c",
-      "type": "generator_completed",
-      "timestamp": "2026-09-16T00:54:28.671Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0018",
-      "badgeSlug": "der-eon-robinson-career-activated-csuncc-20260915-0018",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Der'eon Robinson",
-      "publicUrl": "https://careerbadge.csun.edu/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "147e32d3-8be5-4b32-ad84-5cc3477b1279",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T00:54:33.269Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0018",
-      "badgeSlug": "der-eon-robinson-career-activated-csuncc-20260915-0018",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Der'eon Robinson",
-      "publicUrl": "https://careerbadge.csun.edu/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "3bad47d119bc5deb21fbbeaa",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "fb9399fa-761a-41f4-942e-aac41466f906",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T00:54:43.816Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0018",
-      "badgeSlug": "der-eon-robinson-career-activated-csuncc-20260915-0018",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Der'eon Robinson",
-      "publicUrl": "https://careerbadge.csun.edu/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "3bad47d119bc5deb21fbbeaa",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -42856,15 +42636,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T00:54:43.822Z",
+    "updatedAt": "2026-09-16T00:53:14.276Z",
     "totals": {
-      "badgesIssued": 193,
-      "badgeViews": 439,
-      "certificateDownloads": 120,
-      "generatorOpens": 243,
-      "generatorCompletions": 157,
-      "conversionRate": 64.6,
-      "uniqueVisitorsApprox": 385
+      "badgesIssued": 192,
+      "badgeViews": 438,
+      "certificateDownloads": 118,
+      "generatorOpens": 242,
+      "generatorCompletions": 156,
+      "conversionRate": 64.5,
+      "uniqueVisitorsApprox": 384
     },
     "months": [
       {
@@ -42925,26 +42705,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 111,
-        "badgeViews": 110,
-        "certificateDownloads": 105,
-        "generatorOpens": 130,
-        "generatorCompletions": 111,
-        "uniqueVisitorsApprox": 154,
-        "conversionRate": 85.4
+        "badgesIssued": 110,
+        "badgeViews": 109,
+        "certificateDownloads": 103,
+        "generatorOpens": 129,
+        "generatorCompletions": 110,
+        "uniqueVisitorsApprox": 153,
+        "conversionRate": 85.3
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 193,
-        "badgeViews": 439,
-        "certificateDownloads": 120,
-        "generatorOpens": 243,
-        "generatorCompletions": 157,
-        "uniqueVisitorsApprox": 385,
-        "conversionRate": 64.6
+        "badgesIssued": 192,
+        "badgeViews": 438,
+        "certificateDownloads": 118,
+        "generatorOpens": 242,
+        "generatorCompletions": 156,
+        "uniqueVisitorsApprox": 384,
+        "conversionRate": 64.5
       }
     ],
     "badgeTypes": [
@@ -42961,12 +42741,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 119,
-        "badgeViews": 103,
-        "certificateDownloads": 108,
-        "generatorOpens": 153,
-        "generatorCompletions": 119,
-        "conversionRate": 77.8
+        "badgesIssued": 118,
+        "badgeViews": 102,
+        "certificateDownloads": 106,
+        "generatorOpens": 152,
+        "generatorCompletions": 118,
+        "conversionRate": 77.6
       },
       {
         "id": "fhtc-e-badge",
@@ -44119,18 +43899,6 @@
         "latestViewedAt": "2026-09-16T00:43:08.327Z"
       },
       {
-        "slug": "der-eon-robinson-career-activated-csuncc-20260915-0018",
-        "badgeId": "CSUNCC-20260915-0018",
-        "awardeeName": "Der'eon Robinson",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/der-eon-robinson-career-activated-csuncc-20260915-0018/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T00:54:33.269Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -44923,18 +44691,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "sanai-vanhook-career-activated-csuncc-20260915-0017",
-        "badgeId": "CSUNCC-20260915-0017",
-        "awardeeName": "Sanai Vanhook",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/sanai-vanhook-career-activated-csuncc-20260915-0017/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -45317,6 +45073,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "sanai-vanhook-career-activated-csuncc-20260915-0017",
+        "badgeId": "CSUNCC-20260915-0017",
+        "awardeeName": "Sanai Vanhook",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/sanai-vanhook-career-activated-csuncc-20260915-0017/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -45325,9 +45093,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 153,
-        "completions": 118,
-        "conversionRate": 77.1
+        "opens": 152,
+        "completions": 117,
+        "conversionRate": 77
       },
       {
         "key": "general",
@@ -45887,12 +45655,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Der'eon Robinson",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -46229,12 +45991,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Sanai Vanhook",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -46326,6 +46082,12 @@
       },
       {
         "awardeeName": "Sean McNeil",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Sanai Vanhook",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
