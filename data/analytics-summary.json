@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T23:45:46.207Z",
+  "updatedAt": "2026-09-16T23:49:43.307Z",
   "totals": {
-    "badgesIssued": 225,
-    "badgeViews": 459,
-    "certificateDownloads": 159,
-    "generatorOpens": 287,
-    "generatorCompletions": 189,
-    "conversionRate": 65.9,
-    "uniqueVisitorsApprox": 425
+    "badgesIssued": 227,
+    "badgeViews": 462,
+    "certificateDownloads": 160,
+    "generatorOpens": 289,
+    "generatorCompletions": 191,
+    "conversionRate": 66.1,
+    "uniqueVisitorsApprox": 426
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 143,
-      "badgeViews": 130,
-      "certificateDownloads": 144,
-      "generatorOpens": 174,
-      "generatorCompletions": 143,
-      "uniqueVisitorsApprox": 194,
-      "conversionRate": 82.2
+      "badgesIssued": 145,
+      "badgeViews": 133,
+      "certificateDownloads": 145,
+      "generatorOpens": 176,
+      "generatorCompletions": 145,
+      "uniqueVisitorsApprox": 195,
+      "conversionRate": 82.4
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 225,
-      "badgeViews": 459,
-      "certificateDownloads": 159,
-      "generatorOpens": 287,
-      "generatorCompletions": 189,
-      "uniqueVisitorsApprox": 425,
-      "conversionRate": 65.9
+      "badgesIssued": 227,
+      "badgeViews": 462,
+      "certificateDownloads": 160,
+      "generatorOpens": 289,
+      "generatorCompletions": 191,
+      "uniqueVisitorsApprox": 426,
+      "conversionRate": 66.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 151,
-      "badgeViews": 123,
-      "certificateDownloads": 147,
-      "generatorOpens": 197,
-      "generatorCompletions": 151,
-      "conversionRate": 76.6
+      "badgesIssued": 153,
+      "badgeViews": 126,
+      "certificateDownloads": 148,
+      "generatorOpens": 199,
+      "generatorCompletions": 153,
+      "conversionRate": 76.9
     },
     {
       "id": "fhtc-e-badge",
@@ -1011,6 +1011,18 @@
       "latestViewedAt": "2026-09-15T03:37:05.564Z"
     },
     {
+      "slug": "kevin-garcia-career-activated-csuncc-20260916-0014",
+      "badgeId": "CSUNCC-20260916-0014",
+      "awardeeName": "Kevin Garcia",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-16T23:49:43.146Z"
+    },
+    {
       "slug": "michael-hobbs-career-activated-csuncc-20260914-0015",
       "badgeId": "CSUNCC-20260914-0015",
       "awardeeName": "Michael Hobbs",
@@ -1393,6 +1405,18 @@
       "badgeViews": 1,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-16T10:05:46.112Z"
+    },
+    {
+      "slug": "calia-grier-career-activated-csuncc-20260915-0038",
+      "badgeId": "CSUNCC-20260915-0038",
+      "awardeeName": "Calia Grier",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/calia-grier-career-activated-csuncc-20260915-0038/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-16T23:46:23.914Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -2853,9 +2877,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 197,
-      "completions": 150,
-      "conversionRate": 76.1
+      "opens": 199,
+      "completions": 152,
+      "conversionRate": 76.4
     },
     {
       "key": "general",
@@ -3491,6 +3515,18 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Calia Grier",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Kevin Garcia",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Maddie Paul",

@@ -20834,100 +20834,6 @@
       "openBadgeJsonPath": "docs/badges/calia-grier-career-activated-csuncc-20260915-0038/open-badge.json",
       "verifiableCredentialPath": "docs/badges/calia-grier-career-activated-csuncc-20260915-0038/credential.json",
       "verificationHash": "0aa3f7b8d882b02357a4e5f32a9c2d65cf38b8cae0737270c962f023bc099357"
-    },
-    {
-      "id": "CSUNCC-20260916-0014",
-      "awardeeName": "Kevin Garcia",
-      "awardeeEmail": "kevin.garcia.527@my.csun.edu",
-      "issueDate": "September 16, 2026",
-      "issueDateISO": "2026-09-16",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-16T23:49:10.508Z",
-      "source": "public-generator",
-      "slug": "kevin-garcia-career-activated-csuncc-20260916-0014",
-      "relativeUrl": "../badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-      "relativeJsonUrl": "../badges/kevin-garcia-career-activated-csuncc-20260916-0014/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-      "repoPath": "docs/badges/kevin-garcia-career-activated-csuncc-20260916-0014/index.html",
-      "detailsJsonPath": "docs/badges/kevin-garcia-career-activated-csuncc-20260916-0014/details.json",
-      "openBadgeJsonPath": "docs/badges/kevin-garcia-career-activated-csuncc-20260916-0014/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/kevin-garcia-career-activated-csuncc-20260916-0014/credential.json",
-      "verificationHash": "aaf0e8b8e53d437f9a3e5c70b24e9f8be0f33b3ab0bdfc5eb7182b19783ce568"
     }
   ],
   "deletedBadges": [
@@ -49127,174 +49033,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "0d1e7557-cf7b-4353-a0df-f8bf736cafd7",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T23:46:23.914Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0038",
-      "badgeSlug": "calia-grier-career-activated-csuncc-20260915-0038",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Calia Grier",
-      "publicUrl": "https://careerbadge.csun.edu/badges/calia-grier-career-activated-csuncc-20260915-0038/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "fa72e31d17990b9c0afe46b4",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "007cc45b-a7b9-4fb8-ae07-e0dca31ad86c",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T23:46:44.022Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "82d23dd3534d4a73cb622acd",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "995444dd-86da-4a47-9a74-cd1d833244f6",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T23:46:48.460Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0038",
-      "badgeSlug": "calia-grier-career-activated-csuncc-20260915-0038",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Calia Grier",
-      "publicUrl": "https://careerbadge.csun.edu/badges/calia-grier-career-activated-csuncc-20260915-0038/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "fa72e31d17990b9c0afe46b4",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "ce18f023-52da-4ead-a3d4-08f8d5999306",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T23:48:53.411Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "18c40a6d45ab1a99898d6cda",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "fa1472f7-4cb9-4e41-b05d-a28c684e8695",
-      "type": "badge_issued",
-      "timestamp": "2026-09-16T23:49:10.508Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0014",
-      "badgeSlug": "kevin-garcia-career-activated-csuncc-20260916-0014",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "20bfed29-b8a8-4936-963e-97b05677d8ba",
-      "type": "generator_completed",
-      "timestamp": "2026-09-16T23:49:11.912Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0014",
-      "badgeSlug": "kevin-garcia-career-activated-csuncc-20260916-0014",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "083dca3e-5a93-4680-9d4f-b1bcb25574ed",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T23:49:21.654Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0014",
-      "badgeSlug": "kevin-garcia-career-activated-csuncc-20260916-0014",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "18c40a6d45ab1a99898d6cda",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "1375e81d-9367-4454-852a-f1057b09e179",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T23:49:43.146Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0014",
-      "badgeSlug": "kevin-garcia-career-activated-csuncc-20260916-0014",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "18c40a6d45ab1a99898d6cda",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -49769,15 +49507,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T23:49:43.307Z",
+    "updatedAt": "2026-09-16T23:46:16.107Z",
     "totals": {
-      "badgesIssued": 227,
-      "badgeViews": 462,
-      "certificateDownloads": 160,
-      "generatorOpens": 289,
-      "generatorCompletions": 191,
-      "conversionRate": 66.1,
-      "uniqueVisitorsApprox": 426
+      "badgesIssued": 226,
+      "badgeViews": 459,
+      "certificateDownloads": 159,
+      "generatorOpens": 287,
+      "generatorCompletions": 190,
+      "conversionRate": 66.2,
+      "uniqueVisitorsApprox": 425
     },
     "months": [
       {
@@ -49838,26 +49576,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 145,
-        "badgeViews": 133,
-        "certificateDownloads": 145,
-        "generatorOpens": 176,
-        "generatorCompletions": 145,
-        "uniqueVisitorsApprox": 195,
-        "conversionRate": 82.4
+        "badgesIssued": 144,
+        "badgeViews": 130,
+        "certificateDownloads": 144,
+        "generatorOpens": 174,
+        "generatorCompletions": 144,
+        "uniqueVisitorsApprox": 194,
+        "conversionRate": 82.8
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 227,
-        "badgeViews": 462,
-        "certificateDownloads": 160,
-        "generatorOpens": 289,
-        "generatorCompletions": 191,
-        "uniqueVisitorsApprox": 426,
-        "conversionRate": 66.1
+        "badgesIssued": 226,
+        "badgeViews": 459,
+        "certificateDownloads": 159,
+        "generatorOpens": 287,
+        "generatorCompletions": 190,
+        "uniqueVisitorsApprox": 425,
+        "conversionRate": 66.2
       }
     ],
     "badgeTypes": [
@@ -49874,12 +49612,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 153,
-        "badgeViews": 126,
-        "certificateDownloads": 148,
-        "generatorOpens": 199,
-        "generatorCompletions": 153,
-        "conversionRate": 76.9
+        "badgesIssued": 152,
+        "badgeViews": 123,
+        "certificateDownloads": 147,
+        "generatorOpens": 197,
+        "generatorCompletions": 152,
+        "conversionRate": 77.2
       },
       {
         "id": "fhtc-e-badge",
@@ -50780,18 +50518,6 @@
         "latestViewedAt": "2026-09-15T03:37:05.564Z"
       },
       {
-        "slug": "kevin-garcia-career-activated-csuncc-20260916-0014",
-        "badgeId": "CSUNCC-20260916-0014",
-        "awardeeName": "Kevin Garcia",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-16T23:49:43.146Z"
-      },
-      {
         "slug": "michael-hobbs-career-activated-csuncc-20260914-0015",
         "badgeId": "CSUNCC-20260914-0015",
         "awardeeName": "Michael Hobbs",
@@ -51174,18 +50900,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-16T10:05:46.112Z"
-      },
-      {
-        "slug": "calia-grier-career-activated-csuncc-20260915-0038",
-        "badgeId": "CSUNCC-20260915-0038",
-        "awardeeName": "Calia Grier",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/calia-grier-career-activated-csuncc-20260915-0038/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T23:46:23.914Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -52638,6 +52352,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "calia-grier-career-activated-csuncc-20260915-0038",
+        "badgeId": "CSUNCC-20260915-0038",
+        "awardeeName": "Calia Grier",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/calia-grier-career-activated-csuncc-20260915-0038/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -52646,9 +52372,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 199,
-        "completions": 152,
-        "conversionRate": 76.4
+        "opens": 197,
+        "completions": 151,
+        "conversionRate": 76.6
       },
       {
         "key": "general",
@@ -53286,18 +53012,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Calia Grier",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Kevin Garcia",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -53851,6 +53565,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Calia Grier",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

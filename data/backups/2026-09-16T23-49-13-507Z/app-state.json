@@ -49253,48 +49253,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "083dca3e-5a93-4680-9d4f-b1bcb25574ed",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T23:49:21.654Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0014",
-      "badgeSlug": "kevin-garcia-career-activated-csuncc-20260916-0014",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "18c40a6d45ab1a99898d6cda",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "1375e81d-9367-4454-852a-f1057b09e179",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T23:49:43.146Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0014",
-      "badgeSlug": "kevin-garcia-career-activated-csuncc-20260916-0014",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "18c40a6d45ab1a99898d6cda",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -49769,10 +49727,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T23:49:43.307Z",
+    "updatedAt": "2026-09-16T23:49:12.009Z",
     "totals": {
       "badgesIssued": 227,
-      "badgeViews": 462,
+      "badgeViews": 460,
       "certificateDownloads": 160,
       "generatorOpens": 289,
       "generatorCompletions": 191,
@@ -49839,7 +49797,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 145,
-        "badgeViews": 133,
+        "badgeViews": 131,
         "certificateDownloads": 145,
         "generatorOpens": 176,
         "generatorCompletions": 145,
@@ -49852,7 +49810,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 227,
-        "badgeViews": 462,
+        "badgeViews": 460,
         "certificateDownloads": 160,
         "generatorOpens": 289,
         "generatorCompletions": 191,
@@ -49875,7 +49833,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 153,
-        "badgeViews": 126,
+        "badgeViews": 124,
         "certificateDownloads": 148,
         "generatorOpens": 199,
         "generatorCompletions": 153,
@@ -50778,18 +50736,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-09-15T03:37:05.564Z"
-      },
-      {
-        "slug": "kevin-garcia-career-activated-csuncc-20260916-0014",
-        "badgeId": "CSUNCC-20260916-0014",
-        "awardeeName": "Kevin Garcia",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-16T23:49:43.146Z"
       },
       {
         "slug": "michael-hobbs-career-activated-csuncc-20260914-0015",
@@ -52638,6 +52584,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "kevin-garcia-career-activated-csuncc-20260916-0014",
+        "badgeId": "CSUNCC-20260916-0014",
+        "awardeeName": "Kevin Garcia",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/kevin-garcia-career-activated-csuncc-20260916-0014/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -53292,12 +53250,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Kevin Garcia",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -53851,6 +53803,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Kevin Garcia",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
