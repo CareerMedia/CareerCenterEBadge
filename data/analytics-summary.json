@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T10:03:16.905Z",
+  "updatedAt": "2026-09-16T10:05:46.123Z",
   "totals": {
     "badgesIssued": 218,
-    "badgeViews": 451,
+    "badgeViews": 452,
     "certificateDownloads": 153,
     "generatorOpens": 277,
     "generatorCompletions": 182,
     "conversionRate": 65.7,
-    "uniqueVisitorsApprox": 414
+    "uniqueVisitorsApprox": 415
   },
   "months": [
     {
@@ -70,11 +70,11 @@
       "key": "2026-09",
       "label": "Sep 2026",
       "badgesIssued": 136,
-      "badgeViews": 122,
+      "badgeViews": 123,
       "certificateDownloads": 138,
       "generatorOpens": 164,
       "generatorCompletions": 136,
-      "uniqueVisitorsApprox": 183,
+      "uniqueVisitorsApprox": 184,
       "conversionRate": 82.9
     }
   ],
@@ -83,11 +83,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 218,
-      "badgeViews": 451,
+      "badgeViews": 452,
       "certificateDownloads": 153,
       "generatorOpens": 277,
       "generatorCompletions": 182,
-      "uniqueVisitorsApprox": 414,
+      "uniqueVisitorsApprox": 415,
       "conversionRate": 65.7
     }
   ],
@@ -106,7 +106,7 @@
       "id": "career-activated",
       "title": "Career Activated",
       "badgesIssued": 144,
-      "badgeViews": 115,
+      "badgeViews": 116,
       "certificateDownloads": 141,
       "generatorOpens": 187,
       "generatorCompletions": 144,
@@ -1359,6 +1359,18 @@
       "latestViewedAt": "2026-09-16T08:39:15.482Z"
     },
     {
+      "slug": "zion-brown-career-activated-csuncc-20260916-0006",
+      "badgeId": "CSUNCC-20260916-0006",
+      "awardeeName": "Zion Brown",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-16T10:05:46.112Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -2337,18 +2349,6 @@
       "badgeTitle": "Career Activated",
       "badgeTemplateId": "career-activated",
       "publicUrl": "https://careerbadge.csun.edu/badges/isaiah-humphreys-career-activated-csuncc-20260916-0005/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 1,
-      "latestViewedAt": ""
-    },
-    {
-      "slug": "zion-brown-career-activated-csuncc-20260916-0006",
-      "badgeId": "CSUNCC-20260916-0006",
-      "awardeeName": "Zion Brown",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1,
@@ -3391,6 +3391,12 @@
       "certificateDownloads": 2
     },
     {
+      "awardeeName": "Zion Brown",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -3806,12 +3812,6 @@
     },
     {
       "awardeeName": "isaiah humphreys",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Zion Brown",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
