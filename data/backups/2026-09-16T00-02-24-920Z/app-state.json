@@ -41607,27 +41607,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "46848142-6db5-4687-a9e1-d98bb372d2f3",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T00:02:32.123Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0014",
-      "badgeSlug": "pablo-gonzalez-career-activated-csuncc-20260915-0014",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Pablo Gonzalez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/pablo-gonzalez-career-activated-csuncc-20260915-0014/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "74ec3c5cabfabaa67cc9a9b5",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -42102,10 +42081,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T00:02:32.132Z",
+    "updatedAt": "2026-09-16T00:02:23.532Z",
     "totals": {
       "badgesIssued": 189,
-      "badgeViews": 437,
+      "badgeViews": 436,
       "certificateDownloads": 116,
       "generatorOpens": 239,
       "generatorCompletions": 153,
@@ -42172,7 +42151,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 107,
-        "badgeViews": 108,
+        "badgeViews": 107,
         "certificateDownloads": 101,
         "generatorOpens": 126,
         "generatorCompletions": 107,
@@ -42185,7 +42164,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 189,
-        "badgeViews": 437,
+        "badgeViews": 436,
         "certificateDownloads": 116,
         "generatorOpens": 239,
         "generatorCompletions": 153,
@@ -42208,7 +42187,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 115,
-        "badgeViews": 101,
+        "badgeViews": 100,
         "certificateDownloads": 104,
         "generatorOpens": 149,
         "generatorCompletions": 115,
@@ -43545,18 +43524,6 @@
         "latestViewedAt": "2026-09-14T19:21:13.772Z"
       },
       {
-        "slug": "pablo-gonzalez-career-activated-csuncc-20260915-0014",
-        "badgeId": "CSUNCC-20260915-0014",
-        "awardeeName": "Pablo Gonzalez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/pablo-gonzalez-career-activated-csuncc-20260915-0014/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-16T00:02:32.123Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -44515,6 +44482,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "pablo-gonzalez-career-activated-csuncc-20260915-0014",
+        "badgeId": "CSUNCC-20260915-0014",
+        "awardeeName": "Pablo Gonzalez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/pablo-gonzalez-career-activated-csuncc-20260915-0014/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -45403,12 +45382,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Pablo Gonzalez",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -45500,6 +45473,12 @@
       },
       {
         "awardeeName": "Sean McNeil",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Pablo Gonzalez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

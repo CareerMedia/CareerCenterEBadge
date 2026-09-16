@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T00:01:35.172Z",
+  "updatedAt": "2026-09-16T00:02:32.132Z",
   "totals": {
-    "badgesIssued": 188,
-    "badgeViews": 436,
+    "badgesIssued": 189,
+    "badgeViews": 437,
     "certificateDownloads": 116,
     "generatorOpens": 239,
-    "generatorCompletions": 152,
-    "conversionRate": 63.6,
+    "generatorCompletions": 153,
+    "conversionRate": 64,
     "uniqueVisitorsApprox": 381
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 106,
-      "badgeViews": 107,
+      "badgesIssued": 107,
+      "badgeViews": 108,
       "certificateDownloads": 101,
       "generatorOpens": 126,
-      "generatorCompletions": 106,
+      "generatorCompletions": 107,
       "uniqueVisitorsApprox": 150,
-      "conversionRate": 84.1
+      "conversionRate": 84.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 188,
-      "badgeViews": 436,
+      "badgesIssued": 189,
+      "badgeViews": 437,
       "certificateDownloads": 116,
       "generatorOpens": 239,
-      "generatorCompletions": 152,
+      "generatorCompletions": 153,
       "uniqueVisitorsApprox": 381,
-      "conversionRate": 63.6
+      "conversionRate": 64
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 114,
-      "badgeViews": 100,
+      "badgesIssued": 115,
+      "badgeViews": 101,
       "certificateDownloads": 104,
       "generatorOpens": 149,
-      "generatorCompletions": 114,
-      "conversionRate": 76.5
+      "generatorCompletions": 115,
+      "conversionRate": 77.2
     },
     {
       "id": "fhtc-e-badge",
@@ -1443,6 +1443,18 @@
       "latestViewedAt": "2026-09-14T19:21:13.772Z"
     },
     {
+      "slug": "pablo-gonzalez-career-activated-csuncc-20260915-0014",
+      "badgeId": "CSUNCC-20260915-0014",
+      "awardeeName": "Pablo Gonzalez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/pablo-gonzalez-career-activated-csuncc-20260915-0014/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-16T00:02:32.123Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -2410,8 +2422,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 149,
-      "completions": 113,
-      "conversionRate": 75.8
+      "completions": 114,
+      "conversionRate": 76.5
     },
     {
       "key": "general",
@@ -3287,6 +3299,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Pablo Gonzalez",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",
