@@ -45577,48 +45577,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "07eddd14-ccad-4bb7-b946-12eb665981c4",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T06:02:33.358Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0033",
-      "badgeSlug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ayden Alexander Galvan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9709c233c43132c34ffbd9f9",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "52cb4f0f-c67e-46ef-be5f-92151967d4ae",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T06:02:39.918Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0033",
-      "badgeSlug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ayden Alexander Galvan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9709c233c43132c34ffbd9f9",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -46093,11 +46051,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T06:02:39.929Z",
+    "updatedAt": "2026-09-16T06:02:18.199Z",
     "totals": {
       "badgesIssued": 208,
-      "badgeViews": 450,
-      "certificateDownloads": 142,
+      "badgeViews": 449,
+      "certificateDownloads": 141,
       "generatorOpens": 267,
       "generatorCompletions": 172,
       "conversionRate": 64.4,
@@ -46163,8 +46121,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 126,
-        "badgeViews": 121,
-        "certificateDownloads": 127,
+        "badgeViews": 120,
+        "certificateDownloads": 126,
         "generatorOpens": 154,
         "generatorCompletions": 126,
         "uniqueVisitorsApprox": 175,
@@ -46176,8 +46134,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 208,
-        "badgeViews": 450,
-        "certificateDownloads": 142,
+        "badgeViews": 449,
+        "certificateDownloads": 141,
         "generatorOpens": 267,
         "generatorCompletions": 172,
         "uniqueVisitorsApprox": 406,
@@ -46199,8 +46157,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 134,
-        "badgeViews": 114,
-        "certificateDownloads": 130,
+        "badgeViews": 113,
+        "certificateDownloads": 129,
         "generatorOpens": 177,
         "generatorCompletions": 134,
         "conversionRate": 75.7
@@ -47426,18 +47384,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-16T05:38:36.276Z"
-      },
-      {
-        "slug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
-        "badgeId": "CSUNCC-20260915-0033",
-        "awardeeName": "Ayden Alexander Galvan",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T06:02:33.358Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -48734,6 +48680,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
+        "badgeId": "CSUNCC-20260915-0033",
+        "awardeeName": "Ayden Alexander Galvan",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -49346,12 +49304,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Ayden Alexander Galvan",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -49833,6 +49785,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Ayden Alexander Galvan",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

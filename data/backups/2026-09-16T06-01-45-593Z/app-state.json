@@ -19048,100 +19048,6 @@
       "openBadgeJsonPath": "docs/badges/lauren-peay-career-activated-csuncc-20260915-0032/open-badge.json",
       "verifiableCredentialPath": "docs/badges/lauren-peay-career-activated-csuncc-20260915-0032/credential.json",
       "verificationHash": "f71e5e5e2fb076a8b9cec93dd8300a0b695892ea27bdb7c48e700ce93729bec7"
-    },
-    {
-      "id": "CSUNCC-20260915-0033",
-      "awardeeName": "Ayden Alexander Galvan",
-      "awardeeEmail": "ayden.galvan.615@my.csun.edu",
-      "issueDate": "September 15, 2026",
-      "issueDateISO": "2026-09-15",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-16T06:02:17.189Z",
-      "source": "public-generator",
-      "slug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
-      "relativeUrl": "../badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-      "relativeJsonUrl": "../badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-      "repoPath": "docs/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/index.html",
-      "detailsJsonPath": "docs/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/details.json",
-      "openBadgeJsonPath": "docs/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/credential.json",
-      "verificationHash": "59d21c29b6c4545636224c21c16650ff2bfa9ffa4be913c69d443481ad61f3f6"
     }
   ],
   "deletedBadges": [
@@ -45514,111 +45420,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "5ac2d285-0d99-445e-bc63-6703e16c03bd",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T06:01:49.875Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0032",
-      "badgeSlug": "lauren-peay-career-activated-csuncc-20260915-0032",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Lauren Peay",
-      "publicUrl": "https://careerbadge.csun.edu/badges/lauren-peay-career-activated-csuncc-20260915-0032/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "89cc6e3936390be31809f41f",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "d2c5a2e2-02da-485d-821d-4ca330be4374",
-      "type": "badge_issued",
-      "timestamp": "2026-09-16T06:02:17.189Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0033",
-      "badgeSlug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ayden Alexander Galvan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "db72b241-5865-43a2-b3f7-875b7c1a62de",
-      "type": "generator_completed",
-      "timestamp": "2026-09-16T06:02:18.192Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0033",
-      "badgeSlug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ayden Alexander Galvan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "07eddd14-ccad-4bb7-b946-12eb665981c4",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T06:02:33.358Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0033",
-      "badgeSlug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ayden Alexander Galvan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "9709c233c43132c34ffbd9f9",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "52cb4f0f-c67e-46ef-be5f-92151967d4ae",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T06:02:39.918Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0033",
-      "badgeSlug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ayden Alexander Galvan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9709c233c43132c34ffbd9f9",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -46093,14 +45894,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T06:02:39.929Z",
+    "updatedAt": "2026-09-16T06:01:44.296Z",
     "totals": {
-      "badgesIssued": 208,
-      "badgeViews": 450,
-      "certificateDownloads": 142,
+      "badgesIssued": 207,
+      "badgeViews": 449,
+      "certificateDownloads": 140,
       "generatorOpens": 267,
-      "generatorCompletions": 172,
-      "conversionRate": 64.4,
+      "generatorCompletions": 171,
+      "conversionRate": 64,
       "uniqueVisitorsApprox": 406
     },
     "months": [
@@ -46162,26 +45963,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 126,
-        "badgeViews": 121,
-        "certificateDownloads": 127,
+        "badgesIssued": 125,
+        "badgeViews": 120,
+        "certificateDownloads": 125,
         "generatorOpens": 154,
-        "generatorCompletions": 126,
+        "generatorCompletions": 125,
         "uniqueVisitorsApprox": 175,
-        "conversionRate": 81.8
+        "conversionRate": 81.2
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 208,
-        "badgeViews": 450,
-        "certificateDownloads": 142,
+        "badgesIssued": 207,
+        "badgeViews": 449,
+        "certificateDownloads": 140,
         "generatorOpens": 267,
-        "generatorCompletions": 172,
+        "generatorCompletions": 171,
         "uniqueVisitorsApprox": 406,
-        "conversionRate": 64.4
+        "conversionRate": 64
       }
     ],
     "badgeTypes": [
@@ -46198,12 +45999,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 134,
-        "badgeViews": 114,
-        "certificateDownloads": 130,
+        "badgesIssued": 133,
+        "badgeViews": 113,
+        "certificateDownloads": 128,
         "generatorOpens": 177,
-        "generatorCompletions": 134,
-        "conversionRate": 75.7
+        "generatorCompletions": 133,
+        "conversionRate": 75.1
       },
       {
         "id": "fhtc-e-badge",
@@ -47428,18 +47229,6 @@
         "latestViewedAt": "2026-09-16T05:38:36.276Z"
       },
       {
-        "slug": "ayden-alexander-galvan-career-activated-csuncc-20260915-0033",
-        "badgeId": "CSUNCC-20260915-0033",
-        "awardeeName": "Ayden Alexander Galvan",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ayden-alexander-galvan-career-activated-csuncc-20260915-0033/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T06:02:33.358Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -48328,18 +48117,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "lauren-peay-career-activated-csuncc-20260915-0032",
-        "badgeId": "CSUNCC-20260915-0032",
-        "awardeeName": "Lauren Peay",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/lauren-peay-career-activated-csuncc-20260915-0032/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -48734,6 +48511,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "lauren-peay-career-activated-csuncc-20260915-0032",
+        "badgeId": "CSUNCC-20260915-0032",
+        "awardeeName": "Lauren Peay",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/lauren-peay-career-activated-csuncc-20260915-0032/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -48743,8 +48532,8 @@
         "pageKind": "specific",
         "templateId": "career-activated",
         "opens": 177,
-        "completions": 133,
-        "conversionRate": 75.1
+        "completions": 132,
+        "conversionRate": 74.6
       },
       {
         "key": "general",
@@ -49346,12 +49135,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Ayden Alexander Galvan",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -49730,12 +49513,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Lauren Peay",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -49833,6 +49610,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Lauren Peay",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
