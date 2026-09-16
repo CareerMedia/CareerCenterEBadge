@@ -47064,6 +47064,27 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
+    },
+    {
+      "id": "aa91f246-636d-4326-bc85-15d4b6446b70",
+      "type": "certificate_downloaded",
+      "timestamp": "2026-09-16T09:38:03.237Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260916-0005",
+      "badgeSlug": "isaiah-humphreys-career-activated-csuncc-20260916-0005",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "isaiah humphreys",
+      "publicUrl": "https://careerbadge.csun.edu/badges/isaiah-humphreys-career-activated-csuncc-20260916-0005/",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "",
+      "source": "generator-page",
+      "visitorId": "5ad6e8e7874d011e5ac40518",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-certificate-download",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -47538,11 +47559,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T09:37:57.611Z",
+    "updatedAt": "2026-09-16T09:38:03.248Z",
     "totals": {
       "badgesIssued": 216,
       "badgeViews": 451,
-      "certificateDownloads": 150,
+      "certificateDownloads": 151,
       "generatorOpens": 275,
       "generatorCompletions": 180,
       "conversionRate": 65.5,
@@ -47609,7 +47630,7 @@
         "label": "Sep 2026",
         "badgesIssued": 134,
         "badgeViews": 122,
-        "certificateDownloads": 135,
+        "certificateDownloads": 136,
         "generatorOpens": 162,
         "generatorCompletions": 134,
         "uniqueVisitorsApprox": 182,
@@ -47622,7 +47643,7 @@
         "label": "2026",
         "badgesIssued": 216,
         "badgeViews": 451,
-        "certificateDownloads": 150,
+        "certificateDownloads": 151,
         "generatorOpens": 275,
         "generatorCompletions": 180,
         "uniqueVisitorsApprox": 413,
@@ -47645,7 +47666,7 @@
         "title": "Career Activated",
         "badgesIssued": 142,
         "badgeViews": 115,
-        "certificateDownloads": 138,
+        "certificateDownloads": 139,
         "generatorOpens": 185,
         "generatorCompletions": 142,
         "conversionRate": 76.8
@@ -49869,6 +49890,18 @@
         "latestViewedAt": ""
       },
       {
+        "slug": "isaiah-humphreys-career-activated-csuncc-20260916-0005",
+        "badgeId": "CSUNCC-20260916-0005",
+        "awardeeName": "isaiah humphreys",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/isaiah-humphreys-career-activated-csuncc-20260916-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 1,
+        "latestViewedAt": ""
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -50259,18 +50292,6 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0,
-        "latestViewedAt": ""
-      },
-      {
-        "slug": "isaiah-humphreys-career-activated-csuncc-20260916-0005",
-        "badgeId": "CSUNCC-20260916-0005",
-        "awardeeName": "isaiah humphreys",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/isaiah-humphreys-career-activated-csuncc-20260916-0005/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -51319,6 +51340,12 @@
         "certificateDownloads": 1
       },
       {
+        "awardeeName": "isaiah humphreys",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -51416,12 +51443,6 @@
       },
       {
         "awardeeName": "Ariel Gray",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "isaiah humphreys",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
