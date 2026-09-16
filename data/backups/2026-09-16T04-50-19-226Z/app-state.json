@@ -43367,27 +43367,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "ca6727a5-4f34-4f88-9088-a7eb28b2417b",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T04:50:22.525Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0022",
-      "badgeSlug": "savannah-jones-career-activated-csuncc-20260915-0022",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Savannah Jones",
-      "publicUrl": "https://careerbadge.csun.edu/badges/savannah-jones-career-activated-csuncc-20260915-0022/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "e26e9c183e7d994f285f4c56",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -43862,11 +43841,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T04:50:22.532Z",
+    "updatedAt": "2026-09-16T04:50:17.735Z",
     "totals": {
       "badgesIssued": 197,
       "badgeViews": 443,
-      "certificateDownloads": 128,
+      "certificateDownloads": 127,
       "generatorOpens": 253,
       "generatorCompletions": 161,
       "conversionRate": 63.6,
@@ -43933,7 +43912,7 @@
         "label": "Sep 2026",
         "badgesIssued": 115,
         "badgeViews": 114,
-        "certificateDownloads": 113,
+        "certificateDownloads": 112,
         "generatorOpens": 140,
         "generatorCompletions": 115,
         "uniqueVisitorsApprox": 162,
@@ -43946,7 +43925,7 @@
         "label": "2026",
         "badgesIssued": 197,
         "badgeViews": 443,
-        "certificateDownloads": 128,
+        "certificateDownloads": 127,
         "generatorOpens": 253,
         "generatorCompletions": 161,
         "uniqueVisitorsApprox": 393,
@@ -43969,7 +43948,7 @@
         "title": "Career Activated",
         "badgesIssued": 123,
         "badgeViews": 107,
-        "certificateDownloads": 116,
+        "certificateDownloads": 115,
         "generatorOpens": 163,
         "generatorCompletions": 123,
         "conversionRate": 75.5
@@ -45977,18 +45956,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "savannah-jones-career-activated-csuncc-20260915-0022",
-        "badgeId": "CSUNCC-20260915-0022",
-        "awardeeName": "Savannah Jones",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/savannah-jones-career-activated-csuncc-20260915-0022/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -46367,6 +46334,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/sean-mcneil-career-activated-csuncc-20260915-0011/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "savannah-jones-career-activated-csuncc-20260915-0022",
+        "badgeId": "CSUNCC-20260915-0022",
+        "awardeeName": "Savannah Jones",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/savannah-jones-career-activated-csuncc-20260915-0022/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -47307,12 +47286,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Savannah Jones",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -47404,6 +47377,12 @@
       },
       {
         "awardeeName": "Sean McNeil",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Savannah Jones",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

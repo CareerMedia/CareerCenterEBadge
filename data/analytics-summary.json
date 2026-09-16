@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T04:47:09.740Z",
+  "updatedAt": "2026-09-16T04:50:22.532Z",
   "totals": {
-    "badgesIssued": 196,
+    "badgesIssued": 197,
     "badgeViews": 443,
-    "certificateDownloads": 127,
+    "certificateDownloads": 128,
     "generatorOpens": 253,
-    "generatorCompletions": 160,
-    "conversionRate": 63.2,
+    "generatorCompletions": 161,
+    "conversionRate": 63.6,
     "uniqueVisitorsApprox": 393
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 114,
+      "badgesIssued": 115,
       "badgeViews": 114,
-      "certificateDownloads": 112,
+      "certificateDownloads": 113,
       "generatorOpens": 140,
-      "generatorCompletions": 114,
+      "generatorCompletions": 115,
       "uniqueVisitorsApprox": 162,
-      "conversionRate": 81.4
+      "conversionRate": 82.1
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 196,
+      "badgesIssued": 197,
       "badgeViews": 443,
-      "certificateDownloads": 127,
+      "certificateDownloads": 128,
       "generatorOpens": 253,
-      "generatorCompletions": 160,
+      "generatorCompletions": 161,
       "uniqueVisitorsApprox": 393,
-      "conversionRate": 63.2
+      "conversionRate": 63.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 122,
+      "badgesIssued": 123,
       "badgeViews": 107,
-      "certificateDownloads": 115,
+      "certificateDownloads": 116,
       "generatorOpens": 163,
-      "generatorCompletions": 122,
-      "conversionRate": 74.8
+      "generatorCompletions": 123,
+      "conversionRate": 75.5
     },
     {
       "id": "fhtc-e-badge",
@@ -2115,6 +2115,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "savannah-jones-career-activated-csuncc-20260915-0022",
+      "badgeId": "CSUNCC-20260915-0022",
+      "awardeeName": "Savannah Jones",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/savannah-jones-career-activated-csuncc-20260915-0022/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2506,8 +2518,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 163,
-      "completions": 121,
-      "conversionRate": 74.2
+      "completions": 122,
+      "conversionRate": 74.8
     },
     {
       "key": "general",
@@ -3431,6 +3443,12 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Savannah Jones",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Harsh Ahir",
