@@ -46844,27 +46844,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "4f56a761-7336-4ef0-aa0b-31014df334ee",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T09:04:04.638Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0004",
-      "badgeSlug": "katelyn-m-avery-career-activated-csuncc-20260916-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Katelyn M Avery",
-      "publicUrl": "https://careerbadge.csun.edu/badges/katelyn-m-avery-career-activated-csuncc-20260916-0004/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "fa72e31d17990b9c0afe46b4",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -47339,11 +47318,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T09:04:04.703Z",
+    "updatedAt": "2026-09-16T09:03:56.507Z",
     "totals": {
       "badgesIssued": 215,
       "badgeViews": 451,
-      "certificateDownloads": 149,
+      "certificateDownloads": 148,
       "generatorOpens": 273,
       "generatorCompletions": 179,
       "conversionRate": 65.6,
@@ -47410,7 +47389,7 @@
         "label": "Sep 2026",
         "badgesIssued": 133,
         "badgeViews": 122,
-        "certificateDownloads": 134,
+        "certificateDownloads": 133,
         "generatorOpens": 160,
         "generatorCompletions": 133,
         "uniqueVisitorsApprox": 181,
@@ -47423,7 +47402,7 @@
         "label": "2026",
         "badgesIssued": 215,
         "badgeViews": 451,
-        "certificateDownloads": 149,
+        "certificateDownloads": 148,
         "generatorOpens": 273,
         "generatorCompletions": 179,
         "uniqueVisitorsApprox": 412,
@@ -47446,7 +47425,7 @@
         "title": "Career Activated",
         "badgesIssued": 141,
         "badgeViews": 115,
-        "certificateDownloads": 137,
+        "certificateDownloads": 136,
         "generatorOpens": 183,
         "generatorCompletions": 141,
         "conversionRate": 77
@@ -49658,18 +49637,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "katelyn-m-avery-career-activated-csuncc-20260916-0004",
-        "badgeId": "CSUNCC-20260916-0004",
-        "awardeeName": "Katelyn M Avery",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/katelyn-m-avery-career-activated-csuncc-20260916-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -50060,6 +50027,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "katelyn-m-avery-career-activated-csuncc-20260916-0004",
+        "badgeId": "CSUNCC-20260916-0004",
+        "awardeeName": "Katelyn M Avery",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/katelyn-m-avery-career-activated-csuncc-20260916-0004/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -51102,12 +51081,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Katelyn M Avery",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -51205,6 +51178,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Katelyn M Avery",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
