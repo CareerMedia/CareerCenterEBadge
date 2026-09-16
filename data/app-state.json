@@ -48436,6 +48436,69 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "49986be2-6a73-41cd-ad5d-2803c19697e8",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-16T17:56:54.781Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260915-0037",
+      "badgeSlug": "onyinyechi-osuji-career-activated-csuncc-20260915-0037",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Onyinyechi Osuji",
+      "publicUrl": "https://careerbadge.csun.edu/badges/onyinyechi-osuji-career-activated-csuncc-20260915-0037/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "b1806abbd2daae87278dffb4",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "e2d34384-3a51-453f-beef-dd8ebc0a3ed1",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-16T18:03:03.949Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260915-0020",
+      "badgeSlug": "mila-smith-career-activated-csuncc-20260915-0020",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Mila Smith",
+      "publicUrl": "https://careerbadge.csun.edu/badges/mila-smith-career-activated-csuncc-20260915-0020/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "b349f2dee11d73e907c17d94",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "6342d15e-aad3-4425-b25c-beab88f5a664",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-16T18:03:06.496Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260915-0020",
+      "badgeSlug": "mila-smith-career-activated-csuncc-20260915-0020",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Mila Smith",
+      "publicUrl": "https://careerbadge.csun.edu/badges/mila-smith-career-activated-csuncc-20260915-0020/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "b349f2dee11d73e907c17d94",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -48910,15 +48973,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T17:51:25.363Z",
+    "updatedAt": "2026-09-16T18:03:06.507Z",
     "totals": {
       "badgesIssued": 223,
-      "badgeViews": 455,
+      "badgeViews": 458,
       "certificateDownloads": 158,
       "generatorOpens": 283,
       "generatorCompletions": 187,
       "conversionRate": 66.1,
-      "uniqueVisitorsApprox": 421
+      "uniqueVisitorsApprox": 422
     },
     "months": [
       {
@@ -48980,11 +49043,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 141,
-        "badgeViews": 126,
+        "badgeViews": 129,
         "certificateDownloads": 143,
         "generatorOpens": 170,
         "generatorCompletions": 141,
-        "uniqueVisitorsApprox": 190,
+        "uniqueVisitorsApprox": 191,
         "conversionRate": 82.9
       }
     ],
@@ -48993,11 +49056,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 223,
-        "badgeViews": 455,
+        "badgeViews": 458,
         "certificateDownloads": 158,
         "generatorOpens": 283,
         "generatorCompletions": 187,
-        "uniqueVisitorsApprox": 421,
+        "uniqueVisitorsApprox": 422,
         "conversionRate": 66.1
       }
     ],
@@ -49016,7 +49079,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 149,
-        "badgeViews": 119,
+        "badgeViews": 122,
         "certificateDownloads": 146,
         "generatorOpens": 193,
         "generatorCompletions": 149,
@@ -49561,6 +49624,18 @@
         "latestViewedAt": "2026-09-15T00:17:44.749Z"
       },
       {
+        "slug": "onyinyechi-osuji-career-activated-csuncc-20260915-0037",
+        "badgeId": "CSUNCC-20260915-0037",
+        "awardeeName": "Onyinyechi Osuji",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/onyinyechi-osuji-career-activated-csuncc-20260915-0037/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-09-16T17:56:54.781Z"
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
         "badgeId": "CSUNCC-20260409-0003",
         "awardeeName": "Bryce Simon",
@@ -49655,6 +49730,18 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-06-04T20:00:59.133Z"
+      },
+      {
+        "slug": "mila-smith-career-activated-csuncc-20260915-0020",
+        "badgeId": "CSUNCC-20260915-0020",
+        "awardeeName": "Mila Smith",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/mila-smith-career-activated-csuncc-20260915-0020/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 0,
+        "latestViewedAt": "2026-09-16T18:03:06.496Z"
       },
       {
         "slug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
@@ -49787,18 +49874,6 @@
         "badgeViews": 2,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-16T17:51:25.350Z"
-      },
-      {
-        "slug": "onyinyechi-osuji-career-activated-csuncc-20260915-0037",
-        "badgeId": "CSUNCC-20260915-0037",
-        "awardeeName": "Onyinyechi Osuji",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/onyinyechi-osuji-career-activated-csuncc-20260915-0037/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T15:22:12.893Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
@@ -50495,18 +50570,6 @@
         "badgeViews": 1,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-09-16T00:02:32.123Z"
-      },
-      {
-        "slug": "mila-smith-career-activated-csuncc-20260915-0020",
-        "badgeId": "CSUNCC-20260915-0020",
-        "awardeeName": "Mila Smith",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/mila-smith-career-activated-csuncc-20260915-0020/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-16T02:40:23.638Z"
       },
       {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -52055,6 +52118,12 @@
         "certificateDownloads": 2
       },
       {
+        "awardeeName": "Onyinyechi Osuji",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Jennifer Sandoval",
         "badgesIssued": 1,
         "badgeViews": 3,
@@ -52127,10 +52196,10 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Onyinyechi Osuji",
+        "awardeeName": "Mila Smith",
         "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 1
+        "badgeViews": 3,
+        "certificateDownloads": 0
       },
       {
         "awardeeName": "Jane Doe",
@@ -52719,12 +52788,6 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Mila Smith",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Savannah Jones",
