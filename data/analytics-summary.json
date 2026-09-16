@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T08:37:55.283Z",
+  "updatedAt": "2026-09-16T08:39:15.493Z",
   "totals": {
-    "badgesIssued": 211,
-    "badgeViews": 450,
-    "certificateDownloads": 145,
+    "badgesIssued": 213,
+    "badgeViews": 451,
+    "certificateDownloads": 147,
     "generatorOpens": 271,
-    "generatorCompletions": 175,
-    "conversionRate": 64.6,
+    "generatorCompletions": 177,
+    "conversionRate": 65.3,
     "uniqueVisitorsApprox": 410
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 129,
-      "badgeViews": 121,
-      "certificateDownloads": 130,
+      "badgesIssued": 131,
+      "badgeViews": 122,
+      "certificateDownloads": 132,
       "generatorOpens": 158,
-      "generatorCompletions": 129,
+      "generatorCompletions": 131,
       "uniqueVisitorsApprox": 179,
-      "conversionRate": 81.6
+      "conversionRate": 82.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 211,
-      "badgeViews": 450,
-      "certificateDownloads": 145,
+      "badgesIssued": 213,
+      "badgeViews": 451,
+      "certificateDownloads": 147,
       "generatorOpens": 271,
-      "generatorCompletions": 175,
+      "generatorCompletions": 177,
       "uniqueVisitorsApprox": 410,
-      "conversionRate": 64.6
+      "conversionRate": 65.3
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 137,
-      "badgeViews": 114,
-      "certificateDownloads": 133,
+      "badgesIssued": 139,
+      "badgeViews": 115,
+      "certificateDownloads": 135,
       "generatorOpens": 181,
-      "generatorCompletions": 137,
-      "conversionRate": 75.7
+      "generatorCompletions": 139,
+      "conversionRate": 76.8
     },
     {
       "id": "fhtc-e-badge",
@@ -1347,6 +1347,18 @@
       "latestViewedAt": "2026-09-16T06:02:33.358Z"
     },
     {
+      "slug": "tamera-norman-career-activated-csuncc-20260916-0002",
+      "badgeId": "CSUNCC-20260916-0002",
+      "awardeeName": "Tamera Norman",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/tamera-norman-career-activated-csuncc-20260916-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-16T08:39:15.482Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -2283,6 +2295,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "khrishaun-berryhill-career-activated-csuncc-20260916-0001",
+      "badgeId": "CSUNCC-20260916-0001",
+      "awardeeName": "Khrishaun Berryhill",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/khrishaun-berryhill-career-activated-csuncc-20260916-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2686,8 +2710,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 181,
-      "completions": 136,
-      "conversionRate": 75.1
+      "completions": 138,
+      "conversionRate": 76.2
     },
     {
       "key": "general",
@@ -3295,6 +3319,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Tamera Norman",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -3692,6 +3722,12 @@
     },
     {
       "awardeeName": "Jaeven Holzendorf",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Khrishaun Berryhill",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

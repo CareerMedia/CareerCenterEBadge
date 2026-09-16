@@ -46467,48 +46467,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "bed6ed94-5b52-4134-8a29-0704eb717f01",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T08:39:09.675Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0002",
-      "badgeSlug": "tamera-norman-career-activated-csuncc-20260916-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Tamera Norman",
-      "publicUrl": "https://careerbadge.csun.edu/badges/tamera-norman-career-activated-csuncc-20260916-0002/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "7eeafa8f56178f737e7779f7",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "10715794-1e81-4be5-a799-a207dcc4be92",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T08:39:15.482Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0002",
-      "badgeSlug": "tamera-norman-career-activated-csuncc-20260916-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Tamera Norman",
-      "publicUrl": "https://careerbadge.csun.edu/badges/tamera-norman-career-activated-csuncc-20260916-0002/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "7eeafa8f56178f737e7779f7",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -46983,11 +46941,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T08:39:15.493Z",
+    "updatedAt": "2026-09-16T08:39:03.003Z",
     "totals": {
       "badgesIssued": 213,
-      "badgeViews": 451,
-      "certificateDownloads": 147,
+      "badgeViews": 450,
+      "certificateDownloads": 146,
       "generatorOpens": 271,
       "generatorCompletions": 177,
       "conversionRate": 65.3,
@@ -47053,8 +47011,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 131,
-        "badgeViews": 122,
-        "certificateDownloads": 132,
+        "badgeViews": 121,
+        "certificateDownloads": 131,
         "generatorOpens": 158,
         "generatorCompletions": 131,
         "uniqueVisitorsApprox": 179,
@@ -47066,8 +47024,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 213,
-        "badgeViews": 451,
-        "certificateDownloads": 147,
+        "badgeViews": 450,
+        "certificateDownloads": 146,
         "generatorOpens": 271,
         "generatorCompletions": 177,
         "uniqueVisitorsApprox": 410,
@@ -47089,8 +47047,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 139,
-        "badgeViews": 115,
-        "certificateDownloads": 135,
+        "badgeViews": 114,
+        "certificateDownloads": 134,
         "generatorOpens": 181,
         "generatorCompletions": 139,
         "conversionRate": 76.8
@@ -48328,18 +48286,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-16T06:02:33.358Z"
-      },
-      {
-        "slug": "tamera-norman-career-activated-csuncc-20260916-0002",
-        "badgeId": "CSUNCC-20260916-0002",
-        "awardeeName": "Tamera Norman",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/tamera-norman-career-activated-csuncc-20260916-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T08:39:15.482Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -49684,6 +49630,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "tamera-norman-career-activated-csuncc-20260916-0002",
+        "badgeId": "CSUNCC-20260916-0002",
+        "awardeeName": "Tamera Norman",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/tamera-norman-career-activated-csuncc-20260916-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -50302,12 +50260,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Tamera Norman",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -50813,6 +50765,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Tamera Norman",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
