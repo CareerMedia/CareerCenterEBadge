@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T05:36:35.386Z",
+  "updatedAt": "2026-09-16T05:55:22.988Z",
   "totals": {
-    "badgesIssued": 203,
-    "badgeViews": 444,
-    "certificateDownloads": 134,
-    "generatorOpens": 261,
-    "generatorCompletions": 167,
+    "badgesIssued": 205,
+    "badgeViews": 447,
+    "certificateDownloads": 137,
+    "generatorOpens": 264,
+    "generatorCompletions": 169,
     "conversionRate": 64,
-    "uniqueVisitorsApprox": 400
+    "uniqueVisitorsApprox": 403
   },
   "months": [
     {
@@ -69,25 +69,25 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 121,
-      "badgeViews": 115,
-      "certificateDownloads": 119,
-      "generatorOpens": 148,
-      "generatorCompletions": 121,
-      "uniqueVisitorsApprox": 169,
-      "conversionRate": 81.8
+      "badgesIssued": 123,
+      "badgeViews": 118,
+      "certificateDownloads": 122,
+      "generatorOpens": 151,
+      "generatorCompletions": 123,
+      "uniqueVisitorsApprox": 172,
+      "conversionRate": 81.5
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 203,
-      "badgeViews": 444,
-      "certificateDownloads": 134,
-      "generatorOpens": 261,
-      "generatorCompletions": 167,
-      "uniqueVisitorsApprox": 400,
+      "badgesIssued": 205,
+      "badgeViews": 447,
+      "certificateDownloads": 137,
+      "generatorOpens": 264,
+      "generatorCompletions": 169,
+      "uniqueVisitorsApprox": 403,
       "conversionRate": 64
     }
   ],
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 129,
-      "badgeViews": 108,
-      "certificateDownloads": 122,
-      "generatorOpens": 171,
-      "generatorCompletions": 129,
-      "conversionRate": 75.4
+      "badgesIssued": 131,
+      "badgeViews": 111,
+      "certificateDownloads": 125,
+      "generatorOpens": 174,
+      "generatorCompletions": 131,
+      "conversionRate": 75.3
     },
     {
       "id": "fhtc-e-badge",
@@ -771,6 +771,18 @@
       "latestViewedAt": "2026-09-05T19:06:19.989Z"
     },
     {
+      "slug": "kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030",
+      "badgeId": "CSUNCC-20260915-0030",
+      "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 2,
+      "latestViewedAt": "2026-09-16T05:48:56.495Z"
+    },
+    {
       "slug": "jose-vargas-career-activated-csuncc-20260831-0001",
       "badgeId": "CSUNCC-20260831-0001",
       "awardeeName": "Jose Vargas",
@@ -1297,6 +1309,18 @@
       "badgeViews": 1,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-16T05:13:59.695Z"
+    },
+    {
+      "slug": "star-shackelford-career-activated-csuncc-20260915-0029",
+      "badgeId": "CSUNCC-20260915-0029",
+      "awardeeName": "Star Shackelford",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/star-shackelford-career-activated-csuncc-20260915-0029/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-16T05:38:36.276Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -2589,9 +2613,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 171,
-      "completions": 128,
-      "conversionRate": 74.9
+      "opens": 174,
+      "completions": 130,
+      "conversionRate": 74.7
     },
     {
       "key": "general",
@@ -2893,6 +2917,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 2
+    },
+    {
       "awardeeName": "Jennifer Sandoval",
       "badgesIssued": 1,
       "badgeViews": 3,
@@ -3173,6 +3203,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Star Shackelford",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Maddie Paul",

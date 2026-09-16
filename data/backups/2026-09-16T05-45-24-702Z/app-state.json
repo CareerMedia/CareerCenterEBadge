@@ -44854,132 +44854,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "47da92da-cd98-4955-8ae7-7c015cd711af",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T05:45:59.747Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0030",
-      "badgeSlug": "kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d5c27906aaa41ad33f1c6af5",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "28d530ec-119f-4c5c-ae45-9cc270712cee",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:46:19.527Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0030",
-      "badgeSlug": "kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d5c27906aaa41ad33f1c6af5",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "71d6ad7c-3dc8-4d4a-b889-d1be5b320487",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T05:48:56.495Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0030",
-      "badgeSlug": "kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d5c27906aaa41ad33f1c6af5",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "f3455606-3093-4cbe-b383-c656256b4653",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:48:59.292Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0030",
-      "badgeSlug": "kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d5c27906aaa41ad33f1c6af5",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "6458ed4d-f407-415d-a567-c51d098ba591",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T05:53:41.991Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "1145b08de5193585e757d30b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "c8e6757d-4844-4fc7-a433-3d736ec7d2ac",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T05:55:22.905Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "7f8dffb10190ca2fb81a763b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -45454,15 +45328,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T05:55:22.988Z",
+    "updatedAt": "2026-09-16T05:45:23.387Z",
     "totals": {
       "badgesIssued": 205,
-      "badgeViews": 447,
-      "certificateDownloads": 137,
-      "generatorOpens": 264,
+      "badgeViews": 445,
+      "certificateDownloads": 135,
+      "generatorOpens": 262,
       "generatorCompletions": 169,
-      "conversionRate": 64,
-      "uniqueVisitorsApprox": 403
+      "conversionRate": 64.5,
+      "uniqueVisitorsApprox": 401
     },
     "months": [
       {
@@ -45524,12 +45398,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 123,
-        "badgeViews": 118,
-        "certificateDownloads": 122,
-        "generatorOpens": 151,
+        "badgeViews": 116,
+        "certificateDownloads": 120,
+        "generatorOpens": 149,
         "generatorCompletions": 123,
-        "uniqueVisitorsApprox": 172,
-        "conversionRate": 81.5
+        "uniqueVisitorsApprox": 170,
+        "conversionRate": 82.6
       }
     ],
     "years": [
@@ -45537,12 +45411,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 205,
-        "badgeViews": 447,
-        "certificateDownloads": 137,
-        "generatorOpens": 264,
+        "badgeViews": 445,
+        "certificateDownloads": 135,
+        "generatorOpens": 262,
         "generatorCompletions": 169,
-        "uniqueVisitorsApprox": 403,
-        "conversionRate": 64
+        "uniqueVisitorsApprox": 401,
+        "conversionRate": 64.5
       }
     ],
     "badgeTypes": [
@@ -45560,11 +45434,11 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 131,
-        "badgeViews": 111,
-        "certificateDownloads": 125,
-        "generatorOpens": 174,
+        "badgeViews": 109,
+        "certificateDownloads": 123,
+        "generatorOpens": 172,
         "generatorCompletions": 131,
-        "conversionRate": 75.3
+        "conversionRate": 76.2
       },
       {
         "id": "fhtc-e-badge",
@@ -46223,18 +46097,6 @@
         "badgeViews": 2,
         "certificateDownloads": 2,
         "latestViewedAt": "2026-09-05T19:06:19.989Z"
-      },
-      {
-        "slug": "kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030",
-        "badgeId": "CSUNCC-20260915-0030",
-        "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 2,
-        "latestViewedAt": "2026-09-16T05:48:56.495Z"
       },
       {
         "slug": "jose-vargas-career-activated-csuncc-20260831-0001",
@@ -48059,6 +47921,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030",
+        "badgeId": "CSUNCC-20260915-0030",
+        "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/kevin-eriberto-rodriguez-dominguez-career-activated-csuncc-20260915-0030/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -48067,9 +47941,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 174,
+        "opens": 172,
         "completions": 130,
-        "conversionRate": 74.7
+        "conversionRate": 75.6
       },
       {
         "key": "general",
@@ -48369,12 +48243,6 @@
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 2
       },
       {
         "awardeeName": "Jennifer Sandoval",
@@ -49140,6 +49008,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
