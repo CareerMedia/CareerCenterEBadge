@@ -48394,27 +48394,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "d096dd06-dce9-421a-a744-b8645e89fe92",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T17:16:55.350Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0011",
-      "badgeSlug": "india-lewis-career-activated-csuncc-20260916-0011",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "India Lewis",
-      "publicUrl": "https://careerbadge.csun.edu/badges/india-lewis-career-activated-csuncc-20260916-0011/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "8d9a1f6281d66212b22a9f54",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -48889,11 +48868,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T17:16:55.371Z",
+    "updatedAt": "2026-09-16T17:16:36.671Z",
     "totals": {
       "badgesIssued": 223,
       "badgeViews": 454,
-      "certificateDownloads": 158,
+      "certificateDownloads": 157,
       "generatorOpens": 283,
       "generatorCompletions": 187,
       "conversionRate": 66.1,
@@ -48960,7 +48939,7 @@
         "label": "Sep 2026",
         "badgesIssued": 141,
         "badgeViews": 125,
-        "certificateDownloads": 143,
+        "certificateDownloads": 142,
         "generatorOpens": 170,
         "generatorCompletions": 141,
         "uniqueVisitorsApprox": 190,
@@ -48973,7 +48952,7 @@
         "label": "2026",
         "badgesIssued": 223,
         "badgeViews": 454,
-        "certificateDownloads": 158,
+        "certificateDownloads": 157,
         "generatorOpens": 283,
         "generatorCompletions": 187,
         "uniqueVisitorsApprox": 421,
@@ -48996,7 +48975,7 @@
         "title": "Career Activated",
         "badgesIssued": 149,
         "badgeViews": 118,
-        "certificateDownloads": 146,
+        "certificateDownloads": 145,
         "generatorOpens": 193,
         "generatorCompletions": 149,
         "conversionRate": 77.2
@@ -51304,18 +51283,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "india-lewis-career-activated-csuncc-20260916-0011",
-        "badgeId": "CSUNCC-20260916-0011",
-        "awardeeName": "India Lewis",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/india-lewis-career-activated-csuncc-20260916-0011/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -51706,6 +51673,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "india-lewis-career-activated-csuncc-20260916-0011",
+        "badgeId": "CSUNCC-20260916-0011",
+        "awardeeName": "India Lewis",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/india-lewis-career-activated-csuncc-20260916-0011/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -52796,12 +52775,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "India Lewis",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -52899,6 +52872,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "India Lewis",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -20458,100 +20458,6 @@
       "openBadgeJsonPath": "docs/badges/erick-ramirez-career-activated-csuncc-20260916-0010/open-badge.json",
       "verifiableCredentialPath": "docs/badges/erick-ramirez-career-activated-csuncc-20260916-0010/credential.json",
       "verificationHash": "a640c0090784341e33011e0dde9840ba81bf9632ce6a3511b6a8286057bebe75"
-    },
-    {
-      "id": "CSUNCC-20260916-0011",
-      "awardeeName": "India Lewis",
-      "awardeeEmail": "india.lewis.880@my.csun.edu",
-      "issueDate": "September 16, 2026",
-      "issueDateISO": "2026-09-16",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-16T17:16:35.378Z",
-      "source": "public-generator",
-      "slug": "india-lewis-career-activated-csuncc-20260916-0011",
-      "relativeUrl": "../badges/india-lewis-career-activated-csuncc-20260916-0011/",
-      "relativeJsonUrl": "../badges/india-lewis-career-activated-csuncc-20260916-0011/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/india-lewis-career-activated-csuncc-20260916-0011/",
-      "repoPath": "docs/badges/india-lewis-career-activated-csuncc-20260916-0011/index.html",
-      "detailsJsonPath": "docs/badges/india-lewis-career-activated-csuncc-20260916-0011/details.json",
-      "openBadgeJsonPath": "docs/badges/india-lewis-career-activated-csuncc-20260916-0011/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/india-lewis-career-activated-csuncc-20260916-0011/credential.json",
-      "verificationHash": "f162b84a3e97bc4dd9ccb09f20de7e89ae283241321308c4362b4cf83774101b"
     }
   ],
   "deletedBadges": [
@@ -48331,90 +48237,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "b57c87e1-d14d-4eb5-b2f6-2295442547c1",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T17:16:18.455Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0010",
-      "badgeSlug": "erick-ramirez-career-activated-csuncc-20260916-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Erick Ramirez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/erick-ramirez-career-activated-csuncc-20260916-0010/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "29bb20875cbb9c07df4251ca",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "11f3ec7f-a096-4552-a350-bc2e83192e6b",
-      "type": "badge_issued",
-      "timestamp": "2026-09-16T17:16:35.378Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0011",
-      "badgeSlug": "india-lewis-career-activated-csuncc-20260916-0011",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "India Lewis",
-      "publicUrl": "https://careerbadge.csun.edu/badges/india-lewis-career-activated-csuncc-20260916-0011/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "408a7a39-ce77-4644-9856-5c02a62ffc27",
-      "type": "generator_completed",
-      "timestamp": "2026-09-16T17:16:36.482Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0011",
-      "badgeSlug": "india-lewis-career-activated-csuncc-20260916-0011",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "India Lewis",
-      "publicUrl": "https://careerbadge.csun.edu/badges/india-lewis-career-activated-csuncc-20260916-0011/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "d096dd06-dce9-421a-a744-b8645e89fe92",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T17:16:55.350Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0011",
-      "badgeSlug": "india-lewis-career-activated-csuncc-20260916-0011",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "India Lewis",
-      "publicUrl": "https://careerbadge.csun.edu/badges/india-lewis-career-activated-csuncc-20260916-0011/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "8d9a1f6281d66212b22a9f54",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -48889,14 +48711,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T17:16:55.371Z",
+    "updatedAt": "2026-09-16T17:16:10.383Z",
     "totals": {
-      "badgesIssued": 223,
+      "badgesIssued": 222,
       "badgeViews": 454,
-      "certificateDownloads": 158,
+      "certificateDownloads": 156,
       "generatorOpens": 283,
-      "generatorCompletions": 187,
-      "conversionRate": 66.1,
+      "generatorCompletions": 186,
+      "conversionRate": 65.7,
       "uniqueVisitorsApprox": 421
     },
     "months": [
@@ -48958,26 +48780,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 141,
+        "badgesIssued": 140,
         "badgeViews": 125,
-        "certificateDownloads": 143,
+        "certificateDownloads": 141,
         "generatorOpens": 170,
-        "generatorCompletions": 141,
+        "generatorCompletions": 140,
         "uniqueVisitorsApprox": 190,
-        "conversionRate": 82.9
+        "conversionRate": 82.4
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 223,
+        "badgesIssued": 222,
         "badgeViews": 454,
-        "certificateDownloads": 158,
+        "certificateDownloads": 156,
         "generatorOpens": 283,
-        "generatorCompletions": 187,
+        "generatorCompletions": 186,
         "uniqueVisitorsApprox": 421,
-        "conversionRate": 66.1
+        "conversionRate": 65.7
       }
     ],
     "badgeTypes": [
@@ -48994,12 +48816,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 149,
+        "badgesIssued": 148,
         "badgeViews": 118,
-        "certificateDownloads": 146,
+        "certificateDownloads": 144,
         "generatorOpens": 193,
-        "generatorCompletions": 149,
-        "conversionRate": 77.2
+        "generatorCompletions": 148,
+        "conversionRate": 76.7
       },
       {
         "id": "fhtc-e-badge",
@@ -51292,30 +51114,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "erick-ramirez-career-activated-csuncc-20260916-0010",
-        "badgeId": "CSUNCC-20260916-0010",
-        "awardeeName": "Erick Ramirez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/erick-ramirez-career-activated-csuncc-20260916-0010/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
-        "slug": "india-lewis-career-activated-csuncc-20260916-0011",
-        "badgeId": "CSUNCC-20260916-0011",
-        "awardeeName": "India Lewis",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/india-lewis-career-activated-csuncc-20260916-0011/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -51710,6 +51508,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "erick-ramirez-career-activated-csuncc-20260916-0010",
+        "badgeId": "CSUNCC-20260916-0010",
+        "awardeeName": "Erick Ramirez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/erick-ramirez-career-activated-csuncc-20260916-0010/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -51719,8 +51529,8 @@
         "pageKind": "specific",
         "templateId": "career-activated",
         "opens": 193,
-        "completions": 148,
-        "conversionRate": 76.7
+        "completions": 147,
+        "conversionRate": 76.2
       },
       {
         "key": "general",
@@ -52790,18 +52600,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Erick Ramirez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "India Lewis",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -52899,6 +52697,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Erick Ramirez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

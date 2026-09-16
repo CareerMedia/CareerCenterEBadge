@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T17:15:31.490Z",
+  "updatedAt": "2026-09-16T17:16:55.371Z",
   "totals": {
-    "badgesIssued": 221,
+    "badgesIssued": 223,
     "badgeViews": 454,
-    "certificateDownloads": 156,
+    "certificateDownloads": 158,
     "generatorOpens": 283,
-    "generatorCompletions": 185,
-    "conversionRate": 65.4,
+    "generatorCompletions": 187,
+    "conversionRate": 66.1,
     "uniqueVisitorsApprox": 421
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 139,
+      "badgesIssued": 141,
       "badgeViews": 125,
-      "certificateDownloads": 141,
+      "certificateDownloads": 143,
       "generatorOpens": 170,
-      "generatorCompletions": 139,
+      "generatorCompletions": 141,
       "uniqueVisitorsApprox": 190,
-      "conversionRate": 81.8
+      "conversionRate": 82.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 221,
+      "badgesIssued": 223,
       "badgeViews": 454,
-      "certificateDownloads": 156,
+      "certificateDownloads": 158,
       "generatorOpens": 283,
-      "generatorCompletions": 185,
+      "generatorCompletions": 187,
       "uniqueVisitorsApprox": 421,
-      "conversionRate": 65.4
+      "conversionRate": 66.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 147,
+      "badgesIssued": 149,
       "badgeViews": 118,
-      "certificateDownloads": 144,
+      "certificateDownloads": 146,
       "generatorOpens": 193,
-      "generatorCompletions": 147,
-      "conversionRate": 76.2
+      "generatorCompletions": 149,
+      "conversionRate": 77.2
     },
     {
       "id": "fhtc-e-badge",
@@ -2403,6 +2403,30 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "erick-ramirez-career-activated-csuncc-20260916-0010",
+      "badgeId": "CSUNCC-20260916-0010",
+      "awardeeName": "Erick Ramirez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/erick-ramirez-career-activated-csuncc-20260916-0010/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "india-lewis-career-activated-csuncc-20260916-0011",
+      "badgeId": "CSUNCC-20260916-0011",
+      "awardeeName": "India Lewis",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/india-lewis-career-activated-csuncc-20260916-0011/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2806,8 +2830,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 193,
-      "completions": 146,
-      "conversionRate": 75.6
+      "completions": 148,
+      "conversionRate": 76.7
     },
     {
       "key": "general",
@@ -3872,6 +3896,18 @@
     },
     {
       "awardeeName": "Ta’Nijha",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Erick Ramirez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "India Lewis",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
