@@ -45933,48 +45933,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "a13137f5-941d-4c84-847b-36b0e92514f1",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T06:44:50.387Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0035",
-      "badgeSlug": "daniel-sanchez-career-activated-csuncc-20260915-0035",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Daniel Sanchez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/daniel-sanchez-career-activated-csuncc-20260915-0035/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "4b12a7cee4c40a92581dfc67",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "c6d971ee-0051-4ff2-b4b7-2f06720800a7",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T06:59:16.350Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "f0f9ae87b20399d31c043224",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -46449,15 +46407,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T06:59:16.399Z",
+    "updatedAt": "2026-09-16T06:44:45.295Z",
     "totals": {
       "badgesIssued": 210,
       "badgeViews": 450,
-      "certificateDownloads": 144,
-      "generatorOpens": 269,
+      "certificateDownloads": 143,
+      "generatorOpens": 268,
       "generatorCompletions": 174,
-      "conversionRate": 64.7,
-      "uniqueVisitorsApprox": 408
+      "conversionRate": 64.9,
+      "uniqueVisitorsApprox": 407
     },
     "months": [
       {
@@ -46520,11 +46478,11 @@
         "label": "Sep 2026",
         "badgesIssued": 128,
         "badgeViews": 121,
-        "certificateDownloads": 129,
-        "generatorOpens": 156,
+        "certificateDownloads": 128,
+        "generatorOpens": 155,
         "generatorCompletions": 128,
-        "uniqueVisitorsApprox": 177,
-        "conversionRate": 82.1
+        "uniqueVisitorsApprox": 176,
+        "conversionRate": 82.6
       }
     ],
     "years": [
@@ -46533,11 +46491,11 @@
         "label": "2026",
         "badgesIssued": 210,
         "badgeViews": 450,
-        "certificateDownloads": 144,
-        "generatorOpens": 269,
+        "certificateDownloads": 143,
+        "generatorOpens": 268,
         "generatorCompletions": 174,
-        "uniqueVisitorsApprox": 408,
-        "conversionRate": 64.7
+        "uniqueVisitorsApprox": 407,
+        "conversionRate": 64.9
       }
     ],
     "badgeTypes": [
@@ -46556,10 +46514,10 @@
         "title": "Career Activated",
         "badgesIssued": 136,
         "badgeViews": 114,
-        "certificateDownloads": 132,
-        "generatorOpens": 179,
+        "certificateDownloads": 131,
+        "generatorOpens": 178,
         "generatorCompletions": 136,
-        "conversionRate": 76
+        "conversionRate": 76.4
       },
       {
         "id": "fhtc-e-badge",
@@ -48708,18 +48666,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "daniel-sanchez-career-activated-csuncc-20260915-0035",
-        "badgeId": "CSUNCC-20260915-0035",
-        "awardeeName": "Daniel Sanchez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/daniel-sanchez-career-activated-csuncc-20260915-0035/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -49114,6 +49060,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "daniel-sanchez-career-activated-csuncc-20260915-0035",
+        "badgeId": "CSUNCC-20260915-0035",
+        "awardeeName": "Daniel Sanchez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/daniel-sanchez-career-activated-csuncc-20260915-0035/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -49122,9 +49080,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 179,
+        "opens": 178,
         "completions": 135,
-        "conversionRate": 75.4
+        "conversionRate": 75.8
       },
       {
         "key": "general",
@@ -50122,12 +50080,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Daniel Sanchez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -50225,6 +50177,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Daniel Sanchez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

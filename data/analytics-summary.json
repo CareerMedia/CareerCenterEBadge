@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T06:09:02.481Z",
+  "updatedAt": "2026-09-16T06:59:16.399Z",
   "totals": {
-    "badgesIssued": 209,
+    "badgesIssued": 210,
     "badgeViews": 450,
-    "certificateDownloads": 143,
-    "generatorOpens": 267,
-    "generatorCompletions": 173,
-    "conversionRate": 64.8,
-    "uniqueVisitorsApprox": 406
+    "certificateDownloads": 144,
+    "generatorOpens": 269,
+    "generatorCompletions": 174,
+    "conversionRate": 64.7,
+    "uniqueVisitorsApprox": 408
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 127,
+      "badgesIssued": 128,
       "badgeViews": 121,
-      "certificateDownloads": 128,
-      "generatorOpens": 154,
-      "generatorCompletions": 127,
-      "uniqueVisitorsApprox": 175,
-      "conversionRate": 82.5
+      "certificateDownloads": 129,
+      "generatorOpens": 156,
+      "generatorCompletions": 128,
+      "uniqueVisitorsApprox": 177,
+      "conversionRate": 82.1
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 209,
+      "badgesIssued": 210,
       "badgeViews": 450,
-      "certificateDownloads": 143,
-      "generatorOpens": 267,
-      "generatorCompletions": 173,
-      "uniqueVisitorsApprox": 406,
-      "conversionRate": 64.8
+      "certificateDownloads": 144,
+      "generatorOpens": 269,
+      "generatorCompletions": 174,
+      "uniqueVisitorsApprox": 408,
+      "conversionRate": 64.7
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 135,
+      "badgesIssued": 136,
       "badgeViews": 114,
-      "certificateDownloads": 131,
-      "generatorOpens": 177,
-      "generatorCompletions": 135,
-      "conversionRate": 76.3
+      "certificateDownloads": 132,
+      "generatorOpens": 179,
+      "generatorCompletions": 136,
+      "conversionRate": 76
     },
     {
       "id": "fhtc-e-badge",
@@ -2259,6 +2259,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "daniel-sanchez-career-activated-csuncc-20260915-0035",
+      "badgeId": "CSUNCC-20260915-0035",
+      "awardeeName": "Daniel Sanchez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/daniel-sanchez-career-activated-csuncc-20260915-0035/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2661,9 +2673,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 177,
-      "completions": 134,
-      "conversionRate": 75.7
+      "opens": 179,
+      "completions": 135,
+      "conversionRate": 75.4
     },
     {
       "key": "general",
@@ -3656,6 +3668,12 @@
     },
     {
       "awardeeName": "Jacob Smith",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Daniel Sanchez",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
