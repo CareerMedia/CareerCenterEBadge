@@ -42780,27 +42780,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "1c91bf80-f200-4e40-a488-6abf6629a5c4",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T02:40:23.638Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0020",
-      "badgeSlug": "mila-smith-career-activated-csuncc-20260915-0020",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Mila Smith",
-      "publicUrl": "https://careerbadge.csun.edu/badges/mila-smith-career-activated-csuncc-20260915-0020/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "b349f2dee11d73e907c17d94",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -43275,15 +43254,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T02:40:23.736Z",
+    "updatedAt": "2026-09-16T02:40:11.940Z",
     "totals": {
       "badgesIssued": 195,
-      "badgeViews": 440,
+      "badgeViews": 439,
       "certificateDownloads": 121,
       "generatorOpens": 248,
       "generatorCompletions": 159,
       "conversionRate": 64.1,
-      "uniqueVisitorsApprox": 390
+      "uniqueVisitorsApprox": 389
     },
     "months": [
       {
@@ -43345,11 +43324,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 113,
-        "badgeViews": 111,
+        "badgeViews": 110,
         "certificateDownloads": 106,
         "generatorOpens": 135,
         "generatorCompletions": 113,
-        "uniqueVisitorsApprox": 159,
+        "uniqueVisitorsApprox": 158,
         "conversionRate": 83.7
       }
     ],
@@ -43358,11 +43337,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 195,
-        "badgeViews": 440,
+        "badgeViews": 439,
         "certificateDownloads": 121,
         "generatorOpens": 248,
         "generatorCompletions": 159,
-        "uniqueVisitorsApprox": 390,
+        "uniqueVisitorsApprox": 389,
         "conversionRate": 64.1
       }
     ],
@@ -43381,7 +43360,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 121,
-        "badgeViews": 104,
+        "badgeViews": 103,
         "certificateDownloads": 109,
         "generatorOpens": 158,
         "generatorCompletions": 121,
@@ -44754,18 +44733,6 @@
         "latestViewedAt": "2026-09-16T00:02:32.123Z"
       },
       {
-        "slug": "mila-smith-career-activated-csuncc-20260915-0020",
-        "badgeId": "CSUNCC-20260915-0020",
-        "awardeeName": "Mila Smith",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/mila-smith-career-activated-csuncc-20260915-0020/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-16T02:40:23.638Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -45760,6 +45727,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "mila-smith-career-activated-csuncc-20260915-0020",
+        "badgeId": "CSUNCC-20260915-0020",
+        "awardeeName": "Mila Smith",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/mila-smith-career-activated-csuncc-20260915-0020/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -46684,12 +46663,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Mila Smith",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -46781,6 +46754,12 @@
       },
       {
         "awardeeName": "Sean McNeil",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Mila Smith",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

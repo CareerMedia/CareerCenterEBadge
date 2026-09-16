@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T02:39:47.374Z",
+  "updatedAt": "2026-09-16T02:40:23.736Z",
   "totals": {
-    "badgesIssued": 194,
-    "badgeViews": 439,
+    "badgesIssued": 195,
+    "badgeViews": 440,
     "certificateDownloads": 121,
     "generatorOpens": 248,
-    "generatorCompletions": 158,
-    "conversionRate": 63.7,
-    "uniqueVisitorsApprox": 389
+    "generatorCompletions": 159,
+    "conversionRate": 64.1,
+    "uniqueVisitorsApprox": 390
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 112,
-      "badgeViews": 110,
+      "badgesIssued": 113,
+      "badgeViews": 111,
       "certificateDownloads": 106,
       "generatorOpens": 135,
-      "generatorCompletions": 112,
-      "uniqueVisitorsApprox": 158,
-      "conversionRate": 83
+      "generatorCompletions": 113,
+      "uniqueVisitorsApprox": 159,
+      "conversionRate": 83.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 194,
-      "badgeViews": 439,
+      "badgesIssued": 195,
+      "badgeViews": 440,
       "certificateDownloads": 121,
       "generatorOpens": 248,
-      "generatorCompletions": 158,
-      "uniqueVisitorsApprox": 389,
-      "conversionRate": 63.7
+      "generatorCompletions": 159,
+      "uniqueVisitorsApprox": 390,
+      "conversionRate": 64.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 120,
-      "badgeViews": 103,
+      "badgesIssued": 121,
+      "badgeViews": 104,
       "certificateDownloads": 109,
       "generatorOpens": 158,
-      "generatorCompletions": 120,
-      "conversionRate": 75.9
+      "generatorCompletions": 121,
+      "conversionRate": 76.6
     },
     {
       "id": "fhtc-e-badge",
@@ -1479,6 +1479,18 @@
       "latestViewedAt": "2026-09-16T00:02:32.123Z"
     },
     {
+      "slug": "mila-smith-career-activated-csuncc-20260915-0020",
+      "badgeId": "CSUNCC-20260915-0020",
+      "awardeeName": "Mila Smith",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/mila-smith-career-activated-csuncc-20260915-0020/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-16T02:40:23.638Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -2482,8 +2494,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 158,
-      "completions": 119,
-      "conversionRate": 75.3
+      "completions": 120,
+      "conversionRate": 75.9
     },
     {
       "key": "general",
@@ -3395,6 +3407,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Mila Smith",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",
