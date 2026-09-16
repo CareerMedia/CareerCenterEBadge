@@ -48656,27 +48656,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "84afd10c-ffad-4d4c-8668-3af68f907a3f",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T21:39:31.140Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0012",
-      "badgeSlug": "journey-hartley-career-activated-csuncc-20260916-0012",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Journey Hartley",
-      "publicUrl": "https://careerbadge.csun.edu/badges/journey-hartley-career-activated-csuncc-20260916-0012/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "0f59927449c5e16a6fd6eca9",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -49151,10 +49130,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T21:39:31.149Z",
+    "updatedAt": "2026-09-16T21:39:22.143Z",
     "totals": {
       "badgesIssued": 224,
-      "badgeViews": 459,
+      "badgeViews": 458,
       "certificateDownloads": 158,
       "generatorOpens": 284,
       "generatorCompletions": 188,
@@ -49221,7 +49200,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 142,
-        "badgeViews": 130,
+        "badgeViews": 129,
         "certificateDownloads": 143,
         "generatorOpens": 171,
         "generatorCompletions": 142,
@@ -49234,7 +49213,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 224,
-        "badgeViews": 459,
+        "badgeViews": 458,
         "certificateDownloads": 158,
         "generatorOpens": 284,
         "generatorCompletions": 188,
@@ -49257,7 +49236,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 150,
-        "badgeViews": 123,
+        "badgeViews": 122,
         "certificateDownloads": 146,
         "generatorOpens": 194,
         "generatorCompletions": 150,
@@ -50750,18 +50729,6 @@
         "latestViewedAt": "2026-09-16T00:02:32.123Z"
       },
       {
-        "slug": "journey-hartley-career-activated-csuncc-20260916-0012",
-        "badgeId": "CSUNCC-20260916-0012",
-        "awardeeName": "Journey Hartley",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/journey-hartley-career-activated-csuncc-20260916-0012/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-16T21:39:31.140Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -51984,6 +51951,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "journey-hartley-career-activated-csuncc-20260916-0012",
+        "badgeId": "CSUNCC-20260916-0012",
+        "awardeeName": "Journey Hartley",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/journey-hartley-career-activated-csuncc-20260916-0012/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -53076,12 +53055,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Journey Hartley",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -53179,6 +53152,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Journey Hartley",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
