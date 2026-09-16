@@ -18202,100 +18202,6 @@
       "openBadgeJsonPath": "docs/badges/treazzurie-curry-career-activated-csuncc-20260915-0023/open-badge.json",
       "verifiableCredentialPath": "docs/badges/treazzurie-curry-career-activated-csuncc-20260915-0023/credential.json",
       "verificationHash": "590abae7f66137635ca7df8f319b82c42818dea355ea7f7e685d6fd20fc22226"
-    },
-    {
-      "id": "CSUNCC-20260915-0024",
-      "awardeeName": "Kayla Leticia Thomas",
-      "awardeeEmail": "kayla.thomas.304@my.csun.edu",
-      "issueDate": "September 15, 2026",
-      "issueDateISO": "2026-09-15",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-16T05:14:51.995Z",
-      "source": "public-generator",
-      "slug": "kayla-leticia-thomas-career-activated-csuncc-20260915-0024",
-      "relativeUrl": "../badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/",
-      "relativeJsonUrl": "../badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/",
-      "repoPath": "docs/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/index.html",
-      "detailsJsonPath": "docs/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/details.json",
-      "openBadgeJsonPath": "docs/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/credential.json",
-      "verificationHash": "db4e74516fab06868422b776b9c3270304bea12fd56b5018a02fa2eba6c66612"
     }
   ],
   "deletedBadges": [
@@ -43639,132 +43545,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "b8a891d4-8ee3-4285-aa55-010162e10a67",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-16T05:13:59.695Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0023",
-      "badgeSlug": "treazzurie-curry-career-activated-csuncc-20260915-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Treazzurie Curry",
-      "publicUrl": "https://careerbadge.csun.edu/badges/treazzurie-curry-career-activated-csuncc-20260915-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "8068b860e1c5a9e4a7509cca",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "8c1d1803-ca52-441a-904d-50835efdd091",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T05:14:06.056Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "427edfc0a9e0d9f9e4ec752e",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "b0af3936-0056-4b3e-beed-4178017fee70",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:14:07.086Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0023",
-      "badgeSlug": "treazzurie-curry-career-activated-csuncc-20260915-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Treazzurie Curry",
-      "publicUrl": "https://careerbadge.csun.edu/badges/treazzurie-curry-career-activated-csuncc-20260915-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "8068b860e1c5a9e4a7509cca",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "d0c2a559-4ef6-49d8-8889-d17c61c7d871",
-      "type": "badge_issued",
-      "timestamp": "2026-09-16T05:14:51.995Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0024",
-      "badgeSlug": "kayla-leticia-thomas-career-activated-csuncc-20260915-0024",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kayla Leticia Thomas",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "0ff761a7-7358-4d4c-82e0-220f8b17f36b",
-      "type": "generator_completed",
-      "timestamp": "2026-09-16T05:14:52.990Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0024",
-      "badgeSlug": "kayla-leticia-thomas-career-activated-csuncc-20260915-0024",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kayla Leticia Thomas",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "d33f83d2-0faa-4865-bd74-29a3dcff0717",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:15:04.610Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0024",
-      "badgeSlug": "kayla-leticia-thomas-career-activated-csuncc-20260915-0024",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kayla Leticia Thomas",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "427edfc0a9e0d9f9e4ec752e",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -44239,15 +44019,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T05:15:04.619Z",
+    "updatedAt": "2026-09-16T05:13:39.591Z",
     "totals": {
-      "badgesIssued": 199,
-      "badgeViews": 444,
-      "certificateDownloads": 130,
-      "generatorOpens": 255,
-      "generatorCompletions": 163,
-      "conversionRate": 63.9,
-      "uniqueVisitorsApprox": 395
+      "badgesIssued": 198,
+      "badgeViews": 443,
+      "certificateDownloads": 128,
+      "generatorOpens": 254,
+      "generatorCompletions": 162,
+      "conversionRate": 63.8,
+      "uniqueVisitorsApprox": 394
     },
     "months": [
       {
@@ -44308,26 +44088,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 117,
-        "badgeViews": 115,
-        "certificateDownloads": 115,
-        "generatorOpens": 142,
-        "generatorCompletions": 117,
-        "uniqueVisitorsApprox": 164,
-        "conversionRate": 82.4
+        "badgesIssued": 116,
+        "badgeViews": 114,
+        "certificateDownloads": 113,
+        "generatorOpens": 141,
+        "generatorCompletions": 116,
+        "uniqueVisitorsApprox": 163,
+        "conversionRate": 82.3
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 199,
-        "badgeViews": 444,
-        "certificateDownloads": 130,
-        "generatorOpens": 255,
-        "generatorCompletions": 163,
-        "uniqueVisitorsApprox": 395,
-        "conversionRate": 63.9
+        "badgesIssued": 198,
+        "badgeViews": 443,
+        "certificateDownloads": 128,
+        "generatorOpens": 254,
+        "generatorCompletions": 162,
+        "uniqueVisitorsApprox": 394,
+        "conversionRate": 63.8
       }
     ],
     "badgeTypes": [
@@ -44344,12 +44124,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 125,
-        "badgeViews": 108,
-        "certificateDownloads": 118,
-        "generatorOpens": 165,
-        "generatorCompletions": 125,
-        "conversionRate": 75.8
+        "badgesIssued": 124,
+        "badgeViews": 107,
+        "certificateDownloads": 116,
+        "generatorOpens": 164,
+        "generatorCompletions": 124,
+        "conversionRate": 75.6
       },
       {
         "id": "fhtc-e-badge",
@@ -45526,18 +45306,6 @@
         "latestViewedAt": "2026-09-16T00:54:33.269Z"
       },
       {
-        "slug": "treazzurie-curry-career-activated-csuncc-20260915-0023",
-        "badgeId": "CSUNCC-20260915-0023",
-        "awardeeName": "Treazzurie Curry",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/treazzurie-curry-career-activated-csuncc-20260915-0023/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T05:13:59.695Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -46378,18 +46146,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "kayla-leticia-thomas-career-activated-csuncc-20260915-0024",
-        "badgeId": "CSUNCC-20260915-0024",
-        "awardeeName": "Kayla Leticia Thomas",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -46772,6 +46528,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "treazzurie-curry-career-activated-csuncc-20260915-0023",
+        "badgeId": "CSUNCC-20260915-0023",
+        "awardeeName": "Treazzurie Curry",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/treazzurie-curry-career-activated-csuncc-20260915-0023/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -46780,9 +46548,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 165,
-        "completions": 124,
-        "conversionRate": 75.2
+        "opens": 164,
+        "completions": 123,
+        "conversionRate": 75
       },
       {
         "key": "general",
@@ -47354,12 +47122,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Treazzurie Curry",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -47720,12 +47482,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Kayla Leticia Thomas",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -47817,6 +47573,12 @@
       },
       {
         "awardeeName": "Sean McNeil",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Treazzurie Curry",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

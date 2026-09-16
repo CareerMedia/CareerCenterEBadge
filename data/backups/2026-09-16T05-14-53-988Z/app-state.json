@@ -43744,27 +43744,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "d33f83d2-0faa-4865-bd74-29a3dcff0717",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:15:04.610Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0024",
-      "badgeSlug": "kayla-leticia-thomas-career-activated-csuncc-20260915-0024",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kayla Leticia Thomas",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "427edfc0a9e0d9f9e4ec752e",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -44239,11 +44218,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T05:15:04.619Z",
+    "updatedAt": "2026-09-16T05:14:52.997Z",
     "totals": {
       "badgesIssued": 199,
       "badgeViews": 444,
-      "certificateDownloads": 130,
+      "certificateDownloads": 129,
       "generatorOpens": 255,
       "generatorCompletions": 163,
       "conversionRate": 63.9,
@@ -44310,7 +44289,7 @@
         "label": "Sep 2026",
         "badgesIssued": 117,
         "badgeViews": 115,
-        "certificateDownloads": 115,
+        "certificateDownloads": 114,
         "generatorOpens": 142,
         "generatorCompletions": 117,
         "uniqueVisitorsApprox": 164,
@@ -44323,7 +44302,7 @@
         "label": "2026",
         "badgesIssued": 199,
         "badgeViews": 444,
-        "certificateDownloads": 130,
+        "certificateDownloads": 129,
         "generatorOpens": 255,
         "generatorCompletions": 163,
         "uniqueVisitorsApprox": 395,
@@ -44346,7 +44325,7 @@
         "title": "Career Activated",
         "badgesIssued": 125,
         "badgeViews": 108,
-        "certificateDownloads": 118,
+        "certificateDownloads": 117,
         "generatorOpens": 165,
         "generatorCompletions": 125,
         "conversionRate": 75.8
@@ -46378,18 +46357,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "kayla-leticia-thomas-career-activated-csuncc-20260915-0024",
-        "badgeId": "CSUNCC-20260915-0024",
-        "awardeeName": "Kayla Leticia Thomas",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -46768,6 +46735,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/sean-mcneil-career-activated-csuncc-20260915-0011/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "kayla-leticia-thomas-career-activated-csuncc-20260915-0024",
+        "badgeId": "CSUNCC-20260915-0024",
+        "awardeeName": "Kayla Leticia Thomas",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/kayla-leticia-thomas-career-activated-csuncc-20260915-0024/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -47720,12 +47699,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Kayla Leticia Thomas",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -47817,6 +47790,12 @@
       },
       {
         "awardeeName": "Sean McNeil",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Kayla Leticia Thomas",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
