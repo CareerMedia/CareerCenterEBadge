@@ -44456,69 +44456,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "b25f71c0-271d-4717-8bd0-e8a55d7cf194",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:32:21.152Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0028",
-      "badgeSlug": "carlie-minor-career-activated-csuncc-20260915-0028",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Carlie Minor",
-      "publicUrl": "https://careerbadge.csun.edu/badges/carlie-minor-career-activated-csuncc-20260915-0028/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "aed5cc65b090ce40b1cfceb8",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "0f146747-8cfc-4d72-b9fd-6d9cacf8bcc1",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T05:33:23.529Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "aed5cc65b090ce40b1cfceb8",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "882b52c0-1587-4adf-a41f-a35ca75aa7e1",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T05:36:35.295Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "974b6533698b8482f97b74c6",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -44993,15 +44930,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T05:36:35.386Z",
+    "updatedAt": "2026-09-16T05:32:17.888Z",
     "totals": {
       "badgesIssued": 203,
       "badgeViews": 444,
-      "certificateDownloads": 134,
-      "generatorOpens": 261,
+      "certificateDownloads": 133,
+      "generatorOpens": 259,
       "generatorCompletions": 167,
-      "conversionRate": 64,
-      "uniqueVisitorsApprox": 400
+      "conversionRate": 64.5,
+      "uniqueVisitorsApprox": 399
     },
     "months": [
       {
@@ -45064,11 +45001,11 @@
         "label": "Sep 2026",
         "badgesIssued": 121,
         "badgeViews": 115,
-        "certificateDownloads": 119,
-        "generatorOpens": 148,
+        "certificateDownloads": 118,
+        "generatorOpens": 146,
         "generatorCompletions": 121,
-        "uniqueVisitorsApprox": 169,
-        "conversionRate": 81.8
+        "uniqueVisitorsApprox": 168,
+        "conversionRate": 82.9
       }
     ],
     "years": [
@@ -45077,11 +45014,11 @@
         "label": "2026",
         "badgesIssued": 203,
         "badgeViews": 444,
-        "certificateDownloads": 134,
-        "generatorOpens": 261,
+        "certificateDownloads": 133,
+        "generatorOpens": 259,
         "generatorCompletions": 167,
-        "uniqueVisitorsApprox": 400,
-        "conversionRate": 64
+        "uniqueVisitorsApprox": 399,
+        "conversionRate": 64.5
       }
     ],
     "badgeTypes": [
@@ -45100,10 +45037,10 @@
         "title": "Career Activated",
         "badgesIssued": 129,
         "badgeViews": 108,
-        "certificateDownloads": 122,
-        "generatorOpens": 171,
+        "certificateDownloads": 121,
+        "generatorOpens": 169,
         "generatorCompletions": 129,
-        "conversionRate": 75.4
+        "conversionRate": 76.3
       },
       {
         "id": "fhtc-e-badge",
@@ -47168,18 +47105,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "carlie-minor-career-activated-csuncc-20260915-0028",
-        "badgeId": "CSUNCC-20260915-0028",
-        "awardeeName": "Carlie Minor",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/carlie-minor-career-activated-csuncc-20260915-0028/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -47574,6 +47499,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "carlie-minor-career-activated-csuncc-20260915-0028",
+        "badgeId": "CSUNCC-20260915-0028",
+        "awardeeName": "Carlie Minor",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/carlie-minor-career-activated-csuncc-20260915-0028/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -47582,9 +47519,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 171,
+        "opens": 169,
         "completions": 128,
-        "conversionRate": 74.9
+        "conversionRate": 75.7
       },
       {
         "key": "general",
@@ -48540,12 +48477,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Carlie Minor",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -48643,6 +48574,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Carlie Minor",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

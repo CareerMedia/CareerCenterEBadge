@@ -18578,100 +18578,6 @@
       "openBadgeJsonPath": "docs/badges/shelby-giron-career-activated-csuncc-20260915-0027/open-badge.json",
       "verifiableCredentialPath": "docs/badges/shelby-giron-career-activated-csuncc-20260915-0027/credential.json",
       "verificationHash": "68120cd1b8d4cc9506fcf24f10064ef46c3829c7e35b46642c3fbc64b38dc7a9"
-    },
-    {
-      "id": "CSUNCC-20260915-0028",
-      "awardeeName": "Carlie Minor",
-      "awardeeEmail": "carlie.minor.674@my.csun.edu",
-      "issueDate": "September 15, 2026",
-      "issueDateISO": "2026-09-15",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-16T05:32:16.497Z",
-      "source": "public-generator",
-      "slug": "carlie-minor-career-activated-csuncc-20260915-0028",
-      "relativeUrl": "../badges/carlie-minor-career-activated-csuncc-20260915-0028/",
-      "relativeJsonUrl": "../badges/carlie-minor-career-activated-csuncc-20260915-0028/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/carlie-minor-career-activated-csuncc-20260915-0028/",
-      "repoPath": "docs/badges/carlie-minor-career-activated-csuncc-20260915-0028/index.html",
-      "detailsJsonPath": "docs/badges/carlie-minor-career-activated-csuncc-20260915-0028/details.json",
-      "openBadgeJsonPath": "docs/badges/carlie-minor-career-activated-csuncc-20260915-0028/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/carlie-minor-career-activated-csuncc-20260915-0028/credential.json",
-      "verificationHash": "e20752032531b2a09764e6c5f413ca5c85ee75ebfe9811e08d125bc08e578b13"
     }
   ],
   "deletedBadges": [
@@ -44372,153 +44278,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "06c19832-61fb-482e-b9e7-af1fa3fda28b",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:31:32.726Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0027",
-      "badgeSlug": "shelby-giron-career-activated-csuncc-20260915-0027",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Shelby Giron",
-      "publicUrl": "https://careerbadge.csun.edu/badges/shelby-giron-career-activated-csuncc-20260915-0027/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "038b5778a14e40e4c2a1358f",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "c11ede9d-b47a-463b-92f5-fbc99e6adbaa",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T05:31:41.370Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "aed5cc65b090ce40b1cfceb8",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "a9e34348-3cbd-47cf-a845-12a3ed4c679e",
-      "type": "badge_issued",
-      "timestamp": "2026-09-16T05:32:16.497Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0028",
-      "badgeSlug": "carlie-minor-career-activated-csuncc-20260915-0028",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Carlie Minor",
-      "publicUrl": "https://careerbadge.csun.edu/badges/carlie-minor-career-activated-csuncc-20260915-0028/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "4c05dae0-f42c-43ad-b24a-0b403615f146",
-      "type": "generator_completed",
-      "timestamp": "2026-09-16T05:32:17.795Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0028",
-      "badgeSlug": "carlie-minor-career-activated-csuncc-20260915-0028",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Carlie Minor",
-      "publicUrl": "https://careerbadge.csun.edu/badges/carlie-minor-career-activated-csuncc-20260915-0028/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "b25f71c0-271d-4717-8bd0-e8a55d7cf194",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T05:32:21.152Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0028",
-      "badgeSlug": "carlie-minor-career-activated-csuncc-20260915-0028",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Carlie Minor",
-      "publicUrl": "https://careerbadge.csun.edu/badges/carlie-minor-career-activated-csuncc-20260915-0028/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "aed5cc65b090ce40b1cfceb8",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "0f146747-8cfc-4d72-b9fd-6d9cacf8bcc1",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T05:33:23.529Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "aed5cc65b090ce40b1cfceb8",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "882b52c0-1587-4adf-a41f-a35ca75aa7e1",
-      "type": "generator_opened",
-      "timestamp": "2026-09-16T05:36:35.295Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "974b6533698b8482f97b74c6",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -44993,15 +44752,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T05:36:35.386Z",
+    "updatedAt": "2026-09-16T05:31:27.496Z",
     "totals": {
-      "badgesIssued": 203,
+      "badgesIssued": 202,
       "badgeViews": 444,
-      "certificateDownloads": 134,
-      "generatorOpens": 261,
-      "generatorCompletions": 167,
-      "conversionRate": 64,
-      "uniqueVisitorsApprox": 400
+      "certificateDownloads": 132,
+      "generatorOpens": 258,
+      "generatorCompletions": 166,
+      "conversionRate": 64.3,
+      "uniqueVisitorsApprox": 398
     },
     "months": [
       {
@@ -45062,26 +44821,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 121,
+        "badgesIssued": 120,
         "badgeViews": 115,
-        "certificateDownloads": 119,
-        "generatorOpens": 148,
-        "generatorCompletions": 121,
-        "uniqueVisitorsApprox": 169,
-        "conversionRate": 81.8
+        "certificateDownloads": 117,
+        "generatorOpens": 145,
+        "generatorCompletions": 120,
+        "uniqueVisitorsApprox": 167,
+        "conversionRate": 82.8
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 203,
+        "badgesIssued": 202,
         "badgeViews": 444,
-        "certificateDownloads": 134,
-        "generatorOpens": 261,
-        "generatorCompletions": 167,
-        "uniqueVisitorsApprox": 400,
-        "conversionRate": 64
+        "certificateDownloads": 132,
+        "generatorOpens": 258,
+        "generatorCompletions": 166,
+        "uniqueVisitorsApprox": 398,
+        "conversionRate": 64.3
       }
     ],
     "badgeTypes": [
@@ -45098,12 +44857,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 129,
+        "badgesIssued": 128,
         "badgeViews": 108,
-        "certificateDownloads": 122,
-        "generatorOpens": 171,
-        "generatorCompletions": 129,
-        "conversionRate": 75.4
+        "certificateDownloads": 120,
+        "generatorOpens": 168,
+        "generatorCompletions": 128,
+        "conversionRate": 76.2
       },
       {
         "id": "fhtc-e-badge",
@@ -47156,30 +46915,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "shelby-giron-career-activated-csuncc-20260915-0027",
-        "badgeId": "CSUNCC-20260915-0027",
-        "awardeeName": "Shelby Giron",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/shelby-giron-career-activated-csuncc-20260915-0027/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
-        "slug": "carlie-minor-career-activated-csuncc-20260915-0028",
-        "badgeId": "CSUNCC-20260915-0028",
-        "awardeeName": "Carlie Minor",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/carlie-minor-career-activated-csuncc-20260915-0028/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -47574,6 +47309,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "shelby-giron-career-activated-csuncc-20260915-0027",
+        "badgeId": "CSUNCC-20260915-0027",
+        "awardeeName": "Shelby Giron",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/shelby-giron-career-activated-csuncc-20260915-0027/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -47582,9 +47329,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 171,
-        "completions": 128,
-        "conversionRate": 74.9
+        "opens": 168,
+        "completions": 127,
+        "conversionRate": 75.6
       },
       {
         "key": "general",
@@ -48534,18 +48281,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Shelby Giron",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Carlie Minor",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -48643,6 +48378,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Shelby Giron",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
