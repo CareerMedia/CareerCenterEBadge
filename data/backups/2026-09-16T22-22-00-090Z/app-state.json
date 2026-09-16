@@ -48834,27 +48834,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "461152a3-70ac-403c-bafe-7c02348c9b96",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-16T22:22:09.189Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0013",
-      "badgeSlug": "karla-ibarra-rodriguez-career-activated-csuncc-20260916-0013",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Karla Ibarra Rodriguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/karla-ibarra-rodriguez-career-activated-csuncc-20260916-0013/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "89cb7c5d96af92c510032cfe",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -49329,11 +49308,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-16T22:22:09.197Z",
+    "updatedAt": "2026-09-16T22:21:58.892Z",
     "totals": {
       "badgesIssued": 225,
       "badgeViews": 459,
-      "certificateDownloads": 159,
+      "certificateDownloads": 158,
       "generatorOpens": 285,
       "generatorCompletions": 189,
       "conversionRate": 66.3,
@@ -49400,7 +49379,7 @@
         "label": "Sep 2026",
         "badgesIssued": 143,
         "badgeViews": 130,
-        "certificateDownloads": 144,
+        "certificateDownloads": 143,
         "generatorOpens": 172,
         "generatorCompletions": 143,
         "uniqueVisitorsApprox": 193,
@@ -49413,7 +49392,7 @@
         "label": "2026",
         "badgesIssued": 225,
         "badgeViews": 459,
-        "certificateDownloads": 159,
+        "certificateDownloads": 158,
         "generatorOpens": 285,
         "generatorCompletions": 189,
         "uniqueVisitorsApprox": 424,
@@ -49436,7 +49415,7 @@
         "title": "Career Activated",
         "badgesIssued": 151,
         "badgeViews": 123,
-        "certificateDownloads": 147,
+        "certificateDownloads": 146,
         "generatorOpens": 195,
         "generatorCompletions": 151,
         "conversionRate": 77.4
@@ -51768,18 +51747,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "karla-ibarra-rodriguez-career-activated-csuncc-20260916-0013",
-        "badgeId": "CSUNCC-20260916-0013",
-        "awardeeName": "Karla Ibarra Rodriguez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/karla-ibarra-rodriguez-career-activated-csuncc-20260916-0013/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -52170,6 +52137,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "karla-ibarra-rodriguez-career-activated-csuncc-20260916-0013",
+        "badgeId": "CSUNCC-20260916-0013",
+        "awardeeName": "Karla Ibarra Rodriguez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/karla-ibarra-rodriguez-career-activated-csuncc-20260916-0013/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -53272,12 +53251,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Karla Ibarra Rodriguez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -53375,6 +53348,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Karla Ibarra Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
