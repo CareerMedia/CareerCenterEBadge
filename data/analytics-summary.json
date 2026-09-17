@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T05:55:08.696Z",
+  "updatedAt": "2026-09-17T05:57:47.089Z",
   "totals": {
-    "badgesIssued": 232,
+    "badgesIssued": 233,
     "badgeViews": 468,
     "certificateDownloads": 169,
     "generatorOpens": 295,
-    "generatorCompletions": 196,
-    "conversionRate": 66.4,
+    "generatorCompletions": 197,
+    "conversionRate": 66.8,
     "uniqueVisitorsApprox": 435
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 150,
+      "badgesIssued": 151,
       "badgeViews": 139,
       "certificateDownloads": 154,
       "generatorOpens": 182,
-      "generatorCompletions": 150,
+      "generatorCompletions": 151,
       "uniqueVisitorsApprox": 204,
-      "conversionRate": 82.4
+      "conversionRate": 83
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 232,
+      "badgesIssued": 233,
       "badgeViews": 468,
       "certificateDownloads": 169,
       "generatorOpens": 295,
-      "generatorCompletions": 196,
+      "generatorCompletions": 197,
       "uniqueVisitorsApprox": 435,
-      "conversionRate": 66.4
+      "conversionRate": 66.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 158,
+      "badgesIssued": 159,
       "badgeViews": 132,
       "certificateDownloads": 157,
       "generatorOpens": 205,
-      "generatorCompletions": 158,
-      "conversionRate": 77.1
+      "generatorCompletions": 159,
+      "conversionRate": 77.6
     },
     {
       "id": "fhtc-e-badge",
@@ -2929,6 +2929,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "zenith-cooper-career-activated-csuncc-20260916-0020",
+      "badgeId": "CSUNCC-20260916-0020",
+      "awardeeName": "Zenith Cooper",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/zenith-cooper-career-activated-csuncc-20260916-0020/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -2938,8 +2950,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 205,
-      "completions": 157,
-      "conversionRate": 76.6
+      "completions": 158,
+      "conversionRate": 77.1
     },
     {
       "key": "general",
@@ -4172,6 +4184,12 @@
     },
     {
       "awardeeName": "Natalie Monserrat Sosa",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Zenith Cooper",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
