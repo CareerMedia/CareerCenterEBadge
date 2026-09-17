@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T02:21:16.373Z",
+  "updatedAt": "2026-09-17T02:21:58.392Z",
   "totals": {
-    "badgesIssued": 229,
+    "badgesIssued": 230,
     "badgeViews": 466,
-    "certificateDownloads": 167,
+    "certificateDownloads": 168,
     "generatorOpens": 292,
-    "generatorCompletions": 193,
-    "conversionRate": 66.1,
+    "generatorCompletions": 194,
+    "conversionRate": 66.4,
     "uniqueVisitorsApprox": 431
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 147,
+      "badgesIssued": 148,
       "badgeViews": 137,
-      "certificateDownloads": 152,
+      "certificateDownloads": 153,
       "generatorOpens": 179,
-      "generatorCompletions": 147,
+      "generatorCompletions": 148,
       "uniqueVisitorsApprox": 200,
-      "conversionRate": 82.1
+      "conversionRate": 82.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 229,
+      "badgesIssued": 230,
       "badgeViews": 466,
-      "certificateDownloads": 167,
+      "certificateDownloads": 168,
       "generatorOpens": 292,
-      "generatorCompletions": 193,
+      "generatorCompletions": 194,
       "uniqueVisitorsApprox": 431,
-      "conversionRate": 66.1
+      "conversionRate": 66.4
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 155,
+      "badgesIssued": 156,
       "badgeViews": 130,
-      "certificateDownloads": 155,
+      "certificateDownloads": 156,
       "generatorOpens": 202,
-      "generatorCompletions": 155,
-      "conversionRate": 76.7
+      "generatorCompletions": 156,
+      "conversionRate": 77.2
     },
     {
       "id": "fhtc-e-badge",
@@ -2499,6 +2499,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "mia-montano-career-activated-csuncc-20260916-0017",
+      "badgeId": "CSUNCC-20260916-0017",
+      "awardeeName": "Mia Montano",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/mia-montano-career-activated-csuncc-20260916-0017/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -2902,8 +2914,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 202,
-      "completions": 154,
-      "conversionRate": 76.2
+      "completions": 155,
+      "conversionRate": 76.7
     },
     {
       "key": "general",
@@ -4016,6 +4028,12 @@
     },
     {
       "awardeeName": "Karla Ibarra Rodriguez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Mia Montano",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

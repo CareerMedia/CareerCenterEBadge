@@ -49997,27 +49997,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "5eb293d4-94e4-4531-ab75-98b85737b32c",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-17T02:21:58.380Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0017",
-      "badgeSlug": "mia-montano-career-activated-csuncc-20260916-0017",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Mia Montano",
-      "publicUrl": "https://careerbadge.csun.edu/badges/mia-montano-career-activated-csuncc-20260916-0017/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "5b7e7649213101d12bdf0871",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -50492,11 +50471,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-17T02:21:58.392Z",
+    "updatedAt": "2026-09-17T02:21:52.877Z",
     "totals": {
       "badgesIssued": 230,
       "badgeViews": 466,
-      "certificateDownloads": 168,
+      "certificateDownloads": 167,
       "generatorOpens": 292,
       "generatorCompletions": 194,
       "conversionRate": 66.4,
@@ -50563,7 +50542,7 @@
         "label": "Sep 2026",
         "badgesIssued": 148,
         "badgeViews": 137,
-        "certificateDownloads": 153,
+        "certificateDownloads": 152,
         "generatorOpens": 179,
         "generatorCompletions": 148,
         "uniqueVisitorsApprox": 200,
@@ -50576,7 +50555,7 @@
         "label": "2026",
         "badgesIssued": 230,
         "badgeViews": 466,
-        "certificateDownloads": 168,
+        "certificateDownloads": 167,
         "generatorOpens": 292,
         "generatorCompletions": 194,
         "uniqueVisitorsApprox": 431,
@@ -50599,7 +50578,7 @@
         "title": "Career Activated",
         "badgesIssued": 156,
         "badgeViews": 130,
-        "certificateDownloads": 156,
+        "certificateDownloads": 155,
         "generatorOpens": 202,
         "generatorCompletions": 156,
         "conversionRate": 77.2
@@ -52991,18 +52970,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "mia-montano-career-activated-csuncc-20260916-0017",
-        "badgeId": "CSUNCC-20260916-0017",
-        "awardeeName": "Mia Montano",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/mia-montano-career-activated-csuncc-20260916-0017/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -53393,6 +53360,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/ariel-gray-career-activated-csuncc-20260915-0026/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "mia-montano-career-activated-csuncc-20260916-0017",
+        "badgeId": "CSUNCC-20260916-0017",
+        "awardeeName": "Mia Montano",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/mia-montano-career-activated-csuncc-20260916-0017/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -54525,12 +54504,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Mia Montano",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -54628,6 +54601,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Mia Montano",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
