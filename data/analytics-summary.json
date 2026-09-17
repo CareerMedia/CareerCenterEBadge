@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T02:49:22.835Z",
+  "updatedAt": "2026-09-17T02:53:36.712Z",
   "totals": {
-    "badgesIssued": 230,
-    "badgeViews": 466,
+    "badgesIssued": 231,
+    "badgeViews": 468,
     "certificateDownloads": 168,
     "generatorOpens": 293,
-    "generatorCompletions": 194,
-    "conversionRate": 66.2,
-    "uniqueVisitorsApprox": 432
+    "generatorCompletions": 195,
+    "conversionRate": 66.6,
+    "uniqueVisitorsApprox": 433
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 148,
-      "badgeViews": 137,
+      "badgesIssued": 149,
+      "badgeViews": 139,
       "certificateDownloads": 153,
       "generatorOpens": 180,
-      "generatorCompletions": 148,
-      "uniqueVisitorsApprox": 201,
-      "conversionRate": 82.2
+      "generatorCompletions": 149,
+      "uniqueVisitorsApprox": 202,
+      "conversionRate": 82.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 230,
-      "badgeViews": 466,
+      "badgesIssued": 231,
+      "badgeViews": 468,
       "certificateDownloads": 168,
       "generatorOpens": 293,
-      "generatorCompletions": 194,
-      "uniqueVisitorsApprox": 432,
-      "conversionRate": 66.2
+      "generatorCompletions": 195,
+      "uniqueVisitorsApprox": 433,
+      "conversionRate": 66.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 156,
-      "badgeViews": 130,
+      "badgesIssued": 157,
+      "badgeViews": 132,
       "certificateDownloads": 156,
       "generatorOpens": 203,
-      "generatorCompletions": 156,
-      "conversionRate": 76.8
+      "generatorCompletions": 157,
+      "conversionRate": 77.3
     },
     {
       "id": "fhtc-e-badge",
@@ -1033,6 +1033,18 @@
       "badgeViews": 2,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-09-16T23:49:43.146Z"
+    },
+    {
+      "slug": "edgar-martel-career-activated-csuncc-20260916-0018",
+      "badgeId": "CSUNCC-20260916-0018",
+      "awardeeName": "Edgar Martel",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/edgar-martel-career-activated-csuncc-20260916-0018/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-17T02:53:36.567Z"
     },
     {
       "slug": "michael-hobbs-career-activated-csuncc-20260914-0015",
@@ -2914,8 +2926,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 203,
-      "completions": 155,
-      "conversionRate": 76.4
+      "completions": 156,
+      "conversionRate": 76.8
     },
     {
       "key": "general",
@@ -3572,6 +3584,12 @@
     },
     {
       "awardeeName": "Kevin Garcia",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Edgar Martel",
       "badgesIssued": 1,
       "badgeViews": 2,
       "certificateDownloads": 0
