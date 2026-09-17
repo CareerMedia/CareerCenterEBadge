@@ -51044,69 +51044,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "adba0eb6-3c23-4779-bb25-10faadebc12b",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T06:41:02.200Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0023",
-      "badgeSlug": "shaylin-parker-career-activated-csuncc-20260916-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Shaylin Parker",
-      "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d33558e98732a9a97cad1f71",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "008fccfe-8eff-4187-b184-42120f144360",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-17T06:41:21.795Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0023",
-      "badgeSlug": "shaylin-parker-career-activated-csuncc-20260916-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Shaylin Parker",
-      "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d33558e98732a9a97cad1f71",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "4759a598-2cb6-498d-8ed9-aabb8776f7a9",
-      "type": "generator_opened",
-      "timestamp": "2026-09-17T06:41:58.906Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "d33558e98732a9a97cad1f71",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -51581,14 +51518,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-17T06:41:58.990Z",
+    "updatedAt": "2026-09-17T06:40:57.290Z",
     "totals": {
       "badgesIssued": 236,
-      "badgeViews": 470,
-      "certificateDownloads": 170,
-      "generatorOpens": 299,
+      "badgeViews": 469,
+      "certificateDownloads": 169,
+      "generatorOpens": 298,
       "generatorCompletions": 200,
-      "conversionRate": 66.9,
+      "conversionRate": 67.1,
       "uniqueVisitorsApprox": 437
     },
     "months": [
@@ -51651,12 +51588,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 154,
-        "badgeViews": 141,
-        "certificateDownloads": 155,
-        "generatorOpens": 186,
+        "badgeViews": 140,
+        "certificateDownloads": 154,
+        "generatorOpens": 185,
         "generatorCompletions": 154,
         "uniqueVisitorsApprox": 206,
-        "conversionRate": 82.8
+        "conversionRate": 83.2
       }
     ],
     "years": [
@@ -51664,12 +51601,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 236,
-        "badgeViews": 470,
-        "certificateDownloads": 170,
-        "generatorOpens": 299,
+        "badgeViews": 469,
+        "certificateDownloads": 169,
+        "generatorOpens": 298,
         "generatorCompletions": 200,
         "uniqueVisitorsApprox": 437,
-        "conversionRate": 66.9
+        "conversionRate": 67.1
       }
     ],
     "badgeTypes": [
@@ -51687,11 +51624,11 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 162,
-        "badgeViews": 134,
-        "certificateDownloads": 158,
-        "generatorOpens": 209,
+        "badgeViews": 133,
+        "certificateDownloads": 157,
+        "generatorOpens": 208,
         "generatorCompletions": 162,
-        "conversionRate": 77.5
+        "conversionRate": 77.9
       },
       {
         "id": "fhtc-e-badge",
@@ -53034,18 +52971,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-16T23:46:23.914Z"
-      },
-      {
-        "slug": "shaylin-parker-career-activated-csuncc-20260916-0023",
-        "badgeId": "CSUNCC-20260916-0023",
-        "awardeeName": "Shaylin Parker",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-17T06:41:02.200Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -54558,6 +54483,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "shaylin-parker-career-activated-csuncc-20260916-0023",
+        "badgeId": "CSUNCC-20260916-0023",
+        "awardeeName": "Shaylin Parker",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -54566,9 +54503,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 209,
+        "opens": 208,
         "completions": 161,
-        "conversionRate": 77
+        "conversionRate": 77.4
       },
       {
         "key": "general",
@@ -54981,12 +54918,6 @@
         "awardeeName": "Edgar Martel",
         "badgesIssued": 1,
         "badgeViews": 2,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Shaylin Parker",
-        "badgesIssued": 2,
-        "badgeViews": 1,
         "certificateDownloads": 1
       },
       {
@@ -55702,6 +55633,12 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 1
+      },
+      {
+        "awardeeName": "Shaylin Parker",
+        "badgesIssued": 2,
+        "badgeViews": 0,
+        "certificateDownloads": 0
       },
       {
         "awardeeName": "Kaleena Rice",

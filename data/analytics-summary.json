@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T05:57:47.089Z",
+  "updatedAt": "2026-09-17T06:41:58.990Z",
   "totals": {
-    "badgesIssued": 233,
-    "badgeViews": 468,
-    "certificateDownloads": 169,
-    "generatorOpens": 295,
-    "generatorCompletions": 197,
-    "conversionRate": 66.8,
-    "uniqueVisitorsApprox": 435
+    "badgesIssued": 236,
+    "badgeViews": 470,
+    "certificateDownloads": 170,
+    "generatorOpens": 299,
+    "generatorCompletions": 200,
+    "conversionRate": 66.9,
+    "uniqueVisitorsApprox": 437
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 151,
-      "badgeViews": 139,
-      "certificateDownloads": 154,
-      "generatorOpens": 182,
-      "generatorCompletions": 151,
-      "uniqueVisitorsApprox": 204,
-      "conversionRate": 83
+      "badgesIssued": 154,
+      "badgeViews": 141,
+      "certificateDownloads": 155,
+      "generatorOpens": 186,
+      "generatorCompletions": 154,
+      "uniqueVisitorsApprox": 206,
+      "conversionRate": 82.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 233,
-      "badgeViews": 468,
-      "certificateDownloads": 169,
-      "generatorOpens": 295,
-      "generatorCompletions": 197,
-      "uniqueVisitorsApprox": 435,
-      "conversionRate": 66.8
+      "badgesIssued": 236,
+      "badgeViews": 470,
+      "certificateDownloads": 170,
+      "generatorOpens": 299,
+      "generatorCompletions": 200,
+      "uniqueVisitorsApprox": 437,
+      "conversionRate": 66.9
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 159,
-      "badgeViews": 132,
-      "certificateDownloads": 157,
-      "generatorOpens": 205,
-      "generatorCompletions": 159,
-      "conversionRate": 77.6
+      "badgesIssued": 162,
+      "badgeViews": 134,
+      "certificateDownloads": 158,
+      "generatorOpens": 209,
+      "generatorCompletions": 162,
+      "conversionRate": 77.5
     },
     {
       "id": "fhtc-e-badge",
@@ -1455,6 +1455,18 @@
       "latestViewedAt": "2026-09-16T23:46:23.914Z"
     },
     {
+      "slug": "shaylin-parker-career-activated-csuncc-20260916-0023",
+      "badgeId": "CSUNCC-20260916-0023",
+      "awardeeName": "Shaylin Parker",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-17T06:41:02.200Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -1669,6 +1681,18 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-09-16T21:39:31.140Z"
+    },
+    {
+      "slug": "kaleena-rice-career-activated-csuncc-20260916-0022",
+      "badgeId": "CSUNCC-20260916-0022",
+      "awardeeName": "Kaleena Rice",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/kaleena-rice-career-activated-csuncc-20260916-0022/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-17T06:40:30.478Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -2941,6 +2965,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "shaylin-parker-career-activated-csuncc-20260916-0021",
+      "badgeId": "CSUNCC-20260916-0021",
+      "awardeeName": "Shaylin Parker",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0021/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -2949,9 +2985,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 205,
-      "completions": 158,
-      "conversionRate": 77.1
+      "opens": 209,
+      "completions": 161,
+      "conversionRate": 77
     },
     {
       "key": "general",
@@ -3364,6 +3400,12 @@
       "awardeeName": "Edgar Martel",
       "badgesIssued": 1,
       "badgeViews": 2,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Shaylin Parker",
+      "badgesIssued": 2,
+      "badgeViews": 1,
       "certificateDownloads": 1
     },
     {
@@ -4079,6 +4121,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Kaleena Rice",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",

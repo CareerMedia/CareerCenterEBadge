@@ -21680,100 +21680,6 @@
       "openBadgeJsonPath": "docs/badges/kaleena-rice-career-activated-csuncc-20260916-0022/open-badge.json",
       "verifiableCredentialPath": "docs/badges/kaleena-rice-career-activated-csuncc-20260916-0022/credential.json",
       "verificationHash": "7716911cd7efb78ebd15b140e7688f8a0c65563505681107c636fe176840261b"
-    },
-    {
-      "id": "CSUNCC-20260916-0023",
-      "awardeeName": "Shaylin Parker",
-      "awardeeEmail": "shaylin.parker.037@my.csun.edu",
-      "issueDate": "September 16, 2026",
-      "issueDateISO": "2026-09-16",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-17T06:40:55.889Z",
-      "source": "public-generator",
-      "slug": "shaylin-parker-career-activated-csuncc-20260916-0023",
-      "relativeUrl": "../badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-      "relativeJsonUrl": "../badges/shaylin-parker-career-activated-csuncc-20260916-0023/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-      "repoPath": "docs/badges/shaylin-parker-career-activated-csuncc-20260916-0023/index.html",
-      "detailsJsonPath": "docs/badges/shaylin-parker-career-activated-csuncc-20260916-0023/details.json",
-      "openBadgeJsonPath": "docs/badges/shaylin-parker-career-activated-csuncc-20260916-0023/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/shaylin-parker-career-activated-csuncc-20260916-0023/credential.json",
-      "verificationHash": "5238ce33c96dc0c33e7854ea1740c2d712ac6ead36c18106aa9a20e9adda9658"
     }
   ],
   "deletedBadges": [
@@ -50960,153 +50866,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "661eebc1-56c3-4ea8-8ad1-84935eea1fb1",
-      "type": "generator_opened",
-      "timestamp": "2026-09-17T06:40:18.260Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "d33558e98732a9a97cad1f71",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "6f7ebcf6-5288-4037-9c3f-b7c94f7ff81e",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T06:40:30.478Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0022",
-      "badgeSlug": "kaleena-rice-career-activated-csuncc-20260916-0022",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kaleena Rice",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kaleena-rice-career-activated-csuncc-20260916-0022/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "24be1a4c05f1b118efb83833",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "80840dc6-695e-4f1a-bc53-68a0f2898bad",
-      "type": "badge_issued",
-      "timestamp": "2026-09-17T06:40:55.889Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0023",
-      "badgeSlug": "shaylin-parker-career-activated-csuncc-20260916-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Shaylin Parker",
-      "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "3de15274-77d6-494e-b651-e812e3441610",
-      "type": "generator_completed",
-      "timestamp": "2026-09-17T06:40:57.191Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0023",
-      "badgeSlug": "shaylin-parker-career-activated-csuncc-20260916-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Shaylin Parker",
-      "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "adba0eb6-3c23-4779-bb25-10faadebc12b",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T06:41:02.200Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0023",
-      "badgeSlug": "shaylin-parker-career-activated-csuncc-20260916-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Shaylin Parker",
-      "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d33558e98732a9a97cad1f71",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "008fccfe-8eff-4187-b184-42120f144360",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-17T06:41:21.795Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0023",
-      "badgeSlug": "shaylin-parker-career-activated-csuncc-20260916-0023",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Shaylin Parker",
-      "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d33558e98732a9a97cad1f71",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "4759a598-2cb6-498d-8ed9-aabb8776f7a9",
-      "type": "generator_opened",
-      "timestamp": "2026-09-17T06:41:58.906Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "d33558e98732a9a97cad1f71",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -51581,14 +51340,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-17T06:41:58.990Z",
+    "updatedAt": "2026-09-17T06:40:16.189Z",
     "totals": {
-      "badgesIssued": 236,
-      "badgeViews": 470,
-      "certificateDownloads": 170,
-      "generatorOpens": 299,
-      "generatorCompletions": 200,
-      "conversionRate": 66.9,
+      "badgesIssued": 235,
+      "badgeViews": 468,
+      "certificateDownloads": 169,
+      "generatorOpens": 297,
+      "generatorCompletions": 199,
+      "conversionRate": 67,
       "uniqueVisitorsApprox": 437
     },
     "months": [
@@ -51650,26 +51409,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 154,
-        "badgeViews": 141,
-        "certificateDownloads": 155,
-        "generatorOpens": 186,
-        "generatorCompletions": 154,
+        "badgesIssued": 153,
+        "badgeViews": 139,
+        "certificateDownloads": 154,
+        "generatorOpens": 184,
+        "generatorCompletions": 153,
         "uniqueVisitorsApprox": 206,
-        "conversionRate": 82.8
+        "conversionRate": 83.2
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 236,
-        "badgeViews": 470,
-        "certificateDownloads": 170,
-        "generatorOpens": 299,
-        "generatorCompletions": 200,
+        "badgesIssued": 235,
+        "badgeViews": 468,
+        "certificateDownloads": 169,
+        "generatorOpens": 297,
+        "generatorCompletions": 199,
         "uniqueVisitorsApprox": 437,
-        "conversionRate": 66.9
+        "conversionRate": 67
       }
     ],
     "badgeTypes": [
@@ -51686,12 +51445,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 162,
-        "badgeViews": 134,
-        "certificateDownloads": 158,
-        "generatorOpens": 209,
-        "generatorCompletions": 162,
-        "conversionRate": 77.5
+        "badgesIssued": 161,
+        "badgeViews": 132,
+        "certificateDownloads": 157,
+        "generatorOpens": 207,
+        "generatorCompletions": 161,
+        "conversionRate": 77.8
       },
       {
         "id": "fhtc-e-badge",
@@ -53036,18 +52795,6 @@
         "latestViewedAt": "2026-09-16T23:46:23.914Z"
       },
       {
-        "slug": "shaylin-parker-career-activated-csuncc-20260916-0023",
-        "badgeId": "CSUNCC-20260916-0023",
-        "awardeeName": "Shaylin Parker",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/shaylin-parker-career-activated-csuncc-20260916-0023/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-17T06:41:02.200Z"
-      },
-      {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
         "badgeId": "CSUNCC-20260408-0005",
         "awardeeName": "Ricardo Vargas",
@@ -53262,18 +53009,6 @@
         "badgeViews": 1,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-09-16T21:39:31.140Z"
-      },
-      {
-        "slug": "kaleena-rice-career-activated-csuncc-20260916-0022",
-        "badgeId": "CSUNCC-20260916-0022",
-        "awardeeName": "Kaleena Rice",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/kaleena-rice-career-activated-csuncc-20260916-0022/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-17T06:40:30.478Z"
       },
       {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -54558,6 +54293,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "kaleena-rice-career-activated-csuncc-20260916-0022",
+        "badgeId": "CSUNCC-20260916-0022",
+        "awardeeName": "Kaleena Rice",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/kaleena-rice-career-activated-csuncc-20260916-0022/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -54566,9 +54313,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 209,
-        "completions": 161,
-        "conversionRate": 77
+        "opens": 207,
+        "completions": 160,
+        "conversionRate": 77.3
       },
       {
         "key": "general",
@@ -54981,12 +54728,6 @@
         "awardeeName": "Edgar Martel",
         "badgesIssued": 1,
         "badgeViews": 2,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Shaylin Parker",
-        "badgesIssued": 2,
-        "badgeViews": 1,
         "certificateDownloads": 1
       },
       {
@@ -55704,12 +55445,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Kaleena Rice",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -55819,6 +55554,18 @@
       },
       {
         "awardeeName": "Zenith Cooper",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Shaylin Parker",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Kaleena Rice",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
