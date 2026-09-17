@@ -49452,90 +49452,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "07ab810c-498a-4557-a79d-429fbee8f819",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T00:58:51.235Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0015",
-      "badgeSlug": "jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jeferi De Jesus Tovar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "01bcaac12c0d6c4503a63f7e",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "2b1c4702-eb20-4e8c-9074-f28f41a4ff14",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-17T00:59:00.276Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0015",
-      "badgeSlug": "jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jeferi De Jesus Tovar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "01bcaac12c0d6c4503a63f7e",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "967a5af4-6b08-431f-ba59-9354d80189c0",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T00:59:14.402Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0015",
-      "badgeSlug": "jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jeferi De Jesus Tovar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "01cf0efce7df9fd8cc23c69d",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "b2de7fe8-19d0-42b8-b51b-18a75cbe0865",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T01:00:23.062Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260916-0015",
-      "badgeSlug": "jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Jeferi De Jesus Tovar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "46d0a9a56d8dd49e9fe57edf",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -50010,15 +49926,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-17T01:00:23.073Z",
+    "updatedAt": "2026-09-17T00:58:42.111Z",
     "totals": {
       "badgesIssued": 228,
-      "badgeViews": 465,
-      "certificateDownloads": 161,
+      "badgeViews": 462,
+      "certificateDownloads": 160,
       "generatorOpens": 290,
       "generatorCompletions": 192,
       "conversionRate": 66.2,
-      "uniqueVisitorsApprox": 429
+      "uniqueVisitorsApprox": 427
     },
     "months": [
       {
@@ -50080,11 +49996,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 146,
-        "badgeViews": 136,
-        "certificateDownloads": 146,
+        "badgeViews": 133,
+        "certificateDownloads": 145,
         "generatorOpens": 177,
         "generatorCompletions": 146,
-        "uniqueVisitorsApprox": 198,
+        "uniqueVisitorsApprox": 196,
         "conversionRate": 82.5
       }
     ],
@@ -50093,11 +50009,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 228,
-        "badgeViews": 465,
-        "certificateDownloads": 161,
+        "badgeViews": 462,
+        "certificateDownloads": 160,
         "generatorOpens": 290,
         "generatorCompletions": 192,
-        "uniqueVisitorsApprox": 429,
+        "uniqueVisitorsApprox": 427,
         "conversionRate": 66.2
       }
     ],
@@ -50116,8 +50032,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 154,
-        "badgeViews": 129,
-        "certificateDownloads": 149,
+        "badgeViews": 126,
+        "certificateDownloads": 148,
         "generatorOpens": 200,
         "generatorCompletions": 154,
         "conversionRate": 77
@@ -50671,18 +50587,6 @@
         "badgeViews": 3,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-16T17:56:54.781Z"
-      },
-      {
-        "slug": "jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015",
-        "badgeId": "CSUNCC-20260916-0015",
-        "awardeeName": "Jeferi De Jesus Tovar",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-17T01:00:23.062Z"
       },
       {
         "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
@@ -52891,6 +52795,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015",
+        "badgeId": "CSUNCC-20260916-0015",
+        "awardeeName": "Jeferi De Jesus Tovar",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/jeferi-de-jesus-tovar-career-activated-csuncc-20260916-0015/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -53216,12 +53132,6 @@
       },
       {
         "awardeeName": "Onyinyechi Osuji",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Jeferi De Jesus Tovar",
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 1
@@ -54110,6 +54020,12 @@
       },
       {
         "awardeeName": "Ariel Gray",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Jeferi De Jesus Tovar",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
