@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T08:45:56.299Z",
+  "updatedAt": "2026-09-17T13:27:37.028Z",
   "totals": {
-    "badgesIssued": 238,
-    "badgeViews": 471,
+    "badgesIssued": 239,
+    "badgeViews": 474,
     "certificateDownloads": 172,
-    "generatorOpens": 302,
-    "generatorCompletions": 202,
-    "conversionRate": 66.9,
-    "uniqueVisitorsApprox": 439
+    "generatorOpens": 303,
+    "generatorCompletions": 203,
+    "conversionRate": 67,
+    "uniqueVisitorsApprox": 443
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 156,
-      "badgeViews": 142,
+      "badgesIssued": 157,
+      "badgeViews": 145,
       "certificateDownloads": 157,
-      "generatorOpens": 189,
-      "generatorCompletions": 156,
-      "uniqueVisitorsApprox": 208,
-      "conversionRate": 82.5
+      "generatorOpens": 190,
+      "generatorCompletions": 157,
+      "uniqueVisitorsApprox": 212,
+      "conversionRate": 82.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 238,
-      "badgeViews": 471,
+      "badgesIssued": 239,
+      "badgeViews": 474,
       "certificateDownloads": 172,
-      "generatorOpens": 302,
-      "generatorCompletions": 202,
-      "uniqueVisitorsApprox": 439,
-      "conversionRate": 66.9
+      "generatorOpens": 303,
+      "generatorCompletions": 203,
+      "uniqueVisitorsApprox": 443,
+      "conversionRate": 67
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 164,
-      "badgeViews": 135,
+      "badgesIssued": 165,
+      "badgeViews": 138,
       "certificateDownloads": 160,
-      "generatorOpens": 212,
-      "generatorCompletions": 164,
-      "conversionRate": 77.4
+      "generatorOpens": 213,
+      "generatorCompletions": 165,
+      "conversionRate": 77.5
     },
     {
       "id": "fhtc-e-badge",
@@ -781,6 +781,18 @@
       "badgeViews": 3,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-09-16T18:03:06.496Z"
+    },
+    {
+      "slug": "yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003",
+      "badgeId": "CSUNCC-20260917-0003",
+      "awardeeName": "Yaritza Nayeli ortiz",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-17T13:27:37.011Z"
     },
     {
       "slug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
@@ -3009,9 +3021,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 212,
-      "completions": 163,
-      "conversionRate": 76.9
+      "opens": 213,
+      "completions": 164,
+      "conversionRate": 77
     },
     {
       "key": "general",
@@ -3437,6 +3449,12 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Yaritza Nayeli ortiz",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Jane Doe",

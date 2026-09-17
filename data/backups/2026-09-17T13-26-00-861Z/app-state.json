@@ -51662,69 +51662,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "05fadb47-4e79-4ac5-9596-d9534c446511",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T13:26:43.605Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260917-0003",
-      "badgeSlug": "yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Yaritza Nayeli ortiz",
-      "publicUrl": "https://careerbadge.csun.edu/badges/yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "364d6d92303dbef93e6b98f4",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "4569e5da-3f48-40ab-82a1-d30bc061d935",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T13:26:49.561Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260917-0003",
-      "badgeSlug": "yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Yaritza Nayeli ortiz",
-      "publicUrl": "https://careerbadge.csun.edu/badges/yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "d89f6528297101bc86b12577",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "9dc90f0a-9fd4-46fa-829c-c4ef9aadebd0",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T13:27:37.011Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260917-0003",
-      "badgeSlug": "yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Yaritza Nayeli ortiz",
-      "publicUrl": "https://careerbadge.csun.edu/badges/yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "58050e6aaa7e6c6065201cdd",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -52199,15 +52136,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-17T13:27:37.028Z",
+    "updatedAt": "2026-09-17T13:25:59.368Z",
     "totals": {
       "badgesIssued": 239,
-      "badgeViews": 474,
+      "badgeViews": 471,
       "certificateDownloads": 172,
       "generatorOpens": 303,
       "generatorCompletions": 203,
       "conversionRate": 67,
-      "uniqueVisitorsApprox": 443
+      "uniqueVisitorsApprox": 440
     },
     "months": [
       {
@@ -52269,11 +52206,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 157,
-        "badgeViews": 145,
+        "badgeViews": 142,
         "certificateDownloads": 157,
         "generatorOpens": 190,
         "generatorCompletions": 157,
-        "uniqueVisitorsApprox": 212,
+        "uniqueVisitorsApprox": 209,
         "conversionRate": 82.6
       }
     ],
@@ -52282,11 +52219,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 239,
-        "badgeViews": 474,
+        "badgeViews": 471,
         "certificateDownloads": 172,
         "generatorOpens": 303,
         "generatorCompletions": 203,
-        "uniqueVisitorsApprox": 443,
+        "uniqueVisitorsApprox": 440,
         "conversionRate": 67
       }
     ],
@@ -52305,7 +52242,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 165,
-        "badgeViews": 138,
+        "badgeViews": 135,
         "certificateDownloads": 160,
         "generatorOpens": 213,
         "generatorCompletions": 165,
@@ -52980,18 +52917,6 @@
         "badgeViews": 3,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-09-16T18:03:06.496Z"
-      },
-      {
-        "slug": "yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003",
-        "badgeId": "CSUNCC-20260917-0003",
-        "awardeeName": "Yaritza Nayeli ortiz",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-17T13:27:37.011Z"
       },
       {
         "slug": "gabrielle-richard-career-activated-csuncc-20260915-0031",
@@ -55212,6 +55137,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003",
+        "badgeId": "CSUNCC-20260917-0003",
+        "awardeeName": "Yaritza Nayeli ortiz",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/yaritza-nayeli-ortiz-career-activated-csuncc-20260917-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -55648,12 +55585,6 @@
         "badgesIssued": 1,
         "badgeViews": 1,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Yaritza Nayeli ortiz",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 0
       },
       {
         "awardeeName": "Jane Doe",
@@ -56491,6 +56422,12 @@
       },
       {
         "awardeeName": "Makhai Jensen",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Yaritza Nayeli ortiz",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
