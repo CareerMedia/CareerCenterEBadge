@@ -50217,6 +50217,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "ab90e6f1-34d5-4657-8c42-a634e8534495",
+      "type": "certificate_downloaded",
+      "timestamp": "2026-09-17T02:57:04.459Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260916-0018",
+      "badgeSlug": "edgar-martel-career-activated-csuncc-20260916-0018",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Edgar Martel",
+      "publicUrl": "https://careerbadge.csun.edu/badges/edgar-martel-career-activated-csuncc-20260916-0018/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "4093b9374083a7019f19b591",
+      "requestPath": "/api/analytics/track",
+      "context": "badge-certificate-download",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -50691,11 +50712,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-17T02:53:36.712Z",
+    "updatedAt": "2026-09-17T02:57:04.523Z",
     "totals": {
       "badgesIssued": 231,
       "badgeViews": 468,
-      "certificateDownloads": 168,
+      "certificateDownloads": 169,
       "generatorOpens": 293,
       "generatorCompletions": 195,
       "conversionRate": 66.6,
@@ -50762,7 +50783,7 @@
         "label": "Sep 2026",
         "badgesIssued": 149,
         "badgeViews": 139,
-        "certificateDownloads": 153,
+        "certificateDownloads": 154,
         "generatorOpens": 180,
         "generatorCompletions": 149,
         "uniqueVisitorsApprox": 202,
@@ -50775,7 +50796,7 @@
         "label": "2026",
         "badgesIssued": 231,
         "badgeViews": 468,
-        "certificateDownloads": 168,
+        "certificateDownloads": 169,
         "generatorOpens": 293,
         "generatorCompletions": 195,
         "uniqueVisitorsApprox": 433,
@@ -50798,7 +50819,7 @@
         "title": "Career Activated",
         "badgesIssued": 157,
         "badgeViews": 132,
-        "certificateDownloads": 156,
+        "certificateDownloads": 157,
         "generatorOpens": 203,
         "generatorCompletions": 157,
         "conversionRate": 77.3
@@ -51606,6 +51627,18 @@
         "latestViewedAt": "2026-09-16T17:51:25.350Z"
       },
       {
+        "slug": "edgar-martel-career-activated-csuncc-20260916-0018",
+        "badgeId": "CSUNCC-20260916-0018",
+        "awardeeName": "Edgar Martel",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/edgar-martel-career-activated-csuncc-20260916-0018/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-09-17T02:53:36.567Z"
+      },
+      {
         "slug": "bryce-simon-career-champion-csuncc-20260504-0005",
         "badgeId": "CSUNCC-20260504-0005",
         "awardeeName": "Bryce Simon",
@@ -51724,18 +51757,6 @@
         "badgeViews": 2,
         "certificateDownloads": 0,
         "latestViewedAt": "2026-09-16T23:49:43.146Z"
-      },
-      {
-        "slug": "edgar-martel-career-activated-csuncc-20260916-0018",
-        "badgeId": "CSUNCC-20260916-0018",
-        "awardeeName": "Edgar Martel",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/edgar-martel-career-activated-csuncc-20260916-0018/",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-17T02:53:36.567Z"
       },
       {
         "slug": "michael-hobbs-career-activated-csuncc-20260914-0015",
@@ -54028,6 +54049,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Edgar Martel",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Jane Doe",
         "badgesIssued": 1,
         "badgeViews": 2,
@@ -54275,12 +54302,6 @@
       },
       {
         "awardeeName": "Kevin Garcia",
-        "badgesIssued": 1,
-        "badgeViews": 2,
-        "certificateDownloads": 0
-      },
-      {
-        "awardeeName": "Edgar Martel",
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 0
