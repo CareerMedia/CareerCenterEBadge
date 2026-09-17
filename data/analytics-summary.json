@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T16:24:21.329Z",
+  "updatedAt": "2026-09-17T16:28:22.336Z",
   "totals": {
-    "badgesIssued": 239,
+    "badgesIssued": 240,
     "badgeViews": 474,
     "certificateDownloads": 172,
     "generatorOpens": 304,
-    "generatorCompletions": 203,
-    "conversionRate": 66.8,
+    "generatorCompletions": 204,
+    "conversionRate": 67.1,
     "uniqueVisitorsApprox": 444
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 157,
+      "badgesIssued": 158,
       "badgeViews": 145,
       "certificateDownloads": 157,
       "generatorOpens": 191,
-      "generatorCompletions": 157,
+      "generatorCompletions": 158,
       "uniqueVisitorsApprox": 213,
-      "conversionRate": 82.2
+      "conversionRate": 82.7
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 239,
+      "badgesIssued": 240,
       "badgeViews": 474,
       "certificateDownloads": 172,
       "generatorOpens": 304,
-      "generatorCompletions": 203,
+      "generatorCompletions": 204,
       "uniqueVisitorsApprox": 444,
-      "conversionRate": 66.8
+      "conversionRate": 67.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 165,
+      "badgesIssued": 166,
       "badgeViews": 138,
       "certificateDownloads": 160,
       "generatorOpens": 214,
-      "generatorCompletions": 165,
-      "conversionRate": 77.1
+      "generatorCompletions": 166,
+      "conversionRate": 77.6
     },
     {
       "id": "fhtc-e-badge",
@@ -3013,6 +3013,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "layniya-grimes-career-activated-csuncc-20260917-0004",
+      "badgeId": "CSUNCC-20260917-0004",
+      "awardeeName": "Layniya Grimes",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/layniya-grimes-career-activated-csuncc-20260917-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -3022,8 +3034,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 214,
-      "completions": 164,
-      "conversionRate": 76.6
+      "completions": 165,
+      "conversionRate": 77.1
     },
     {
       "key": "general",
@@ -4292,6 +4304,12 @@
     },
     {
       "awardeeName": "Makhai Jensen",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Layniya Grimes",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
