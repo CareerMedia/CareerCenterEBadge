@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T17:04:55.661Z",
+  "updatedAt": "2026-09-17T17:09:08.452Z",
   "totals": {
-    "badgesIssued": 240,
-    "badgeViews": 474,
-    "certificateDownloads": 172,
-    "generatorOpens": 305,
-    "generatorCompletions": 204,
-    "conversionRate": 66.9,
-    "uniqueVisitorsApprox": 444
+    "badgesIssued": 241,
+    "badgeViews": 475,
+    "certificateDownloads": 174,
+    "generatorOpens": 307,
+    "generatorCompletions": 205,
+    "conversionRate": 66.8,
+    "uniqueVisitorsApprox": 445
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 158,
-      "badgeViews": 145,
-      "certificateDownloads": 157,
-      "generatorOpens": 192,
-      "generatorCompletions": 158,
-      "uniqueVisitorsApprox": 213,
-      "conversionRate": 82.3
+      "badgesIssued": 159,
+      "badgeViews": 146,
+      "certificateDownloads": 159,
+      "generatorOpens": 194,
+      "generatorCompletions": 159,
+      "uniqueVisitorsApprox": 214,
+      "conversionRate": 82
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 240,
-      "badgeViews": 474,
-      "certificateDownloads": 172,
-      "generatorOpens": 305,
-      "generatorCompletions": 204,
-      "uniqueVisitorsApprox": 444,
-      "conversionRate": 66.9
+      "badgesIssued": 241,
+      "badgeViews": 475,
+      "certificateDownloads": 174,
+      "generatorOpens": 307,
+      "generatorCompletions": 205,
+      "uniqueVisitorsApprox": 445,
+      "conversionRate": 66.8
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 166,
-      "badgeViews": 138,
-      "certificateDownloads": 160,
-      "generatorOpens": 215,
-      "generatorCompletions": 166,
-      "conversionRate": 77.2
+      "badgesIssued": 167,
+      "badgeViews": 139,
+      "certificateDownloads": 162,
+      "generatorOpens": 217,
+      "generatorCompletions": 167,
+      "conversionRate": 77
     },
     {
       "id": "fhtc-e-badge",
@@ -1117,6 +1117,18 @@
       "badgeViews": 1,
       "certificateDownloads": 2,
       "latestViewedAt": "2026-09-17T07:09:15.901Z"
+    },
+    {
+      "slug": "ysabella-wagstaff-career-activated-csuncc-20260917-0005",
+      "badgeId": "CSUNCC-20260917-0005",
+      "awardeeName": "Ysabella Wagstaff",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ysabella-wagstaff-career-activated-csuncc-20260917-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 2,
+      "latestViewedAt": "2026-09-17T17:07:41.272Z"
     },
     {
       "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001",
@@ -3033,9 +3045,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 215,
-      "completions": 165,
-      "conversionRate": 76.7
+      "opens": 217,
+      "completions": 166,
+      "conversionRate": 76.5
     },
     {
       "key": "general",
@@ -3467,6 +3479,12 @@
       "badgesIssued": 1,
       "badgeViews": 3,
       "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Ysabella Wagstaff",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 2
     },
     {
       "awardeeName": "Jane Doe",
