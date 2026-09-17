@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T02:57:04.523Z",
+  "updatedAt": "2026-09-17T04:27:25.702Z",
   "totals": {
-    "badgesIssued": 231,
+    "badgesIssued": 232,
     "badgeViews": 468,
     "certificateDownloads": 169,
-    "generatorOpens": 293,
-    "generatorCompletions": 195,
-    "conversionRate": 66.6,
-    "uniqueVisitorsApprox": 433
+    "generatorOpens": 294,
+    "generatorCompletions": 196,
+    "conversionRate": 66.7,
+    "uniqueVisitorsApprox": 434
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 149,
+      "badgesIssued": 150,
       "badgeViews": 139,
       "certificateDownloads": 154,
-      "generatorOpens": 180,
-      "generatorCompletions": 149,
-      "uniqueVisitorsApprox": 202,
-      "conversionRate": 82.8
+      "generatorOpens": 181,
+      "generatorCompletions": 150,
+      "uniqueVisitorsApprox": 203,
+      "conversionRate": 82.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 231,
+      "badgesIssued": 232,
       "badgeViews": 468,
       "certificateDownloads": 169,
-      "generatorOpens": 293,
-      "generatorCompletions": 195,
-      "uniqueVisitorsApprox": 433,
-      "conversionRate": 66.6
+      "generatorOpens": 294,
+      "generatorCompletions": 196,
+      "uniqueVisitorsApprox": 434,
+      "conversionRate": 66.7
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 157,
+      "badgesIssued": 158,
       "badgeViews": 132,
       "certificateDownloads": 157,
-      "generatorOpens": 203,
-      "generatorCompletions": 157,
-      "conversionRate": 77.3
+      "generatorOpens": 204,
+      "generatorCompletions": 158,
+      "conversionRate": 77.5
     },
     {
       "id": "fhtc-e-badge",
@@ -2917,6 +2917,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "natalie-monserrat-sosa-career-activated-csuncc-20260916-0019",
+      "badgeId": "CSUNCC-20260916-0019",
+      "awardeeName": "Natalie Monserrat Sosa",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/natalie-monserrat-sosa-career-activated-csuncc-20260916-0019/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -2925,9 +2937,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 203,
-      "completions": 156,
-      "conversionRate": 76.8
+      "opens": 204,
+      "completions": 157,
+      "conversionRate": 77
     },
     {
       "key": "general",
@@ -4154,6 +4166,12 @@
     },
     {
       "awardeeName": "Ariel Gray",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Natalie Monserrat Sosa",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
