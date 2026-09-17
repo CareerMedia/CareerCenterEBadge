@@ -51264,69 +51264,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "038a5fb8-c7c3-4b52-b865-e4e15741677d",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-17T07:09:15.901Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260917-0001",
-      "badgeSlug": "joelle-long-career-activated-csuncc-20260917-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Joelle Long",
-      "publicUrl": "https://careerbadge.csun.edu/badges/joelle-long-career-activated-csuncc-20260917-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "053b80a05fcf3c38fb6d142b",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "f333fbd1-2af3-491d-bfb0-aa2bc21c9696",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-17T07:10:13.982Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260917-0001",
-      "badgeSlug": "joelle-long-career-activated-csuncc-20260917-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Joelle Long",
-      "publicUrl": "https://careerbadge.csun.edu/badges/joelle-long-career-activated-csuncc-20260917-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "053b80a05fcf3c38fb6d142b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "a69014bd-0e1d-4123-b61e-7857a6d4b7b7",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-17T07:10:49.112Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260917-0001",
-      "badgeSlug": "joelle-long-career-activated-csuncc-20260917-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Joelle Long",
-      "publicUrl": "https://careerbadge.csun.edu/badges/joelle-long-career-activated-csuncc-20260917-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "053b80a05fcf3c38fb6d142b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -51801,11 +51738,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-17T07:10:49.188Z",
+    "updatedAt": "2026-09-17T07:09:08.901Z",
     "totals": {
       "badgesIssued": 237,
-      "badgeViews": 471,
-      "certificateDownloads": 172,
+      "badgeViews": 470,
+      "certificateDownloads": 170,
       "generatorOpens": 300,
       "generatorCompletions": 201,
       "conversionRate": 67,
@@ -51871,8 +51808,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 155,
-        "badgeViews": 142,
-        "certificateDownloads": 157,
+        "badgeViews": 141,
+        "certificateDownloads": 155,
         "generatorOpens": 187,
         "generatorCompletions": 155,
         "uniqueVisitorsApprox": 207,
@@ -51884,8 +51821,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 237,
-        "badgeViews": 471,
-        "certificateDownloads": 172,
+        "badgeViews": 470,
+        "certificateDownloads": 170,
         "generatorOpens": 300,
         "generatorCompletions": 201,
         "uniqueVisitorsApprox": 438,
@@ -51907,8 +51844,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 163,
-        "badgeViews": 135,
-        "certificateDownloads": 160,
+        "badgeViews": 134,
+        "certificateDownloads": 158,
         "generatorOpens": 210,
         "generatorCompletions": 163,
         "conversionRate": 77.6
@@ -52894,18 +52831,6 @@
         "badgeViews": 1,
         "certificateDownloads": 2,
         "latestViewedAt": "2026-09-08T04:56:05.780Z"
-      },
-      {
-        "slug": "joelle-long-career-activated-csuncc-20260917-0001",
-        "badgeId": "CSUNCC-20260917-0001",
-        "awardeeName": "Joelle Long",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/joelle-long-career-activated-csuncc-20260917-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 2,
-        "latestViewedAt": "2026-09-17T07:09:15.901Z"
       },
       {
         "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001",
@@ -54790,6 +54715,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "joelle-long-career-activated-csuncc-20260917-0001",
+        "badgeId": "CSUNCC-20260917-0001",
+        "awardeeName": "Joelle Long",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/joelle-long-career-activated-csuncc-20260917-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -55220,12 +55157,6 @@
         "badgesIssued": 2,
         "badgeViews": 1,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Joelle Long",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 2
       },
       {
         "awardeeName": "Jane Doe",
@@ -56057,6 +55988,12 @@
       },
       {
         "awardeeName": "Zenith Cooper",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Joelle Long",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
