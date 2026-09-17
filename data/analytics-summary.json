@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T07:35:26.258Z",
+  "updatedAt": "2026-09-17T07:35:59.964Z",
   "totals": {
-    "badgesIssued": 237,
+    "badgesIssued": 238,
     "badgeViews": 471,
     "certificateDownloads": 172,
     "generatorOpens": 301,
-    "generatorCompletions": 201,
-    "conversionRate": 66.8,
+    "generatorCompletions": 202,
+    "conversionRate": 67.1,
     "uniqueVisitorsApprox": 439
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 155,
+      "badgesIssued": 156,
       "badgeViews": 142,
       "certificateDownloads": 157,
       "generatorOpens": 188,
-      "generatorCompletions": 155,
+      "generatorCompletions": 156,
       "uniqueVisitorsApprox": 208,
-      "conversionRate": 82.4
+      "conversionRate": 83
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 237,
+      "badgesIssued": 238,
       "badgeViews": 471,
       "certificateDownloads": 172,
       "generatorOpens": 301,
-      "generatorCompletions": 201,
+      "generatorCompletions": 202,
       "uniqueVisitorsApprox": 439,
-      "conversionRate": 66.8
+      "conversionRate": 67.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 163,
+      "badgesIssued": 164,
       "badgeViews": 135,
       "certificateDownloads": 160,
       "generatorOpens": 211,
-      "generatorCompletions": 163,
-      "conversionRate": 77.3
+      "generatorCompletions": 164,
+      "conversionRate": 77.7
     },
     {
       "id": "fhtc-e-badge",
@@ -2989,6 +2989,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "makhai-jensen-career-activated-csuncc-20260917-0002",
+      "badgeId": "CSUNCC-20260917-0002",
+      "awardeeName": "Makhai Jensen",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/makhai-jensen-career-activated-csuncc-20260917-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -2998,8 +3010,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 211,
-      "completions": 162,
-      "conversionRate": 76.8
+      "completions": 163,
+      "conversionRate": 77.3
     },
     {
       "key": "general",
@@ -4256,6 +4268,12 @@
     },
     {
       "awardeeName": "Zenith Cooper",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Makhai Jensen",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
