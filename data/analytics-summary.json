@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-18T00:16:09.983Z",
+  "updatedAt": "2026-09-18T00:18:57.446Z",
   "totals": {
-    "badgesIssued": 241,
+    "badgesIssued": 242,
     "badgeViews": 475,
-    "certificateDownloads": 174,
+    "certificateDownloads": 175,
     "generatorOpens": 308,
-    "generatorCompletions": 205,
-    "conversionRate": 66.6,
+    "generatorCompletions": 206,
+    "conversionRate": 66.9,
     "uniqueVisitorsApprox": 445
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 159,
+      "badgesIssued": 160,
       "badgeViews": 146,
-      "certificateDownloads": 159,
+      "certificateDownloads": 160,
       "generatorOpens": 195,
-      "generatorCompletions": 159,
+      "generatorCompletions": 160,
       "uniqueVisitorsApprox": 214,
-      "conversionRate": 81.5
+      "conversionRate": 82.1
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 241,
+      "badgesIssued": 242,
       "badgeViews": 475,
-      "certificateDownloads": 174,
+      "certificateDownloads": 175,
       "generatorOpens": 308,
-      "generatorCompletions": 205,
+      "generatorCompletions": 206,
       "uniqueVisitorsApprox": 445,
-      "conversionRate": 66.6
+      "conversionRate": 66.9
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 167,
+      "badgesIssued": 168,
       "badgeViews": 139,
-      "certificateDownloads": 162,
+      "certificateDownloads": 163,
       "generatorOpens": 218,
-      "generatorCompletions": 167,
-      "conversionRate": 76.6
+      "generatorCompletions": 168,
+      "conversionRate": 77.1
     },
     {
       "id": "fhtc-e-badge",
@@ -2583,6 +2583,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "kaden-beverly-career-activated-csuncc-20260917-0006",
+      "badgeId": "CSUNCC-20260917-0006",
+      "awardeeName": "Kaden Beverly",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/kaden-beverly-career-activated-csuncc-20260917-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -3046,8 +3058,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 218,
-      "completions": 166,
-      "conversionRate": 76.1
+      "completions": 167,
+      "conversionRate": 76.6
     },
     {
       "key": "general",
@@ -4205,6 +4217,12 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Kaden Beverly",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Harsh Ahir",

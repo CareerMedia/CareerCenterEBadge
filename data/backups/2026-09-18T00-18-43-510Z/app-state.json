@@ -52301,27 +52301,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "5946bf8a-17ed-4147-bd1f-25685b7952d9",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-18T00:18:57.436Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260917-0006",
-      "badgeSlug": "kaden-beverly-career-activated-csuncc-20260917-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Kaden Beverly",
-      "publicUrl": "https://careerbadge.csun.edu/badges/kaden-beverly-career-activated-csuncc-20260917-0006/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "053b80a05fcf3c38fb6d142b",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -52796,11 +52775,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-18T00:18:57.446Z",
+    "updatedAt": "2026-09-18T00:18:42.019Z",
     "totals": {
       "badgesIssued": 242,
       "badgeViews": 475,
-      "certificateDownloads": 175,
+      "certificateDownloads": 174,
       "generatorOpens": 308,
       "generatorCompletions": 206,
       "conversionRate": 66.9,
@@ -52867,7 +52846,7 @@
         "label": "Sep 2026",
         "badgesIssued": 160,
         "badgeViews": 146,
-        "certificateDownloads": 160,
+        "certificateDownloads": 159,
         "generatorOpens": 195,
         "generatorCompletions": 160,
         "uniqueVisitorsApprox": 214,
@@ -52880,7 +52859,7 @@
         "label": "2026",
         "badgesIssued": 242,
         "badgeViews": 475,
-        "certificateDownloads": 175,
+        "certificateDownloads": 174,
         "generatorOpens": 308,
         "generatorCompletions": 206,
         "uniqueVisitorsApprox": 445,
@@ -52903,7 +52882,7 @@
         "title": "Career Activated",
         "badgesIssued": 168,
         "badgeViews": 139,
-        "certificateDownloads": 163,
+        "certificateDownloads": 162,
         "generatorOpens": 218,
         "generatorCompletions": 168,
         "conversionRate": 77.1
@@ -55379,18 +55358,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "kaden-beverly-career-activated-csuncc-20260917-0006",
-        "badgeId": "CSUNCC-20260917-0006",
-        "awardeeName": "Kaden Beverly",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/kaden-beverly-career-activated-csuncc-20260917-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -55841,6 +55808,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/layniya-grimes-career-activated-csuncc-20260917-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "kaden-beverly-career-activated-csuncc-20260917-0006",
+        "badgeId": "CSUNCC-20260917-0006",
+        "awardeeName": "Kaden Beverly",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/kaden-beverly-career-activated-csuncc-20260917-0006/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -57015,12 +56994,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Kaden Beverly",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -57142,6 +57115,12 @@
       },
       {
         "awardeeName": "Layniya Grimes",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Kaden Beverly",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
