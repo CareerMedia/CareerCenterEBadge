@@ -52657,27 +52657,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "c56dabbe-7b07-421c-8f3e-8552015fe476",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-18T20:47:15.673Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260918-0001",
-      "badgeSlug": "cody-cabrera-career-activated-csuncc-20260918-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Cody Cabrera",
-      "publicUrl": "https://careerbadge.csun.edu/badges/cody-cabrera-career-activated-csuncc-20260918-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "cb2bacc13643a7af647e6054",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -53152,10 +53131,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-18T20:47:15.687Z",
+    "updatedAt": "2026-09-18T20:47:04.482Z",
     "totals": {
       "badgesIssued": 244,
-      "badgeViews": 476,
+      "badgeViews": 475,
       "certificateDownloads": 176,
       "generatorOpens": 310,
       "generatorCompletions": 208,
@@ -53222,7 +53201,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 162,
-        "badgeViews": 147,
+        "badgeViews": 146,
         "certificateDownloads": 161,
         "generatorOpens": 197,
         "generatorCompletions": 162,
@@ -53235,7 +53214,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 244,
-        "badgeViews": 476,
+        "badgeViews": 475,
         "certificateDownloads": 176,
         "generatorOpens": 310,
         "generatorCompletions": 208,
@@ -53258,7 +53237,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 170,
-        "badgeViews": 140,
+        "badgeViews": 139,
         "certificateDownloads": 164,
         "generatorOpens": 220,
         "generatorCompletions": 170,
@@ -54883,18 +54862,6 @@
         "latestViewedAt": "2026-09-17T06:40:30.478Z"
       },
       {
-        "slug": "cody-cabrera-career-activated-csuncc-20260918-0001",
-        "badgeId": "CSUNCC-20260918-0001",
-        "awardeeName": "Cody Cabrera",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/cody-cabrera-career-activated-csuncc-20260918-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-18T20:47:15.673Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -56225,6 +56192,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "cody-cabrera-career-activated-csuncc-20260918-0001",
+        "badgeId": "CSUNCC-20260918-0001",
+        "awardeeName": "Cody Cabrera",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/cody-cabrera-career-activated-csuncc-20260918-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -57407,12 +57386,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Cody Cabrera",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -57534,6 +57507,12 @@
       },
       {
         "awardeeName": "Layniya Grimes",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Cody Cabrera",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
