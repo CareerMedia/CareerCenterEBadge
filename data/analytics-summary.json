@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-18T20:47:15.687Z",
+  "updatedAt": "2026-09-18T23:20:18.166Z",
   "totals": {
     "badgesIssued": 244,
-    "badgeViews": 476,
+    "badgeViews": 478,
     "certificateDownloads": 176,
     "generatorOpens": 310,
     "generatorCompletions": 208,
     "conversionRate": 67.1,
-    "uniqueVisitorsApprox": 447
+    "uniqueVisitorsApprox": 449
   },
   "months": [
     {
@@ -70,11 +70,11 @@
       "key": "2026-09",
       "label": "Sep 2026",
       "badgesIssued": 162,
-      "badgeViews": 147,
+      "badgeViews": 149,
       "certificateDownloads": 161,
       "generatorOpens": 197,
       "generatorCompletions": 162,
-      "uniqueVisitorsApprox": 216,
+      "uniqueVisitorsApprox": 218,
       "conversionRate": 82.2
     }
   ],
@@ -83,11 +83,11 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 244,
-      "badgeViews": 476,
+      "badgeViews": 478,
       "certificateDownloads": 176,
       "generatorOpens": 310,
       "generatorCompletions": 208,
-      "uniqueVisitorsApprox": 447,
+      "uniqueVisitorsApprox": 449,
       "conversionRate": 67.1
     }
   ],
@@ -96,7 +96,7 @@
       "id": "career-champion",
       "title": "Career Champion",
       "badgesIssued": 70,
-      "badgeViews": 325,
+      "badgeViews": 327,
       "certificateDownloads": 10,
       "generatorOpens": 34,
       "generatorCompletions": 34,
@@ -135,6 +135,18 @@
   ],
   "badgePages": [
     {
+      "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
+      "badgeId": "CSUNCC-20260512-0005",
+      "awardeeName": "Ernesto Cruz",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 38,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-18T23:20:17.973Z"
+    },
+    {
       "slug": "minley-moradian-career-champion-csuncc-20260526-0001",
       "badgeId": "CSUNCC-20260526-0001",
       "awardeeName": "Minley Moradian",
@@ -145,18 +157,6 @@
       "badgeViews": 36,
       "certificateDownloads": 2,
       "latestViewedAt": "2026-09-03T22:54:05.822Z"
-    },
-    {
-      "slug": "ernesto-cruz-career-champion-csuncc-20260512-0005",
-      "badgeId": "CSUNCC-20260512-0005",
-      "awardeeName": "Ernesto Cruz",
-      "badgeTitle": "Career Champion",
-      "badgeTemplateId": "career-champion",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ernesto-cruz-career-champion-csuncc-20260512-0005/",
-      "badgesIssued": 1,
-      "badgeViews": 36,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-09-15T03:08:18.344Z"
     },
     {
       "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
@@ -3121,16 +3121,16 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Ernesto Cruz",
+      "badgesIssued": 1,
+      "badgeViews": 38,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Minley Moradian",
       "badgesIssued": 1,
       "badgeViews": 36,
       "certificateDownloads": 2
-    },
-    {
-      "awardeeName": "Ernesto Cruz",
-      "badgesIssued": 1,
-      "badgeViews": 36,
-      "certificateDownloads": 0
     },
     {
       "awardeeName": "Hector Carrillo",
