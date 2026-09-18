@@ -52479,27 +52479,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "6b2e5ebe-b0e6-498c-84e6-b17a57b34a02",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-18T05:23:54.338Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260917-0007",
-      "badgeSlug": "sean-christopher-career-activated-csuncc-20260917-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Sean Christopher",
-      "publicUrl": "https://careerbadge.csun.edu/badges/sean-christopher-career-activated-csuncc-20260917-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "dee9cc6d8fa72e172f862da1",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -52974,11 +52953,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-18T05:23:54.393Z",
+    "updatedAt": "2026-09-18T05:23:49.595Z",
     "totals": {
       "badgesIssued": 243,
       "badgeViews": 475,
-      "certificateDownloads": 176,
+      "certificateDownloads": 175,
       "generatorOpens": 309,
       "generatorCompletions": 207,
       "conversionRate": 67,
@@ -53045,7 +53024,7 @@
         "label": "Sep 2026",
         "badgesIssued": 161,
         "badgeViews": 146,
-        "certificateDownloads": 161,
+        "certificateDownloads": 160,
         "generatorOpens": 196,
         "generatorCompletions": 161,
         "uniqueVisitorsApprox": 215,
@@ -53058,7 +53037,7 @@
         "label": "2026",
         "badgesIssued": 243,
         "badgeViews": 475,
-        "certificateDownloads": 176,
+        "certificateDownloads": 175,
         "generatorOpens": 309,
         "generatorCompletions": 207,
         "uniqueVisitorsApprox": 446,
@@ -53081,7 +53060,7 @@
         "title": "Career Activated",
         "badgesIssued": 169,
         "badgeViews": 139,
-        "certificateDownloads": 164,
+        "certificateDownloads": 163,
         "generatorOpens": 219,
         "generatorCompletions": 169,
         "conversionRate": 77.2
@@ -55569,18 +55548,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "sean-christopher-career-activated-csuncc-20260917-0007",
-        "badgeId": "CSUNCC-20260917-0007",
-        "awardeeName": "Sean Christopher",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/sean-christopher-career-activated-csuncc-20260917-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -56031,6 +55998,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/layniya-grimes-career-activated-csuncc-20260917-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "sean-christopher-career-activated-csuncc-20260917-0007",
+        "badgeId": "CSUNCC-20260917-0007",
+        "awardeeName": "Sean Christopher",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/sean-christopher-career-activated-csuncc-20260917-0007/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -57211,12 +57190,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Sean Christopher",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -57338,6 +57311,12 @@
       },
       {
         "awardeeName": "Layniya Grimes",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Sean Christopher",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
