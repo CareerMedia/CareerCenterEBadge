@@ -52877,48 +52877,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "b67b738c-5e61-4779-af24-ff8fcb550e1e",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-19T21:38:38.665Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260919-0001",
-      "badgeSlug": "daniel-chavez-career-activated-csuncc-20260919-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Daniel Chavez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/daniel-chavez-career-activated-csuncc-20260919-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "066df60289a1c6bfb08ec407",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "fe47e1ba-ee52-4163-94fa-5fcd0e492d11",
-      "type": "generator_opened",
-      "timestamp": "2026-09-19T21:40:26.133Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "dee9cc6d8fa72e172f862da1",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -53393,14 +53351,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-19T21:40:26.276Z",
+    "updatedAt": "2026-09-19T21:38:31.976Z",
     "totals": {
       "badgesIssued": 245,
       "badgeViews": 478,
-      "certificateDownloads": 177,
-      "generatorOpens": 312,
+      "certificateDownloads": 176,
+      "generatorOpens": 311,
       "generatorCompletions": 209,
-      "conversionRate": 67,
+      "conversionRate": 67.2,
       "uniqueVisitorsApprox": 450
     },
     "months": [
@@ -53464,11 +53422,11 @@
         "label": "Sep 2026",
         "badgesIssued": 163,
         "badgeViews": 149,
-        "certificateDownloads": 162,
-        "generatorOpens": 199,
+        "certificateDownloads": 161,
+        "generatorOpens": 198,
         "generatorCompletions": 163,
         "uniqueVisitorsApprox": 219,
-        "conversionRate": 81.9
+        "conversionRate": 82.3
       }
     ],
     "years": [
@@ -53477,11 +53435,11 @@
         "label": "2026",
         "badgesIssued": 245,
         "badgeViews": 478,
-        "certificateDownloads": 177,
-        "generatorOpens": 312,
+        "certificateDownloads": 176,
+        "generatorOpens": 311,
         "generatorCompletions": 209,
         "uniqueVisitorsApprox": 450,
-        "conversionRate": 67
+        "conversionRate": 67.2
       }
     ],
     "badgeTypes": [
@@ -53500,10 +53458,10 @@
         "title": "Career Activated",
         "badgesIssued": 171,
         "badgeViews": 140,
-        "certificateDownloads": 165,
-        "generatorOpens": 222,
+        "certificateDownloads": 164,
+        "generatorOpens": 221,
         "generatorCompletions": 171,
-        "conversionRate": 77
+        "conversionRate": 77.4
       },
       {
         "id": "fhtc-e-badge",
@@ -56012,18 +55970,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "daniel-chavez-career-activated-csuncc-20260919-0001",
-        "badgeId": "CSUNCC-20260919-0001",
-        "awardeeName": "Daniel Chavez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/daniel-chavez-career-activated-csuncc-20260919-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -56478,6 +56424,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "daniel-chavez-career-activated-csuncc-20260919-0001",
+        "badgeId": "CSUNCC-20260919-0001",
+        "awardeeName": "Daniel Chavez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/daniel-chavez-career-activated-csuncc-20260919-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -56486,9 +56444,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 222,
+        "opens": 221,
         "completions": 170,
-        "conversionRate": 76.6
+        "conversionRate": 76.9
       },
       {
         "key": "general",
@@ -57666,12 +57624,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Daniel Chavez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -57793,6 +57745,12 @@
       },
       {
         "awardeeName": "Layniya Grimes",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Daniel Chavez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

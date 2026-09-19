@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19T21:37:28.871Z",
+  "updatedAt": "2026-09-19T21:40:26.276Z",
   "totals": {
-    "badgesIssued": 244,
+    "badgesIssued": 245,
     "badgeViews": 478,
-    "certificateDownloads": 176,
-    "generatorOpens": 311,
-    "generatorCompletions": 208,
-    "conversionRate": 66.9,
+    "certificateDownloads": 177,
+    "generatorOpens": 312,
+    "generatorCompletions": 209,
+    "conversionRate": 67,
     "uniqueVisitorsApprox": 450
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 162,
+      "badgesIssued": 163,
       "badgeViews": 149,
-      "certificateDownloads": 161,
-      "generatorOpens": 198,
-      "generatorCompletions": 162,
+      "certificateDownloads": 162,
+      "generatorOpens": 199,
+      "generatorCompletions": 163,
       "uniqueVisitorsApprox": 219,
-      "conversionRate": 81.8
+      "conversionRate": 81.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 244,
+      "badgesIssued": 245,
       "badgeViews": 478,
-      "certificateDownloads": 176,
-      "generatorOpens": 311,
-      "generatorCompletions": 208,
+      "certificateDownloads": 177,
+      "generatorOpens": 312,
+      "generatorCompletions": 209,
       "uniqueVisitorsApprox": 450,
-      "conversionRate": 66.9
+      "conversionRate": 67
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 170,
+      "badgesIssued": 171,
       "badgeViews": 140,
-      "certificateDownloads": 164,
-      "generatorOpens": 221,
-      "generatorCompletions": 170,
-      "conversionRate": 76.9
+      "certificateDownloads": 165,
+      "generatorOpens": 222,
+      "generatorCompletions": 171,
+      "conversionRate": 77
     },
     {
       "id": "fhtc-e-badge",
@@ -2619,6 +2619,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "daniel-chavez-career-activated-csuncc-20260919-0001",
+      "badgeId": "CSUNCC-20260919-0001",
+      "awardeeName": "Daniel Chavez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/daniel-chavez-career-activated-csuncc-20260919-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -3081,9 +3093,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 221,
-      "completions": 169,
-      "conversionRate": 76.5
+      "opens": 222,
+      "completions": 170,
+      "conversionRate": 76.6
     },
     {
       "key": "general",
@@ -4259,6 +4271,12 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Daniel Chavez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Harsh Ahir",
