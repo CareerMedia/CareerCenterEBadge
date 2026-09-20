@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19T21:40:26.276Z",
+  "updatedAt": "2026-09-20T01:14:34.029Z",
   "totals": {
-    "badgesIssued": 245,
+    "badgesIssued": 246,
     "badgeViews": 478,
     "certificateDownloads": 177,
-    "generatorOpens": 312,
-    "generatorCompletions": 209,
-    "conversionRate": 67,
-    "uniqueVisitorsApprox": 450
+    "generatorOpens": 313,
+    "generatorCompletions": 210,
+    "conversionRate": 67.1,
+    "uniqueVisitorsApprox": 451
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 163,
+      "badgesIssued": 164,
       "badgeViews": 149,
       "certificateDownloads": 162,
-      "generatorOpens": 199,
-      "generatorCompletions": 163,
-      "uniqueVisitorsApprox": 219,
-      "conversionRate": 81.9
+      "generatorOpens": 200,
+      "generatorCompletions": 164,
+      "uniqueVisitorsApprox": 220,
+      "conversionRate": 82
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 245,
+      "badgesIssued": 246,
       "badgeViews": 478,
       "certificateDownloads": 177,
-      "generatorOpens": 312,
-      "generatorCompletions": 209,
-      "uniqueVisitorsApprox": 450,
-      "conversionRate": 67
+      "generatorOpens": 313,
+      "generatorCompletions": 210,
+      "uniqueVisitorsApprox": 451,
+      "conversionRate": 67.1
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 171,
+      "badgesIssued": 172,
       "badgeViews": 140,
       "certificateDownloads": 165,
-      "generatorOpens": 222,
-      "generatorCompletions": 171,
-      "conversionRate": 77
+      "generatorOpens": 223,
+      "generatorCompletions": 172,
+      "conversionRate": 77.1
     },
     {
       "id": "fhtc-e-badge",
@@ -3085,6 +3085,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "brenna-case-career-activated-csuncc-20260919-0002",
+      "badgeId": "CSUNCC-20260919-0002",
+      "awardeeName": "Brenna Case",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/brenna-case-career-activated-csuncc-20260919-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -3093,9 +3105,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 222,
-      "completions": 170,
-      "conversionRate": 76.6
+      "opens": 223,
+      "completions": 171,
+      "conversionRate": 76.7
     },
     {
       "key": "general",
@@ -4400,6 +4412,12 @@
     },
     {
       "awardeeName": "Layniya Grimes",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Brenna Case",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
