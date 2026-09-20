@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-20T02:19:35.579Z",
+  "updatedAt": "2026-09-20T02:20:48.816Z",
   "totals": {
-    "badgesIssued": 246,
+    "badgesIssued": 247,
     "badgeViews": 478,
-    "certificateDownloads": 177,
+    "certificateDownloads": 178,
     "generatorOpens": 314,
-    "generatorCompletions": 210,
-    "conversionRate": 66.9,
+    "generatorCompletions": 211,
+    "conversionRate": 67.2,
     "uniqueVisitorsApprox": 452
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 164,
+      "badgesIssued": 165,
       "badgeViews": 149,
-      "certificateDownloads": 162,
+      "certificateDownloads": 163,
       "generatorOpens": 201,
-      "generatorCompletions": 164,
+      "generatorCompletions": 165,
       "uniqueVisitorsApprox": 221,
-      "conversionRate": 81.6
+      "conversionRate": 82.1
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 246,
+      "badgesIssued": 247,
       "badgeViews": 478,
-      "certificateDownloads": 177,
+      "certificateDownloads": 178,
       "generatorOpens": 314,
-      "generatorCompletions": 210,
+      "generatorCompletions": 211,
       "uniqueVisitorsApprox": 452,
-      "conversionRate": 66.9
+      "conversionRate": 67.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 172,
+      "badgesIssued": 173,
       "badgeViews": 140,
-      "certificateDownloads": 165,
+      "certificateDownloads": 166,
       "generatorOpens": 224,
-      "generatorCompletions": 172,
-      "conversionRate": 76.8
+      "generatorCompletions": 173,
+      "conversionRate": 77.2
     },
     {
       "id": "fhtc-e-badge",
@@ -2631,6 +2631,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "zeven-haskins-career-activated-csuncc-20260919-0003",
+      "badgeId": "CSUNCC-20260919-0003",
+      "awardeeName": "Zeven Haskins",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/zeven-haskins-career-activated-csuncc-20260919-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -3106,8 +3118,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 224,
-      "completions": 171,
-      "conversionRate": 76.3
+      "completions": 172,
+      "conversionRate": 76.8
     },
     {
       "key": "general",
@@ -4286,6 +4298,12 @@
     },
     {
       "awardeeName": "Daniel Chavez",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Zeven Haskins",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

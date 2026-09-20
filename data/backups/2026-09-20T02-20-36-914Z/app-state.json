@@ -53233,27 +53233,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "3e8e6ad0-d6f9-432e-ac0d-1bf0a393c152",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-20T02:20:48.805Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260919-0003",
-      "badgeSlug": "zeven-haskins-career-activated-csuncc-20260919-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Zeven Haskins",
-      "publicUrl": "https://careerbadge.csun.edu/badges/zeven-haskins-career-activated-csuncc-20260919-0003/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "2750ac44b30f232a16a774d7",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -53728,11 +53707,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-20T02:20:48.816Z",
+    "updatedAt": "2026-09-20T02:20:35.019Z",
     "totals": {
       "badgesIssued": 247,
       "badgeViews": 478,
-      "certificateDownloads": 178,
+      "certificateDownloads": 177,
       "generatorOpens": 314,
       "generatorCompletions": 211,
       "conversionRate": 67.2,
@@ -53799,7 +53778,7 @@
         "label": "Sep 2026",
         "badgesIssued": 165,
         "badgeViews": 149,
-        "certificateDownloads": 163,
+        "certificateDownloads": 162,
         "generatorOpens": 201,
         "generatorCompletions": 165,
         "uniqueVisitorsApprox": 221,
@@ -53812,7 +53791,7 @@
         "label": "2026",
         "badgesIssued": 247,
         "badgeViews": 478,
-        "certificateDownloads": 178,
+        "certificateDownloads": 177,
         "generatorOpens": 314,
         "generatorCompletions": 211,
         "uniqueVisitorsApprox": 452,
@@ -53835,7 +53814,7 @@
         "title": "Career Activated",
         "badgesIssued": 173,
         "badgeViews": 140,
-        "certificateDownloads": 166,
+        "certificateDownloads": 165,
         "generatorOpens": 224,
         "generatorCompletions": 173,
         "conversionRate": 77.2
@@ -56359,18 +56338,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "zeven-haskins-career-activated-csuncc-20260919-0003",
-        "badgeId": "CSUNCC-20260919-0003",
-        "awardeeName": "Zeven Haskins",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/zeven-haskins-career-activated-csuncc-20260919-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -56833,6 +56800,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/brenna-case-career-activated-csuncc-20260919-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "zeven-haskins-career-activated-csuncc-20260919-0003",
+        "badgeId": "CSUNCC-20260919-0003",
+        "awardeeName": "Zeven Haskins",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/zeven-haskins-career-activated-csuncc-20260919-0003/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -58031,12 +58010,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Zeven Haskins",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -58164,6 +58137,12 @@
       },
       {
         "awardeeName": "Brenna Case",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Zeven Haskins",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
