@@ -53631,69 +53631,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "cbb7853c-2eaf-4916-8c91-0bb1b0983769",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-20T20:05:26.241Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0002",
-      "badgeSlug": "gavin-winstead-career-activated-csuncc-20260920-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Gavin Winstead",
-      "publicUrl": "https://careerbadge.csun.edu/badges/gavin-winstead-career-activated-csuncc-20260920-0002/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "6b7fe8f2e68e1ab393048df8",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "2903f46e-474e-422a-9f20-700b362b6979",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-20T20:05:46.418Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0002",
-      "badgeSlug": "gavin-winstead-career-activated-csuncc-20260920-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Gavin Winstead",
-      "publicUrl": "https://careerbadge.csun.edu/badges/gavin-winstead-career-activated-csuncc-20260920-0002/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "6b7fe8f2e68e1ab393048df8",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "ab65c0a0-26ca-4cc0-af55-492ab7d7d548",
-      "type": "generator_opened",
-      "timestamp": "2026-09-20T20:07:06.077Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "6b7fe8f2e68e1ab393048df8",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -54168,14 +54105,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-20T20:07:06.087Z",
+    "updatedAt": "2026-09-20T20:05:12.599Z",
     "totals": {
       "badgesIssued": 249,
-      "badgeViews": 482,
-      "certificateDownloads": 179,
-      "generatorOpens": 317,
+      "badgeViews": 481,
+      "certificateDownloads": 178,
+      "generatorOpens": 316,
       "generatorCompletions": 213,
-      "conversionRate": 67.2,
+      "conversionRate": 67.4,
       "uniqueVisitorsApprox": 456
     },
     "months": [
@@ -54238,12 +54175,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 167,
-        "badgeViews": 153,
-        "certificateDownloads": 164,
-        "generatorOpens": 204,
+        "badgeViews": 152,
+        "certificateDownloads": 163,
+        "generatorOpens": 203,
         "generatorCompletions": 167,
         "uniqueVisitorsApprox": 225,
-        "conversionRate": 81.9
+        "conversionRate": 82.3
       }
     ],
     "years": [
@@ -54251,12 +54188,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 249,
-        "badgeViews": 482,
-        "certificateDownloads": 179,
-        "generatorOpens": 317,
+        "badgeViews": 481,
+        "certificateDownloads": 178,
+        "generatorOpens": 316,
         "generatorCompletions": 213,
         "uniqueVisitorsApprox": 456,
-        "conversionRate": 67.2
+        "conversionRate": 67.4
       }
     ],
     "badgeTypes": [
@@ -54274,11 +54211,11 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 175,
-        "badgeViews": 144,
-        "certificateDownloads": 167,
-        "generatorOpens": 227,
+        "badgeViews": 143,
+        "certificateDownloads": 166,
+        "generatorOpens": 226,
         "generatorCompletions": 175,
-        "conversionRate": 77.1
+        "conversionRate": 77.4
       },
       {
         "id": "fhtc-e-badge",
@@ -55681,18 +55618,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-17T06:41:02.200Z"
-      },
-      {
-        "slug": "gavin-winstead-career-activated-csuncc-20260920-0002",
-        "badgeId": "CSUNCC-20260920-0002",
-        "awardeeName": "Gavin Winstead",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/gavin-winstead-career-activated-csuncc-20260920-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-20T20:05:26.241Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -57301,6 +57226,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "gavin-winstead-career-activated-csuncc-20260920-0002",
+        "badgeId": "CSUNCC-20260920-0002",
+        "awardeeName": "Gavin Winstead",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/gavin-winstead-career-activated-csuncc-20260920-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -57309,9 +57246,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 227,
+        "opens": 226,
         "completions": 174,
-        "conversionRate": 76.7
+        "conversionRate": 77
       },
       {
         "key": "general",
@@ -58009,12 +57946,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Gavin Winstead",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -58640,6 +58571,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Gavin Winstead",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

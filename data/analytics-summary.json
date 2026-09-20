@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-20T17:47:42.773Z",
+  "updatedAt": "2026-09-20T20:07:06.087Z",
   "totals": {
-    "badgesIssued": 248,
-    "badgeViews": 481,
-    "certificateDownloads": 178,
-    "generatorOpens": 315,
-    "generatorCompletions": 212,
-    "conversionRate": 67.3,
-    "uniqueVisitorsApprox": 455
+    "badgesIssued": 249,
+    "badgeViews": 482,
+    "certificateDownloads": 179,
+    "generatorOpens": 317,
+    "generatorCompletions": 213,
+    "conversionRate": 67.2,
+    "uniqueVisitorsApprox": 456
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 166,
-      "badgeViews": 152,
-      "certificateDownloads": 163,
-      "generatorOpens": 202,
-      "generatorCompletions": 166,
-      "uniqueVisitorsApprox": 224,
-      "conversionRate": 82.2
+      "badgesIssued": 167,
+      "badgeViews": 153,
+      "certificateDownloads": 164,
+      "generatorOpens": 204,
+      "generatorCompletions": 167,
+      "uniqueVisitorsApprox": 225,
+      "conversionRate": 81.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 248,
-      "badgeViews": 481,
-      "certificateDownloads": 178,
-      "generatorOpens": 315,
-      "generatorCompletions": 212,
-      "uniqueVisitorsApprox": 455,
-      "conversionRate": 67.3
+      "badgesIssued": 249,
+      "badgeViews": 482,
+      "certificateDownloads": 179,
+      "generatorOpens": 317,
+      "generatorCompletions": 213,
+      "uniqueVisitorsApprox": 456,
+      "conversionRate": 67.2
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 174,
-      "badgeViews": 143,
-      "certificateDownloads": 166,
-      "generatorOpens": 225,
-      "generatorCompletions": 174,
-      "conversionRate": 77.3
+      "badgesIssued": 175,
+      "badgeViews": 144,
+      "certificateDownloads": 167,
+      "generatorOpens": 227,
+      "generatorCompletions": 175,
+      "conversionRate": 77.1
     },
     {
       "id": "fhtc-e-badge",
@@ -1513,6 +1513,18 @@
       "badgeViews": 1,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-17T06:41:02.200Z"
+    },
+    {
+      "slug": "gavin-winstead-career-activated-csuncc-20260920-0002",
+      "badgeId": "CSUNCC-20260920-0002",
+      "awardeeName": "Gavin Winstead",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/gavin-winstead-career-activated-csuncc-20260920-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-20T20:05:26.241Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -3129,9 +3141,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 225,
-      "completions": 173,
-      "conversionRate": 76.9
+      "opens": 227,
+      "completions": 174,
+      "conversionRate": 76.7
     },
     {
       "key": "general",
@@ -3827,6 +3839,12 @@
       "badgesIssued": 1,
       "badgeViews": 2,
       "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Gavin Winstead",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
     },
     {
       "awardeeName": "Maddie Paul",
