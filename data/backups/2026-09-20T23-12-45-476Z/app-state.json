@@ -53851,27 +53851,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "f87dc91d-a1d1-4f2d-9fa2-1e22c15d45dd",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-20T23:12:49.745Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0003",
-      "badgeSlug": "talia-schwartz-career-activated-csuncc-20260920-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Talia Schwartz",
-      "publicUrl": "https://careerbadge.csun.edu/badges/talia-schwartz-career-activated-csuncc-20260920-0003/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "27566dba80cbb349721a8dfb",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -54346,11 +54325,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-20T23:12:49.757Z",
+    "updatedAt": "2026-09-20T23:12:43.976Z",
     "totals": {
       "badgesIssued": 250,
       "badgeViews": 482,
-      "certificateDownloads": 180,
+      "certificateDownloads": 179,
       "generatorOpens": 318,
       "generatorCompletions": 214,
       "conversionRate": 67.3,
@@ -54417,7 +54396,7 @@
         "label": "Sep 2026",
         "badgesIssued": 168,
         "badgeViews": 153,
-        "certificateDownloads": 165,
+        "certificateDownloads": 164,
         "generatorOpens": 205,
         "generatorCompletions": 168,
         "uniqueVisitorsApprox": 226,
@@ -54430,7 +54409,7 @@
         "label": "2026",
         "badgesIssued": 250,
         "badgeViews": 482,
-        "certificateDownloads": 180,
+        "certificateDownloads": 179,
         "generatorOpens": 318,
         "generatorCompletions": 214,
         "uniqueVisitorsApprox": 457,
@@ -54453,7 +54432,7 @@
         "title": "Career Activated",
         "badgesIssued": 176,
         "badgeViews": 144,
-        "certificateDownloads": 168,
+        "certificateDownloads": 167,
         "generatorOpens": 228,
         "generatorCompletions": 176,
         "conversionRate": 77.2
@@ -57001,18 +56980,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "talia-schwartz-career-activated-csuncc-20260920-0003",
-        "badgeId": "CSUNCC-20260920-0003",
-        "awardeeName": "Talia Schwartz",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/talia-schwartz-career-activated-csuncc-20260920-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -57487,6 +57454,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/daniel-barrueta-career-activated-csuncc-20260920-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "talia-schwartz-career-activated-csuncc-20260920-0003",
+        "badgeId": "CSUNCC-20260920-0003",
+        "awardeeName": "Talia Schwartz",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/talia-schwartz-career-activated-csuncc-20260920-0003/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -58697,12 +58676,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Talia Schwartz",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -58836,6 +58809,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Talia Schwartz",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
