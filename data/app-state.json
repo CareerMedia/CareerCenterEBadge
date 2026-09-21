@@ -54553,6 +54553,27 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "f1864774-ffd0-43b8-924c-89145c4d8743",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-21T03:52:25.180Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260915-0019",
+      "badgeSlug": "eva-juarez-madrigal-career-activated-csuncc-20260915-0019",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Eva Juarez Madrigal",
+      "publicUrl": "https://careerbadge.csun.edu/badges/eva-juarez-madrigal-career-activated-csuncc-20260915-0019/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "9c63cf3e95926149d67e81d2",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -55027,10 +55048,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-21T03:40:21.643Z",
+    "updatedAt": "2026-09-21T03:52:25.440Z",
     "totals": {
       "badgesIssued": 253,
-      "badgeViews": 487,
+      "badgeViews": 488,
       "certificateDownloads": 185,
       "generatorOpens": 321,
       "generatorCompletions": 217,
@@ -55097,7 +55118,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 171,
-        "badgeViews": 158,
+        "badgeViews": 159,
         "certificateDownloads": 170,
         "generatorOpens": 208,
         "generatorCompletions": 171,
@@ -55110,7 +55131,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 253,
-        "badgeViews": 487,
+        "badgeViews": 488,
         "certificateDownloads": 185,
         "generatorOpens": 321,
         "generatorCompletions": 217,
@@ -55133,7 +55154,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 179,
-        "badgeViews": 149,
+        "badgeViews": 150,
         "certificateDownloads": 173,
         "generatorOpens": 231,
         "generatorCompletions": 179,
@@ -55426,6 +55447,18 @@
         "latestViewedAt": "2026-09-10T17:09:03.511Z"
       },
       {
+        "slug": "eva-juarez-madrigal-career-activated-csuncc-20260915-0019",
+        "badgeId": "CSUNCC-20260915-0019",
+        "awardeeName": "Eva Juarez Madrigal",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/eva-juarez-madrigal-career-activated-csuncc-20260915-0019/",
+        "badgesIssued": 1,
+        "badgeViews": 5,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-09-21T03:52:25.180Z"
+      },
+      {
         "slug": "leslie-rodriguez-career-champion-csuncc-20260512-0013",
         "badgeId": "CSUNCC-20260512-0013",
         "awardeeName": "Leslie Rodriguez",
@@ -55460,18 +55493,6 @@
         "badgeViews": 4,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-03T05:53:29.801Z"
-      },
-      {
-        "slug": "eva-juarez-madrigal-career-activated-csuncc-20260915-0019",
-        "badgeId": "CSUNCC-20260915-0019",
-        "awardeeName": "Eva Juarez Madrigal",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/eva-juarez-madrigal-career-activated-csuncc-20260915-0019/",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-21T03:40:21.629Z"
       },
       {
         "slug": "genesis-lozano-gonzalez-career-champion-csuncc-20260430-0001",
@@ -58394,6 +58415,12 @@
         "certificateDownloads": 0
       },
       {
+        "awardeeName": "Eva Juarez Madrigal",
+        "badgesIssued": 1,
+        "badgeViews": 5,
+        "certificateDownloads": 1
+      },
+      {
         "awardeeName": "Leslie Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 5,
@@ -58446,12 +58473,6 @@
         "badgesIssued": 1,
         "badgeViews": 3,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Eva Juarez Madrigal",
-        "badgesIssued": 1,
-        "badgeViews": 4,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Gabrielle Richard",
