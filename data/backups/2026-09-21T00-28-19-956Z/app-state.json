@@ -54029,27 +54029,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "a3241728-1f36-451f-9b7b-8acf96bd4fef",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-21T00:28:38.487Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0004",
-      "badgeSlug": "andrea-duran-career-activated-csuncc-20260920-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Andrea Duran",
-      "publicUrl": "https://careerbadge.csun.edu/badges/andrea-duran-career-activated-csuncc-20260920-0004/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "4b7c650b50c894555a1906e5",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -54524,11 +54503,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-21T00:28:38.674Z",
+    "updatedAt": "2026-09-21T00:28:18.655Z",
     "totals": {
       "badgesIssued": 251,
       "badgeViews": 482,
-      "certificateDownloads": 181,
+      "certificateDownloads": 180,
       "generatorOpens": 319,
       "generatorCompletions": 215,
       "conversionRate": 67.4,
@@ -54595,7 +54574,7 @@
         "label": "Sep 2026",
         "badgesIssued": 169,
         "badgeViews": 153,
-        "certificateDownloads": 166,
+        "certificateDownloads": 165,
         "generatorOpens": 206,
         "generatorCompletions": 169,
         "uniqueVisitorsApprox": 227,
@@ -54608,7 +54587,7 @@
         "label": "2026",
         "badgesIssued": 251,
         "badgeViews": 482,
-        "certificateDownloads": 181,
+        "certificateDownloads": 180,
         "generatorOpens": 319,
         "generatorCompletions": 215,
         "uniqueVisitorsApprox": 458,
@@ -54631,7 +54610,7 @@
         "title": "Career Activated",
         "badgesIssued": 177,
         "badgeViews": 144,
-        "certificateDownloads": 169,
+        "certificateDownloads": 168,
         "generatorOpens": 229,
         "generatorCompletions": 177,
         "conversionRate": 77.3
@@ -57191,18 +57170,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "andrea-duran-career-activated-csuncc-20260920-0004",
-        "badgeId": "CSUNCC-20260920-0004",
-        "awardeeName": "Andrea Duran",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/andrea-duran-career-activated-csuncc-20260920-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -57677,6 +57644,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/daniel-barrueta-career-activated-csuncc-20260920-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "andrea-duran-career-activated-csuncc-20260920-0004",
+        "badgeId": "CSUNCC-20260920-0004",
+        "awardeeName": "Andrea Duran",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/andrea-duran-career-activated-csuncc-20260920-0004/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -58893,12 +58872,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Andrea Duran",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -59032,6 +59005,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Andrea Duran",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
