@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T03:24:49.542Z",
+  "updatedAt": "2026-09-21T03:30:18.849Z",
   "totals": {
-    "badgesIssued": 252,
+    "badgesIssued": 253,
     "badgeViews": 486,
-    "certificateDownloads": 182,
+    "certificateDownloads": 185,
     "generatorOpens": 321,
-    "generatorCompletions": 216,
-    "conversionRate": 67.3,
+    "generatorCompletions": 217,
+    "conversionRate": 67.6,
     "uniqueVisitorsApprox": 463
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 170,
+      "badgesIssued": 171,
       "badgeViews": 157,
-      "certificateDownloads": 167,
+      "certificateDownloads": 170,
       "generatorOpens": 208,
-      "generatorCompletions": 170,
+      "generatorCompletions": 171,
       "uniqueVisitorsApprox": 232,
-      "conversionRate": 81.7
+      "conversionRate": 82.2
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 252,
+      "badgesIssued": 253,
       "badgeViews": 486,
-      "certificateDownloads": 182,
+      "certificateDownloads": 185,
       "generatorOpens": 321,
-      "generatorCompletions": 216,
+      "generatorCompletions": 217,
       "uniqueVisitorsApprox": 463,
-      "conversionRate": 67.3
+      "conversionRate": 67.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 178,
+      "badgesIssued": 179,
       "badgeViews": 148,
-      "certificateDownloads": 170,
+      "certificateDownloads": 173,
       "generatorOpens": 231,
-      "generatorCompletions": 178,
-      "conversionRate": 77.1
+      "generatorCompletions": 179,
+      "conversionRate": 77.5
     },
     {
       "id": "fhtc-e-badge",
@@ -1803,6 +1803,18 @@
       "latestViewedAt": "2026-04-28T16:42:10.813Z"
     },
     {
+      "slug": "evelina-gevorgyan-career-activated-csuncc-20260920-0006",
+      "badgeId": "CSUNCC-20260920-0006",
+      "awardeeName": "Evelina Gevorgyan",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/evelina-gevorgyan-career-activated-csuncc-20260920-0006/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 3,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "leo-martinez-career-activated-csuncc-20260909-0002",
       "badgeId": "CSUNCC-20260909-0002",
       "awardeeName": "Leo Martinez",
@@ -3178,8 +3190,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 231,
-      "completions": 177,
-      "conversionRate": 76.6
+      "completions": 178,
+      "conversionRate": 77.1
     },
     {
       "key": "general",
@@ -3629,6 +3641,12 @@
       "badgesIssued": 1,
       "badgeViews": 1,
       "certificateDownloads": 2
+    },
+    {
+      "awardeeName": "Evelina Gevorgyan",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 3
     },
     {
       "awardeeName": "Jane Doe",

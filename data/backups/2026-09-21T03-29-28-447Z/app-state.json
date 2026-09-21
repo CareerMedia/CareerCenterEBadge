@@ -54469,69 +54469,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "294f02eb-e88c-407a-8926-ceae8c6ae9e9",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-21T03:29:58.627Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0006",
-      "badgeSlug": "evelina-gevorgyan-career-activated-csuncc-20260920-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Evelina Gevorgyan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/evelina-gevorgyan-career-activated-csuncc-20260920-0006/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "7fb32aa63e6632ad3b9cd12c",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "1805d217-0f09-4e00-9be7-38d34d98070f",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-21T03:30:18.024Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0006",
-      "badgeSlug": "evelina-gevorgyan-career-activated-csuncc-20260920-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Evelina Gevorgyan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/evelina-gevorgyan-career-activated-csuncc-20260920-0006/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "7fb32aa63e6632ad3b9cd12c",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "6b0926a7-f143-4e08-82e2-554747139435",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-21T03:30:18.839Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0006",
-      "badgeSlug": "evelina-gevorgyan-career-activated-csuncc-20260920-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Evelina Gevorgyan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/evelina-gevorgyan-career-activated-csuncc-20260920-0006/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "7fb32aa63e6632ad3b9cd12c",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -55006,11 +54943,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-21T03:30:18.849Z",
+    "updatedAt": "2026-09-21T03:29:26.739Z",
     "totals": {
       "badgesIssued": 253,
       "badgeViews": 486,
-      "certificateDownloads": 185,
+      "certificateDownloads": 182,
       "generatorOpens": 321,
       "generatorCompletions": 217,
       "conversionRate": 67.6,
@@ -55077,7 +55014,7 @@
         "label": "Sep 2026",
         "badgesIssued": 171,
         "badgeViews": 157,
-        "certificateDownloads": 170,
+        "certificateDownloads": 167,
         "generatorOpens": 208,
         "generatorCompletions": 171,
         "uniqueVisitorsApprox": 232,
@@ -55090,7 +55027,7 @@
         "label": "2026",
         "badgesIssued": 253,
         "badgeViews": 486,
-        "certificateDownloads": 185,
+        "certificateDownloads": 182,
         "generatorOpens": 321,
         "generatorCompletions": 217,
         "uniqueVisitorsApprox": 463,
@@ -55113,7 +55050,7 @@
         "title": "Career Activated",
         "badgesIssued": 179,
         "badgeViews": 148,
-        "certificateDownloads": 173,
+        "certificateDownloads": 170,
         "generatorOpens": 231,
         "generatorCompletions": 179,
         "conversionRate": 77.5
@@ -56809,18 +56746,6 @@
         "latestViewedAt": "2026-04-28T16:42:10.813Z"
       },
       {
-        "slug": "evelina-gevorgyan-career-activated-csuncc-20260920-0006",
-        "badgeId": "CSUNCC-20260920-0006",
-        "awardeeName": "Evelina Gevorgyan",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/evelina-gevorgyan-career-activated-csuncc-20260920-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 3,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "leo-martinez-career-activated-csuncc-20260909-0002",
         "badgeId": "CSUNCC-20260909-0002",
         "awardeeName": "Leo Martinez",
@@ -58187,6 +58112,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "evelina-gevorgyan-career-activated-csuncc-20260920-0006",
+        "badgeId": "CSUNCC-20260920-0006",
+        "awardeeName": "Evelina Gevorgyan",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/evelina-gevorgyan-career-activated-csuncc-20260920-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -58647,12 +58584,6 @@
         "badgesIssued": 1,
         "badgeViews": 1,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Evelina Gevorgyan",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 3
       },
       {
         "awardeeName": "Jane Doe",
@@ -59550,6 +59481,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Evelina Gevorgyan",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
