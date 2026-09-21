@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T00:49:36.725Z",
+  "updatedAt": "2026-09-21T00:51:13.180Z",
   "totals": {
-    "badgesIssued": 251,
-    "badgeViews": 482,
-    "certificateDownloads": 181,
+    "badgesIssued": 252,
+    "badgeViews": 486,
+    "certificateDownloads": 182,
     "generatorOpens": 320,
-    "generatorCompletions": 215,
-    "conversionRate": 67.2,
-    "uniqueVisitorsApprox": 459
+    "generatorCompletions": 216,
+    "conversionRate": 67.5,
+    "uniqueVisitorsApprox": 462
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 169,
-      "badgeViews": 153,
-      "certificateDownloads": 166,
+      "badgesIssued": 170,
+      "badgeViews": 157,
+      "certificateDownloads": 167,
       "generatorOpens": 207,
-      "generatorCompletions": 169,
-      "uniqueVisitorsApprox": 228,
-      "conversionRate": 81.6
+      "generatorCompletions": 170,
+      "uniqueVisitorsApprox": 231,
+      "conversionRate": 82.1
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 251,
-      "badgeViews": 482,
-      "certificateDownloads": 181,
+      "badgesIssued": 252,
+      "badgeViews": 486,
+      "certificateDownloads": 182,
       "generatorOpens": 320,
-      "generatorCompletions": 215,
-      "uniqueVisitorsApprox": 459,
-      "conversionRate": 67.2
+      "generatorCompletions": 216,
+      "uniqueVisitorsApprox": 462,
+      "conversionRate": 67.5
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 177,
-      "badgeViews": 144,
-      "certificateDownloads": 169,
+      "badgesIssued": 178,
+      "badgeViews": 148,
+      "certificateDownloads": 170,
       "generatorOpens": 230,
-      "generatorCompletions": 177,
-      "conversionRate": 77
+      "generatorCompletions": 178,
+      "conversionRate": 77.4
     },
     {
       "id": "fhtc-e-badge",
@@ -649,6 +649,18 @@
       "badgeViews": 3,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-15T00:17:44.749Z"
+    },
+    {
+      "slug": "eva-juarez-madrigal-career-activated-csuncc-20260915-0019",
+      "badgeId": "CSUNCC-20260915-0019",
+      "awardeeName": "Eva Juarez Madrigal",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/eva-juarez-madrigal-career-activated-csuncc-20260915-0019/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-21T00:51:13.137Z"
     },
     {
       "slug": "onyinyechi-osuji-career-activated-csuncc-20260915-0037",
@@ -1527,6 +1539,18 @@
       "latestViewedAt": "2026-09-20T20:05:26.241Z"
     },
     {
+      "slug": "keila-martinez-lopez-career-activated-csuncc-20260920-0005",
+      "badgeId": "CSUNCC-20260920-0005",
+      "awardeeName": "Keila Martinez-Lopez",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/keila-martinez-lopez-career-activated-csuncc-20260920-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-21T00:50:59.485Z"
+    },
+    {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
       "badgeId": "CSUNCC-20260408-0005",
       "awardeeName": "Ricardo Vargas",
@@ -2391,18 +2415,6 @@
       "latestViewedAt": ""
     },
     {
-      "slug": "eva-juarez-madrigal-career-activated-csuncc-20260915-0019",
-      "badgeId": "CSUNCC-20260915-0019",
-      "awardeeName": "Eva Juarez Madrigal",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/eva-juarez-madrigal-career-activated-csuncc-20260915-0019/",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 1,
-      "latestViewedAt": ""
-    },
-    {
       "slug": "savannah-jones-career-activated-csuncc-20260915-0022",
       "badgeId": "CSUNCC-20260915-0022",
       "awardeeName": "Savannah Jones",
@@ -3166,8 +3178,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 230,
-      "completions": 176,
-      "conversionRate": 76.5
+      "completions": 177,
+      "conversionRate": 77
     },
     {
       "key": "general",
@@ -3476,6 +3488,12 @@
     },
     {
       "awardeeName": "london bingham",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Eva Juarez Madrigal",
       "badgesIssued": 1,
       "badgeViews": 3,
       "certificateDownloads": 1
@@ -3871,6 +3889,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Keila Martinez-Lopez",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -4208,12 +4232,6 @@
     },
     {
       "awardeeName": "Sanai Vanhook",
-      "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Eva Juarez Madrigal",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

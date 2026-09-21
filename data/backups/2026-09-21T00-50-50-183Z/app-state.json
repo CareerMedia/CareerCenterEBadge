@@ -54249,69 +54249,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "fa971eb3-6dd0-432b-8130-78ec8019adb0",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-21T00:50:57.602Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0005",
-      "badgeSlug": "keila-martinez-lopez-career-activated-csuncc-20260920-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Keila Martinez-Lopez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/keila-martinez-lopez-career-activated-csuncc-20260920-0005/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "8dddacef639f7dad23351d71",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "addcaf5f-84bb-4d8a-9d47-ce0977eee727",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-21T00:50:59.485Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0005",
-      "badgeSlug": "keila-martinez-lopez-career-activated-csuncc-20260920-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Keila Martinez-Lopez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/keila-martinez-lopez-career-activated-csuncc-20260920-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "8dddacef639f7dad23351d71",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "2e9f67b2-a08b-43c5-a9a3-df369c1c6534",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-21T00:51:13.137Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260915-0019",
-      "badgeSlug": "eva-juarez-madrigal-career-activated-csuncc-20260915-0019",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Eva Juarez Madrigal",
-      "publicUrl": "https://careerbadge.csun.edu/badges/eva-juarez-madrigal-career-activated-csuncc-20260915-0019/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "50c0d5e0960bce6ad89b9f40",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -54786,15 +54723,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-21T00:51:13.180Z",
+    "updatedAt": "2026-09-21T00:50:48.987Z",
     "totals": {
       "badgesIssued": 252,
-      "badgeViews": 486,
-      "certificateDownloads": 182,
+      "badgeViews": 484,
+      "certificateDownloads": 181,
       "generatorOpens": 320,
       "generatorCompletions": 216,
       "conversionRate": 67.5,
-      "uniqueVisitorsApprox": 462
+      "uniqueVisitorsApprox": 461
     },
     "months": [
       {
@@ -54856,11 +54793,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 170,
-        "badgeViews": 157,
-        "certificateDownloads": 167,
+        "badgeViews": 155,
+        "certificateDownloads": 166,
         "generatorOpens": 207,
         "generatorCompletions": 170,
-        "uniqueVisitorsApprox": 231,
+        "uniqueVisitorsApprox": 230,
         "conversionRate": 82.1
       }
     ],
@@ -54869,11 +54806,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 252,
-        "badgeViews": 486,
-        "certificateDownloads": 182,
+        "badgeViews": 484,
+        "certificateDownloads": 181,
         "generatorOpens": 320,
         "generatorCompletions": 216,
-        "uniqueVisitorsApprox": 462,
+        "uniqueVisitorsApprox": 461,
         "conversionRate": 67.5
       }
     ],
@@ -54892,8 +54829,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 178,
-        "badgeViews": 148,
-        "certificateDownloads": 170,
+        "badgeViews": 146,
+        "certificateDownloads": 169,
         "generatorOpens": 230,
         "generatorCompletions": 178,
         "conversionRate": 77.4
@@ -55437,18 +55374,6 @@
         "latestViewedAt": "2026-09-15T00:17:44.749Z"
       },
       {
-        "slug": "eva-juarez-madrigal-career-activated-csuncc-20260915-0019",
-        "badgeId": "CSUNCC-20260915-0019",
-        "awardeeName": "Eva Juarez Madrigal",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/eva-juarez-madrigal-career-activated-csuncc-20260915-0019/",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-21T00:51:13.137Z"
-      },
-      {
         "slug": "onyinyechi-osuji-career-activated-csuncc-20260915-0037",
         "badgeId": "CSUNCC-20260915-0037",
         "awardeeName": "Onyinyechi Osuji",
@@ -55735,6 +55660,18 @@
         "badgeViews": 2,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-16T17:51:25.350Z"
+      },
+      {
+        "slug": "eva-juarez-madrigal-career-activated-csuncc-20260915-0019",
+        "badgeId": "CSUNCC-20260915-0019",
+        "awardeeName": "Eva Juarez Madrigal",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/eva-juarez-madrigal-career-activated-csuncc-20260915-0019/",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-09-21T00:49:57.386Z"
       },
       {
         "slug": "edgar-martel-career-activated-csuncc-20260916-0018",
@@ -56323,18 +56260,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-20T20:05:26.241Z"
-      },
-      {
-        "slug": "keila-martinez-lopez-career-activated-csuncc-20260920-0005",
-        "badgeId": "CSUNCC-20260920-0005",
-        "awardeeName": "Keila Martinez-Lopez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/keila-martinez-lopez-career-activated-csuncc-20260920-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-21T00:50:59.485Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -57955,6 +57880,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "keila-martinez-lopez-career-activated-csuncc-20260920-0005",
+        "badgeId": "CSUNCC-20260920-0005",
+        "awardeeName": "Keila Martinez-Lopez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/keila-martinez-lopez-career-activated-csuncc-20260920-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -58279,12 +58216,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Eva Juarez Madrigal",
-        "badgesIssued": 1,
-        "badgeViews": 3,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Kevin Eriberto Rodriguez-Dominguez",
         "badgesIssued": 1,
         "badgeViews": 2,
@@ -58376,6 +58307,12 @@
       },
       {
         "awardeeName": "Der'eon Robinson",
+        "badgesIssued": 1,
+        "badgeViews": 2,
+        "certificateDownloads": 1
+      },
+      {
+        "awardeeName": "Eva Juarez Madrigal",
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 1
@@ -58670,12 +58607,6 @@
       },
       {
         "awardeeName": "Gavin Winstead",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Keila Martinez-Lopez",
         "badgesIssued": 1,
         "badgeViews": 1,
         "certificateDownloads": 1
@@ -59312,6 +59243,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Keila Martinez-Lopez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
