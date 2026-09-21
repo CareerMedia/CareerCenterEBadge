@@ -54731,48 +54731,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "58e9345a-fa63-4534-a444-96d9573e9a5e",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-21T06:26:15.874Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0007",
-      "badgeSlug": "justin-jesus-hernadez-career-activated-csuncc-20260920-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Justin Jesus Hernadez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/justin-jesus-hernadez-career-activated-csuncc-20260920-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "5cbc9bf46bf3229d0acb37fb",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "894d4f7f-f08e-419c-8dfd-363e9df93311",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-21T06:29:24.692Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260920-0007",
-      "badgeSlug": "justin-jesus-hernadez-career-activated-csuncc-20260920-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Justin Jesus Hernadez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/justin-jesus-hernadez-career-activated-csuncc-20260920-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "5cbc9bf46bf3229d0acb37fb",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -55247,11 +55205,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-21T06:29:24.846Z",
+    "updatedAt": "2026-09-21T06:26:09.247Z",
     "totals": {
       "badgesIssued": 254,
       "badgeViews": 488,
-      "certificateDownloads": 187,
+      "certificateDownloads": 185,
       "generatorOpens": 322,
       "generatorCompletions": 218,
       "conversionRate": 67.7,
@@ -55318,7 +55276,7 @@
         "label": "Sep 2026",
         "badgesIssued": 172,
         "badgeViews": 159,
-        "certificateDownloads": 172,
+        "certificateDownloads": 170,
         "generatorOpens": 209,
         "generatorCompletions": 172,
         "uniqueVisitorsApprox": 233,
@@ -55331,7 +55289,7 @@
         "label": "2026",
         "badgesIssued": 254,
         "badgeViews": 488,
-        "certificateDownloads": 187,
+        "certificateDownloads": 185,
         "generatorOpens": 322,
         "generatorCompletions": 218,
         "uniqueVisitorsApprox": 464,
@@ -55354,7 +55312,7 @@
         "title": "Career Activated",
         "badgesIssued": 180,
         "badgeViews": 150,
-        "certificateDownloads": 175,
+        "certificateDownloads": 173,
         "generatorOpens": 232,
         "generatorCompletions": 180,
         "conversionRate": 77.6
@@ -57122,18 +57080,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "justin-jesus-hernadez-career-activated-csuncc-20260920-0007",
-        "badgeId": "CSUNCC-20260920-0007",
-        "awardeeName": "Justin Jesus Hernadez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/justin-jesus-hernadez-career-activated-csuncc-20260920-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 2,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "noemi-ornelas-career-activated-csuncc-20260825-0001",
         "badgeId": "CSUNCC-20260825-0001",
         "awardeeName": "Noemi Ornelas",
@@ -58440,6 +58386,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "justin-jesus-hernadez-career-activated-csuncc-20260920-0007",
+        "badgeId": "CSUNCC-20260920-0007",
+        "awardeeName": "Justin Jesus Hernadez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/justin-jesus-hernadez-career-activated-csuncc-20260920-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -59172,12 +59130,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Justin Jesus Hernadez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 2
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -59809,6 +59761,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Justin Jesus Hernadez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
