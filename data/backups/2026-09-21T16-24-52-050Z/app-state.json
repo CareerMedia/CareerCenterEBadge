@@ -54972,27 +54972,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "56fe796b-ed08-44f2-91f2-1bda838c4598",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-21T16:24:59.397Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0001",
-      "badgeSlug": "andrew-warren-career-activated-csuncc-20260921-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Andrew Warren",
-      "publicUrl": "https://careerbadge.csun.edu/badges/andrew-warren-career-activated-csuncc-20260921-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "b3975e8cd9e2c5c81e98f4d3",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -55467,11 +55446,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-21T16:24:59.408Z",
+    "updatedAt": "2026-09-21T16:24:50.536Z",
     "totals": {
       "badgesIssued": 255,
       "badgeViews": 488,
-      "certificateDownloads": 190,
+      "certificateDownloads": 189,
       "generatorOpens": 323,
       "generatorCompletions": 219,
       "conversionRate": 67.8,
@@ -55538,7 +55517,7 @@
         "label": "Sep 2026",
         "badgesIssued": 173,
         "badgeViews": 159,
-        "certificateDownloads": 175,
+        "certificateDownloads": 174,
         "generatorOpens": 210,
         "generatorCompletions": 173,
         "uniqueVisitorsApprox": 234,
@@ -55551,7 +55530,7 @@
         "label": "2026",
         "badgesIssued": 255,
         "badgeViews": 488,
-        "certificateDownloads": 190,
+        "certificateDownloads": 189,
         "generatorOpens": 323,
         "generatorCompletions": 219,
         "uniqueVisitorsApprox": 465,
@@ -55574,7 +55553,7 @@
         "title": "Career Activated",
         "badgesIssued": 181,
         "badgeViews": 150,
-        "certificateDownloads": 178,
+        "certificateDownloads": 177,
         "generatorOpens": 233,
         "generatorCompletions": 181,
         "conversionRate": 77.7
@@ -58182,18 +58161,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "andrew-warren-career-activated-csuncc-20260921-0001",
-        "badgeId": "CSUNCC-20260921-0001",
-        "awardeeName": "Andrew Warren",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/andrew-warren-career-activated-csuncc-20260921-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -58668,6 +58635,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/daniel-barrueta-career-activated-csuncc-20260920-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "andrew-warren-career-activated-csuncc-20260921-0001",
+        "badgeId": "CSUNCC-20260921-0001",
+        "awardeeName": "Andrew Warren",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/andrew-warren-career-activated-csuncc-20260921-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -59908,12 +59887,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Andrew Warren",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -60047,6 +60020,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Andrew Warren",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
