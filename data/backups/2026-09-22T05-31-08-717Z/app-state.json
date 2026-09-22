@@ -24312,100 +24312,6 @@
       "openBadgeJsonPath": "docs/badges/cindy-ovando-career-activated-csuncc-20260921-0009/open-badge.json",
       "verifiableCredentialPath": "docs/badges/cindy-ovando-career-activated-csuncc-20260921-0009/credential.json",
       "verificationHash": "4b02fd4e89fb9d280b2befc11ec7a160ee5799f3c52b5647898a2f9bfdee8101"
-    },
-    {
-      "id": "CSUNCC-20260921-0010",
-      "awardeeName": "Emily Garcia",
-      "awardeeEmail": "emily.garcia.028@my.csun.edu",
-      "issueDate": "September 21, 2026",
-      "issueDateISO": "2026-09-21",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-22T05:35:11.319Z",
-      "source": "public-generator",
-      "slug": "emily-garcia-career-activated-csuncc-20260921-0010",
-      "relativeUrl": "../badges/emily-garcia-career-activated-csuncc-20260921-0010/",
-      "relativeJsonUrl": "../badges/emily-garcia-career-activated-csuncc-20260921-0010/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/emily-garcia-career-activated-csuncc-20260921-0010/",
-      "repoPath": "docs/badges/emily-garcia-career-activated-csuncc-20260921-0010/index.html",
-      "detailsJsonPath": "docs/badges/emily-garcia-career-activated-csuncc-20260921-0010/details.json",
-      "openBadgeJsonPath": "docs/badges/emily-garcia-career-activated-csuncc-20260921-0010/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/emily-garcia-career-activated-csuncc-20260921-0010/credential.json",
-      "verificationHash": "3d1f382f2b5c45b48de080954cdb5db3dd7e350b0bb1b9f3fe8029de1b8be0e1"
     }
   ],
   "deletedBadges": [
@@ -56637,132 +56543,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "813ff11b-e63e-4c9b-8312-c90c07ae0ade",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T05:31:11.616Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0009",
-      "badgeSlug": "cindy-ovando-career-activated-csuncc-20260921-0009",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Cindy Ovando",
-      "publicUrl": "https://careerbadge.csun.edu/badges/cindy-ovando-career-activated-csuncc-20260921-0009/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "49b4ffa024d6f3c4142c0782",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "e7e3a182-6592-435d-bb10-f52656edd0e5",
-      "type": "generator_opened",
-      "timestamp": "2026-09-22T05:34:29.577Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "7a0622fe41b31c51ffe3c704",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
-    },
-    {
-      "id": "a1af62b7-28e7-446e-8d0b-dd905a6d84f0",
-      "type": "badge_issued",
-      "timestamp": "2026-09-22T05:35:11.319Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0010",
-      "badgeSlug": "emily-garcia-career-activated-csuncc-20260921-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Emily Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/emily-garcia-career-activated-csuncc-20260921-0010/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "312fcf61-381f-4a2f-90af-f1f1830bbff0",
-      "type": "generator_completed",
-      "timestamp": "2026-09-22T05:35:12.523Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0010",
-      "badgeSlug": "emily-garcia-career-activated-csuncc-20260921-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Emily Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/emily-garcia-career-activated-csuncc-20260921-0010/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "25e0993d-8855-4336-89b2-6a988a38ef1c",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T05:35:42.884Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0010",
-      "badgeSlug": "emily-garcia-career-activated-csuncc-20260921-0010",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Emily Garcia",
-      "publicUrl": "https://careerbadge.csun.edu/badges/emily-garcia-career-activated-csuncc-20260921-0010/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "7a0622fe41b31c51ffe3c704",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "9136dcbc-2914-4967-a77c-d0f47b00a951",
-      "type": "generator_opened",
-      "timestamp": "2026-09-22T05:37:25.040Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "b10b302ab1aa0a9cf6be37c6",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -57237,15 +57017,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T05:37:25.054Z",
+    "updatedAt": "2026-09-22T05:31:07.223Z",
     "totals": {
-      "badgesIssued": 264,
+      "badgesIssued": 263,
       "badgeViews": 495,
-      "certificateDownloads": 198,
-      "generatorOpens": 334,
-      "generatorCompletions": 228,
-      "conversionRate": 68.3,
-      "uniqueVisitorsApprox": 479
+      "certificateDownloads": 196,
+      "generatorOpens": 332,
+      "generatorCompletions": 227,
+      "conversionRate": 68.4,
+      "uniqueVisitorsApprox": 477
     },
     "months": [
       {
@@ -57306,26 +57086,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 182,
+        "badgesIssued": 181,
         "badgeViews": 166,
-        "certificateDownloads": 183,
-        "generatorOpens": 221,
-        "generatorCompletions": 182,
-        "uniqueVisitorsApprox": 248,
-        "conversionRate": 82.4
+        "certificateDownloads": 181,
+        "generatorOpens": 219,
+        "generatorCompletions": 181,
+        "uniqueVisitorsApprox": 246,
+        "conversionRate": 82.6
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 264,
+        "badgesIssued": 263,
         "badgeViews": 495,
-        "certificateDownloads": 198,
-        "generatorOpens": 334,
-        "generatorCompletions": 228,
-        "uniqueVisitorsApprox": 479,
-        "conversionRate": 68.3
+        "certificateDownloads": 196,
+        "generatorOpens": 332,
+        "generatorCompletions": 227,
+        "uniqueVisitorsApprox": 477,
+        "conversionRate": 68.4
       }
     ],
     "badgeTypes": [
@@ -57342,12 +57122,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 190,
+        "badgesIssued": 189,
         "badgeViews": 157,
-        "certificateDownloads": 186,
-        "generatorOpens": 244,
-        "generatorCompletions": 190,
-        "conversionRate": 77.9
+        "certificateDownloads": 184,
+        "generatorOpens": 242,
+        "generatorCompletions": 189,
+        "conversionRate": 78.1
       },
       {
         "id": "fhtc-e-badge",
@@ -60036,30 +59816,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "cindy-ovando-career-activated-csuncc-20260921-0009",
-        "badgeId": "CSUNCC-20260921-0009",
-        "awardeeName": "Cindy Ovando",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/cindy-ovando-career-activated-csuncc-20260921-0009/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
-        "slug": "emily-garcia-career-activated-csuncc-20260921-0010",
-        "badgeId": "CSUNCC-20260921-0010",
-        "awardeeName": "Emily Garcia",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/emily-garcia-career-activated-csuncc-20260921-0010/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -60550,6 +60306,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "cindy-ovando-career-activated-csuncc-20260921-0009",
+        "badgeId": "CSUNCC-20260921-0009",
+        "awardeeName": "Cindy Ovando",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/cindy-ovando-career-activated-csuncc-20260921-0009/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -60558,9 +60326,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 244,
-        "completions": 189,
-        "conversionRate": 77.5
+        "opens": 242,
+        "completions": 188,
+        "conversionRate": 77.7
       },
       {
         "key": "general",
@@ -61828,18 +61596,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Cindy Ovando",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Emily Garcia",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -61973,6 +61729,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Cindy Ovando",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
