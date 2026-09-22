@@ -23842,100 +23842,6 @@
       "openBadgeJsonPath": "docs/badges/paola-guizar-career-activated-csuncc-20260921-0004/open-badge.json",
       "verifiableCredentialPath": "docs/badges/paola-guizar-career-activated-csuncc-20260921-0004/credential.json",
       "verificationHash": "3cbafad2868ca4ccf27c86a61b865d504c3427f30ea59494fa0b49b9ca4762b4"
-    },
-    {
-      "id": "CSUNCC-20260921-0005",
-      "awardeeName": "Paola Guizar",
-      "awardeeEmail": "paola.guizar.679@my.csun.edu",
-      "issueDate": "September 21, 2026",
-      "issueDateISO": "2026-09-21",
-      "badgeTemplateId": "career-activated",
-      "badgeTitle": "Career Activated",
-      "badgeLabel": "Career Activated",
-      "description": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "publicSummary": "Awarded to students who have taken action to explore their career path, engage with Career Center resources, and build a personalized plan for their future.",
-      "meaning": "The Career Activated badge represents a turning point, where exploration becomes action. Recipients have moved beyond uncertainty by identifying their strengths, exploring career options, and actively using CSUN Career Center tools to create a clear, personalized path forward.",
-      "criteria": "Complete all course modules and video content\r\nParticipate in all required reflections and activities\r\nActivate and complete their Handshake profile\r\nEngage with Career Center tools\r\nComplete the Career Journey Assessment",
-      "evidenceLabel": "Evidence",
-      "evidencePrompt": "",
-      "evidenceExampleUrl": "",
-      "evidenceDescription": "",
-      "evidenceUrl": "",
-      "evidenceText": "",
-      "skills": [
-        "Career Exploration",
-        "Self-Assessment",
-        "Career Planning",
-        "Goal Setting",
-        "Professional Development",
-        "Networking Fundamentals",
-        "Resume & Career Readiness"
-      ],
-      "standards": [
-        "Aligned with NACE Career Readiness Competencies"
-      ],
-      "pathwayId": "",
-      "pathwayTitle": "Career Activated",
-      "pathwayDescription": "",
-      "pathwayOrder": 1,
-      "pathwayItems": [],
-      "issuerName": "California State University, Northridge",
-      "issuerOrganization": "CSUN Career Center",
-      "issuerWebsite": "https://csun.edu",
-      "careerCenterUrl": "https://csun.edu/career",
-      "issuerContactEmail": "career.center@csun.edu",
-      "issuerVerificationNote": "Official credential records are maintained by the CSUN Career Center.",
-      "issuerRegistryUrl": "",
-      "issuerTrustLabel": "Official issuer",
-      "badgeImage": "assets/uploads/badge-icons/career-activated-icon-1778008570005.png",
-      "certificateBackground": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-      "certificateTemplateApplied": {
-        "backgroundImage": "assets/uploads/certificate-backgrounds/career-activated-certificate-1778008752908.png",
-        "fileNameSuffix": "_Certificate",
-        "name": {
-          "x": 1914,
-          "y": 1339,
-          "fontSize": 180,
-          "fontFamily": "Times New Roman",
-          "fontWeight": "bold",
-          "color": "#000000",
-          "align": "center",
-          "maxWidth": 2400
-        },
-        "date": {
-          "x": 1127,
-          "y": 2136,
-          "fontSize": 48,
-          "fontFamily": "Arial",
-          "fontWeight": "normal",
-          "color": "#333333",
-          "align": "center",
-          "maxWidth": 700
-        }
-      },
-      "verificationSections": {
-        "recipient": true,
-        "meaning": true,
-        "criteria": true,
-        "issuerTrust": true,
-        "evidence": false,
-        "skills": true,
-        "pathway": true,
-        "certificate": true
-      },
-      "status": "valid",
-      "neverExpires": true,
-      "createdAt": "2026-09-22T03:01:57.440Z",
-      "source": "public-generator",
-      "slug": "paola-guizar-career-activated-csuncc-20260921-0005",
-      "relativeUrl": "../badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-      "relativeJsonUrl": "../badges/paola-guizar-career-activated-csuncc-20260921-0005/details.json",
-      "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-      "repoPath": "docs/badges/paola-guizar-career-activated-csuncc-20260921-0005/index.html",
-      "detailsJsonPath": "docs/badges/paola-guizar-career-activated-csuncc-20260921-0005/details.json",
-      "openBadgeJsonPath": "docs/badges/paola-guizar-career-activated-csuncc-20260921-0005/open-badge.json",
-      "verifiableCredentialPath": "docs/badges/paola-guizar-career-activated-csuncc-20260921-0005/credential.json",
-      "verificationHash": "8573739d2599ef1add2fb41fb2c57325dc708514e94f48418c24b9841553024d"
     }
   ],
   "deletedBadges": [
@@ -55726,90 +55632,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "387ff159-df7c-48fa-97e6-09920ad0b452",
-      "type": "badge_issued",
-      "timestamp": "2026-09-22T03:01:57.440Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0005",
-      "badgeSlug": "paola-guizar-career-activated-csuncc-20260921-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Paola Guizar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-      "pageKind": "",
-      "generatorKey": "",
-      "generatorLabel": "",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "issuance",
-      "meta": {}
-    },
-    {
-      "id": "39b85dd5-2b80-42c4-86fe-ea7dec35f898",
-      "type": "generator_completed",
-      "timestamp": "2026-09-22T03:01:58.737Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0005",
-      "badgeSlug": "paola-guizar-career-activated-csuncc-20260921-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Paola Guizar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "public-generator",
-      "visitorId": "",
-      "requestPath": "",
-      "context": "completion",
-      "meta": {}
-    },
-    {
-      "id": "29c5415f-72aa-4095-8a84-0d311f6b3506",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-22T03:02:16.312Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0005",
-      "badgeSlug": "paola-guizar-career-activated-csuncc-20260921-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Paola Guizar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "5f411c0896de2182cfc9bc63",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "66a7029a-a440-4766-95ee-5e4d8597457c",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T03:02:23.595Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0005",
-      "badgeSlug": "paola-guizar-career-activated-csuncc-20260921-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Paola Guizar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "5f411c0896de2182cfc9bc63",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -56284,15 +56106,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T03:02:23.604Z",
+    "updatedAt": "2026-09-22T03:01:46.043Z",
     "totals": {
-      "badgesIssued": 259,
-      "badgeViews": 493,
-      "certificateDownloads": 193,
+      "badgesIssued": 258,
+      "badgeViews": 492,
+      "certificateDownloads": 192,
       "generatorOpens": 328,
-      "generatorCompletions": 223,
-      "conversionRate": 68,
-      "uniqueVisitorsApprox": 473
+      "generatorCompletions": 222,
+      "conversionRate": 67.7,
+      "uniqueVisitorsApprox": 472
     },
     "months": [
       {
@@ -56353,26 +56175,26 @@
       {
         "key": "2026-09",
         "label": "Sep 2026",
-        "badgesIssued": 177,
-        "badgeViews": 164,
-        "certificateDownloads": 178,
+        "badgesIssued": 176,
+        "badgeViews": 163,
+        "certificateDownloads": 177,
         "generatorOpens": 215,
-        "generatorCompletions": 177,
-        "uniqueVisitorsApprox": 242,
-        "conversionRate": 82.3
+        "generatorCompletions": 176,
+        "uniqueVisitorsApprox": 241,
+        "conversionRate": 81.9
       }
     ],
     "years": [
       {
         "key": "2026",
         "label": "2026",
-        "badgesIssued": 259,
-        "badgeViews": 493,
-        "certificateDownloads": 193,
+        "badgesIssued": 258,
+        "badgeViews": 492,
+        "certificateDownloads": 192,
         "generatorOpens": 328,
-        "generatorCompletions": 223,
-        "uniqueVisitorsApprox": 473,
-        "conversionRate": 68
+        "generatorCompletions": 222,
+        "uniqueVisitorsApprox": 472,
+        "conversionRate": 67.7
       }
     ],
     "badgeTypes": [
@@ -56389,12 +56211,12 @@
       {
         "id": "career-activated",
         "title": "Career Activated",
-        "badgesIssued": 185,
-        "badgeViews": 155,
-        "certificateDownloads": 181,
+        "badgesIssued": 184,
+        "badgeViews": 154,
+        "certificateDownloads": 180,
         "generatorOpens": 238,
-        "generatorCompletions": 185,
-        "conversionRate": 77.7
+        "generatorCompletions": 184,
+        "conversionRate": 77.3
       },
       {
         "id": "fhtc-e-badge",
@@ -57857,18 +57679,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-21T00:50:59.485Z"
-      },
-      {
-        "slug": "paola-guizar-career-activated-csuncc-20260921-0005",
-        "badgeId": "CSUNCC-20260921-0005",
-        "awardeeName": "Paola Guizar",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-22T03:02:16.312Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -59546,8 +59356,8 @@
         "pageKind": "specific",
         "templateId": "career-activated",
         "opens": 238,
-        "completions": 184,
-        "conversionRate": 77.3
+        "completions": 183,
+        "conversionRate": 76.9
       },
       {
         "key": "general",
@@ -60015,12 +59825,6 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 3
-      },
-      {
-        "awardeeName": "Paola Guizar",
-        "badgesIssued": 2,
-        "badgeViews": 1,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Jane Doe",
@@ -60930,6 +60734,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Paola Guizar",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

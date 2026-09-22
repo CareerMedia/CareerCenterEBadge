@@ -55768,48 +55768,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "29c5415f-72aa-4095-8a84-0d311f6b3506",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-22T03:02:16.312Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0005",
-      "badgeSlug": "paola-guizar-career-activated-csuncc-20260921-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Paola Guizar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "5f411c0896de2182cfc9bc63",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "66a7029a-a440-4766-95ee-5e4d8597457c",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T03:02:23.595Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0005",
-      "badgeSlug": "paola-guizar-career-activated-csuncc-20260921-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Paola Guizar",
-      "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "5f411c0896de2182cfc9bc63",
-      "requestPath": "/api/analytics/track",
-      "context": "badge-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -56284,15 +56242,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T03:02:23.604Z",
+    "updatedAt": "2026-09-22T03:01:58.746Z",
     "totals": {
       "badgesIssued": 259,
-      "badgeViews": 493,
-      "certificateDownloads": 193,
+      "badgeViews": 492,
+      "certificateDownloads": 192,
       "generatorOpens": 328,
       "generatorCompletions": 223,
       "conversionRate": 68,
-      "uniqueVisitorsApprox": 473
+      "uniqueVisitorsApprox": 472
     },
     "months": [
       {
@@ -56354,11 +56312,11 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 177,
-        "badgeViews": 164,
-        "certificateDownloads": 178,
+        "badgeViews": 163,
+        "certificateDownloads": 177,
         "generatorOpens": 215,
         "generatorCompletions": 177,
-        "uniqueVisitorsApprox": 242,
+        "uniqueVisitorsApprox": 241,
         "conversionRate": 82.3
       }
     ],
@@ -56367,11 +56325,11 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 259,
-        "badgeViews": 493,
-        "certificateDownloads": 193,
+        "badgeViews": 492,
+        "certificateDownloads": 192,
         "generatorOpens": 328,
         "generatorCompletions": 223,
-        "uniqueVisitorsApprox": 473,
+        "uniqueVisitorsApprox": 472,
         "conversionRate": 68
       }
     ],
@@ -56390,8 +56348,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 185,
-        "badgeViews": 155,
-        "certificateDownloads": 181,
+        "badgeViews": 154,
+        "certificateDownloads": 180,
         "generatorOpens": 238,
         "generatorCompletions": 185,
         "conversionRate": 77.7
@@ -57857,18 +57815,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-21T00:50:59.485Z"
-      },
-      {
-        "slug": "paola-guizar-career-activated-csuncc-20260921-0005",
-        "badgeId": "CSUNCC-20260921-0005",
-        "awardeeName": "Paola Guizar",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-22T03:02:16.312Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -59537,6 +59483,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "paola-guizar-career-activated-csuncc-20260921-0005",
+        "badgeId": "CSUNCC-20260921-0005",
+        "awardeeName": "Paola Guizar",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0005/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -60015,12 +59973,6 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 3
-      },
-      {
-        "awardeeName": "Paola Guizar",
-        "badgesIssued": 2,
-        "badgeViews": 1,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Jane Doe",
@@ -60795,6 +60747,12 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 1
+      },
+      {
+        "awardeeName": "Paola Guizar",
+        "badgesIssued": 2,
+        "badgeViews": 0,
+        "certificateDownloads": 0
       },
       {
         "awardeeName": "Harsh Ahir",
