@@ -55433,27 +55433,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "6eddbb6a-4562-49ee-b642-b637be006470",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-22T01:27:26.998Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0003",
-      "badgeSlug": "madison-mcghee-career-activated-csuncc-20260921-0003",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Madison McGhee",
-      "publicUrl": "https://careerbadge.csun.edu/badges/madison-mcghee-career-activated-csuncc-20260921-0003/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "805e031e876b15735dd393d1",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -55928,10 +55907,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T01:27:27.007Z",
+    "updatedAt": "2026-09-22T01:27:18.970Z",
     "totals": {
       "badgesIssued": 257,
-      "badgeViews": 491,
+      "badgeViews": 490,
       "certificateDownloads": 192,
       "generatorOpens": 327,
       "generatorCompletions": 221,
@@ -55998,7 +55977,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 175,
-        "badgeViews": 162,
+        "badgeViews": 161,
         "certificateDownloads": 177,
         "generatorOpens": 214,
         "generatorCompletions": 175,
@@ -56011,7 +55990,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 257,
-        "badgeViews": 491,
+        "badgeViews": 490,
         "certificateDownloads": 192,
         "generatorOpens": 327,
         "generatorCompletions": 221,
@@ -56034,7 +56013,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 183,
-        "badgeViews": 153,
+        "badgeViews": 152,
         "certificateDownloads": 180,
         "generatorOpens": 237,
         "generatorCompletions": 183,
@@ -57731,18 +57710,6 @@
         "latestViewedAt": "2026-09-18T20:47:15.673Z"
       },
       {
-        "slug": "madison-mcghee-career-activated-csuncc-20260921-0003",
-        "badgeId": "CSUNCC-20260921-0003",
-        "awardeeName": "Madison McGhee",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/madison-mcghee-career-activated-csuncc-20260921-0003/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-22T01:27:26.998Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -59157,6 +59124,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "madison-mcghee-career-activated-csuncc-20260921-0003",
+        "badgeId": "CSUNCC-20260921-0003",
+        "awardeeName": "Madison McGhee",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/madison-mcghee-career-activated-csuncc-20260921-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -60405,12 +60384,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Madison McGhee",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -60544,6 +60517,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Madison McGhee",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T00:32:35.180Z",
+  "updatedAt": "2026-09-22T01:27:27.007Z",
   "totals": {
-    "badgesIssued": 256,
-    "badgeViews": 490,
+    "badgesIssued": 257,
+    "badgeViews": 491,
     "certificateDownloads": 192,
-    "generatorOpens": 326,
-    "generatorCompletions": 220,
-    "conversionRate": 67.5,
-    "uniqueVisitorsApprox": 470
+    "generatorOpens": 327,
+    "generatorCompletions": 221,
+    "conversionRate": 67.6,
+    "uniqueVisitorsApprox": 471
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 174,
-      "badgeViews": 161,
+      "badgesIssued": 175,
+      "badgeViews": 162,
       "certificateDownloads": 177,
-      "generatorOpens": 213,
-      "generatorCompletions": 174,
-      "uniqueVisitorsApprox": 239,
-      "conversionRate": 81.7
+      "generatorOpens": 214,
+      "generatorCompletions": 175,
+      "uniqueVisitorsApprox": 240,
+      "conversionRate": 81.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 256,
-      "badgeViews": 490,
+      "badgesIssued": 257,
+      "badgeViews": 491,
       "certificateDownloads": 192,
-      "generatorOpens": 326,
-      "generatorCompletions": 220,
-      "uniqueVisitorsApprox": 470,
-      "conversionRate": 67.5
+      "generatorOpens": 327,
+      "generatorCompletions": 221,
+      "uniqueVisitorsApprox": 471,
+      "conversionRate": 67.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 182,
-      "badgeViews": 152,
+      "badgesIssued": 183,
+      "badgeViews": 153,
       "certificateDownloads": 180,
-      "generatorOpens": 236,
-      "generatorCompletions": 182,
-      "conversionRate": 77.1
+      "generatorOpens": 237,
+      "generatorCompletions": 183,
+      "conversionRate": 77.2
     },
     {
       "id": "fhtc-e-badge",
@@ -1803,6 +1803,18 @@
       "latestViewedAt": "2026-09-18T20:47:15.673Z"
     },
     {
+      "slug": "madison-mcghee-career-activated-csuncc-20260921-0003",
+      "badgeId": "CSUNCC-20260921-0003",
+      "awardeeName": "Madison McGhee",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/madison-mcghee-career-activated-csuncc-20260921-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-22T01:27:26.998Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -3225,9 +3237,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 236,
-      "completions": 181,
-      "conversionRate": 76.7
+      "opens": 237,
+      "completions": 182,
+      "conversionRate": 76.8
     },
     {
       "key": "general",
@@ -4463,6 +4475,12 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Madison McGhee",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",
