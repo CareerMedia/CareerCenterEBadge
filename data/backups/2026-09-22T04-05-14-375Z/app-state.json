@@ -56166,48 +56166,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "05b8cc0a-2e04-477b-b088-8aeeebdd63aa",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T04:05:21.781Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0007",
-      "badgeSlug": "olivier-rodriguez-career-activated-csuncc-20260921-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Olivier Rodriguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/olivier-rodriguez-career-activated-csuncc-20260921-0007/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "56d4cdfd63153edb63e8224d",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "a1694406-3aeb-45d6-ba1b-9ae5d5be05da",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-22T04:05:25.975Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0007",
-      "badgeSlug": "olivier-rodriguez-career-activated-csuncc-20260921-0007",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Olivier Rodriguez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/olivier-rodriguez-career-activated-csuncc-20260921-0007/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "56d4cdfd63153edb63e8224d",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -56682,11 +56640,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T04:05:25.984Z",
+    "updatedAt": "2026-09-22T04:05:12.880Z",
     "totals": {
       "badgesIssued": 261,
-      "badgeViews": 495,
-      "certificateDownloads": 195,
+      "badgeViews": 494,
+      "certificateDownloads": 194,
       "generatorOpens": 330,
       "generatorCompletions": 225,
       "conversionRate": 68.2,
@@ -56752,8 +56710,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 179,
-        "badgeViews": 166,
-        "certificateDownloads": 180,
+        "badgeViews": 165,
+        "certificateDownloads": 179,
         "generatorOpens": 217,
         "generatorCompletions": 179,
         "uniqueVisitorsApprox": 244,
@@ -56765,8 +56723,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 261,
-        "badgeViews": 495,
-        "certificateDownloads": 195,
+        "badgeViews": 494,
+        "certificateDownloads": 194,
         "generatorOpens": 330,
         "generatorCompletions": 225,
         "uniqueVisitorsApprox": 475,
@@ -56788,8 +56746,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 187,
-        "badgeViews": 157,
-        "certificateDownloads": 183,
+        "badgeViews": 156,
+        "certificateDownloads": 182,
         "generatorOpens": 240,
         "generatorCompletions": 187,
         "conversionRate": 77.9
@@ -58279,18 +58237,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-22T03:13:22.738Z"
-      },
-      {
-        "slug": "olivier-rodriguez-career-activated-csuncc-20260921-0007",
-        "badgeId": "CSUNCC-20260921-0007",
-        "awardeeName": "Olivier Rodriguez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/olivier-rodriguez-career-activated-csuncc-20260921-0007/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-22T04:05:25.975Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -59959,6 +59905,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "olivier-rodriguez-career-activated-csuncc-20260921-0007",
+        "badgeId": "CSUNCC-20260921-0007",
+        "awardeeName": "Olivier Rodriguez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/olivier-rodriguez-career-activated-csuncc-20260921-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -60721,12 +60679,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Olivier Rodriguez",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -61364,6 +61316,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Olivier Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
