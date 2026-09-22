@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T06:47:51.436Z",
+  "updatedAt": "2026-09-22T06:48:59.449Z",
   "totals": {
-    "badgesIssued": 265,
+    "badgesIssued": 266,
     "badgeViews": 496,
-    "certificateDownloads": 200,
+    "certificateDownloads": 201,
     "generatorOpens": 335,
-    "generatorCompletions": 229,
-    "conversionRate": 68.4,
+    "generatorCompletions": 230,
+    "conversionRate": 68.7,
     "uniqueVisitorsApprox": 480
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 183,
+      "badgesIssued": 184,
       "badgeViews": 167,
-      "certificateDownloads": 185,
+      "certificateDownloads": 186,
       "generatorOpens": 222,
-      "generatorCompletions": 183,
+      "generatorCompletions": 184,
       "uniqueVisitorsApprox": 249,
-      "conversionRate": 82.4
+      "conversionRate": 82.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 265,
+      "badgesIssued": 266,
       "badgeViews": 496,
-      "certificateDownloads": 200,
+      "certificateDownloads": 201,
       "generatorOpens": 335,
-      "generatorCompletions": 229,
+      "generatorCompletions": 230,
       "uniqueVisitorsApprox": 480,
-      "conversionRate": 68.4
+      "conversionRate": 68.7
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 191,
+      "badgesIssued": 192,
       "badgeViews": 158,
-      "certificateDownloads": 188,
+      "certificateDownloads": 189,
       "generatorOpens": 245,
-      "generatorCompletions": 191,
-      "conversionRate": 78
+      "generatorCompletions": 192,
+      "conversionRate": 78.4
     },
     {
       "id": "fhtc-e-badge",
@@ -2835,6 +2835,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "emma-covarrubias-career-activated-csuncc-20260921-0012",
+      "badgeId": "CSUNCC-20260921-0012",
+      "awardeeName": "Emma Covarrubias",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/emma-covarrubias-career-activated-csuncc-20260921-0012/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -3334,8 +3346,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 245,
-      "completions": 190,
-      "conversionRate": 77.6
+      "completions": 191,
+      "conversionRate": 78
     },
     {
       "key": "general",
@@ -4616,6 +4628,12 @@
     },
     {
       "awardeeName": "Emily Garcia",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Emma Covarrubias",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

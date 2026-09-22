@@ -57119,27 +57119,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "d4523ef3-dcdd-47a2-a9c2-616d61cc04e1",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T06:48:59.439Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0012",
-      "badgeSlug": "emma-covarrubias-career-activated-csuncc-20260921-0012",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Emma Covarrubias",
-      "publicUrl": "https://careerbadge.csun.edu/badges/emma-covarrubias-career-activated-csuncc-20260921-0012/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "b48e3178bf4101a62e321e11",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -57614,11 +57593,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T06:48:59.449Z",
+    "updatedAt": "2026-09-22T06:48:51.848Z",
     "totals": {
       "badgesIssued": 266,
       "badgeViews": 496,
-      "certificateDownloads": 201,
+      "certificateDownloads": 200,
       "generatorOpens": 335,
       "generatorCompletions": 230,
       "conversionRate": 68.7,
@@ -57685,7 +57664,7 @@
         "label": "Sep 2026",
         "badgesIssued": 184,
         "badgeViews": 167,
-        "certificateDownloads": 186,
+        "certificateDownloads": 185,
         "generatorOpens": 222,
         "generatorCompletions": 184,
         "uniqueVisitorsApprox": 249,
@@ -57698,7 +57677,7 @@
         "label": "2026",
         "badgesIssued": 266,
         "badgeViews": 496,
-        "certificateDownloads": 201,
+        "certificateDownloads": 200,
         "generatorOpens": 335,
         "generatorCompletions": 230,
         "uniqueVisitorsApprox": 480,
@@ -57721,7 +57700,7 @@
         "title": "Career Activated",
         "badgesIssued": 192,
         "badgeViews": 158,
-        "certificateDownloads": 189,
+        "certificateDownloads": 188,
         "generatorOpens": 245,
         "generatorCompletions": 192,
         "conversionRate": 78.4
@@ -60449,18 +60428,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "emma-covarrubias-career-activated-csuncc-20260921-0012",
-        "badgeId": "CSUNCC-20260921-0012",
-        "awardeeName": "Emma Covarrubias",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/emma-covarrubias-career-activated-csuncc-20260921-0012/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -60947,6 +60914,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "emma-covarrubias-career-activated-csuncc-20260921-0012",
+        "badgeId": "CSUNCC-20260921-0012",
+        "awardeeName": "Emma Covarrubias",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/emma-covarrubias-career-activated-csuncc-20260921-0012/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -62247,12 +62226,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Emma Covarrubias",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -62386,6 +62359,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Emma Covarrubias",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
