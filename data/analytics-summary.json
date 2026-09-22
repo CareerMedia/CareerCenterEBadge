@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T04:30:34.667Z",
+  "updatedAt": "2026-09-22T04:32:24.961Z",
   "totals": {
-    "badgesIssued": 261,
+    "badgesIssued": 262,
     "badgeViews": 495,
-    "certificateDownloads": 195,
+    "certificateDownloads": 196,
     "generatorOpens": 331,
-    "generatorCompletions": 225,
-    "conversionRate": 68,
+    "generatorCompletions": 226,
+    "conversionRate": 68.3,
     "uniqueVisitorsApprox": 476
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 179,
+      "badgesIssued": 180,
       "badgeViews": 166,
-      "certificateDownloads": 180,
+      "certificateDownloads": 181,
       "generatorOpens": 218,
-      "generatorCompletions": 179,
+      "generatorCompletions": 180,
       "uniqueVisitorsApprox": 245,
-      "conversionRate": 82.1
+      "conversionRate": 82.6
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 261,
+      "badgesIssued": 262,
       "badgeViews": 495,
-      "certificateDownloads": 195,
+      "certificateDownloads": 196,
       "generatorOpens": 331,
-      "generatorCompletions": 225,
+      "generatorCompletions": 226,
       "uniqueVisitorsApprox": 476,
-      "conversionRate": 68
+      "conversionRate": 68.3
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 187,
+      "badgesIssued": 188,
       "badgeViews": 157,
-      "certificateDownloads": 183,
+      "certificateDownloads": 184,
       "generatorOpens": 241,
-      "generatorCompletions": 187,
-      "conversionRate": 77.6
+      "generatorCompletions": 188,
+      "conversionRate": 78
     },
     {
       "id": "fhtc-e-badge",
@@ -2787,6 +2787,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "victoria-ssntos-cruz-career-activated-csuncc-20260921-0008",
+      "badgeId": "CSUNCC-20260921-0008",
+      "awardeeName": "Victoria Ssntos-Cruz",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/victoria-ssntos-cruz-career-activated-csuncc-20260921-0008/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -3286,8 +3298,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 241,
-      "completions": 186,
-      "conversionRate": 77.2
+      "completions": 187,
+      "conversionRate": 77.6
     },
     {
       "key": "general",
@@ -4544,6 +4556,12 @@
     },
     {
       "awardeeName": "Andrew Warren",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Victoria Ssntos-Cruz",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

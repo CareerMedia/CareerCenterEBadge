@@ -56365,27 +56365,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "3a1efe07-6033-488d-b913-3e4b16986314",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T04:32:24.951Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0008",
-      "badgeSlug": "victoria-ssntos-cruz-career-activated-csuncc-20260921-0008",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Victoria Ssntos-Cruz",
-      "publicUrl": "https://careerbadge.csun.edu/badges/victoria-ssntos-cruz-career-activated-csuncc-20260921-0008/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "fd9102962be5a28f921531dc",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -56860,11 +56839,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T04:32:24.961Z",
+    "updatedAt": "2026-09-22T04:32:20.372Z",
     "totals": {
       "badgesIssued": 262,
       "badgeViews": 495,
-      "certificateDownloads": 196,
+      "certificateDownloads": 195,
       "generatorOpens": 331,
       "generatorCompletions": 226,
       "conversionRate": 68.3,
@@ -56931,7 +56910,7 @@
         "label": "Sep 2026",
         "badgesIssued": 180,
         "badgeViews": 166,
-        "certificateDownloads": 181,
+        "certificateDownloads": 180,
         "generatorOpens": 218,
         "generatorCompletions": 180,
         "uniqueVisitorsApprox": 245,
@@ -56944,7 +56923,7 @@
         "label": "2026",
         "badgesIssued": 262,
         "badgeViews": 495,
-        "certificateDownloads": 196,
+        "certificateDownloads": 195,
         "generatorOpens": 331,
         "generatorCompletions": 226,
         "uniqueVisitorsApprox": 476,
@@ -56967,7 +56946,7 @@
         "title": "Career Activated",
         "badgesIssued": 188,
         "badgeViews": 157,
-        "certificateDownloads": 184,
+        "certificateDownloads": 183,
         "generatorOpens": 241,
         "generatorCompletions": 188,
         "conversionRate": 78
@@ -59647,18 +59626,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "victoria-ssntos-cruz-career-activated-csuncc-20260921-0008",
-        "badgeId": "CSUNCC-20260921-0008",
-        "awardeeName": "Victoria Ssntos-Cruz",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/victoria-ssntos-cruz-career-activated-csuncc-20260921-0008/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -60145,6 +60112,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/paola-guizar-career-activated-csuncc-20260921-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "victoria-ssntos-cruz-career-activated-csuncc-20260921-0008",
+        "badgeId": "CSUNCC-20260921-0008",
+        "awardeeName": "Victoria Ssntos-Cruz",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/victoria-ssntos-cruz-career-activated-csuncc-20260921-0008/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -61421,12 +61400,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Victoria Ssntos-Cruz",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -61560,6 +61533,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Victoria Ssntos-Cruz",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
