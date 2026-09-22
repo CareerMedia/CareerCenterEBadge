@@ -56899,69 +56899,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "9567f69e-d11b-4ca2-afe5-b24a4621e371",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T05:38:48.783Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0011",
-      "badgeSlug": "larry-caldwell-iii-career-activated-csuncc-20260921-0011",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Larry Caldwell III",
-      "publicUrl": "https://careerbadge.csun.edu/badges/larry-caldwell-iii-career-activated-csuncc-20260921-0011/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "b10b302ab1aa0a9cf6be37c6",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "2ad5458e-149c-41c9-8008-fe267bfbd2ca",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-22T05:38:53.727Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0011",
-      "badgeSlug": "larry-caldwell-iii-career-activated-csuncc-20260921-0011",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Larry Caldwell III",
-      "publicUrl": "https://careerbadge.csun.edu/badges/larry-caldwell-iii-career-activated-csuncc-20260921-0011/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "b10b302ab1aa0a9cf6be37c6",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
-    },
-    {
-      "id": "5c6781c6-f6fe-4088-8bb9-321e542edf74",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T05:39:43.506Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0011",
-      "badgeSlug": "larry-caldwell-iii-career-activated-csuncc-20260921-0011",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Larry Caldwell III",
-      "publicUrl": "https://careerbadge.csun.edu/badges/larry-caldwell-iii-career-activated-csuncc-20260921-0011/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "b10b302ab1aa0a9cf6be37c6",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -57436,11 +57373,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T05:39:43.517Z",
+    "updatedAt": "2026-09-22T05:38:37.217Z",
     "totals": {
       "badgesIssued": 265,
-      "badgeViews": 496,
-      "certificateDownloads": 200,
+      "badgeViews": 495,
+      "certificateDownloads": 198,
       "generatorOpens": 334,
       "generatorCompletions": 229,
       "conversionRate": 68.6,
@@ -57506,8 +57443,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 183,
-        "badgeViews": 167,
-        "certificateDownloads": 185,
+        "badgeViews": 166,
+        "certificateDownloads": 183,
         "generatorOpens": 221,
         "generatorCompletions": 183,
         "uniqueVisitorsApprox": 248,
@@ -57519,8 +57456,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 265,
-        "badgeViews": 496,
-        "certificateDownloads": 200,
+        "badgeViews": 495,
+        "certificateDownloads": 198,
         "generatorOpens": 334,
         "generatorCompletions": 229,
         "uniqueVisitorsApprox": 479,
@@ -57542,8 +57479,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 191,
-        "badgeViews": 158,
-        "certificateDownloads": 188,
+        "badgeViews": 157,
+        "certificateDownloads": 186,
         "generatorOpens": 244,
         "generatorCompletions": 191,
         "conversionRate": 78.3
@@ -58613,18 +58550,6 @@
         "badgeViews": 1,
         "certificateDownloads": 2,
         "latestViewedAt": "2026-09-17T17:07:41.272Z"
-      },
-      {
-        "slug": "larry-caldwell-iii-career-activated-csuncc-20260921-0011",
-        "badgeId": "CSUNCC-20260921-0011",
-        "awardeeName": "Larry Caldwell III",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/larry-caldwell-iii-career-activated-csuncc-20260921-0011/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 2,
-        "latestViewedAt": "2026-09-22T05:38:53.727Z"
       },
       {
         "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001",
@@ -60761,6 +60686,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "larry-caldwell-iii-career-activated-csuncc-20260921-0011",
+        "badgeId": "CSUNCC-20260921-0011",
+        "awardeeName": "Larry Caldwell III",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/larry-caldwell-iii-career-activated-csuncc-20260921-0011/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -61245,12 +61182,6 @@
         "badgesIssued": 2,
         "badgeViews": 1,
         "certificateDownloads": 1
-      },
-      {
-        "awardeeName": "Larry Caldwell III",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 2
       },
       {
         "awardeeName": "Jane Doe",
@@ -62190,6 +62121,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Larry Caldwell III",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T05:37:25.054Z",
+  "updatedAt": "2026-09-22T05:39:43.517Z",
   "totals": {
-    "badgesIssued": 264,
-    "badgeViews": 495,
-    "certificateDownloads": 198,
+    "badgesIssued": 265,
+    "badgeViews": 496,
+    "certificateDownloads": 200,
     "generatorOpens": 334,
-    "generatorCompletions": 228,
-    "conversionRate": 68.3,
+    "generatorCompletions": 229,
+    "conversionRate": 68.6,
     "uniqueVisitorsApprox": 479
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 182,
-      "badgeViews": 166,
-      "certificateDownloads": 183,
+      "badgesIssued": 183,
+      "badgeViews": 167,
+      "certificateDownloads": 185,
       "generatorOpens": 221,
-      "generatorCompletions": 182,
+      "generatorCompletions": 183,
       "uniqueVisitorsApprox": 248,
-      "conversionRate": 82.4
+      "conversionRate": 82.8
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 264,
-      "badgeViews": 495,
-      "certificateDownloads": 198,
+      "badgesIssued": 265,
+      "badgeViews": 496,
+      "certificateDownloads": 200,
       "generatorOpens": 334,
-      "generatorCompletions": 228,
+      "generatorCompletions": 229,
       "uniqueVisitorsApprox": 479,
-      "conversionRate": 68.3
+      "conversionRate": 68.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 190,
-      "badgeViews": 157,
-      "certificateDownloads": 186,
+      "badgesIssued": 191,
+      "badgeViews": 158,
+      "certificateDownloads": 188,
       "generatorOpens": 244,
-      "generatorCompletions": 190,
-      "conversionRate": 77.9
+      "generatorCompletions": 191,
+      "conversionRate": 78.3
     },
     {
       "id": "fhtc-e-badge",
@@ -1177,6 +1177,18 @@
       "badgeViews": 1,
       "certificateDownloads": 2,
       "latestViewedAt": "2026-09-17T17:07:41.272Z"
+    },
+    {
+      "slug": "larry-caldwell-iii-career-activated-csuncc-20260921-0011",
+      "badgeId": "CSUNCC-20260921-0011",
+      "awardeeName": "Larry Caldwell III",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/larry-caldwell-iii-career-activated-csuncc-20260921-0011/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 2,
+      "latestViewedAt": "2026-09-22T05:38:53.727Z"
     },
     {
       "slug": "matty-matador-from-here-to-career-e-badge-csuncc-20260811-0001",
@@ -3322,8 +3334,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 244,
-      "completions": 189,
-      "conversionRate": 77.5
+      "completions": 190,
+      "conversionRate": 77.9
     },
     {
       "key": "general",
@@ -3797,6 +3809,12 @@
       "badgesIssued": 2,
       "badgeViews": 1,
       "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Larry Caldwell III",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 2
     },
     {
       "awardeeName": "Jane Doe",
