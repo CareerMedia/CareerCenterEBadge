@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T16:21:41.162Z",
+  "updatedAt": "2026-09-22T19:40:52.922Z",
   "totals": {
-    "badgesIssued": 268,
+    "badgesIssued": 271,
     "badgeViews": 498,
-    "certificateDownloads": 202,
-    "generatorOpens": 337,
-    "generatorCompletions": 232,
-    "conversionRate": 68.8,
-    "uniqueVisitorsApprox": 483
+    "certificateDownloads": 204,
+    "generatorOpens": 341,
+    "generatorCompletions": 235,
+    "conversionRate": 68.9,
+    "uniqueVisitorsApprox": 485
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 186,
+      "badgesIssued": 189,
       "badgeViews": 169,
-      "certificateDownloads": 187,
-      "generatorOpens": 224,
-      "generatorCompletions": 186,
-      "uniqueVisitorsApprox": 252,
-      "conversionRate": 83
+      "certificateDownloads": 189,
+      "generatorOpens": 228,
+      "generatorCompletions": 189,
+      "uniqueVisitorsApprox": 254,
+      "conversionRate": 82.9
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 268,
+      "badgesIssued": 271,
       "badgeViews": 498,
-      "certificateDownloads": 202,
-      "generatorOpens": 337,
-      "generatorCompletions": 232,
-      "uniqueVisitorsApprox": 483,
-      "conversionRate": 68.8
+      "certificateDownloads": 204,
+      "generatorOpens": 341,
+      "generatorCompletions": 235,
+      "uniqueVisitorsApprox": 485,
+      "conversionRate": 68.9
     }
   ],
   "badgeTypes": [
@@ -105,11 +105,11 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 194,
+      "badgesIssued": 197,
       "badgeViews": 160,
-      "certificateDownloads": 190,
-      "generatorOpens": 247,
-      "generatorCompletions": 194,
+      "certificateDownloads": 192,
+      "generatorOpens": 251,
+      "generatorCompletions": 197,
       "conversionRate": 78.5
     },
     {
@@ -2871,6 +2871,30 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "micah-payne-career-activated-csuncc-20260922-0002",
+      "badgeId": "CSUNCC-20260922-0002",
+      "awardeeName": "Micah Payne",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/micah-payne-career-activated-csuncc-20260922-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
+      "slug": "logan-milligan-career-activated-csuncc-20260922-0004",
+      "badgeId": "CSUNCC-20260922-0004",
+      "awardeeName": "Logan Milligan",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/logan-milligan-career-activated-csuncc-20260922-0004/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -3361,6 +3385,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "logan-milligan-career-activated-csuncc-20260922-0003",
+      "badgeId": "CSUNCC-20260922-0003",
+      "awardeeName": "Logan Milligan",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/logan-milligan-career-activated-csuncc-20260922-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -3369,8 +3405,8 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 247,
-      "completions": 193,
+      "opens": 251,
+      "completions": 196,
       "conversionRate": 78.1
     },
     {
@@ -4141,6 +4177,12 @@
       "certificateDownloads": 0
     },
     {
+      "awardeeName": "Logan Milligan",
+      "badgesIssued": 2,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -4664,6 +4706,12 @@
     },
     {
       "awardeeName": "Emma Covarrubias",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Micah Payne",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

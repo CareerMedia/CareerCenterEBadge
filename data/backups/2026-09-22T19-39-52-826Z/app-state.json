@@ -58009,48 +58009,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "dd0b61a7-fbb6-432d-94f3-7199dadd746e",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T19:39:56.030Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260922-0004",
-      "badgeSlug": "logan-milligan-career-activated-csuncc-20260922-0004",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Logan Milligan",
-      "publicUrl": "https://careerbadge.csun.edu/badges/logan-milligan-career-activated-csuncc-20260922-0004/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9a629976c29bd8ff4d68e75a",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "75982b73-2630-4080-ba32-e5a633428d89",
-      "type": "generator_opened",
-      "timestamp": "2026-09-22T19:40:52.820Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "",
-      "badgeSlug": "",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "",
-      "publicUrl": "",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "Career Activated widget",
-      "source": "generator-page",
-      "visitorId": "9a629976c29bd8ff4d68e75a",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-page-open",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -58525,14 +58483,14 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T19:40:52.922Z",
+    "updatedAt": "2026-09-22T19:39:51.322Z",
     "totals": {
       "badgesIssued": 271,
       "badgeViews": 498,
-      "certificateDownloads": 204,
-      "generatorOpens": 341,
+      "certificateDownloads": 203,
+      "generatorOpens": 340,
       "generatorCompletions": 235,
-      "conversionRate": 68.9,
+      "conversionRate": 69.1,
       "uniqueVisitorsApprox": 485
     },
     "months": [
@@ -58596,11 +58554,11 @@
         "label": "Sep 2026",
         "badgesIssued": 189,
         "badgeViews": 169,
-        "certificateDownloads": 189,
-        "generatorOpens": 228,
+        "certificateDownloads": 188,
+        "generatorOpens": 227,
         "generatorCompletions": 189,
         "uniqueVisitorsApprox": 254,
-        "conversionRate": 82.9
+        "conversionRate": 83.3
       }
     ],
     "years": [
@@ -58609,11 +58567,11 @@
         "label": "2026",
         "badgesIssued": 271,
         "badgeViews": 498,
-        "certificateDownloads": 204,
-        "generatorOpens": 341,
+        "certificateDownloads": 203,
+        "generatorOpens": 340,
         "generatorCompletions": 235,
         "uniqueVisitorsApprox": 485,
-        "conversionRate": 68.9
+        "conversionRate": 69.1
       }
     ],
     "badgeTypes": [
@@ -58632,10 +58590,10 @@
         "title": "Career Activated",
         "badgesIssued": 197,
         "badgeViews": 160,
-        "certificateDownloads": 192,
-        "generatorOpens": 251,
+        "certificateDownloads": 191,
+        "generatorOpens": 250,
         "generatorCompletions": 197,
-        "conversionRate": 78.5
+        "conversionRate": 78.8
       },
       {
         "id": "fhtc-e-badge",
@@ -61408,18 +61366,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "logan-milligan-career-activated-csuncc-20260922-0004",
-        "badgeId": "CSUNCC-20260922-0004",
-        "awardeeName": "Logan Milligan",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/logan-milligan-career-activated-csuncc-20260922-0004/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -61922,6 +61868,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "logan-milligan-career-activated-csuncc-20260922-0004",
+        "badgeId": "CSUNCC-20260922-0004",
+        "awardeeName": "Logan Milligan",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/logan-milligan-career-activated-csuncc-20260922-0004/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -61930,9 +61888,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 251,
+        "opens": 250,
         "completions": 196,
-        "conversionRate": 78.1
+        "conversionRate": 78.4
       },
       {
         "key": "general",
@@ -62702,12 +62660,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Logan Milligan",
-        "badgesIssued": 2,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -63240,6 +63192,12 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 1
+      },
+      {
+        "awardeeName": "Logan Milligan",
+        "badgesIssued": 2,
+        "badgeViews": 0,
+        "certificateDownloads": 0
       },
       {
         "awardeeName": "Harsh Ahir",
