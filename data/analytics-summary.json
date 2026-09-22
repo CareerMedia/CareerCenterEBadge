@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T01:27:27.007Z",
+  "updatedAt": "2026-09-22T01:44:11.353Z",
   "totals": {
     "badgesIssued": 257,
-    "badgeViews": 491,
+    "badgeViews": 492,
     "certificateDownloads": 192,
     "generatorOpens": 327,
     "generatorCompletions": 221,
@@ -70,7 +70,7 @@
       "key": "2026-09",
       "label": "Sep 2026",
       "badgesIssued": 175,
-      "badgeViews": 162,
+      "badgeViews": 163,
       "certificateDownloads": 177,
       "generatorOpens": 214,
       "generatorCompletions": 175,
@@ -83,7 +83,7 @@
       "key": "2026",
       "label": "2026",
       "badgesIssued": 257,
-      "badgeViews": 491,
+      "badgeViews": 492,
       "certificateDownloads": 192,
       "generatorOpens": 327,
       "generatorCompletions": 221,
@@ -106,7 +106,7 @@
       "id": "career-activated",
       "title": "Career Activated",
       "badgesIssued": 183,
-      "badgeViews": 153,
+      "badgeViews": 154,
       "certificateDownloads": 180,
       "generatorOpens": 237,
       "generatorCompletions": 183,
@@ -1095,6 +1095,18 @@
       "latestViewedAt": "2026-09-16T23:49:43.146Z"
     },
     {
+      "slug": "madison-mcghee-career-activated-csuncc-20260921-0003",
+      "badgeId": "CSUNCC-20260921-0003",
+      "awardeeName": "Madison McGhee",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/madison-mcghee-career-activated-csuncc-20260921-0003/",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-22T01:44:11.339Z"
+    },
+    {
       "slug": "michael-hobbs-career-activated-csuncc-20260914-0015",
       "badgeId": "CSUNCC-20260914-0015",
       "awardeeName": "Michael Hobbs",
@@ -1801,18 +1813,6 @@
       "badgeViews": 1,
       "certificateDownloads": 0,
       "latestViewedAt": "2026-09-18T20:47:15.673Z"
-    },
-    {
-      "slug": "madison-mcghee-career-activated-csuncc-20260921-0003",
-      "badgeId": "CSUNCC-20260921-0003",
-      "awardeeName": "Madison McGhee",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/madison-mcghee-career-activated-csuncc-20260921-0003/",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0,
-      "latestViewedAt": "2026-09-22T01:27:26.998Z"
     },
     {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
@@ -3973,6 +3973,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Madison McGhee",
+      "badgesIssued": 1,
+      "badgeViews": 2,
+      "certificateDownloads": 0
+    },
+    {
       "awardeeName": "Maddie Paul",
       "badgesIssued": 2,
       "badgeViews": 0,
@@ -4475,12 +4481,6 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1
-    },
-    {
-      "awardeeName": "Madison McGhee",
-      "badgesIssued": 1,
-      "badgeViews": 1,
-      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",
