@@ -55967,27 +55967,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "62d483c2-021f-4cd9-b15f-c0dc2293e908",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-22T03:13:22.738Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0006",
-      "badgeSlug": "alia-alvarado-career-activated-csuncc-20260921-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Alia Alvarado",
-      "publicUrl": "https://careerbadge.csun.edu/badges/alia-alvarado-career-activated-csuncc-20260921-0006/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "3deb18adcaa5ad0286d3c61e",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -56462,10 +56441,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T03:13:22.836Z",
+    "updatedAt": "2026-09-22T03:13:12.339Z",
     "totals": {
       "badgesIssued": 260,
-      "badgeViews": 494,
+      "badgeViews": 493,
       "certificateDownloads": 193,
       "generatorOpens": 329,
       "generatorCompletions": 224,
@@ -56532,7 +56511,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 178,
-        "badgeViews": 165,
+        "badgeViews": 164,
         "certificateDownloads": 178,
         "generatorOpens": 216,
         "generatorCompletions": 178,
@@ -56545,7 +56524,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 260,
-        "badgeViews": 494,
+        "badgeViews": 493,
         "certificateDownloads": 193,
         "generatorOpens": 329,
         "generatorCompletions": 224,
@@ -56568,7 +56547,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 186,
-        "badgeViews": 156,
+        "badgeViews": 155,
         "certificateDownloads": 181,
         "generatorOpens": 239,
         "generatorCompletions": 186,
@@ -58289,18 +58268,6 @@
         "latestViewedAt": "2026-09-18T20:47:15.673Z"
       },
       {
-        "slug": "alia-alvarado-career-activated-csuncc-20260921-0006",
-        "badgeId": "CSUNCC-20260921-0006",
-        "awardeeName": "Alia Alvarado",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/alia-alvarado-career-activated-csuncc-20260921-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-22T03:13:22.738Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -59727,6 +59694,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "alia-alvarado-career-activated-csuncc-20260921-0006",
+        "badgeId": "CSUNCC-20260921-0006",
+        "awardeeName": "Alia Alvarado",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/alia-alvarado-career-activated-csuncc-20260921-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -60987,12 +60966,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Alia Alvarado",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -61126,6 +61099,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Alia Alvarado",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
