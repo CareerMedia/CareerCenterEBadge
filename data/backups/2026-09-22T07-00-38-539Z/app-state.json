@@ -57297,27 +57297,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "bcd021f6-d611-4502-8bc4-466ad489bd62",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-22T07:01:16.932Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260921-0013",
-      "badgeSlug": "alyssa-flores-career-activated-csuncc-20260921-0013",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Alyssa Flores",
-      "publicUrl": "https://careerbadge.csun.edu/badges/alyssa-flores-career-activated-csuncc-20260921-0013/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "a7cbdb0f43ee4442e9f4000a",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -57792,10 +57771,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T07:01:16.948Z",
+    "updatedAt": "2026-09-22T07:00:37.446Z",
     "totals": {
       "badgesIssued": 267,
-      "badgeViews": 497,
+      "badgeViews": 496,
       "certificateDownloads": 201,
       "generatorOpens": 336,
       "generatorCompletions": 231,
@@ -57862,7 +57841,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 185,
-        "badgeViews": 168,
+        "badgeViews": 167,
         "certificateDownloads": 186,
         "generatorOpens": 223,
         "generatorCompletions": 185,
@@ -57875,7 +57854,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 267,
-        "badgeViews": 497,
+        "badgeViews": 496,
         "certificateDownloads": 201,
         "generatorOpens": 336,
         "generatorCompletions": 231,
@@ -57898,7 +57877,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 193,
-        "badgeViews": 159,
+        "badgeViews": 158,
         "certificateDownloads": 189,
         "generatorOpens": 246,
         "generatorCompletions": 193,
@@ -59655,18 +59634,6 @@
         "latestViewedAt": "2026-09-18T20:47:15.673Z"
       },
       {
-        "slug": "alyssa-flores-career-activated-csuncc-20260921-0013",
-        "badgeId": "CSUNCC-20260921-0013",
-        "awardeeName": "Alyssa Flores",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/alyssa-flores-career-activated-csuncc-20260921-0013/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-22T07:01:16.932Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -61141,6 +61108,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "alyssa-flores-career-activated-csuncc-20260921-0013",
+        "badgeId": "CSUNCC-20260921-0013",
+        "awardeeName": "Alyssa Flores",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/alyssa-flores-career-activated-csuncc-20260921-0013/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -62443,12 +62422,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Alyssa Flores",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -62582,6 +62555,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Alyssa Flores",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
