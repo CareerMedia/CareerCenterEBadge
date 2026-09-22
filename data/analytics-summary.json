@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T20:59:22.998Z",
+  "updatedAt": "2026-09-22T21:00:02.156Z",
   "totals": {
-    "badgesIssued": 271,
+    "badgesIssued": 272,
     "badgeViews": 498,
-    "certificateDownloads": 204,
+    "certificateDownloads": 205,
     "generatorOpens": 342,
-    "generatorCompletions": 235,
-    "conversionRate": 68.7,
+    "generatorCompletions": 236,
+    "conversionRate": 69,
     "uniqueVisitorsApprox": 486
   },
   "months": [
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 189,
+      "badgesIssued": 190,
       "badgeViews": 169,
-      "certificateDownloads": 189,
+      "certificateDownloads": 190,
       "generatorOpens": 229,
-      "generatorCompletions": 189,
+      "generatorCompletions": 190,
       "uniqueVisitorsApprox": 255,
-      "conversionRate": 82.5
+      "conversionRate": 83
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 271,
+      "badgesIssued": 272,
       "badgeViews": 498,
-      "certificateDownloads": 204,
+      "certificateDownloads": 205,
       "generatorOpens": 342,
-      "generatorCompletions": 235,
+      "generatorCompletions": 236,
       "uniqueVisitorsApprox": 486,
-      "conversionRate": 68.7
+      "conversionRate": 69
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 197,
+      "badgesIssued": 198,
       "badgeViews": 160,
-      "certificateDownloads": 192,
+      "certificateDownloads": 193,
       "generatorOpens": 252,
-      "generatorCompletions": 197,
-      "conversionRate": 78.2
+      "generatorCompletions": 198,
+      "conversionRate": 78.6
     },
     {
       "id": "fhtc-e-badge",
@@ -2895,6 +2895,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "mia-ramos-career-activated-csuncc-20260922-0005",
+      "badgeId": "CSUNCC-20260922-0005",
+      "awardeeName": "Mia Ramos",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/mia-ramos-career-activated-csuncc-20260922-0005/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -3406,8 +3418,8 @@
       "pageKind": "specific",
       "templateId": "career-activated",
       "opens": 252,
-      "completions": 196,
-      "conversionRate": 77.8
+      "completions": 197,
+      "conversionRate": 78.2
     },
     {
       "key": "general",
@@ -4712,6 +4724,12 @@
     },
     {
       "awardeeName": "Micah Payne",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Mia Ramos",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1

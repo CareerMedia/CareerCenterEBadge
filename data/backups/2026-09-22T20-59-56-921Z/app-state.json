@@ -58208,27 +58208,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "b202982a-0e83-47c3-acc4-88ade8a395d5",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T21:00:02.144Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260922-0005",
-      "badgeSlug": "mia-ramos-career-activated-csuncc-20260922-0005",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Mia Ramos",
-      "publicUrl": "https://careerbadge.csun.edu/badges/mia-ramos-career-activated-csuncc-20260922-0005/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9fc4ca623503d14e732728e3",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -58703,11 +58682,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T21:00:02.156Z",
+    "updatedAt": "2026-09-22T20:59:55.621Z",
     "totals": {
       "badgesIssued": 272,
       "badgeViews": 498,
-      "certificateDownloads": 205,
+      "certificateDownloads": 204,
       "generatorOpens": 342,
       "generatorCompletions": 236,
       "conversionRate": 69,
@@ -58774,7 +58753,7 @@
         "label": "Sep 2026",
         "badgesIssued": 190,
         "badgeViews": 169,
-        "certificateDownloads": 190,
+        "certificateDownloads": 189,
         "generatorOpens": 229,
         "generatorCompletions": 190,
         "uniqueVisitorsApprox": 255,
@@ -58787,7 +58766,7 @@
         "label": "2026",
         "badgesIssued": 272,
         "badgeViews": 498,
-        "certificateDownloads": 205,
+        "certificateDownloads": 204,
         "generatorOpens": 342,
         "generatorCompletions": 236,
         "uniqueVisitorsApprox": 486,
@@ -58810,7 +58789,7 @@
         "title": "Career Activated",
         "badgesIssued": 198,
         "badgeViews": 160,
-        "certificateDownloads": 193,
+        "certificateDownloads": 192,
         "generatorOpens": 252,
         "generatorCompletions": 198,
         "conversionRate": 78.6
@@ -61598,18 +61577,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "mia-ramos-career-activated-csuncc-20260922-0005",
-        "badgeId": "CSUNCC-20260922-0005",
-        "awardeeName": "Mia Ramos",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/mia-ramos-career-activated-csuncc-20260922-0005/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -62108,6 +62075,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/logan-milligan-career-activated-csuncc-20260922-0003/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "mia-ramos-career-activated-csuncc-20260922-0005",
+        "badgeId": "CSUNCC-20260922-0005",
+        "awardeeName": "Mia Ramos",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/mia-ramos-career-activated-csuncc-20260922-0005/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -63432,12 +63411,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Mia Ramos",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -63571,6 +63544,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Mia Ramos",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
