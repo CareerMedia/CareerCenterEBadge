@@ -57496,27 +57496,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "db06dbd7-7862-470c-8543-8c91448ef847",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-22T16:21:41.080Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260922-0001",
-      "badgeSlug": "ivan-orellana-career-activated-csuncc-20260922-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ivan Orellana",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ivan-orellana-career-activated-csuncc-20260922-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "d1f76b3057646e2e3c661fe9",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -57991,11 +57970,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-22T16:21:41.162Z",
+    "updatedAt": "2026-09-22T16:21:28.765Z",
     "totals": {
       "badgesIssued": 268,
       "badgeViews": 498,
-      "certificateDownloads": 202,
+      "certificateDownloads": 201,
       "generatorOpens": 337,
       "generatorCompletions": 232,
       "conversionRate": 68.8,
@@ -58062,7 +58041,7 @@
         "label": "Sep 2026",
         "badgesIssued": 186,
         "badgeViews": 169,
-        "certificateDownloads": 187,
+        "certificateDownloads": 186,
         "generatorOpens": 224,
         "generatorCompletions": 186,
         "uniqueVisitorsApprox": 252,
@@ -58075,7 +58054,7 @@
         "label": "2026",
         "badgesIssued": 268,
         "badgeViews": 498,
-        "certificateDownloads": 202,
+        "certificateDownloads": 201,
         "generatorOpens": 337,
         "generatorCompletions": 232,
         "uniqueVisitorsApprox": 483,
@@ -58098,7 +58077,7 @@
         "title": "Career Activated",
         "badgesIssued": 194,
         "badgeViews": 160,
-        "certificateDownloads": 190,
+        "certificateDownloads": 189,
         "generatorOpens": 247,
         "generatorCompletions": 194,
         "conversionRate": 78.5
@@ -60850,18 +60829,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "ivan-orellana-career-activated-csuncc-20260922-0001",
-        "badgeId": "CSUNCC-20260922-0001",
-        "awardeeName": "Ivan Orellana",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ivan-orellana-career-activated-csuncc-20260922-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -61352,6 +61319,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "ivan-orellana-career-activated-csuncc-20260922-0001",
+        "badgeId": "CSUNCC-20260922-0001",
+        "awardeeName": "Ivan Orellana",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ivan-orellana-career-activated-csuncc-20260922-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -61544,12 +61523,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Ivan Orellana",
-        "badgesIssued": 2,
-        "badgeViews": 2,
-        "certificateDownloads": 3
-      },
-      {
         "awardeeName": "Leslie Rodriguez",
         "badgesIssued": 1,
         "badgeViews": 5,
@@ -61608,6 +61581,12 @@
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 3
+      },
+      {
+        "awardeeName": "Ivan Orellana",
+        "badgesIssued": 2,
+        "badgeViews": 2,
+        "certificateDownloads": 2
       },
       {
         "awardeeName": "Genesis Lozano-Gonzalez",

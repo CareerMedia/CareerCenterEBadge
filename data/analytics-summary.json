@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T07:05:56.725Z",
+  "updatedAt": "2026-09-22T16:21:41.162Z",
   "totals": {
-    "badgesIssued": 267,
+    "badgesIssued": 268,
     "badgeViews": 498,
-    "certificateDownloads": 201,
-    "generatorOpens": 336,
-    "generatorCompletions": 231,
+    "certificateDownloads": 202,
+    "generatorOpens": 337,
+    "generatorCompletions": 232,
     "conversionRate": 68.8,
-    "uniqueVisitorsApprox": 482
+    "uniqueVisitorsApprox": 483
   },
   "months": [
     {
@@ -69,12 +69,12 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 185,
+      "badgesIssued": 186,
       "badgeViews": 169,
-      "certificateDownloads": 186,
-      "generatorOpens": 223,
-      "generatorCompletions": 185,
-      "uniqueVisitorsApprox": 251,
+      "certificateDownloads": 187,
+      "generatorOpens": 224,
+      "generatorCompletions": 186,
+      "uniqueVisitorsApprox": 252,
       "conversionRate": 83
     }
   ],
@@ -82,12 +82,12 @@
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 267,
+      "badgesIssued": 268,
       "badgeViews": 498,
-      "certificateDownloads": 201,
-      "generatorOpens": 336,
-      "generatorCompletions": 231,
-      "uniqueVisitorsApprox": 482,
+      "certificateDownloads": 202,
+      "generatorOpens": 337,
+      "generatorCompletions": 232,
+      "uniqueVisitorsApprox": 483,
       "conversionRate": 68.8
     }
   ],
@@ -105,11 +105,11 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 193,
+      "badgesIssued": 194,
       "badgeViews": 160,
-      "certificateDownloads": 189,
-      "generatorOpens": 246,
-      "generatorCompletions": 193,
+      "certificateDownloads": 190,
+      "generatorOpens": 247,
+      "generatorCompletions": 194,
       "conversionRate": 78.5
     },
     {
@@ -2859,6 +2859,18 @@
       "latestViewedAt": ""
     },
     {
+      "slug": "ivan-orellana-career-activated-csuncc-20260922-0001",
+      "badgeId": "CSUNCC-20260922-0001",
+      "awardeeName": "Ivan Orellana",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/ivan-orellana-career-activated-csuncc-20260922-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 1,
+      "latestViewedAt": ""
+    },
+    {
       "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
       "badgeId": "CSUNCC-20260408-0001",
       "awardeeName": "Bryce Simon",
@@ -3357,9 +3369,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 246,
-      "completions": 192,
-      "conversionRate": 78
+      "opens": 247,
+      "completions": 193,
+      "conversionRate": 78.1
     },
     {
       "key": "general",
@@ -3541,6 +3553,12 @@
       "certificateDownloads": 1
     },
     {
+      "awardeeName": "Ivan Orellana",
+      "badgesIssued": 2,
+      "badgeViews": 2,
+      "certificateDownloads": 3
+    },
+    {
       "awardeeName": "Leslie Rodriguez",
       "badgesIssued": 1,
       "badgeViews": 5,
@@ -3707,12 +3725,6 @@
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 4
-    },
-    {
-      "awardeeName": "Ivan Orellana",
-      "badgesIssued": 1,
-      "badgeViews": 2,
-      "certificateDownloads": 2
     },
     {
       "awardeeName": "Jennifer Sandoval",
