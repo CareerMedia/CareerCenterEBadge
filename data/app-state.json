@@ -58889,6 +58889,48 @@
       "requestPath": "/api/analytics/track",
       "context": "public-badge-page",
       "meta": {}
+    },
+    {
+      "id": "3a7e9cdc-5049-4c97-839a-5942805f4c17",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-23T19:49:30.323Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260526-0001",
+      "badgeSlug": "minley-moradian-career-champion-csuncc-20260526-0001",
+      "badgeTitle": "Career Champion",
+      "badgeTemplateId": "career-champion",
+      "awardeeName": "Minley Moradian",
+      "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "90e9842ed762fcd97bfabc9b",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "e5708cf1-0746-49e3-aacf-e96f151c2619",
+      "type": "generator_opened",
+      "timestamp": "2026-09-23T19:50:03.113Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "Career Activated widget",
+      "source": "generator-page",
+      "visitorId": "0316fb00df3e21fe8e7eb93e",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -59363,15 +59405,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-23T19:32:42.089Z",
+    "updatedAt": "2026-09-23T19:50:03.291Z",
     "totals": {
       "badgesIssued": 275,
-      "badgeViews": 505,
+      "badgeViews": 506,
       "certificateDownloads": 205,
-      "generatorOpens": 347,
+      "generatorOpens": 348,
       "generatorCompletions": 239,
-      "conversionRate": 68.9,
-      "uniqueVisitorsApprox": 494
+      "conversionRate": 68.7,
+      "uniqueVisitorsApprox": 496
     },
     "months": [
       {
@@ -59433,12 +59475,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 193,
-        "badgeViews": 176,
+        "badgeViews": 177,
         "certificateDownloads": 190,
-        "generatorOpens": 234,
+        "generatorOpens": 235,
         "generatorCompletions": 193,
-        "uniqueVisitorsApprox": 263,
-        "conversionRate": 82.5
+        "uniqueVisitorsApprox": 265,
+        "conversionRate": 82.1
       }
     ],
     "years": [
@@ -59446,12 +59488,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 275,
-        "badgeViews": 505,
+        "badgeViews": 506,
         "certificateDownloads": 205,
-        "generatorOpens": 347,
+        "generatorOpens": 348,
         "generatorCompletions": 239,
-        "uniqueVisitorsApprox": 494,
-        "conversionRate": 68.9
+        "uniqueVisitorsApprox": 496,
+        "conversionRate": 68.7
       }
     ],
     "badgeTypes": [
@@ -59459,7 +59501,7 @@
         "id": "career-champion",
         "title": "Career Champion",
         "badgesIssued": 70,
-        "badgeViews": 328,
+        "badgeViews": 329,
         "certificateDownloads": 10,
         "generatorOpens": 34,
         "generatorCompletions": 34,
@@ -59471,9 +59513,9 @@
         "badgesIssued": 201,
         "badgeViews": 166,
         "certificateDownloads": 193,
-        "generatorOpens": 257,
+        "generatorOpens": 258,
         "generatorCompletions": 201,
-        "conversionRate": 78.2
+        "conversionRate": 77.9
       },
       {
         "id": "fhtc-e-badge",
@@ -59517,9 +59559,9 @@
         "badgeTemplateId": "career-champion",
         "publicUrl": "https://careerbadge.csun.edu/badges/minley-moradian-career-champion-csuncc-20260526-0001/",
         "badgesIssued": 1,
-        "badgeViews": 36,
+        "badgeViews": 37,
         "certificateDownloads": 2,
-        "latestViewedAt": "2026-09-03T22:54:05.822Z"
+        "latestViewedAt": "2026-09-23T19:49:30.323Z"
       },
       {
         "slug": "hector-carrillo-career-champion-csuncc-20260422-0003",
@@ -62816,9 +62858,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 257,
+        "opens": 258,
         "completions": 200,
-        "conversionRate": 77.8
+        "conversionRate": 77.5
       },
       {
         "key": "general",
@@ -62864,7 +62906,7 @@
       {
         "awardeeName": "Minley Moradian",
         "badgesIssued": 1,
-        "badgeViews": 36,
+        "badgeViews": 37,
         "certificateDownloads": 2
       },
       {
