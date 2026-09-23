@@ -58606,6 +58606,69 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
+    },
+    {
+      "id": "462dc353-d981-454b-b93e-17c6b43a8a5d",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-23T19:14:10.680Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260916-0006",
+      "badgeSlug": "zion-brown-career-activated-csuncc-20260916-0006",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Zion Brown",
+      "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "3ae7d330cab1f5af70e2f10c",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "73d6f6b8-d1a7-453e-9352-c6b443dae612",
+      "type": "badge_viewed",
+      "timestamp": "2026-09-23T19:14:11.694Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "CSUNCC-20260916-0006",
+      "badgeSlug": "zion-brown-career-activated-csuncc-20260916-0006",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "Zion Brown",
+      "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
+      "pageKind": "",
+      "generatorKey": "general",
+      "generatorLabel": "",
+      "source": "badge-page",
+      "visitorId": "3ae7d330cab1f5af70e2f10c",
+      "requestPath": "/api/analytics/track",
+      "context": "public-badge-page",
+      "meta": {}
+    },
+    {
+      "id": "0c589205-f8ff-4fde-b7f8-9ad0c7e9b4fc",
+      "type": "generator_opened",
+      "timestamp": "2026-09-23T19:15:33.162Z",
+      "monthKey": "2026-09",
+      "yearKey": "2026",
+      "badgeId": "",
+      "badgeSlug": "",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "awardeeName": "",
+      "publicUrl": "",
+      "pageKind": "widget-specific",
+      "generatorKey": "career-activated",
+      "generatorLabel": "Career Activated widget",
+      "source": "generator-page",
+      "visitorId": "9532f35e46bfd0d45dada23a",
+      "requestPath": "/api/analytics/track",
+      "context": "generator-page-open",
+      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -59080,15 +59143,15 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-23T07:01:30.469Z",
+    "updatedAt": "2026-09-23T19:15:33.290Z",
     "totals": {
       "badgesIssued": 274,
-      "badgeViews": 500,
+      "badgeViews": 502,
       "certificateDownloads": 205,
-      "generatorOpens": 345,
+      "generatorOpens": 346,
       "generatorCompletions": 238,
-      "conversionRate": 69,
-      "uniqueVisitorsApprox": 490
+      "conversionRate": 68.8,
+      "uniqueVisitorsApprox": 492
     },
     "months": [
       {
@@ -59150,12 +59213,12 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 192,
-        "badgeViews": 171,
+        "badgeViews": 173,
         "certificateDownloads": 190,
-        "generatorOpens": 232,
+        "generatorOpens": 233,
         "generatorCompletions": 192,
-        "uniqueVisitorsApprox": 259,
-        "conversionRate": 82.8
+        "uniqueVisitorsApprox": 261,
+        "conversionRate": 82.4
       }
     ],
     "years": [
@@ -59163,12 +59226,12 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 274,
-        "badgeViews": 500,
+        "badgeViews": 502,
         "certificateDownloads": 205,
-        "generatorOpens": 345,
+        "generatorOpens": 346,
         "generatorCompletions": 238,
-        "uniqueVisitorsApprox": 490,
-        "conversionRate": 69
+        "uniqueVisitorsApprox": 492,
+        "conversionRate": 68.8
       }
     ],
     "badgeTypes": [
@@ -59186,11 +59249,11 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 200,
-        "badgeViews": 161,
+        "badgeViews": 163,
         "certificateDownloads": 193,
-        "generatorOpens": 255,
+        "generatorOpens": 256,
         "generatorCompletions": 200,
-        "conversionRate": 78.4
+        "conversionRate": 78.1
       },
       {
         "id": "fhtc-e-badge",
@@ -59741,6 +59804,18 @@
         "badgeViews": 3,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-15T00:17:44.749Z"
+      },
+      {
+        "slug": "zion-brown-career-activated-csuncc-20260916-0006",
+        "badgeId": "CSUNCC-20260916-0006",
+        "awardeeName": "Zion Brown",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 1,
+        "latestViewedAt": "2026-09-23T19:14:11.694Z"
       },
       {
         "slug": "onyinyechi-osuji-career-activated-csuncc-20260915-0037",
@@ -60617,18 +60692,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-16T08:39:15.482Z"
-      },
-      {
-        "slug": "zion-brown-career-activated-csuncc-20260916-0006",
-        "badgeId": "CSUNCC-20260916-0006",
-        "awardeeName": "Zion Brown",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/zion-brown-career-activated-csuncc-20260916-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-16T10:05:46.112Z"
       },
       {
         "slug": "calia-grier-career-activated-csuncc-20260915-0038",
@@ -62521,9 +62584,9 @@
         "label": "Career Activated widget",
         "pageKind": "specific",
         "templateId": "career-activated",
-        "opens": 255,
+        "opens": 256,
         "completions": 199,
-        "conversionRate": 78
+        "conversionRate": 77.7
       },
       {
         "key": "general",
@@ -62853,6 +62916,12 @@
         "badgesIssued": 1,
         "badgeViews": 2,
         "certificateDownloads": 2
+      },
+      {
+        "awardeeName": "Zion Brown",
+        "badgesIssued": 1,
+        "badgeViews": 3,
+        "certificateDownloads": 1
       },
       {
         "awardeeName": "Onyinyechi Osuji",
@@ -63237,12 +63306,6 @@
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 2
-      },
-      {
-        "awardeeName": "Zion Brown",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
       },
       {
         "awardeeName": "Calia Grier",
