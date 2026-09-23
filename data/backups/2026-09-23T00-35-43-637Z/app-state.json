@@ -58428,27 +58428,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "c01a27f8-0bbd-4527-adf9-51c31edd12bf",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-23T00:35:57.166Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260922-0006",
-      "badgeSlug": "alfonso-clark-zavala-career-activated-csuncc-20260922-0006",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Alfonso Clark Zavala",
-      "publicUrl": "https://careerbadge.csun.edu/badges/alfonso-clark-zavala-career-activated-csuncc-20260922-0006/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "977f1fa7795cbb8e96059589",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -58923,10 +58902,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-23T00:35:57.230Z",
+    "updatedAt": "2026-09-23T00:35:41.937Z",
     "totals": {
       "badgesIssued": 273,
-      "badgeViews": 500,
+      "badgeViews": 499,
       "certificateDownloads": 205,
       "generatorOpens": 344,
       "generatorCompletions": 237,
@@ -58993,7 +58972,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 191,
-        "badgeViews": 171,
+        "badgeViews": 170,
         "certificateDownloads": 190,
         "generatorOpens": 231,
         "generatorCompletions": 191,
@@ -59006,7 +58985,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 273,
-        "badgeViews": 500,
+        "badgeViews": 499,
         "certificateDownloads": 205,
         "generatorOpens": 344,
         "generatorCompletions": 237,
@@ -59029,7 +59008,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 199,
-        "badgeViews": 161,
+        "badgeViews": 160,
         "certificateDownloads": 193,
         "generatorOpens": 254,
         "generatorCompletions": 199,
@@ -60798,18 +60777,6 @@
         "latestViewedAt": "2026-09-18T20:47:15.673Z"
       },
       {
-        "slug": "alfonso-clark-zavala-career-activated-csuncc-20260922-0006",
-        "badgeId": "CSUNCC-20260922-0006",
-        "awardeeName": "Alfonso Clark Zavala",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/alfonso-clark-zavala-career-activated-csuncc-20260922-0006/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-23T00:35:57.166Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -62344,6 +62311,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "alfonso-clark-zavala-career-activated-csuncc-20260922-0006",
+        "badgeId": "CSUNCC-20260922-0006",
+        "awardeeName": "Alfonso Clark Zavala",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/alfonso-clark-zavala-career-activated-csuncc-20260922-0006/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -63670,12 +63649,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Alfonso Clark Zavala",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -63809,6 +63782,12 @@
       },
       {
         "awardeeName": "Daniel Barrueta",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Alfonso Clark Zavala",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
