@@ -59193,27 +59193,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "ed382243-715e-4d06-af01-c36d322e7f60",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-25T03:55:58.555Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260924-0001",
-      "badgeSlug": "azaleia-thomas-career-activated-csuncc-20260924-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Azaleia Thomas",
-      "publicUrl": "https://careerbadge.csun.edu/badges/azaleia-thomas-career-activated-csuncc-20260924-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "9b15eb86486104fe45d2bdc9",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -59688,11 +59667,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-25T03:55:58.649Z",
+    "updatedAt": "2026-09-25T03:55:50.445Z",
     "totals": {
       "badgesIssued": 276,
       "badgeViews": 508,
-      "certificateDownloads": 206,
+      "certificateDownloads": 205,
       "generatorOpens": 352,
       "generatorCompletions": 240,
       "conversionRate": 68.2,
@@ -59759,7 +59738,7 @@
         "label": "Sep 2026",
         "badgesIssued": 194,
         "badgeViews": 179,
-        "certificateDownloads": 191,
+        "certificateDownloads": 190,
         "generatorOpens": 239,
         "generatorCompletions": 194,
         "uniqueVisitorsApprox": 268,
@@ -59772,7 +59751,7 @@
         "label": "2026",
         "badgesIssued": 276,
         "badgeViews": 508,
-        "certificateDownloads": 206,
+        "certificateDownloads": 205,
         "generatorOpens": 352,
         "generatorCompletions": 240,
         "uniqueVisitorsApprox": 499,
@@ -59795,7 +59774,7 @@
         "title": "Career Activated",
         "badgesIssued": 202,
         "badgeViews": 166,
-        "certificateDownloads": 194,
+        "certificateDownloads": 193,
         "generatorOpens": 262,
         "generatorCompletions": 202,
         "conversionRate": 77.1
@@ -62619,18 +62598,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "azaleia-thomas-career-activated-csuncc-20260924-0001",
-        "badgeId": "CSUNCC-20260924-0001",
-        "awardeeName": "Azaleia Thomas",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/azaleia-thomas-career-activated-csuncc-20260924-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -63141,6 +63108,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/jaylene-valdivieso-career-activated-csuncc-20260922-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "azaleia-thomas-career-activated-csuncc-20260924-0001",
+        "badgeId": "CSUNCC-20260924-0001",
+        "awardeeName": "Azaleia Thomas",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/azaleia-thomas-career-activated-csuncc-20260924-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -64483,12 +64462,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Azaleia Thomas",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -64628,6 +64601,12 @@
       },
       {
         "awardeeName": "Jaylene Valdivieso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Azaleia Thomas",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
