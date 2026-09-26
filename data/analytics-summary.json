@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T03:55:58.649Z",
+  "updatedAt": "2026-09-26T21:14:11.544Z",
   "totals": {
-    "badgesIssued": 276,
-    "badgeViews": 508,
-    "certificateDownloads": 206,
-    "generatorOpens": 352,
-    "generatorCompletions": 240,
-    "conversionRate": 68.2,
-    "uniqueVisitorsApprox": 499
+    "badgesIssued": 277,
+    "badgeViews": 509,
+    "certificateDownloads": 207,
+    "generatorOpens": 353,
+    "generatorCompletions": 241,
+    "conversionRate": 68.3,
+    "uniqueVisitorsApprox": 500
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 194,
-      "badgeViews": 179,
-      "certificateDownloads": 191,
-      "generatorOpens": 239,
-      "generatorCompletions": 194,
-      "uniqueVisitorsApprox": 268,
-      "conversionRate": 81.2
+      "badgesIssued": 195,
+      "badgeViews": 180,
+      "certificateDownloads": 192,
+      "generatorOpens": 240,
+      "generatorCompletions": 195,
+      "uniqueVisitorsApprox": 269,
+      "conversionRate": 81.3
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 276,
-      "badgeViews": 508,
-      "certificateDownloads": 206,
-      "generatorOpens": 352,
-      "generatorCompletions": 240,
-      "uniqueVisitorsApprox": 499,
-      "conversionRate": 68.2
+      "badgesIssued": 277,
+      "badgeViews": 509,
+      "certificateDownloads": 207,
+      "generatorOpens": 353,
+      "generatorCompletions": 241,
+      "uniqueVisitorsApprox": 500,
+      "conversionRate": 68.3
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 202,
-      "badgeViews": 166,
-      "certificateDownloads": 194,
-      "generatorOpens": 262,
-      "generatorCompletions": 202,
-      "conversionRate": 77.1
+      "badgesIssued": 203,
+      "badgeViews": 167,
+      "certificateDownloads": 195,
+      "generatorOpens": 263,
+      "generatorCompletions": 203,
+      "conversionRate": 77.2
     },
     {
       "id": "fhtc-e-badge",
@@ -1645,6 +1645,18 @@
       "badgeViews": 1,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-22T04:05:25.975Z"
+    },
+    {
+      "slug": "mayte-castellanos-career-activated-csuncc-20260926-0001",
+      "badgeId": "CSUNCC-20260926-0001",
+      "awardeeName": "Mayte Castellanos",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/mayte-castellanos-career-activated-csuncc-20260926-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-26T21:14:11.533Z"
     },
     {
       "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -3465,9 +3477,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 262,
-      "completions": 201,
-      "conversionRate": 76.7
+      "opens": 263,
+      "completions": 202,
+      "conversionRate": 76.8
     },
     {
       "key": "general",
@@ -4246,6 +4258,12 @@
       "awardeeName": "Logan Milligan",
       "badgesIssued": 2,
       "badgeViews": 0,
+      "certificateDownloads": 1
+    },
+    {
+      "awardeeName": "Mayte Castellanos",
+      "badgesIssued": 1,
+      "badgeViews": 1,
       "certificateDownloads": 1
     },
     {

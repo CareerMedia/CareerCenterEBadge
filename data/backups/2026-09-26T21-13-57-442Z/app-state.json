@@ -59371,48 +59371,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "ab1b4004-86a9-414b-88b2-1a7bb85072cf",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-26T21:14:04.472Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260926-0001",
-      "badgeSlug": "mayte-castellanos-career-activated-csuncc-20260926-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Mayte Castellanos",
-      "publicUrl": "https://careerbadge.csun.edu/badges/mayte-castellanos-career-activated-csuncc-20260926-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "2f26d947e10bc4bd8a2eef18",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
-    },
-    {
-      "id": "2557dbf5-44ac-4d92-ac29-acf89c77b067",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-26T21:14:11.533Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260926-0001",
-      "badgeSlug": "mayte-castellanos-career-activated-csuncc-20260926-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Mayte Castellanos",
-      "publicUrl": "https://careerbadge.csun.edu/badges/mayte-castellanos-career-activated-csuncc-20260926-0001/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "2f26d947e10bc4bd8a2eef18",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -59887,11 +59845,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-26T21:14:11.544Z",
+    "updatedAt": "2026-09-26T21:13:54.444Z",
     "totals": {
       "badgesIssued": 277,
-      "badgeViews": 509,
-      "certificateDownloads": 207,
+      "badgeViews": 508,
+      "certificateDownloads": 206,
       "generatorOpens": 353,
       "generatorCompletions": 241,
       "conversionRate": 68.3,
@@ -59957,8 +59915,8 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 195,
-        "badgeViews": 180,
-        "certificateDownloads": 192,
+        "badgeViews": 179,
+        "certificateDownloads": 191,
         "generatorOpens": 240,
         "generatorCompletions": 195,
         "uniqueVisitorsApprox": 269,
@@ -59970,8 +59928,8 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 277,
-        "badgeViews": 509,
-        "certificateDownloads": 207,
+        "badgeViews": 508,
+        "certificateDownloads": 206,
         "generatorOpens": 353,
         "generatorCompletions": 241,
         "uniqueVisitorsApprox": 500,
@@ -59993,8 +59951,8 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 203,
-        "badgeViews": 167,
-        "certificateDownloads": 195,
+        "badgeViews": 166,
+        "certificateDownloads": 194,
         "generatorOpens": 263,
         "generatorCompletions": 203,
         "conversionRate": 77.2
@@ -61532,18 +61490,6 @@
         "badgeViews": 1,
         "certificateDownloads": 1,
         "latestViewedAt": "2026-09-22T04:05:25.975Z"
-      },
-      {
-        "slug": "mayte-castellanos-career-activated-csuncc-20260926-0001",
-        "badgeId": "CSUNCC-20260926-0001",
-        "awardeeName": "Mayte Castellanos",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/mayte-castellanos-career-activated-csuncc-20260926-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1,
-        "latestViewedAt": "2026-09-26T21:14:11.533Z"
       },
       {
         "slug": "ricardo-vargas-career-champion-csuncc-20260408-0005",
@@ -63356,6 +63302,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "mayte-castellanos-career-activated-csuncc-20260926-0001",
+        "badgeId": "CSUNCC-20260926-0001",
+        "awardeeName": "Mayte Castellanos",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/mayte-castellanos-career-activated-csuncc-20260926-0001/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -64148,12 +64106,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Mayte Castellanos",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Maddie Paul",
         "badgesIssued": 2,
         "badgeViews": 0,
@@ -64845,6 +64797,12 @@
       },
       {
         "awardeeName": "Jaylene Valdivieso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Mayte Castellanos",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
