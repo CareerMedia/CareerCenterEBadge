@@ -59570,27 +59570,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "dacfed6b-d476-43cd-8d21-b62768aba7a2",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-28T01:41:33.246Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260927-0001",
-      "badgeSlug": "henry-voigtsberger-almraz-career-activated-csuncc-20260927-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Henry Voigtsberger-Almraz",
-      "publicUrl": "https://careerbadge.csun.edu/badges/henry-voigtsberger-almraz-career-activated-csuncc-20260927-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "77173ca724622c7039e02866",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -60065,11 +60044,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-28T01:41:33.299Z",
+    "updatedAt": "2026-09-28T01:41:27.101Z",
     "totals": {
       "badgesIssued": 278,
       "badgeViews": 509,
-      "certificateDownloads": 208,
+      "certificateDownloads": 207,
       "generatorOpens": 354,
       "generatorCompletions": 242,
       "conversionRate": 68.4,
@@ -60136,7 +60115,7 @@
         "label": "Sep 2026",
         "badgesIssued": 196,
         "badgeViews": 180,
-        "certificateDownloads": 193,
+        "certificateDownloads": 192,
         "generatorOpens": 241,
         "generatorCompletions": 196,
         "uniqueVisitorsApprox": 270,
@@ -60149,7 +60128,7 @@
         "label": "2026",
         "badgesIssued": 278,
         "badgeViews": 509,
-        "certificateDownloads": 208,
+        "certificateDownloads": 207,
         "generatorOpens": 354,
         "generatorCompletions": 242,
         "uniqueVisitorsApprox": 501,
@@ -60172,7 +60151,7 @@
         "title": "Career Activated",
         "badgesIssued": 204,
         "badgeViews": 167,
-        "certificateDownloads": 196,
+        "certificateDownloads": 195,
         "generatorOpens": 264,
         "generatorCompletions": 204,
         "conversionRate": 77.3
@@ -63020,18 +62999,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "henry-voigtsberger-almraz-career-activated-csuncc-20260927-0001",
-        "badgeId": "CSUNCC-20260927-0001",
-        "awardeeName": "Henry Voigtsberger-Almraz",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/henry-voigtsberger-almraz-career-activated-csuncc-20260927-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -63542,6 +63509,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/jaylene-valdivieso-career-activated-csuncc-20260922-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "henry-voigtsberger-almraz-career-activated-csuncc-20260927-0001",
+        "badgeId": "CSUNCC-20260927-0001",
+        "awardeeName": "Henry Voigtsberger-Almraz",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/henry-voigtsberger-almraz-career-activated-csuncc-20260927-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -64896,12 +64875,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Henry Voigtsberger-Almraz",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -65041,6 +65014,12 @@
       },
       {
         "awardeeName": "Jaylene Valdivieso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Henry Voigtsberger-Almraz",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
