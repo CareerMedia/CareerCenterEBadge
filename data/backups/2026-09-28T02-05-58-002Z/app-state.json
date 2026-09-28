@@ -60188,27 +60188,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "7e422d33-9457-413a-b8c3-50e9f31ea068",
-      "type": "badge_viewed",
-      "timestamp": "2026-09-28T02:06:01.692Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260923-0002",
-      "badgeSlug": "bryan-liang-career-activated-csuncc-20260923-0002",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Bryan Liang",
-      "publicUrl": "https://careerbadge.csun.edu/badges/bryan-liang-career-activated-csuncc-20260923-0002/",
-      "pageKind": "",
-      "generatorKey": "general",
-      "generatorLabel": "",
-      "source": "badge-page",
-      "visitorId": "a4e5cf5c15f5b45675adff70",
-      "requestPath": "/api/analytics/track",
-      "context": "public-badge-page",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -60683,10 +60662,10 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-28T02:06:01.710Z",
+    "updatedAt": "2026-09-28T02:05:54.518Z",
     "totals": {
       "badgesIssued": 281,
-      "badgeViews": 513,
+      "badgeViews": 512,
       "certificateDownloads": 210,
       "generatorOpens": 358,
       "generatorCompletions": 245,
@@ -60753,7 +60732,7 @@
         "key": "2026-09",
         "label": "Sep 2026",
         "badgesIssued": 199,
-        "badgeViews": 184,
+        "badgeViews": 183,
         "certificateDownloads": 195,
         "generatorOpens": 245,
         "generatorCompletions": 199,
@@ -60766,7 +60745,7 @@
         "key": "2026",
         "label": "2026",
         "badgesIssued": 281,
-        "badgeViews": 513,
+        "badgeViews": 512,
         "certificateDownloads": 210,
         "generatorOpens": 358,
         "generatorCompletions": 245,
@@ -60789,7 +60768,7 @@
         "id": "career-activated",
         "title": "Career Activated",
         "badgesIssued": 207,
-        "badgeViews": 171,
+        "badgeViews": 170,
         "certificateDownloads": 198,
         "generatorOpens": 268,
         "generatorCompletions": 207,
@@ -62606,18 +62585,6 @@
         "latestViewedAt": "2026-09-23T00:35:57.166Z"
       },
       {
-        "slug": "bryan-liang-career-activated-csuncc-20260923-0002",
-        "badgeId": "CSUNCC-20260923-0002",
-        "awardeeName": "Bryan Liang",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/bryan-liang-career-activated-csuncc-20260923-0002/",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0,
-        "latestViewedAt": "2026-09-28T02:06:01.692Z"
-      },
-      {
         "slug": "jane-doe-career-champion-csuncc-20010428-0001",
         "badgeId": "CSUNCC-20010428-0001",
         "awardeeName": "Jane Doe",
@@ -64200,6 +64167,18 @@
         "badgeViews": 0,
         "certificateDownloads": 0,
         "latestViewedAt": ""
+      },
+      {
+        "slug": "bryan-liang-career-activated-csuncc-20260923-0002",
+        "badgeId": "CSUNCC-20260923-0002",
+        "awardeeName": "Bryan Liang",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/bryan-liang-career-activated-csuncc-20260923-0002/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
       }
     ],
     "generatorPages": [
@@ -65562,12 +65541,6 @@
         "certificateDownloads": 1
       },
       {
-        "awardeeName": "Bryan Liang",
-        "badgesIssued": 1,
-        "badgeViews": 1,
-        "certificateDownloads": 0
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -65707,6 +65680,12 @@
       },
       {
         "awardeeName": "Jaylene Valdivieso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Bryan Liang",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0

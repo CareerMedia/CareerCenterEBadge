@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T01:55:08.104Z",
+  "updatedAt": "2026-09-28T02:06:01.710Z",
   "totals": {
-    "badgesIssued": 279,
-    "badgeViews": 509,
-    "certificateDownloads": 209,
-    "generatorOpens": 356,
-    "generatorCompletions": 243,
-    "conversionRate": 68.3,
-    "uniqueVisitorsApprox": 502
+    "badgesIssued": 281,
+    "badgeViews": 513,
+    "certificateDownloads": 210,
+    "generatorOpens": 358,
+    "generatorCompletions": 245,
+    "conversionRate": 68.4,
+    "uniqueVisitorsApprox": 505
   },
   "months": [
     {
@@ -69,26 +69,26 @@
     {
       "key": "2026-09",
       "label": "Sep 2026",
-      "badgesIssued": 197,
-      "badgeViews": 180,
-      "certificateDownloads": 194,
-      "generatorOpens": 243,
-      "generatorCompletions": 197,
-      "uniqueVisitorsApprox": 271,
-      "conversionRate": 81.1
+      "badgesIssued": 199,
+      "badgeViews": 184,
+      "certificateDownloads": 195,
+      "generatorOpens": 245,
+      "generatorCompletions": 199,
+      "uniqueVisitorsApprox": 274,
+      "conversionRate": 81.2
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 279,
-      "badgeViews": 509,
-      "certificateDownloads": 209,
-      "generatorOpens": 356,
-      "generatorCompletions": 243,
-      "uniqueVisitorsApprox": 502,
-      "conversionRate": 68.3
+      "badgesIssued": 281,
+      "badgeViews": 513,
+      "certificateDownloads": 210,
+      "generatorOpens": 358,
+      "generatorCompletions": 245,
+      "uniqueVisitorsApprox": 505,
+      "conversionRate": 68.4
     }
   ],
   "badgeTypes": [
@@ -105,12 +105,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 205,
-      "badgeViews": 167,
-      "certificateDownloads": 197,
-      "generatorOpens": 266,
-      "generatorCompletions": 205,
-      "conversionRate": 77.1
+      "badgesIssued": 207,
+      "badgeViews": 171,
+      "certificateDownloads": 198,
+      "generatorOpens": 268,
+      "generatorCompletions": 207,
+      "conversionRate": 77.2
     },
     {
       "id": "fhtc-e-badge",
@@ -709,6 +709,18 @@
       "badgeViews": 3,
       "certificateDownloads": 1,
       "latestViewedAt": "2026-09-20T02:29:24.049Z"
+    },
+    {
+      "slug": "sean-snoke-career-activated-csuncc-20260927-0002",
+      "badgeId": "CSUNCC-20260927-0002",
+      "awardeeName": "sean snoke",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/sean-snoke-career-activated-csuncc-20260927-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 3,
+      "certificateDownloads": 1,
+      "latestViewedAt": "2026-09-28T02:03:38.960Z"
     },
     {
       "slug": "bryce-simon-career-champion-csuncc-20260409-0003",
@@ -1911,6 +1923,18 @@
       "latestViewedAt": "2026-09-23T00:35:57.166Z"
     },
     {
+      "slug": "bryan-liang-career-activated-csuncc-20260923-0002",
+      "badgeId": "CSUNCC-20260923-0002",
+      "awardeeName": "Bryan Liang",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/bryan-liang-career-activated-csuncc-20260923-0002/",
+      "badgesIssued": 1,
+      "badgeViews": 1,
+      "certificateDownloads": 0,
+      "latestViewedAt": "2026-09-28T02:06:01.692Z"
+    },
+    {
       "slug": "jane-doe-career-champion-csuncc-20010428-0001",
       "badgeId": "CSUNCC-20010428-0001",
       "awardeeName": "Jane Doe",
@@ -2967,12 +2991,12 @@
       "latestViewedAt": ""
     },
     {
-      "slug": "sean-snoke-career-activated-csuncc-20260927-0002",
-      "badgeId": "CSUNCC-20260927-0002",
+      "slug": "sean-snoke-career-activated-csuncc-20260927-0003",
+      "badgeId": "CSUNCC-20260927-0003",
       "awardeeName": "sean snoke",
       "badgeTitle": "Career Activated",
       "badgeTemplateId": "career-activated",
-      "publicUrl": "https://careerbadge.csun.edu/badges/sean-snoke-career-activated-csuncc-20260927-0002/",
+      "publicUrl": "https://careerbadge.csun.edu/badges/sean-snoke-career-activated-csuncc-20260927-0003/",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 1,
@@ -3501,9 +3525,9 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 266,
-      "completions": 204,
-      "conversionRate": 76.7
+      "opens": 268,
+      "completions": 206,
+      "conversionRate": 76.9
     },
     {
       "key": "general",
@@ -3689,6 +3713,12 @@
       "badgesIssued": 2,
       "badgeViews": 2,
       "certificateDownloads": 3
+    },
+    {
+      "awardeeName": "sean snoke",
+      "badgesIssued": 2,
+      "badgeViews": 3,
+      "certificateDownloads": 2
     },
     {
       "awardeeName": "Leslie Rodriguez",
@@ -4849,10 +4879,10 @@
       "certificateDownloads": 1
     },
     {
-      "awardeeName": "sean snoke",
+      "awardeeName": "Bryan Liang",
       "badgesIssued": 1,
-      "badgeViews": 0,
-      "certificateDownloads": 1
+      "badgeViews": 1,
+      "certificateDownloads": 0
     },
     {
       "awardeeName": "Harsh Ahir",

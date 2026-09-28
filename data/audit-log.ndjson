@@ -595,3 +595,10 @@
 {"timestamp":"2026-09-28T01:41:29.117Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260927-0001","backupId":"2026-09-28T01-41-28-901Z","createdAt":"2026-09-28T01:41:29.000Z"}
 {"timestamp":"2026-09-28T01:54:57.622Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260927-0002","awardeeName":"sean snoke"}
 {"timestamp":"2026-09-28T01:55:02.102Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260927-0002","backupId":"2026-09-28T01-55-00-507Z","createdAt":"2026-09-28T01:55:00.719Z"}
+{"timestamp":"2026-09-28T02:02:12.318Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260927-0003","awardeeName":"sean snoke"}
+{"timestamp":"2026-09-28T02:02:15.399Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260927-0003","backupId":"2026-09-28T02-02-15-109Z","createdAt":"2026-09-28T02:02:15.215Z"}
+{"timestamp":"2026-09-28T02:02:34.652Z","action":"auth.fail","actor":"anonymous","path":"/access","ip":"130.166.224.213"}
+{"timestamp":"2026-09-28T02:02:56.380Z","action":"auth.fail","actor":"anonymous","path":"/access","ip":"130.166.224.213"}
+{"timestamp":"2026-09-28T02:03:00.341Z","action":"auth.fail","actor":"anonymous","path":"/access","ip":"130.166.224.213"}
+{"timestamp":"2026-09-28T02:05:54.302Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260923-0002","awardeeName":"Bryan Liang"}
+{"timestamp":"2026-09-28T02:05:58.207Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20260923-0002","backupId":"2026-09-28T02-05-58-002Z","createdAt":"2026-09-28T02:05:58.024Z"}
