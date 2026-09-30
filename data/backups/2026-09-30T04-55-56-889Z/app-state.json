@@ -60366,27 +60366,6 @@
       "requestPath": "",
       "context": "completion",
       "meta": {}
-    },
-    {
-      "id": "a302d2ee-86a3-4cae-9008-7251b09d3d47",
-      "type": "certificate_downloaded",
-      "timestamp": "2026-09-30T04:56:03.783Z",
-      "monthKey": "2026-09",
-      "yearKey": "2026",
-      "badgeId": "CSUNCC-20260929-0001",
-      "badgeSlug": "ashley-michelle-palma-gomez-career-activated-csuncc-20260929-0001",
-      "badgeTitle": "Career Activated",
-      "badgeTemplateId": "career-activated",
-      "awardeeName": "Ashley Michelle Palma Gomez",
-      "publicUrl": "https://careerbadge.csun.edu/badges/ashley-michelle-palma-gomez-career-activated-csuncc-20260929-0001/",
-      "pageKind": "widget-specific",
-      "generatorKey": "career-activated",
-      "generatorLabel": "",
-      "source": "generator-page",
-      "visitorId": "e04d32ab4cd9c4ec8b71c95a",
-      "requestPath": "/api/analytics/track",
-      "context": "generator-certificate-download",
-      "meta": {}
     }
   ],
   "bulkIssueJobs": [
@@ -60861,11 +60840,11 @@
   ],
   "analyticsSummary": {
     "version": 1,
-    "updatedAt": "2026-09-30T04:56:03.795Z",
+    "updatedAt": "2026-09-30T04:55:55.090Z",
     "totals": {
       "badgesIssued": 282,
       "badgeViews": 513,
-      "certificateDownloads": 211,
+      "certificateDownloads": 210,
       "generatorOpens": 359,
       "generatorCompletions": 246,
       "conversionRate": 68.5,
@@ -60932,7 +60911,7 @@
         "label": "Sep 2026",
         "badgesIssued": 200,
         "badgeViews": 184,
-        "certificateDownloads": 196,
+        "certificateDownloads": 195,
         "generatorOpens": 246,
         "generatorCompletions": 200,
         "uniqueVisitorsApprox": 275,
@@ -60945,7 +60924,7 @@
         "label": "2026",
         "badgesIssued": 282,
         "badgeViews": 513,
-        "certificateDownloads": 211,
+        "certificateDownloads": 210,
         "generatorOpens": 359,
         "generatorCompletions": 246,
         "uniqueVisitorsApprox": 506,
@@ -60968,7 +60947,7 @@
         "title": "Career Activated",
         "badgesIssued": 208,
         "badgeViews": 171,
-        "certificateDownloads": 199,
+        "certificateDownloads": 198,
         "generatorOpens": 269,
         "generatorCompletions": 208,
         "conversionRate": 77.3
@@ -63864,18 +63843,6 @@
         "latestViewedAt": ""
       },
       {
-        "slug": "ashley-michelle-palma-gomez-career-activated-csuncc-20260929-0001",
-        "badgeId": "CSUNCC-20260929-0001",
-        "awardeeName": "Ashley Michelle Palma Gomez",
-        "badgeTitle": "Career Activated",
-        "badgeTemplateId": "career-activated",
-        "publicUrl": "https://careerbadge.csun.edu/badges/ashley-michelle-palma-gomez-career-activated-csuncc-20260929-0001/",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1,
-        "latestViewedAt": ""
-      },
-      {
         "slug": "bryce-simon-career-champion-csuncc-20260408-0001",
         "badgeId": "CSUNCC-20260408-0001",
         "awardeeName": "Bryce Simon",
@@ -64386,6 +64353,18 @@
         "badgeTitle": "Career Activated",
         "badgeTemplateId": "career-activated",
         "publicUrl": "https://careerbadge.csun.edu/badges/jaylene-valdivieso-career-activated-csuncc-20260922-0007/",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0,
+        "latestViewedAt": ""
+      },
+      {
+        "slug": "ashley-michelle-palma-gomez-career-activated-csuncc-20260929-0001",
+        "badgeId": "CSUNCC-20260929-0001",
+        "awardeeName": "Ashley Michelle Palma Gomez",
+        "badgeTitle": "Career Activated",
+        "badgeTemplateId": "career-activated",
+        "publicUrl": "https://careerbadge.csun.edu/badges/ashley-michelle-palma-gomez-career-activated-csuncc-20260929-0001/",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0,
@@ -65758,12 +65737,6 @@
         "certificateDownloads": 0
       },
       {
-        "awardeeName": "Ashley Michelle Palma Gomez",
-        "badgesIssued": 1,
-        "badgeViews": 0,
-        "certificateDownloads": 1
-      },
-      {
         "awardeeName": "Harsh Ahir",
         "badgesIssued": 1,
         "badgeViews": 0,
@@ -65903,6 +65876,12 @@
       },
       {
         "awardeeName": "Jaylene Valdivieso",
+        "badgesIssued": 1,
+        "badgeViews": 0,
+        "certificateDownloads": 0
+      },
+      {
+        "awardeeName": "Ashley Michelle Palma Gomez",
         "badgesIssued": 1,
         "badgeViews": 0,
         "certificateDownloads": 0
