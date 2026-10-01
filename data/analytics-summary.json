@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30T04:56:03.795Z",
+  "updatedAt": "2026-10-01T00:27:11.633Z",
   "totals": {
-    "badgesIssued": 282,
+    "badgesIssued": 283,
     "badgeViews": 513,
     "certificateDownloads": 211,
-    "generatorOpens": 359,
-    "generatorCompletions": 246,
-    "conversionRate": 68.5,
-    "uniqueVisitorsApprox": 506
+    "generatorOpens": 360,
+    "generatorCompletions": 247,
+    "conversionRate": 68.6,
+    "uniqueVisitorsApprox": 507
   },
   "months": [
     {
@@ -76,19 +76,30 @@
       "generatorCompletions": 200,
       "uniqueVisitorsApprox": 275,
       "conversionRate": 81.3
+    },
+    {
+      "key": "2026-10",
+      "label": "Oct 2026",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "generatorOpens": 1,
+      "generatorCompletions": 1,
+      "uniqueVisitorsApprox": 1,
+      "conversionRate": 100
     }
   ],
   "years": [
     {
       "key": "2026",
       "label": "2026",
-      "badgesIssued": 282,
+      "badgesIssued": 283,
       "badgeViews": 513,
       "certificateDownloads": 211,
-      "generatorOpens": 359,
-      "generatorCompletions": 246,
-      "uniqueVisitorsApprox": 506,
-      "conversionRate": 68.5
+      "generatorOpens": 360,
+      "generatorCompletions": 247,
+      "uniqueVisitorsApprox": 507,
+      "conversionRate": 68.6
     }
   ],
   "badgeTypes": [
@@ -105,12 +116,12 @@
     {
       "id": "career-activated",
       "title": "Career Activated",
-      "badgesIssued": 208,
+      "badgesIssued": 209,
       "badgeViews": 171,
       "certificateDownloads": 199,
-      "generatorOpens": 269,
-      "generatorCompletions": 208,
-      "conversionRate": 77.3
+      "generatorOpens": 270,
+      "generatorCompletions": 209,
+      "conversionRate": 77.4
     },
     {
       "id": "fhtc-e-badge",
@@ -3529,6 +3540,18 @@
       "badgeViews": 0,
       "certificateDownloads": 0,
       "latestViewedAt": ""
+    },
+    {
+      "slug": "kevin-cavrera-career-activated-csuncc-20260930-0001",
+      "badgeId": "CSUNCC-20260930-0001",
+      "awardeeName": "Kevin Cavrera",
+      "badgeTitle": "Career Activated",
+      "badgeTemplateId": "career-activated",
+      "publicUrl": "https://careerbadge.csun.edu/badges/kevin-cavrera-career-activated-csuncc-20260930-0001/",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0,
+      "latestViewedAt": ""
     }
   ],
   "generatorPages": [
@@ -3537,8 +3560,8 @@
       "label": "Career Activated widget",
       "pageKind": "specific",
       "templateId": "career-activated",
-      "opens": 269,
-      "completions": 207,
+      "opens": 270,
+      "completions": 208,
       "conversionRate": 77
     },
     {
@@ -5042,6 +5065,12 @@
     },
     {
       "awardeeName": "Jaylene Valdivieso",
+      "badgesIssued": 1,
+      "badgeViews": 0,
+      "certificateDownloads": 0
+    },
+    {
+      "awardeeName": "Kevin Cavrera",
       "badgesIssued": 1,
       "badgeViews": 0,
       "certificateDownloads": 0
