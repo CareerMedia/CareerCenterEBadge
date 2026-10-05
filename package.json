@@ -7,10 +7,12 @@
     "nodemailer": "^6.9.16"
   },
   "scripts": {
-    "start": "node server.js",
-    "build": "node build-site.js"
+    "start": "node --max-old-space-size=384 server.js",
+    "build": "node build-site.js",
+    "prune-backups": "node scripts/prune-remote-backups.js",
+    "load-test": "node scripts/load-test.js"
   },
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   }
 }

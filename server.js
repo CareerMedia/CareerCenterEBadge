@@ -5,8 +5,12 @@ const crypto = require('crypto');
 const { URL } = require('url');
 const {
   PATHS,
+  ensureDir,
   ensureDataFiles,
+  flushAppState,
+  writeFileAtomic,
   loadBadges,
+  loadBadgesReadOnly,
   saveBadges,
   loadBadgeTemplates,
   saveBadgeTemplates,
@@ -30,7 +34,7 @@ const {
   normalizeUrl,
   hasConfiguredPublicUrl,
   hydrateFilesFromAppState,
-  syncAppStateFromFiles,
+  markAppStateDirty,
   loadAppState,
   loadEmailLogEntries,
   appendAppErrorLog,
@@ -53,21 +57,34 @@ const {
 const {
   buildPublicSite,
   publishBadgeArtifacts,
+  ensureBadgeArtifacts,
   unpublishBadgeArtifacts,
   publishBadgeIndexes,
   publishTemplateAssets,
   publishBadgesForTemplate,
   removeGeneratorAndWidgetForTemplate
 } = require('./lib/site-generator');
-const { pullRemoteData, persistMutation, getConfig, getSyncStatus, pushLocalData, queuePushLocalData } = require('./lib/github-sync');
 const {
-  loadAnalyticsEvents,
-  loadAnalyticsSummary,
+  pullRemoteData,
+  persistMutation,
+  afterMutationCommit,
+  runWhenMutationIdle,
+  getConfig,
+  getSyncStatus,
+  queuePushLocalData,
+  flushPendingPushes
+} = require('./lib/github-sync');
+const {
   buildAnalyticsSummary,
+  ensureAnalyticsSummaryFresh,
+  isAnalyticsSummaryStale,
+  refreshAnalyticsSummary,
+  iterateNdjson,
+  ANALYTICS_CSV_HEADER,
+  analyticsCsvRow,
   appendAnalyticsEvent,
   backfillIssuedAnalyticsEvents,
-  createVisitorId,
-  buildAnalyticsCsv
+  createVisitorId
 } = require('./lib/analytics');
 const {
   renderLoginPage,
@@ -98,6 +115,7 @@ const {
 } = require('./lib/credential-utils');
 const {
   queueBadgeAwardedEmail,
+  waitForEmailQueue,
   getBrevoApiKey,
   getBrevoHostEnvDiagnostics,
   hasSmtpCredentialsConfigured,
@@ -184,15 +202,33 @@ function logHttpRequestError(request, urlObject, error) {
   });
 }
 
-async function initializeApp() {
+async function pullWithRetries(attempts = 3) {
+  for (let attempt = 1; ; attempt += 1) {
+    try {
+      return await pullRemoteData();
+    } catch (error) {
+      if (attempt >= attempts) {
+        throw error;
+      }
+      console.warn(`GitHub data restore attempt ${attempt} failed (${error.message}); retrying.`);
+      await new Promise((resolve) => setTimeout(resolve, 5000 * attempt));
+    }
+  }
+}
+
+async function initializeApp(options = {}) {
+  // Let server.listen() bind the port before the synchronous loading work below.
+  await new Promise((resolve) => setImmediate(resolve));
   ensureDataFiles();
   registerGlobalErrorLogging();
   const syncConfig = getConfig();
   if (syncConfig.enabled) {
     try {
-      await pullRemoteData();
+      const pulled = await pullWithRetries();
       hydrateFilesFromAppState();
-      console.log(`Loaded persistent badge data from GitHub branch "${syncConfig.branch}".`);
+      console.log(
+        `Loaded persistent badge data from GitHub branch "${syncConfig.branch}" (${pulled.restored || 0} files updated, ${pulled.skippedBackups || 0} backup files left on GitHub).`
+      );
     } catch (error) {
       console.warn(`GitHub data restore failed: ${error.message}`);
       appendAppErrorLog({
@@ -205,24 +241,21 @@ async function initializeApp() {
   } else {
     console.warn('GitHub sync is not configured. Badge data will reset on Render redeploys until GITHUB_TOKEN and GITHUB_REPO are set.');
   }
-  syncAppStateFromFiles();
+  markAppStateDirty();
   const analyticsBackfill = backfillIssuedAnalyticsEvents();
   if (analyticsBackfill.created && syncConfig.enabled) {
-    try {
-      await queuePushLocalData(`Backfill ${analyticsBackfill.created} analytics issuance events`);
-    } catch (error) {
+    queuePushLocalData(`Backfill ${analyticsBackfill.created} analytics issuance events`, { debounceMs: 30000 }).catch((error) => {
       console.warn(`Analytics backfill sync failed: ${error.message}`);
-      appendAppErrorLog({
-        severity: 'warning',
-        source: 'startup_analytics_sync',
-        message: error.message || String(error),
-        stack: error.stack || ''
-      });
-    }
+    });
+  } else if (isAnalyticsSummaryStale()) {
+    refreshAnalyticsSummary();
   }
-  buildPublicSite();
+  buildPublicSite({ badgePages: options.backgroundBadgePages ? 'background' : 'sync' });
   if (!getRecentBackups(1).length) {
     createBackupSnapshot('Initial protected baseline', 'system');
+  }
+  if (!options.skipBulkRecovery) {
+    recoverInterruptedBulkJobs();
   }
 }
 
@@ -281,16 +314,61 @@ function safeEquals(a, b) {
   return crypto.timingSafeEqual(bufA, bufB);
 }
 
+// Render sits behind Cloudflare, which sets CF-Connecting-IP to the real client and
+// rejects client-supplied values. X-Forwarded-For is only appended to by Render, so its
+// leftmost entry is attacker-controlled and is not trusted unless TRUSTED_PROXY_HOPS is set.
+const TRUSTED_PROXY_HOPS = Math.max(0, Number(process.env.TRUSTED_PROXY_HOPS) || 0);
+
 function getClientIp(request) {
-  const forwarded = String((request.headers && request.headers['x-forwarded-for']) || '').trim();
-  if (forwarded) {
-    const first = forwarded.split(',')[0].trim();
-    if (first) {
-      return first;
+  const headers = (request && request.headers) || {};
+  const cloudflare = String(headers['cf-connecting-ip'] || headers['true-client-ip'] || '').trim();
+  if (cloudflare) {
+    return cloudflare;
+  }
+  if (TRUSTED_PROXY_HOPS > 0) {
+    const chain = String(headers['x-forwarded-for'] || '')
+      .split(',')
+      .map((part) => part.trim())
+      .filter(Boolean);
+    const candidate = chain[chain.length - TRUSTED_PROXY_HOPS];
+    if (candidate) {
+      return candidate;
     }
   }
   return String((request.socket && request.socket.remoteAddress) || '').trim() || 'unknown';
 }
+
+function createRateLimiter({ windowMs, max }) {
+  const hits = new Map();
+  return {
+    // Returns 0 when allowed, otherwise the number of seconds until the next allowed request.
+    take(key) {
+      const now = Date.now();
+      let entry = hits.get(key);
+      if (!entry || now - entry.windowStart >= windowMs) {
+        entry = { windowStart: now, count: 0 };
+        hits.set(key, entry);
+      }
+      entry.count += 1;
+      if (entry.count > max) {
+        return Math.max(1, Math.ceil((entry.windowStart + windowMs - now) / 1000));
+      }
+      return 0;
+    },
+    sweep() {
+      const now = Date.now();
+      for (const [key, entry] of hits) {
+        if (now - entry.windowStart >= windowMs) {
+          hits.delete(key);
+        }
+      }
+    }
+  };
+}
+
+const publicIssueLimiter = createRateLimiter({ windowMs: 10 * 60 * 1000, max: 60 });
+const badgeLookupLimiter = createRateLimiter({ windowMs: 10 * 60 * 1000, max: 30 });
+const analyticsTrackLimiter = createRateLimiter({ windowMs: 60 * 1000, max: 240 });
 
 const loginAttemptTracker = new Map();
 
@@ -330,6 +408,29 @@ function clearLoginFailures(ip) {
   loginAttemptTracker.delete(ip);
 }
 
+function sweepExpiredState() {
+  const now = Date.now();
+  for (const store of [sessions, publicSessions]) {
+    for (const [sessionId, entry] of store) {
+      if (!entry || (entry.expiresAt && entry.expiresAt <= now)) {
+        store.delete(sessionId);
+      }
+    }
+  }
+  for (const [ip, entry] of loginAttemptTracker) {
+    const windowOver = !entry.windowStart || now - entry.windowStart > RATE_LIMIT_WINDOW_MS;
+    const unlocked = !entry.blockedUntil || entry.blockedUntil <= now;
+    if (windowOver && unlocked) {
+      loginAttemptTracker.delete(ip);
+    }
+  }
+  publicIssueLimiter.sweep();
+  badgeLookupLimiter.sweep();
+  analyticsTrackLimiter.sweep();
+}
+
+setInterval(sweepExpiredState, 10 * 60 * 1000).unref();
+
 function buildSessionCookie(name, sessionId, options = {}) {
   const sameSite = options.sameSite || 'Strict';
   const maxAge = options.maxAge != null ? options.maxAge : Math.floor(SESSION_TTL_MS / 1000);
@@ -362,7 +463,12 @@ function parseCookies(request) {
   return raw.split(';').reduce((accumulator, pair) => {
     const [key, ...rest] = pair.trim().split('=');
     if (!key) return accumulator;
-    accumulator[key] = decodeURIComponent(rest.join('='));
+    const value = rest.join('=');
+    try {
+      accumulator[key] = decodeURIComponent(value);
+    } catch {
+      accumulator[key] = value;
+    }
     return accumulator;
   }, {});
 }
@@ -411,8 +517,18 @@ function sendHtml(response, html, statusCode = 200) {
 function sendNotFoundPage(response) {
   const notFoundPage = path.join(PATHS.docsDir, '404.html');
   if (fs.existsSync(notFoundPage)) {
-    response.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-    fs.createReadStream(notFoundPage).pipe(response);
+    const stream = fs.createReadStream(notFoundPage);
+    stream.on('error', () => {
+      if (!response.headersSent) {
+        sendHtml(response, '<!DOCTYPE html><html><body><h1>Page not found</h1></body></html>', 404);
+      } else {
+        response.destroy();
+      }
+    });
+    stream.once('open', () => {
+      response.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
+      stream.pipe(response);
+    });
     return;
   }
   sendHtml(response, '<!DOCTYPE html><html><body><h1>Page not found</h1></body></html>', 404);
@@ -428,17 +544,36 @@ function redirect(response, location, headers = {}) {
   response.end();
 }
 
-function parseBody(request) {
+const ADMIN_BODY_LIMIT_BYTES = 20 * 1024 * 1024;
+const PUBLIC_BODY_LIMIT_BYTES = 256 * 1024;
+
+function parseBody(request, options = {}) {
+  const limit = Number(options.limit) || ADMIN_BODY_LIMIT_BYTES;
   return new Promise((resolve, reject) => {
-    let body = '';
+    const chunks = [];
+    let received = 0;
+    let tooLarge = false;
     request.on('data', (chunk) => {
-      body += chunk;
-      if (body.length > 2e7) {
-        reject(new Error('Request body too large'));
-        request.destroy();
+      if (tooLarge) {
+        return;
       }
+      received += chunk.length;
+      if (received > limit) {
+        tooLarge = true;
+        chunks.length = 0;
+        const error = new Error('Request body too large');
+        error.statusCode = 413;
+        reject(error);
+        return;
+      }
+      chunks.push(chunk);
     });
     request.on('end', () => {
+      if (tooLarge) {
+        return;
+      }
+      const body = Buffer.concat(chunks).toString('utf8');
+      chunks.length = 0;
       const contentType = request.headers['content-type'] || '';
       if (contentType.includes('application/x-www-form-urlencoded')) {
         const params = new URLSearchParams(body);
@@ -480,33 +615,108 @@ function contentTypeFor(filePath) {
 }
 
 function safeResolve(baseDir, requestPath) {
-  const cleaned = decodeURIComponent(requestPath.split('?')[0]);
-  const resolved = path.resolve(baseDir, `.${cleaned}`);
-  if (!resolved.startsWith(baseDir)) {
+  let cleaned;
+  try {
+    cleaned = decodeURIComponent(String(requestPath || '').split('?')[0]);
+  } catch {
+    return null;
+  }
+  if (cleaned.includes('\0')) {
+    return null;
+  }
+  const root = path.resolve(baseDir);
+  const resolved = path.resolve(root, `.${cleaned}`);
+  if (resolved !== root && !resolved.startsWith(root + path.sep)) {
     return null;
   }
   return resolved;
 }
 
-function serveStatic(baseDir, requestPath, response) {
+async function statOrNull(filePath) {
+  try {
+    return await fs.promises.stat(filePath);
+  } catch {
+    return null;
+  }
+}
+
+function cacheControlFor(requestPath, filePath) {
+  const ext = path.extname(filePath).toLowerCase();
+  if (requestPath.startsWith('/assets/uploads/')) {
+    // Upload filenames include a timestamp, so a given URL never changes.
+    return 'public, max-age=31536000, immutable';
+  }
+  if (ext === '.html' || ext === '.json' || ext === '.csv' || ext === '.xml' || ext === '.txt') {
+    return 'no-cache';
+  }
+  return 'public, max-age=3600';
+}
+
+function securityHeadersFor(requestPath) {
+  if (requestPath.startsWith('/assets/uploads/')) {
+    return { 'Content-Security-Policy': 'sandbox', 'X-Content-Type-Options': 'nosniff' };
+  }
+  return { 'X-Content-Type-Options': 'nosniff' };
+}
+
+async function serveStatic(baseDir, requestPath, response, request) {
   const resolved = safeResolve(baseDir, requestPath);
   if (!resolved) {
     return false;
   }
 
   let filePath = resolved;
+  let stat = null;
   if (requestPath.endsWith('/')) {
     filePath = path.join(resolved, 'index.html');
-  } else if (fs.existsSync(resolved) && fs.statSync(resolved).isDirectory()) {
-    filePath = path.join(resolved, 'index.html');
+  } else {
+    stat = await statOrNull(resolved);
+    if (stat && stat.isDirectory()) {
+      filePath = path.join(resolved, 'index.html');
+      stat = null;
+    }
   }
-
-  if (!fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
+  if (!stat) {
+    stat = await statOrNull(filePath);
+  }
+  if (!stat || !stat.isFile()) {
     return false;
   }
 
-  response.writeHead(200, { 'Content-Type': contentTypeFor(filePath) });
-  fs.createReadStream(filePath).pipe(response);
+  const etag = `W/"${stat.size.toString(16)}-${Math.floor(stat.mtimeMs).toString(16)}"`;
+  const headers = {
+    'Content-Type': contentTypeFor(filePath),
+    'Cache-Control': cacheControlFor(requestPath, filePath),
+    ETag: etag,
+    'Last-Modified': stat.mtime.toUTCString(),
+    ...securityHeadersFor(requestPath)
+  };
+  const ifNoneMatch = request && request.headers ? String(request.headers['if-none-match'] || '') : '';
+  if (ifNoneMatch && ifNoneMatch.split(',').map((tag) => tag.trim()).includes(etag)) {
+    response.writeHead(304, headers);
+    response.end();
+    return true;
+  }
+
+  headers['Content-Length'] = stat.size;
+  if (request && request.method === 'HEAD') {
+    response.writeHead(200, headers);
+    response.end();
+    return true;
+  }
+
+  const stream = fs.createReadStream(filePath);
+  stream.on('error', (error) => {
+    if (!response.headersSent) {
+      sendText(response, 'File could not be read.', 500);
+    } else {
+      response.destroy(error);
+    }
+  });
+  stream.once('open', () => {
+    response.writeHead(200, headers);
+    stream.pipe(response);
+  });
   return true;
 }
 
@@ -532,35 +742,55 @@ async function tryServeUploadFromGithub(baseDir, requestPath, response) {
     return false;
   }
   // If file exists, normal static handler should have served it.
-  if (fs.existsSync(resolved) && !fs.statSync(resolved).isDirectory()) {
+  const existing = await statOrNull(resolved);
+  if (existing && !existing.isDirectory()) {
     return false;
   }
   const remotePath = `docs${reqPath}`.replace(/^\/+/, '');
-  const rawUrl = `https://raw.githubusercontent.com/${cfg.repo}/${cfg.branch}/${remotePath}`;
+  const rawUrl = `https://raw.githubusercontent.com/${cfg.repo}/${encodeURIComponent(cfg.branch)}/${remotePath
+    .split('/')
+    .map((part) => encodeURIComponent(part))
+    .join('/')}`;
   const headers = { 'User-Agent': 'csun-career-center-ebadges' };
   if (cfg.token) {
     headers.Authorization = `Bearer ${cfg.token}`;
   }
   let upstream;
   try {
-    upstream = await fetch(rawUrl, { headers });
+    upstream = await fetch(rawUrl, { headers, signal: AbortSignal.timeout(20000) });
   } catch {
     return false;
   }
-  if (!upstream.ok) {
+  const declaredLength = Number(upstream.headers.get('content-length') || 0);
+  if (!upstream.ok || declaredLength > UPLOAD_PROXY_MAX_BYTES) {
+    upstream.body && upstream.body.cancel().catch(() => {});
     return false;
   }
-  const buffer = Buffer.from(await upstream.arrayBuffer());
-  ensureDir(path.dirname(resolved));
+  let buffer;
   try {
-    fs.writeFileSync(resolved, buffer);
+    buffer = Buffer.from(await upstream.arrayBuffer());
+  } catch {
+    return false;
+  }
+  if (buffer.length > UPLOAD_PROXY_MAX_BYTES) {
+    return false;
+  }
+  try {
+    ensureDir(path.dirname(resolved));
+    writeFileAtomic(resolved, buffer);
   } catch {
     // If caching fails, still return the bytes.
   }
-  response.writeHead(200, { 'Content-Type': contentTypeFor(resolved) });
+  response.writeHead(200, {
+    'Content-Type': contentTypeFor(resolved),
+    'Cache-Control': cacheControlFor(reqPath, resolved),
+    ...securityHeadersFor(reqPath)
+  });
   response.end(buffer);
   return true;
 }
+
+const UPLOAD_PROXY_MAX_BYTES = 15 * 1024 * 1024;
 
 function buildNoticeUrl(pathname, notice) {
   return `${pathname}?notice=${encodeURIComponent(notice)}`;
@@ -783,74 +1013,175 @@ function createBulkIssueValidationJob(formData) {
   return job;
 }
 
-async function processBulkIssueJobSync(jobId) {
+const BULK_ISSUE_CHUNK_SIZE = 25;
+const runningBulkJobs = new Set();
+
+// Applies a change to one job, re-reading the jobs file so concurrent edits to other
+// jobs are not overwritten.
+function updateBulkJob(jobId, update) {
   const jobs = loadBulkIssueJobs();
-  const index = jobs.findIndex((job) => job.id === jobId);
-  if (index < 0) {
+  const job = jobs.find((entry) => entry.id === jobId);
+  if (!job) {
+    return null;
+  }
+  update(job);
+  saveBulkIssueJobs(jobs);
+  return job;
+}
+
+function markBulkJobStarted(jobId) {
+  return updateBulkJob(jobId, (job) => {
+    job.status = 'processing';
+    job.startedAt = new Date().toISOString();
+    job.finishedAt = '';
+    job.processedRows = 0;
+    job.completedRows = 0;
+    job.failedRows = 0;
+    job.progressPercent = 0;
+    job.results = [];
+    job.errors = [];
+  });
+}
+
+async function processBulkIssueJobSync(jobId) {
+  if (runningBulkJobs.has(jobId)) {
+    throw new Error('This bulk issue job is already running.');
+  }
+  const initial = loadBulkIssueJobs().find((job) => job.id === jobId);
+  if (!initial) {
     throw new Error('Bulk issue job not found.');
   }
-  const job = jobs[index];
-  if (!Array.isArray(job.rows) || !job.rows.length) {
+  if (!Array.isArray(initial.rows) || !initial.rows.length) {
     throw new Error('Bulk issue job has no rows to process.');
   }
-  if (job.rows.some((row) => Array.isArray(row.errors) && row.errors.length)) {
+  if (initial.rows.some((row) => Array.isArray(row.errors) && row.errors.length)) {
     throw new Error('Resolve validation errors before issuing badges.');
   }
 
-  job.status = 'processing';
-  job.startedAt = new Date().toISOString();
-  job.processedRows = 0;
-  job.completedRows = 0;
-  job.failedRows = 0;
-  job.progressPercent = 0;
-  job.results = [];
-  job.errors = [];
-  saveBulkIssueJobs(jobs);
+  runningBulkJobs.add(jobId);
+  try {
+    if (initial.status !== 'processing') {
+      markBulkJobStarted(jobId);
+    }
+    const startJob = loadBulkIssueJobs().find((job) => job.id === jobId);
+    const handled = new Set([
+      ...(startJob.results || []).map((entry) => entry.rowNumber),
+      ...(startJob.errors || []).map((entry) => entry.rowNumber)
+    ]);
+    const pendingRows = startJob.rows.filter((row) => !handled.has(row.rowNumber));
 
-  for (const row of job.rows) {
-    try {
-      let issuedBadge = null;
-      const badge = await persistMutation(
-        `Bulk issue badge row ${row.rowNumber} (${jobId})`,
+    for (let offset = 0; offset < pendingRows.length; offset += BULK_ISSUE_CHUNK_SIZE) {
+      const chunk = pendingRows.slice(offset, offset + BULK_ISSUE_CHUNK_SIZE);
+      let issued = [];
+      await persistMutation(
+        `Bulk issue rows ${chunk[0].rowNumber}-${chunk[chunk.length - 1].rowNumber} (${jobId})`,
         () => {
-          issuedBadge = handleIssueBadge({
-            awardeeName: row.awardeeName,
-            awardeeEmail: row.awardeeEmail,
-            issueDate: row.issueDate,
-            badgeTemplateId: job.badgeTemplateId,
-            source: 'admin-bulk-issue'
+          const outcome = issueBadgeBatch(
+            chunk.map((row) => ({
+              awardeeName: row.awardeeName,
+              awardeeEmail: row.awardeeEmail,
+              issueDate: row.issueDate,
+              badgeTemplateId: startJob.badgeTemplateId,
+              source: 'admin-bulk-issue'
+            }))
+          );
+          issued = outcome.badges;
+          // Progress is saved in the same mutation as the badges so a restart can resume
+          // without issuing any row twice.
+          updateBulkJob(jobId, (job) => {
+            job.results = job.results || [];
+            job.errors = job.errors || [];
+            outcome.results.forEach((result, index) => {
+              const row = chunk[index];
+              if (result.badge) {
+                job.completedRows = (job.completedRows || 0) + 1;
+                job.results.push({
+                  rowNumber: row.rowNumber,
+                  awardeeName: row.awardeeName,
+                  badgeId: result.badge.id,
+                  publicUrl: buildBrowserBadgeUrl(result.badge)
+                });
+              } else {
+                job.failedRows = (job.failedRows || 0) + 1;
+                job.errors.push({ rowNumber: row.rowNumber, message: result.error });
+              }
+            });
+            job.processedRows = (job.completedRows || 0) + (job.failedRows || 0);
+            job.progressPercent = job.totalRows ? Math.round((job.processedRows / job.totalRows) * 100) : 100;
           });
-          return issuedBadge;
+          return outcome;
         },
         () => {
-          if (issuedBadge) {
-            publishBadgeArtifacts(issuedBadge);
-            publishBadgeIndexes();
+          const ctx = { siteConfig: loadSiteConfig(), certificateTemplate: loadCertificateTemplate() };
+          issued.forEach((badge) => publishBadgeArtifacts(badge, ctx));
+          if (issued.length) {
+            schedulePublishBadgeIndexes();
           }
-        }
+        },
+        { debounceMs: 5000 }
       );
-      job.completedRows += 1;
-      job.results.push({
-        rowNumber: row.rowNumber,
-        awardeeName: row.awardeeName,
-        badgeId: badge.id,
-        publicUrl: buildBrowserBadgeUrl(badge)
-      });
-    } catch (error) {
-      job.failedRows += 1;
-      job.errors.push({ rowNumber: row.rowNumber, message: error.message });
+      await new Promise((resolve) => setImmediate(resolve));
     }
-    job.processedRows = job.completedRows + job.failedRows;
-    job.progressPercent = job.totalRows ? Math.round((job.processedRows / job.totalRows) * 100) : 100;
-    saveBulkIssueJobs(jobs);
+
+    const finished = await persistMutation(`Finish bulk issue job ${jobId}`, () =>
+      updateBulkJob(jobId, (job) => {
+        job.status = job.failedRows ? (job.completedRows ? 'completed_with_errors' : 'failed') : 'completed';
+        job.finishedAt = new Date().toISOString();
+      })
+    );
+    if (finished && finished.completedRows > 0) {
+      scheduleBackgroundSnapshot(`Bulk issued ${finished.completedRows} badge${finished.completedRows === 1 ? '' : 's'} (${jobId})`);
+    }
+    return finished;
+  } catch (error) {
+    try {
+      await persistMutation(`Stop bulk issue job ${jobId}`, () =>
+        updateBulkJob(jobId, (job) => {
+          job.status = job.completedRows ? 'completed_with_errors' : 'failed';
+          job.finishedAt = new Date().toISOString();
+          job.errors = [...(job.errors || []), { rowNumber: 0, message: `Job stopped: ${error.message}` }];
+        })
+      );
+    } catch {}
+    throw error;
+  } finally {
+    runningBulkJobs.delete(jobId);
   }
-  job.status = job.failedRows ? (job.completedRows ? 'completed_with_errors' : 'failed') : 'completed';
-  job.finishedAt = new Date().toISOString();
-  saveBulkIssueJobs(jobs);
-  if (job.completedRows > 0) {
-    scheduleBackgroundSnapshot(`Bulk issued ${job.completedRows} badge${job.completedRows === 1 ? '' : 's'} (${jobId})`);
+}
+
+function startBulkIssueJobInBackground(jobId) {
+  setImmediate(() => {
+    void (async () => {
+      try {
+        const finished = await processBulkIssueJobSync(jobId);
+        appendAuditLog({
+          action: 'bulk.issue.start',
+          actor: 'admin',
+          jobId: finished.id,
+          totalRows: finished.totalRows,
+          completedRows: finished.completedRows,
+          failedRows: finished.failedRows,
+          badgeTemplateId: finished.badgeTemplateId
+        });
+      } catch (err) {
+        appendAppErrorLog({
+          severity: 'error',
+          source: 'bulk_issue_async',
+          message: err.message || String(err),
+          stack: err.stack || '',
+          context: String(jobId || '')
+        });
+      }
+    })();
+  });
+}
+
+function recoverInterruptedBulkJobs() {
+  const interrupted = loadBulkIssueJobs().filter((job) => job.status === 'processing');
+  for (const job of interrupted) {
+    console.log(`Resuming bulk issue job ${job.id} interrupted by a restart.`);
+    startBulkIssueJobInBackground(job.id);
   }
-  return job;
 }
 
 
@@ -921,16 +1252,17 @@ function buildBrowserBadgeUrl(badge) {
   return `/badges/${badge.slug}/`;
 }
 
-function mergeTemplateFields(formData) {
+function mergeTemplateFields(formData, ctx = {}) {
   const badgeTemplateId = cleanText(formData.badgeTemplateId);
-  const template = badgeTemplateId ? loadBadgeTemplates().find((entry) => entry.id === badgeTemplateId) : null;
+  const templates = ctx.templates || loadBadgeTemplates();
+  const template = badgeTemplateId ? templates.find((entry) => entry.id === badgeTemplateId) : null;
 
   if (badgeTemplateId && !template) {
     throw new Error('The selected badge template could not be found.');
   }
 
-  const siteConfig = loadSiteConfig();
-  const certificateTemplate = loadCertificateTemplate();
+  const siteConfig = ctx.siteConfig || loadSiteConfig();
+  const certificateTemplate = ctx.certificateTemplate || loadCertificateTemplate();
   const badgeImage = persistAssetField({
     uploadValue: formData.badgeImageUploadDataUrl,
     manualValue: cleanText(formData.badgeImage) || cleanText(template && template.badgeImage),
@@ -989,8 +1321,8 @@ function mergeTemplateFields(formData) {
   return merged;
 }
 
-function createBadgeRecord(formData) {
-  const merged = mergeTemplateFields(formData);
+function createBadgeRecord(formData, ctx = {}) {
+  const merged = mergeTemplateFields(formData, ctx);
   const { awardeeName, awardeeEmail, issueDate, badgeTemplateId, badgeTitle, badgeLabel, description, publicSummary, meaning, criteria, issuerName, issuerOrganization, issuerWebsite, careerCenterUrl, badgeImage, certificateBackground } = merged;
 
   if (!awardeeName || !awardeeEmail || !badgeTitle || !publicSummary || !meaning || !criteria) {
@@ -1006,10 +1338,10 @@ function createBadgeRecord(formData) {
     throw new Error('Badge image path and certificate background path are required.');
   }
 
-  const siteConfig = loadSiteConfig();
-  const badges = loadBadges();
+  const siteConfig = ctx.siteConfig || loadSiteConfig();
+  const badges = ctx.badges || loadBadges();
   const parsedDate = parseIssueDate(issueDate);
-  const id = buildCredentialId(badges, siteConfig, parsedDate.iso);
+  const id = buildCredentialId(badges, siteConfig, parsedDate.iso, ctx.reservedIds);
 
   const candidate = {
     id,
@@ -1067,11 +1399,7 @@ function createBadgeRecord(formData) {
   return candidate;
 }
 
-function handleIssueBadge(formData) {
-  const badges = loadBadges();
-  const badge = createBadgeRecord(formData);
-  badges.push(badge);
-  saveBadges(badges);
+function recordIssuedBadge(badge) {
   appendAnalyticsEvent({
     type: 'badge_issued',
     timestamp: badge.createdAt,
@@ -1086,26 +1414,141 @@ function handleIssueBadge(formData) {
     context: 'issuance'
   });
   appendAuditLog({ action: 'badge.issue', actor: 'admin', badgeId: badge.id, awardeeName: badge.awardeeName });
-  queueBadgeAwardedEmail(loadSiteConfig, badge);
-  return badge;
+  // Emails go out only once the badge is safely saved; a rolled-back issue sends nothing.
+  afterMutationCommit(() => queueBadgeAwardedEmail(loadSiteConfig, badge));
 }
 
-function scheduleBackgroundSnapshot(reason, actor = 'admin') {
-  setImmediate(() => {
+/**
+ * Issues several badges with one read and one write of the badge registry.
+ * Rows that fail validation are reported individually and do not stop the batch.
+ */
+function issueBadgeBatch(formDataList) {
+  const badges = loadBadges();
+  const ctx = {
+    badges,
+    templates: loadBadgeTemplates(),
+    siteConfig: loadSiteConfig(),
+    certificateTemplate: loadCertificateTemplate(),
+    reservedIds: loadDeletedBadges().map((entry) => entry && entry.id)
+  };
+  const results = formDataList.map((formData) => {
     try {
-      createBackupSnapshot(reason, actor);
-    } catch (err) {
-      try {
-        appendAppErrorLog({
-          severity: 'warning',
-          source: 'backup_snapshot_async',
-          message: err.message || String(err),
-          stack: err.stack || '',
-          context: String(reason || '')
-        });
-      } catch {}
+      const badge = createBadgeRecord(formData, ctx);
+      badges.push(badge);
+      return { badge };
+    } catch (error) {
+      return { error: error.message || String(error) };
     }
   });
+  const issued = results.filter((result) => result.badge).map((result) => result.badge);
+  if (issued.length) {
+    saveBadges(badges);
+    issued.forEach(recordIssuedBadge);
+    scheduleAnalyticsSummaryRefresh();
+  }
+  return { badges: issued, results };
+}
+
+function handleIssueBadge(formData) {
+  const outcome = issueBadgeBatch([formData]);
+  const [result] = outcome.results;
+  if (!result || !result.badge) {
+    throw new Error((result && result.error) || 'The badge could not be issued.');
+  }
+  return result.badge;
+}
+
+// The home page, registry data, and sitemap all depend on the full badge list.
+// Rebuild them at most once every few seconds, no matter how many badges are issued.
+const BADGE_INDEX_THROTTLE_MS = 3000;
+let lastBadgeIndexPublish = 0;
+let badgeIndexTimer = null;
+
+function runPublishBadgeIndexes() {
+  lastBadgeIndexPublish = Date.now();
+  try {
+    publishBadgeIndexes();
+  } catch (error) {
+    appendAppErrorLog({
+      severity: 'warning',
+      source: 'publish_badge_indexes',
+      message: error.message || String(error),
+      stack: error.stack || ''
+    });
+  }
+}
+
+function schedulePublishBadgeIndexes() {
+  const wait = BADGE_INDEX_THROTTLE_MS - (Date.now() - lastBadgeIndexPublish);
+  if (wait <= 0 && !badgeIndexTimer) {
+    runPublishBadgeIndexes();
+    return;
+  }
+  if (!badgeIndexTimer) {
+    badgeIndexTimer = setTimeout(() => {
+      badgeIndexTimer = null;
+      runPublishBadgeIndexes();
+    }, Math.max(wait, 50));
+  }
+}
+
+const ANALYTICS_SUMMARY_DELAY_MS = 30 * 1000;
+const ANALYTICS_PUSH_DEBOUNCE_MS = 60 * 1000;
+let analyticsSummaryTimer = null;
+
+function scheduleAnalyticsSummaryRefresh() {
+  if (analyticsSummaryTimer) {
+    return;
+  }
+  analyticsSummaryTimer = setTimeout(() => {
+    analyticsSummaryTimer = null;
+    runWhenMutationIdle(() => {
+      try {
+        if (isAnalyticsSummaryStale()) {
+          refreshAnalyticsSummary();
+        }
+      } catch (error) {
+        console.warn(`Analytics summary refresh failed: ${error.message}`);
+      }
+      queuePushLocalData('Update analytics', { debounceMs: ANALYTICS_PUSH_DEBOUNCE_MS }).catch(() => {});
+    });
+  }, ANALYTICS_SUMMARY_DELAY_MS);
+  analyticsSummaryTimer.unref();
+}
+
+// Automatic snapshots (after issuing, editing, deleting) are coalesced so that a busy
+// hour produces one snapshot instead of hundreds. Manual and restore snapshots are
+// still taken immediately.
+const BACKGROUND_SNAPSHOT_INTERVAL_MS = 60 * 60 * 1000;
+let lastBackgroundSnapshotAt = 0;
+let backgroundSnapshotTimer = null;
+const pendingSnapshotReasons = [];
+
+function scheduleBackgroundSnapshot(reason, actor = 'admin') {
+  pendingSnapshotReasons.push(String(reason || 'Automatic snapshot'));
+  if (backgroundSnapshotTimer) {
+    return;
+  }
+  const wait = Math.max(0, lastBackgroundSnapshotAt + BACKGROUND_SNAPSHOT_INTERVAL_MS - Date.now());
+  backgroundSnapshotTimer = setTimeout(() => {
+    backgroundSnapshotTimer = null;
+    const reasons = pendingSnapshotReasons.splice(0);
+    if (!reasons.length) {
+      return;
+    }
+    lastBackgroundSnapshotAt = Date.now();
+    const combined = reasons.length === 1 ? reasons[0] : `${reasons[reasons.length - 1]} (+${reasons.length - 1} earlier changes)`;
+    persistMutation('Automatic backup snapshot', () => createBackupSnapshot(combined, actor), null, { debounceMs: 30000 }).catch((err) => {
+      appendAppErrorLog({
+        severity: 'warning',
+        source: 'backup_snapshot_async',
+        message: err.message || String(err),
+        stack: err.stack || '',
+        context: combined
+      });
+    });
+  }, Math.max(wait, 1000));
+  backgroundSnapshotTimer.unref();
 }
 
 function hasInlineUploadedAssets(formData) {
@@ -1307,7 +1750,9 @@ function parseEmailAwardTemplatesFromForm(formData, previous) {
   return parsed.map((e) => normalizeEmailAwardTemplateEntry(e));
 }
 
-async function saveEmailSettings(formData) {
+// Validates email settings (including the network check against Brevo) without holding
+// the mutation lock; applyEmailSettings then saves the result inside a mutation.
+async function prepareEmailSettings(formData) {
   const previous = loadSiteConfig();
   const saveMode = cleanText(formData.saveMode) === 'templates_only' ? 'templates_only' : 'full';
   const templatesOnly = saveMode === 'templates_only';
@@ -1362,12 +1807,36 @@ async function saveEmailSettings(formData) {
       throw new Error(`Brevo rejected this REST API key (${err.message || String(err)}). ${hint}`);
     }
   }
-  saveSiteConfig(siteConfig);
+  return { siteConfig, templatesOnly };
+}
+
+const EMAIL_SETTING_KEYS = [
+  'emailBrevoEnabled',
+  'emailBrevoApiKey',
+  'emailBrevoSenderEmail',
+  'emailBrevoSenderName',
+  'emailBrevoReplyTo',
+  'emailBrevoTransport',
+  'emailAwardTemplates',
+  'emailAwardDefaultTemplateId'
+];
+
+function applyEmailSettings(prepared) {
+  const current = loadSiteConfig();
+  const next = { ...current };
+  for (const key of EMAIL_SETTING_KEYS) {
+    next[key] = prepared.siteConfig[key];
+  }
+  saveSiteConfig(next);
   createBackupSnapshot('Saved Brevo email settings', 'admin');
   appendAuditLog({
-    action: templatesOnly ? 'email.templates.save' : 'email.settings.save',
+    action: prepared.templatesOnly ? 'email.templates.save' : 'email.settings.save',
     actor: 'admin'
   });
+}
+
+function rebuildPublicSiteInBackground() {
+  buildPublicSite({ badgePages: 'background' });
 }
 
 function restoreFullBackup(jsonText) {
@@ -1414,25 +1883,133 @@ function eventMatchesAnalyticsFilter(event, filters = {}) {
   return true;
 }
 
-function buildAnalyticsViewModel(urlObject) {
-  const templates = loadBadgeTemplates();
-  const filters = {
+function parseAnalyticsFilters(urlObject) {
+  return {
     year: cleanText(urlObject.searchParams.get('year')),
     month: cleanText(urlObject.searchParams.get('month')),
     badgeType: cleanText(urlObject.searchParams.get('badgeType'))
   };
-  const badges = loadBadges();
-  const events = loadAnalyticsEvents();
-  const filteredBadges = badges.filter((badge) => badgeMatchesAnalyticsFilter(badge, filters));
-  const filteredEvents = events.filter((event) => eventMatchesAnalyticsFilter(event, filters));
+}
+
+function* iterateFilteredAnalyticsEvents(filters) {
+  for (const event of iterateNdjson(PATHS.analyticsEventsFile)) {
+    if (eventMatchesAnalyticsFilter(event, filters)) {
+      yield event;
+    }
+  }
+}
+
+// Writes a (possibly very large) download piece by piece, honouring backpressure, so the
+// whole file never has to exist as one string in memory.
+async function streamToResponse(response, headers, pieces) {
+  response.writeHead(200, { 'Cache-Control': 'no-store', ...headers });
+  let batch = '';
+  const writeBatch = async () => {
+    if (!batch) {
+      return;
+    }
+    const text = batch;
+    batch = '';
+    if (!response.write(text)) {
+      await new Promise((resolve) => {
+        response.once('drain', resolve);
+        response.once('close', resolve);
+      });
+    }
+  };
+  try {
+    for (const piece of pieces) {
+      if (response.destroyed) {
+        return;
+      }
+      batch += piece;
+      if (batch.length >= 256 * 1024) {
+        await writeBatch();
+      }
+    }
+    await writeBatch();
+    response.end();
+  } catch (error) {
+    console.error(`Download failed: ${error.message}`);
+    response.destroy(error);
+  }
+}
+
+// The Backups page inlines the full backup JSON. That stays as-is for small registries,
+// but past a few megabytes rendering it would use hundreds of MB, so the page links to
+// the streamed download instead.
+const BACKUP_PREVIEW_MAX_BYTES = 3 * 1024 * 1024;
+
+function loadBackupPreview() {
+  flushAppState();
+  const size = fs.statSync(PATHS.appStateFile, { throwIfNoEntry: false });
+  if (size && size.size > BACKUP_PREVIEW_MAX_BYTES) {
+    return { appState: null, previewTooLargeBytes: size.size };
+  }
+  const appState = loadAppState();
+  const siteConfig = { ...(appState.siteConfig || {}) };
+  delete siteConfig.emailBrevoApiKey;
+  return { appState: { ...appState, siteConfig } };
+}
+
+// Same shape as the previous full export ({ appState: { ..., analyticsEvents } }), but
+// generated incrementally. The Brevo API key is left out like in every other backup.
+function* generateAppStateExport() {
+  const state = loadAppState();
+  const siteConfig = { ...(state.siteConfig || {}) };
+  delete siteConfig.emailBrevoApiKey;
+  state.siteConfig = siteConfig;
+  yield '{"appState":{';
+  let firstKey = true;
+  for (const [key, value] of Object.entries(state)) {
+    if (value === undefined) {
+      continue;
+    }
+    yield `${firstKey ? '' : ','}${JSON.stringify(key)}:`;
+    firstKey = false;
+    if (Array.isArray(value)) {
+      yield '[';
+      for (let index = 0; index < value.length; index += 1) {
+        yield `${index ? ',' : ''}${JSON.stringify(value[index]) ?? 'null'}`;
+      }
+      yield ']';
+    } else {
+      yield JSON.stringify(value);
+    }
+  }
+  yield `${firstKey ? '' : ','}"analyticsEvents":[`;
+  let firstEvent = true;
+  for (const event of iterateNdjson(PATHS.analyticsEventsFile)) {
+    yield `${firstEvent ? '' : ','}${JSON.stringify(event)}`;
+    firstEvent = false;
+  }
+  yield ']}}\n';
+}
+
+function collectRecentAnalyticsEvents(filters, limit) {
+  const byNewest = (left, right) => String(right.timestamp || '').localeCompare(String(left.timestamp || ''));
+  let recent = [];
+  for (const event of iterateFilteredAnalyticsEvents(filters)) {
+    recent.push(event);
+    if (recent.length > limit * 8) {
+      recent = recent.sort(byNewest).slice(0, limit);
+    }
+  }
+  return recent.sort(byNewest).slice(0, limit);
+}
+
+function buildAnalyticsViewModel(urlObject) {
+  const templates = loadBadgeTemplates();
+  const filters = parseAnalyticsFilters(urlObject);
   const hasFilters = Boolean(filters.year || filters.month || filters.badgeType);
   const summary = hasFilters
-    ? buildAnalyticsSummary({ badges: filteredBadges, templates, events: filteredEvents })
-    : loadAnalyticsSummary();
-  const recentEvents = filteredEvents
-    .slice()
-    .sort((left, right) => String(right.timestamp || '').localeCompare(String(left.timestamp || '')))
-    .slice(0, 30);
+    ? buildAnalyticsSummary({
+        badges: loadBadgesReadOnly().filter((badge) => badgeMatchesAnalyticsFilter(badge, filters)),
+        templates,
+        events: iterateFilteredAnalyticsEvents(filters)
+      })
+    : ensureAnalyticsSummaryFresh();
+  const recentEvents = collectRecentAnalyticsEvents(filters, 30);
   const queryParams = new URLSearchParams();
   if (filters.year) queryParams.set('year', filters.year);
   if (filters.month) queryParams.set('month', filters.month);
@@ -1448,13 +2025,17 @@ function buildAnalyticsViewModel(urlObject) {
   };
 }
 
-async function trackAnalyticsEvent(eventInput, reason = 'Track analytics event') {
-  appendAnalyticsEvent(eventInput);
-  try {
-    await queuePushLocalData(reason);
-  } catch (error) {
-    console.warn(`Analytics sync failed: ${error.message}`);
-  }
+// Analytics are best-effort: the event is appended once no mutation is running, the
+// summary is rebuilt later in one pass, and GitHub sync is batched.
+function trackAnalyticsEvent(eventInput) {
+  runWhenMutationIdle(() => {
+    try {
+      appendAnalyticsEvent(eventInput);
+      scheduleAnalyticsSummaryRefresh();
+    } catch (error) {
+      console.warn(`Analytics event could not be recorded: ${error.message}`);
+    }
+  });
 }
 
 function restoreBadgesCsv(csvText) {
@@ -1466,7 +2047,7 @@ function restoreBadgesCsv(csvText) {
 
 function renderDashboardPage(urlObject) {
   const siteConfig = loadSiteConfig();
-  const filteredBadges = filterBadges(loadBadges(), urlObject.searchParams.get('q') || '').map((badge) => ({
+  const filteredBadges = filterBadges(loadBadgesReadOnly(), urlObject.searchParams.get('q') || '').map((badge) => ({
     ...badge,
     publicUrl: buildBrowserBadgeUrl(badge)
   }));
@@ -1484,30 +2065,78 @@ function renderDashboardPage(urlObject) {
   });
 }
 
+function sendJson(response, statusCode, payload, headers = {}) {
+  sendText(response, JSON.stringify(payload), statusCode, 'application/json; charset=utf-8', headers);
+}
+
+function sendRateLimited(response, retryAfterSec) {
+  sendJson(
+    response,
+    429,
+    { ok: false, error: 'Too many requests. Please wait a moment and try again.' },
+    { 'Retry-After': String(retryAfterSec) }
+  );
+}
+
+const PUBLIC_ISSUE_FIELD_LIMITS = {
+  awardeeName: 120,
+  awardeeEmail: 254,
+  issueDate: 40,
+  badgeTemplateId: 120,
+  pageKind: 20,
+  generatorLabel: 160
+};
+
+// The public generator may only choose a template and supply the recipient's details.
+// Everything else (badge text, images, issuer) always comes from the template.
+function pickPublicIssueFields(formData) {
+  const picked = {};
+  for (const [key, maxLength] of Object.entries(PUBLIC_ISSUE_FIELD_LIMITS)) {
+    const value = cleanText(formData && formData[key]);
+    if (value.length > maxLength) {
+      throw new Error(`The ${key} field is too long.`);
+    }
+    picked[key] = value;
+  }
+  if (!picked.badgeTemplateId) {
+    throw new Error('Choose a badge before generating it.');
+  }
+  return picked;
+}
+
 async function handlePublicApiRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/api/public/badges-by-email') {
+    const retryAfter = badgeLookupLimiter.take(getClientIp(request));
+    if (retryAfter) {
+      sendRateLimited(response, retryAfter);
+      return true;
+    }
     try {
-      const formData = await parseBody(request);
+      const formData = await parseBody(request, { limit: PUBLIC_BODY_LIMIT_BYTES });
       const email = normalizeEmail(formData.email);
       if (!isValidEmail(email)) {
         sendText(response, JSON.stringify({ ok: false, error: 'Enter a valid email address.' }), 400, 'application/json; charset=utf-8');
         return true;
       }
-      const matches = sortBadgesDescending(loadBadges())
+      const matches = sortBadgesDescending(loadBadgesReadOnly())
         .filter((badge) => normalizeEmail(badge.awardeeEmail) === email)
         .map((badge) => sanitizeBadgeResponse(badge));
       sendText(response, JSON.stringify({ ok: true, matches }), 200, 'application/json; charset=utf-8');
     } catch (error) {
-      sendText(response, JSON.stringify({ ok: false, error: error.message }), 400, 'application/json; charset=utf-8');
+      sendJson(response, error.statusCode === 413 ? 413 : 400, { ok: false, error: error.message });
     }
     return true;
   }
 
   if (request.method === 'POST' && urlObject.pathname === '/api/public/issue') {
+    const retryAfter = publicIssueLimiter.take(getClientIp(request));
+    if (retryAfter) {
+      sendRateLimited(response, retryAfter);
+      return true;
+    }
     try {
-      const formData = await parseBody(request);
+      const formData = pickPublicIssueFields(await parseBody(request, { limit: PUBLIC_BODY_LIMIT_BYTES }));
       let issuedBadgeRef = null;
-      const syncPush = hasInlineUploadedAssets(formData);
       const badge = await persistMutation('Issue badge from public generator', () => {
         const issuedBadge = handleIssueBadge({
           ...formData,
@@ -1533,53 +2162,54 @@ async function handlePublicApiRequest(request, response, urlObject) {
       }, () => {
         if (issuedBadgeRef) {
           publishBadgeArtifacts(issuedBadgeRef);
-          publishBadgeIndexes();
+          schedulePublishBadgeIndexes();
         }
-      }, { syncPush });
+      }, { debounceMs: 3000 });
       scheduleBackgroundSnapshot(`Issued badge ${badge.id}`);
       const browserUrl = buildBrowserBadgeUrl(badge);
       sendText(response, JSON.stringify({ ok: true, badge: sanitizeBadgeResponse({ ...badge, publicUrl: browserUrl }) }), 201, 'application/json; charset=utf-8');
     } catch (error) {
-      sendText(
-        response,
-        JSON.stringify({ ok: false, error: error.message }),
-        400,
-        'application/json; charset=utf-8'
-      );
+      sendJson(response, error.statusCode === 413 ? 413 : 400, { ok: false, error: error.message });
     }
     return true;
   }
 
   if (request.method === 'POST' && urlObject.pathname === '/api/analytics/track') {
+    const retryAfter = analyticsTrackLimiter.take(getClientIp(request));
+    if (retryAfter) {
+      sendRateLimited(response, retryAfter);
+      return true;
+    }
     try {
-      const formData = await parseBody(request);
+      const formData = await parseBody(request, { limit: 16 * 1024 });
       const type = cleanText(formData.type);
       const allowed = new Set(['badge_viewed', 'certificate_downloaded', 'generator_opened']);
       if (!allowed.has(type)) {
         sendText(response, JSON.stringify({ ok: false, error: 'Unsupported analytics event.' }), 400, 'application/json; charset=utf-8');
         return true;
       }
-      await trackAnalyticsEvent({
+      const field = (value, max = 300) => cleanText(value).slice(0, max);
+      trackAnalyticsEvent({
         type,
         timestamp: new Date().toISOString(),
-        badgeId: cleanText(formData.badgeId),
-        badgeSlug: cleanText(formData.badgeSlug),
-        badgeTitle: cleanText(formData.badgeTitle),
-        badgeTemplateId: cleanText(formData.badgeTemplateId),
-        awardeeName: cleanText(formData.awardeeName),
-        awardeeEmail: normalizeEmail(formData.awardeeEmail),
-        publicUrl: cleanText(formData.publicUrl),
-        generatorKey: buildGeneratorKey(cleanText(formData.badgeTemplateId), cleanText(formData.pageKind) || 'general'),
-        generatorLabel: cleanText(formData.generatorLabel),
-        pageKind: cleanText(formData.pageKind),
-        source: cleanText(formData.source) || 'public-site',
+        badgeId: field(formData.badgeId, 80),
+        badgeSlug: field(formData.badgeSlug, 200),
+        badgeTitle: field(formData.badgeTitle),
+        badgeTemplateId: field(formData.badgeTemplateId, 120),
+        awardeeName: field(formData.awardeeName, 160),
+        awardeeEmail: normalizeEmail(formData.awardeeEmail).slice(0, 254),
+        publicUrl: field(formData.publicUrl, 500),
+        generatorKey: buildGeneratorKey(field(formData.badgeTemplateId, 120), field(formData.pageKind, 20) || 'general'),
+        generatorLabel: field(formData.generatorLabel, 160),
+        pageKind: field(formData.pageKind, 20),
+        source: field(formData.source, 60) || 'public-site',
         requestPath: urlObject.pathname,
-        visitorId: createVisitorId(request),
-        context: cleanText(formData.context)
-      }, `Analytics: ${type}`);
+        visitorId: createVisitorId(request, getClientIp(request)),
+        context: field(formData.context, 120)
+      });
       sendText(response, JSON.stringify({ ok: true }), 202, 'application/json; charset=utf-8');
     } catch (error) {
-      sendText(response, JSON.stringify({ ok: false, error: error.message }), 400, 'application/json; charset=utf-8');
+      sendJson(response, error.statusCode === 413 ? 413 : 400, { ok: false, error: error.message });
     }
     return true;
   }
@@ -1675,7 +2305,7 @@ async function handleAdminRequest(request, response, urlObject) {
         () => {
           if (issuedBadgeRef) {
             publishBadgeArtifacts(issuedBadgeRef);
-            publishBadgeIndexes();
+            schedulePublishBadgeIndexes();
           }
         },
         { syncPush }
@@ -1773,30 +2403,13 @@ async function handleAdminRequest(request, response, urlObject) {
         redirect(response, buildNoticeUrl('/admin/bulk-issue/validate', 'Resolve validation errors before issuing badges.') + `&job=${encodeURIComponent(jobId)}`);
         return;
       }
-      setImmediate(() => {
-        void (async () => {
-          try {
-            const finished = await processBulkIssueJobSync(jobId);
-            appendAuditLog({
-              action: 'bulk.issue.start',
-              actor: 'admin',
-              jobId: finished.id,
-              totalRows: finished.totalRows,
-              completedRows: finished.completedRows,
-              failedRows: finished.failedRows,
-              badgeTemplateId: finished.badgeTemplateId
-            });
-          } catch (err) {
-            appendAppErrorLog({
-              severity: 'error',
-              source: 'bulk_issue_async',
-              message: err.message || String(err),
-              stack: err.stack || '',
-              context: String(jobId || '')
-            });
-          }
-        })();
-      });
+      if (runningBulkJobs.has(jobId)) {
+        redirect(response, `/admin/bulk-issue/progress?job=${encodeURIComponent(job.id)}`);
+        return;
+      }
+      // Mark the job as processing before redirecting so a double-click cannot start it twice.
+      await persistMutation(`Start bulk issue job ${jobId}`, () => markBulkJobStarted(jobId));
+      startBulkIssueJobInBackground(jobId);
       redirect(response, `/admin/bulk-issue/progress?job=${encodeURIComponent(job.id)}`);
     } catch (error) {
       redirect(response, `${buildNoticeUrl('/admin/bulk-issue/validate', error.message)}&job=${encodeURIComponent(jobId)}`);
@@ -1857,7 +2470,7 @@ async function handleAdminRequest(request, response, urlObject) {
         () => {
           publishTemplateAssets();
           if (savedTemplate && savedTemplate.id) {
-            publishBadgesForTemplate(savedTemplate.id);
+            publishBadgesForTemplate(savedTemplate.id, { background: true });
           }
         },
         { syncPush }
@@ -2003,26 +2616,12 @@ async function handleAdminRequest(request, response, urlObject) {
     try {
       const formData = await parseBody(request);
       const scope = cleanText(formData.scope) || 'all';
-      const scopeMap = {
-        all: null,
-        badges: ['data/badges.json', 'data/badge-links.csv', 'data/deleted-badges.json'],
-        templates: ['data/badge-catalog.json', 'data/certificate-template.json'],
-        settings: ['data/site-config.json', 'data/email-config.json'],
-        uploads: ['docs/assets/uploads/'],
-        logs: [
-          'data/audit-log.ndjson',
-          'data/email-log.ndjson',
-          'data/app-error-log.ndjson',
-          'data/analytics-events.ndjson',
-          'data/analytics-summary.json',
-          'data/bulk-issue-jobs.json'
-        ]
-      };
-      const includePrefixes = Object.prototype.hasOwnProperty.call(scopeMap, scope) ? scopeMap[scope] : null;
+      // Pushes only send files that changed, so every scope syncs everything that is out of date.
       const reason = `Force sync (${scope}) from admin`;
-      const result = await pushLocalData(reason, includePrefixes ? { includePrefixes } : {});
+      const result = await queuePushLocalData(reason);
       if (result && result.ok) {
-        redirect(response, buildNoticeUrl('/admin/jobs', `Sync complete (${scope}). Commit ${result.commitSha || ''}`));
+        const detail = result.unchanged ? 'GitHub was already up to date' : `Commit ${result.commitSha || ''}`;
+        redirect(response, buildNoticeUrl('/admin/jobs', `Sync complete (${scope}). ${detail}`));
         return;
       }
       redirect(response, buildNoticeUrl('/admin/jobs', `Sync skipped (${scope}): ${(result && result.reason) || 'unknown'}`));
@@ -2042,7 +2641,7 @@ async function handleAdminRequest(request, response, urlObject) {
       response,
       renderBackupsPage({
         backups: getRecentBackups(50),
-        appState: loadAppState(),
+        ...loadBackupPreview(),
         notice: queryNotice(urlObject)
       })
     );
@@ -2052,7 +2651,7 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/settings/save') {
     try {
       const formData = await parseBody(request);
-      await persistMutation('Save badge system settings', () => saveSettings(formData), buildPublicSite);
+      await persistMutation('Save badge system settings', () => saveSettings(formData), rebuildPublicSiteInBackground);
       redirect(response, buildNoticeUrl('/admin/settings', 'Settings saved and site rebuilt.'));
     } catch (error) {
       sendHtml(
@@ -2072,7 +2671,8 @@ async function handleAdminRequest(request, response, urlObject) {
   if (request.method === 'POST' && urlObject.pathname === '/admin/email/save') {
     try {
       const formData = await parseBody(request);
-      await persistMutation('Save Brevo email settings', () => saveEmailSettings(formData));
+      const prepared = await prepareEmailSettings(formData);
+      await persistMutation('Save Brevo email settings', () => applyEmailSettings(prepared));
       const templatesOnly = cleanText(formData.saveMode) === 'templates_only';
       redirect(
         response,
@@ -2113,12 +2713,12 @@ async function handleAdminRequest(request, response, urlObject) {
       await persistMutation(
         'Restore full app state from backup JSON',
         () => restoreFullBackup(formData.jsonBackupContent),
-        buildPublicSite,
+        rebuildPublicSiteInBackground,
         { syncPush: true }
       );
       redirect(response, buildNoticeUrl('/admin/backups', 'Full system backup restored.'));
     } catch (error) {
-      sendHtml(response, renderBackupsPage({ backups: getRecentBackups(50), appState: loadAppState(), notice: error.message }), 400);
+      sendHtml(response, renderBackupsPage({ backups: getRecentBackups(50), ...loadBackupPreview(), notice: error.message }), 400);
     }
     return;
   }
@@ -2129,21 +2729,21 @@ async function handleAdminRequest(request, response, urlObject) {
       await persistMutation(
         'Restore issued badges from CSV',
         () => restoreBadgesCsv(formData.csvBackupContent),
-        buildPublicSite,
+        rebuildPublicSiteInBackground,
         { syncPush: true }
       );
       redirect(response, buildNoticeUrl('/admin/backups', 'Issued badges restored from CSV.'));
     } catch (error) {
-      sendHtml(response, renderBackupsPage({ backups: getRecentBackups(50), appState: loadAppState(), notice: error.message }), 400);
+      sendHtml(response, renderBackupsPage({ backups: getRecentBackups(50), ...loadBackupPreview(), notice: error.message }), 400);
     }
     return;
   }
 
   if (request.method === 'GET' && urlObject.pathname === '/admin/export/app-state') {
-    const json = JSON.stringify({ appState: loadAppState() }, null, 2) + '\n';
-    sendText(response, json, 200, 'application/json; charset=utf-8', {
+    await streamToResponse(response, {
+      'Content-Type': 'application/json; charset=utf-8',
       'Content-Disposition': 'attachment; filename="csun-ebadges-app-state-backup.json"'
-    });
+    }, generateAppStateExport());
     return;
   }
 
@@ -2157,13 +2757,16 @@ async function handleAdminRequest(request, response, urlObject) {
   }
 
   if (request.method === 'GET' && urlObject.pathname === '/admin/export/analytics.csv') {
-    const filters = buildAnalyticsViewModel(urlObject);
-    const csv = buildAnalyticsCsv(filters.recentEvents.length || filters.filters.year || filters.filters.month || filters.filters.badgeType
-      ? loadAnalyticsEvents().filter((event) => eventMatchesAnalyticsFilter(event, filters.filters))
-      : loadAnalyticsEvents());
-    sendText(response, csv, 200, 'text/csv; charset=utf-8', {
+    const filters = parseAnalyticsFilters(urlObject);
+    await streamToResponse(response, {
+      'Content-Type': 'text/csv; charset=utf-8',
       'Content-Disposition': 'attachment; filename="badge-analytics.csv"'
-    });
+    }, (function* analyticsCsvLines() {
+      yield `${ANALYTICS_CSV_HEADER}\n`;
+      for (const event of iterateFilteredAnalyticsEvents(filters)) {
+        yield `${analyticsCsvRow(event)}\n`;
+      }
+    })());
     return;
   }
 
@@ -2181,7 +2784,7 @@ async function handleAdminRequest(request, response, urlObject) {
         if (removedBadge && removedBadge.slug) {
           unpublishBadgeArtifacts(removedBadge.slug);
         }
-        publishBadgeIndexes();
+        schedulePublishBadgeIndexes();
       }
     );
     if (removedBadge) {
@@ -2215,7 +2818,7 @@ async function requestListener(request, response) {
     if (request.method === 'POST' && urlObject.pathname === '/access') {
       const ip = getClientIp(request);
       const limit = getRateLimitState(ip);
-      const formData = await parseBody(request);
+      const formData = await parseBody(request, { limit: PUBLIC_BODY_LIMIT_BYTES });
       const nextPath = getSafeNextPath(formData.next);
       if (limit.locked) {
         const minutes = Math.ceil(limit.retryAfterSec / 60);
@@ -2254,7 +2857,7 @@ async function requestListener(request, response) {
 
     if (urlObject.pathname.startsWith('/admin-static/')) {
       const requestPath = urlObject.pathname.replace('/admin-static', '');
-      if (serveStatic(PATHS.adminDir, requestPath, response)) {
+      if (await serveStatic(PATHS.adminDir, requestPath, response, request)) {
         return;
       }
       sendNotFoundPage(response);
@@ -2272,7 +2875,20 @@ async function requestListener(request, response) {
       return;
     }
 
-    if (serveStatic(PATHS.docsDir, urlObject.pathname, response)) {
+    const badgeMatch = urlObject.pathname.match(/^\/badges\/([^/]+)(\/|$)/);
+    if (badgeMatch) {
+      // Badge folders are regenerated in the background after startup; build one now if
+      // a visitor arrives before the background pass reaches it.
+      let slug = '';
+      try {
+        slug = decodeURIComponent(badgeMatch[1]);
+      } catch {}
+      if (slug) {
+        ensureBadgeArtifacts(slug);
+      }
+    }
+
+    if (await serveStatic(PATHS.docsDir, urlObject.pathname, response, request)) {
       return;
     }
     if (await tryServeUploadFromGithub(PATHS.docsDir, urlObject.pathname, response)) {
@@ -2282,29 +2898,136 @@ async function requestListener(request, response) {
     sendNotFoundPage(response);
   } catch (error) {
     logHttpRequestError(request, urlObject, error);
+    if (response.headersSent) {
+      response.destroy();
+      return;
+    }
+    if (error.statusCode === 413) {
+      sendHtml(response, '<!DOCTYPE html><html><body><h1>Upload too large</h1><p>The request was larger than the server accepts.</p></body></html>', 413);
+      return;
+    }
+    const reference = new Date().toISOString();
     sendHtml(
       response,
-      `<!DOCTYPE html><html><body><h1>Server error</h1><pre>${escapeHtml(error.stack || error.message)}</pre></body></html>`,
+      `<!DOCTYPE html><html><body><h1>Server error</h1><p>Something went wrong while handling this request. The details were saved to the debug log (reference ${escapeHtml(reference)}).</p><p>${escapeHtml(error.message || '')}</p></body></html>`,
       500
     );
   }
 }
 
+let appReady = false;
+
+function renderStartingUpPage() {
+  return `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="5" />
+    <title>Starting up | CSUN Career Center E-Badges</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; display: grid; place-items: center; min-height: 100vh; margin: 0; background: #f6f7f9; color: #1f2933; }
+      main { text-align: center; padding: 2rem; max-width: 32rem; }
+      .spinner { width: 2.5rem; height: 2.5rem; margin: 0 auto 1.25rem; border: 4px solid #d8dde3; border-top-color: #d22030; border-radius: 50%; animation: spin 0.9s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="spinner" aria-hidden="true"></div>
+      <h1>The badge system is starting up</h1>
+      <p>This usually takes less than a minute. This page will refresh automatically.</p>
+    </main>
+  </body>
+</html>`;
+}
+
+function handleRequestWhileStarting(request, response, pathname) {
+  if (pathname.startsWith('/api/')) {
+    sendJson(response, 503, { ok: false, error: 'The badge system is starting up. Please try again in a few seconds.' }, { 'Retry-After': '5' });
+    return;
+  }
+  response.writeHead(503, { 'Content-Type': 'text/html; charset=utf-8', 'Retry-After': '5', 'Cache-Control': 'no-store' });
+  response.end(renderStartingUpPage());
+}
+
+function mainRequestHandler(request, response) {
+  const pathname = String(request.url || '/').split('?')[0];
+  if (pathname === '/healthz') {
+    sendJson(response, 200, { ok: true, ready: appReady }, { 'Cache-Control': 'no-store' });
+    return;
+  }
+  if (!appReady) {
+    handleRequestWhileStarting(request, response, pathname);
+    return;
+  }
+  requestListener(request, response).catch((error) => {
+    console.error('Unhandled request error:', error);
+    if (!response.headersSent) {
+      sendText(response, 'Server error', 500);
+    } else {
+      response.destroy();
+    }
+  });
+}
+
+let shuttingDown = false;
+
+async function shutdown(server, signal) {
+  if (shuttingDown) {
+    return;
+  }
+  shuttingDown = true;
+  console.log(`${signal} received: finishing pending work before exit.`);
+  const hardExit = setTimeout(() => process.exit(0), 25000);
+  hardExit.unref();
+  server.close();
+  try {
+    await waitForEmailQueue(8000);
+    if (appReady && isAnalyticsSummaryStale()) {
+      refreshAnalyticsSummary();
+    }
+    if (appReady) {
+      queuePushLocalData(`Save pending changes before restart (${signal})`).catch(() => {});
+    }
+    const flushed = await flushPendingPushes(15000);
+    console.log(flushed ? 'Pending changes synced to GitHub.' : 'Shutdown timed out before every change was synced.');
+  } catch (error) {
+    console.error(`Shutdown flush failed: ${error.message}`);
+  }
+  process.exit(0);
+}
+
 if (process.argv.includes('--build')) {
-  initializeApp().then(() => {
+  initializeApp({ skipBulkRecovery: true }).then(() => {
     console.log('Public site rebuilt successfully.');
   }).catch((error) => {
     console.error(error);
     process.exit(1);
   });
 } else {
-  initializeApp().then(() => {
-    http.createServer(requestListener).listen(PORT, () => {
-      console.log(`CSUN Career Center E-Badges running at http://localhost:${PORT}`);
-      console.log('Admin password-only login is enabled.');
-    });
+  // Open the port first so Render's port scan succeeds while data is still loading.
+  const server = http.createServer(mainRequestHandler);
+  server.headersTimeout = 30000;
+  server.requestTimeout = 120000;
+  server.keepAliveTimeout = 65000;
+  server.listen(PORT, () => {
+    console.log(`CSUN Career Center E-Badges listening at http://localhost:${PORT} (loading data...)`);
+  });
+  process.on('SIGTERM', () => shutdown(server, 'SIGTERM'));
+  process.on('SIGINT', () => shutdown(server, 'SIGINT'));
+  initializeApp({ backgroundBadgePages: true }).then(() => {
+    appReady = true;
+    console.log('CSUN Career Center E-Badges is ready.');
+    console.log('Admin password-only login is enabled.');
   }).catch((error) => {
     console.error(error);
+    appendAppErrorLog({
+      severity: 'critical',
+      source: 'startup',
+      message: error.message || String(error),
+      stack: error.stack || ''
+    });
     process.exit(1);
   });
 }

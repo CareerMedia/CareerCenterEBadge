@@ -142,8 +142,11 @@ Use:
 
 ```text
 Build Command: npm install
-Start Command: node server.js
+Start Command: npm start
+Health Check Path: /healthz
 ```
+
+`npm start` runs `node --max-old-space-size=384 server.js`, which keeps the Node heap well under the 512 MB free-instance limit. The server opens its port immediately and shows a "starting up" page until data has loaded from GitHub; `/healthz` always answers so Render's port scan and health check pass during startup.
 
 ## Local run
 
@@ -222,3 +225,35 @@ Recommended setup:
 - Do **not** connect Render auto-deploys to `badge-data`
 
 With that setup, generated badges persist across redeploys and only disappear if an admin deletes them.
+
+### How syncing and backups work
+
+- Each sync commits only the files that changed since the last commit.
+- Several changes made close together (for example, a bulk issue, or analytics traffic) are combined into one commit.
+- Backup snapshots stay on GitHub and are not downloaded at startup. Retention is tiered: every snapshot from the last 48 hours, the newest per day for 30 days, and the newest per week for 6 months. Older snapshots are deleted from the data branch automatically.
+- Automatic snapshots (after issuing or editing) are taken at most once an hour. Manual snapshots and restores are always taken immediately.
+- If loading data from GitHub fails at startup, the app keeps running but refuses to sync, so stale data cannot overwrite the saved records. Restart the service once GitHub is reachable.
+
+### One-time cleanup of old backups
+
+Branches created before tiered retention may hold hundreds of snapshots. After deploying this version, preview and then apply the cleanup:
+
+```bash
+GITHUB_TOKEN=... GITHUB_REPO=owner/name npm run prune-backups            # dry run: lists what would be removed
+GITHUB_TOKEN=... GITHUB_REPO=owner/name npm run prune-backups -- --apply # removes old snapshots in one commit
+```
+
+Run it after the new version is deployed; an older running version would re-upload its local copies of the snapshots.
+
+### Optional settings
+
+- `TRUSTED_PROXY_HOPS` — only needed when hosting somewhere other than Render (behind your own proxy). On Render the client IP comes from Cloudflare's `CF-Connecting-IP` header.
+
+### Load test
+
+`npm run load-test` copies the app into a temporary folder, seeds it with 5,000 synthetic badges and 50,000 analytics events, and runs the real server against an in-memory stand-in for GitHub. It checks startup, badge pages, the public generator, bulk issuing, admin pages, exports, the shutdown sync, a fresh-deploy restore, and peak memory. Nothing in your real `data/` folder or on GitHub is touched.
+
+```bash
+npm run load-test                                   # 5,000 badges
+npm run load-test -- --badges 15000 --events 150000 # larger registry
+```
