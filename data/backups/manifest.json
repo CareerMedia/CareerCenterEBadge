@@ -116,63 +116,6 @@
       }
     },
     {
-      "backupId": "2026-10-07T18-44-25-599Z",
-      "reason": "Issued badge CSUNCC-20261007-0003",
-      "actor": "admin",
-      "createdAt": "2026-10-07T18:44:25.601Z",
-      "counts": {
-        "badges": 309,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "f7307b00227162367ce05ee6d431f3923c60998a276e51922a594254341f8179",
-        "badgeLinksCsv": "befcc3c70bd1365e5e9b71611db753de2ab49f843d7a503f2e0bcc943f81db9b"
-      },
-      "files": {
-        "appState": "data/backups/2026-10-07T18-44-25-599Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-10-07T18-44-25-599Z/badge-links.csv"
-      }
-    },
-    {
-      "backupId": "2026-10-07T17-30-13-158Z",
-      "reason": "Issued badge CSUNCC-20261007-0002",
-      "actor": "admin",
-      "createdAt": "2026-10-07T17:30:13.238Z",
-      "counts": {
-        "badges": 308,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "53fd245d53afe68874df5a981c07f61a7ce966ebd6bb7d59a540a9fe662114d7",
-        "badgeLinksCsv": "00722727c951605c191b908c5ccf7f090f769e1d60fbbfb6ef549d4b0dd0bf6a"
-      },
-      "files": {
-        "appState": "data/backups/2026-10-07T17-30-13-158Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-10-07T17-30-13-158Z/badge-links.csv"
-      }
-    },
-    {
-      "backupId": "2026-10-07T16-35-47-108Z",
-      "reason": "Issued badge CSUNCC-20261007-0001",
-      "actor": "admin",
-      "createdAt": "2026-10-07T16:35:47.110Z",
-      "counts": {
-        "badges": 307,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "ebc77fdc636c3b5ea5e5b912cdcfc048368e47968b1508c6d56d23c62318f13f",
-        "badgeLinksCsv": "acd71da1c0156518b95afce5651f5a76356d4edd22f1f0731581d44fe1653e18"
-      },
-      "files": {
-        "appState": "data/backups/2026-10-07T16-35-47-108Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-10-07T16-35-47-108Z/badge-links.csv"
-      }
-    },
-    {
       "backupId": "2026-10-06T22-54-47-257Z",
       "reason": "Issued badge CSUNCC-20261006-0006",
       "actor": "admin",
@@ -572,25 +515,6 @@
       }
     },
     {
-      "backupId": "2026-09-08T23-57-31-677Z",
-      "reason": "Issued badge CSUNCC-20260908-0006",
-      "actor": "admin",
-      "createdAt": "2026-09-08T23:57:31.680Z",
-      "counts": {
-        "badges": 126,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "e1be0a12b98ffa4304929c59397ed4769eba8c4a37cb1112cb7c10624abc2be7",
-        "badgeLinksCsv": "19ec1786df313ece15c3350fff292adce38825eff494c03e922e4f730f13e7b3"
-      },
-      "files": {
-        "appState": "data/backups/2026-09-08T23-57-31-677Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-09-08T23-57-31-677Z/badge-links.csv"
-      }
-    },
-    {
       "backupId": "2026-09-06T19-38-22-744Z",
       "reason": "Issued badge CSUNCC-20260906-0003",
       "actor": "admin",
@@ -778,25 +702,6 @@
       "files": {
         "appState": "data/backups/2026-04-22T22-32-38-506Z/app-state.json",
         "badgeLinksCsv": "data/backups/2026-04-22T22-32-38-506Z/badge-links.csv"
-      }
-    },
-    {
-      "backupId": "2026-04-09T23-06-40-091Z",
-      "reason": "Issued badge CSUNCC-20260409-0007",
-      "actor": "admin",
-      "createdAt": "2026-04-09T23:06:40.092Z",
-      "counts": {
-        "badges": 13,
-        "deletedBadges": 1,
-        "templates": 1
-      },
-      "hashes": {
-        "appState": "b60a2471eb0590cd9d1e5c6522bad953b94068af0a138aa013e9d698de094e25",
-        "badgeLinksCsv": "340a255878fa4eb0e7771f10656630d12f6e70aff03e45938dd4cbbea2e8844e"
-      },
-      "files": {
-        "appState": "data/backups/2026-04-09T23-06-40-091Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-04-09T23-06-40-091Z/badge-links.csv"
       }
     }
   ]
