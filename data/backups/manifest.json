@@ -2,6 +2,25 @@
   "version": 1,
   "backups": [
     {
+      "backupId": "2026-10-12T23-55-16-053Z",
+      "reason": "Issued badge CSUNCC-20261012-0008",
+      "actor": "admin",
+      "createdAt": "2026-10-12T23:55:16.056Z",
+      "counts": {
+        "badges": 344,
+        "deletedBadges": 2,
+        "templates": 3
+      },
+      "hashes": {
+        "appState": "c3b845dfbbe2d570dce020a9e106bef377076483b73f1f17e0796270ab8095ae",
+        "badgeLinksCsv": "8bdae92e2864eeaedb9eaefa733acd2e585b05981b72185496d2a9ec84a83d1b"
+      },
+      "files": {
+        "appState": "data/backups/2026-10-12T23-55-16-053Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-10-12T23-55-16-053Z/badge-links.csv"
+      }
+    },
+    {
       "backupId": "2026-10-12T20-54-11-434Z",
       "reason": "Issued badge CSUNCC-20261012-0007",
       "actor": "admin",
