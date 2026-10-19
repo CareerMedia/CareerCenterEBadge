@@ -796,3 +796,4 @@
 {"timestamp":"2026-10-19T20:52:10.859Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261019-0013","awardeeName":"Grace Lin"}
 {"timestamp":"2026-10-19T20:53:29.855Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261019-0014","awardeeName":"Sullivan Lowry"}
 {"timestamp":"2026-10-19T20:53:58.567Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261019-0015","awardeeName":"Grayson Gonzales"}
+{"timestamp":"2026-10-19T20:54:27.891Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261019-0015 (+10 earlier changes)","backupId":"2026-10-19T20-54-27-886Z","createdAt":"2026-10-19T20:54:27.887Z"}
