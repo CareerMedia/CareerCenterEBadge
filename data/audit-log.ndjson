@@ -826,3 +826,4 @@
 {"timestamp":"2026-10-20T04:14:19.864Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261019-0035","awardeeName":"Isabella Patnett"}
 {"timestamp":"2026-10-20T04:17:51.154Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261019-0036","awardeeName":"ciara rivad"}
 {"timestamp":"2026-10-20T04:18:00.064Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261019-0037","awardeeName":"ciara rivas"}
+{"timestamp":"2026-10-20T04:54:27.944Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261019-0037 (+3 earlier changes)","backupId":"2026-10-20T04-54-27-931Z","createdAt":"2026-10-20T04:54:27.939Z"}
