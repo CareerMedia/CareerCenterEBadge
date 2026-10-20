@@ -863,3 +863,5 @@
 {"timestamp":"2026-10-20T23:05:48.618Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261020-0019","awardeeName":"Ash Finn"}
 {"timestamp":"2026-10-20T23:14:25.015Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261020-0020","awardeeName":"Madeleine Cortes"}
 {"timestamp":"2026-10-20T23:15:43.612Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261020-0021","awardeeName":"Madeleine Cortes"}
+{"timestamp":"2026-10-20T23:35:58.398Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261020-0022","awardeeName":"Aidan Ehrlich"}
+{"timestamp":"2026-10-20T23:35:59.812Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261020-0022","backupId":"2026-10-20T23-35-59-796Z","createdAt":"2026-10-20T23:35:59.797Z"}
