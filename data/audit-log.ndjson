@@ -859,3 +859,4 @@
 {"timestamp":"2026-10-20T22:33:09.278Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261020-0016 (+3 earlier changes)","backupId":"2026-10-20T22-33-09-266Z","createdAt":"2026-10-20T22:33:09.273Z"}
 {"timestamp":"2026-10-20T23:04:37.517Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261020-0017","awardeeName":"Jeremy Barahona"}
 {"timestamp":"2026-10-20T23:04:39.111Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261020-0017","backupId":"2026-10-20T23-04-39-019Z","createdAt":"2026-10-20T23:04:39.021Z"}
+{"timestamp":"2026-10-20T23:05:38.925Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261020-0018","awardeeName":"Ash Finn"}
