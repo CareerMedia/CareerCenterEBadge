@@ -705,25 +705,6 @@
       }
     },
     {
-      "backupId": "2026-10-19T17-32-06-669Z",
-      "reason": "Issued badge CSUNCC-20261019-0002",
-      "actor": "admin",
-      "createdAt": "2026-10-19T17:32:06.671Z",
-      "counts": {
-        "badges": 383,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "7f581b9996dbc9d2ac069d3c3ddb9bca1d9ee4bc084d3561fd0466ab639df563",
-        "badgeLinksCsv": "4d56c66ec244356ff5106be127a9afbe1892d6c6c8814f260f1285125c54f839"
-      },
-      "files": {
-        "appState": "data/backups/2026-10-19T17-32-06-669Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-10-19T17-32-06-669Z/badge-links.csv"
-      }
-    },
-    {
       "backupId": "2026-10-18T23-21-30-644Z",
       "reason": "Issued badge CSUNCC-20261018-0004",
       "actor": "admin",
