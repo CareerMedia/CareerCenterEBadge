@@ -923,3 +923,4 @@
 {"timestamp":"2026-10-21T18:10:37.340Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261021-0013","awardeeName":"Angelina"}
 {"timestamp":"2026-10-21T18:11:17.340Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261021-0014","awardeeName":"Madellinne Alvarado"}
 {"timestamp":"2026-10-21T18:11:24.842Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261021-0015","awardeeName":"Madellinne Alvarado"}
+{"timestamp":"2026-10-21T18:21:17.950Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261021-0015 (+4 earlier changes)","backupId":"2026-10-21T18-21-17-944Z","createdAt":"2026-10-21T18:21:17.946Z"}
