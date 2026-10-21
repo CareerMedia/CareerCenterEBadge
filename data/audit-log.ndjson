@@ -873,3 +873,4 @@
 {"timestamp":"2026-10-21T01:34:42.079Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261020-0026","awardeeName":"Brooklyn Braswell"}
 {"timestamp":"2026-10-21T02:19:32.317Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261020-0027","awardeeName":"Aniya Miller"}
 {"timestamp":"2026-10-21T02:19:33.900Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261020-0027","backupId":"2026-10-21T02-19-33-804Z","createdAt":"2026-10-21T02:19:33.805Z"}
+{"timestamp":"2026-10-21T02:44:54.804Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261020-0028","awardeeName":"Amanda Flores"}
