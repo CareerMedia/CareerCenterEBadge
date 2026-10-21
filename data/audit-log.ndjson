@@ -905,3 +905,4 @@
 {"timestamp":"2026-10-21T07:04:07.890Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261021-0001","awardeeName":"Alexander Kadkhodazadeh"}
 {"timestamp":"2026-10-21T07:24:10.076Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261021-0002","awardeeName":"Luis Rodriguez irra"}
 {"timestamp":"2026-10-21T07:28:00.078Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261021-0003","awardeeName":"Justin Zingher"}
+{"timestamp":"2026-10-21T07:28:39.470Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261021-0003 (+3 earlier changes)","backupId":"2026-10-21T07-28-39-378Z","createdAt":"2026-10-21T07:28:39.380Z"}
