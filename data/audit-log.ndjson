@@ -973,3 +973,4 @@
 {"timestamp":"2026-10-22T22:16:45.712Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261022-0006","awardeeName":"Ricardo Perez Lepe"}
 {"timestamp":"2026-10-22T22:18:01.208Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261022-0007","awardeeName":"Oscar Mendoza"}
 {"timestamp":"2026-10-22T22:28:43.021Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261022-0008","awardeeName":"Nex Ohanyan"}
+{"timestamp":"2026-10-22T22:47:38.049Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261022-0008 (+6 earlier changes)","backupId":"2026-10-22T22-47-37-982Z","createdAt":"2026-10-22T22:47:38.034Z"}
