@@ -629,63 +629,6 @@
       }
     },
     {
-      "backupId": "2026-10-20T17-37-46-973Z",
-      "reason": "Issued badge CSUNCC-20261020-0003",
-      "actor": "admin",
-      "createdAt": "2026-10-20T17:37:47.059Z",
-      "counts": {
-        "badges": 424,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "75d9cbfd720d3339bc628a130bb7d99f6654cabfa886979e21a2f2ffbfa5dae0",
-        "badgeLinksCsv": "ec52ba21429b0356916f5a5400b3233759e93cf1d30a574efab96d34b71f9263"
-      },
-      "files": {
-        "appState": "data/backups/2026-10-20T17-37-46-973Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-10-20T17-37-46-973Z/badge-links.csv"
-      }
-    },
-    {
-      "backupId": "2026-10-20T16-50-40-937Z",
-      "reason": "Issued badge CSUNCC-20261020-0002",
-      "actor": "admin",
-      "createdAt": "2026-10-20T16:50:40.939Z",
-      "counts": {
-        "badges": 423,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "26f8f2d71adcee704abeed2f5d6fa8cdb3f1af35b6a67f253807eb4f619e849e",
-        "badgeLinksCsv": "7fa2979366e4bef49ea87ea1b77daeb4898cbc41bca51cba0d26b61dc4f21ee6"
-      },
-      "files": {
-        "appState": "data/backups/2026-10-20T16-50-40-937Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-10-20T16-50-40-937Z/badge-links.csv"
-      }
-    },
-    {
-      "backupId": "2026-10-20T15-01-37-330Z",
-      "reason": "Issued badge CSUNCC-20261020-0001",
-      "actor": "admin",
-      "createdAt": "2026-10-20T15:01:37.332Z",
-      "counts": {
-        "badges": 422,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "1ae1663bb4cdc6e821bc17734f776ced1ff4d44cd0435457ea58f4f852a10048",
-        "badgeLinksCsv": "93117af3a33478a219d8a3c748bee85d60aa02ac0da2c4e3e0ae14fba89fccab"
-      },
-      "files": {
-        "appState": "data/backups/2026-10-20T15-01-37-330Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-10-20T15-01-37-330Z/badge-links.csv"
-      }
-    },
-    {
       "backupId": "2026-10-19T23-54-27-956Z",
       "reason": "Issued badge CSUNCC-20261019-0026",
       "actor": "admin",
