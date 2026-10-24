@@ -2,6 +2,25 @@
   "version": 1,
   "backups": [
     {
+      "backupId": "2026-10-24T22-55-14-415Z",
+      "reason": "Issued badge CSUNCC-20261024-0002",
+      "actor": "admin",
+      "createdAt": "2026-10-24T22:55:14.502Z",
+      "counts": {
+        "badges": 531,
+        "deletedBadges": 2,
+        "templates": 3
+      },
+      "hashes": {
+        "appState": "a564328c129e347365c36b765902a40cbbf20b47dd26c1174505880cde2a5b23",
+        "badgeLinksCsv": "f20af515f30f841ac91014c1fcc1486b396514f3a5cb614de18394d88ab3d890"
+      },
+      "files": {
+        "appState": "data/backups/2026-10-24T22-55-14-415Z/app-state.json",
+        "badgeLinksCsv": "data/backups/2026-10-24T22-55-14-415Z/badge-links.csv"
+      }
+    },
+    {
       "backupId": "2026-10-24T21-14-39-993Z",
       "reason": "Issued badge CSUNCC-20261024-0001",
       "actor": "admin",
@@ -94,44 +113,6 @@
       "files": {
         "appState": "data/backups/2026-10-22T22-47-37-982Z/app-state.json",
         "badgeLinksCsv": "data/backups/2026-10-22T22-47-37-982Z/badge-links.csv"
-      }
-    },
-    {
-      "backupId": "2026-10-22T21-47-38-022Z",
-      "reason": "Issued badge CSUNCC-20261022-0001",
-      "actor": "admin",
-      "createdAt": "2026-10-22T21:47:38.110Z",
-      "counts": {
-        "badges": 518,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "83d2e586737c2622e5dc66bcafdb41063493d129eee463e50de88253cb75c26f",
-        "badgeLinksCsv": "9a25c956b96892f51fcf1df7874d8b9ebf6d1f513962960cedf5b0dc2d2ff517"
-      },
-      "files": {
-        "appState": "data/backups/2026-10-22T21-47-38-022Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-10-22T21-47-38-022Z/badge-links.csv"
-      }
-    },
-    {
-      "backupId": "2026-10-22T07-02-44-055Z",
-      "reason": "Issued badge CSUNCC-20261021-0044 (+4 earlier changes)",
-      "actor": "admin",
-      "createdAt": "2026-10-22T07:02:44.056Z",
-      "counts": {
-        "badges": 517,
-        "deletedBadges": 2,
-        "templates": 3
-      },
-      "hashes": {
-        "appState": "2b4ebe30636a8c5779d2f8303fa368fbf11f29ee08bf6f48cafc93ba322d516b",
-        "badgeLinksCsv": "58d4882259a789741505fde75256c651b56d6cabc6f4a37f14658bf8cde9ed33"
-      },
-      "files": {
-        "appState": "data/backups/2026-10-22T07-02-44-055Z/app-state.json",
-        "badgeLinksCsv": "data/backups/2026-10-22T07-02-44-055Z/badge-links.csv"
       }
     },
     {
