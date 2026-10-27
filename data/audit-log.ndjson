@@ -1058,3 +1058,4 @@
 {"timestamp":"2026-10-27T00:19:24.548Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261026-0012","awardeeName":"Ritzy Amador"}
 {"timestamp":"2026-10-27T00:19:26.238Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261026-0012","backupId":"2026-10-27T00-19-26-164Z","createdAt":"2026-10-27T00:19:26.206Z"}
 {"timestamp":"2026-10-27T00:52:19.431Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261026-0013","awardeeName":"Azaiah shaver"}
+{"timestamp":"2026-10-27T00:57:21.330Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261026-0014","awardeeName":"Oscar Morales"}
