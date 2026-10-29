@@ -1208,3 +1208,4 @@
 {"timestamp":"2026-10-29T17:52:03.804Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261029-0006","awardeeName":"Yelena Chale"}
 {"timestamp":"2026-10-29T18:09:16.110Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261029-0007","awardeeName":"Alejandra Vargas Escobar"}
 {"timestamp":"2026-10-29T18:22:12.229Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261029-0007 (+2 earlier changes)","backupId":"2026-10-29T18-22-12-219Z","createdAt":"2026-10-29T18:22:12.223Z"}
+{"timestamp":"2026-10-29T18:25:52.803Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261029-0008","awardeeName":"Emily Taghon"}
