@@ -1217,3 +1217,4 @@
 {"timestamp":"2026-10-29T19:49:06.441Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261029-0012","awardeeName":"Harkirat Singh"}
 {"timestamp":"2026-10-29T20:01:44.738Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261029-0013","awardeeName":"Brishna Nassir"}
 {"timestamp":"2026-10-29T20:45:50.858Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261029-0013 (+2 earlier changes)","backupId":"2026-10-29T20-45-50-761Z","createdAt":"2026-10-29T20:45:50.774Z"}
+{"timestamp":"2026-10-29T21:06:40.342Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261029-0014","awardeeName":"Dominic Gandara"}
