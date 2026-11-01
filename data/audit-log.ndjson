@@ -1253,3 +1253,4 @@
 {"timestamp":"2026-11-01T21:37:54.678Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261101-0004","awardeeName":"David  Anaya"}
 {"timestamp":"2026-11-01T21:46:27.589Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261101-0005","awardeeName":"Cindy Lopez"}
 {"timestamp":"2026-11-01T22:14:22.281Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261101-0006","awardeeName":"Cassandra Gomez"}
+{"timestamp":"2026-11-01T22:25:51.982Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261101-0006 (+2 earlier changes)","backupId":"2026-11-01T22-25-51-975Z","createdAt":"2026-11-01T22:25:51.977Z"}
