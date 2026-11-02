@@ -1273,3 +1273,4 @@
 {"timestamp":"2026-11-02T02:58:40.580Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261101-0019","awardeeName":"Elizabeth Picazo"}
 {"timestamp":"2026-11-02T03:17:06.269Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261101-0020","awardeeName":"Manuel Guerrero"}
 {"timestamp":"2026-11-02T03:24:40.074Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261101-0021","awardeeName":"Kaiden Valdez"}
+{"timestamp":"2026-11-02T03:25:51.985Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261101-0021 (+6 earlier changes)","backupId":"2026-11-02T03-25-51-978Z","createdAt":"2026-11-02T03:25:51.980Z"}
