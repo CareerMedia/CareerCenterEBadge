@@ -1663,3 +1663,5 @@
 {"timestamp":"2026-11-16T20:02:24.020Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261116-0023","backupId":"2026-11-16T20-02-23-819Z","createdAt":"2026-11-16T20:02:23.822Z"}
 {"timestamp":"2026-11-16T20:11:28.126Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261116-0024","awardeeName":"Pavitra khanal"}
 {"timestamp":"2026-11-16T20:27:17.920Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261115-0021","awardeeName":"Jada Cortez"}
+{"timestamp":"2026-11-16T20:49:53.234Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261116-0025","awardeeName":"Anthony Ayala"}
+{"timestamp":"2026-11-16T20:49:55.239Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261116-0025","backupId":"2026-11-16T20-49-55-228Z","createdAt":"2026-11-16T20:49:55.232Z"}
