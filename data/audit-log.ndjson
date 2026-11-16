@@ -1650,3 +1650,4 @@
 {"timestamp":"2026-11-16T17:38:58.510Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261116-0013","awardeeName":"Andrew Sanabria"}
 {"timestamp":"2026-11-16T17:52:25.913Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261116-0014","awardeeName":"Isabel Casas"}
 {"timestamp":"2026-11-16T18:04:46.921Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261116-0015","awardeeName":"Leslie Arreguin"}
+{"timestamp":"2026-11-16T18:21:09.596Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261116-0015 (+3 earlier changes)","backupId":"2026-11-16T18-21-09-451Z","createdAt":"2026-11-16T18:21:09.563Z"}
