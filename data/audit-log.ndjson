@@ -1658,3 +1658,4 @@
 {"timestamp":"2026-11-16T18:47:54.520Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261116-0020","awardeeName":"Vanessa Garcia"}
 {"timestamp":"2026-11-16T18:48:14.608Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261116-0021","awardeeName":"Ilena Saavedra"}
 {"timestamp":"2026-11-16T19:11:27.223Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261116-0022","awardeeName":"Cynthia Conomikes"}
+{"timestamp":"2026-11-16T19:21:09.232Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261116-0022 (+6 earlier changes)","backupId":"2026-11-16T19-21-09-221Z","createdAt":"2026-11-16T19:21:09.225Z"}
