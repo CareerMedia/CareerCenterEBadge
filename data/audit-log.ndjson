@@ -1723,3 +1723,5 @@
 {"timestamp":"2026-11-19T07:52:53.202Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261118-0011 (+2 earlier changes)","backupId":"2026-11-19T07-52-53-126Z","createdAt":"2026-11-19T07:52:53.140Z"}
 {"timestamp":"2026-11-19T10:33:05.402Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261119-0001","awardeeName":"Joshua Emmanuel Rosales"}
 {"timestamp":"2026-11-19T10:33:07.407Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261119-0001","backupId":"2026-11-19T10-33-07-311Z","createdAt":"2026-11-19T10:33:07.315Z"}
+{"timestamp":"2026-11-19T17:05:00.743Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261119-0002","awardeeName":"Dashiell Wisneski"}
+{"timestamp":"2026-11-19T17:05:02.937Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261119-0002","backupId":"2026-11-19T17-05-02-927Z","createdAt":"2026-11-19T17:05:02.930Z"}
