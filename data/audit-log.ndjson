@@ -1757,3 +1757,4 @@
 {"timestamp":"2026-11-20T21:42:38.532Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261120-0003","backupId":"2026-11-20T21-42-38-383Z","createdAt":"2026-11-20T21:42:38.386Z"}
 {"timestamp":"2026-11-20T22:04:33.496Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261120-0004","awardeeName":"John Smith"}
 {"timestamp":"2026-11-20T22:20:49.695Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261109-0026","awardeeName":"Lissette Diaz"}
+{"timestamp":"2026-11-20T22:24:31.580Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20260501-0002","awardeeName":"Cynthia Martinez"}
