@@ -1744,3 +1744,4 @@
 {"timestamp":"2026-11-20T04:59:34.965Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261119-0012","awardeeName":"River McMorrow"}
 {"timestamp":"2026-11-20T05:21:32.474Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261119-0013","awardeeName":"Daniel Aceves"}
 {"timestamp":"2026-11-20T05:27:30.167Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261119-0014","awardeeName":"Daniela Gonzalez Ortiz"}
+{"timestamp":"2026-11-20T05:47:22.289Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261119-0014 (+2 earlier changes)","backupId":"2026-11-20T05-47-22-207Z","createdAt":"2026-11-20T05:47:22.282Z"}
