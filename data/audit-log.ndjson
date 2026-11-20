@@ -1751,3 +1751,5 @@
 {"timestamp":"2026-11-20T07:00:46.236Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261119-0017","backupId":"2026-11-20T07-00-46-084Z","createdAt":"2026-11-20T07:00:46.087Z"}
 {"timestamp":"2026-11-20T08:10:24.902Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261120-0001","awardeeName":"Kyle Harrison"}
 {"timestamp":"2026-11-20T08:10:27.184Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261120-0001","backupId":"2026-11-20T08-10-27-086Z","createdAt":"2026-11-20T08:10:27.089Z"}
+{"timestamp":"2026-11-20T09:45:55.221Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261120-0002","awardeeName":"Leah Garcia"}
+{"timestamp":"2026-11-20T09:45:57.222Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261120-0002","backupId":"2026-11-20T09-45-57-124Z","createdAt":"2026-11-20T09:45:57.213Z"}
