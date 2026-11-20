@@ -1747,3 +1747,5 @@
 {"timestamp":"2026-11-20T05:47:22.289Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261119-0014 (+2 earlier changes)","backupId":"2026-11-20T05-47-22-207Z","createdAt":"2026-11-20T05:47:22.282Z"}
 {"timestamp":"2026-11-20T05:54:25.471Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261119-0015","awardeeName":"Luke Landress"}
 {"timestamp":"2026-11-20T06:14:52.669Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261119-0016","awardeeName":"Daisy Aragon Sanchez"}
+{"timestamp":"2026-11-20T07:00:44.082Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261119-0017","awardeeName":"Joshua Jeffrey Juarez-Carter"}
+{"timestamp":"2026-11-20T07:00:46.236Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261119-0017","backupId":"2026-11-20T07-00-46-084Z","createdAt":"2026-11-20T07:00:46.087Z"}
