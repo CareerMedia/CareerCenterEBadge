@@ -1822,3 +1822,5 @@
 {"timestamp":"2026-11-23T18:54:30.954Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261123-0011","awardeeName":"Brandon Yancor"}
 {"timestamp":"2026-11-23T18:55:42.255Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261123-0012","awardeeName":"Melaina Combs"}
 {"timestamp":"2026-11-23T18:55:52.653Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261123-0013","awardeeName":"Brandon Yancor"}
+{"timestamp":"2026-11-23T19:12:42.451Z","action":"badge.issue","actor":"admin","badgeId":"CSUNCC-20261123-0014","awardeeName":"Emma Woodson"}
+{"timestamp":"2026-11-23T19:12:44.748Z","action":"backup.snapshot","actor":"admin","reason":"Issued badge CSUNCC-20261123-0014","backupId":"2026-11-23T19-12-44-652Z","createdAt":"2026-11-23T19:12:44.655Z"}
